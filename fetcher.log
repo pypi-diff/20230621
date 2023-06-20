@@ -253,3 +253,80 @@
 [2023-06-21 00:17:14] INFO root fetch - processPackages [remotecv]: Remove: archive file [/home/abi/fetcher/tmp/remotecv-5.1.3.tar.gz]
 [2023-06-21 00:17:14] INFO root fetch - main [MainThread]: End processing [remotecv]: success
 [2023-06-21 00:17:14] INFO root fetch - main [MainThread]: Store serial: [18580752]
+[2023-06-21 00:22:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580752]
+[2023-06-21 00:22:22] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-21 00:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zrb
+[2023-06-21 00:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: finditcli
+[2023-06-21 00:22:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spyctl
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: civics-cdf-validator
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ReviewBoard
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ecoengine
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spatialdata-io
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: retro-data-structures
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tvdenoising
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: libretrofuzz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [zrb]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 00:22:23] INFO root fetch - processPackages [civics-cdf-validator]: New version: [1.9.dev1] Old Version: [1.9]
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ReviewBoard]: New version: [5.0.5] Old Version: [5.0.4]
+[2023-06-21 00:22:23] WARNING root fetch - processPackages [finditcli]: Skipping, unable to determine old version
+[2023-06-21 00:22:23] INFO root fetch - main [MainThread]: End processing [finditcli] error
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spyctl]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ecoengine]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 00:22:23] WARNING root fetch - processPackages [tvdenoising]: Skipping, unable to determine old version
+[2023-06-21 00:22:23] INFO root fetch - main [MainThread]: End processing [tvdenoising] error
+[2023-06-21 00:22:23] INFO root fetch - processPackages [libretrofuzz]: New version: [3.2.6] Old Version: [3.2.5]
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spatialdata-io]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 00:22:23] INFO root fetch - processPackages [retro-data-structures]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/d8/e5/5b3594045f107ce24e058d4f5ac188087d76010f4389991a7c9a9ce4beb6/ecoengine-0.0.8.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/14/c8/fb99fe2074a617dd0f0d6145736aabd55c62863f640e03e31eecb6c1bc89/retro-data-structures-0.8.0.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ecoengine]: Downloading https://files.pythonhosted.org/packages/b4/06/8712491ed487422ca74801e6051cd89e398183d43abb0a99e904022af6ba/ecoengine-0.0.9.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/9c/33/4d75823e3c52ecc93964f231d752b79135d74aa9bcca07720045645bfe91/civics_cdf_validator-1.9.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/bb/4b/a59fb5994f1c8eeea8d7334ba6443b1b0932e7a4e48893d9354fc8d3f345/spyctl-0.9.8.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ReviewBoard]: Downloading https://files.pythonhosted.org/packages/2c/2c/645190326d5296442efee6bdf9fbb179ecb30e67e7231817dbeb05179b75/ReviewBoard-5.0.4.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/30/24/7a33b243824d090473327938a5d9cd4148889b927653bd1df45802c27649/zrb-0.0.8.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spatialdata-io]: Downloading https://files.pythonhosted.org/packages/22/2d/1a05e82dcac2971f268d985ce0c1e33f3d5969f518b5ed9dd0d755724c46/spatialdata_io-0.0.4.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/f9/97/6c8f28c284587e7b2e7808316e18438926c271bb84eb5e492c9c26255a72/libretrofuzz-3.2.5.tar.gz
+[2023-06-21 00:22:23] WARNING root fetch - processPackages [ReviewBoard]: Skipping package: exceeds size limit 24868548>=10485760
+[2023-06-21 00:22:23] INFO root fetch - main [MainThread]: End processing [ReviewBoard] error
+[2023-06-21 00:22:23] INFO root fetch - processPackages [retro-data-structures]: Downloading https://files.pythonhosted.org/packages/95/99/3fc33634a4abebfc4c59c9a4a2274b5672a2f14c64b176626a92a4ddf88b/retro-data-structures-0.9.0.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/82/c5/dc1da9757567f1138760f28ad1eafc50eb3a11e1e0c690419b152cc59e58/libretrofuzz-3.2.6.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ecoengine]: executing diffoscope
+[2023-06-21 00:22:23] INFO root fetch - processPackages [ecoengine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoengine-0.0.8.tar.gz tmp/ecoengine-0.0.9.tar.gz --markdown 20230621/e/ecoengine/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spyctl]: Downloading https://files.pythonhosted.org/packages/17/e2/55d6dccc2305d8b76d800790e1d7ff47b693a16756f7104d6b2119af9332/spyctl-0.9.9.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-21 00:22:23] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.2.5.tar.gz tmp/libretrofuzz-3.2.6.tar.gz --markdown 20230621/l/libretrofuzz/3.2.5-3.2.6/diff.md --exclude *.pyd
+[2023-06-21 00:22:23] INFO root fetch - processPackages [civics-cdf-validator]: Downloading https://files.pythonhosted.org/packages/49/52/f20d05b43acd0ba782bdb28e82a60591d9ca3edb1c39da7ec86f030521ac/civics_cdf_validator-1.9.dev1.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [civics-cdf-validator]: executing diffoscope
+[2023-06-21 00:22:23] INFO root fetch - processPackages [civics-cdf-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/civics_cdf_validator-1.9.tar.gz tmp/civics_cdf_validator-1.9.dev1.tar.gz --markdown 20230621/c/civics-cdf-validator/1.9-1.9.dev1/diff.md --exclude *.pyd
+[2023-06-21 00:22:23] INFO root fetch - processPackages [zrb]: Downloading https://files.pythonhosted.org/packages/8d/80/885cb50dd492ad011338deeabb6f07312d2c3da55917c9e243dd40e7a274/zrb-0.0.9.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spyctl]: executing diffoscope
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spyctl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spyctl-0.9.8.tar.gz tmp/spyctl-0.9.9.tar.gz --markdown 20230621/s/spyctl/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-21 00:22:23] INFO root fetch - processPackages [zrb]: executing diffoscope
+[2023-06-21 00:22:23] INFO root fetch - processPackages [zrb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zrb-0.0.8.tar.gz tmp/zrb-0.0.9.tar.gz --markdown 20230621/z/zrb/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spatialdata-io]: Downloading https://files.pythonhosted.org/packages/c4/e5/5d30b5e07051bdc83d2ff8fbe4e7b6ffb786dccc5f3b694d2f89caef4661/spatialdata_io-0.0.5.tar.gz
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spatialdata-io]: executing diffoscope
+[2023-06-21 00:22:23] INFO root fetch - processPackages [spatialdata-io]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata_io-0.0.4.tar.gz tmp/spatialdata_io-0.0.5.tar.gz --markdown 20230621/s/spatialdata-io/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 00:22:23] INFO root fetch - processPackages [retro-data-structures]: executing diffoscope
+[2023-06-21 00:22:23] INFO root fetch - processPackages [retro-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/retro-data-structures-0.8.0.tar.gz tmp/retro-data-structures-0.9.0.tar.gz --markdown 20230621/r/retro-data-structures/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 00:22:24] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.2.5.tar.gz]
+[2023-06-21 00:22:24] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.2.6.tar.gz]
+[2023-06-21 00:22:24] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-21 00:22:24] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.tar.gz]
+[2023-06-21 00:22:24] INFO root fetch - processPackages [civics-cdf-validator]: Remove: archive file [/home/abi/fetcher/tmp/civics_cdf_validator-1.9.dev1.tar.gz]
+[2023-06-21 00:22:24] INFO root fetch - main [MainThread]: End processing [civics-cdf-validator]: success
+[2023-06-21 00:22:25] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.8.tar.gz]
+[2023-06-21 00:22:25] INFO root fetch - processPackages [zrb]: Remove: archive file [/home/abi/fetcher/tmp/zrb-0.0.9.tar.gz]
+[2023-06-21 00:22:25] INFO root fetch - main [MainThread]: End processing [zrb]: success
+[2023-06-21 00:22:25] INFO root fetch - processPackages [spatialdata-io]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_io-0.0.4.tar.gz]
+[2023-06-21 00:22:25] INFO root fetch - processPackages [spatialdata-io]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata_io-0.0.5.tar.gz]
+[2023-06-21 00:22:25] INFO root fetch - main [MainThread]: End processing [spatialdata-io]: success
+[2023-06-21 00:22:25] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.8.tar.gz]
+[2023-06-21 00:22:25] INFO root fetch - processPackages [spyctl]: Remove: archive file [/home/abi/fetcher/tmp/spyctl-0.9.9.tar.gz]
+[2023-06-21 00:22:25] INFO root fetch - main [MainThread]: End processing [spyctl]: success
+[2023-06-21 00:22:27] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.8.tar.gz]
+[2023-06-21 00:22:27] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-0.0.9.tar.gz]
+[2023-06-21 00:22:27] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
+[2023-06-21 00:24:24] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.8.0.tar.gz]
+[2023-06-21 00:24:24] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
+[2023-06-21 00:24:24] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
+[2023-06-21 00:24:24] INFO root fetch - main [MainThread]: Store serial: [18580807]
