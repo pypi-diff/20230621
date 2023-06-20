@@ -471,3 +471,67 @@
 [2023-06-21 00:37:58] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
 [2023-06-21 00:37:58] INFO root fetch - main [MainThread]: End processing [bikeshed] error
 [2023-06-21 00:37:58] INFO root fetch - main [MainThread]: Store serial: [18580875]
+[2023-06-21 00:43:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580875]
+[2023-06-21 00:43:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xcom-proto
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zou
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powervaultpy
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyaaware
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plaid-python
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-amazon-chime-resources
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: symbex
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: BroadSword
+[2023-06-21 00:43:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: xcom-proto
+[2023-06-21 00:43:07] WARNING root fetch - processPackages [xcom-proto]: Skipping, unable to determine old version
+[2023-06-21 00:43:07] INFO root fetch - main [MainThread]: End processing [xcom-proto] error
+[2023-06-21 00:43:07] INFO root fetch - processPackages [powervaultpy]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-21 00:43:07] INFO root fetch - processPackages [BroadSword]: New version: [0.1] Old Version: [0.0.9]
+[2023-06-21 00:43:07] INFO root fetch - processPackages [zou]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-21 00:43:07] WARNING root fetch - processPackages [xcom-proto]: Skipping, unable to determine old version
+[2023-06-21 00:43:07] INFO root fetch - main [MainThread]: End processing [xcom-proto] error
+[2023-06-21 00:43:07] INFO root fetch - processPackages [plaid-python]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-21 00:43:07] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-06-21 00:43:07] INFO root fetch - processPackages [pyaaware]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-21 00:43:07] INFO root fetch - processPackages [symbex]: New version: [0.6] Old Version: [0.5]
+[2023-06-21 00:43:07] INFO root fetch - processPackages [BroadSword]: Downloading https://files.pythonhosted.org/packages/3f/67/5ef20d35f53af9201a5ee324ad0797eadd69f39c18a3759a640c525fca45/BroadSword-0.0.9.tar.gz
+[2023-06-21 00:43:07] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-06-21 00:43:07] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-06-21 00:43:07] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-06-21 00:43:07] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/ff/31/aede013b8702010b64170aa5ee08a1c7871baead3c0349bae5f8d0af71b1/symbex-0.5.tar.gz
+[2023-06-21 00:43:07] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/56/51/e9d08c4508d2b1f507c4dbd0d1285d4b1e9b6b6a4240eda6561aa0d55adc/powervaultpy-0.0.5.tar.gz
+[2023-06-21 00:43:08] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/3d/26/8a5c822e737ac50a4f66516c5b80f6cb5a2ce0b5258e3c904aa5abae876c/zou-0.9.8-py2.py3-none-any.whl
+[2023-06-21 00:43:08] INFO root fetch - processPackages [BroadSword]: Downloading https://files.pythonhosted.org/packages/ab/cc/94add2486e48b96400a1d43aebdb70ba7a56b890de5926af2b707b7f37ea/BroadSword-0.1.tar.gz
+[2023-06-21 00:43:08] INFO root fetch - processPackages [pyaaware]: Downloading https://files.pythonhosted.org/packages/d9/7e/e5d14ea0c5cd7a56806d1e2570bf81b1e722803b8095e64f82e0ddf145c4/pyaaware-1.4.8.tar.gz
+[2023-06-21 00:43:08] INFO root fetch - processPackages [plaid-python]: Downloading https://files.pythonhosted.org/packages/28/e4/50f6c63d4bdca16ae7556462bac3c36fe05191a2d2c5d288a171d1284ec1/plaid-python-9.8.0.tar.gz
+[2023-06-21 00:43:08] INFO root fetch - processPackages [BroadSword]: executing diffoscope
+[2023-06-21 00:43:08] INFO root fetch - processPackages [BroadSword]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BroadSword-0.0.9.tar.gz tmp/BroadSword-0.1.tar.gz --markdown 20230621/B/BroadSword/0.0.9-0.1/diff.md --exclude *.pyd
+[2023-06-21 00:43:08] INFO root fetch - processPackages [symbex]: Downloading https://files.pythonhosted.org/packages/04/5c/b127cccf4454ba2db390395b6181684693194e7840e59afd705eec8ef6bb/symbex-0.6.tar.gz
+[2023-06-21 00:43:08] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/b1/2b/f1a4e5c57e1cf286faef580987436cb10e3031407e15b88a706416c6d363/powervaultpy-0.0.6.tar.gz
+[2023-06-21 00:43:08] INFO root fetch - processPackages [symbex]: executing diffoscope
+[2023-06-21 00:43:08] INFO root fetch - processPackages [symbex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/symbex-0.5.tar.gz tmp/symbex-0.6.tar.gz --markdown 20230621/s/symbex/0.5-0.6/diff.md --exclude *.pyd
+[2023-06-21 00:43:08] INFO root fetch - processPackages [powervaultpy]: executing diffoscope
+[2023-06-21 00:43:08] INFO root fetch - processPackages [powervaultpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powervaultpy-0.0.5.tar.gz tmp/powervaultpy-0.0.6.tar.gz --markdown 20230621/p/powervaultpy/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-21 00:43:08] WARNING root fetch - processPackages [pyaaware]: Skipping package: exceeds size limit 14708645>=10485760
+[2023-06-21 00:43:08] INFO root fetch - main [MainThread]: End processing [pyaaware] error
+[2023-06-21 00:43:08] INFO root fetch - processPackages [plaid-python]: Downloading https://files.pythonhosted.org/packages/46/6b/fe3a5d709d398108f2f29d60802967bb5be57a563e9f7420a27ccd3da756/plaid-python-9.9.0.tar.gz
+[2023-06-21 00:43:08] INFO root fetch - processPackages [zou]: Downloading https://files.pythonhosted.org/packages/b4/cb/e536d9ca1d2e8c1820b5431cb69768c10b0f438a73bf846d3e2d008f896a/zou-0.9.9-py2.py3-none-any.whl
+[2023-06-21 00:43:08] INFO root fetch - processPackages [plaid-python]: executing diffoscope
+[2023-06-21 00:43:08] INFO root fetch - processPackages [plaid-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plaid-python-9.8.0.tar.gz tmp/plaid-python-9.9.0.tar.gz --markdown 20230621/p/plaid-python/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-21 00:43:08] INFO root fetch - processPackages [zou]: executing diffoscope
+[2023-06-21 00:43:08] INFO root fetch - processPackages [zou]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zou-0.9.8-py2.py3-none-any.whl.zip tmp/zou-0.9.9-py2.py3-none-any.whl.zip --markdown 20230621/z/zou/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-21 00:43:09] INFO root fetch - processPackages [BroadSword]: Remove: archive file [/home/abi/fetcher/tmp/BroadSword-0.0.9.tar.gz]
+[2023-06-21 00:43:09] INFO root fetch - processPackages [BroadSword]: Remove: archive file [/home/abi/fetcher/tmp/BroadSword-0.1.tar.gz]
+[2023-06-21 00:43:09] INFO root fetch - main [MainThread]: End processing [BroadSword]: success
+[2023-06-21 00:43:09] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.5.tar.gz]
+[2023-06-21 00:43:09] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.6.tar.gz]
+[2023-06-21 00:43:09] INFO root fetch - main [MainThread]: End processing [powervaultpy]: success
+[2023-06-21 00:43:09] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.5.tar.gz]
+[2023-06-21 00:43:09] INFO root fetch - processPackages [symbex]: Remove: archive file [/home/abi/fetcher/tmp/symbex-0.6.tar.gz]
+[2023-06-21 00:43:09] INFO root fetch - main [MainThread]: End processing [symbex]: success
+[2023-06-21 00:43:11] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-21 00:43:11] INFO root fetch - processPackages [zou]: Remove: archive file [/home/abi/fetcher/tmp/zou-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-21 00:43:11] INFO root fetch - main [MainThread]: End processing [zou]: success
+[2023-06-21 00:43:19] INFO root fetch - processPackages [plaid-python]: Remove: archive file [/home/abi/fetcher/tmp/plaid-python-9.8.0.tar.gz]
+[2023-06-21 00:43:19] INFO root fetch - processPackages [plaid-python]: Remove: archive file [/home/abi/fetcher/tmp/plaid-python-9.9.0.tar.gz]
+[2023-06-21 00:43:19] INFO root fetch - main [MainThread]: End processing [plaid-python]: success
+[2023-06-21 00:43:19] INFO root fetch - main [MainThread]: Store serial: [18580903]
