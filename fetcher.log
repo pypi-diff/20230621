@@ -589,3 +589,45 @@
 [2023-06-21 00:48:31] INFO root fetch - processPackages [acasclient]: Remove: archive file [/home/abi/fetcher/tmp/acasclient-2023.2.0.tar.gz]
 [2023-06-21 00:48:31] INFO root fetch - main [MainThread]: End processing [acasclient]: success
 [2023-06-21 00:48:31] INFO root fetch - main [MainThread]: Store serial: [18580927]
+[2023-06-21 00:53:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580927]
+[2023-06-21 00:53:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-21 00:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-embed-external-markdown
+[2023-06-21 00:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqscraper
+[2023-06-21 00:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: recast-atlas
+[2023-06-21 00:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: softpack-core
+[2023-06-21 00:53:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: task-timer-birdhouses
+[2023-06-21 00:53:40] INFO root fetch - processPackages [task-timer-birdhouses]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 00:53:40] INFO root fetch - processPackages [sqscraper]: New version: [0.4.0] Old Version: [0.3.2]
+[2023-06-21 00:53:40] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: New version: [3.0.0] Old Version: [2.3.0]
+[2023-06-21 00:53:40] INFO root fetch - processPackages [recast-atlas]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-21 00:53:40] WARNING root fetch - processPackages [softpack-core]: Skipping, unable to determine old version
+[2023-06-21 00:53:40] INFO root fetch - main [MainThread]: End processing [softpack-core] error
+[2023-06-21 00:53:40] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Downloading https://files.pythonhosted.org/packages/b7/d6/45813b061306de85c758150b53a9132381568344d40f8953dceac7cc91c1/mkdocs-embed-external-markdown-2.3.0.tar.gz
+[2023-06-21 00:53:40] INFO root fetch - processPackages [task-timer-birdhouses]: Downloading https://files.pythonhosted.org/packages/97/58/489ba2b14e0bf4120cee8fcf0c268e9e877c66781b12b7b8b54c4d352ecd/task_timer_birdhouses-0.0.1.tar.gz
+[2023-06-21 00:53:40] INFO root fetch - processPackages [sqscraper]: Downloading https://files.pythonhosted.org/packages/78/d4/fe863dbee27dc802782ada6585db1abce814be5eba215bc27112ee4f35e4/sqscraper-0.3.2.tar.gz
+[2023-06-21 00:53:40] INFO root fetch - processPackages [recast-atlas]: Downloading https://files.pythonhosted.org/packages/a8/d0/aa89a43a0f149d9c513fb8af3a4fb1f4c303fa31dccf43d30438bff64a40/recast_atlas-0.1.9.tar.gz
+[2023-06-21 00:53:41] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Downloading https://files.pythonhosted.org/packages/bf/16/4c4bff158dd535aada41dbe0aa496309a3a7e282d54af7c04e6433200b2f/mkdocs-embed-external-markdown-3.0.0.tar.gz
+[2023-06-21 00:53:41] INFO root fetch - processPackages [task-timer-birdhouses]: Downloading https://files.pythonhosted.org/packages/3c/d3/322a31e6e974771567a003f17411e8b1c41b599da323ab8d0def59ce4124/task_timer_birdhouses-0.0.2.tar.gz
+[2023-06-21 00:53:41] INFO root fetch - processPackages [recast-atlas]: Downloading https://files.pythonhosted.org/packages/63/2a/309d5b4947e0100e8c1ff9e0679c484b91c68f91e626393e3e344e7475bf/recast_atlas-0.2.0.tar.gz
+[2023-06-21 00:53:41] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: executing diffoscope
+[2023-06-21 00:53:41] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-embed-external-markdown-2.3.0.tar.gz tmp/mkdocs-embed-external-markdown-3.0.0.tar.gz --markdown 20230621/m/mkdocs-embed-external-markdown/2.3.0-3.0.0/diff.md --exclude *.pyd
+[2023-06-21 00:53:41] INFO root fetch - processPackages [sqscraper]: Downloading https://files.pythonhosted.org/packages/21/bb/6d95b2930889b6e8a147275f9ef804dcd468e90c78750a282eaaf49b02aa/sqscraper-0.4.0.tar.gz
+[2023-06-21 00:53:41] INFO root fetch - processPackages [recast-atlas]: executing diffoscope
+[2023-06-21 00:53:41] INFO root fetch - processPackages [recast-atlas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recast_atlas-0.1.9.tar.gz tmp/recast_atlas-0.2.0.tar.gz --markdown 20230621/r/recast-atlas/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 00:53:41] INFO root fetch - processPackages [sqscraper]: executing diffoscope
+[2023-06-21 00:53:41] INFO root fetch - processPackages [sqscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqscraper-0.3.2.tar.gz tmp/sqscraper-0.4.0.tar.gz --markdown 20230621/s/sqscraper/0.3.2-0.4.0/diff.md --exclude *.pyd
+[2023-06-21 00:53:41] INFO root fetch - processPackages [task-timer-birdhouses]: executing diffoscope
+[2023-06-21 00:53:41] INFO root fetch - processPackages [task-timer-birdhouses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_timer_birdhouses-0.0.1.tar.gz tmp/task_timer_birdhouses-0.0.2.tar.gz --markdown 20230621/t/task-timer-birdhouses/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 00:53:42] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-embed-external-markdown-2.3.0.tar.gz]
+[2023-06-21 00:53:42] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-embed-external-markdown-3.0.0.tar.gz]
+[2023-06-21 00:53:42] INFO root fetch - main [MainThread]: End processing [mkdocs-embed-external-markdown]: success
+[2023-06-21 00:53:42] INFO root fetch - processPackages [sqscraper]: Remove: archive file [/home/abi/fetcher/tmp/sqscraper-0.3.2.tar.gz]
+[2023-06-21 00:53:42] INFO root fetch - processPackages [sqscraper]: Remove: archive file [/home/abi/fetcher/tmp/sqscraper-0.4.0.tar.gz]
+[2023-06-21 00:53:42] INFO root fetch - main [MainThread]: End processing [sqscraper]: success
+[2023-06-21 00:53:42] INFO root fetch - processPackages [task-timer-birdhouses]: Remove: archive file [/home/abi/fetcher/tmp/task_timer_birdhouses-0.0.1.tar.gz]
+[2023-06-21 00:53:42] INFO root fetch - processPackages [task-timer-birdhouses]: Remove: archive file [/home/abi/fetcher/tmp/task_timer_birdhouses-0.0.2.tar.gz]
+[2023-06-21 00:53:42] INFO root fetch - main [MainThread]: End processing [task-timer-birdhouses]: success
+[2023-06-21 00:53:42] INFO root fetch - processPackages [recast-atlas]: Remove: archive file [/home/abi/fetcher/tmp/recast_atlas-0.1.9.tar.gz]
+[2023-06-21 00:53:42] INFO root fetch - processPackages [recast-atlas]: Remove: archive file [/home/abi/fetcher/tmp/recast_atlas-0.2.0.tar.gz]
+[2023-06-21 00:53:42] INFO root fetch - main [MainThread]: End processing [recast-atlas]: success
+[2023-06-21 00:53:42] INFO root fetch - main [MainThread]: Store serial: [18580945]
