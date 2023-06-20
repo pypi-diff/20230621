@@ -1116,3 +1116,47 @@
 [2023-06-21 01:30:25] INFO root fetch - processPackages [covalent-braket-plugin]: Remove: archive file [/home/abi/fetcher/tmp/covalent-braket-plugin-0.9.0rc0.tar.gz]
 [2023-06-21 01:30:25] INFO root fetch - main [MainThread]: End processing [covalent-braket-plugin]: success
 [2023-06-21 01:30:25] INFO root fetch - main [MainThread]: Store serial: [18581179]
+[2023-06-21 01:35:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581179]
+[2023-06-21 01:35:34] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-21 01:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kegstand
+[2023-06-21 01:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: airfrans
+[2023-06-21 01:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pillar1
+[2023-06-21 01:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vollseg
+[2023-06-21 01:35:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cfr
+[2023-06-21 01:35:34] INFO root fetch - processPackages [kegstand]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-06-21 01:35:34] INFO root fetch - processPackages [airfrans]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-21 01:35:34] INFO root fetch - processPackages [cfr]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-21 01:35:34] INFO root fetch - processPackages [pillar1]: New version: [0.1.6] Old Version: [0.1.5.9]
+[2023-06-21 01:35:34] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-21 01:35:34] INFO root fetch - processPackages [kegstand]: Downloading https://files.pythonhosted.org/packages/33/c6/7695bf4d086a550ec164f10950672d1f3a4e515b3513cfdcead278a8655e/kegstand-0.3.4.tar.gz
+[2023-06-21 01:35:34] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/f2/c0/8ce90b127f2101276f02287d76c0f7ddc2bd963e5ebc1c66a0c75e7602a4/cfr-0.6.0.tar.gz
+[2023-06-21 01:35:34] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-21 01:35:34] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/b1/ed/03f5e7aab1d1371f711ae452ee0b707227b220d748f21bc026e2fa40f358/pillar1-0.1.5.9.tar.gz
+[2023-06-21 01:35:34] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-21 01:35:34] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-21 01:35:34] INFO root fetch - processPackages [airfrans]: Downloading https://files.pythonhosted.org/packages/c4/45/5dffac5c93857e26cb0095aa261b18b99ec1bdf69e681755d0f40f14e4cf/airfrans-0.1.4.tar.gz
+[2023-06-21 01:35:34] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/cc/83/1940db7dbe8980bc853f423a06ca415f853ec3a883e9517ee0c913b796f5/cfr-0.6.1.tar.gz
+[2023-06-21 01:35:34] INFO root fetch - processPackages [kegstand]: Downloading https://files.pythonhosted.org/packages/4f/39/8c05f00104c5cfc52dcfa00bffca9427725ba2aa29a009bb799252ec5a6e/kegstand-0.3.5.tar.gz
+[2023-06-21 01:35:34] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-06-21 01:35:34] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-0.6.0.tar.gz tmp/cfr-0.6.1.tar.gz --markdown 20230621/c/cfr/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-21 01:35:34] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/ca/9b/eb8c941d089a85b9c7ceb39d2f7c075a8062bb17be6385b0fe6ec7663414/pillar1-0.1.6.tar.gz
+[2023-06-21 01:35:34] INFO root fetch - processPackages [kegstand]: executing diffoscope
+[2023-06-21 01:35:34] INFO root fetch - processPackages [kegstand]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kegstand-0.3.4.tar.gz tmp/kegstand-0.3.5.tar.gz --markdown 20230621/k/kegstand/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-06-21 01:35:34] INFO root fetch - processPackages [airfrans]: Downloading https://files.pythonhosted.org/packages/5d/10/abbbcc86a4180dbbe69bc4b9aa941d331d0a40c45692b1a854d0e31d17d3/airfrans-0.1.5.tar.gz
+[2023-06-21 01:35:34] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-21 01:35:34] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.5.9.tar.gz tmp/pillar1-0.1.6.tar.gz --markdown 20230621/p/pillar1/0.1.5.9-0.1.6/diff.md --exclude *.pyd
+[2023-06-21 01:35:34] INFO root fetch - processPackages [airfrans]: executing diffoscope
+[2023-06-21 01:35:34] INFO root fetch - processPackages [airfrans]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airfrans-0.1.4.tar.gz tmp/airfrans-0.1.5.tar.gz --markdown 20230621/a/airfrans/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-21 01:35:35] INFO root fetch - processPackages [kegstand]: Remove: archive file [/home/abi/fetcher/tmp/kegstand-0.3.4.tar.gz]
+[2023-06-21 01:35:35] INFO root fetch - processPackages [kegstand]: Remove: archive file [/home/abi/fetcher/tmp/kegstand-0.3.5.tar.gz]
+[2023-06-21 01:35:35] INFO root fetch - main [MainThread]: End processing [kegstand]: success
+[2023-06-21 01:35:35] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.5.9.tar.gz]
+[2023-06-21 01:35:35] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.6.tar.gz]
+[2023-06-21 01:35:35] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-21 01:35:35] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.0.tar.gz]
+[2023-06-21 01:35:35] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.1.tar.gz]
+[2023-06-21 01:35:35] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-06-21 01:35:36] INFO root fetch - processPackages [airfrans]: Remove: archive file [/home/abi/fetcher/tmp/airfrans-0.1.4.tar.gz]
+[2023-06-21 01:35:36] INFO root fetch - processPackages [airfrans]: Remove: archive file [/home/abi/fetcher/tmp/airfrans-0.1.5.tar.gz]
+[2023-06-21 01:35:36] INFO root fetch - main [MainThread]: End processing [airfrans]: success
+[2023-06-21 01:35:36] INFO root fetch - main [MainThread]: Store serial: [18581194]
