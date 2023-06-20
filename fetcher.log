@@ -1712,3 +1712,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 01:51:46] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.0.0b5-py3-none-any.whl.zip]
 [2023-06-21 01:51:46] INFO root fetch - main [MainThread]: End processing [google-cloud-pipeline-components]: success
 [2023-06-21 01:51:46] INFO root fetch - main [MainThread]: Store serial: [18581340]
+[2023-06-21 01:56:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581340]
+[2023-06-21 01:56:56] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-vectorworks
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: data-ecosystem-dependencies
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyRealEstate
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Tacoma-lib
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mindflow
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: weaver-core
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: firenze
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: avwx-engine
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pydelorean
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anyscale
+[2023-06-21 01:56:56] INFO root fetch - processPackages [Tacoma-lib]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-21 01:56:56] WARNING root fetch - processPackages [ladybug-vectorworks]: Skipping, unable to determine old version
+[2023-06-21 01:56:56] INFO root fetch - processPackages [ladybug-vectorworks]: Start processing: chalkpy
+[2023-06-21 01:56:56] INFO root fetch - main [MainThread]: End processing [ladybug-vectorworks] error
+[2023-06-21 01:56:56] INFO root fetch - processPackages [data-ecosystem-dependencies]: New version: [202306.0.17] Old Version: [202306.0.16]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [mindflow]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [pyRealEstate]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [avwx-engine]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [weaver-core]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [firenze]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [anyscale]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [pydelorean]: New version: [0.2.1] Old Version: [0.1.1]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [chalkpy]: New version: [2.9.6] Old Version: [2.9.5]
+[2023-06-21 01:56:56] INFO root fetch - processPackages [pyRealEstate]: Downloading https://files.pythonhosted.org/packages/b8/5d/5d12bb9ea56318bc23c827bd873cd1fb16a1db415bf1df8f007afb20e3ac/pyRealEstate-0.1.0.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [weaver-core]: Downloading https://files.pythonhosted.org/packages/57/cd/29e27e2476d31992196ef1fcddffa972691d83cf8dce059c29d08e21cd25/weaver-core-0.4.4.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [mindflow]: Downloading https://files.pythonhosted.org/packages/86/2b/edb1206e6e2858707956f0dbb1a7449e59c8cfb03b71dc4bc63548e5d4a5/mindflow-0.5.1.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/e8/cf/a6fe50a1dcc4e1f12b8981f32bd41c94ae6f531d5c538b67707c8bb6aa46/data_ecosystem_dependencies-202306.0.16.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/19/bf/5ad231b6211594c4acb3f4bd2160245ea95d93ffff1478f115d83e7359a9/chalkpy-2.9.5.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [Tacoma-lib]: Downloading https://files.pythonhosted.org/packages/2d/06/7e7e70d4c4eaafddd867ad81026898d6b2502c69fd21be9cb31845a958f7/Tacoma%20lib-1.0.0.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [firenze]: Downloading https://files.pythonhosted.org/packages/72/f7/fb539f1504f5a7fa50e2dbef054bab7bee955a17fb79081a4d74e9aa6050/firenze-0.1.0.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/0d/64/8bf86d6d00617c61b31e91a8455e6fb08278056ee4d72abf6317509d592e/anyscale-0.5.98.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/98/23/e0c4ffac5bbf77546fe213f9def26a8756392320c99510562fb0f41d2b9d/avwx_engine-1.8.8.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/30/2d/3eb1d24b033a3efb7e3958c8e2cbe2a474859b00d29c85236345e87721cc/pydelorean-0.1.1.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [mindflow]: Downloading https://files.pythonhosted.org/packages/3f/17/cc861a1e6b5a28efca1ecaa49a0783003db8c4370ead17df27326d1a6a41/mindflow-0.5.2.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [pyRealEstate]: Downloading https://files.pythonhosted.org/packages/56/22/f8de6295fa8bbd0d178f84743d3b9b179b897e4926f89dcdbd302e4cd712/pyRealEstate-0.1.1.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [weaver-core]: Downloading https://files.pythonhosted.org/packages/83/c7/99347c5e05096d700c3f859f2c26675df7723943c2e8aa24a390a47eb5b1/weaver-core-0.4.5.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [data-ecosystem-dependencies]: Downloading https://files.pythonhosted.org/packages/00/48/499f13c0a32ce52df82e44b3e05976c0b6d8385606cb090113ad30b917b8/data_ecosystem_dependencies-202306.0.17.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [mindflow]: executing diffoscope
+[2023-06-21 01:56:56] INFO root fetch - processPackages [mindflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindflow-0.5.1.tar.gz tmp/mindflow-0.5.2.tar.gz --markdown 20230621/m/mindflow/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-21 01:56:56] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/d6/5c/e7337e7a843cb34d5a69bd14405aa540431dda99bdc705fdfae2a4081bad/chalkpy-2.9.6.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [firenze]: Downloading https://files.pythonhosted.org/packages/f4/d5/3954bc819844affe558d25b282017cc0d87381fd237c33060adefe264755/firenze-0.1.1.tar.gz
+[2023-06-21 01:56:56] INFO root fetch - processPackages [weaver-core]: executing diffoscope
+[2023-06-21 01:56:56] INFO root fetch - processPackages [weaver-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weaver-core-0.4.4.tar.gz tmp/weaver-core-0.4.5.tar.gz --markdown 20230621/w/weaver-core/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-21 01:56:56] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-21 01:56:56] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.9.5.tar.gz tmp/chalkpy-2.9.6.tar.gz --markdown 20230621/c/chalkpy/2.9.5-2.9.6/diff.md --exclude *.pyd
+[2023-06-21 01:56:57] INFO root fetch - processPackages [firenze]: executing diffoscope
+[2023-06-21 01:56:57] INFO root fetch - processPackages [firenze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firenze-0.1.0.tar.gz tmp/firenze-0.1.1.tar.gz --markdown 20230621/f/firenze/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 01:56:57] INFO root fetch - processPackages [pyRealEstate]: executing diffoscope
+[2023-06-21 01:56:57] INFO root fetch - processPackages [pyRealEstate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRealEstate-0.1.0.tar.gz tmp/pyRealEstate-0.1.1.tar.gz --markdown 20230621/p/pyRealEstate/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 01:56:57] INFO root fetch - processPackages [data-ecosystem-dependencies]: executing diffoscope
+[2023-06-21 01:56:57] INFO root fetch - processPackages [data-ecosystem-dependencies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_dependencies-202306.0.16.tar.gz tmp/data_ecosystem_dependencies-202306.0.17.tar.gz --markdown 20230621/d/data-ecosystem-dependencies/202306.0.16-202306.0.17/diff.md --exclude *.pyd
+[2023-06-21 01:56:57] INFO root fetch - processPackages [Tacoma-lib]: Downloading https://files.pythonhosted.org/packages/b0/14/685ab67aa6cb313151ef34ee7b8507c887ebd355654f3c58092e176f7a39/Tacoma%20lib-1.0.1.tar.gz
+[2023-06-21 01:56:57] INFO root fetch - processPackages [pydelorean]: Downloading https://files.pythonhosted.org/packages/df/f1/95dc90114cb1d0051d599bd0db7886ab85e94acab5da9b8605aa5ba6c427/pydelorean-0.2.1.tar.gz
+[2023-06-21 01:56:57] INFO root fetch - processPackages [anyscale]: Downloading https://files.pythonhosted.org/packages/61/f0/917cf3e18c478eaae2e53db68c9d20607edab461774054c8f509cc4885b6/anyscale-0.5.99.tar.gz
+[2023-06-21 01:56:57] INFO root fetch - processPackages [pydelorean]: executing diffoscope
+[2023-06-21 01:56:57] INFO root fetch - processPackages [pydelorean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydelorean-0.1.1.tar.gz tmp/pydelorean-0.2.1.tar.gz --markdown 20230621/p/pydelorean/0.1.1-0.2.1/diff.md --exclude *.pyd
+[2023-06-21 01:56:57] INFO root fetch - processPackages [Tacoma-lib]: executing diffoscope
+[2023-06-21 01:56:57] INFO root fetch - processPackages [Tacoma-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tacoma lib-1.0.0.tar.gz tmp/Tacoma lib-1.0.1.tar.gz --markdown 20230621/T/Tacoma-lib/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-21 01:56:57] INFO root fetch - processPackages [anyscale]: executing diffoscope
+[2023-06-21 01:56:57] INFO root fetch - processPackages [anyscale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyscale-0.5.98.tar.gz tmp/anyscale-0.5.99.tar.gz --markdown 20230621/a/anyscale/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-21 01:56:58] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/8e/d6/c5f4f781c8bb9fc272a1192d9ec936ba95599b8f2699f89a629385fc9cff/avwx_engine-1.8.9.tar.gz
+[2023-06-21 01:56:58] INFO root fetch - processPackages [firenze]: Remove: archive file [/home/abi/fetcher/tmp/firenze-0.1.0.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [firenze]: Remove: archive file [/home/abi/fetcher/tmp/firenze-0.1.1.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [firenze]: Start processing: kegstandcli
+[2023-06-21 01:56:58] INFO root fetch - main [MainThread]: End processing [firenze]: success
+[2023-06-21 01:56:58] INFO root fetch - processPackages [kegstandcli]: New version: [0.3.8] Old Version: [0.3.6]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [pyRealEstate]: Remove: archive file [/home/abi/fetcher/tmp/pyRealEstate-0.1.0.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [pyRealEstate]: Remove: archive file [/home/abi/fetcher/tmp/pyRealEstate-0.1.1.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [pyRealEstate]: Start processing: pytheus-backend-rs
+[2023-06-21 01:56:58] INFO root fetch - main [MainThread]: End processing [pyRealEstate]: success
+[2023-06-21 01:56:58] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.16.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [data-ecosystem-dependencies]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_dependencies-202306.0.17.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [data-ecosystem-dependencies]: Start processing: zephony
+[2023-06-21 01:56:58] INFO root fetch - main [MainThread]: End processing [data-ecosystem-dependencies]: success
+[2023-06-21 01:56:58] INFO root fetch - processPackages [pytheus-backend-rs]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [zephony]: New version: [0.9.1] Old Version: [0.8.1]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-0.1.1.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [pydelorean]: Remove: archive file [/home/abi/fetcher/tmp/pydelorean-0.2.1.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - main [MainThread]: End processing [pydelorean]: success
+[2023-06-21 01:56:58] INFO root fetch - processPackages [kegstandcli]: Downloading https://files.pythonhosted.org/packages/de/d1/889998ab5f8748dfb32cdac5ac467631f3b6ba2e86cdabad27ae63dbd343/kegstandcli-0.3.6.tar.gz
+[2023-06-21 01:56:58] INFO root fetch - processPackages [Tacoma-lib]: Remove: archive file [/home/abi/fetcher/tmp/Tacoma lib-1.0.0.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - processPackages [Tacoma-lib]: Remove: archive file [/home/abi/fetcher/tmp/Tacoma lib-1.0.1.tar.gz]
+[2023-06-21 01:56:58] INFO root fetch - main [MainThread]: End processing [Tacoma-lib]: success
+[2023-06-21 01:56:58] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/dc/5e/fb2d7591a726114a95a91e6743dbadb3c4b22584f667f3c894ff9a83c031/pytheus_backend_rs-0.0.2.tar.gz
+[2023-06-21 01:56:58] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/25/fc/2c8476b699dbf95d4bb27f4b9ef0f67ea923406f77570aae30d0a99459aa/zephony-0.8.1.tar.gz
+[2023-06-21 01:56:58] INFO root fetch - processPackages [kegstandcli]: Downloading https://files.pythonhosted.org/packages/88/ce/c27b661cd69084023798109516a7157e3571bce2dff14f31b3b5a8161d23/kegstandcli-0.3.8.tar.gz
+[2023-06-21 01:56:59] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/10/40/108b1e5bf633b2b2316060331d88f591011779587159163bb66b0dcd2cf3/pytheus_backend_rs-0.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 01:56:59] INFO root fetch - processPackages [zephony]: Downloading https://files.pythonhosted.org/packages/35/3c/05ea992af0402117582743352f4731daf63ced4594fe71f3aa7cda19cc44/zephony-0.9.1.tar.gz
+[2023-06-21 01:56:59] INFO root fetch - processPackages [kegstandcli]: executing diffoscope
+[2023-06-21 01:56:59] INFO root fetch - processPackages [kegstandcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kegstandcli-0.3.6.tar.gz tmp/kegstandcli-0.3.8.tar.gz --markdown 20230621/k/kegstandcli/0.3.6-0.3.8/diff.md --exclude *.pyd
+[2023-06-21 01:56:59] INFO root fetch - processPackages [avwx-engine]: executing diffoscope
+[2023-06-21 01:56:59] INFO root fetch - processPackages [avwx-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avwx_engine-1.8.8.tar.gz tmp/avwx_engine-1.8.9.tar.gz --markdown 20230621/a/avwx-engine/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-21 01:56:59] INFO root fetch - processPackages [zephony]: executing diffoscope
+[2023-06-21 01:56:59] INFO root fetch - processPackages [zephony]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zephony-0.8.1.tar.gz tmp/zephony-0.9.1.tar.gz --markdown 20230621/z/zephony/0.8.1-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 01:56:59] INFO root fetch - processPackages [mindflow]: Remove: archive file [/home/abi/fetcher/tmp/mindflow-0.5.1.tar.gz]
+[2023-06-21 01:56:59] INFO root fetch - processPackages [mindflow]: Remove: archive file [/home/abi/fetcher/tmp/mindflow-0.5.2.tar.gz]
+[2023-06-21 01:56:59] INFO root fetch - main [MainThread]: End processing [mindflow]: success
+[2023-06-21 01:57:00] INFO root fetch - processPackages [kegstandcli]: Remove: archive file [/home/abi/fetcher/tmp/kegstandcli-0.3.6.tar.gz]
+[2023-06-21 01:57:00] INFO root fetch - processPackages [kegstandcli]: Remove: archive file [/home/abi/fetcher/tmp/kegstandcli-0.3.8.tar.gz]
+[2023-06-21 01:57:00] INFO root fetch - main [MainThread]: End processing [kegstandcli]: success
+[2023-06-21 01:57:00] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.8.1.tar.gz]
+[2023-06-21 01:57:00] INFO root fetch - processPackages [zephony]: Remove: archive file [/home/abi/fetcher/tmp/zephony-0.9.1.tar.gz]
+[2023-06-21 01:57:00] INFO root fetch - main [MainThread]: End processing [zephony]: success
+[2023-06-21 01:57:00] INFO root fetch - processPackages [weaver-core]: Remove: archive file [/home/abi/fetcher/tmp/weaver-core-0.4.4.tar.gz]
+[2023-06-21 01:57:00] INFO root fetch - processPackages [weaver-core]: Remove: archive file [/home/abi/fetcher/tmp/weaver-core-0.4.5.tar.gz]
+[2023-06-21 01:57:00] INFO root fetch - main [MainThread]: End processing [weaver-core]: success
+[2023-06-21 01:57:00] INFO root fetch - processPackages [pytheus-backend-rs]: executing diffoscope
+[2023-06-21 01:57:00] INFO root fetch - processPackages [pytheus-backend-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus_backend_rs-0.0.2.tar.gz tmp/pytheus_backend_rs-0.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230621/p/pytheus-backend-rs/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 01:57:01] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.2.tar.gz]
+[2023-06-21 01:57:01] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-21 01:57:01] INFO root fetch - main [MainThread]: End processing [pytheus-backend-rs]: success
+[2023-06-21 01:57:05] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.5.tar.gz]
+[2023-06-21 01:57:05] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.9.6.tar.gz]
+[2023-06-21 01:57:05] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-21 01:57:10] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.98.tar.gz]
+[2023-06-21 01:57:10] INFO root fetch - processPackages [anyscale]: Remove: archive file [/home/abi/fetcher/tmp/anyscale-0.5.99.tar.gz]
+[2023-06-21 01:57:10] INFO root fetch - main [MainThread]: End processing [anyscale]: success
+[2023-06-21 01:57:17] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.8.tar.gz]
+[2023-06-21 01:57:17] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.9.tar.gz]
+[2023-06-21 01:57:18] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
+[2023-06-21 01:57:18] INFO root fetch - main [MainThread]: Store serial: [18581416]
