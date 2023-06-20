@@ -908,3 +908,60 @@
 [2023-06-21 01:09:32] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-0.5.2a3.tar.gz]
 [2023-06-21 01:09:32] INFO root fetch - main [MainThread]: End processing [neon-skill-user-settings]: success
 [2023-06-21 01:09:32] INFO root fetch - main [MainThread]: Store serial: [18581106]
+[2023-06-21 01:14:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581106]
+[2023-06-21 01:14:43] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-21 01:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: task-timer-birdhouses
+[2023-06-21 01:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: temper-core
+[2023-06-21 01:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: temper-std
+[2023-06-21 01:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ligo-followup-advocate
+[2023-06-21 01:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pillar1
+[2023-06-21 01:14:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastapi-magic-di
+[2023-06-21 01:14:43] INFO root fetch - processPackages [temper-core]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 01:14:43] INFO root fetch - processPackages [task-timer-birdhouses]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 01:14:43] INFO root fetch - processPackages [temper-std]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 01:14:43] INFO root fetch - processPackages [ligo-followup-advocate]: New version: [1.2.4] Old Version: [1.2.3]
+[2023-06-21 01:14:43] INFO root fetch - processPackages [pillar1]: New version: [0.1.5.8] Old Version: [0.1.5.7]
+[2023-06-21 01:14:43] INFO root fetch - processPackages [fastapi-magic-di]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-21 01:14:43] INFO root fetch - processPackages [task-timer-birdhouses]: Downloading https://files.pythonhosted.org/packages/31/4c/2259081d97d152346bc6c922a996af17a7d0d8236e4d9f64e2f16ef7f35c/task_timer_birdhouses-0.0.4.tar.gz
+[2023-06-21 01:14:43] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/ca/de/a812dadd0c7a3f2f9c016960fece7bbde841bfc39b2db92b9dedc8ea03f0/pillar1-0.1.5.7.tar.gz
+[2023-06-21 01:14:43] INFO root fetch - processPackages [temper-core]: Downloading https://files.pythonhosted.org/packages/3e/dd/e3b6818b3efc20030b32307abd5dd627232093a3f8ac57deaeb2c37670a1/temper_core-0.0.4.tar.gz
+[2023-06-21 01:14:43] INFO root fetch - processPackages [ligo-followup-advocate]: Downloading https://files.pythonhosted.org/packages/d1/b3/f1ce7af52d5a4664afce0e45fbbee53dd29b4bf13a7d95ac435360089522/ligo-followup-advocate-1.2.3.tar.gz
+[2023-06-21 01:14:43] INFO root fetch - processPackages [temper-std]: Downloading https://files.pythonhosted.org/packages/a6/f5/ae29ed5e2fece82f1c8100d90d037991e2066e5e6fa74b7211aed5f273d2/temper_std-0.0.4.tar.gz
+[2023-06-21 01:14:43] INFO root fetch - processPackages [fastapi-magic-di]: Downloading https://files.pythonhosted.org/packages/35/bc/1988fe42f784a2f5df00889dbf186830470f7349af0af90f14045f46dacc/fastapi_magic_di-0.0.1a0.tar.gz
+[2023-06-21 01:14:43] INFO root fetch - processPackages [task-timer-birdhouses]: Downloading https://files.pythonhosted.org/packages/66/b9/74681e20cda210fc25f91c3a4043780356cb8669582d5a00800e5369eba9/task_timer_birdhouses-0.0.5.tar.gz
+[2023-06-21 01:14:44] INFO root fetch - processPackages [task-timer-birdhouses]: executing diffoscope
+[2023-06-21 01:14:44] INFO root fetch - processPackages [task-timer-birdhouses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_timer_birdhouses-0.0.4.tar.gz tmp/task_timer_birdhouses-0.0.5.tar.gz --markdown 20230621/t/task-timer-birdhouses/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 01:14:44] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/61/a1/7d94e9537d35bc2b55079abf02dd3221a16887ca0d8b43a23f0a0fcd3e98/pillar1-0.1.5.8.tar.gz
+[2023-06-21 01:14:44] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-21 01:14:44] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.5.7.tar.gz tmp/pillar1-0.1.5.8.tar.gz --markdown 20230621/p/pillar1/0.1.5.7-0.1.5.8/diff.md --exclude *.pyd
+[2023-06-21 01:14:44] INFO root fetch - processPackages [temper-std]: Downloading https://files.pythonhosted.org/packages/49/28/294e35ccb49dfc723d17d36b02cd2af433830b33f3c25317a146b405eca0/temper_std-0.0.5.tar.gz
+[2023-06-21 01:14:44] INFO root fetch - processPackages [temper-core]: Downloading https://files.pythonhosted.org/packages/8e/67/9a179181be5281217b816f0bac2ee2dd360029caceda18c476ae391c6df1/temper_core-0.0.5.tar.gz
+[2023-06-21 01:14:44] INFO root fetch - processPackages [temper-std]: executing diffoscope
+[2023-06-21 01:14:44] INFO root fetch - processPackages [temper-std]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temper_std-0.0.4.tar.gz tmp/temper_std-0.0.5.tar.gz --markdown 20230621/t/temper-std/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 01:14:44] INFO root fetch - processPackages [fastapi-magic-di]: Downloading https://files.pythonhosted.org/packages/be/2a/d0d201ee5dbd54ac2df7a2c92efeb0a59d7129586549a7119390322c2f72/fastapi_magic_di-0.0.1a1.tar.gz
+[2023-06-21 01:14:44] INFO root fetch - processPackages [temper-core]: executing diffoscope
+[2023-06-21 01:14:44] INFO root fetch - processPackages [temper-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/temper_core-0.0.4.tar.gz tmp/temper_core-0.0.5.tar.gz --markdown 20230621/t/temper-core/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 01:14:44] INFO root fetch - processPackages [fastapi-magic-di]: executing diffoscope
+[2023-06-21 01:14:44] INFO root fetch - processPackages [fastapi-magic-di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_magic_di-0.0.1a0.tar.gz tmp/fastapi_magic_di-0.0.1a1.tar.gz --markdown 20230621/f/fastapi-magic-di/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-21 01:14:45] INFO root fetch - processPackages [task-timer-birdhouses]: Remove: archive file [/home/abi/fetcher/tmp/task_timer_birdhouses-0.0.4.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - processPackages [task-timer-birdhouses]: Remove: archive file [/home/abi/fetcher/tmp/task_timer_birdhouses-0.0.5.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - main [MainThread]: End processing [task-timer-birdhouses]: success
+[2023-06-21 01:14:45] INFO root fetch - processPackages [ligo-followup-advocate]: Downloading https://files.pythonhosted.org/packages/9f/d6/2a4cc634bfe205c2837e9ef2f7112a0ee7b6802a4bb70861ef4e53585744/ligo-followup-advocate-1.2.4.tar.gz
+[2023-06-21 01:14:45] INFO root fetch - processPackages [temper-core]: Remove: archive file [/home/abi/fetcher/tmp/temper_core-0.0.4.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - processPackages [temper-core]: Remove: archive file [/home/abi/fetcher/tmp/temper_core-0.0.5.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - main [MainThread]: End processing [temper-core]: success
+[2023-06-21 01:14:45] INFO root fetch - processPackages [ligo-followup-advocate]: executing diffoscope
+[2023-06-21 01:14:45] INFO root fetch - processPackages [ligo-followup-advocate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ligo-followup-advocate-1.2.3.tar.gz tmp/ligo-followup-advocate-1.2.4.tar.gz --markdown 20230621/l/ligo-followup-advocate/1.2.3-1.2.4/diff.md --exclude *.pyd
+[2023-06-21 01:14:45] INFO root fetch - processPackages [temper-std]: Remove: archive file [/home/abi/fetcher/tmp/temper_std-0.0.4.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - processPackages [temper-std]: Remove: archive file [/home/abi/fetcher/tmp/temper_std-0.0.5.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - main [MainThread]: End processing [temper-std]: success
+[2023-06-21 01:14:45] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.5.7.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.5.8.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-21 01:14:45] INFO root fetch - processPackages [fastapi-magic-di]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_magic_di-0.0.1a0.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - processPackages [fastapi-magic-di]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_magic_di-0.0.1a1.tar.gz]
+[2023-06-21 01:14:45] INFO root fetch - main [MainThread]: End processing [fastapi-magic-di]: success
+[2023-06-21 01:14:48] INFO root fetch - processPackages [ligo-followup-advocate]: Remove: archive file [/home/abi/fetcher/tmp/ligo-followup-advocate-1.2.3.tar.gz]
+[2023-06-21 01:14:48] INFO root fetch - processPackages [ligo-followup-advocate]: Remove: archive file [/home/abi/fetcher/tmp/ligo-followup-advocate-1.2.4.tar.gz]
+[2023-06-21 01:14:48] INFO root fetch - main [MainThread]: End processing [ligo-followup-advocate]: success
+[2023-06-21 01:14:48] INFO root fetch - main [MainThread]: Store serial: [18581124]
