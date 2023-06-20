@@ -77,3 +77,129 @@
 [2023-06-21 00:06:43] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2023-06-21 00:06:43] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2023-06-21 00:06:43] INFO root fetch - main [MainThread]: Store serial: [18580668]
+[2023-06-21 00:11:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580668]
+[2023-06-21 00:11:52] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kisao
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aioworkers
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: immoney
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: boids-api
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ream2
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ankigengpt
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Tailbone
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: latex-document-reader
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: qsonic
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: makolator
+[2023-06-21 00:11:52] INFO root fetch - processPackages [boids-api]: New version: [0.0.1687298655] Old Version: [0.0.1687298275]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [aioworkers]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [qsonic]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [kisao]: New version: [2.32] Old Version: [2.30]
+[2023-06-21 00:11:52] WARNING root fetch - processPackages [makolator]: Skipping, unable to determine old version
+[2023-06-21 00:11:52] INFO root fetch - processPackages [makolator]: Start processing: BLACKFORGE2
+[2023-06-21 00:11:52] WARNING root fetch - processPackages [ankigengpt]: Skipping, unable to determine old version
+[2023-06-21 00:11:52] INFO root fetch - main [MainThread]: End processing [makolator] error
+[2023-06-21 00:11:52] INFO root fetch - processPackages [immoney]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ankigengpt]: Start processing: tesseract-sdk
+[2023-06-21 00:11:52] INFO root fetch - main [MainThread]: End processing [ankigengpt] error
+[2023-06-21 00:11:52] INFO root fetch - processPackages [ream2]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [latex-document-reader]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [Tailbone]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [tesseract-sdk]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [BLACKFORGE2]: New version: [0.2.0] Old Version: [0.1.post3]
+[2023-06-21 00:11:52] INFO root fetch - processPackages [boids-api]: Downloading https://files.pythonhosted.org/packages/8d/d9/9f96002c4eb1a0e88434c066bc7fa14cd8d982feb20392898c8fec9337ee/boids_api-0.0.1687298275.tar.gz
+[2023-06-21 00:11:52] INFO root fetch - processPackages [kisao]: Downloading https://files.pythonhosted.org/packages/ea/e1/cf1fdf5f3799292844cf2c96e59836966d8285b1ff4070792be024867663/kisao-2.30.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/0b/bb/82a3b8aac6a039b0565a360c6dc9db6c8396925aeab4cab61bb7f467fbae/ream2-2.8.1.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [qsonic]: Downloading https://files.pythonhosted.org/packages/1e/b8/9054d92889e7345ddaecbe3ca47212c4b608924666b10337c1cbf0d07d87/qsonic-0.7.1.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [immoney]: Downloading https://files.pythonhosted.org/packages/04/1e/3f61e1cfd48467b0c9234dc3c41a5fdd1531632cdf596753abd2c332a777/immoney-0.2.0.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [latex-document-reader]: Downloading https://files.pythonhosted.org/packages/84/65/6558d9718c2d15beeb58cb9627a0ed61c418e02c3dcd01532b077278a5f7/latex-document-reader-1.0.0.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/50/6f/b63e04f1e618b1f4d976e29b2185f60ed7b310a1fc1dfe6f8ae2a503598a/Tailbone-0.9.8.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [tesseract-sdk]: Downloading https://files.pythonhosted.org/packages/a8/9d/09187c437d12880bb02abc6e203ecd314e0f80223fdcd1e2c716635ef0f5/tesseract_sdk-0.7.0-py3-none-any.whl
+[2023-06-21 00:11:53] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/51/13/4f8acd78cd8ef30fb17e090e59a02c8737d16c94c010611c4d5347e24c76/aioworkers-0.9.2.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/fe/ba/575f93888381208290950c1a9f6ca463e2f0040e9ce610836d91decf7a4d/BLACKFORGE2-0.1.post3.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [boids-api]: Downloading https://files.pythonhosted.org/packages/c2/5a/eaf1c03e6f1f8ef34e233b13414636ef539a810a2a3b8a8c9042411f8367/boids_api-0.0.1687298655.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [kisao]: Downloading https://files.pythonhosted.org/packages/e2/11/71e91e7b84b2e849da858bbefc18ce8b1cca9cfaab3048430c566e00470b/kisao-2.32.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [Tailbone]: Downloading https://files.pythonhosted.org/packages/d0/d1/c2f74adc6b3442dc7514c806d0eb884cf730fe17792970c620291f5a53a0/Tailbone-0.9.9.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [ream2]: Downloading https://files.pythonhosted.org/packages/5c/ef/d5da9f4ae7fddd7c14d6cda1a9fc688917c17024c42f890d0b7de28ed4c8/ream2-2.9.0.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [qsonic]: Downloading https://files.pythonhosted.org/packages/48/50/78f5d0c5f5639be155fbd1688902989d314e860829f4c94fab5dc3f5b528/qsonic-0.7.2.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [latex-document-reader]: Downloading https://files.pythonhosted.org/packages/da/3f/046db06096667f806d460a5d9040e9f14de71f0aec18e032b5f7c8475f38/latex-document-reader-1.0.1.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [kisao]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [kisao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kisao-2.30.tar.gz tmp/kisao-2.32.tar.gz --markdown 20230621/k/kisao/2.30-2.32/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [aioworkers]: Downloading https://files.pythonhosted.org/packages/3b/d7/3d647a5afd65c18e4efed2b8ffef65dc170d7749491f9fd3c93bd259e6b7/aioworkers-0.9.3.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [BLACKFORGE2]: Downloading https://files.pythonhosted.org/packages/d1/e4/6290f744d6572ce012a1b058ea13086e96226de280ace1cd9d4292d35a98/BLACKFORGE2-0.2.0.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [boids-api]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [boids-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/boids_api-0.0.1687298275.tar.gz tmp/boids_api-0.0.1687298655.tar.gz --markdown 20230621/b/boids-api/0.0.1687298275-0.0.1687298655/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [immoney]: Downloading https://files.pythonhosted.org/packages/c9/0b/965d16eff1e6fa9774cb279e17835e2a061d33f68f4f2e2c017212329586/immoney-0.3.0.tar.gz
+[2023-06-21 00:11:53] INFO root fetch - processPackages [ream2]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [ream2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ream2-2.8.1.tar.gz tmp/ream2-2.9.0.tar.gz --markdown 20230621/r/ream2/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [qsonic]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [qsonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsonic-0.7.1.tar.gz tmp/qsonic-0.7.2.tar.gz --markdown 20230621/q/qsonic/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [latex-document-reader]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [latex-document-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/latex-document-reader-1.0.0.tar.gz tmp/latex-document-reader-1.0.1.tar.gz --markdown 20230621/l/latex-document-reader/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [tesseract-sdk]: Downloading https://files.pythonhosted.org/packages/81/3a/62fe6293f98e7710e576a7d0f3df1e6fd88381af29325af4c49a225c58ca/tesseract_sdk-0.8.0-py3-none-any.whl
+[2023-06-21 00:11:53] INFO root fetch - processPackages [aioworkers]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [Tailbone]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [aioworkers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioworkers-0.9.2.tar.gz tmp/aioworkers-0.9.3.tar.gz --markdown 20230621/a/aioworkers/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [Tailbone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Tailbone-0.9.8.tar.gz tmp/Tailbone-0.9.9.tar.gz --markdown 20230621/T/Tailbone/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [tesseract-sdk]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [tesseract-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tesseract_sdk-0.7.0-py3-none-any.whl.zip tmp/tesseract_sdk-0.8.0-py3-none-any.whl.zip --markdown 20230621/t/tesseract-sdk/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [BLACKFORGE2]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [BLACKFORGE2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BLACKFORGE2-0.1.post3.tar.gz tmp/BLACKFORGE2-0.2.0.tar.gz --markdown 20230621/B/BLACKFORGE2/0.1.post3-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 00:11:53] INFO root fetch - processPackages [immoney]: executing diffoscope
+[2023-06-21 00:11:53] INFO root fetch - processPackages [immoney]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/immoney-0.2.0.tar.gz tmp/immoney-0.3.0.tar.gz --markdown 20230621/i/immoney/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-21 00:11:55] INFO root fetch - processPackages [latex-document-reader]: Remove: archive file [/home/abi/fetcher/tmp/latex-document-reader-1.0.0.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [latex-document-reader]: Remove: archive file [/home/abi/fetcher/tmp/latex-document-reader-1.0.1.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [latex-document-reader]: Start processing: coiled
+[2023-06-21 00:11:55] INFO root fetch - main [MainThread]: End processing [latex-document-reader]: success
+[2023-06-21 00:11:55] INFO root fetch - processPackages [coiled]: New version: [0.7.8.dev8] Old Version: [0.7.8.dev7]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/30/f2/c6365e5a77213d394a9a7158d66b9adbd524915484a2241b0538108b3802/coiled-0.7.8.dev7.tar.gz
+[2023-06-21 00:11:55] INFO root fetch - processPackages [tesseract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tesseract_sdk-0.7.0-py3-none-any.whl.zip]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [tesseract-sdk]: Remove: archive file [/home/abi/fetcher/tmp/tesseract_sdk-0.8.0-py3-none-any.whl.zip]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [tesseract-sdk]: Start processing: sentinel-protobuf
+[2023-06-21 00:11:55] INFO root fetch - main [MainThread]: End processing [tesseract-sdk]: success
+[2023-06-21 00:11:55] INFO root fetch - processPackages [immoney]: Remove: archive file [/home/abi/fetcher/tmp/immoney-0.2.0.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [immoney]: Remove: archive file [/home/abi/fetcher/tmp/immoney-0.3.0.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [immoney]: Start processing: great-expectations-experimental
+[2023-06-21 00:11:55] INFO root fetch - main [MainThread]: End processing [immoney]: success
+[2023-06-21 00:11:55] INFO root fetch - processPackages [sentinel-protobuf]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [great-expectations-experimental]: New version: [0.1.20230620039] Old Version: [0.1.20230616038]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/b0/1f/4cae7c0896fb4f108f0000b8489576a5c6af1c54944e41813f7cd0e09c65/coiled-0.7.8.dev8.tar.gz
+[2023-06-21 00:11:55] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.1.post3.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [BLACKFORGE2]: Remove: archive file [/home/abi/fetcher/tmp/BLACKFORGE2-0.2.0.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - main [MainThread]: End processing [BLACKFORGE2]: success
+[2023-06-21 00:11:55] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.8.1.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [ream2]: Remove: archive file [/home/abi/fetcher/tmp/ream2-2.9.0.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - main [MainThread]: End processing [ream2]: success
+[2023-06-21 00:11:55] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-21 00:11:55] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.8.dev7.tar.gz tmp/coiled-0.7.8.dev8.tar.gz --markdown 20230621/c/coiled/0.7.8.dev7-0.7.8.dev8/diff.md --exclude *.pyd
+[2023-06-21 00:11:55] INFO root fetch - processPackages [sentinel-protobuf]: Downloading https://files.pythonhosted.org/packages/80/cf/d81aa3b07f52de96d41e25fa8c10ec9725ed7e6580f337a421755a134467/sentinel_protobuf-0.2.2.tar.gz
+[2023-06-21 00:11:55] INFO root fetch - processPackages [kisao]: Remove: archive file [/home/abi/fetcher/tmp/kisao-2.30.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [kisao]: Remove: archive file [/home/abi/fetcher/tmp/kisao-2.32.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - main [MainThread]: End processing [kisao]: success
+[2023-06-21 00:11:55] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/50/36/cc49e6ae80be154c2f157a5a98336087f8338fde6ae42bed1ffbcbd3fde1/great_expectations_experimental-0.1.20230616038.tar.gz
+[2023-06-21 00:11:55] INFO root fetch - processPackages [boids-api]: Remove: archive file [/home/abi/fetcher/tmp/boids_api-0.0.1687298275.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [boids-api]: Remove: archive file [/home/abi/fetcher/tmp/boids_api-0.0.1687298655.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - main [MainThread]: End processing [boids-api]: success
+[2023-06-21 00:11:55] INFO root fetch - processPackages [sentinel-protobuf]: Downloading https://files.pythonhosted.org/packages/fd/0a/473519c1c2e5f0cccb1960f51a9bf9f659c145ba0b5e71d87d3502c7df0b/sentinel_protobuf-0.2.3.tar.gz
+[2023-06-21 00:11:55] INFO root fetch - processPackages [great-expectations-experimental]: Downloading https://files.pythonhosted.org/packages/e4/bf/9439c245049f1a3bdf5118b21964c9a2cf2ecbdbb830f8edd5997839125e/great_expectations_experimental-0.1.20230620039.tar.gz
+[2023-06-21 00:11:55] INFO root fetch - processPackages [qsonic]: Remove: archive file [/home/abi/fetcher/tmp/qsonic-0.7.1.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - processPackages [qsonic]: Remove: archive file [/home/abi/fetcher/tmp/qsonic-0.7.2.tar.gz]
+[2023-06-21 00:11:55] INFO root fetch - main [MainThread]: End processing [qsonic]: success
+[2023-06-21 00:11:55] INFO root fetch - processPackages [sentinel-protobuf]: executing diffoscope
+[2023-06-21 00:11:55] INFO root fetch - processPackages [sentinel-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentinel_protobuf-0.2.2.tar.gz tmp/sentinel_protobuf-0.2.3.tar.gz --markdown 20230621/s/sentinel-protobuf/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-21 00:11:55] INFO root fetch - processPackages [great-expectations-experimental]: executing diffoscope
+[2023-06-21 00:11:55] INFO root fetch - processPackages [great-expectations-experimental]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/great_expectations_experimental-0.1.20230616038.tar.gz tmp/great_expectations_experimental-0.1.20230620039.tar.gz --markdown 20230621/g/great-expectations-experimental/0.1.20230616038-0.1.20230620039/diff.md --exclude *.pyd
+[2023-06-21 00:11:56] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.2.tar.gz]
+[2023-06-21 00:11:56] INFO root fetch - processPackages [aioworkers]: Remove: archive file [/home/abi/fetcher/tmp/aioworkers-0.9.3.tar.gz]
+[2023-06-21 00:11:56] INFO root fetch - main [MainThread]: End processing [aioworkers]: success
+[2023-06-21 00:11:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.8.dev7.tar.gz]
+[2023-06-21 00:11:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.8.dev8.tar.gz]
+[2023-06-21 00:11:56] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-21 00:11:57] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230616038.tar.gz]
+[2023-06-21 00:11:57] INFO root fetch - processPackages [great-expectations-experimental]: Remove: archive file [/home/abi/fetcher/tmp/great_expectations_experimental-0.1.20230620039.tar.gz]
+[2023-06-21 00:11:57] INFO root fetch - main [MainThread]: End processing [great-expectations-experimental]: success
+[2023-06-21 00:11:59] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.8.tar.gz]
+[2023-06-21 00:11:59] INFO root fetch - processPackages [Tailbone]: Remove: archive file [/home/abi/fetcher/tmp/Tailbone-0.9.9.tar.gz]
+[2023-06-21 00:11:59] INFO root fetch - main [MainThread]: End processing [Tailbone]: success
+[2023-06-21 00:12:01] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.2.2.tar.gz]
+[2023-06-21 00:12:01] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.2.3.tar.gz]
+[2023-06-21 00:12:01] INFO root fetch - main [MainThread]: End processing [sentinel-protobuf]: success
+[2023-06-21 00:12:01] INFO root fetch - main [MainThread]: Store serial: [18580717]
