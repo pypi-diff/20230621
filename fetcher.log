@@ -631,3 +631,60 @@
 [2023-06-21 00:53:42] INFO root fetch - processPackages [recast-atlas]: Remove: archive file [/home/abi/fetcher/tmp/recast_atlas-0.2.0.tar.gz]
 [2023-06-21 00:53:42] INFO root fetch - main [MainThread]: End processing [recast-atlas]: success
 [2023-06-21 00:53:42] INFO root fetch - main [MainThread]: Store serial: [18580945]
+[2023-06-21 00:58:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580945]
+[2023-06-21 00:58:50] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-21 00:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: matica-tools
+[2023-06-21 00:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mindstorm
+[2023-06-21 00:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kaskada
+[2023-06-21 00:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spark-llm
+[2023-06-21 00:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: grammars
+[2023-06-21 00:58:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: python-datamodel
+[2023-06-21 00:58:50] INFO root fetch - processPackages [spark-llm]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-21 00:58:50] INFO root fetch - processPackages [grammars]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 00:58:50] INFO root fetch - processPackages [kaskada]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-21 00:58:50] INFO root fetch - processPackages [mindstorm]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-21 00:58:50] INFO root fetch - processPackages [matica-tools]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 00:58:50] INFO root fetch - processPackages [mindstorm]: Downloading https://files.pythonhosted.org/packages/db/0c/9bf1b77ffa8f103a5a12e778b0691c978adab4b256d084e8d8dcff5f3909/mindstorm-0.8.1.tar.gz
+[2023-06-21 00:58:50] INFO root fetch - processPackages [python-datamodel]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-21 00:58:50] INFO root fetch - processPackages [grammars]: Downloading https://files.pythonhosted.org/packages/dd/0c/467bfa9dfeca9e6b61d28c052ef97411c8d7c587dc4e28ceb5ece16cde41/grammars-0.0.4.tar.gz
+[2023-06-21 00:58:50] INFO root fetch - processPackages [matica-tools]: Downloading https://files.pythonhosted.org/packages/70/ea/50f7dc8c3cab34f613fcc7d5c1e2e0c9eb7922f61ef9b8f6fe9f9bb1cc35/matica_tools-0.0.2.tar.gz
+[2023-06-21 00:58:51] INFO root fetch - processPackages [kaskada]: Downloading https://files.pythonhosted.org/packages/98/4a/67b15115409b122d23993aa60af7eeec40c021485311d9295b83ccc46098/kaskada-0.4.0.tar.gz
+[2023-06-21 00:58:51] INFO root fetch - processPackages [mindstorm]: Downloading https://files.pythonhosted.org/packages/16/04/3168c606b4b24aaea9105202ca17a00f28a1a5566525761cc23379eae9df/mindstorm-0.9.0.tar.gz
+[2023-06-21 00:58:51] INFO root fetch - processPackages [spark-llm]: Downloading https://files.pythonhosted.org/packages/1a/74/c7a9adcb84652b0a0e93503982e509ece50f7f8498d7032879d2900e1a59/spark_llm-0.1.4.tar.gz
+[2023-06-21 00:58:51] INFO root fetch - processPackages [mindstorm]: executing diffoscope
+[2023-06-21 00:58:51] INFO root fetch - processPackages [mindstorm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mindstorm-0.8.1.tar.gz tmp/mindstorm-0.9.0.tar.gz --markdown 20230621/m/mindstorm/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 00:58:51] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/3d/a7/77778cb6167e9435119bc03f95bfd8855388e3f1f1e41a02ffe22df4c9a0/python_datamodel-0.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 00:58:51] INFO root fetch - processPackages [matica-tools]: Downloading https://files.pythonhosted.org/packages/0b/83/e60c5f5a5924381662f9def3d4b569eb35cd7d586875cffef4b0f50247a9/matica_tools-0.0.3.tar.gz
+[2023-06-21 00:58:51] INFO root fetch - processPackages [grammars]: Downloading https://files.pythonhosted.org/packages/d0/22/e434e4a04d0ff6e91463b4b17c488d117f52a8507b240cdc95494effa7b7/grammars-0.0.5.tar.gz
+[2023-06-21 00:58:51] INFO root fetch - processPackages [matica-tools]: executing diffoscope
+[2023-06-21 00:58:51] INFO root fetch - processPackages [matica-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matica_tools-0.0.2.tar.gz tmp/matica_tools-0.0.3.tar.gz --markdown 20230621/m/matica-tools/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 00:58:51] INFO root fetch - processPackages [spark-llm]: Downloading https://files.pythonhosted.org/packages/5f/1e/0bf0f25044bb0cd9d0c500d2620ba08fd4ed70a599ba59bcb3aba4a47b8d/spark_llm-0.1.5.tar.gz
+[2023-06-21 00:58:51] INFO root fetch - processPackages [grammars]: executing diffoscope
+[2023-06-21 00:58:51] INFO root fetch - processPackages [grammars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grammars-0.0.4.tar.gz tmp/grammars-0.0.5.tar.gz --markdown 20230621/g/grammars/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 00:58:51] INFO root fetch - processPackages [spark-llm]: executing diffoscope
+[2023-06-21 00:58:51] INFO root fetch - processPackages [spark-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_llm-0.1.4.tar.gz tmp/spark_llm-0.1.5.tar.gz --markdown 20230621/s/spark-llm/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-21 00:58:51] INFO root fetch - processPackages [kaskada]: Downloading https://files.pythonhosted.org/packages/4d/ee/82743fe2e86a90cd37232a381b3b82f1e358d99f6c7498579f3e5b46c258/kaskada-0.4.1.tar.gz
+[2023-06-21 00:58:51] INFO root fetch - processPackages [kaskada]: executing diffoscope
+[2023-06-21 00:58:51] INFO root fetch - processPackages [kaskada]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kaskada-0.4.0.tar.gz tmp/kaskada-0.4.1.tar.gz --markdown 20230621/k/kaskada/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-21 00:58:52] INFO root fetch - processPackages [python-datamodel]: Downloading https://files.pythonhosted.org/packages/6d/1d/882f081d1a1dcf76f28e21be3e087364607c36c6fcbfce45173d881b2cd1/python_datamodel-0.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 00:58:52] INFO root fetch - processPackages [mindstorm]: Remove: archive file [/home/abi/fetcher/tmp/mindstorm-0.8.1.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - processPackages [mindstorm]: Remove: archive file [/home/abi/fetcher/tmp/mindstorm-0.9.0.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - main [MainThread]: End processing [mindstorm]: success
+[2023-06-21 00:58:52] INFO root fetch - processPackages [spark-llm]: Remove: archive file [/home/abi/fetcher/tmp/spark_llm-0.1.4.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - processPackages [spark-llm]: Remove: archive file [/home/abi/fetcher/tmp/spark_llm-0.1.5.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - main [MainThread]: End processing [spark-llm]: success
+[2023-06-21 00:58:52] INFO root fetch - processPackages [matica-tools]: Remove: archive file [/home/abi/fetcher/tmp/matica_tools-0.0.2.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - processPackages [matica-tools]: Remove: archive file [/home/abi/fetcher/tmp/matica_tools-0.0.3.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - main [MainThread]: End processing [matica-tools]: success
+[2023-06-21 00:58:52] INFO root fetch - processPackages [grammars]: Remove: archive file [/home/abi/fetcher/tmp/grammars-0.0.4.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - processPackages [grammars]: Remove: archive file [/home/abi/fetcher/tmp/grammars-0.0.5.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - main [MainThread]: End processing [grammars]: success
+[2023-06-21 00:58:52] INFO root fetch - processPackages [kaskada]: Remove: archive file [/home/abi/fetcher/tmp/kaskada-0.4.0.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - processPackages [kaskada]: Remove: archive file [/home/abi/fetcher/tmp/kaskada-0.4.1.tar.gz]
+[2023-06-21 00:58:52] INFO root fetch - main [MainThread]: End processing [kaskada]: success
+[2023-06-21 00:58:53] INFO root fetch - processPackages [python-datamodel]: executing diffoscope
+[2023-06-21 00:58:53] INFO root fetch - processPackages [python-datamodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_datamodel-0.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/python_datamodel-0.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230621/p/python-datamodel/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-21 00:58:59] INFO root fetch - processPackages [python-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/python_datamodel-0.3.7-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-21 00:58:59] INFO root fetch - processPackages [python-datamodel]: Remove: archive file [/home/abi/fetcher/tmp/python_datamodel-0.3.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-21 00:58:59] INFO root fetch - main [MainThread]: End processing [python-datamodel]: success
+[2023-06-21 00:58:59] INFO root fetch - main [MainThread]: Store serial: [18580964]
