@@ -330,3 +330,83 @@
 [2023-06-21 00:24:24] INFO root fetch - processPackages [retro-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/retro-data-structures-0.9.0.tar.gz]
 [2023-06-21 00:24:24] INFO root fetch - main [MainThread]: End processing [retro-data-structures]: success
 [2023-06-21 00:24:24] INFO root fetch - main [MainThread]: Store serial: [18580807]
+[2023-06-21 00:29:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580807]
+[2023-06-21 00:29:33] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: comicon
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easynetwork
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: CCAgT-utils
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: questdb-connect
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: harvey-cd
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plemmy
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: matica-tools
+[2023-06-21 00:29:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: strsim-2
+[2023-06-21 00:29:33] INFO root fetch - processPackages [comicon]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [questdb-connect]: New version: [1.0.8] Old Version: [1.0.6]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [matica-tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [easynetwork]: New version: [1.0.0rc2] Old Version: [1.0.0rc1]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [plemmy]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [CCAgT-utils]: New version: [0.2.4a0] Old Version: [0.2.3a0]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [harvey-cd]: New version: [0.24.0] Old Version: [0.23.0]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [strsim-2]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230620.9.27.814061] Old Version: [20230620.22.25.775410]
+[2023-06-21 00:29:33] INFO root fetch - processPackages [matica-tools]: Downloading https://files.pythonhosted.org/packages/38/35/a760076574d284065201deecd1cd0b3906ce61892b21392bc3bc55c9ea54/matica_tools-0.0.1.tar.gz
+[2023-06-21 00:29:33] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/9b/ad/98a5a69bc3cd3deb9350b5d68325da8c34f98b9a9586121b51cf0014c36f/certora-cli-alpha-master-20230620.22.25.775410.tar.gz
+[2023-06-21 00:29:33] INFO root fetch - processPackages [CCAgT-utils]: Downloading https://files.pythonhosted.org/packages/4b/04/b1da1a5f89fdfb29c8434f89ad982288438c1dd0f8b34e7200ee598e1dbb/CCAgT_utils-0.2.3a0.tar.gz
+[2023-06-21 00:29:33] INFO root fetch - processPackages [comicon]: Downloading https://files.pythonhosted.org/packages/b8/07/572fba810fa594187e0638b7b995273dc0f5bfbe0f47cf81fd2aab305c63/comicon-0.2.3.tar.gz
+[2023-06-21 00:29:33] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/2a/7b/679e1a837e99ea9f100ba169f234f915f14a23f2ed7b01c6689b9b8dcaeb/questdb-connect-1.0.6.tar.gz
+[2023-06-21 00:29:33] INFO root fetch - processPackages [easynetwork]: Downloading https://files.pythonhosted.org/packages/6f/8f/8a7a88300a6999b9eadc1f78ea3346f363a20e07d533381d31f20c1fa1ba/easynetwork-1.0.0rc1.tar.gz
+[2023-06-21 00:29:33] INFO root fetch - processPackages [strsim-2]: Downloading https://files.pythonhosted.org/packages/75/1e/e49cce6e9f9dab765509519c3219f3428743333a0c22bc6969c239b1ea36/strsim_2-1.0.0-cp39-none-win_amd64.whl
+[2023-06-21 00:29:33] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/17/6e/bbb1eeb8abf2a1a16379db1259931dfcc0aede6ff74e5aeba13e60ed9dbf/plemmy-0.1.0.tar.gz
+[2023-06-21 00:29:33] INFO root fetch - processPackages [harvey-cd]: Downloading https://files.pythonhosted.org/packages/7a/1d/5abe5f297f649568a60a6e79d215c32dea80fc57825fd599a46eea56be5b/harvey-cd-0.23.0.tar.gz
+[2023-06-21 00:29:33] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37084080>=10485760
+[2023-06-21 00:29:33] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-21 00:29:33] INFO root fetch - processPackages [matica-tools]: Downloading https://files.pythonhosted.org/packages/70/ea/50f7dc8c3cab34f613fcc7d5c1e2e0c9eb7922f61ef9b8f6fe9f9bb1cc35/matica_tools-0.0.2.tar.gz
+[2023-06-21 00:29:34] INFO root fetch - processPackages [comicon]: Downloading https://files.pythonhosted.org/packages/45/63/0293a7503bad60b5038b7c6e14b395c2ca1dd248718067f9125830c34e4a/comicon-0.2.4.tar.gz
+[2023-06-21 00:29:34] INFO root fetch - processPackages [questdb-connect]: Downloading https://files.pythonhosted.org/packages/22/62/10b5017eb58989a2ed96ad46dcb6687ed293f96eb753c958408deb13e9fe/questdb-connect-1.0.8.tar.gz
+[2023-06-21 00:29:34] INFO root fetch - processPackages [CCAgT-utils]: Downloading https://files.pythonhosted.org/packages/ac/1e/be07a7e116ef582538c67038f92e709bb31161958edc5c47990347738dcf/CCAgT_utils-0.2.4a0.tar.gz
+[2023-06-21 00:29:34] INFO root fetch - processPackages [harvey-cd]: Downloading https://files.pythonhosted.org/packages/50/f7/a8dead4c29a9cb8557163b97f73a7b2a3c4a3cd6f568c039d8764967b395/harvey-cd-0.24.0.tar.gz
+[2023-06-21 00:29:34] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/21/ce/b906848352bf78d4cf56ffae838dfc69aabc2adcb41121baae01c9323432/plemmy-0.2.0.tar.gz
+[2023-06-21 00:29:34] INFO root fetch - processPackages [strsim-2]: Downloading https://files.pythonhosted.org/packages/dc/90/50bbdcda68f45710279cd809c33f1039bd4b5487081d63b040931b929d3e/strsim_2-1.0.1.tar.gz
+[2023-06-21 00:29:34] INFO root fetch - processPackages [comicon]: executing diffoscope
+[2023-06-21 00:29:34] INFO root fetch - processPackages [comicon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/comicon-0.2.3.tar.gz tmp/comicon-0.2.4.tar.gz --markdown 20230621/c/comicon/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-21 00:29:34] INFO root fetch - processPackages [matica-tools]: executing diffoscope
+[2023-06-21 00:29:34] INFO root fetch - processPackages [matica-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matica_tools-0.0.1.tar.gz tmp/matica_tools-0.0.2.tar.gz --markdown 20230621/m/matica-tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 00:29:34] INFO root fetch - processPackages [easynetwork]: Downloading https://files.pythonhosted.org/packages/4f/e4/5fbd22501140d383ecaaf1bf86ed1d18ef38893d841ce5488fedd83d4893/easynetwork-1.0.0rc2.tar.gz
+[2023-06-21 00:29:34] INFO root fetch - processPackages [questdb-connect]: executing diffoscope
+[2023-06-21 00:29:34] INFO root fetch - processPackages [questdb-connect]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/questdb-connect-1.0.6.tar.gz tmp/questdb-connect-1.0.8.tar.gz --markdown 20230621/q/questdb-connect/1.0.6-1.0.8/diff.md --exclude *.pyd
+[2023-06-21 00:29:34] INFO root fetch - processPackages [harvey-cd]: executing diffoscope
+[2023-06-21 00:29:34] INFO root fetch - processPackages [harvey-cd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/harvey-cd-0.23.0.tar.gz tmp/harvey-cd-0.24.0.tar.gz --markdown 20230621/h/harvey-cd/0.23.0-0.24.0/diff.md --exclude *.pyd
+[2023-06-21 00:29:34] INFO root fetch - processPackages [CCAgT-utils]: executing diffoscope
+[2023-06-21 00:29:34] INFO root fetch - processPackages [CCAgT-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CCAgT_utils-0.2.3a0.tar.gz tmp/CCAgT_utils-0.2.4a0.tar.gz --markdown 20230621/C/CCAgT-utils/0.2.3a0-0.2.4a0/diff.md --exclude *.pyd
+[2023-06-21 00:29:34] INFO root fetch - processPackages [easynetwork]: executing diffoscope
+[2023-06-21 00:29:34] INFO root fetch - processPackages [easynetwork]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easynetwork-1.0.0rc1.tar.gz tmp/easynetwork-1.0.0rc2.tar.gz --markdown 20230621/e/easynetwork/1.0.0rc1-1.0.0rc2/diff.md --exclude *.pyd
+[2023-06-21 00:29:34] INFO root fetch - processPackages [plemmy]: executing diffoscope
+[2023-06-21 00:29:34] INFO root fetch - processPackages [plemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plemmy-0.1.0.tar.gz tmp/plemmy-0.2.0.tar.gz --markdown 20230621/p/plemmy/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 00:29:34] INFO root fetch - processPackages [strsim-2]: executing diffoscope
+[2023-06-21 00:29:34] INFO root fetch - processPackages [strsim-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strsim_2-1.0.0-cp39-none-win_amd64.whl.zip tmp/strsim_2-1.0.1.tar.gz --markdown 20230621/s/strsim-2/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-21 00:29:35] INFO root fetch - processPackages [questdb-connect]: Remove: archive file [/home/abi/fetcher/tmp/questdb-connect-1.0.6.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - processPackages [questdb-connect]: Remove: archive file [/home/abi/fetcher/tmp/questdb-connect-1.0.8.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - main [MainThread]: End processing [questdb-connect]: success
+[2023-06-21 00:29:35] INFO root fetch - processPackages [matica-tools]: Remove: archive file [/home/abi/fetcher/tmp/matica_tools-0.0.1.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - processPackages [matica-tools]: Remove: archive file [/home/abi/fetcher/tmp/matica_tools-0.0.2.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - main [MainThread]: End processing [matica-tools]: success
+[2023-06-21 00:29:35] INFO root fetch - processPackages [harvey-cd]: Remove: archive file [/home/abi/fetcher/tmp/harvey-cd-0.23.0.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - processPackages [harvey-cd]: Remove: archive file [/home/abi/fetcher/tmp/harvey-cd-0.24.0.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - main [MainThread]: End processing [harvey-cd]: success
+[2023-06-21 00:29:35] INFO root fetch - processPackages [strsim-2]: Remove: archive file [/home/abi/fetcher/tmp/strsim_2-1.0.0-cp39-none-win_amd64.whl.zip]
+[2023-06-21 00:29:35] INFO root fetch - processPackages [strsim-2]: Remove: archive file [/home/abi/fetcher/tmp/strsim_2-1.0.1.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - main [MainThread]: End processing [strsim-2]: success
+[2023-06-21 00:29:35] INFO root fetch - processPackages [CCAgT-utils]: Remove: archive file [/home/abi/fetcher/tmp/CCAgT_utils-0.2.3a0.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - processPackages [CCAgT-utils]: Remove: archive file [/home/abi/fetcher/tmp/CCAgT_utils-0.2.4a0.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - main [MainThread]: End processing [CCAgT-utils]: success
+[2023-06-21 00:29:35] INFO root fetch - processPackages [comicon]: Remove: archive file [/home/abi/fetcher/tmp/comicon-0.2.3.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - processPackages [comicon]: Remove: archive file [/home/abi/fetcher/tmp/comicon-0.2.4.tar.gz]
+[2023-06-21 00:29:35] INFO root fetch - main [MainThread]: End processing [comicon]: success
+[2023-06-21 00:29:36] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.1.0.tar.gz]
+[2023-06-21 00:29:36] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.0.tar.gz]
+[2023-06-21 00:29:36] INFO root fetch - main [MainThread]: End processing [plemmy]: success
+[2023-06-21 00:29:40] INFO root fetch - processPackages [easynetwork]: Remove: archive file [/home/abi/fetcher/tmp/easynetwork-1.0.0rc1.tar.gz]
+[2023-06-21 00:29:40] INFO root fetch - processPackages [easynetwork]: Remove: archive file [/home/abi/fetcher/tmp/easynetwork-1.0.0rc2.tar.gz]
+[2023-06-21 00:29:40] INFO root fetch - main [MainThread]: End processing [easynetwork]: success
+[2023-06-21 00:29:40] INFO root fetch - main [MainThread]: Store serial: [18580854]
