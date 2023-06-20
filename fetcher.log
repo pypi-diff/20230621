@@ -1032,3 +1032,45 @@
 [2023-06-21 01:20:01] INFO root fetch - processPackages [py2http]: Remove: archive file [/home/abi/fetcher/tmp/py2http-0.1.9.tar.gz]
 [2023-06-21 01:20:01] INFO root fetch - main [MainThread]: End processing [py2http]: success
 [2023-06-21 01:20:01] INFO root fetch - main [MainThread]: Store serial: [18581148]
+[2023-06-21 01:25:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581148]
+[2023-06-21 01:25:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-21 01:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openapi-server-test
+[2023-06-21 01:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openapi-server-test
+[2023-06-21 01:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vollseg
+[2023-06-21 01:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi-magic-di
+[2023-06-21 01:25:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tonic
+[2023-06-21 01:25:10] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.18] Old Version: [1.0.17]
+[2023-06-21 01:25:10] INFO root fetch - processPackages [openapi-server-test]: New version: [1.0.18] Old Version: [1.0.17]
+[2023-06-21 01:25:10] INFO root fetch - processPackages [fastapi-magic-di]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-21 01:25:10] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-21 01:25:10] INFO root fetch - processPackages [tonic]: New version: [1.2.8.dev7] Old Version: [1.2.8.dev4]
+[2023-06-21 01:25:10] INFO root fetch - processPackages [fastapi-magic-di]: Downloading https://files.pythonhosted.org/packages/be/2a/d0d201ee5dbd54ac2df7a2c92efeb0a59d7129586549a7119390322c2f72/fastapi_magic_di-0.0.1a1.tar.gz
+[2023-06-21 01:25:10] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-21 01:25:10] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/6d/ce/f8e1937f5ed41443b10a4ef43469a43c2b798ffd1c1c336765190b0b3257/tonic-1.2.8.dev4.tar.gz
+[2023-06-21 01:25:10] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/de/c0/cbf6cdc368eabd7310223f88a57d7670b4d0bd644b18b234f01ce56549ed/openapi_server_test-1.0.17.tar.gz
+[2023-06-21 01:25:10] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/de/c0/cbf6cdc368eabd7310223f88a57d7670b4d0bd644b18b234f01ce56549ed/openapi_server_test-1.0.17.tar.gz
+[2023-06-21 01:25:10] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-21 01:25:10] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-21 01:25:11] INFO root fetch - processPackages [fastapi-magic-di]: Downloading https://files.pythonhosted.org/packages/9a/d2/00fd787ea2b3597c19ff5f0a3982b764f8b8922056bfc86d4c16463e01e3/fastapi_magic_di-0.0.1a2.tar.gz
+[2023-06-21 01:25:11] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/ec/c8/197c04a123b59e33d5f1e965eb41a6cab8b74fc1f81865cf9d6c4a08110c/openapi_server_test-1.0.18.tar.gz
+[2023-06-21 01:25:11] INFO root fetch - processPackages [openapi-server-test]: Downloading https://files.pythonhosted.org/packages/ec/c8/197c04a123b59e33d5f1e965eb41a6cab8b74fc1f81865cf9d6c4a08110c/openapi_server_test-1.0.18.tar.gz
+[2023-06-21 01:25:11] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/98/1e/f1b1c29eb4fd280536c9f1b7f5989cbb094524387a382dd05d3df7fa7e47/tonic-1.2.8.dev7.tar.gz
+[2023-06-21 01:25:11] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-06-21 01:25:11] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.17.tar.gz tmp/openapi_server_test-1.0.18.tar.gz --markdown 20230621/o/openapi-server-test/1.0.17-1.0.18/diff.md --exclude *.pyd
+[2023-06-21 01:25:11] INFO root fetch - processPackages [openapi-server-test]: executing diffoscope
+[2023-06-21 01:25:11] INFO root fetch - processPackages [openapi-server-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openapi_server_test-1.0.17.tar.gz tmp/openapi_server_test-1.0.18.tar.gz --markdown 20230621/o/openapi-server-test/1.0.17-1.0.18/diff.md --exclude *.pyd
+[2023-06-21 01:25:11] INFO root fetch - processPackages [fastapi-magic-di]: executing diffoscope
+[2023-06-21 01:25:11] INFO root fetch - processPackages [fastapi-magic-di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_magic_di-0.0.1a1.tar.gz tmp/fastapi_magic_di-0.0.1a2.tar.gz --markdown 20230621/f/fastapi-magic-di/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-21 01:25:11] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-06-21 01:25:11] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.2.8.dev4.tar.gz tmp/tonic-1.2.8.dev7.tar.gz --markdown 20230621/t/tonic/1.2.8.dev4-1.2.8.dev7/diff.md --exclude *.pyd
+[2023-06-21 01:25:12] INFO root fetch - processPackages [fastapi-magic-di]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_magic_di-0.0.1a1.tar.gz]
+[2023-06-21 01:25:12] INFO root fetch - processPackages [fastapi-magic-di]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_magic_di-0.0.1a2.tar.gz]
+[2023-06-21 01:25:12] INFO root fetch - main [MainThread]: End processing [fastapi-magic-di]: success
+[2023-06-21 01:25:12] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.17.tar.gz]
+[2023-06-21 01:25:12] INFO root fetch - processPackages [openapi-server-test]: Remove: archive file [/home/abi/fetcher/tmp/openapi_server_test-1.0.18.tar.gz]
+[2023-06-21 01:25:12] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-06-21 01:25:13] INFO root fetch - main [MainThread]: End processing [openapi-server-test]: success
+[2023-06-21 01:25:13] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.2.8.dev4.tar.gz]
+[2023-06-21 01:25:13] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.2.8.dev7.tar.gz]
+[2023-06-21 01:25:13] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-06-21 01:25:13] INFO root fetch - main [MainThread]: Store serial: [18581163]
