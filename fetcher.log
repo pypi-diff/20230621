@@ -1160,3 +1160,146 @@
 [2023-06-21 01:35:36] INFO root fetch - processPackages [airfrans]: Remove: archive file [/home/abi/fetcher/tmp/airfrans-0.1.5.tar.gz]
 [2023-06-21 01:35:36] INFO root fetch - main [MainThread]: End processing [airfrans]: success
 [2023-06-21 01:35:36] INFO root fetch - main [MainThread]: Store serial: [18581194]
+[2023-06-21 01:40:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581194]
+[2023-06-21 01:40:45] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: getpaper
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: unipropic
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: json-with-comments
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysros
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: determined
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fclogr
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: model-hub
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aporia
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: thermosteam
+[2023-06-21 01:40:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jrnl
+[2023-06-21 01:40:45] INFO root fetch - processPackages [getpaper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [fclogr]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [unipropic]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [pysros]: New version: [23.3.3] Old Version: [23.3.2]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [thermosteam]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [json-with-comments]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [jrnl]: New version: [4.0b3] Old Version: [4.0b2]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [determined]: New version: [0.23.1rc2] Old Version: [0.23.1rc1]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [model-hub]: New version: [0.23.1rc2] Old Version: [0.23.1rc1]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [aporia]: New version: [3.0.0a19] Old Version: [3.0.0a18]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/bf/b8/5e6779d255d29f0b65efb511bafb062cc8e9696991dad009a542edfc0d1c/getpaper-0.0.3.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [fclogr]: Downloading https://files.pythonhosted.org/packages/48/64/b3333cfd035ffe82a1392fdfbb9ca6ccff052dee447807d9787c090b7759/fclogr-0.3.1.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [unipropic]: Downloading https://files.pythonhosted.org/packages/2a/72/598f42a8db901dadb6608f75837a4828e50d2862828120379ba7418f0f9d/unipropic-1.1.2.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [thermosteam]: Downloading https://files.pythonhosted.org/packages/56/8f/c12015817ab835a11a1faf668a607d94a2240ccca4e4723fa84593ed1a29/thermosteam-0.8.3.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/d9/8b/89215ce33afd19016f6860e8f044a9ca9eb66f7169926fbacdbbfa385eae/pysros-23.3.2.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/0a/f3/73b03bb4027987cb89a6949b008ac834644e45b035976499199d051acc3d/aporia-3.0.0a18.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/e3/0e/d5736c178b3314b62894e9c0091f0783a03f0389f1102bd8eeda38c312d7/model_hub-0.23.1rc1-py3-none-any.whl
+[2023-06-21 01:40:45] INFO root fetch - processPackages [json-with-comments]: Downloading https://files.pythonhosted.org/packages/17/b8/afaebd758b7601a05e7402c66bced2b0e7200ae8c86064c6f044c3cc9461/json_with_comments-1.2.0.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [jrnl]: Downloading https://files.pythonhosted.org/packages/d0/58/d5ad1533f81ddca23c7dc2e0a4dbe08b59a51a119c5995e49825e21287bd/jrnl-4.0b2.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/51/fb/4645e59e85d4f94290e5ca82a4d5cfc72b95221ff952d947943ce4ba2cba/determined-0.23.1rc1-py3-none-any.whl
+[2023-06-21 01:40:45] WARNING root fetch - processPackages [thermosteam]: Skipping package: exceeds size limit 16942699>=10485760
+[2023-06-21 01:40:45] INFO root fetch - processPackages [thermosteam]: Start processing: biosteam
+[2023-06-21 01:40:45] INFO root fetch - main [MainThread]: End processing [thermosteam] error
+[2023-06-21 01:40:45] INFO root fetch - processPackages [getpaper]: Downloading https://files.pythonhosted.org/packages/09/89/cf58a36c3a4a2c230489a70ac6cdf73a2ab16f4c1477e2692555c18517b6/getpaper-0.0.4.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [biosteam]: New version: [2.9.9] Old Version: [2.9.8]
+[2023-06-21 01:40:45] INFO root fetch - processPackages [getpaper]: executing diffoscope
+[2023-06-21 01:40:45] INFO root fetch - processPackages [getpaper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getpaper-0.0.3.tar.gz tmp/getpaper-0.0.4.tar.gz --markdown 20230621/g/getpaper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 01:40:45] INFO root fetch - processPackages [json-with-comments]: Downloading https://files.pythonhosted.org/packages/87/95/f20d8f754fb8745aff54ad445d48313491e632c6b04c17889cbb26003424/json_with_comments-1.2.1.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [unipropic]: Downloading https://files.pythonhosted.org/packages/d6/bd/ccb8b71b867ad600c03863475f67d5cacb501675bae30542dbc0a42f0a65/unipropic-1.1.3.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [aporia]: Downloading https://files.pythonhosted.org/packages/5f/e0/14db45334ef64657891aee9c7289052ebe7787b2f45ba031fee566422946/aporia-3.0.0a19.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [model-hub]: Downloading https://files.pythonhosted.org/packages/f4/16/528f14b7196eb7a5e0b79ae0dca17055ab911442aa00dc567a6596d56178/model_hub-0.23.1rc2-py3-none-any.whl
+[2023-06-21 01:40:45] INFO root fetch - processPackages [json-with-comments]: executing diffoscope
+[2023-06-21 01:40:45] INFO root fetch - processPackages [json-with-comments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_with_comments-1.2.0.tar.gz tmp/json_with_comments-1.2.1.tar.gz --markdown 20230621/j/json-with-comments/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-21 01:40:45] INFO root fetch - processPackages [fclogr]: Downloading https://files.pythonhosted.org/packages/9e/42/5063617113ea9c3274bee14d32fe12590cda86f5f1daeaffa7650d1b932e/fclogr-0.4.0.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [determined]: Downloading https://files.pythonhosted.org/packages/d7/e7/5c675dc6e3d8fc3727d8899642b3066f82bdf3e4d22e91a0c3e61b899138/determined-0.23.1rc2-py3-none-any.whl
+[2023-06-21 01:40:45] INFO root fetch - processPackages [biosteam]: Downloading https://files.pythonhosted.org/packages/9c/00/313204e69841aef03bab6e9e10a271b265d5baee12b666cb0f7eee0e9ab2/biosteam-2.9.8.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [pysros]: Downloading https://files.pythonhosted.org/packages/95/ab/a9b08018892123a3466a427721900cace167d6ab74d583ce6477c30a0066/pysros-23.3.3.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [jrnl]: Downloading https://files.pythonhosted.org/packages/d8/8c/ff75fc3a4fe0ce6139039431b615ae60413e6661772e5360b7f0f708a69d/jrnl-4.0b3.tar.gz
+[2023-06-21 01:40:45] INFO root fetch - processPackages [unipropic]: executing diffoscope
+[2023-06-21 01:40:45] INFO root fetch - processPackages [unipropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipropic-1.1.2.tar.gz tmp/unipropic-1.1.3.tar.gz --markdown 20230621/u/unipropic/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-21 01:40:45] INFO root fetch - processPackages [fclogr]: executing diffoscope
+[2023-06-21 01:40:45] INFO root fetch - processPackages [fclogr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fclogr-0.3.1.tar.gz tmp/fclogr-0.4.0.tar.gz --markdown 20230621/f/fclogr/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-21 01:40:46] INFO root fetch - processPackages [aporia]: executing diffoscope
+[2023-06-21 01:40:46] INFO root fetch - processPackages [aporia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aporia-3.0.0a18.tar.gz tmp/aporia-3.0.0a19.tar.gz --markdown 20230621/a/aporia/3.0.0a18-3.0.0a19/diff.md --exclude *.pyd
+[2023-06-21 01:40:46] INFO root fetch - processPackages [pysros]: executing diffoscope
+[2023-06-21 01:40:46] INFO root fetch - processPackages [pysros]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysros-23.3.2.tar.gz tmp/pysros-23.3.3.tar.gz --markdown 20230621/p/pysros/23.3.2-23.3.3/diff.md --exclude *.pyd
+[2023-06-21 01:40:46] INFO root fetch - processPackages [model-hub]: executing diffoscope
+[2023-06-21 01:40:46] INFO root fetch - processPackages [model-hub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/model_hub-0.23.1rc1-py3-none-any.whl.zip tmp/model_hub-0.23.1rc2-py3-none-any.whl.zip --markdown 20230621/m/model-hub/0.23.1rc1-0.23.1rc2/diff.md --exclude *.pyd
+[2023-06-21 01:40:46] INFO root fetch - processPackages [determined]: executing diffoscope
+[2023-06-21 01:40:46] INFO root fetch - processPackages [determined]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/determined-0.23.1rc1-py3-none-any.whl.zip tmp/determined-0.23.1rc2-py3-none-any.whl.zip --markdown 20230621/d/determined/0.23.1rc1-0.23.1rc2/diff.md --exclude *.pyd
+[2023-06-21 01:40:46] INFO root fetch - processPackages [jrnl]: executing diffoscope
+[2023-06-21 01:40:46] INFO root fetch - processPackages [jrnl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jrnl-4.0b2.tar.gz tmp/jrnl-4.0b3.tar.gz --markdown 20230621/j/jrnl/4.0b2-4.0b3/diff.md --exclude *.pyd
+[2023-06-21 01:40:46] INFO root fetch - processPackages [biosteam]: Downloading https://files.pythonhosted.org/packages/e8/20/f344b75b639fc3d827c69ecf18e63ab753349283dab6a010e8e2b8860aaa/biosteam-2.9.9.tar.gz
+[2023-06-21 01:40:46] INFO root fetch - processPackages [biosteam]: executing diffoscope
+[2023-06-21 01:40:46] INFO root fetch - processPackages [biosteam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosteam-2.9.8.tar.gz tmp/biosteam-2.9.9.tar.gz --markdown 20230621/b/biosteam/2.9.8-2.9.9/diff.md --exclude *.pyd
+[2023-06-21 01:40:47] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.0.3.tar.gz]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [getpaper]: Remove: archive file [/home/abi/fetcher/tmp/getpaper-0.0.4.tar.gz]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [getpaper]: Start processing: large-image
+[2023-06-21 01:40:47] INFO root fetch - main [MainThread]: End processing [getpaper]: success
+[2023-06-21 01:40:47] INFO root fetch - processPackages [large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/0e/97/f50d98f73951f053a140a085b971b043dc16e80844122ca59d5c2feeab13/large-image-1.9.1.dev6.tar.gz
+[2023-06-21 01:40:47] INFO root fetch - processPackages [json-with-comments]: Remove: archive file [/home/abi/fetcher/tmp/json_with_comments-1.2.0.tar.gz]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [json-with-comments]: Remove: archive file [/home/abi/fetcher/tmp/json_with_comments-1.2.1.tar.gz]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [json-with-comments]: Start processing: xGPR
+[2023-06-21 01:40:47] INFO root fetch - main [MainThread]: End processing [json-with-comments]: success
+[2023-06-21 01:40:47] INFO root fetch - processPackages [large-image]: Downloading https://files.pythonhosted.org/packages/22/c4/18264ad18d3664df703883e2fb520f69d307805c93779d26bdaab792bb0b/large-image-1.9.1.dev8.tar.gz
+[2023-06-21 01:40:47] INFO root fetch - processPackages [xGPR]: New version: [0.1.2.0] Old Version: [0.1.1.6]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [large-image]: executing diffoscope
+[2023-06-21 01:40:47] INFO root fetch - processPackages [large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-1.9.1.dev6.tar.gz tmp/large-image-1.9.1.dev8.tar.gz --markdown 20230621/l/large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-21 01:40:47] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/cf/83/7eb1e585c8988bd1df38bc396574ac70137a30c32db6a64e3f5e3a82360c/xGPR-0.1.1.6.tar.gz
+[2023-06-21 01:40:47] INFO root fetch - processPackages [unipropic]: Remove: archive file [/home/abi/fetcher/tmp/unipropic-1.1.2.tar.gz]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [unipropic]: Remove: archive file [/home/abi/fetcher/tmp/unipropic-1.1.3.tar.gz]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [unipropic]: Start processing: girder-large-image
+[2023-06-21 01:40:47] INFO root fetch - main [MainThread]: End processing [unipropic]: success
+[2023-06-21 01:40:47] INFO root fetch - processPackages [girder-large-image]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.1rc1-py3-none-any.whl.zip]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [model-hub]: Remove: archive file [/home/abi/fetcher/tmp/model_hub-0.23.1rc2-py3-none-any.whl.zip]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [model-hub]: Start processing: girder-large-image-annotation
+[2023-06-21 01:40:47] INFO root fetch - main [MainThread]: End processing [model-hub]: success
+[2023-06-21 01:40:47] INFO root fetch - processPackages [girder-large-image-annotation]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/a1/de/9259311e8ad31f3131b016ae68dbee28c3a85340a5611063ba07e130f4dd/girder-large-image-1.9.1.dev6.tar.gz
+[2023-06-21 01:40:47] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/c3/18/d99bf917c38c2bfe8e73289ba285a6777b5180e575625de79a961576422c/girder-large-image-annotation-1.9.1.dev6.tar.gz
+[2023-06-21 01:40:47] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/18/7c/fe0edaaf326ab85b410886f53eaac495cce7feae39c897e6760ae1c0dddb/xGPR-0.1.2.0.tar.gz
+[2023-06-21 01:40:47] INFO root fetch - processPackages [girder-large-image]: Downloading https://files.pythonhosted.org/packages/f9/12/4dfe66c1b3eae390e20ba6a8e5537d1e114e878fe6346c8b5dbb5b9efdcc/girder-large-image-1.9.1.dev8.tar.gz
+[2023-06-21 01:40:47] INFO root fetch - processPackages [girder-large-image]: executing diffoscope
+[2023-06-21 01:40:47] INFO root fetch - processPackages [girder-large-image]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-1.9.1.dev6.tar.gz tmp/girder-large-image-1.9.1.dev8.tar.gz --markdown 20230621/g/girder-large-image/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-21 01:40:47] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.0.0a18.tar.gz]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [aporia]: Remove: archive file [/home/abi/fetcher/tmp/aporia-3.0.0a19.tar.gz]
+[2023-06-21 01:40:47] INFO root fetch - processPackages [aporia]: Start processing: large-image-converter
+[2023-06-21 01:40:47] INFO root fetch - main [MainThread]: End processing [aporia]: success
+[2023-06-21 01:40:48] INFO root fetch - processPackages [pysros]: Remove: archive file [/home/abi/fetcher/tmp/pysros-23.3.2.tar.gz]
+[2023-06-21 01:40:48] INFO root fetch - processPackages [pysros]: Remove: archive file [/home/abi/fetcher/tmp/pysros-23.3.3.tar.gz]
+[2023-06-21 01:40:48] INFO root fetch - main [MainThread]: End processing [pysros]: success
+[2023-06-21 01:40:48] INFO root fetch - processPackages [xGPR]: executing diffoscope
+[2023-06-21 01:40:48] INFO root fetch - processPackages [xGPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xGPR-0.1.1.6.tar.gz tmp/xGPR-0.1.2.0.tar.gz --markdown 20230621/x/xGPR/0.1.1.6-0.1.2.0/diff.md --exclude *.pyd
+[2023-06-21 01:40:48] INFO root fetch - processPackages [jrnl]: Remove: archive file [/home/abi/fetcher/tmp/jrnl-4.0b2.tar.gz]
+[2023-06-21 01:40:48] INFO root fetch - processPackages [jrnl]: Remove: archive file [/home/abi/fetcher/tmp/jrnl-4.0b3.tar.gz]
+[2023-06-21 01:40:48] INFO root fetch - main [MainThread]: End processing [jrnl]: success
+[2023-06-21 01:40:48] INFO root fetch - processPackages [large-image-converter]: New version: [1.9.1.dev8] Old Version: [1.9.1.dev6]
+[2023-06-21 01:40:48] INFO root fetch - processPackages [fclogr]: Remove: archive file [/home/abi/fetcher/tmp/fclogr-0.3.1.tar.gz]
+[2023-06-21 01:40:48] INFO root fetch - processPackages [fclogr]: Remove: archive file [/home/abi/fetcher/tmp/fclogr-0.4.0.tar.gz]
+[2023-06-21 01:40:48] INFO root fetch - main [MainThread]: End processing [fclogr]: success
+[2023-06-21 01:40:48] INFO root fetch - processPackages [girder-large-image-annotation]: Downloading https://files.pythonhosted.org/packages/ca/57/fbf65f3374926f7df27919c0c3d3a4d433f93e014e2405e5aaec1aa92a23/girder-large-image-annotation-1.9.1.dev8.tar.gz
+[2023-06-21 01:40:48] INFO root fetch - processPackages [girder-large-image-annotation]: executing diffoscope
+[2023-06-21 01:40:48] INFO root fetch - processPackages [girder-large-image-annotation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz --markdown 20230621/g/girder-large-image-annotation/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-21 01:40:48] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/4e/e5/c672f0ad384f9f05d26e1baecedc8293d6d88840e5b9d9b43d657e8bfe20/large-image-converter-1.9.1.dev6.tar.gz
+[2023-06-21 01:40:48] INFO root fetch - processPackages [large-image-converter]: Downloading https://files.pythonhosted.org/packages/2d/90/b675b694e3b2886568e691207cf7a9f742a43b89fe6b6c1877548391d231/large-image-converter-1.9.1.dev8.tar.gz
+[2023-06-21 01:40:48] INFO root fetch - processPackages [large-image-converter]: executing diffoscope
+[2023-06-21 01:40:48] INFO root fetch - processPackages [large-image-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/large-image-converter-1.9.1.dev6.tar.gz tmp/large-image-converter-1.9.1.dev8.tar.gz --markdown 20230621/l/large-image-converter/1.9.1.dev6-1.9.1.dev8/diff.md --exclude *.pyd
+[2023-06-21 01:40:49] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev6.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - processPackages [girder-large-image]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-1.9.1.dev8.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - main [MainThread]: End processing [girder-large-image]: success
+[2023-06-21 01:40:49] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev6.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - processPackages [large-image]: Remove: archive file [/home/abi/fetcher/tmp/large-image-1.9.1.dev8.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - main [MainThread]: End processing [large-image]: success
+[2023-06-21 01:40:49] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev6.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - processPackages [large-image-converter]: Remove: archive file [/home/abi/fetcher/tmp/large-image-converter-1.9.1.dev8.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - main [MainThread]: End processing [large-image-converter]: success
+[2023-06-21 01:40:49] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev6.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - processPackages [girder-large-image-annotation]: Remove: archive file [/home/abi/fetcher/tmp/girder-large-image-annotation-1.9.1.dev8.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - main [MainThread]: End processing [girder-large-image-annotation]: success
+[2023-06-21 01:40:49] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.1rc1-py3-none-any.whl.zip]
+[2023-06-21 01:40:49] INFO root fetch - processPackages [determined]: Remove: archive file [/home/abi/fetcher/tmp/determined-0.23.1rc2-py3-none-any.whl.zip]
+[2023-06-21 01:40:49] INFO root fetch - main [MainThread]: End processing [determined]: success
+[2023-06-21 01:40:49] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.1.6.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.2.0.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - main [MainThread]: End processing [xGPR]: success
+[2023-06-21 01:40:49] INFO root fetch - processPackages [biosteam]: Remove: archive file [/home/abi/fetcher/tmp/biosteam-2.9.8.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - processPackages [biosteam]: Remove: archive file [/home/abi/fetcher/tmp/biosteam-2.9.9.tar.gz]
+[2023-06-21 01:40:49] INFO root fetch - main [MainThread]: End processing [biosteam]: success
+[2023-06-21 01:40:49] INFO root fetch - main [MainThread]: Store serial: [18581235]
