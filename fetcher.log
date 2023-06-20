@@ -1074,3 +1074,45 @@
 [2023-06-21 01:25:13] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.2.8.dev7.tar.gz]
 [2023-06-21 01:25:13] INFO root fetch - main [MainThread]: End processing [tonic]: success
 [2023-06-21 01:25:13] INFO root fetch - main [MainThread]: Store serial: [18581163]
+[2023-06-21 01:30:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581163]
+[2023-06-21 01:30:23] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-21 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mixy
+[2023-06-21 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: covalent-braket-plugin
+[2023-06-21 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easymaker
+[2023-06-21 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pillar1
+[2023-06-21 01:30:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: firenze
+[2023-06-21 01:30:23] INFO root fetch - processPackages [mixy]: New version: [1.9.0] Old Version: [1.10.1]
+[2023-06-21 01:30:23] INFO root fetch - processPackages [covalent-braket-plugin]: New version: [0.9.0rc0] Old Version: [0.8.0rc0]
+[2023-06-21 01:30:23] INFO root fetch - processPackages [easymaker]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-21 01:30:23] INFO root fetch - processPackages [pillar1]: New version: [0.1.5.9] Old Version: [0.1.5.8]
+[2023-06-21 01:30:23] WARNING root fetch - processPackages [firenze]: Skipping, unable to determine old version
+[2023-06-21 01:30:23] INFO root fetch - main [MainThread]: End processing [firenze] error
+[2023-06-21 01:30:23] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/61/a1/7d94e9537d35bc2b55079abf02dd3221a16887ca0d8b43a23f0a0fcd3e98/pillar1-0.1.5.8.tar.gz
+[2023-06-21 01:30:23] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/98/e1/2ba6df9586cf47689b5175b2a09829447e5312d5dd38eed2c656ddcfa652/easymaker-1.0.8-py3-none-any.whl
+[2023-06-21 01:30:23] INFO root fetch - processPackages [mixy]: Downloading https://files.pythonhosted.org/packages/ab/a8/4def51a5e7c0706f9d3c9a727afb3a9a9e0c45273a0e98ff4de566c27965/mixy-1.10.1.tar.gz
+[2023-06-21 01:30:23] INFO root fetch - processPackages [covalent-braket-plugin]: Downloading https://files.pythonhosted.org/packages/1d/89/11c0cabac27f125e99ee603a5873e659dc7224aaecb685237c36fa49e99c/covalent-braket-plugin-0.8.0rc0.tar.gz
+[2023-06-21 01:30:23] INFO root fetch - processPackages [easymaker]: Downloading https://files.pythonhosted.org/packages/0b/57/43b3478a8184079a46ab3ee4d683b9500b28c36a9cc3a37c6fce08a27f52/easymaker-1.0.9-py3-none-any.whl
+[2023-06-21 01:30:23] INFO root fetch - processPackages [mixy]: Downloading https://files.pythonhosted.org/packages/05/2f/990dd2f7f43f7a566dadbb81c5c1df6738340ad928526f713067648fa57b/mixy-1.9.0.tar.gz
+[2023-06-21 01:30:23] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/b1/ed/03f5e7aab1d1371f711ae452ee0b707227b220d748f21bc026e2fa40f358/pillar1-0.1.5.9.tar.gz
+[2023-06-21 01:30:23] INFO root fetch - processPackages [easymaker]: executing diffoscope
+[2023-06-21 01:30:23] INFO root fetch - processPackages [easymaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easymaker-1.0.8-py3-none-any.whl.zip tmp/easymaker-1.0.9-py3-none-any.whl.zip --markdown 20230621/e/easymaker/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-21 01:30:23] INFO root fetch - processPackages [mixy]: executing diffoscope
+[2023-06-21 01:30:23] INFO root fetch - processPackages [mixy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mixy-1.10.1.tar.gz tmp/mixy-1.9.0.tar.gz --markdown 20230621/m/mixy/1.10.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-21 01:30:23] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-21 01:30:23] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.5.8.tar.gz tmp/pillar1-0.1.5.9.tar.gz --markdown 20230621/p/pillar1/0.1.5.8-0.1.5.9/diff.md --exclude *.pyd
+[2023-06-21 01:30:24] INFO root fetch - processPackages [covalent-braket-plugin]: Downloading https://files.pythonhosted.org/packages/1e/e8/6093feea936e84fc52a22be0776a5959591b42baea7c91f761ac1bac0ca1/covalent-braket-plugin-0.9.0rc0.tar.gz
+[2023-06-21 01:30:24] INFO root fetch - processPackages [covalent-braket-plugin]: executing diffoscope
+[2023-06-21 01:30:24] INFO root fetch - processPackages [covalent-braket-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/covalent-braket-plugin-0.8.0rc0.tar.gz tmp/covalent-braket-plugin-0.9.0rc0.tar.gz --markdown 20230621/c/covalent-braket-plugin/0.8.0rc0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-21 01:30:24] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.5.8.tar.gz]
+[2023-06-21 01:30:24] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.5.9.tar.gz]
+[2023-06-21 01:30:24] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-21 01:30:24] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.0.8-py3-none-any.whl.zip]
+[2023-06-21 01:30:24] INFO root fetch - processPackages [easymaker]: Remove: archive file [/home/abi/fetcher/tmp/easymaker-1.0.9-py3-none-any.whl.zip]
+[2023-06-21 01:30:24] INFO root fetch - main [MainThread]: End processing [easymaker]: success
+[2023-06-21 01:30:25] INFO root fetch - processPackages [mixy]: Remove: archive file [/home/abi/fetcher/tmp/mixy-1.10.1.tar.gz]
+[2023-06-21 01:30:25] INFO root fetch - processPackages [mixy]: Remove: archive file [/home/abi/fetcher/tmp/mixy-1.9.0.tar.gz]
+[2023-06-21 01:30:25] INFO root fetch - main [MainThread]: End processing [mixy]: success
+[2023-06-21 01:30:25] INFO root fetch - processPackages [covalent-braket-plugin]: Remove: archive file [/home/abi/fetcher/tmp/covalent-braket-plugin-0.8.0rc0.tar.gz]
+[2023-06-21 01:30:25] INFO root fetch - processPackages [covalent-braket-plugin]: Remove: archive file [/home/abi/fetcher/tmp/covalent-braket-plugin-0.9.0rc0.tar.gz]
+[2023-06-21 01:30:25] INFO root fetch - main [MainThread]: End processing [covalent-braket-plugin]: success
+[2023-06-21 01:30:25] INFO root fetch - main [MainThread]: Store serial: [18581179]
