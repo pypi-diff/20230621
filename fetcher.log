@@ -825,3 +825,86 @@
 [2023-06-21 01:04:18] INFO root fetch - processPackages [caikit]: Remove: archive file [/home/abi/fetcher/tmp/caikit-0.9.0.tar.gz]
 [2023-06-21 01:04:18] INFO root fetch - main [MainThread]: End processing [caikit]: success
 [2023-06-21 01:04:18] INFO root fetch - main [MainThread]: Store serial: [18581073]
+[2023-06-21 01:09:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581073]
+[2023-06-21 01:09:27] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iambic-core
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: task-timer-birdhouses
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Zennin
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyqrack
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: vsiew
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: neon-skill-alerts
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-skill-user-settings
+[2023-06-21 01:09:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: c2validator
+[2023-06-21 01:09:27] INFO root fetch - processPackages [iambic-core]: New version: [0.9.8] Old Version: [0.9.6]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [task-timer-birdhouses]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [pyqrack]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [Zennin]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [neon-skill-alerts]: New version: [1.5.2a3] Old Version: [1.5.2a2]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [vsiew]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/28/29/f16cb84b71504321dc06c36eb231f91bd576824fb0425d18edef846c9e14/pyqrack-1.9.5.tar.gz
+[2023-06-21 01:09:27] INFO root fetch - processPackages [c2validator]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [neon-skill-user-settings]: New version: [0.5.2a3] Old Version: [0.5.2a2]
+[2023-06-21 01:09:27] INFO root fetch - processPackages [task-timer-birdhouses]: Downloading https://files.pythonhosted.org/packages/6d/72/4173f867430f86e632e2d0faf185ede967832f72aedcd541f123c21bf450/task_timer_birdhouses-0.0.3.tar.gz
+[2023-06-21 01:09:27] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/9e/25/21eeb36df4421605a4e9a0f3f4ff71207d35463557f2a464b38aa3200082/iambic_core-0.9.6.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [neon-skill-alerts]: Downloading https://files.pythonhosted.org/packages/e3/aa/6f91b9372dd47dd9d63cd4bbf6104f4a0d515b20cfbc3c1919cab66107ad/neon-skill-alerts-1.5.2a2.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [pyqrack]: Downloading https://files.pythonhosted.org/packages/34/a1/c6968107745c3dcebdaf556a582d8f63f49943f43c90a7d33e04b0397f53/pyqrack-1.9.6.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/bd/43/63f53b492b3cec0f6b1e29586e1a3c426cc6df8543bc4bf341dd132450c3/vsiew-2.3.4.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [c2validator]: Downloading https://files.pythonhosted.org/packages/d6/8b/45221fd4d6945eb9aae4e5b2611b7ec0b687906b0db0f2714275265587fc/c2validator-1.0.0.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/eb/f9/37503c420e34c0b3f41009c59d886dbb5726c31006bbb57d3ce3944ab1f5/neon-skill-user_settings-0.5.2a2.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [pyqrack]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [pyqrack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyqrack-1.9.5.tar.gz tmp/pyqrack-1.9.6.tar.gz --markdown 20230621/p/pyqrack/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-21 01:09:28] INFO root fetch - processPackages [task-timer-birdhouses]: Downloading https://files.pythonhosted.org/packages/31/4c/2259081d97d152346bc6c922a996af17a7d0d8236e4d9f64e2f16ef7f35c/task_timer_birdhouses-0.0.4.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [Zennin]: Downloading https://files.pythonhosted.org/packages/be/cc/940b5515c02019da7728d294265258ebe1a80cd977c37dd83c0acc4d23d9/Zennin-1.1.0.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [task-timer-birdhouses]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [task-timer-birdhouses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_timer_birdhouses-0.0.3.tar.gz tmp/task_timer_birdhouses-0.0.4.tar.gz --markdown 20230621/t/task-timer-birdhouses/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 01:09:28] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/66/9d/b5310f68d0016f8b7ddd883986d5d432b91284f60cd6794b565e619e3457/vsiew-2.3.5.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [Zennin]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [Zennin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Zennin-1.0.0.tar.gz tmp/Zennin-1.1.0.tar.gz --markdown 20230621/Z/Zennin/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 01:09:28] INFO root fetch - processPackages [iambic-core]: Downloading https://files.pythonhosted.org/packages/6f/80/c1e31a0542c8c742b4f9f67bf67da9ea788a31fe7a030465447db59f3205/iambic_core-0.9.8.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [c2validator]: Downloading https://files.pythonhosted.org/packages/9e/b2/c14d30da82cc4d48a49a210464f12517df2e78814d3dfc65cf567b19029c/c2validator-1.0.1.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [iambic-core]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [iambic-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iambic_core-0.9.6.tar.gz tmp/iambic_core-0.9.8.tar.gz --markdown 20230621/i/iambic-core/0.9.6-0.9.8/diff.md --exclude *.pyd
+[2023-06-21 01:09:28] INFO root fetch - processPackages [neon-skill-alerts]: Downloading https://files.pythonhosted.org/packages/e2/c5/5725ec2b1d48096f3f94b180ac1b6e25346eb52d3558677751d5dff17667/neon-skill-alerts-1.5.2a3.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [neon-skill-user-settings]: Downloading https://files.pythonhosted.org/packages/b0/4c/42552cb51baa7a83aaf9cefbdbca594525753a94d305fe37338db41d4030/neon-skill-user_settings-0.5.2a3.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [vsiew]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [vsiew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsiew-2.3.4.tar.gz tmp/vsiew-2.3.5.tar.gz --markdown 20230621/v/vsiew/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-06-21 01:09:28] INFO root fetch - processPackages [c2validator]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [c2validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2validator-1.0.0.tar.gz tmp/c2validator-1.0.1.tar.gz --markdown 20230621/c/c2validator/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-21 01:09:28] INFO root fetch - processPackages [neon-skill-alerts]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [neon-skill-alerts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-alerts-1.5.2a2.tar.gz tmp/neon-skill-alerts-1.5.2a3.tar.gz --markdown 20230621/n/neon-skill-alerts/1.5.2a2-1.5.2a3/diff.md --exclude *.pyd
+[2023-06-21 01:09:28] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-21 01:09:28] INFO root fetch - processPackages [neon-skill-user-settings]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [neon-skill-user-settings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-skill-user_settings-0.5.2a2.tar.gz tmp/neon-skill-user_settings-0.5.2a3.tar.gz --markdown 20230621/n/neon-skill-user-settings/0.5.2a2-0.5.2a3/diff.md --exclude *.pyd
+[2023-06-21 01:09:28] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-21 01:09:28] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230621/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 01:09:29] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.5.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - processPackages [pyqrack]: Remove: archive file [/home/abi/fetcher/tmp/pyqrack-1.9.6.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - main [MainThread]: End processing [pyqrack]: success
+[2023-06-21 01:09:29] INFO root fetch - processPackages [task-timer-birdhouses]: Remove: archive file [/home/abi/fetcher/tmp/task_timer_birdhouses-0.0.3.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - processPackages [task-timer-birdhouses]: Remove: archive file [/home/abi/fetcher/tmp/task_timer_birdhouses-0.0.4.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - main [MainThread]: End processing [task-timer-birdhouses]: success
+[2023-06-21 01:09:29] INFO root fetch - processPackages [Zennin]: Remove: archive file [/home/abi/fetcher/tmp/Zennin-1.0.0.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - processPackages [Zennin]: Remove: archive file [/home/abi/fetcher/tmp/Zennin-1.1.0.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - main [MainThread]: End processing [Zennin]: success
+[2023-06-21 01:09:29] INFO root fetch - processPackages [vsiew]: Remove: archive file [/home/abi/fetcher/tmp/vsiew-2.3.4.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - processPackages [vsiew]: Remove: archive file [/home/abi/fetcher/tmp/vsiew-2.3.5.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - main [MainThread]: End processing [vsiew]: success
+[2023-06-21 01:09:29] INFO root fetch - processPackages [c2validator]: Remove: archive file [/home/abi/fetcher/tmp/c2validator-1.0.0.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - processPackages [c2validator]: Remove: archive file [/home/abi/fetcher/tmp/c2validator-1.0.1.tar.gz]
+[2023-06-21 01:09:29] INFO root fetch - main [MainThread]: End processing [c2validator]: success
+[2023-06-21 01:09:30] INFO root fetch - processPackages [neon-skill-alerts]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-alerts-1.5.2a2.tar.gz]
+[2023-06-21 01:09:30] INFO root fetch - processPackages [neon-skill-alerts]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-alerts-1.5.2a3.tar.gz]
+[2023-06-21 01:09:30] INFO root fetch - main [MainThread]: End processing [neon-skill-alerts]: success
+[2023-06-21 01:09:30] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.6.tar.gz]
+[2023-06-21 01:09:30] INFO root fetch - processPackages [iambic-core]: Remove: archive file [/home/abi/fetcher/tmp/iambic_core-0.9.8.tar.gz]
+[2023-06-21 01:09:30] INFO root fetch - main [MainThread]: End processing [iambic-core]: success
+[2023-06-21 01:09:31] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-21 01:09:31] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-21 01:09:31] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-21 01:09:32] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-0.5.2a2.tar.gz]
+[2023-06-21 01:09:32] INFO root fetch - processPackages [neon-skill-user-settings]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-user_settings-0.5.2a3.tar.gz]
+[2023-06-21 01:09:32] INFO root fetch - main [MainThread]: End processing [neon-skill-user-settings]: success
+[2023-06-21 01:09:32] INFO root fetch - main [MainThread]: Store serial: [18581106]
