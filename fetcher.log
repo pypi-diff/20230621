@@ -410,3 +410,64 @@
 [2023-06-21 00:29:40] INFO root fetch - processPackages [easynetwork]: Remove: archive file [/home/abi/fetcher/tmp/easynetwork-1.0.0rc2.tar.gz]
 [2023-06-21 00:29:40] INFO root fetch - main [MainThread]: End processing [easynetwork]: success
 [2023-06-21 00:29:40] INFO root fetch - main [MainThread]: Store serial: [18580854]
+[2023-06-21 00:34:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580854]
+[2023-06-21 00:34:52] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 00:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bikeshed
+[2023-06-21 00:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: NikGapps
+[2023-06-21 00:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xgt
+[2023-06-21 00:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spatialdata
+[2023-06-21 00:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: circlecigen
+[2023-06-21 00:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: powervaultpy
+[2023-06-21 00:34:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biosimulators-utils
+[2023-06-21 00:34:52] INFO root fetch - processPackages [powervaultpy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 00:34:52] INFO root fetch - processPackages [spatialdata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 00:34:52] INFO root fetch - processPackages [bikeshed]: New version: [3.9.0] Old Version: [3.8.2]
+[2023-06-21 00:34:52] INFO root fetch - processPackages [xgt]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-21 00:34:52] INFO root fetch - processPackages [biosimulators-utils]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-21 00:34:52] INFO root fetch - processPackages [circlecigen]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-21 00:34:52] INFO root fetch - processPackages [NikGapps]: New version: [1.43] Old Version: [1.42]
+[2023-06-21 00:34:53] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/33/bb/7d590666b2d71baa9a6ab61024d9fcdb6ccd87821c32e8e007bb25f04efa/circlecigen-0.0.5.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [biosimulators-utils]: Downloading https://files.pythonhosted.org/packages/25/6c/85a159acee27368bf12148335b218a7e4fdbfde5b66d42a3f9528450acfa/biosimulators_utils-0.1.98.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/6d/b4/bf769254ba7e0a962a9e496fc43c771403b164c790ed22f7c50f9cc0d6d1/spatialdata-0.0.8.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/f3/43/99fa8877947da61dd931de6805daa8c8f40be40fded5cc02222e3ec60da8/NikGapps-1.42.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/8d/01/4bf86ee6dd68b65b221cc8cd652fcdadf6ef3763d556ba2ed9d328fd7e70/bikeshed-3.8.2.tar.gz
+[2023-06-21 00:34:53] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564064>=10485760
+[2023-06-21 00:34:53] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-21 00:34:53] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/7a/35/3bcaeb12b38b9569e5e40c673271bf985319a08eaed5cb719e82ae950e04/powervaultpy-0.0.4.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [circlecigen]: Downloading https://files.pythonhosted.org/packages/15/a4/2df923ab776f49ebfd52f766c8424fb66669eb3bd9c0681c15a91ebe35d8/circlecigen-0.0.6.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [xgt]: Downloading https://files.pythonhosted.org/packages/2c/df/2fc18eb5e7f103b270ca2977f0e7121aff3da5013e5e785093bf51cd3b06/xgt-1.8.0.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [circlecigen]: executing diffoscope
+[2023-06-21 00:34:53] INFO root fetch - processPackages [circlecigen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circlecigen-0.0.5.tar.gz tmp/circlecigen-0.0.6.tar.gz --markdown 20230621/c/circlecigen/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-21 00:34:53] INFO root fetch - processPackages [biosimulators-utils]: Downloading https://files.pythonhosted.org/packages/79/13/33cca9b16397be074e582474230f025101eb91b9a0987551b78d9d868f85/biosimulators_utils-0.1.99.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [powervaultpy]: Downloading https://files.pythonhosted.org/packages/56/51/e9d08c4508d2b1f507c4dbd0d1285d4b1e9b6b6a4240eda6561aa0d55adc/powervaultpy-0.0.5.tar.gz
+[2023-06-21 00:34:53] INFO root fetch - processPackages [biosimulators-utils]: executing diffoscope
+[2023-06-21 00:34:53] INFO root fetch - processPackages [biosimulators-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosimulators_utils-0.1.98.tar.gz tmp/biosimulators_utils-0.1.99.tar.gz --markdown 20230621/b/biosimulators-utils/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-21 00:34:53] INFO root fetch - processPackages [powervaultpy]: executing diffoscope
+[2023-06-21 00:34:53] INFO root fetch - processPackages [powervaultpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powervaultpy-0.0.4.tar.gz tmp/powervaultpy-0.0.5.tar.gz --markdown 20230621/p/powervaultpy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 00:34:53] INFO root fetch - processPackages [xgt]: Downloading https://files.pythonhosted.org/packages/40/f9/e2a36c7adb0517a7efa93b81f0aca7bc4fb667d19f520104c30ec32a315a/xgt-1.9.0.tar.gz
+[2023-06-21 00:34:54] INFO root fetch - processPackages [xgt]: executing diffoscope
+[2023-06-21 00:34:54] INFO root fetch - processPackages [xgt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xgt-1.8.0.tar.gz tmp/xgt-1.9.0.tar.gz --markdown 20230621/x/xgt/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-21 00:34:54] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.4.tar.gz]
+[2023-06-21 00:34:54] INFO root fetch - processPackages [powervaultpy]: Remove: archive file [/home/abi/fetcher/tmp/powervaultpy-0.0.5.tar.gz]
+[2023-06-21 00:34:54] INFO root fetch - main [MainThread]: End processing [powervaultpy]: success
+[2023-06-21 00:34:54] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.5.tar.gz]
+[2023-06-21 00:34:54] INFO root fetch - processPackages [circlecigen]: Remove: archive file [/home/abi/fetcher/tmp/circlecigen-0.0.6.tar.gz]
+[2023-06-21 00:34:54] INFO root fetch - main [MainThread]: End processing [circlecigen]: success
+[2023-06-21 00:34:54] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/f6/91/79759fb7bbacba8d4508c3f5beed37718ac3ece8bd5edf33c7d915bc7e3d/spatialdata-0.0.9.tar.gz
+[2023-06-21 00:34:55] INFO root fetch - processPackages [xgt]: Remove: archive file [/home/abi/fetcher/tmp/xgt-1.8.0.tar.gz]
+[2023-06-21 00:34:55] INFO root fetch - processPackages [xgt]: Remove: archive file [/home/abi/fetcher/tmp/xgt-1.9.0.tar.gz]
+[2023-06-21 00:34:55] INFO root fetch - main [MainThread]: End processing [xgt]: success
+[2023-06-21 00:34:55] INFO root fetch - processPackages [spatialdata]: executing diffoscope
+[2023-06-21 00:34:55] INFO root fetch - processPackages [spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata-0.0.8.tar.gz tmp/spatialdata-0.0.9.tar.gz --markdown 20230621/s/spatialdata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 00:34:55] INFO root fetch - processPackages [biosimulators-utils]: Remove: archive file [/home/abi/fetcher/tmp/biosimulators_utils-0.1.98.tar.gz]
+[2023-06-21 00:34:55] INFO root fetch - processPackages [biosimulators-utils]: Remove: archive file [/home/abi/fetcher/tmp/biosimulators_utils-0.1.99.tar.gz]
+[2023-06-21 00:34:55] INFO root fetch - main [MainThread]: End processing [biosimulators-utils]: success
+[2023-06-21 00:34:56] INFO root fetch - processPackages [bikeshed]: Downloading https://files.pythonhosted.org/packages/0d/7b/7da3451cea6ea989a5021170faad121ec4e6491f37be25499c9e2f10b1cb/bikeshed-3.9.0.tar.gz
+[2023-06-21 00:34:56] INFO root fetch - processPackages [spatialdata]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata-0.0.8.tar.gz]
+[2023-06-21 00:34:56] INFO root fetch - processPackages [spatialdata]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata-0.0.9.tar.gz]
+[2023-06-21 00:34:56] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
+[2023-06-21 00:34:58] INFO root fetch - processPackages [bikeshed]: executing diffoscope
+[2023-06-21 00:34:58] INFO root fetch - processPackages [bikeshed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bikeshed-3.8.2.tar.gz tmp/bikeshed-3.9.0.tar.gz --markdown 20230621/b/bikeshed/3.8.2-3.9.0/diff.md --exclude *.pyd
+[2023-06-21 00:37:58] ERROR root fetch - processPackages [bikeshed]: Timeout during execution of pkgdiff
+[2023-06-21 00:37:58] INFO root fetch - main [MainThread]: End processing [bikeshed] error
+[2023-06-21 00:37:58] INFO root fetch - main [MainThread]: Store serial: [18580875]
