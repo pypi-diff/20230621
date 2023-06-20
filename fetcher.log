@@ -965,3 +965,70 @@
 [2023-06-21 01:14:48] INFO root fetch - processPackages [ligo-followup-advocate]: Remove: archive file [/home/abi/fetcher/tmp/ligo-followup-advocate-1.2.4.tar.gz]
 [2023-06-21 01:14:48] INFO root fetch - main [MainThread]: End processing [ligo-followup-advocate]: success
 [2023-06-21 01:14:48] INFO root fetch - main [MainThread]: Store serial: [18581124]
+[2023-06-21 01:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581124]
+[2023-06-21 01:19:57] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-21 01:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2validator
+[2023-06-21 01:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py2http
+[2023-06-21 01:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: oexp
+[2023-06-21 01:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remQte
+[2023-06-21 01:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-21 01:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-21 01:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: atila
+[2023-06-21 01:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt-engineer
+[2023-06-21 01:19:58] INFO root fetch - processPackages [oexp]: New version: [0.9.0] Old Version: [0.8.5]
+[2023-06-21 01:19:58] INFO root fetch - processPackages [c2validator]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-21 01:19:58] INFO root fetch - processPackages [py2http]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 01:19:58] WARNING root fetch - processPackages [remQte]: Skipping, unable to determine old version
+[2023-06-21 01:19:58] INFO root fetch - main [MainThread]: End processing [remQte] error
+[2023-06-21 01:19:58] INFO root fetch - processPackages [gpt-engineer]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.372] Old Version: [0.3.371]
+[2023-06-21 01:19:58] INFO root fetch - processPackages [atila]: New version: [0.9.7.1] Old Version: [0.9.7]
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.372] Old Version: [0.3.371]
+[2023-06-21 01:19:58] INFO root fetch - processPackages [c2validator]: Downloading https://files.pythonhosted.org/packages/9e/b2/c14d30da82cc4d48a49a210464f12517df2e78814d3dfc65cf567b19029c/c2validator-1.0.1.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a3/05/5a30434721c18e72e77bfc9151acc41effddb010fb1a298fdd2f6908dc22/pepperize.cdk-ses-smtp-credentials-0.3.371.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/a3/05/5a30434721c18e72e77bfc9151acc41effddb010fb1a298fdd2f6908dc22/pepperize.cdk-ses-smtp-credentials-0.3.371.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/85/4c/bde62c7c187f4ca63e5947fe17cae936a6b9dd01e8afe47026f824763809/oexp-0.8.5.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [gpt-engineer]: Downloading https://files.pythonhosted.org/packages/da/5f/0e2d563e8f4e81944816f8f3a2a1f9535b1ca8715b05cc166884c8655362/gpt-engineer-0.0.3.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [py2http]: Downloading https://files.pythonhosted.org/packages/9b/65/1baaf73a41c464616f8223ce5f58cb06749436b290e9a026ae45712e3fc3/py2http-0.1.8.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [atila]: Downloading https://files.pythonhosted.org/packages/73/72/88ca7bf3e93e277b35f9ffbcb0d0ab076500429a5f5dbc889c41925a505f/atila-0.9.7-py3-none-any.whl
+[2023-06-21 01:19:58] INFO root fetch - processPackages [c2validator]: Downloading https://files.pythonhosted.org/packages/ee/12/7fa5d33885b98826f0b57c464df773a0c1d78de173d9b49a10a8755e8c62/c2validator-1.0.2.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [c2validator]: executing diffoscope
+[2023-06-21 01:19:58] INFO root fetch - processPackages [c2validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2validator-1.0.1.tar.gz tmp/c2validator-1.0.2.tar.gz --markdown 20230621/c/c2validator/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-21 01:19:58] INFO root fetch - processPackages [gpt-engineer]: Downloading https://files.pythonhosted.org/packages/8c/62/f406c95f2ef688d890a7678277df353c941cedd6d3f3e5a6351d926c51d2/gpt-engineer-0.0.4.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [oexp]: Downloading https://files.pythonhosted.org/packages/a8/31/f4f8c82d93f79a2969ce1e754a862acf207431d0f462f085d4b44a8d2ffb/oexp-0.9.0.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/fe/9e/7205a9ce5c51e94a6901ba77d56e607f06b104d8f56f1abc37c93c1c3e6e/pepperize.cdk-ses-smtp-credentials-0.3.372.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/fe/9e/7205a9ce5c51e94a6901ba77d56e607f06b104d8f56f1abc37c93c1c3e6e/pepperize.cdk-ses-smtp-credentials-0.3.372.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [gpt-engineer]: executing diffoscope
+[2023-06-21 01:19:58] INFO root fetch - processPackages [gpt-engineer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-engineer-0.0.3.tar.gz tmp/gpt-engineer-0.0.4.tar.gz --markdown 20230621/g/gpt-engineer/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 01:19:58] INFO root fetch - processPackages [oexp]: executing diffoscope
+[2023-06-21 01:19:58] INFO root fetch - processPackages [oexp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oexp-0.8.5.tar.gz tmp/oexp-0.9.0.tar.gz --markdown 20230621/o/oexp/0.8.5-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 01:19:58] INFO root fetch - processPackages [py2http]: Downloading https://files.pythonhosted.org/packages/d4/25/d69cee832899629546248ac4b21d02a4969256ad3a591e1cea1aeb805515/py2http-0.1.9.tar.gz
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.371.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.372.tar.gz --markdown 20230621/p/pepperize.cdk-ses-smtp-credentials/0.3.371-0.3.372/diff.md --exclude *.pyd
+[2023-06-21 01:19:58] INFO root fetch - processPackages [atila]: Downloading https://files.pythonhosted.org/packages/a3/f2/592a655fe2082a91ef438ffbb596679e93a2596f65d61473cff095549848/atila-0.9.7.1-py3-none-any.whl
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-21 01:19:58] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.371.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.372.tar.gz --markdown 20230621/p/pepperize.cdk-ses-smtp-credentials/0.3.371-0.3.372/diff.md --exclude *.pyd
+[2023-06-21 01:19:58] INFO root fetch - processPackages [atila]: executing diffoscope
+[2023-06-21 01:19:58] INFO root fetch - processPackages [atila]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/atila-0.9.7-py3-none-any.whl.zip tmp/atila-0.9.7.1-py3-none-any.whl.zip --markdown 20230621/a/atila/0.9.7-0.9.7.1/diff.md --exclude *.pyd
+[2023-06-21 01:19:58] INFO root fetch - processPackages [py2http]: executing diffoscope
+[2023-06-21 01:19:58] INFO root fetch - processPackages [py2http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py2http-0.1.8.tar.gz tmp/py2http-0.1.9.tar.gz --markdown 20230621/p/py2http/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 01:19:59] INFO root fetch - processPackages [c2validator]: Remove: archive file [/home/abi/fetcher/tmp/c2validator-1.0.1.tar.gz]
+[2023-06-21 01:19:59] INFO root fetch - processPackages [c2validator]: Remove: archive file [/home/abi/fetcher/tmp/c2validator-1.0.2.tar.gz]
+[2023-06-21 01:19:59] INFO root fetch - main [MainThread]: End processing [c2validator]: success
+[2023-06-21 01:19:59] INFO root fetch - processPackages [gpt-engineer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-engineer-0.0.3.tar.gz]
+[2023-06-21 01:19:59] INFO root fetch - processPackages [gpt-engineer]: Remove: archive file [/home/abi/fetcher/tmp/gpt-engineer-0.0.4.tar.gz]
+[2023-06-21 01:19:59] INFO root fetch - main [MainThread]: End processing [gpt-engineer]: success
+[2023-06-21 01:19:59] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.8.5.tar.gz]
+[2023-06-21 01:19:59] INFO root fetch - processPackages [oexp]: Remove: archive file [/home/abi/fetcher/tmp/oexp-0.9.0.tar.gz]
+[2023-06-21 01:19:59] INFO root fetch - main [MainThread]: End processing [oexp]: success
+[2023-06-21 01:20:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.371.tar.gz]
+[2023-06-21 01:20:00] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.372.tar.gz]
+[2023-06-21 01:20:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-21 01:20:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-21 01:20:00] INFO root fetch - processPackages [atila]: Remove: archive file [/home/abi/fetcher/tmp/atila-0.9.7-py3-none-any.whl.zip]
+[2023-06-21 01:20:00] INFO root fetch - processPackages [atila]: Remove: archive file [/home/abi/fetcher/tmp/atila-0.9.7.1-py3-none-any.whl.zip]
+[2023-06-21 01:20:00] INFO root fetch - main [MainThread]: End processing [atila]: success
+[2023-06-21 01:20:01] INFO root fetch - processPackages [py2http]: Remove: archive file [/home/abi/fetcher/tmp/py2http-0.1.8.tar.gz]
+[2023-06-21 01:20:01] INFO root fetch - processPackages [py2http]: Remove: archive file [/home/abi/fetcher/tmp/py2http-0.1.9.tar.gz]
+[2023-06-21 01:20:01] INFO root fetch - main [MainThread]: End processing [py2http]: success
+[2023-06-21 01:20:01] INFO root fetch - main [MainThread]: Store serial: [18581148]
