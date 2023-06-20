@@ -1648,3 +1648,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 01:46:15] INFO root fetch - processPackages [pulumi-gcp]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gcp-6.9.0a1643146354.tar.gz]
 [2023-06-21 01:46:15] INFO root fetch - main [MainThread]: End processing [pulumi-gcp]: success
 [2023-06-21 01:46:15] INFO root fetch - main [MainThread]: Store serial: [18581320]
+[2023-06-21 01:51:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581320]
+[2023-06-21 01:51:24] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: google-cloud-pipeline-components
+[2023-06-21 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pillar1
+[2023-06-21 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cfr
+[2023-06-21 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-weather
+[2023-06-21 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proton-api-client
+[2023-06-21 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pillar1
+[2023-06-21 01:51:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: data-ecosystem-services
+[2023-06-21 01:51:25] INFO root fetch - processPackages [proton-api-client]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-21 01:51:25] INFO root fetch - processPackages [data-ecosystem-services]: New version: [202306.0.9] Old Version: [202306.0.8]
+[2023-06-21 01:51:25] INFO root fetch - processPackages [neon-skill-weather]: New version: [0.1.1a3] Old Version: [0.1.1a2]
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: New version: [0.1.6.2] Old Version: [0.1.6.1]
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: New version: [0.1.6.2] Old Version: [0.1.6.1]
+[2023-06-21 01:51:25] INFO root fetch - processPackages [google-cloud-pipeline-components]: New version: [2.0.0b5] Old Version: [2.0.0b4]
+[2023-06-21 01:51:25] INFO root fetch - processPackages [cfr]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-06-21 01:51:25] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/5b/e5/329ad7107804869b21f1700513b8e7aa238a41800ba93be76f705a552922/data_ecosystem_services-202306.0.8.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [proton-api-client]: Downloading https://files.pythonhosted.org/packages/69/71/9a56b5514457ba413dd8cf3109fb1139db5a7b9c3108e1b627a2b5a2755a/proton-api-client-0.0.5.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/a4/06/55df11da58583159ead301781d86d25334f9b6a05715d4b425b91d1472bc/pillar1-0.1.6.1.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/bb/08/bb232188edda921afff3694ffa71fca6d76074223a45e24445c5b9f49092/neon_skill_weather-0.1.1a2-py3-none-any.whl
+[2023-06-21 01:51:25] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/4b/5a/8a6337c9095d839faeb22c3c23006e8d81a632e040f2ca290a7ba192e368/cfr-0.6.2.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/a4/06/55df11da58583159ead301781d86d25334f9b6a05715d4b425b91d1472bc/pillar1-0.1.6.1.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [google-cloud-pipeline-components]: Downloading https://files.pythonhosted.org/packages/5c/6f/5f3310600c8538e886b96bf298f27d542a39b6aacc1781ea93d7a612027e/google_cloud_pipeline_components-2.0.0b4-py3-none-any.whl
+[2023-06-21 01:51:25] INFO root fetch - processPackages [data-ecosystem-services]: Downloading https://files.pythonhosted.org/packages/50/ac/43dfcb08ca1891fb933a120355556d4bab09da2bfb6a923d470f7628cbcf/data_ecosystem_services-202306.0.9.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [proton-api-client]: Downloading https://files.pythonhosted.org/packages/15/4c/400349cd2b1283c119a9bd3a466aac33353d30db1c0c30c85d57aef8cff8/proton-api-client-0.0.6.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [proton-api-client]: executing diffoscope
+[2023-06-21 01:51:25] INFO root fetch - processPackages [proton-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proton-api-client-0.0.5.tar.gz tmp/proton-api-client-0.0.6.tar.gz --markdown 20230621/p/proton-api-client/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-21 01:51:25] INFO root fetch - processPackages [data-ecosystem-services]: executing diffoscope
+[2023-06-21 01:51:25] INFO root fetch - processPackages [data-ecosystem-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data_ecosystem_services-202306.0.8.tar.gz tmp/data_ecosystem_services-202306.0.9.tar.gz --markdown 20230621/d/data-ecosystem-services/202306.0.8-202306.0.9/diff.md --exclude *.pyd
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/29/1c/658a67e39b19291f65e6ea3a26674bf7c3120656ee8dbbb5a3b58d176762/pillar1-0.1.6.2.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: Downloading https://files.pythonhosted.org/packages/29/1c/658a67e39b19291f65e6ea3a26674bf7c3120656ee8dbbb5a3b58d176762/pillar1-0.1.6.2.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [neon-skill-weather]: Downloading https://files.pythonhosted.org/packages/87/f5/42287d243bda1444494c6c840d5888dca07866afa3e3227918fa80ecb556/neon-skill-weather-0.1.1a3.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [cfr]: Downloading https://files.pythonhosted.org/packages/65/e2/6916b689af04bc1041d1c10459fe510fde9c14ac3f0259f6b49d4ccbb785/cfr-0.6.3.tar.gz
+[2023-06-21 01:51:25] INFO root fetch - processPackages [google-cloud-pipeline-components]: Downloading https://files.pythonhosted.org/packages/d7/71/23c28b4152da913c47a34b93d00c16206e38781916f3bf6487db3ea16b1c/google_cloud_pipeline_components-2.0.0b5-py3-none-any.whl
+[2023-06-21 01:51:25] INFO root fetch - processPackages [neon-skill-weather]: executing diffoscope
+[2023-06-21 01:51:25] INFO root fetch - processPackages [neon-skill-weather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_weather-0.1.1a2-py3-none-any.whl.zip tmp/neon-skill-weather-0.1.1a3.tar.gz --markdown 20230621/n/neon-skill-weather/0.1.1a2-0.1.1a3/diff.md --exclude *.pyd
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: executing diffoscope
+[2023-06-21 01:51:25] INFO root fetch - processPackages [cfr]: executing diffoscope
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.6.1.tar.gz tmp/pillar1-0.1.6.2.tar.gz --markdown 20230621/p/pillar1/0.1.6.1-0.1.6.2/diff.md --exclude *.pyd
+[2023-06-21 01:51:25] INFO root fetch - processPackages [pillar1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pillar1-0.1.6.1.tar.gz tmp/pillar1-0.1.6.2.tar.gz --markdown 20230621/p/pillar1/0.1.6.1-0.1.6.2/diff.md --exclude *.pyd
+[2023-06-21 01:51:25] INFO root fetch - processPackages [cfr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cfr-0.6.2.tar.gz tmp/cfr-0.6.3.tar.gz --markdown 20230621/c/cfr/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-06-21 01:51:25] INFO root fetch - processPackages [google-cloud-pipeline-components]: executing diffoscope
+[2023-06-21 01:51:25] INFO root fetch - processPackages [google-cloud-pipeline-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google_cloud_pipeline_components-2.0.0b4-py3-none-any.whl.zip tmp/google_cloud_pipeline_components-2.0.0b5-py3-none-any.whl.zip --markdown 20230621/g/google-cloud-pipeline-components/2.0.0b4-2.0.0b5/diff.md --exclude *.pyd
+[2023-06-21 01:51:26] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.8.tar.gz]
+[2023-06-21 01:51:26] INFO root fetch - processPackages [data-ecosystem-services]: Remove: archive file [/home/abi/fetcher/tmp/data_ecosystem_services-202306.0.9.tar.gz]
+[2023-06-21 01:51:26] INFO root fetch - main [MainThread]: End processing [data-ecosystem-services]: success
+[2023-06-21 01:51:27] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.6.1.tar.gz]
+[2023-06-21 01:51:27] INFO root fetch - processPackages [pillar1]: Remove: archive file [/home/abi/fetcher/tmp/pillar1-0.1.6.2.tar.gz]
+[2023-06-21 01:51:27] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-21 01:51:27] INFO root fetch - processPackages [proton-api-client]: Remove: archive file [/home/abi/fetcher/tmp/proton-api-client-0.0.5.tar.gz]
+[2023-06-21 01:51:27] INFO root fetch - processPackages [proton-api-client]: Remove: archive file [/home/abi/fetcher/tmp/proton-api-client-0.0.6.tar.gz]
+[2023-06-21 01:51:27] INFO root fetch - main [MainThread]: End processing [proton-api-client]: success
+[2023-06-21 01:51:27] INFO root fetch - main [MainThread]: End processing [pillar1]: success
+[2023-06-21 01:51:27] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_weather-0.1.1a2-py3-none-any.whl.zip]
+[2023-06-21 01:51:27] INFO root fetch - processPackages [neon-skill-weather]: Remove: archive file [/home/abi/fetcher/tmp/neon-skill-weather-0.1.1a3.tar.gz]
+[2023-06-21 01:51:27] INFO root fetch - main [MainThread]: End processing [neon-skill-weather]: success
+[2023-06-21 01:51:27] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.2.tar.gz]
+[2023-06-21 01:51:27] INFO root fetch - processPackages [cfr]: Remove: archive file [/home/abi/fetcher/tmp/cfr-0.6.3.tar.gz]
+[2023-06-21 01:51:27] INFO root fetch - main [MainThread]: End processing [cfr]: success
+[2023-06-21 01:51:46] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.0.0b4-py3-none-any.whl.zip]
+[2023-06-21 01:51:46] INFO root fetch - processPackages [google-cloud-pipeline-components]: Remove: archive file [/home/abi/fetcher/tmp/google_cloud_pipeline_components-2.0.0b5-py3-none-any.whl.zip]
+[2023-06-21 01:51:46] INFO root fetch - main [MainThread]: End processing [google-cloud-pipeline-components]: success
+[2023-06-21 01:51:46] INFO root fetch - main [MainThread]: Store serial: [18581340]
