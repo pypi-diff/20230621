@@ -203,3 +203,53 @@
 [2023-06-21 00:12:01] INFO root fetch - processPackages [sentinel-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/sentinel_protobuf-0.2.3.tar.gz]
 [2023-06-21 00:12:01] INFO root fetch - main [MainThread]: End processing [sentinel-protobuf]: success
 [2023-06-21 00:12:01] INFO root fetch - main [MainThread]: Store serial: [18580717]
+[2023-06-21 00:17:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580717]
+[2023-06-21 00:17:09] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikGapps
+[2023-06-21 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: remotecv
+[2023-06-21 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperliquid-python-sdk
+[2023-06-21 00:17:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: encord-active
+[2023-06-21 00:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strsim-2
+[2023-06-21 00:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: grig
+[2023-06-21 00:17:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lapixdl
+[2023-06-21 00:17:10] INFO root fetch - processPackages [hyperliquid-python-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 00:17:10] WARNING root fetch - processPackages [strsim-2]: Skipping, unable to determine old version
+[2023-06-21 00:17:10] INFO root fetch - main [MainThread]: End processing [strsim-2] error
+[2023-06-21 00:17:10] INFO root fetch - processPackages [remotecv]: New version: [5.1.3] Old Version: [5.1.2]
+[2023-06-21 00:17:10] INFO root fetch - processPackages [NikGapps]: New version: [1.42] Old Version: [1.41]
+[2023-06-21 00:17:10] WARNING root fetch - processPackages [grig]: Skipping, unable to determine old version
+[2023-06-21 00:17:10] INFO root fetch - main [MainThread]: End processing [grig] error
+[2023-06-21 00:17:10] INFO root fetch - processPackages [encord-active]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 00:17:10] INFO root fetch - processPackages [lapixdl]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-21 00:17:10] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/14/53/4cb3529f62b21b97e90761ad702d4e864b643e4772935fb9c464f8ab6758/encord-active-0.1.8.tar.gz
+[2023-06-21 00:17:10] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/bf/e4/d8304c63063989f61545c4a67c544308e4f840dae6b88d75ec7d851c151f/NikGapps-1.41.tar.gz
+[2023-06-21 00:17:10] INFO root fetch - processPackages [hyperliquid-python-sdk]: Downloading https://files.pythonhosted.org/packages/cd/91/c6491d8c2c1cf0d759caf8d184ca9fe3e80e28d4c6f027c98aaed5fe4f19/hyperliquid_python_sdk-0.1.8.tar.gz
+[2023-06-21 00:17:10] INFO root fetch - processPackages [remotecv]: Downloading https://files.pythonhosted.org/packages/e3/fb/d11fc98ee1f2c51f4ca2344dc3fd5ffadd69dbe1828175777589bbcb9547/remotecv-5.1.2.tar.gz
+[2023-06-21 00:17:10] INFO root fetch - processPackages [encord-active]: Downloading https://files.pythonhosted.org/packages/c3/14/4bad612dc1f21c818799f76b076d38fbaeeaedf2288d7c41c915b0cdce4d/encord-active-0.1.9.tar.gz
+[2023-06-21 00:17:10] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564028>=10485760
+[2023-06-21 00:17:10] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-21 00:17:10] INFO root fetch - processPackages [lapixdl]: Downloading https://files.pythonhosted.org/packages/c5/1b/a41d98db5654307b7e0d584e7c635a58097a1ee8c64dbc29c05ff279ef6d/lapixdl-0.9.0.tar.gz
+[2023-06-21 00:17:10] INFO root fetch - processPackages [encord-active]: executing diffoscope
+[2023-06-21 00:17:10] INFO root fetch - processPackages [encord-active]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/encord-active-0.1.8.tar.gz tmp/encord-active-0.1.9.tar.gz --markdown 20230621/e/encord-active/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 00:17:10] INFO root fetch - processPackages [remotecv]: Downloading https://files.pythonhosted.org/packages/48/12/c9c07bb7124a9cfeee09af092372d46a927b0810241942794c16a412b7a6/remotecv-5.1.3.tar.gz
+[2023-06-21 00:17:10] INFO root fetch - processPackages [hyperliquid-python-sdk]: Downloading https://files.pythonhosted.org/packages/9c/49/fa1503d98c853477291ba88e727e2bd743323c446022d174b114da55fbde/hyperliquid_python_sdk-0.1.9.tar.gz
+[2023-06-21 00:17:10] INFO root fetch - processPackages [hyperliquid-python-sdk]: executing diffoscope
+[2023-06-21 00:17:10] INFO root fetch - processPackages [hyperliquid-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperliquid_python_sdk-0.1.8.tar.gz tmp/hyperliquid_python_sdk-0.1.9.tar.gz --markdown 20230621/h/hyperliquid-python-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 00:17:10] INFO root fetch - processPackages [remotecv]: executing diffoscope
+[2023-06-21 00:17:10] INFO root fetch - processPackages [remotecv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotecv-5.1.2.tar.gz tmp/remotecv-5.1.3.tar.gz --markdown 20230621/r/remotecv/5.1.2-5.1.3/diff.md --exclude *.pyd
+[2023-06-21 00:17:11] INFO root fetch - processPackages [lapixdl]: Downloading https://files.pythonhosted.org/packages/77/91/79fed734425eb627d1cb1b949af070b7f733fe1b2451dbcdd038b08c7dcf/lapixdl-0.9.1.tar.gz
+[2023-06-21 00:17:11] INFO root fetch - processPackages [lapixdl]: executing diffoscope
+[2023-06-21 00:17:11] INFO root fetch - processPackages [lapixdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lapixdl-0.9.0.tar.gz tmp/lapixdl-0.9.1.tar.gz --markdown 20230621/l/lapixdl/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 00:17:11] INFO root fetch - processPackages [hyperliquid-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyperliquid_python_sdk-0.1.8.tar.gz]
+[2023-06-21 00:17:11] INFO root fetch - processPackages [hyperliquid-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyperliquid_python_sdk-0.1.9.tar.gz]
+[2023-06-21 00:17:11] INFO root fetch - main [MainThread]: End processing [hyperliquid-python-sdk]: success
+[2023-06-21 00:17:12] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.8.tar.gz]
+[2023-06-21 00:17:12] INFO root fetch - processPackages [encord-active]: Remove: archive file [/home/abi/fetcher/tmp/encord-active-0.1.9.tar.gz]
+[2023-06-21 00:17:12] INFO root fetch - main [MainThread]: End processing [encord-active]: success
+[2023-06-21 00:17:12] INFO root fetch - processPackages [lapixdl]: Remove: archive file [/home/abi/fetcher/tmp/lapixdl-0.9.0.tar.gz]
+[2023-06-21 00:17:12] INFO root fetch - processPackages [lapixdl]: Remove: archive file [/home/abi/fetcher/tmp/lapixdl-0.9.1.tar.gz]
+[2023-06-21 00:17:12] INFO root fetch - main [MainThread]: End processing [lapixdl]: success
+[2023-06-21 00:17:14] INFO root fetch - processPackages [remotecv]: Remove: archive file [/home/abi/fetcher/tmp/remotecv-5.1.2.tar.gz]
+[2023-06-21 00:17:14] INFO root fetch - processPackages [remotecv]: Remove: archive file [/home/abi/fetcher/tmp/remotecv-5.1.3.tar.gz]
+[2023-06-21 00:17:14] INFO root fetch - main [MainThread]: End processing [remotecv]: success
+[2023-06-21 00:17:14] INFO root fetch - main [MainThread]: Store serial: [18580752]
