@@ -535,3 +535,57 @@
 [2023-06-21 00:43:19] INFO root fetch - processPackages [plaid-python]: Remove: archive file [/home/abi/fetcher/tmp/plaid-python-9.9.0.tar.gz]
 [2023-06-21 00:43:19] INFO root fetch - main [MainThread]: End processing [plaid-python]: success
 [2023-06-21 00:43:19] INFO root fetch - main [MainThread]: Store serial: [18580903]
+[2023-06-21 00:48:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18580903]
+[2023-06-21 00:48:28] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 00:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: task-timer-birdhouses
+[2023-06-21 00:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: weni-rp-apps
+[2023-06-21 00:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acasclient
+[2023-06-21 00:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: biocypher
+[2023-06-21 00:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: de-destatis
+[2023-06-21 00:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: petkitaio
+[2023-06-21 00:48:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: biosimulators-tellurium
+[2023-06-21 00:48:28] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.5.0a5] Old Version: [2.5.0a4]
+[2023-06-21 00:48:28] WARNING root fetch - processPackages [task-timer-birdhouses]: Skipping, unable to determine old version
+[2023-06-21 00:48:28] INFO root fetch - main [MainThread]: End processing [task-timer-birdhouses] error
+[2023-06-21 00:48:28] INFO root fetch - processPackages [acasclient]: New version: [2023.2.0] Old Version: [2023.1.0]
+[2023-06-21 00:48:28] INFO root fetch - processPackages [biosimulators-tellurium]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 00:48:28] ERROR root fetch - processPackages [de-destatis]: Unable to get metadata: No such project 'de-destatis'
+[2023-06-21 00:48:28] INFO root fetch - processPackages [petkitaio]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 00:48:28] INFO root fetch - main [MainThread]: End processing [de-destatis] error
+[2023-06-21 00:48:28] INFO root fetch - processPackages [biocypher]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-21 00:48:28] INFO root fetch - processPackages [biosimulators-tellurium]: Downloading https://files.pythonhosted.org/packages/a4/a6/bb968d9c6b5ad83f93b66deb67baa7f7ab5cf7ea1ad7cd8b8f67677bc226/biosimulators_tellurium-0.1.8.tar.gz
+[2023-06-21 00:48:28] INFO root fetch - processPackages [acasclient]: Downloading https://files.pythonhosted.org/packages/5c/d5/5fa16a146cdb15aafb95f94c53c9e9b03e8328f2bd4da52759f4f8705097/acasclient-2023.1.0.tar.gz
+[2023-06-21 00:48:28] INFO root fetch - processPackages [biosimulators-tellurium]: Downloading https://files.pythonhosted.org/packages/0f/58/0de6fa4f7d1640b60589353547b3e48adbe1b1fbe80abd5aeaaec86a94bc/biosimulators_tellurium-0.1.9.tar.gz
+[2023-06-21 00:48:29] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/c3/2c/ae231c870e30577add7250e6b6e34b1acb3a2da96094f02c65b0464298a3/weni_rp_apps-2.5.0a4.tar.gz
+[2023-06-21 00:48:29] INFO root fetch - processPackages [biosimulators-tellurium]: executing diffoscope
+[2023-06-21 00:48:29] INFO root fetch - processPackages [biosimulators-tellurium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biosimulators_tellurium-0.1.8.tar.gz tmp/biosimulators_tellurium-0.1.9.tar.gz --markdown 20230621/b/biosimulators-tellurium/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 00:48:29] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/05/44/6a698ee7a3f25cac7ac85f9065432566d172eb7d6e302338dbee1acb6708/biocypher-0.5.8.tar.gz
+[2023-06-21 00:48:29] INFO root fetch - processPackages [petkitaio]: Downloading https://files.pythonhosted.org/packages/c2/21/d418da8ddca5a4f912dc56d31a6bb5b9ff2e902da338959cb27e822d5275/petkitaio-0.1.2.tar.gz
+[2023-06-21 00:48:29] INFO root fetch - processPackages [petkitaio]: Downloading https://files.pythonhosted.org/packages/bd/e2/613a1c7618277fa5e95ea943671be0b6d3856681524d951c721844d78cf9/petkitaio-0.1.3.tar.gz
+[2023-06-21 00:48:29] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/68/51/1748941a92fd108b27d60e29ab2655b30948bd270ea1bfb65b140ea2c000/weni_rp_apps-2.5.0a5.tar.gz
+[2023-06-21 00:48:29] INFO root fetch - processPackages [petkitaio]: executing diffoscope
+[2023-06-21 00:48:29] INFO root fetch - processPackages [petkitaio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petkitaio-0.1.2.tar.gz tmp/petkitaio-0.1.3.tar.gz --markdown 20230621/p/petkitaio/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 00:48:29] INFO root fetch - processPackages [acasclient]: Downloading https://files.pythonhosted.org/packages/10/38/257bfc825596f89853753390c204e49e76e7942afb6e4a7176a1dc099871/acasclient-2023.2.0.tar.gz
+[2023-06-21 00:48:29] INFO root fetch - processPackages [acasclient]: executing diffoscope
+[2023-06-21 00:48:29] INFO root fetch - processPackages [acasclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acasclient-2023.1.0.tar.gz tmp/acasclient-2023.2.0.tar.gz --markdown 20230621/a/acasclient/2023.1.0-2023.2.0/diff.md --exclude *.pyd
+[2023-06-21 00:48:29] INFO root fetch - processPackages [biocypher]: Downloading https://files.pythonhosted.org/packages/80/4a/28f3088067da67049a9b777015a3aa4326f5782b2be3e17c661232fe6b8d/biocypher-0.5.9.tar.gz
+[2023-06-21 00:48:29] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-06-21 00:48:29] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.5.0a4.tar.gz tmp/weni_rp_apps-2.5.0a5.tar.gz --markdown 20230621/w/weni-rp-apps/2.5.0a4-2.5.0a5/diff.md --exclude *.pyd
+[2023-06-21 00:48:29] INFO root fetch - processPackages [biocypher]: executing diffoscope
+[2023-06-21 00:48:29] INFO root fetch - processPackages [biocypher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biocypher-0.5.8.tar.gz tmp/biocypher-0.5.9.tar.gz --markdown 20230621/b/biocypher/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-21 00:48:30] INFO root fetch - processPackages [biosimulators-tellurium]: Remove: archive file [/home/abi/fetcher/tmp/biosimulators_tellurium-0.1.8.tar.gz]
+[2023-06-21 00:48:30] INFO root fetch - processPackages [biosimulators-tellurium]: Remove: archive file [/home/abi/fetcher/tmp/biosimulators_tellurium-0.1.9.tar.gz]
+[2023-06-21 00:48:30] INFO root fetch - main [MainThread]: End processing [biosimulators-tellurium]: success
+[2023-06-21 00:48:30] INFO root fetch - processPackages [petkitaio]: Remove: archive file [/home/abi/fetcher/tmp/petkitaio-0.1.2.tar.gz]
+[2023-06-21 00:48:30] INFO root fetch - processPackages [petkitaio]: Remove: archive file [/home/abi/fetcher/tmp/petkitaio-0.1.3.tar.gz]
+[2023-06-21 00:48:30] INFO root fetch - main [MainThread]: End processing [petkitaio]: success
+[2023-06-21 00:48:30] INFO root fetch - processPackages [biocypher]: Remove: archive file [/home/abi/fetcher/tmp/biocypher-0.5.8.tar.gz]
+[2023-06-21 00:48:30] INFO root fetch - processPackages [biocypher]: Remove: archive file [/home/abi/fetcher/tmp/biocypher-0.5.9.tar.gz]
+[2023-06-21 00:48:30] INFO root fetch - main [MainThread]: End processing [biocypher]: success
+[2023-06-21 00:48:31] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.5.0a4.tar.gz]
+[2023-06-21 00:48:31] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.5.0a5.tar.gz]
+[2023-06-21 00:48:31] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-06-21 00:48:31] INFO root fetch - processPackages [acasclient]: Remove: archive file [/home/abi/fetcher/tmp/acasclient-2023.1.0.tar.gz]
+[2023-06-21 00:48:31] INFO root fetch - processPackages [acasclient]: Remove: archive file [/home/abi/fetcher/tmp/acasclient-2023.2.0.tar.gz]
+[2023-06-21 00:48:31] INFO root fetch - main [MainThread]: End processing [acasclient]: success
+[2023-06-21 00:48:31] INFO root fetch - main [MainThread]: Store serial: [18580927]
