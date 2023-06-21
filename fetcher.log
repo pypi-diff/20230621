@@ -9659,3 +9659,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 04:17:02] INFO root fetch - processPackages [ovos-audio]: Remove: archive file [/home/abi/fetcher/tmp/ovos_audio-0.0.2a9-py3-none-any.whl.zip]
 [2023-06-21 04:17:02] INFO root fetch - main [MainThread]: End processing [ovos-audio]: success
 [2023-06-21 04:17:02] INFO root fetch - main [MainThread]: Store serial: [18584283]
+[2023-06-21 04:22:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584283]
+[2023-06-21 04:22:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-21 04:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-l4d2-server
+[2023-06-21 04:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-project-pypi
+[2023-06-21 04:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-gw2
+[2023-06-21 04:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Alpha-Rabbit
+[2023-06-21 04:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: data-repo-client
+[2023-06-21 04:22:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: phun
+[2023-06-21 04:22:11] INFO root fetch - processPackages [hatch-project-pypi]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 04:22:11] INFO root fetch - processPackages [nonebot-plugin-gw2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 04:22:11] WARNING root fetch - processPackages [phun]: Skipping, unable to determine old version
+[2023-06-21 04:22:11] INFO root fetch - main [MainThread]: End processing [phun] error
+[2023-06-21 04:22:11] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.494.0]
+[2023-06-21 04:22:11] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.6.3] Old Version: [0.5.6.1]
+[2023-06-21 04:22:11] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-21 04:22:11] INFO root fetch - processPackages [nonebot-plugin-gw2]: Downloading https://files.pythonhosted.org/packages/f6/2a/4b55468d88c7f15c38d0eb4fe76c46083618adab8f9af212409c9ced4287/nonebot_plugin_gw2-0.0.2.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/a2/4a/94f1515e7e89c7fb338b4ea9c607db59c6c5c5f8d88a1eefc0ef07f2c74d/hatch_project_pypi-0.0.4.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/3d/1b/12a9cfb72d2e0b58b100277142228290fcfd17991e1696565c08384c0083/Alpha_Rabbit-1.3.8.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/71/9a/fec92e82183a2c1bda1e0e298ab1a3b6a26f32f28855ec31ab3be234faa7/data-repo-client-1.494.0.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/9a/7a/cbabd952f6aa0f2f2f7441342e11eefb574671b03c8d1cd11a16f8fa45d4/nonebot_plugin_l4d2_server-0.5.6.1.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/c7/30/20ab4f6fdabed9a21eca8d84e779696632671c7e0019129ab392d5e4bf62/Alpha_Rabbit-1.3.9.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [nonebot-plugin-gw2]: Downloading https://files.pythonhosted.org/packages/c5/91/d51acb3aefaba4fba11731358e588d34e791973bbf348c892259bd7d6d4b/nonebot_plugin_gw2-0.0.3.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/11/65/82a87bdcca6833960bad89e1eab1b34ff1b783397ed50796a6a22dd2df3d/hatch_project_pypi-0.0.5.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-06-21 04:22:11] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230621/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-21 04:22:11] INFO root fetch - processPackages [nonebot-plugin-gw2]: executing diffoscope
+[2023-06-21 04:22:11] INFO root fetch - processPackages [nonebot-plugin-gw2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_gw2-0.0.2.tar.gz tmp/nonebot_plugin_gw2-0.0.3.tar.gz --markdown 20230621/n/nonebot-plugin-gw2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 04:22:11] INFO root fetch - processPackages [hatch-project-pypi]: executing diffoscope
+[2023-06-21 04:22:11] INFO root fetch - processPackages [hatch-project-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi-0.0.4.tar.gz tmp/hatch_project_pypi-0.0.5.tar.gz --markdown 20230621/h/hatch-project-pypi/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 04:22:11] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-06-21 04:22:11] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-06-21 04:22:11] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.494.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230621/d/data-repo-client/1.494.0-1.64.0/diff.md --exclude *.pyd
+[2023-06-21 04:22:12] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/91/1a/70d459ccd48e3a6668cbdfeb81db6df2257f3ef75658140c4daeb42d3268/nonebot_plugin_l4d2_server-0.5.6.3.tar.gz
+[2023-06-21 04:22:12] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-06-21 04:22:12] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.6.1.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.6.3.tar.gz --markdown 20230621/n/nonebot-plugin-l4d2-server/0.5.6.1-0.5.6.3/diff.md --exclude *.pyd
+[2023-06-21 04:22:12] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.8.tar.gz]
+[2023-06-21 04:22:12] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.9.tar.gz]
+[2023-06-21 04:22:12] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-06-21 04:22:12] INFO root fetch - processPackages [nonebot-plugin-gw2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gw2-0.0.2.tar.gz]
+[2023-06-21 04:22:12] INFO root fetch - processPackages [nonebot-plugin-gw2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gw2-0.0.3.tar.gz]
+[2023-06-21 04:22:12] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gw2]: success
+[2023-06-21 04:22:12] INFO root fetch - processPackages [hatch-project-pypi]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi-0.0.4.tar.gz]
+[2023-06-21 04:22:12] INFO root fetch - processPackages [hatch-project-pypi]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi-0.0.5.tar.gz]
+[2023-06-21 04:22:12] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi]: success
+[2023-06-21 04:22:13] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.1.tar.gz]
+[2023-06-21 04:22:13] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.3.tar.gz]
+[2023-06-21 04:22:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-06-21 04:22:14] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.494.0.tar.gz]
+[2023-06-21 04:22:14] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.64.0.tar.gz]
+[2023-06-21 04:22:14] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-06-21 04:22:14] INFO root fetch - main [MainThread]: Store serial: [18584303]
