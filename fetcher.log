@@ -9385,3 +9385,159 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-21 04:01:09] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20230621.0.tar.gz]
 [2023-06-21 04:01:09] INFO root fetch - main [MainThread]: End processing [esphome-dashboard]: success
 [2023-06-21 04:01:09] INFO root fetch - main [MainThread]: Store serial: [18584202]
+[2023-06-21 04:06:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584202]
+[2023-06-21 04:06:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-21 04:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maxgradient
+[2023-06-21 04:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nepseutils
+[2023-06-21 04:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: arelle-release
+[2023-06-21 04:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aisfx
+[2023-06-21 04:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maxgradient
+[2023-06-21 04:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastopendata
+[2023-06-21 04:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Alpha-Rabbit
+[2023-06-21 04:06:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hmfs
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 04:06:20] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-21 04:06:20] INFO root fetch - processPackages [nepseutils]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-21 04:06:20] INFO root fetch - processPackages [fastopendata]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 04:06:20] INFO root fetch - processPackages [hmfs]: New version: [1.1.6] Old Version: [1.1.5145]
+[2023-06-21 04:06:20] INFO root fetch - processPackages [aisfx]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 04:06:20] INFO root fetch - processPackages [arelle-release]: New version: [2.9.0] Old Version: [2.8.1]
+[2023-06-21 04:06:20] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/f5/6d/a98b34f1f15fac981dc1ecdc13ab6432070cbbc263b8c5dfd01ec17bdbcf/arelle-release-2.8.1.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [fastopendata]: Downloading https://files.pythonhosted.org/packages/49/af/a052dc1552365ae1bd815e477bd1b6e76f28aa6ea35073242822e9a0aeda/fastopendata-0.0.3-py3-none-any.whl
+[2023-06-21 04:06:20] INFO root fetch - processPackages [nepseutils]: Downloading https://files.pythonhosted.org/packages/43/f5/c26abae59ca78bfd95af1df89f9f4f72c6356843983b6f0fe7f113a9d2ab/nepseutils-0.3.5.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: Downloading https://files.pythonhosted.org/packages/50/09/7a9a241d674112f13afe8d64e09229ff485717507ddb78ae4a2a2d879e94/maxgradient-0.1.2.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/3d/1b/12a9cfb72d2e0b58b100277142228290fcfd17991e1696565c08384c0083/Alpha_Rabbit-1.3.8.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: Downloading https://files.pythonhosted.org/packages/50/09/7a9a241d674112f13afe8d64e09229ff485717507ddb78ae4a2a2d879e94/maxgradient-0.1.2.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [aisfx]: Downloading https://files.pythonhosted.org/packages/5f/6f/401a0240fb37fd01f83cd3347662264b5fd9eec09434212f2b7a32b6404f/aisfx-0.1.0.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/20/ea/956ea0ad556f009a2f75469fdf2c149867407ef6b182cd7cfa4fd2719aca/hmfs-1.1.5145.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [arelle-release]: Downloading https://files.pythonhosted.org/packages/38/66/d0e3ab5f57928cda22358cf91ff523e895bdb2ce695a0e0839131fcf5aa9/arelle-release-2.9.0.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [hmfs]: Downloading https://files.pythonhosted.org/packages/9f/e2/2aeaa17665627542a9bcb80c17dcf663309ba83964369dd3ef9fa4ffc362/hmfs-1.1.6.tar.gz
+[2023-06-21 04:06:20] WARNING root fetch - processPackages [aisfx]: Skipping package: exceeds size limit 23147876>=10485760
+[2023-06-21 04:06:20] INFO root fetch - main [MainThread]: End processing [aisfx] error
+[2023-06-21 04:06:20] INFO root fetch - processPackages [fastopendata]: Downloading https://files.pythonhosted.org/packages/3c/c2/3611b70ec04400cee20615b01251f1ff10d3dc9849c4024bec9dfb987530/fastopendata-0.0.4.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [hmfs]: executing diffoscope
+[2023-06-21 04:06:20] INFO root fetch - processPackages [hmfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hmfs-1.1.5145.tar.gz tmp/hmfs-1.1.6.tar.gz --markdown 20230621/h/hmfs/1.1.5145-1.1.6/diff.md --exclude *.pyd
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: Downloading https://files.pythonhosted.org/packages/96/01/38207d6e8f32ef75a8f08b40fb6b1829a9cbcf82058e6d1b091dd1adec21/maxgradient-0.1.3.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: Downloading https://files.pythonhosted.org/packages/96/01/38207d6e8f32ef75a8f08b40fb6b1829a9cbcf82058e6d1b091dd1adec21/maxgradient-0.1.3.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [nepseutils]: Downloading https://files.pythonhosted.org/packages/94/9a/870451ff584990158d220ad95003abea849e966cc7c5237f871313d15aa7/nepseutils-0.3.6.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [arelle-release]: executing diffoscope
+[2023-06-21 04:06:20] INFO root fetch - processPackages [arelle-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arelle-release-2.8.1.tar.gz tmp/arelle-release-2.9.0.tar.gz --markdown 20230621/a/arelle-release/2.8.1-2.9.0/diff.md --exclude *.pyd
+[2023-06-21 04:06:20] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/c7/30/20ab4f6fdabed9a21eca8d84e779696632671c7e0019129ab392d5e4bf62/Alpha_Rabbit-1.3.9.tar.gz
+[2023-06-21 04:06:20] INFO root fetch - processPackages [nepseutils]: executing diffoscope
+[2023-06-21 04:06:20] INFO root fetch - processPackages [fastopendata]: executing diffoscope
+[2023-06-21 04:06:20] INFO root fetch - processPackages [nepseutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nepseutils-0.3.5.tar.gz tmp/nepseutils-0.3.6.tar.gz --markdown 20230621/n/nepseutils/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-21 04:06:20] INFO root fetch - processPackages [fastopendata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata-0.0.3-py3-none-any.whl.zip tmp/fastopendata-0.0.4.tar.gz --markdown 20230621/f/fastopendata/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: executing diffoscope
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxgradient-0.1.2.tar.gz tmp/maxgradient-0.1.3.tar.gz --markdown 20230621/m/maxgradient/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 04:06:20] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-06-21 04:06:20] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230621/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: executing diffoscope
+[2023-06-21 04:06:20] INFO root fetch - processPackages [maxgradient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maxgradient-0.1.2.tar.gz tmp/maxgradient-0.1.3.tar.gz --markdown 20230621/m/maxgradient/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 04:06:22] INFO root fetch - processPackages [fastopendata]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata-0.0.3-py3-none-any.whl.zip]
+[2023-06-21 04:06:22] INFO root fetch - processPackages [fastopendata]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata-0.0.4.tar.gz]
+[2023-06-21 04:06:22] INFO root fetch - main [MainThread]: End processing [fastopendata]: success
+[2023-06-21 04:06:22] INFO root fetch - processPackages [nepseutils]: Remove: archive file [/home/abi/fetcher/tmp/nepseutils-0.3.5.tar.gz]
+[2023-06-21 04:06:22] INFO root fetch - processPackages [nepseutils]: Remove: archive file [/home/abi/fetcher/tmp/nepseutils-0.3.6.tar.gz]
+[2023-06-21 04:06:22] INFO root fetch - main [MainThread]: End processing [nepseutils]: success
+[2023-06-21 04:06:22] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.8.tar.gz]
+[2023-06-21 04:06:22] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.9.tar.gz]
+[2023-06-21 04:06:22] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-06-21 04:06:22] INFO root fetch - processPackages [maxgradient]: Remove: archive file [/home/abi/fetcher/tmp/maxgradient-0.1.2.tar.gz]
+[2023-06-21 04:06:22] INFO root fetch - processPackages [maxgradient]: Remove: archive file [/home/abi/fetcher/tmp/maxgradient-0.1.3.tar.gz]
+[2023-06-21 04:06:22] INFO root fetch - main [MainThread]: End processing [maxgradient]: success
+[2023-06-21 04:06:22] ERROR root fetch - processPackages [maxgradient]: Diffoscope failed: gzip: tmp/maxgradient-0.1.3.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/maxgradient-0.1.3.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-21 04:06:22] INFO root fetch - main [MainThread]: End processing [maxgradient] error
+[2023-06-21 04:06:24] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.5145.tar.gz]
+[2023-06-21 04:06:24] INFO root fetch - processPackages [hmfs]: Remove: archive file [/home/abi/fetcher/tmp/hmfs-1.1.6.tar.gz]
+[2023-06-21 04:06:24] INFO root fetch - main [MainThread]: End processing [hmfs]: success
+[2023-06-21 04:06:30] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.8.1.tar.gz]
+[2023-06-21 04:06:30] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
+[2023-06-21 04:06:30] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
+[2023-06-21 04:06:30] INFO root fetch - main [MainThread]: Store serial: [18584227]
