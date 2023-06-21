@@ -21066,3 +21066,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 12:42:36] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.748.post3.tar.gz]
 [2023-06-21 12:42:36] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
 [2023-06-21 12:42:36] INFO root fetch - main [MainThread]: Store serial: [18588861]
+[2023-06-21 12:47:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588861]
+[2023-06-21 12:47:47] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cybotrade
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sekoia-automation-sdk
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hagrid
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hypos
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pg-force-execute
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: su6
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: enebootools
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vocos
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: packg
+[2023-06-21 12:47:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: supertokens-python
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hypos]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 12:47:47] WARNING root fetch - processPackages [cybotrade]: Skipping, unable to determine old version
+[2023-06-21 12:47:47] INFO root fetch - processPackages [cybotrade]: Start processing: currentscape
+[2023-06-21 12:47:47] INFO root fetch - main [MainThread]: End processing [cybotrade] error
+[2023-06-21 12:47:47] INFO root fetch - processPackages [su6]: New version: [1.5.2] Old Version: [1.5.1]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [pg-force-execute]: New version: [0.0.dev0] Old Version: [0.0.9]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [sekoia-automation-sdk]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [vocos]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [supertokens-python]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [packg]: New version: [0.2.12] Old Version: [0.2.11]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [enebootools]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hagrid]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/63/8f/f6b3f8daafd8bb51dd59ed15dee9f83776e53b4bd4f460239542b391169f/hagrid-0.3.8.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [currentscape]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hypos]: Downloading https://files.pythonhosted.org/packages/36/04/9fc67a81d3c0cd25e41cce52143e492f1073bd62269c8016e2635e9cd409/hypos-0.0.1.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/68/a1/87835839c934b5e808991b5744fdf972a97725c7fcbb4bb24a1b424dfcb6/sekoia_automation_sdk-1.3.3.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/52/39/20b60640bc4dd415521193bf45812c3d417948d80ea5ece398cb1d7cf2ae/su6-1.5.1.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hagrid]: Downloading https://files.pythonhosted.org/packages/93/62/db70dc46e40b49bc26e4074bed1920230e6deffcc964b82b28bdc7cfccdc/hagrid-0.3.9.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/41/34/31967fb29a967744e011eb91331a2937f19d9882acccbefdef89c41d48ce/supertokens_python-0.9.0.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [pg-force-execute]: Downloading https://files.pythonhosted.org/packages/33/fe/7d3153892dd777f7a86180126c8afcc32a7c1de14299b3c0bef74fee91af/pg_force_execute-0.0.9.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/40/2e/3ede2c5665d5577efcb46a3c088225131dc79f97159f22bb05aaea066d8f/packg-0.2.11.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/96/a6/f5dbde2a17640259ee0c244a670ffca24661530f548753a68de5b812a140/enebootools-2.0.8.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [vocos]: Downloading https://files.pythonhosted.org/packages/d4/ed/30b3e65addf909787d923f67d2ac1c0ddf1a71fca75dad4dea0bc6b10fef/vocos-0.0.2.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/5f/bb/30aaabb9a26b533eef3d03d9a6507930f26c1f83093c182965bd641b1077/currentscape-1.0.5.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hypos]: Downloading https://files.pythonhosted.org/packages/66/ef/2cf04bedaa26f7a7587c061486e142fa27d1c0318e9f1f95ed8b2dd21ade/hypos-0.0.2.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [packg]: Downloading https://files.pythonhosted.org/packages/63/65/76e67aba4978f0a1de28368b0da593949308c362742f1a3cd4657334fa40/packg-0.2.12.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [sekoia-automation-sdk]: Downloading https://files.pythonhosted.org/packages/c4/0f/f2a3a254d2f1ca1b1933c6832fde4a285c33763d32cd0d0ce575ededbc4b/sekoia_automation_sdk-1.3.4.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [supertokens-python]: Downloading https://files.pythonhosted.org/packages/9d/b6/1579872040858340507fd930b8d80cc6f32b03fdf8a1a46b669704ba8615/supertokens_python-0.9.1.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hypos]: executing diffoscope
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hypos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hypos-0.0.1.tar.gz tmp/hypos-0.0.2.tar.gz --markdown 20230621/h/hypos/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 12:47:47] INFO root fetch - processPackages [su6]: Downloading https://files.pythonhosted.org/packages/0d/a9/ae4174d37ce1bf4ef399802d5a8adc4d22a906e8c52d07705d32b80c3307/su6-1.5.2.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [packg]: executing diffoscope
+[2023-06-21 12:47:47] INFO root fetch - processPackages [packg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/packg-0.2.11.tar.gz tmp/packg-0.2.12.tar.gz --markdown 20230621/p/packg/0.2.11-0.2.12/diff.md --exclude *.pyd
+[2023-06-21 12:47:47] INFO root fetch - processPackages [pg-force-execute]: Downloading https://files.pythonhosted.org/packages/fa/d8/c0df0433888363fbc6c663c838c828694fe41da02638c82d91fa1f367d68/pg_force_execute-0.0.dev0.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [sekoia-automation-sdk]: executing diffoscope
+[2023-06-21 12:47:47] INFO root fetch - processPackages [sekoia-automation-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sekoia_automation_sdk-1.3.3.tar.gz tmp/sekoia_automation_sdk-1.3.4.tar.gz --markdown 20230621/s/sekoia-automation-sdk/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hagrid]: executing diffoscope
+[2023-06-21 12:47:47] INFO root fetch - processPackages [hagrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagrid-0.3.8.tar.gz tmp/hagrid-0.3.9.tar.gz --markdown 20230621/h/hagrid/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-21 12:47:47] INFO root fetch - processPackages [su6]: executing diffoscope
+[2023-06-21 12:47:47] INFO root fetch - processPackages [su6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/su6-1.5.1.tar.gz tmp/su6-1.5.2.tar.gz --markdown 20230621/s/su6/1.5.1-1.5.2/diff.md --exclude *.pyd
+[2023-06-21 12:47:47] INFO root fetch - processPackages [vocos]: Downloading https://files.pythonhosted.org/packages/4a/8e/87a81e241140da6d7ee5c3cfd9603ae96e67c563a59e4b2a03d273710084/vocos-0.0.3.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [supertokens-python]: executing diffoscope
+[2023-06-21 12:47:47] INFO root fetch - processPackages [pg-force-execute]: executing diffoscope
+[2023-06-21 12:47:47] INFO root fetch - processPackages [supertokens-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/supertokens_python-0.9.0.tar.gz tmp/supertokens_python-0.9.1.tar.gz --markdown 20230621/s/supertokens-python/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 12:47:47] INFO root fetch - processPackages [pg-force-execute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pg_force_execute-0.0.9.tar.gz tmp/pg_force_execute-0.0.dev0.tar.gz --markdown 20230621/p/pg-force-execute/0.0.9-0.0.dev0/diff.md --exclude *.pyd
+[2023-06-21 12:47:47] INFO root fetch - processPackages [currentscape]: Downloading https://files.pythonhosted.org/packages/26/bc/639dcf07484135e324b18f43b8a4b2e7583ee4d7ca4fec58955cd2bbf38d/currentscape-1.0.6.tar.gz
+[2023-06-21 12:47:47] INFO root fetch - processPackages [vocos]: executing diffoscope
+[2023-06-21 12:47:47] INFO root fetch - processPackages [vocos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vocos-0.0.2.tar.gz tmp/vocos-0.0.3.tar.gz --markdown 20230621/v/vocos/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 12:47:48] INFO root fetch - processPackages [enebootools]: Downloading https://files.pythonhosted.org/packages/0b/50/a98ff2d478f2b96df200e7e6a5c0ff28fe92712c685482f5ce0bd910c066/enebootools-2.0.9.tar.gz
+[2023-06-21 12:47:48] INFO root fetch - processPackages [currentscape]: executing diffoscope
+[2023-06-21 12:47:48] INFO root fetch - processPackages [currentscape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/currentscape-1.0.5.tar.gz tmp/currentscape-1.0.6.tar.gz --markdown 20230621/c/currentscape/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-21 12:47:48] INFO root fetch - processPackages [enebootools]: executing diffoscope
+[2023-06-21 12:47:48] INFO root fetch - processPackages [enebootools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enebootools-2.0.8.tar.gz tmp/enebootools-2.0.9.tar.gz --markdown 20230621/e/enebootools/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-21 12:47:49] INFO root fetch - processPackages [pg-force-execute]: Remove: archive file [/home/abi/fetcher/tmp/pg_force_execute-0.0.9.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - processPackages [pg-force-execute]: Remove: archive file [/home/abi/fetcher/tmp/pg_force_execute-0.0.dev0.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - main [MainThread]: End processing [pg-force-execute]: success
+[2023-06-21 12:47:49] INFO root fetch - processPackages [hypos]: Remove: archive file [/home/abi/fetcher/tmp/hypos-0.0.1.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - processPackages [hypos]: Remove: archive file [/home/abi/fetcher/tmp/hypos-0.0.2.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - main [MainThread]: End processing [hypos]: success
+[2023-06-21 12:47:49] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.11.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - processPackages [packg]: Remove: archive file [/home/abi/fetcher/tmp/packg-0.2.12.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - main [MainThread]: End processing [packg]: success
+[2023-06-21 12:47:49] INFO root fetch - processPackages [vocos]: Remove: archive file [/home/abi/fetcher/tmp/vocos-0.0.2.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - processPackages [vocos]: Remove: archive file [/home/abi/fetcher/tmp/vocos-0.0.3.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - main [MainThread]: End processing [vocos]: success
+[2023-06-21 12:47:49] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.3.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - processPackages [sekoia-automation-sdk]: Remove: archive file [/home/abi/fetcher/tmp/sekoia_automation_sdk-1.3.4.tar.gz]
+[2023-06-21 12:47:49] INFO root fetch - main [MainThread]: End processing [sekoia-automation-sdk]: success
+[2023-06-21 12:47:50] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.8.tar.gz]
+[2023-06-21 12:47:50] INFO root fetch - processPackages [enebootools]: Remove: archive file [/home/abi/fetcher/tmp/enebootools-2.0.9.tar.gz]
+[2023-06-21 12:47:50] INFO root fetch - main [MainThread]: End processing [enebootools]: success
+[2023-06-21 12:47:50] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.8.tar.gz]
+[2023-06-21 12:47:50] INFO root fetch - processPackages [hagrid]: Remove: archive file [/home/abi/fetcher/tmp/hagrid-0.3.9.tar.gz]
+[2023-06-21 12:47:50] INFO root fetch - main [MainThread]: End processing [hagrid]: success
+[2023-06-21 12:47:52] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.5.tar.gz]
+[2023-06-21 12:47:52] INFO root fetch - processPackages [currentscape]: Remove: archive file [/home/abi/fetcher/tmp/currentscape-1.0.6.tar.gz]
+[2023-06-21 12:47:52] INFO root fetch - main [MainThread]: End processing [currentscape]: success
+[2023-06-21 12:47:55] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.0.tar.gz]
+[2023-06-21 12:47:55] INFO root fetch - processPackages [supertokens-python]: Remove: archive file [/home/abi/fetcher/tmp/supertokens_python-0.9.1.tar.gz]
+[2023-06-21 12:47:55] INFO root fetch - main [MainThread]: End processing [supertokens-python]: success
+[2023-06-21 12:48:12] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.5.1.tar.gz]
+[2023-06-21 12:48:12] INFO root fetch - processPackages [su6]: Remove: archive file [/home/abi/fetcher/tmp/su6-1.5.2.tar.gz]
+[2023-06-21 12:48:12] INFO root fetch - main [MainThread]: End processing [su6]: success
+[2023-06-21 12:48:12] INFO root fetch - main [MainThread]: Store serial: [18588895]
