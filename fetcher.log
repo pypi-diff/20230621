@@ -13529,3 +13529,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 07:37:51] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.57.tar.gz]
 [2023-06-21 07:37:51] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
 [2023-06-21 07:37:51] INFO root fetch - main [MainThread]: Store serial: [18585717]
+[2023-06-21 07:42:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585717]
+[2023-06-21 07:43:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: data-spec-validator
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygeoweaver
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lm-datahandler
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jupyter-utility-widgets
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multiPrime
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: feffery-maplibre
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ablean
+[2023-06-21 07:43:01] INFO root fetch - processPackages [data-spec-validator]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-06-21 07:43:01] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ablean]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-21 07:43:01] INFO root fetch - processPackages [pygeoweaver]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-21 07:43:01] INFO root fetch - processPackages [multiPrime]: New version: [2.4.5] Old Version: [2.4.4]
+[2023-06-21 07:43:01] INFO root fetch - processPackages [jupyter-utility-widgets]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-06-21 07:43:01] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/7a/18/ad0006709d122213bf09db734a8b064013d3454e827876f636cbef9038eb/pygeoweaver-0.7.1.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ablean]: Downloading https://files.pythonhosted.org/packages/a6/05/73a23a0122b3652708f18dbd4ac5101f1fcb3b5db2778287bc8c52ad826e/ablean-1.3.5.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/e4/a3/02d00eb357fd38b6acde84760bd7c19a5491adbbc68230baab1405bc8815/multiPrime-2.4.4.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [feffery-maplibre]: New version: [0.0.1a2] Old Version: [0.0.1a1]
+[2023-06-21 07:43:01] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/50/cb/00a2652e728d69b5b8d731f360c6596606a9405aca4a2fe6eb761d2c620e/jupyter-utility-widgets-0.0.1a2.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [data-spec-validator]: Downloading https://files.pythonhosted.org/packages/4a/83/06267e4120a55e7944ef4f6d6ce9aaa28b6a72be93b4f1485e8df7dbf335/data-spec-validator-3.2.0.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ablean]: Downloading https://files.pythonhosted.org/packages/4d/40/57f42746594d0a1ac8f10d3198f472521f45e238b3dc768a9a38a27c29a7/ablean-1.3.6.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ablean]: executing diffoscope
+[2023-06-21 07:43:01] INFO root fetch - processPackages [ablean]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ablean-1.3.5.tar.gz tmp/ablean-1.3.6.tar.gz --markdown 20230621/a/ablean/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-21 07:43:01] INFO root fetch - processPackages [feffery-maplibre]: Downloading https://files.pythonhosted.org/packages/0e/c4/0bad05ce77245b3c31b28139388c6c682ef1b0e4d42bdb57128e22b49772/feffery_maplibre-0.0.1a1.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/75/cf/614b653bb18bec500e8d28537d7346ab178ab0c89030f0de9000bc761f2a/pygeoweaver-0.7.2.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [multiPrime]: Downloading https://files.pythonhosted.org/packages/75/fa/08582d0f713c232473199365b8db6940b0ffb8ccc8742915795cdaffa5bb/multiPrime-2.4.5.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [jupyter-utility-widgets]: Downloading https://files.pythonhosted.org/packages/02/47/89efd17a368e2f9f1079c285dbebd52b37abe733921df23e2d4b93634086/jupyter-utility-widgets-0.0.1a3.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-21 07:43:01] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230621/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 07:43:01] INFO root fetch - processPackages [data-spec-validator]: Downloading https://files.pythonhosted.org/packages/06/46/5feffa6a1d196c634a6e2379eb047ff4000da8d7594554ac53b524b0116a/data-spec-validator-3.3.0.tar.gz
+[2023-06-21 07:43:01] INFO root fetch - processPackages [jupyter-utility-widgets]: executing diffoscope
+[2023-06-21 07:43:01] INFO root fetch - processPackages [jupyter-utility-widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jupyter-utility-widgets-0.0.1a2.tar.gz tmp/jupyter-utility-widgets-0.0.1a3.tar.gz --markdown 20230621/j/jupyter-utility-widgets/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-06-21 07:43:01] INFO root fetch - processPackages [data-spec-validator]: executing diffoscope
+[2023-06-21 07:43:01] INFO root fetch - processPackages [data-spec-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-spec-validator-3.2.0.tar.gz tmp/data-spec-validator-3.3.0.tar.gz --markdown 20230621/d/data-spec-validator/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-06-21 07:43:01] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-21 07:43:01] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.7.1.tar.gz tmp/pygeoweaver-0.7.2.tar.gz --markdown 20230621/p/pygeoweaver/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-21 07:43:01] INFO root fetch - processPackages [multiPrime]: executing diffoscope
+[2023-06-21 07:43:01] INFO root fetch - processPackages [multiPrime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiPrime-2.4.4.tar.gz tmp/multiPrime-2.4.5.tar.gz --markdown 20230621/m/multiPrime/2.4.4-2.4.5/diff.md --exclude *.pyd
+[2023-06-21 07:43:01] INFO root fetch - processPackages [feffery-maplibre]: Downloading https://files.pythonhosted.org/packages/81/27/2cbf8ff1bc072970f13e071cb3f673d98c5fd3856fd4c97b7a4d6dfd95ac/feffery_maplibre-0.0.1a2.tar.gz
+[2023-06-21 07:43:02] INFO root fetch - processPackages [feffery-maplibre]: executing diffoscope
+[2023-06-21 07:43:02] INFO root fetch - processPackages [feffery-maplibre]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_maplibre-0.0.1a1.tar.gz tmp/feffery_maplibre-0.0.1a2.tar.gz --markdown 20230621/f/feffery-maplibre/0.0.1a1-0.0.1a2/diff.md --exclude *.pyd
+[2023-06-21 07:43:02] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-06-21 07:43:02] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-06-21 07:43:02] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-21 07:43:03] INFO root fetch - processPackages [jupyter-utility-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-utility-widgets-0.0.1a2.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - processPackages [jupyter-utility-widgets]: Remove: archive file [/home/abi/fetcher/tmp/jupyter-utility-widgets-0.0.1a3.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - main [MainThread]: End processing [jupyter-utility-widgets]: success
+[2023-06-21 07:43:03] INFO root fetch - processPackages [ablean]: Remove: archive file [/home/abi/fetcher/tmp/ablean-1.3.5.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - processPackages [ablean]: Remove: archive file [/home/abi/fetcher/tmp/ablean-1.3.6.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - main [MainThread]: End processing [ablean]: success
+[2023-06-21 07:43:03] INFO root fetch - processPackages [multiPrime]: Remove: archive file [/home/abi/fetcher/tmp/multiPrime-2.4.4.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - processPackages [multiPrime]: Remove: archive file [/home/abi/fetcher/tmp/multiPrime-2.4.5.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - main [MainThread]: End processing [multiPrime]: success
+[2023-06-21 07:43:03] INFO root fetch - processPackages [data-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/data-spec-validator-3.2.0.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - processPackages [data-spec-validator]: Remove: archive file [/home/abi/fetcher/tmp/data-spec-validator-3.3.0.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - main [MainThread]: End processing [data-spec-validator]: success
+[2023-06-21 07:43:03] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.7.1.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.7.2.tar.gz]
+[2023-06-21 07:43:03] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-21 07:43:35] INFO root fetch - processPackages [feffery-maplibre]: Remove: archive file [/home/abi/fetcher/tmp/feffery_maplibre-0.0.1a1.tar.gz]
+[2023-06-21 07:43:35] INFO root fetch - processPackages [feffery-maplibre]: Remove: archive file [/home/abi/fetcher/tmp/feffery_maplibre-0.0.1a2.tar.gz]
+[2023-06-21 07:43:35] INFO root fetch - main [MainThread]: End processing [feffery-maplibre]: success
+[2023-06-21 07:43:35] INFO root fetch - main [MainThread]: Store serial: [18585749]
