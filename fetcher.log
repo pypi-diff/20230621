@@ -5468,3 +5468,101 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 03:19:40] INFO root fetch - processPackages [tccli-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tccli-intl-en-3.0.99.1.tar.gz]
 [2023-06-21 03:19:40] INFO root fetch - main [MainThread]: End processing [tccli-intl-en]: success
 [2023-06-21 03:19:40] INFO root fetch - main [MainThread]: Store serial: [18582783]
+[2023-06-21 03:24:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18582783]
+[2023-06-21 03:24:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastopendata
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tencentcloud-sdk-python-intl-en
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jaraco.develop
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-quantize-pytorch
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-sops-secrets
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sparrow-order-lib
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: multiocr
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: haiqv
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: types-mock
+[2023-06-21 03:24:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: biobear
+[2023-06-21 03:24:50] INFO root fetch - processPackages [types-mock]: New version: [5.0.0.6] Old Version: [5.0.0.5]
+[2023-06-21 03:24:50] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.2.0] Old Version: [0.1.99]
+[2023-06-21 03:24:50] INFO root fetch - processPackages [cdk-sops-secrets]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-21 03:24:50] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: New version: [3.0.99] Old Version: [3.0.98]
+[2023-06-21 03:24:50] WARNING root fetch - processPackages [haiqv]: Skipping, unable to determine old version
+[2023-06-21 03:24:50] INFO root fetch - processPackages [haiqv]: Start processing: sqlalchemy-celery-beat
+[2023-06-21 03:24:50] INFO root fetch - main [MainThread]: End processing [haiqv] error
+[2023-06-21 03:24:50] INFO root fetch - processPackages [vector-quantize-pytorch]: New version: [1.6.9] Old Version: [1.6.7]
+[2023-06-21 03:24:50] INFO root fetch - processPackages [fastopendata]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 03:24:50] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/ca/0d/b7dbf59c3e714bf905111836b75d9dc0961d62f2f52f79293e7ce5685010/sparrow-order-lib-0.1.99.tar.gz
+[2023-06-21 03:24:50] INFO root fetch - processPackages [multiocr]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-21 03:24:50] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/47/ec/491739e9cb7da970b8f280ea2383dc94da0c3d39e938ac559e0f2e52aea8/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz
+[2023-06-21 03:24:50] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/e2/8d/e29915f1e26b1a9d52bb33bc0abeaa259422cbc8e7fb8d8031fb9d7855e5/cdk-sops-secrets-1.2.98.tar.gz
+[2023-06-21 03:24:50] INFO root fetch - processPackages [sqlalchemy-celery-beat]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-21 03:24:50] INFO root fetch - processPackages [jaraco.develop]: New version: [7.9.1] Old Version: [7.9.0]
+[2023-06-21 03:24:50] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/38/ed/d936171f6cade1cf2918e628b375bf56535dabb64f1a98c8100af63b8c20/sqlalchemy_celery_beat-0.6.0.tar.gz
+[2023-06-21 03:24:50] INFO root fetch - processPackages [types-mock]: Downloading https://files.pythonhosted.org/packages/d0/db/5f2aca497e930fb83b9264c7f3841af09a81c7e36c7d8a86ef59312b248d/types-mock-5.0.0.5.tar.gz
+[2023-06-21 03:24:50] INFO root fetch - processPackages [fastopendata]: Downloading https://files.pythonhosted.org/packages/af/2d/5373914dc2550664267ab7611cfdc6021b2bf567b92a8f5fc5a6d4b9fcbe/fastopendata-0.0.2-py3-none-any.whl
+[2023-06-21 03:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Downloading https://files.pythonhosted.org/packages/ee/9c/2dcfed598218dfd2d81fa3078c736962b265e5ae724bec2686e853a74d71/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/f9/64/771c9abd337a81ba6dfe0e6a0132b5a43e24b2640538385a01dc17b972f5/vector_quantize_pytorch-1.6.7.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [multiocr]: Downloading https://files.pythonhosted.org/packages/37/2d/e08027a7393fdb64c7b5a851dde78572fee226ad90373b50bc6a9aa555d8/multiocr-0.1.1.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [jaraco.develop]: Downloading https://files.pythonhosted.org/packages/37/e2/c1e161d6e86ddd1bf447938ffd2603eb81f4c86edc396b39771b0b0df9fc/jaraco.develop-7.9.0.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Downloading https://files.pythonhosted.org/packages/7a/d8/aac47396fa62aade7f2e23a95f8af5bb74fd4d83a646ebcf6ff24f457887/sqlalchemy_celery_beat-0.6.1.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/8b/89/071a3d3325b79e38ef5b3a441abbecd881077f9ec1d1b38c3cd17d5eb807/sparrow-order-lib-0.2.0.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz --markdown 20230621/t/tencentcloud-sdk-python-intl-en/3.0.98-3.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [sqlalchemy-celery-beat]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [sqlalchemy-celery-beat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_celery_beat-0.6.0.tar.gz tmp/sqlalchemy_celery_beat-0.6.1.tar.gz --markdown 20230621/s/sqlalchemy-celery-beat/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [biobear]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-21 03:24:51] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.1.99.tar.gz tmp/sparrow-order-lib-0.2.0.tar.gz --markdown 20230621/s/sparrow-order-lib/0.1.99-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [cdk-sops-secrets]: Downloading https://files.pythonhosted.org/packages/10/33/e08c5e7bb6d5b198c75b53cba42224da6ac877f65fd4a4343fecdad9a93e/cdk-sops-secrets-1.2.99.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [fastopendata]: Downloading https://files.pythonhosted.org/packages/49/af/a052dc1552365ae1bd815e477bd1b6e76f28aa6ea35073242822e9a0aeda/fastopendata-0.0.3-py3-none-any.whl
+[2023-06-21 03:24:51] INFO root fetch - processPackages [multiocr]: Downloading https://files.pythonhosted.org/packages/b8/42/1138be2b13dd2992f4aa1c3b576b94530721c846426b0a22792bb74ba6f9/multiocr-0.1.2.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [vector-quantize-pytorch]: Downloading https://files.pythonhosted.org/packages/59/2f/a0f5b7e39fdec57501b5b479d9b4fac9c2c81adc65b2ed6f30dd4dbfd3ab/vector_quantize_pytorch-1.6.9.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [types-mock]: Downloading https://files.pythonhosted.org/packages/11/73/7e32968aa0cef5ed421b0c0294e7959fcf41ac875f6436cb7dbcfddc745b/types-mock-5.0.0.6.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [cdk-sops-secrets]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [cdk-sops-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sops-secrets-1.2.98.tar.gz tmp/cdk-sops-secrets-1.2.99.tar.gz --markdown 20230621/c/cdk-sops-secrets/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [vector-quantize-pytorch]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [vector-quantize-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_quantize_pytorch-1.6.7.tar.gz tmp/vector_quantize_pytorch-1.6.9.tar.gz --markdown 20230621/v/vector-quantize-pytorch/1.6.7-1.6.9/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [types-mock]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [types-mock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types-mock-5.0.0.5.tar.gz tmp/types-mock-5.0.0.6.tar.gz --markdown 20230621/t/types-mock/5.0.0.5-5.0.0.6/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [fastopendata]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [fastopendata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastopendata-0.0.2-py3-none-any.whl.zip tmp/fastopendata-0.0.3-py3-none-any.whl.zip --markdown 20230621/f/fastopendata/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [multiocr]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [multiocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiocr-0.1.1.tar.gz tmp/multiocr-0.1.2.tar.gz --markdown 20230621/m/multiocr/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [jaraco.develop]: Downloading https://files.pythonhosted.org/packages/20/2d/16cf4a7654cc9364083e4419a0641648e22fc2a6bc8b941bb5752d923a56/jaraco.develop-7.9.1.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/2d/cd/276b6292af7c66451e8ce3159187f833539a910336f4ec0245e93a9c7f67/biobear-0.6.1.tar.gz
+[2023-06-21 03:24:51] INFO root fetch - processPackages [jaraco.develop]: executing diffoscope
+[2023-06-21 03:24:51] INFO root fetch - processPackages [jaraco.develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.develop-7.9.0.tar.gz tmp/jaraco.develop-7.9.1.tar.gz --markdown 20230621/j/jaraco.develop/7.9.0-7.9.1/diff.md --exclude *.pyd
+[2023-06-21 03:24:51] INFO root fetch - processPackages [biobear]: Downloading https://files.pythonhosted.org/packages/d5/28/ff6e986bc577cc66c39e99e8a0ef9027cf10f9c787dfc300704cbe59dfff/biobear-0.6.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 03:24:52] WARNING root fetch - processPackages [biobear]: Skipping package: exceeds size limit 20414528>=10485760
+[2023-06-21 03:24:52] INFO root fetch - processPackages [biobear]: Start processing: pcdl
+[2023-06-21 03:24:52] INFO root fetch - main [MainThread]: End processing [biobear] error
+[2023-06-21 03:24:52] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.7.tar.gz]
+[2023-06-21 03:24:52] INFO root fetch - processPackages [vector-quantize-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/vector_quantize_pytorch-1.6.9.tar.gz]
+[2023-06-21 03:24:52] INFO root fetch - main [MainThread]: End processing [vector-quantize-pytorch]: success
+[2023-06-21 03:24:52] INFO root fetch - processPackages [pcdl]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-06-21 03:24:53] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.6.0.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - processPackages [sqlalchemy-celery-beat]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_celery_beat-0.6.1.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - main [MainThread]: End processing [sqlalchemy-celery-beat]: success
+[2023-06-21 03:24:53] INFO root fetch - processPackages [multiocr]: Remove: archive file [/home/abi/fetcher/tmp/multiocr-0.1.1.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - processPackages [multiocr]: Remove: archive file [/home/abi/fetcher/tmp/multiocr-0.1.2.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - main [MainThread]: End processing [multiocr]: success
+[2023-06-21 03:24:53] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.1.99.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.2.0.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-06-21 03:24:53] INFO root fetch - processPackages [fastopendata]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata-0.0.2-py3-none-any.whl.zip]
+[2023-06-21 03:24:53] INFO root fetch - processPackages [fastopendata]: Remove: archive file [/home/abi/fetcher/tmp/fastopendata-0.0.3-py3-none-any.whl.zip]
+[2023-06-21 03:24:53] INFO root fetch - main [MainThread]: End processing [fastopendata]: success
+[2023-06-21 03:24:53] INFO root fetch - processPackages [pcdl]: Downloading https://files.pythonhosted.org/packages/49/f5/851ddf0b985c1996aec70e499dce03663f1ae09427cf592f5e68bb217b00/pcdl-3.2.6.tar.gz
+[2023-06-21 03:24:53] INFO root fetch - processPackages [types-mock]: Remove: archive file [/home/abi/fetcher/tmp/types-mock-5.0.0.5.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - processPackages [types-mock]: Remove: archive file [/home/abi/fetcher/tmp/types-mock-5.0.0.6.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - main [MainThread]: End processing [types-mock]: success
+[2023-06-21 03:24:53] WARNING root fetch - processPackages [pcdl]: Skipping package: exceeds size limit 16865638>=10485760
+[2023-06-21 03:24:53] INFO root fetch - main [MainThread]: End processing [pcdl] error
+[2023-06-21 03:24:53] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.98.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - processPackages [cdk-sops-secrets]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sops-secrets-1.2.99.tar.gz]
+[2023-06-21 03:24:53] INFO root fetch - main [MainThread]: End processing [cdk-sops-secrets]: success
+[2023-06-21 03:24:54] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.98.tar.gz]
+[2023-06-21 03:24:54] INFO root fetch - processPackages [tencentcloud-sdk-python-intl-en]: Remove: archive file [/home/abi/fetcher/tmp/tencentcloud-sdk-python-intl-en-3.0.99.tar.gz]
+[2023-06-21 03:24:54] INFO root fetch - main [MainThread]: End processing [tencentcloud-sdk-python-intl-en]: success
+[2023-06-21 03:25:46] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-7.9.0.tar.gz]
+[2023-06-21 03:25:46] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-7.9.1.tar.gz]
+[2023-06-21 03:25:46] INFO root fetch - main [MainThread]: End processing [jaraco.develop]: success
+[2023-06-21 03:25:46] INFO root fetch - main [MainThread]: Store serial: [18582843]
