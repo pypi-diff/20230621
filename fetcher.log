@@ -12718,3 +12718,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 07:01:52] INFO root fetch - processPackages [odoo10-addon-sale-rental]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_sale_rental-10.0.1.0.1.99.dev6-py2-none-any.whl.zip]
 [2023-06-21 07:01:52] INFO root fetch - main [MainThread]: End processing [odoo10-addon-sale-rental]: success
 [2023-06-21 07:01:52] INFO root fetch - main [MainThread]: Store serial: [18585436]
+[2023-06-21 07:06:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585436]
+[2023-06-21 07:07:02] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: preprocessing-pgp
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-product-form-sale-link
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ghananews-scraper
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spt-factory
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastgenerateapi
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-product-form-sale-link
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hera-cli-utils
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-sale-workflow
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo14-addon-password-security
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: blackjax-nightly
+[2023-06-21 07:07:02] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ghananews-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [spt-factory]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [hera-cli-utils]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230619.0] Old Version: [16.0.20230614.1]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/a2/33/504df0ce0acaf61f60613df21ade352c390d6e4af2d9fc79095d66ea98dc/fastgenerateapi-0.0.8.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo14-addon-password-security]: New version: [14.0.1.1.1.dev3] Old Version: [14.0.1.1.1.dev2]
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/c1/79/32b1a1e21ef627a1686b207b34fa0b767d7ce3501e31734e8a980341fa49/odoo_addon_product_form_sale_link-16.0.1.0.1-py3-none-any.whl
+[2023-06-21 07:07:02] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/83/2d/d094b0c80c03ed4ddc4544a63140d47a1193dfc55f5489eb9b0b68a3e8d7/ghananews-scraper-1.0.8.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [hera-cli-utils]: Downloading https://files.pythonhosted.org/packages/ad/47/0c307a0869bd4c06dc78d137f308729caab5abc1b1b345a7e9c314c900c4/hera_cli_utils-0.0.1.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [spt-factory]: Downloading https://files.pythonhosted.org/packages/c2/4c/7c84e2219d9004bfadf0192aafebc7a42f5eaf9e40ca03c2fe101addfee3/spt_factory-0.0.8.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo14-addon-password-security]: Downloading https://files.pythonhosted.org/packages/78/3b/8cafb6811b0303866337417f2f0458bfe09d0b141ef1a59a045859b03500/odoo14_addon_password_security-14.0.1.1.1.dev2-py3-none-any.whl
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/0b/82/54b4a832147c0854508aaf18493008af621d5b32b2369cc73ba92cc7a57b/odoo_addons_oca_sale_workflow-16.0.20230614.1-py3-none-any.whl
+[2023-06-21 07:07:02] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/37/b4/3a4b842aeadf32d0bb647e0db074a1339df44d91e60901a3624d9ee2a285/fastgenerateapi-0.0.9.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/c1/79/32b1a1e21ef627a1686b207b34fa0b767d7ce3501e31734e8a980341fa49/odoo_addon_product_form_sale_link-16.0.1.0.1-py3-none-any.whl
+[2023-06-21 07:07:02] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/92/6d/422e9e95a27c826c4b864ee3e0b55710e81e9082ed87a8b3cffb4c50bc6a/blackjax-nightly-0.9.6.post98.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-21 07:07:02] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.8.tar.gz tmp/fastgenerateapi-0.0.9.tar.gz --markdown 20230621/f/fastgenerateapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/1a/bf/252bde9bc3baf072cdeeb67c2a885371505cc22b4d2681d8df1f386b772b/odoo_addon_product_form_sale_link-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Downloading https://files.pythonhosted.org/packages/1a/bf/252bde9bc3baf072cdeeb67c2a885371505cc22b4d2681d8df1f386b772b/odoo_addon_product_form_sale_link-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/a3/17/85cfe8b233301d296cf229bc6a93e8ff672ceb30b5d7e2f130d458647e1e/odoo_addons_oca_sale_workflow-16.0.20230619.0-py3-none-any.whl
+[2023-06-21 07:07:02] INFO root fetch - processPackages [hera-cli-utils]: Downloading https://files.pythonhosted.org/packages/ed/bf/a6cb24729c4afc93e257de71f48567da2352b7c4bfc7f53cc556b68d6d8a/hera_cli_utils-0.1.0.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230614.1-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230619.0-py3-none-any.whl.zip --markdown 20230621/o/odoo-addons-oca-sale-workflow/16.0.20230614.1-16.0.20230619.0/diff.md --exclude *.pyd
+[2023-06-21 07:07:02] INFO root fetch - processPackages [spt-factory]: Downloading https://files.pythonhosted.org/packages/b9/45/b4ddeefbad693fe21d5bc917e2e9bd8db6f6a28f632dd46cea2102602ea3/spt_factory-0.0.9.tar.gz
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo14-addon-password-security]: Downloading https://files.pythonhosted.org/packages/ed/98/a15a73b902b8529ad3de0b133e614097e541029711e9906cbd1fdd655cf9/odoo14_addon_password_security-14.0.1.1.1.dev3-py3-none-any.whl
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: executing diffoscope
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_form_sale_link-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-product-form-sale-link/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: executing diffoscope
+[2023-06-21 07:07:02] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_form_sale_link-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-product-form-sale-link/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-21 07:07:02] INFO root fetch - processPackages [hera-cli-utils]: executing diffoscope
+[2023-06-21 07:07:02] INFO root fetch - processPackages [hera-cli-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hera_cli_utils-0.0.1.tar.gz tmp/hera_cli_utils-0.1.0.tar.gz --markdown 20230621/h/hera-cli-utils/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-21 07:07:03] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-06-21 07:07:03] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: emdfile
+[2023-06-21 07:07:03] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-21 07:07:03] INFO root fetch - processPackages [odoo14-addon-password-security]: executing diffoscope
+[2023-06-21 07:07:03] INFO root fetch - processPackages [odoo14-addon-password-security]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_password_security-14.0.1.1.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_password_security-14.0.1.1.1.dev3-py3-none-any.whl.zip --markdown 20230621/o/odoo14-addon-password-security/14.0.1.1.1.dev2-14.0.1.1.1.dev3/diff.md --exclude *.pyd
+[2023-06-21 07:07:03] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/0a/e7/14592c365bf8ffb51707e15763cef8c10eeae142ca25ce02085d7e87d6cc/blackjax-nightly-0.9.6.post99.tar.gz
+[2023-06-21 07:07:03] INFO root fetch - processPackages [spt-factory]: executing diffoscope
+[2023-06-21 07:07:03] INFO root fetch - processPackages [spt-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spt_factory-0.0.8.tar.gz tmp/spt_factory-0.0.9.tar.gz --markdown 20230621/s/spt-factory/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 07:07:03] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/e0/b6/878f5dbca6bf8dae7e132e857d785abcef5601d293dc4ce6a8ffe5e61655/ghananews-scraper-1.0.9.tar.gz
+[2023-06-21 07:07:03] INFO root fetch - processPackages [emdfile]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 07:07:03] INFO root fetch - processPackages [ghananews-scraper]: executing diffoscope
+[2023-06-21 07:07:03] INFO root fetch - processPackages [ghananews-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghananews-scraper-1.0.8.tar.gz tmp/ghananews-scraper-1.0.9.tar.gz --markdown 20230621/g/ghananews-scraper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-21 07:07:03] INFO root fetch - processPackages [emdfile]: Downloading https://files.pythonhosted.org/packages/4c/b2/935c893538b5e5229f77e1165cfc9c1a94b69899d83097c0bae42f231935/emdfile-0.0.8.tar.gz
+[2023-06-21 07:07:03] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-06-21 07:07:03] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230621/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-06-21 07:07:03] INFO root fetch - processPackages [emdfile]: Downloading https://files.pythonhosted.org/packages/a3/7f/e2886e2594ff6740e65d299d0882fa7f95542f8a3f6fdbfe8db3dbac4b58/emdfile-0.0.9.tar.gz
+[2023-06-21 07:07:03] INFO root fetch - processPackages [emdfile]: executing diffoscope
+[2023-06-21 07:07:03] INFO root fetch - processPackages [emdfile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/emdfile-0.0.8.tar.gz tmp/emdfile-0.0.9.tar.gz --markdown 20230621/e/emdfile/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 07:07:04] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230614.1-py3-none-any.whl.zip]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230619.0-py3-none-any.whl.zip]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Start processing: multi-model-server
+[2023-06-21 07:07:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-06-21 07:07:04] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-21 07:07:04] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230621/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-21 07:07:04] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_form_sale_link-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Start processing: TopasOpt
+[2023-06-21 07:07:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link]: success
+[2023-06-21 07:07:04] INFO root fetch - processPackages [odoo-addon-product-form-sale-link]: Start processing: FreeTVG-karjakak
+[2023-06-21 07:07:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-form-sale-link]: success
+[2023-06-21 07:07:04] INFO root fetch - processPackages [TopasOpt]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [hera-cli-utils]: Remove: archive file [/home/abi/fetcher/tmp/hera_cli_utils-0.0.1.tar.gz]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [hera-cli-utils]: Remove: archive file [/home/abi/fetcher/tmp/hera_cli_utils-0.1.0.tar.gz]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [hera-cli-utils]: Start processing: rapid-pe
+[2023-06-21 07:07:04] INFO root fetch - main [MainThread]: End processing [hera-cli-utils]: success
+[2023-06-21 07:07:04] INFO root fetch - processPackages [FreeTVG-karjakak]: New version: [3.2.9] Old Version: [3.2.8rc1]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230620] Old Version: [0.1.1.dev20230619]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/41/55/523a62283bed7b20e434c235c29ba116dbd3de61844120a07f61b72ca923/rapid_pe-0.1.1.dev20230619.tar.gz
+[2023-06-21 07:07:04] INFO root fetch - processPackages [spt-factory]: Remove: archive file [/home/abi/fetcher/tmp/spt_factory-0.0.8.tar.gz]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [spt-factory]: Remove: archive file [/home/abi/fetcher/tmp/spt_factory-0.0.9.tar.gz]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [spt-factory]: Start processing: ahoy-dtu-webthing
+[2023-06-21 07:07:04] INFO root fetch - main [MainThread]: End processing [spt-factory]: success
+[2023-06-21 07:07:04] INFO root fetch - processPackages [TopasOpt]: Downloading https://files.pythonhosted.org/packages/ed/c4/c378bd7ae3dc23cd7a69655d4c446830d82b048dc9d0cf99ce88574f9660/TopasOpt-0.4.3.tar.gz
+[2023-06-21 07:07:04] INFO root fetch - processPackages [ahoy-dtu-webthing]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 07:07:04] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/02/85/71c852028ea533a2ab891c28a78ad4edce227d78b9655609b9ef1b63ceca/FreeTVG-karjakak-3.2.8rc1.tar.gz
+[2023-06-21 07:07:04] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/80/54/2e5ff8e3d767e8b376bd24c9b6ae7c06e3727aa9b6ec0661fd4cd8431b38/ahoy_dtu_webthing-0.0.8.tar.gz
+[2023-06-21 07:07:04] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/6b/c3/324b94a9c00d5a49eed153ff3d46a569f9e34fa7ab7b2c3b4fa6c66e9583/rapid_pe-0.1.1.dev20230620.tar.gz
+[2023-06-21 07:07:05] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.8.tar.gz]
+[2023-06-21 07:07:05] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.9.tar.gz]
+[2023-06-21 07:07:05] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-21 07:07:05] INFO root fetch - processPackages [ahoy-dtu-webthing]: Downloading https://files.pythonhosted.org/packages/63/7c/6bf2d1367f715c75322425c8402ee044b85d6a04e1d1970512c487d15226/ahoy_dtu_webthing-0.0.9.tar.gz
+[2023-06-21 07:07:05] INFO root fetch - processPackages [TopasOpt]: Downloading https://files.pythonhosted.org/packages/91/96/9a74f974ad694de9f7f2c6f44ac1748caa6880c7b6e0f4acbdb507ea1b52/TopasOpt-0.4.4.tar.gz
+[2023-06-21 07:07:05] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-21 07:07:05] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230619.tar.gz tmp/rapid_pe-0.1.1.dev20230620.tar.gz --markdown 20230621/r/rapid-pe/0.1.1.dev20230619-0.1.1.dev20230620/diff.md --exclude *.pyd
+[2023-06-21 07:07:05] INFO root fetch - processPackages [ghananews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ghananews-scraper-1.0.8.tar.gz]
+[2023-06-21 07:07:05] INFO root fetch - processPackages [ghananews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ghananews-scraper-1.0.9.tar.gz]
+[2023-06-21 07:07:05] INFO root fetch - main [MainThread]: End processing [ghananews-scraper]: success
+[2023-06-21 07:07:05] INFO root fetch - processPackages [ahoy-dtu-webthing]: executing diffoscope
+[2023-06-21 07:07:05] INFO root fetch - processPackages [ahoy-dtu-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ahoy_dtu_webthing-0.0.8.tar.gz tmp/ahoy_dtu_webthing-0.0.9.tar.gz --markdown 20230621/a/ahoy-dtu-webthing/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 07:07:05] INFO root fetch - processPackages [odoo14-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_password_security-14.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-21 07:07:05] INFO root fetch - processPackages [odoo14-addon-password-security]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_password_security-14.0.1.1.1.dev3-py3-none-any.whl.zip]
+[2023-06-21 07:07:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-password-security]: success
+[2023-06-21 07:07:05] INFO root fetch - processPackages [TopasOpt]: executing diffoscope
+[2023-06-21 07:07:05] INFO root fetch - processPackages [TopasOpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TopasOpt-0.4.3.tar.gz tmp/TopasOpt-0.4.4.tar.gz --markdown 20230621/T/TopasOpt/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-21 07:07:05] INFO root fetch - processPackages [emdfile]: Remove: archive file [/home/abi/fetcher/tmp/emdfile-0.0.8.tar.gz]
+[2023-06-21 07:07:05] INFO root fetch - processPackages [emdfile]: Remove: archive file [/home/abi/fetcher/tmp/emdfile-0.0.9.tar.gz]
+[2023-06-21 07:07:05] INFO root fetch - main [MainThread]: End processing [emdfile]: success
+[2023-06-21 07:07:05] INFO root fetch - processPackages [FreeTVG-karjakak]: Downloading https://files.pythonhosted.org/packages/20/c8/b2d2b09efa9a15750b6fa88a2e3cd51827c38c558668957dd2907a0a85ac/FreeTVG-karjakak-3.2.9.tar.gz
+[2023-06-21 07:07:05] INFO root fetch - processPackages [FreeTVG-karjakak]: executing diffoscope
+[2023-06-21 07:07:05] INFO root fetch - processPackages [FreeTVG-karjakak]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FreeTVG-karjakak-3.2.8rc1.tar.gz tmp/FreeTVG-karjakak-3.2.9.tar.gz --markdown 20230621/F/FreeTVG-karjakak/3.2.8rc1-3.2.9/diff.md --exclude *.pyd
+[2023-06-21 07:07:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230619.tar.gz]
+[2023-06-21 07:07:06] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230620.tar.gz]
+[2023-06-21 07:07:06] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-21 07:07:06] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.0.8.tar.gz]
+[2023-06-21 07:07:06] INFO root fetch - processPackages [ahoy-dtu-webthing]: Remove: archive file [/home/abi/fetcher/tmp/ahoy_dtu_webthing-0.0.9.tar.gz]
+[2023-06-21 07:07:06] INFO root fetch - main [MainThread]: End processing [ahoy-dtu-webthing]: success
+[2023-06-21 07:07:06] INFO root fetch - processPackages [TopasOpt]: Remove: archive file [/home/abi/fetcher/tmp/TopasOpt-0.4.3.tar.gz]
+[2023-06-21 07:07:06] INFO root fetch - processPackages [TopasOpt]: Remove: archive file [/home/abi/fetcher/tmp/TopasOpt-0.4.4.tar.gz]
+[2023-06-21 07:07:06] INFO root fetch - main [MainThread]: End processing [TopasOpt]: success
+[2023-06-21 07:07:06] INFO root fetch - processPackages [FreeTVG-karjakak]: Remove: archive file [/home/abi/fetcher/tmp/FreeTVG-karjakak-3.2.8rc1.tar.gz]
+[2023-06-21 07:07:06] INFO root fetch - processPackages [FreeTVG-karjakak]: Remove: archive file [/home/abi/fetcher/tmp/FreeTVG-karjakak-3.2.9.tar.gz]
+[2023-06-21 07:07:06] INFO root fetch - main [MainThread]: End processing [FreeTVG-karjakak]: success
+[2023-06-21 07:07:08] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-0.9.6.post98.tar.gz]
+[2023-06-21 07:07:08] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-0.9.6.post99.tar.gz]
+[2023-06-21 07:07:08] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-06-21 07:10:04] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-21 07:10:04] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-21 07:10:04] INFO root fetch - main [MainThread]: Store serial: [18585481]
