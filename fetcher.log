@@ -10144,3 +10144,41 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 04:48:37] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
 [2023-06-21 04:48:37] INFO root fetch - main [MainThread]: End processing [tccli]: success
 [2023-06-21 04:48:37] INFO root fetch - main [MainThread]: Store serial: [18584455]
+[2023-06-21 04:53:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584455]
+[2023-06-21 04:53:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-21 04:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JustScan
+[2023-06-21 04:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spacebench
+[2023-06-21 04:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: JustScan
+[2023-06-21 04:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: JustScan
+[2023-06-21 04:53:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datalibro-utils
+[2023-06-21 04:53:46] INFO root fetch - processPackages [JustScan]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-21 04:53:46] WARNING root fetch - processPackages [datalibro-utils]: Skipping, unable to determine old version
+[2023-06-21 04:53:46] INFO root fetch - main [MainThread]: End processing [datalibro-utils] error
+[2023-06-21 04:53:46] INFO root fetch - processPackages [spacebench]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 04:53:46] INFO root fetch - processPackages [JustScan]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-21 04:53:46] INFO root fetch - processPackages [JustScan]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-21 04:53:46] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/3c/60/e43c95bcdc62c51a84707d085f9089ea5feffa6f319667ca2ee213882d3f/JustScan-1.1.5.tar.gz
+[2023-06-21 04:53:46] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/3c/60/e43c95bcdc62c51a84707d085f9089ea5feffa6f319667ca2ee213882d3f/JustScan-1.1.5.tar.gz
+[2023-06-21 04:53:46] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/3c/60/e43c95bcdc62c51a84707d085f9089ea5feffa6f319667ca2ee213882d3f/JustScan-1.1.5.tar.gz
+[2023-06-21 04:53:46] INFO root fetch - processPackages [spacebench]: Downloading https://files.pythonhosted.org/packages/6c/22/8ecd38889fb619eaa48bbe5457d31abaa984a6b456bdd2590df9c51f4104/spacebench-0.0.1.tar.gz
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/f3/8e/d4295bfdc828930a26fbc74b1cfe63bc3143fff8d9cc92f151d500bc8e78/JustScan-1.1.6.tar.gz
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/f3/8e/d4295bfdc828930a26fbc74b1cfe63bc3143fff8d9cc92f151d500bc8e78/JustScan-1.1.6.tar.gz
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/f3/8e/d4295bfdc828930a26fbc74b1cfe63bc3143fff8d9cc92f151d500bc8e78/JustScan-1.1.6.tar.gz
+[2023-06-21 04:53:47] INFO root fetch - processPackages [spacebench]: Downloading https://files.pythonhosted.org/packages/76/38/a40b489870a016def8236d0a9e6a7a2721924f5d18c9a1ec38fbdfa65495/spacebench-0.0.2.tar.gz
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.5.tar.gz tmp/JustScan-1.1.6.tar.gz --markdown 20230621/J/JustScan/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.5.tar.gz tmp/JustScan-1.1.6.tar.gz --markdown 20230621/J/JustScan/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-21 04:53:47] INFO root fetch - processPackages [spacebench]: executing diffoscope
+[2023-06-21 04:53:47] INFO root fetch - processPackages [spacebench]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spacebench-0.0.1.tar.gz tmp/spacebench-0.0.2.tar.gz --markdown 20230621/s/spacebench/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-21 04:53:47] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.5.tar.gz tmp/JustScan-1.1.6.tar.gz --markdown 20230621/J/JustScan/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-21 04:53:48] INFO root fetch - processPackages [spacebench]: Remove: archive file [/home/abi/fetcher/tmp/spacebench-0.0.1.tar.gz]
+[2023-06-21 04:53:48] INFO root fetch - processPackages [spacebench]: Remove: archive file [/home/abi/fetcher/tmp/spacebench-0.0.2.tar.gz]
+[2023-06-21 04:53:48] INFO root fetch - main [MainThread]: End processing [spacebench]: success
+[2023-06-21 04:53:48] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.5.tar.gz]
+[2023-06-21 04:53:48] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.6.tar.gz]
+[2023-06-21 04:53:48] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-21 04:53:48] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-21 04:53:48] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-21 04:53:48] INFO root fetch - main [MainThread]: Store serial: [18584470]
