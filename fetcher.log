@@ -12064,3 +12064,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 06:24:32] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-06-21 06:24:32] INFO root fetch - main [MainThread]: End processing [esphome]: success
 [2023-06-21 06:24:32] INFO root fetch - main [MainThread]: Store serial: [18585208]
+[2023-06-21 06:29:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585208]
+[2023-06-21 06:29:42] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kevin-toolbox-dev
+[2023-06-21 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: esphome
+[2023-06-21 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: qoyllur-quipu
+[2023-06-21 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hs-bridge
+[2023-06-21 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: video-process
+[2023-06-21 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sysml2py
+[2023-06-21 06:29:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: azure-mgmt-iothubprovisioningservices
+[2023-06-21 06:29:42] INFO root fetch - processPackages [azure-mgmt-iothubprovisioningservices]: New version: [1.2.0b1] Old Version: [1.1.0]
+[2023-06-21 06:29:42] INFO root fetch - processPackages [video-process]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 06:29:42] WARNING root fetch - processPackages [hs-bridge]: Skipping, unable to determine old version
+[2023-06-21 06:29:42] INFO root fetch - processPackages [sysml2py]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-06-21 06:29:42] INFO root fetch - main [MainThread]: End processing [hs-bridge] error
+[2023-06-21 06:29:42] INFO root fetch - processPackages [qoyllur-quipu]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-21 06:29:42] INFO root fetch - processPackages [esphome]: New version: [2023.6.0b4] Old Version: [2023.6.0b3]
+[2023-06-21 06:29:42] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-21 06:29:42] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/b6/7f/e3d83aa65dd752f7c51b8c306f66e94b34e646ef879397bad59fd55595b1/sysml2py-0.2.3.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ce/23/662f0b0116ec635d91e86d0d573282d537a23f66a5df7efd492ef94a7203/esphome-2023.6.0b3.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [qoyllur-quipu]: Downloading https://files.pythonhosted.org/packages/05/6f/9914350447f5a3f3cf228270f406c19032705e6b86858159c60dd1149811/qoyllur_quipu-1.0.1.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [azure-mgmt-iothubprovisioningservices]: Downloading https://files.pythonhosted.org/packages/47/78/b5252f7e42d596d0e8ab4d7ea5f90545436d83c4bf45f1e86d7618d128db/azure-mgmt-iothubprovisioningservices-1.1.0.zip
+[2023-06-21 06:29:42] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/a9/80/cacf58d5b080bbef24236f0750c266351c244a784b3ac6d5b5d554368be8/video_process-0.1.2.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/67/d8/388ff830c557ef2dbcdebf1c34c5016b5543672c767101c036bf64fe349d/kevin-toolbox-dev-1.1.0.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/c6/15/f1140f9fdac275d017eb7ef148b2a68c612f347554d4f1bc5a93b912af2e/sysml2py-0.2.5.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [sysml2py]: executing diffoscope
+[2023-06-21 06:29:42] INFO root fetch - processPackages [sysml2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysml2py-0.2.3.tar.gz tmp/sysml2py-0.2.5.tar.gz --markdown 20230621/s/sysml2py/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-06-21 06:29:42] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/d3/31/eebf0d0fef295e83f6535e49e49fc81bcdf53cf77eda29816b0fbdcf8cf2/esphome-2023.6.0b4.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [qoyllur-quipu]: Downloading https://files.pythonhosted.org/packages/87/fc/34fe8c68717ee07dc12bc4c10dfaad476cc5fc561abea16f1b420d4deb5a/qoyllur_quipu-1.0.2.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/16/1d/63fa6b864ef67f0b2387bb59b4201d56243fe4c9060d1e25a92aeb1fbb43/kevin-toolbox-dev-1.1.1.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/3c/5f/3c0052522b2851d9b8253a50eece6a23e4d3a0cc734b703d74fae998b6e6/video_process-0.1.3.tar.gz
+[2023-06-21 06:29:42] INFO root fetch - processPackages [qoyllur-quipu]: executing diffoscope
+[2023-06-21 06:29:42] INFO root fetch - processPackages [qoyllur-quipu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qoyllur_quipu-1.0.1.tar.gz tmp/qoyllur_quipu-1.0.2.tar.gz --markdown 20230621/q/qoyllur-quipu/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-21 06:29:42] INFO root fetch - processPackages [azure-mgmt-iothubprovisioningservices]: Downloading https://files.pythonhosted.org/packages/e2/2f/0722c51107fbfcc82a7ed1c9d205250ed3d8e4db6e0fe104915de8146f27/azure-mgmt-iothubprovisioningservices-1.2.0b1.zip
+[2023-06-21 06:29:42] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-21 06:29:42] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.1.0.tar.gz tmp/kevin-toolbox-dev-1.1.1.tar.gz --markdown 20230621/k/kevin-toolbox-dev/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-21 06:29:42] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-06-21 06:29:42] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.6.0b3.tar.gz tmp/esphome-2023.6.0b4.tar.gz --markdown 20230621/e/esphome/2023.6.0b3-2023.6.0b4/diff.md --exclude *.pyd
+[2023-06-21 06:29:43] INFO root fetch - processPackages [video-process]: executing diffoscope
+[2023-06-21 06:29:43] INFO root fetch - processPackages [video-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_process-0.1.2.tar.gz tmp/video_process-0.1.3.tar.gz --markdown 20230621/v/video-process/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 06:29:43] INFO root fetch - processPackages [azure-mgmt-iothubprovisioningservices]: executing diffoscope
+[2023-06-21 06:29:43] INFO root fetch - processPackages [azure-mgmt-iothubprovisioningservices]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-iothubprovisioningservices-1.1.0.zip tmp/azure-mgmt-iothubprovisioningservices-1.2.0b1.zip --markdown 20230621/a/azure-mgmt-iothubprovisioningservices/1.1.0-1.2.0b1/diff.md --exclude *.pyd
+[2023-06-21 06:29:44] INFO root fetch - processPackages [sysml2py]: Remove: archive file [/home/abi/fetcher/tmp/sysml2py-0.2.3.tar.gz]
+[2023-06-21 06:29:44] INFO root fetch - processPackages [sysml2py]: Remove: archive file [/home/abi/fetcher/tmp/sysml2py-0.2.5.tar.gz]
+[2023-06-21 06:29:44] INFO root fetch - main [MainThread]: End processing [sysml2py]: success
+[2023-06-21 06:29:44] INFO root fetch - processPackages [qoyllur-quipu]: Remove: archive file [/home/abi/fetcher/tmp/qoyllur_quipu-1.0.1.tar.gz]
+[2023-06-21 06:29:44] INFO root fetch - processPackages [qoyllur-quipu]: Remove: archive file [/home/abi/fetcher/tmp/qoyllur_quipu-1.0.2.tar.gz]
+[2023-06-21 06:29:44] INFO root fetch - main [MainThread]: End processing [qoyllur-quipu]: success
+[2023-06-21 06:29:44] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.2.tar.gz]
+[2023-06-21 06:29:44] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.3.tar.gz]
+[2023-06-21 06:29:44] INFO root fetch - main [MainThread]: End processing [video-process]: success
+[2023-06-21 06:29:44] INFO root fetch - processPackages [azure-mgmt-iothubprovisioningservices]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-iothubprovisioningservices-1.1.0.zip]
+[2023-06-21 06:29:44] INFO root fetch - processPackages [azure-mgmt-iothubprovisioningservices]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-iothubprovisioningservices-1.2.0b1.zip]
+[2023-06-21 06:29:44] INFO root fetch - main [MainThread]: End processing [azure-mgmt-iothubprovisioningservices]: success
+[2023-06-21 06:29:45] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.0.tar.gz]
+[2023-06-21 06:29:45] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.1.tar.gz]
+[2023-06-21 06:29:45] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-21 06:30:29] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b3.tar.gz]
+[2023-06-21 06:30:29] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b4.tar.gz]
+[2023-06-21 06:30:29] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-06-21 06:30:29] INFO root fetch - main [MainThread]: Store serial: [18585232]
