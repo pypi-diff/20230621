@@ -14068,3 +14068,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 08:15:53] INFO root fetch - processPackages [antchain-riskplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_riskplus-1.9.5.tar.gz]
 [2023-06-21 08:15:53] INFO root fetch - main [MainThread]: End processing [antchain-riskplus]: success
 [2023-06-21 08:15:53] INFO root fetch - main [MainThread]: Store serial: [18585921]
+[2023-06-21 08:20:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585921]
+[2023-06-21 08:21:03] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-21 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: camply
+[2023-06-21 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cipher-kit
+[2023-06-21 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fosslight-prechecker
+[2023-06-21 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: airstack
+[2023-06-21 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fastxtend
+[2023-06-21 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Missing
+[2023-06-21 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pretext
+[2023-06-21 08:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-shopfloor-single-product-transfer
+[2023-06-21 08:21:03] INFO root fetch - processPackages [fosslight-prechecker]: New version: [3.0.9] Old Version: [3.0.8]
+[2023-06-21 08:21:03] INFO root fetch - processPackages [airstack]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 08:21:03] INFO root fetch - processPackages [fastxtend]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 08:21:03] WARNING root fetch - processPackages [cipher-kit]: Skipping, unable to determine old version
+[2023-06-21 08:21:03] INFO root fetch - main [MainThread]: End processing [cipher-kit] error
+[2023-06-21 08:21:03] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-21 08:21:03] INFO root fetch - processPackages [Missing]: New version: [5.0] Old Version: [4.2]
+[2023-06-21 08:21:03] INFO root fetch - processPackages [pretext]: New version: [1.6.1.dev20230621] Old Version: [1.6.1.dev20230620]
+[2023-06-21 08:21:03] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: New version: [14.0.2.0.0] Old Version: [14.0.1.1.1.dev5]
+[2023-06-21 08:21:03] INFO root fetch - processPackages [fosslight-prechecker]: Downloading https://files.pythonhosted.org/packages/61/57/efe45723292f6a8885e3423659c5c2f437e83c85b3f9260ce3f543e64435/fosslight_prechecker-3.0.8.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [fastxtend]: Downloading https://files.pythonhosted.org/packages/36/0f/d1c29ecdf145cb4bbaa6b9f924d277866d5ee11e45b336fbd6c4c32fa3f1/fastxtend-0.1.3.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [Missing]: Downloading https://files.pythonhosted.org/packages/ad/88/3a98fc77dac4558261bea3c5276019f38bbe1c4f1e1663564f64d55d6807/Missing-4.2.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [airstack]: Downloading https://files.pythonhosted.org/packages/17/4a/91b32db81a8522b60a5006a35cdf9feef3c81bbe297fb2a5d2fbee8ded73/airstack-0.0.3.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/72/1a/966edd26451529d9f58cf1db88e735de2cf2f11008ecf95fb0e4361e6e96/pretext-1.6.1.dev20230620.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Downloading https://files.pythonhosted.org/packages/7d/f8/a95123c6e63e6eab3a6e7a0106cf40eeabbee03066cee0f5765ac82baa24/odoo14_addon_shopfloor_single_product_transfer-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-06-21 08:21:03] INFO root fetch - processPackages [airstack]: Downloading https://files.pythonhosted.org/packages/a2/ba/534f8872837ff8beacdc439c8e0abb81ea7969d9414d6226bb8e60d41107/airstack-0.0.4.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [Missing]: Downloading https://files.pythonhosted.org/packages/0d/34/eb8410ca60ad89487f0c6dca21c89068a17a323acc67d5c078cd2fb65ff6/Missing-5.0.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [fosslight-prechecker]: Downloading https://files.pythonhosted.org/packages/1b/63/bef80aa14b33e429b88c4a1af1aae0176b9fdc454d79fbafea065e28118c/fosslight_prechecker-3.0.9.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [fastxtend]: Downloading https://files.pythonhosted.org/packages/7f/bf/3c3b2148bdc32f8dd5575c75471f2533080d301f860b2e20ade11244f564/fastxtend-0.1.4.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [airstack]: executing diffoscope
+[2023-06-21 08:21:03] INFO root fetch - processPackages [airstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airstack-0.0.3.tar.gz tmp/airstack-0.0.4.tar.gz --markdown 20230621/a/airstack/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 08:21:03] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/66/31/286fe9558915136bbcd691b7a2eac240011af4ce0be1d5655f0078e06f72/pretext-1.6.1.dev20230621.tar.gz
+[2023-06-21 08:21:03] INFO root fetch - processPackages [Missing]: executing diffoscope
+[2023-06-21 08:21:03] INFO root fetch - processPackages [Missing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Missing-4.2.tar.gz tmp/Missing-5.0.tar.gz --markdown 20230621/M/Missing/4.2-5.0/diff.md --exclude *.pyd
+[2023-06-21 08:21:03] INFO root fetch - processPackages [fastxtend]: executing diffoscope
+[2023-06-21 08:21:03] INFO root fetch - processPackages [fastxtend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastxtend-0.1.3.tar.gz tmp/fastxtend-0.1.4.tar.gz --markdown 20230621/f/fastxtend/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 08:21:03] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-06-21 08:21:03] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230621/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-21 08:21:04] INFO root fetch - processPackages [fosslight-prechecker]: executing diffoscope
+[2023-06-21 08:21:04] INFO root fetch - processPackages [fosslight-prechecker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fosslight_prechecker-3.0.8.tar.gz tmp/fosslight_prechecker-3.0.9.tar.gz --markdown 20230621/f/fosslight-prechecker/3.0.8-3.0.9/diff.md --exclude *.pyd
+[2023-06-21 08:21:04] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Downloading https://files.pythonhosted.org/packages/aa/88/daec1b1662264fec56be2ff17bc84055f50674a325af4e790cc50cd807ec/odoo14_addon_shopfloor_single_product_transfer-14.0.2.0.0-py3-none-any.whl
+[2023-06-21 08:21:04] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: executing diffoscope
+[2023-06-21 08:21:04] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.0.0-py3-none-any.whl.zip --markdown 20230621/o/odoo14-addon-shopfloor-single-product-transfer/14.0.1.1.1.dev5-14.0.2.0.0/diff.md --exclude *.pyd
+[2023-06-21 08:21:04] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-06-21 08:21:04] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.6.1.dev20230620.tar.gz tmp/pretext-1.6.1.dev20230621.tar.gz --markdown 20230621/p/pretext/1.6.1.dev20230620-1.6.1.dev20230621/diff.md --exclude *.pyd
+[2023-06-21 08:21:05] INFO root fetch - processPackages [fosslight-prechecker]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_prechecker-3.0.8.tar.gz]
+[2023-06-21 08:21:05] INFO root fetch - processPackages [fosslight-prechecker]: Remove: archive file [/home/abi/fetcher/tmp/fosslight_prechecker-3.0.9.tar.gz]
+[2023-06-21 08:21:05] INFO root fetch - main [MainThread]: End processing [fosslight-prechecker]: success
+[2023-06-21 08:21:05] INFO root fetch - processPackages [airstack]: Remove: archive file [/home/abi/fetcher/tmp/airstack-0.0.3.tar.gz]
+[2023-06-21 08:21:05] INFO root fetch - processPackages [airstack]: Remove: archive file [/home/abi/fetcher/tmp/airstack-0.0.4.tar.gz]
+[2023-06-21 08:21:05] INFO root fetch - main [MainThread]: End processing [airstack]: success
+[2023-06-21 08:21:05] INFO root fetch - processPackages [Missing]: Remove: archive file [/home/abi/fetcher/tmp/Missing-4.2.tar.gz]
+[2023-06-21 08:21:05] INFO root fetch - processPackages [Missing]: Remove: archive file [/home/abi/fetcher/tmp/Missing-5.0.tar.gz]
+[2023-06-21 08:21:05] INFO root fetch - main [MainThread]: End processing [Missing]: success
+[2023-06-21 08:21:05] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-06-21 08:21:05] INFO root fetch - processPackages [odoo14-addon-shopfloor-single-product-transfer]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor_single_product_transfer-14.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-21 08:21:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor-single-product-transfer]: success
+[2023-06-21 08:21:07] INFO root fetch - processPackages [fastxtend]: Remove: archive file [/home/abi/fetcher/tmp/fastxtend-0.1.3.tar.gz]
+[2023-06-21 08:21:07] INFO root fetch - processPackages [fastxtend]: Remove: archive file [/home/abi/fetcher/tmp/fastxtend-0.1.4.tar.gz]
+[2023-06-21 08:21:07] INFO root fetch - main [MainThread]: End processing [fastxtend]: success
+[2023-06-21 08:21:07] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2023-06-21 08:21:07] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2023-06-21 08:21:07] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-06-21 08:21:11] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230620.tar.gz]
+[2023-06-21 08:21:11] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.6.1.dev20230621.tar.gz]
+[2023-06-21 08:21:11] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-06-21 08:21:11] INFO root fetch - main [MainThread]: Store serial: [18585944]
