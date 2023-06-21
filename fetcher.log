@@ -12561,3 +12561,67 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 06:51:26] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.4.tar.gz]
 [2023-06-21 06:51:26] INFO root fetch - main [MainThread]: End processing [abl-quantconnect-stubs]: success
 [2023-06-21 06:51:26] INFO root fetch - main [MainThread]: Store serial: [18585387]
+[2023-06-21 06:56:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585387]
+[2023-06-21 06:56:36] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 06:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hyfi
+[2023-06-21 06:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sql-export-mail
+[2023-06-21 06:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: facts-finder
+[2023-06-21 06:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-bi-sql-editor
+[2023-06-21 06:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: design-kgex
+[2023-06-21 06:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: streamlit-base-extras
+[2023-06-21 06:56:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: design-kgex
+[2023-06-21 06:56:36] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: New version: [16.0.1.0.3.1] Old Version: [16.0.1.0.3]
+[2023-06-21 06:56:36] INFO root fetch - processPackages [hyfi]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-21 06:56:36] INFO root fetch - processPackages [streamlit-base-extras]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 06:56:36] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: New version: [16.0.1.0.1.1] Old Version: [16.0.1.0.1]
+[2023-06-21 06:56:36] INFO root fetch - processPackages [facts-finder]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 06:56:36] INFO root fetch - processPackages [design-kgex]: New version: [0.1.1] Old Version: [0.0.6]
+[2023-06-21 06:56:36] INFO root fetch - processPackages [design-kgex]: New version: [0.1.1] Old Version: [0.0.6]
+[2023-06-21 06:56:36] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/fb/d8/89feb86320d8d50116748818aa36c776da6b2f1889a1a2117d948f9c8a20/odoo_addon_bi_sql_editor-16.0.1.0.3-py3-none-any.whl
+[2023-06-21 06:56:36] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/d6/a1/3fd6f35197d99ebc197218d98cd3b64c7011e930acd68ebb35074b8dceda/hyfi-0.9.0.tar.gz
+[2023-06-21 06:56:36] INFO root fetch - processPackages [facts-finder]: Downloading https://files.pythonhosted.org/packages/61/60/06276c53487096e6f3693d782da4faadc4633eebd9bdfde5c17188d3d01d/facts_finder-0.0.8.tar.gz
+[2023-06-21 06:56:36] INFO root fetch - processPackages [design-kgex]: Downloading https://files.pythonhosted.org/packages/ee/18/9d77d2ad7aaaa066f7f8a4c0ee5ea13aa60667c774ab82b9c2670ca92ebf/design_kgex-0.0.6.tar.gz
+[2023-06-21 06:56:36] INFO root fetch - processPackages [design-kgex]: Downloading https://files.pythonhosted.org/packages/ee/18/9d77d2ad7aaaa066f7f8a4c0ee5ea13aa60667c774ab82b9c2670ca92ebf/design_kgex-0.0.6.tar.gz
+[2023-06-21 06:56:36] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Downloading https://files.pythonhosted.org/packages/64/3a/cb182201bd5eedbcbb7df02dcac266bd5a59225d81b4d0904ae35720cbcc/odoo_addon_sql_export_mail-16.0.1.0.1-py3-none-any.whl
+[2023-06-21 06:56:36] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/ba/f8/48c123c3f22d0ae525a7b4edbb61e0ea4be958779baf1093da7e2e92ca66/streamlit-base-extras-0.2.8.tar.gz
+[2023-06-21 06:56:36] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/c3/ea/fdbd8d07a2e1ddff6fda56e7e982f9521980d001c4242fa374fce4357f0a/odoo_addon_bi_sql_editor-16.0.1.0.3.1-py3-none-any.whl
+[2023-06-21 06:56:36] INFO root fetch - processPackages [design-kgex]: Downloading https://files.pythonhosted.org/packages/e1/1b/95e290121b593f08e528ba3c494b4525bad2f18db8aa3212e76ff85a29a5/design_kgex-0.1.1.tar.gz
+[2023-06-21 06:56:36] INFO root fetch - processPackages [design-kgex]: Downloading https://files.pythonhosted.org/packages/e1/1b/95e290121b593f08e528ba3c494b4525bad2f18db8aa3212e76ff85a29a5/design_kgex-0.1.1.tar.gz
+[2023-06-21 06:56:36] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Downloading https://files.pythonhosted.org/packages/84/a4/9c0ef0a9003931b164b87df545dde26e9c53b6eeeee9b6acf8ff7e2ec780/odoo_addon_sql_export_mail-16.0.1.0.1.1-py3-none-any.whl
+[2023-06-21 06:56:37] INFO root fetch - processPackages [hyfi]: Downloading https://files.pythonhosted.org/packages/ac/9f/80928f411f6c786a00e698a782b561d60d17fe09e71cf49c42581337defe/hyfi-0.9.1.tar.gz
+[2023-06-21 06:56:37] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: executing diffoscope
+[2023-06-21 06:56:37] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_bi_sql_editor-16.0.1.0.3-py3-none-any.whl.zip tmp/odoo_addon_bi_sql_editor-16.0.1.0.3.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-bi-sql-editor/16.0.1.0.3-16.0.1.0.3.1/diff.md --exclude *.pyd
+[2023-06-21 06:56:37] INFO root fetch - processPackages [facts-finder]: Downloading https://files.pythonhosted.org/packages/c5/77/320a865dc589974cca75c21f0fe26e96676dca0f4b368bd7833107461795/facts_finder-0.0.9.tar.gz
+[2023-06-21 06:56:37] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: executing diffoscope
+[2023-06-21 06:56:37] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sql_export_mail-16.0.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sql_export_mail-16.0.1.0.1.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-sql-export-mail/16.0.1.0.1-16.0.1.0.1.1/diff.md --exclude *.pyd
+[2023-06-21 06:56:37] INFO root fetch - processPackages [streamlit-base-extras]: Downloading https://files.pythonhosted.org/packages/57/6d/6c62cfb0160329d0de8745332c248a56f7813a2d7e0df64d54d326ce0773/streamlit-base-extras-0.2.9.tar.gz
+[2023-06-21 06:56:37] INFO root fetch - processPackages [design-kgex]: executing diffoscope
+[2023-06-21 06:56:37] INFO root fetch - processPackages [design-kgex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design_kgex-0.0.6.tar.gz tmp/design_kgex-0.1.1.tar.gz --markdown 20230621/d/design-kgex/0.0.6-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 06:56:37] INFO root fetch - processPackages [hyfi]: executing diffoscope
+[2023-06-21 06:56:37] INFO root fetch - processPackages [hyfi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyfi-0.9.0.tar.gz tmp/hyfi-0.9.1.tar.gz --markdown 20230621/h/hyfi/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 06:56:37] INFO root fetch - processPackages [design-kgex]: executing diffoscope
+[2023-06-21 06:56:37] INFO root fetch - processPackages [design-kgex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/design_kgex-0.0.6.tar.gz tmp/design_kgex-0.1.1.tar.gz --markdown 20230621/d/design-kgex/0.0.6-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 06:56:37] INFO root fetch - processPackages [facts-finder]: executing diffoscope
+[2023-06-21 06:56:37] INFO root fetch - processPackages [facts-finder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/facts_finder-0.0.8.tar.gz tmp/facts_finder-0.0.9.tar.gz --markdown 20230621/f/facts-finder/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 06:56:37] INFO root fetch - processPackages [streamlit-base-extras]: executing diffoscope
+[2023-06-21 06:56:37] INFO root fetch - processPackages [streamlit-base-extras]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-base-extras-0.2.8.tar.gz tmp/streamlit-base-extras-0.2.9.tar.gz --markdown 20230621/s/streamlit-base-extras/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 06:56:38] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sql_export_mail-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-21 06:56:38] INFO root fetch - processPackages [odoo-addon-sql-export-mail]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sql_export_mail-16.0.1.0.1.1-py3-none-any.whl.zip]
+[2023-06-21 06:56:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-sql-export-mail]: success
+[2023-06-21 06:56:38] INFO root fetch - processPackages [design-kgex]: Remove: archive file [/home/abi/fetcher/tmp/design_kgex-0.0.6.tar.gz]
+[2023-06-21 06:56:38] INFO root fetch - processPackages [design-kgex]: Remove: archive file [/home/abi/fetcher/tmp/design_kgex-0.1.1.tar.gz]
+[2023-06-21 06:56:38] INFO root fetch - main [MainThread]: End processing [design-kgex]: success
+[2023-06-21 06:56:38] INFO root fetch - main [MainThread]: End processing [design-kgex]: success
+[2023-06-21 06:56:38] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.0.tar.gz]
+[2023-06-21 06:56:38] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-0.9.1.tar.gz]
+[2023-06-21 06:56:38] INFO root fetch - main [MainThread]: End processing [hyfi]: success
+[2023-06-21 06:56:38] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.8.tar.gz]
+[2023-06-21 06:56:38] INFO root fetch - processPackages [streamlit-base-extras]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-base-extras-0.2.9.tar.gz]
+[2023-06-21 06:56:38] INFO root fetch - main [MainThread]: End processing [streamlit-base-extras]: success
+[2023-06-21 06:56:38] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bi_sql_editor-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-21 06:56:38] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bi_sql_editor-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2023-06-21 06:56:38] INFO root fetch - main [MainThread]: End processing [odoo-addon-bi-sql-editor]: success
+[2023-06-21 06:56:40] INFO root fetch - processPackages [facts-finder]: Remove: archive file [/home/abi/fetcher/tmp/facts_finder-0.0.8.tar.gz]
+[2023-06-21 06:56:40] INFO root fetch - processPackages [facts-finder]: Remove: archive file [/home/abi/fetcher/tmp/facts_finder-0.0.9.tar.gz]
+[2023-06-21 06:56:40] INFO root fetch - main [MainThread]: End processing [facts-finder]: success
+[2023-06-21 06:56:40] INFO root fetch - main [MainThread]: Store serial: [18585411]
