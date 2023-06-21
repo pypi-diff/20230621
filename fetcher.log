@@ -19319,3 +19319,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 11:21:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.2.tar.gz]
 [2023-06-21 11:21:03] INFO root fetch - main [MainThread]: End processing [cg]: success
 [2023-06-21 11:21:03] INFO root fetch - main [MainThread]: Store serial: [18588111]
+[2023-06-21 11:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588111]
+[2023-06-21 11:26:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlite-s3vfs
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: panels
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ats-case
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nifpga-fast-fifo-recv
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: strangeworks-optimization
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ayugespidertools
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: aleph-alpha-client
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nifpga-fast-fifo-recv
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: censoredsummarystats
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tobiko
+[2023-06-21 11:26:13] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.2.0] Old Version: [0.0.5]
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ats-case]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-21 11:26:13] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/bc/ac/bf5fcb712da5606115e4296a91ea7f3472c5b30c05a6998ece3e5f5026d5/censoredsummarystats-0.0.5.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/4a/ff/ff4773cb87c54d1e388a2b8447ac801f2517087b479e753bd9fd17ac31ac/ats_case-0.9.5.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [panels]: New version: [0.3.0] Old Version: [0.2.4]
+[2023-06-21 11:26:13] INFO root fetch - processPackages [aleph-alpha-client]: New version: [3.1.3] Old Version: [3.1.2]
+[2023-06-21 11:26:13] INFO root fetch - processPackages [sqlite-s3vfs]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 11:26:13] INFO root fetch - processPackages [strangeworks-optimization]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-06-21 11:26:13] ERROR root fetch - processPackages [nifpga-fast-fifo-recv]: Unable to get metadata: No such project 'nifpga-fast-fifo-recv'
+[2023-06-21 11:26:13] ERROR root fetch - processPackages [nifpga-fast-fifo-recv]: Unable to get metadata: No such project 'nifpga-fast-fifo-recv'
+[2023-06-21 11:26:13] INFO root fetch - main [MainThread]: End processing [nifpga-fast-fifo-recv] error
+[2023-06-21 11:26:13] INFO root fetch - main [MainThread]: End processing [nifpga-fast-fifo-recv] error
+[2023-06-21 11:26:13] INFO root fetch - processPackages [tobiko]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ayugespidertools]: New version: [3.3.0] Old Version: [3.2.0]
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/f5/54/4bd2bee070aab8e993a26056e3e3097b2b6df38366f1b9349cbe11326986/ats_case-0.9.6.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/d3/a4/4dc6b16ab0634df557f9f12880673a2304e4017ab85d186e36ee1b140d40/censoredsummarystats-0.2.0.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/62/69/27d6cc05a8084ac2fe92ebdc9b03f21ba4e1f4182d5d8b8bc67174456c96/aleph-alpha-client-3.1.2.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [panels]: Downloading https://files.pythonhosted.org/packages/c5/2f/50b17b8c9d53a1c3e22b8e3d4fdbc134d0947f6522abdcb06d0ad38c4ee0/panels-0.2.4-cp39-cp39-win_amd64.whl
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.5.tar.gz tmp/ats_case-0.9.6.tar.gz --markdown 20230621/a/ats-case/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-21 11:26:13] INFO root fetch - processPackages [strangeworks-optimization]: Downloading https://files.pythonhosted.org/packages/c5/c7/00906a454600befbc4072760e0fe7be4a019a8237ea608a5ff61b47e8162/strangeworks_optimization-0.1.1.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/2c/59/1af93f337f4993ae32d409980ca127f78d9edb74ae91161757f5540b06fd/ayugespidertools-3.2.0.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2023-06-21 11:26:13] INFO root fetch - processPackages [tobiko]: Downloading https://files.pythonhosted.org/packages/be/fb/e23dccc53e79193fad6f2fcfbc00b6af424cc18f71375544230edbbd3429/tobiko-0.6.8.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.0.5.tar.gz tmp/censoredsummarystats-0.2.0.tar.gz --markdown 20230621/c/censoredsummarystats/0.0.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 11:26:13] INFO root fetch - processPackages [sqlite-s3vfs]: Downloading https://files.pythonhosted.org/packages/e9/48/6505dcb712ec443ef0ec1976bd2773f128edc5c4ceb1973de553958a3936/sqlite-s3vfs-0.0.8.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [aleph-alpha-client]: Downloading https://files.pythonhosted.org/packages/97/e4/6925bf8e6d2afa083ca1efef3f8795938677f2a059fef3dcd0af6b3318b6/aleph-alpha-client-3.1.3.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [panels]: Downloading https://files.pythonhosted.org/packages/40/5d/05d11574d9a30b10c8566e405e0173377420513501e132449ff0a8fc2351/panels-0.3.0.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [strangeworks-optimization]: Downloading https://files.pythonhosted.org/packages/d7/9f/60d88605eeb4821b89c27de3dfbcce37256561478f222eeceb2892d3c5f0/strangeworks_optimization-0.1.3.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [ayugespidertools]: Downloading https://files.pythonhosted.org/packages/86/5f/3d9153f840f84a54db1d26cef685dd406552aa9d8c513807c99566eca061/ayugespidertools-3.3.0.tar.gz
+[2023-06-21 11:26:13] INFO root fetch - processPackages [aleph-alpha-client]: executing diffoscope
+[2023-06-21 11:26:13] INFO root fetch - processPackages [aleph-alpha-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleph-alpha-client-3.1.2.tar.gz tmp/aleph-alpha-client-3.1.3.tar.gz --markdown 20230621/a/aleph-alpha-client/3.1.2-3.1.3/diff.md --exclude *.pyd
+[2023-06-21 11:26:13] INFO root fetch - processPackages [sqlite-s3vfs]: Downloading https://files.pythonhosted.org/packages/4a/18/8e55f1b399048c451199bd17599390e6858b427b3893488ced653934f493/sqlite-s3vfs-0.0.9.tar.gz
+[2023-06-21 11:26:14] INFO root fetch - processPackages [strangeworks-optimization]: executing diffoscope
+[2023-06-21 11:26:14] INFO root fetch - processPackages [strangeworks-optimization]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strangeworks_optimization-0.1.1.tar.gz tmp/strangeworks_optimization-0.1.3.tar.gz --markdown 20230621/s/strangeworks-optimization/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 11:26:14] INFO root fetch - processPackages [panels]: executing diffoscope
+[2023-06-21 11:26:14] INFO root fetch - processPackages [panels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panels-0.2.4-cp39-cp39-win_amd64.whl.zip tmp/panels-0.3.0.tar.gz --markdown 20230621/p/panels/0.2.4-0.3.0/diff.md --exclude *.pyd
+[2023-06-21 11:26:14] INFO root fetch - processPackages [ayugespidertools]: executing diffoscope
+[2023-06-21 11:26:14] INFO root fetch - processPackages [ayugespidertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ayugespidertools-3.2.0.tar.gz tmp/ayugespidertools-3.3.0.tar.gz --markdown 20230621/a/ayugespidertools/3.2.0-3.3.0/diff.md --exclude *.pyd
+[2023-06-21 11:26:14] INFO root fetch - processPackages [sqlite-s3vfs]: executing diffoscope
+[2023-06-21 11:26:14] INFO root fetch - processPackages [sqlite-s3vfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite-s3vfs-0.0.8.tar.gz tmp/sqlite-s3vfs-0.0.9.tar.gz --markdown 20230621/s/sqlite-s3vfs/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:26:14] INFO root fetch - processPackages [tobiko]: Downloading https://files.pythonhosted.org/packages/99/3b/3ec8126c69bc585bc0da43591c1101aa35555f83db98a807e52dc7f1965e/tobiko-0.6.9.tar.gz
+[2023-06-21 11:26:14] INFO root fetch - processPackages [tobiko]: executing diffoscope
+[2023-06-21 11:26:14] INFO root fetch - processPackages [tobiko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tobiko-0.6.8.tar.gz tmp/tobiko-0.6.9.tar.gz --markdown 20230621/t/tobiko/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-21 11:26:14] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.5.tar.gz]
+[2023-06-21 11:26:14] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.6.tar.gz]
+[2023-06-21 11:26:14] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-21 11:26:15] INFO root fetch - processPackages [strangeworks-optimization]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_optimization-0.1.1.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - processPackages [strangeworks-optimization]: Remove: archive file [/home/abi/fetcher/tmp/strangeworks_optimization-0.1.3.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - main [MainThread]: End processing [strangeworks-optimization]: success
+[2023-06-21 11:26:15] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.0.5.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.0.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2023-06-21 11:26:15] INFO root fetch - processPackages [aleph-alpha-client]: Remove: archive file [/home/abi/fetcher/tmp/aleph-alpha-client-3.1.2.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - processPackages [aleph-alpha-client]: Remove: archive file [/home/abi/fetcher/tmp/aleph-alpha-client-3.1.3.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - main [MainThread]: End processing [aleph-alpha-client]: success
+[2023-06-21 11:26:15] INFO root fetch - processPackages [sqlite-s3vfs]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-s3vfs-0.0.8.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - processPackages [sqlite-s3vfs]: Remove: archive file [/home/abi/fetcher/tmp/sqlite-s3vfs-0.0.9.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - main [MainThread]: End processing [sqlite-s3vfs]: success
+[2023-06-21 11:26:15] INFO root fetch - processPackages [ayugespidertools]: Remove: archive file [/home/abi/fetcher/tmp/ayugespidertools-3.2.0.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - processPackages [ayugespidertools]: Remove: archive file [/home/abi/fetcher/tmp/ayugespidertools-3.3.0.tar.gz]
+[2023-06-21 11:26:15] INFO root fetch - main [MainThread]: End processing [ayugespidertools]: success
+[2023-06-21 11:26:16] INFO root fetch - processPackages [panels]: Remove: archive file [/home/abi/fetcher/tmp/panels-0.2.4-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 11:26:16] INFO root fetch - processPackages [panels]: Remove: archive file [/home/abi/fetcher/tmp/panels-0.3.0.tar.gz]
+[2023-06-21 11:26:16] INFO root fetch - main [MainThread]: End processing [panels]: success
+[2023-06-21 11:26:23] INFO root fetch - processPackages [tobiko]: Remove: archive file [/home/abi/fetcher/tmp/tobiko-0.6.8.tar.gz]
+[2023-06-21 11:26:23] INFO root fetch - processPackages [tobiko]: Remove: archive file [/home/abi/fetcher/tmp/tobiko-0.6.9.tar.gz]
+[2023-06-21 11:26:23] INFO root fetch - main [MainThread]: End processing [tobiko]: success
+[2023-06-21 11:26:23] INFO root fetch - main [MainThread]: Store serial: [18588153]
