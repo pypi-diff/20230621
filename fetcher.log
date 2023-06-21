@@ -17416,3 +17416,131 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 10:52:16] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
 [2023-06-21 10:52:16] INFO root fetch - main [MainThread]: End processing [mltlk]: success
 [2023-06-21 10:52:16] INFO root fetch - main [MainThread]: Store serial: [18587559]
+[2023-06-21 10:57:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18587559]
+[2023-06-21 10:57:25] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rl-zoo3
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: video-process
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plm-dgraham
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lupin-grognard
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: titan-iris
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: func2argparse
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openmetadata-ingestion
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Warg
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhTW2Num
+[2023-06-21 10:57:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: autotools
+[2023-06-21 10:57:25] INFO root fetch - processPackages [video-process]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 10:57:25] INFO root fetch - processPackages [titan-iris]: New version: [0.6.0a1.dev5] Old Version: [0.6.0a1.dev10]
+[2023-06-21 10:57:25] INFO root fetch - processPackages [autotools]: New version: [0.5] Old Version: [0.4]
+[2023-06-21 10:57:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/81/ef/7ffceef30adc94375500d2ec2e966660aa3d2e13946076dfa1dccabb64a9/titan-iris-0.6.0a1.dev10.tar.gz
+[2023-06-21 10:57:25] INFO root fetch - processPackages [autotools]: Downloading https://files.pythonhosted.org/packages/86/c7/bdd1b09c75b925848c77510e5ed4af3c2ed99d478817ca7c91ef4ad6525c/autotools-0.4.tar.gz
+[2023-06-21 10:57:25] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/3c/5f/3c0052522b2851d9b8253a50eece6a23e4d3a0cc734b703d74fae998b6e6/video_process-0.1.3.tar.gz
+[2023-06-21 10:57:25] INFO root fetch - processPackages [rl-zoo3]: New version: [2.0.0a9] Old Version: [2.0.0a4]
+[2023-06-21 10:57:25] WARNING root fetch - processPackages [zhTW2Num]: Skipping, unable to determine old version
+[2023-06-21 10:57:25] INFO root fetch - processPackages [zhTW2Num]: Start processing: yyperf
+[2023-06-21 10:57:25] INFO root fetch - main [MainThread]: End processing [zhTW2Num] error
+[2023-06-21 10:57:25] INFO root fetch - processPackages [plm-dgraham]: New version: [0.4.0] Old Version: [0.3.4]
+[2023-06-21 10:57:25] INFO root fetch - processPackages [func2argparse]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 10:57:25] INFO root fetch - processPackages [Warg]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-21 10:57:25] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.0.5.0] Old Version: [1.0.4.3]
+[2023-06-21 10:57:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/80/c6/21c5416370ad75940a27a366b7557bd5d31b24377e45b25ee6ca88cbafcd/titan-iris-0.6.0a1.dev5.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [yyperf]: New version: [0.6.9.dev2] Old Version: [0.6.9]
+[2023-06-21 10:57:26] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.6.0a1.dev10.tar.gz tmp/titan-iris-0.6.0a1.dev5.tar.gz --markdown 20230621/t/titan-iris/0.6.0a1.dev10-0.6.0a1.dev5/diff.md --exclude *.pyd
+[2023-06-21 10:57:26] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/bf/20/c85106a9dea5b4619e88443f67239a680b58840b561a30bcaa4af5011d13/openmetadata-ingestion-1.0.4.3.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [lupin-grognard]: New version: [1.9.0] Old Version: [1.7.0]
+[2023-06-21 10:57:26] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/90/11/ab15f5db1b56e93bd77e1e58df3c9a5854870d0a54a768b39c370d9bde48/Warg-1.1.5.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [rl-zoo3]: Downloading https://files.pythonhosted.org/packages/8f/e2/9e35077248854215ba3e419840bdd7ca16de727071bc34aa2b8bda55b73a/rl_zoo3-2.0.0a4.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [plm-dgraham]: Downloading https://files.pythonhosted.org/packages/03/ac/2069901e57375549cbb75d4c3b3b7517c12dad242367f440447b15512949/plm-dgraham-0.3.4.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [video-process]: Downloading https://files.pythonhosted.org/packages/6d/e2/dc1f6929bb432b0d2bb4e90df17c29b8c32141c59d51dc10961353b5154a/video_process-0.1.4.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [func2argparse]: Downloading https://files.pythonhosted.org/packages/ba/51/f5b2f8cd0b5ed1d32579cd7b62cd67d228a3eca9fa1550ce314230300abf/func2argparse-0.0.3.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [autotools]: Downloading https://files.pythonhosted.org/packages/8c/3f/621333d2027265a0bf835d1685b2e752d444cbb7fb5580d20e17b6ea2c7f/autotools-0.5.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [video-process]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [video-process]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/video_process-0.1.3.tar.gz tmp/video_process-0.1.4.tar.gz --markdown 20230621/v/video-process/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 10:57:26] INFO root fetch - processPackages [yyperf]: Downloading https://files.pythonhosted.org/packages/01/56/8d1cfb1ce995c585d9c70c5a9b7760fbdefdbec743e277a0d10d1c706e26/yyperf-0.6.9.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [autotools]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [autotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autotools-0.4.tar.gz tmp/autotools-0.5.tar.gz --markdown 20230621/a/autotools/0.4-0.5/diff.md --exclude *.pyd
+[2023-06-21 10:57:26] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/26/b3/9a961658affd6954a57ec000b5ea89912c12beb41382bb262947475dfbd6/lupin-grognard-1.7.0.tar.gz
+[2023-06-21 10:57:26] WARNING root fetch - processPackages [yyperf]: Skipping package: exceeds size limit 15809435>=10485760
+[2023-06-21 10:57:26] INFO root fetch - processPackages [yyperf]: Start processing: packg
+[2023-06-21 10:57:26] INFO root fetch - main [MainThread]: End processing [yyperf] error
+[2023-06-21 10:57:26] INFO root fetch - processPackages [Warg]: Downloading https://files.pythonhosted.org/packages/50/f2/7d9f68f1c5a20a46ee049683a95fdff1a99c2762248dfe456205e33767f5/Warg-1.1.6.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/b0/f3/9b85e24bb280579ac1fc8bdc86957badce7fb62996643a7fcf7cb16dc8ba/openmetadata-ingestion-1.0.5.0.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [func2argparse]: Downloading https://files.pythonhosted.org/packages/cc/79/efd2f59bed37a81506f0eb9a664d8f54f3cda56215264cce5ac033bf4b85/func2argparse-0.0.4.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [rl-zoo3]: Downloading https://files.pythonhosted.org/packages/ba/d3/76867234d06ff281546c369e9d745069f724dbfac202ac55210c89fb3664/rl_zoo3-2.0.0a9.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [plm-dgraham]: Downloading https://files.pythonhosted.org/packages/b9/6e/e1df16c0fada7f3f77c72db0c7425aee75fd4f503f028eff919eb7e29670/plm-dgraham-0.4.0.tar.gz
+[2023-06-21 10:57:26] ERROR root fetch - processPackages [packg]: Unable to get metadata: No such project 'packg'
+[2023-06-21 10:57:26] INFO root fetch - processPackages [packg]: Start processing: openmetadata-managed-apis
+[2023-06-21 10:57:26] INFO root fetch - main [MainThread]: End processing [packg] error
+[2023-06-21 10:57:26] INFO root fetch - processPackages [Warg]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [Warg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Warg-1.1.5.tar.gz tmp/Warg-1.1.6.tar.gz --markdown 20230621/W/Warg/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-21 10:57:26] INFO root fetch - processPackages [rl-zoo3]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [rl-zoo3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rl_zoo3-2.0.0a4.tar.gz tmp/rl_zoo3-2.0.0a9.tar.gz --markdown 20230621/r/rl-zoo3/2.0.0a4-2.0.0a9/diff.md --exclude *.pyd
+[2023-06-21 10:57:26] INFO root fetch - processPackages [func2argparse]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [func2argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func2argparse-0.0.3.tar.gz tmp/func2argparse-0.0.4.tar.gz --markdown 20230621/f/func2argparse/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 10:57:26] INFO root fetch - processPackages [plm-dgraham]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [plm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plm-dgraham-0.3.4.tar.gz tmp/plm-dgraham-0.4.0.tar.gz --markdown 20230621/p/plm-dgraham/0.3.4-0.4.0/diff.md --exclude *.pyd
+[2023-06-21 10:57:26] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.4.3.tar.gz tmp/openmetadata-ingestion-1.0.5.0.tar.gz --markdown 20230621/o/openmetadata-ingestion/1.0.4.3-1.0.5.0/diff.md --exclude *.pyd
+[2023-06-21 10:57:26] INFO root fetch - processPackages [openmetadata-managed-apis]: New version: [1.0.5.0] Old Version: [1.0.4.3]
+[2023-06-21 10:57:26] INFO root fetch - processPackages [lupin-grognard]: Downloading https://files.pythonhosted.org/packages/63/f4/2df11a5aed46a791c22609c2233d309499d655d76697dd2980b8e739d68b/lupin-grognard-1.9.0.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/f1/1e/e2179a367e85fd45be3a18aede1c4e5c9633c2af3d5bec1cf7a3f7a16f6f/openmetadata_managed_apis-1.0.4.3.tar.gz
+[2023-06-21 10:57:26] INFO root fetch - processPackages [lupin-grognard]: executing diffoscope
+[2023-06-21 10:57:26] INFO root fetch - processPackages [lupin-grognard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lupin-grognard-1.7.0.tar.gz tmp/lupin-grognard-1.9.0.tar.gz --markdown 20230621/l/lupin-grognard/1.7.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-21 10:57:27] INFO root fetch - processPackages [openmetadata-managed-apis]: Downloading https://files.pythonhosted.org/packages/50/95/6f7af2086f3db8ab068237e6531d3ac5f30c2997c6050cbe0cc269048e39/openmetadata_managed_apis-1.0.5.0.tar.gz
+[2023-06-21 10:57:27] INFO root fetch - processPackages [openmetadata-managed-apis]: executing diffoscope
+[2023-06-21 10:57:27] INFO root fetch - processPackages [openmetadata-managed-apis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata_managed_apis-1.0.4.3.tar.gz tmp/openmetadata_managed_apis-1.0.5.0.tar.gz --markdown 20230621/o/openmetadata-managed-apis/1.0.4.3-1.0.5.0/diff.md --exclude *.pyd
+[2023-06-21 10:57:28] INFO root fetch - processPackages [autotools]: Remove: archive file [/home/abi/fetcher/tmp/autotools-0.4.tar.gz]
+[2023-06-21 10:57:28] INFO root fetch - processPackages [autotools]: Remove: archive file [/home/abi/fetcher/tmp/autotools-0.5.tar.gz]
+[2023-06-21 10:57:28] INFO root fetch - processPackages [autotools]: Start processing: oam
+[2023-06-21 10:57:28] INFO root fetch - main [MainThread]: End processing [autotools]: success
+[2023-06-21 10:57:28] WARNING root fetch - processPackages [oam]: Skipping, unable to determine old version
+[2023-06-21 10:57:28] INFO root fetch - processPackages [oam]: Start processing: telcell
+[2023-06-21 10:57:28] INFO root fetch - main [MainThread]: End processing [oam] error
+[2023-06-21 10:57:28] ERROR root fetch - processPackages [telcell]: Unable to get metadata: No such project 'telcell'
+[2023-06-21 10:57:28] INFO root fetch - processPackages [telcell]: Start processing: func2argparse
+[2023-06-21 10:57:28] INFO root fetch - main [MainThread]: End processing [telcell] error
+[2023-06-21 10:57:28] INFO root fetch - processPackages [func2argparse]: Remove: archive file [/home/abi/fetcher/tmp/func2argparse-0.0.3.tar.gz]
+[2023-06-21 10:57:28] INFO root fetch - processPackages [func2argparse]: Remove: archive file [/home/abi/fetcher/tmp/func2argparse-0.0.4.tar.gz]
+[2023-06-21 10:57:28] INFO root fetch - processPackages [func2argparse]: Start processing: acids-rave
+[2023-06-21 10:57:28] INFO root fetch - main [MainThread]: End processing [func2argparse]: success
+[2023-06-21 10:57:28] INFO root fetch - processPackages [func2argparse]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 10:57:28] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.3.tar.gz]
+[2023-06-21 10:57:28] INFO root fetch - processPackages [video-process]: Remove: archive file [/home/abi/fetcher/tmp/video_process-0.1.4.tar.gz]
+[2023-06-21 10:57:28] INFO root fetch - main [MainThread]: End processing [video-process]: success
+[2023-06-21 10:57:28] INFO root fetch - processPackages [func2argparse]: Downloading https://files.pythonhosted.org/packages/ba/51/f5b2f8cd0b5ed1d32579cd7b62cd67d228a3eca9fa1550ce314230300abf/func2argparse-0.0.3.tar.gz
+[2023-06-21 10:57:28] INFO root fetch - processPackages [func2argparse]: Downloading https://files.pythonhosted.org/packages/cc/79/efd2f59bed37a81506f0eb9a664d8f54f3cda56215264cce5ac033bf4b85/func2argparse-0.0.4.tar.gz
+[2023-06-21 10:57:28] INFO root fetch - processPackages [acids-rave]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-21 10:57:28] INFO root fetch - processPackages [func2argparse]: executing diffoscope
+[2023-06-21 10:57:28] INFO root fetch - processPackages [func2argparse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/func2argparse-0.0.3.tar.gz tmp/func2argparse-0.0.4.tar.gz --markdown 20230621/f/func2argparse/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 10:57:28] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.7.0.tar.gz]
+[2023-06-21 10:57:28] INFO root fetch - processPackages [lupin-grognard]: Remove: archive file [/home/abi/fetcher/tmp/lupin-grognard-1.9.0.tar.gz]
+[2023-06-21 10:57:28] INFO root fetch - main [MainThread]: End processing [lupin-grognard]: success
+[2023-06-21 10:57:28] INFO root fetch - processPackages [acids-rave]: Downloading https://files.pythonhosted.org/packages/73/98/cde5a249a21bbd2132f0ca3dc9d2a1aa684cfb9304b232e63c37cdb585f9/acids-rave-2.2.0.tar.gz
+[2023-06-21 10:57:29] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.5.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - processPackages [Warg]: Remove: archive file [/home/abi/fetcher/tmp/Warg-1.1.6.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - main [MainThread]: End processing [Warg]: success
+[2023-06-21 10:57:29] INFO root fetch - processPackages [acids-rave]: Downloading https://files.pythonhosted.org/packages/9a/09/3e6bc7b9b46edd5d09c9f3cb92abf97cc907676b5d98c80e16b36e796243/acids-rave-2.2.1.tar.gz
+[2023-06-21 10:57:29] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.6.0a1.dev10.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.6.0a1.dev5.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-21 10:57:29] INFO root fetch - processPackages [plm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/plm-dgraham-0.3.4.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - processPackages [plm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/plm-dgraham-0.4.0.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - main [MainThread]: End processing [plm-dgraham]: success
+[2023-06-21 10:57:29] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.0.4.3.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - processPackages [openmetadata-managed-apis]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata_managed_apis-1.0.5.0.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - main [MainThread]: End processing [openmetadata-managed-apis]: success
+[2023-06-21 10:57:29] INFO root fetch - processPackages [acids-rave]: executing diffoscope
+[2023-06-21 10:57:29] INFO root fetch - processPackages [acids-rave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acids-rave-2.2.0.tar.gz tmp/acids-rave-2.2.1.tar.gz --markdown 20230621/a/acids-rave/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-21 10:57:29] INFO root fetch - processPackages [rl-zoo3]: Remove: archive file [/home/abi/fetcher/tmp/rl_zoo3-2.0.0a4.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - processPackages [rl-zoo3]: Remove: archive file [/home/abi/fetcher/tmp/rl_zoo3-2.0.0a9.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - main [MainThread]: End processing [rl-zoo3]: success
+[2023-06-21 10:57:29] INFO root fetch - processPackages [func2argparse]: Remove: archive file [/home/abi/fetcher/tmp/func2argparse-0.0.3.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - processPackages [func2argparse]: Remove: archive file [/home/abi/fetcher/tmp/func2argparse-0.0.4.tar.gz]
+[2023-06-21 10:57:29] INFO root fetch - main [MainThread]: End processing [func2argparse]: success
+[2023-06-21 10:57:30] INFO root fetch - processPackages [acids-rave]: Remove: archive file [/home/abi/fetcher/tmp/acids-rave-2.2.0.tar.gz]
+[2023-06-21 10:57:30] INFO root fetch - processPackages [acids-rave]: Remove: archive file [/home/abi/fetcher/tmp/acids-rave-2.2.1.tar.gz]
+[2023-06-21 10:57:30] INFO root fetch - main [MainThread]: End processing [acids-rave]: success
+[2023-06-21 10:57:49] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.4.3.tar.gz]
+[2023-06-21 10:57:49] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.5.0.tar.gz]
+[2023-06-21 10:57:49] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-06-21 10:57:49] INFO root fetch - main [MainThread]: Store serial: [18587621]
