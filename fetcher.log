@@ -10502,3 +10502,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 05:14:38] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230621.tar.gz]
 [2023-06-21 05:14:38] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
 [2023-06-21 05:14:38] INFO root fetch - main [MainThread]: Store serial: [18584572]
+[2023-06-21 05:19:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584572]
+[2023-06-21 05:19:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-21 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vstutils
+[2023-06-21 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaohn-common-utils
+[2023-06-21 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bcdup
+[2023-06-21 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: taskhub
+[2023-06-21 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flatterer
+[2023-06-21 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hyutils-hyutil-hoyun-lab
+[2023-06-21 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: loquax
+[2023-06-21 05:19:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wxdat
+[2023-06-21 05:19:47] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.72] Old Version: [0.0.70]
+[2023-06-21 05:19:47] INFO root fetch - processPackages [flatterer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-21 05:19:47] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: New version: [0.0.6.4] Old Version: [0.0.6.3]
+[2023-06-21 05:19:47] INFO root fetch - processPackages [taskhub]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-21 05:19:47] INFO root fetch - processPackages [bcdup]: New version: [2.3.1] Old Version: [2.3]
+[2023-06-21 05:19:47] INFO root fetch - processPackages [vstutils]: New version: [5.5.2] Old Version: [5.5.1]
+[2023-06-21 05:19:47] INFO root fetch - processPackages [bcdup]: Downloading https://files.pythonhosted.org/packages/51/73/8387df666d11fccfee26d176c4a1749074da029a34db6505a0cdfc80a852/bcdup-2.3.tar.gz
+[2023-06-21 05:19:47] INFO root fetch - processPackages [taskhub]: Downloading https://files.pythonhosted.org/packages/50/10/913365b2c3896a4d44be36716b0739bee82387a8dd599491ba0f63c14649/taskhub-0.7.1.tar.gz
+[2023-06-21 05:19:47] INFO root fetch - processPackages [loquax]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-21 05:19:47] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/0c/58/1913d4dd187681c3ffc115e7f16a680e176032da7d897176d628eedc08af/hyutils-hyutil-hoyun-lab-0.0.6.3.tar.gz
+[2023-06-21 05:19:47] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/cc/05/cb7ee7a41c0432990604c428fec4cd237084f1774892ed7aa3f5143bd8af/vstutils-5.5.1.tar.gz
+[2023-06-21 05:19:47] INFO root fetch - processPackages [wxdat]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-06-21 05:19:47] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/61/5b/30f49aa6cb677ce4d524fa9538750dc116509241fbb5aff2d7b30f19727d/gaohn-common-utils-0.0.70.tar.gz
+[2023-06-21 05:19:47] INFO root fetch - processPackages [flatterer]: Downloading https://files.pythonhosted.org/packages/d3/2a/d5a4ddf1990ceb94b9a42407195dbc940028327379d5d23ded060acde04f/flatterer-0.8.0.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [taskhub]: Downloading https://files.pythonhosted.org/packages/6f/b7/ed6c1e3f2791968677aec61610eb33cf851b51c4cf470c284abfe2c70505/taskhub-0.7.2.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Downloading https://files.pythonhosted.org/packages/d4/2d/27f63b99a155fb64e0efef27eddc2556fc21cfeec9d91d184dae0f3202c6/hyutils-hyutil-hoyun-lab-0.0.6.4.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [wxdat]: Downloading https://files.pythonhosted.org/packages/f3/1c/ab241e8cdbf0eaad9769d99857f4fb0386da3f9a32b28e5a35c87e30d975/wxdat-1.1.2.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [loquax]: Downloading https://files.pythonhosted.org/packages/91/0c/f61ff9a65e13ba79bcf708ee2a90d799cb7859ea00d1110503173681473a/loquax-0.1.4.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/20/f8/a3eb7d0e0a15200ac21d100b03f9d0227bed87540cffb60af939c5d7c378/vstutils-5.5.2.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [taskhub]: executing diffoscope
+[2023-06-21 05:19:48] INFO root fetch - processPackages [taskhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskhub-0.7.1.tar.gz tmp/taskhub-0.7.2.tar.gz --markdown 20230621/t/taskhub/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-21 05:19:48] INFO root fetch - processPackages [bcdup]: Downloading https://files.pythonhosted.org/packages/a5/ac/0d07dbc681bde5c3c864ba73e4b4a73fc22d1839ad0b1d656f0cd4b3ae0f/bcdup-2.3.1.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/41/22/f2131733f17571156d8be8474f34230ceb7997106a70847ff37c2ae1b2e6/gaohn-common-utils-0.0.72.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [flatterer]: Downloading https://files.pythonhosted.org/packages/c0/3e/1c9e5f3788d3e191160c97815960f5109318c854cd12cd43e7b8c2badc4f/flatterer-0.9.0.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: executing diffoscope
+[2023-06-21 05:19:48] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyutils-hyutil-hoyun-lab-0.0.6.3.tar.gz tmp/hyutils-hyutil-hoyun-lab-0.0.6.4.tar.gz --markdown 20230621/h/hyutils-hyutil-hoyun-lab/0.0.6.3-0.0.6.4/diff.md --exclude *.pyd
+[2023-06-21 05:19:48] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-21 05:19:48] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.70.tar.gz tmp/gaohn-common-utils-0.0.72.tar.gz --markdown 20230621/g/gaohn-common-utils/0.0.70-0.0.72/diff.md --exclude *.pyd
+[2023-06-21 05:19:48] INFO root fetch - processPackages [bcdup]: executing diffoscope
+[2023-06-21 05:19:48] INFO root fetch - processPackages [bcdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcdup-2.3.tar.gz tmp/bcdup-2.3.1.tar.gz --markdown 20230621/b/bcdup/2.3-2.3.1/diff.md --exclude *.pyd
+[2023-06-21 05:19:48] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-21 05:19:48] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.5.1.tar.gz tmp/vstutils-5.5.2.tar.gz --markdown 20230621/v/vstutils/5.5.1-5.5.2/diff.md --exclude *.pyd
+[2023-06-21 05:19:48] INFO root fetch - processPackages [flatterer]: executing diffoscope
+[2023-06-21 05:19:48] INFO root fetch - processPackages [flatterer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatterer-0.8.0.tar.gz tmp/flatterer-0.9.0.tar.gz --markdown 20230621/f/flatterer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 05:19:48] INFO root fetch - processPackages [loquax]: Downloading https://files.pythonhosted.org/packages/61/e4/d5311ad2c44f16c477e4a8542cf349e9262b76607c9beca5f8ec8c45f0b4/loquax-0.1.5.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [wxdat]: Downloading https://files.pythonhosted.org/packages/2d/4e/687468304a89167c876639d6a98d56556fef7d14ddf334b11c05c31a5c41/wxdat-1.2.0.tar.gz
+[2023-06-21 05:19:48] INFO root fetch - processPackages [loquax]: executing diffoscope
+[2023-06-21 05:19:48] INFO root fetch - processPackages [loquax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/loquax-0.1.4.tar.gz tmp/loquax-0.1.5.tar.gz --markdown 20230621/l/loquax/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-21 05:19:48] INFO root fetch - processPackages [wxdat]: executing diffoscope
+[2023-06-21 05:19:48] INFO root fetch - processPackages [wxdat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wxdat-1.1.2.tar.gz tmp/wxdat-1.2.0.tar.gz --markdown 20230621/w/wxdat/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-06-21 05:19:49] INFO root fetch - processPackages [taskhub]: Remove: archive file [/home/abi/fetcher/tmp/taskhub-0.7.1.tar.gz]
+[2023-06-21 05:19:49] INFO root fetch - processPackages [taskhub]: Remove: archive file [/home/abi/fetcher/tmp/taskhub-0.7.2.tar.gz]
+[2023-06-21 05:19:49] INFO root fetch - main [MainThread]: End processing [taskhub]: success
+[2023-06-21 05:19:49] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.3.tar.gz]
+[2023-06-21 05:19:49] INFO root fetch - processPackages [hyutils-hyutil-hoyun-lab]: Remove: archive file [/home/abi/fetcher/tmp/hyutils-hyutil-hoyun-lab-0.0.6.4.tar.gz]
+[2023-06-21 05:19:49] INFO root fetch - main [MainThread]: End processing [hyutils-hyutil-hoyun-lab]: success
+[2023-06-21 05:19:49] INFO root fetch - processPackages [loquax]: Remove: archive file [/home/abi/fetcher/tmp/loquax-0.1.4.tar.gz]
+[2023-06-21 05:19:49] INFO root fetch - processPackages [loquax]: Remove: archive file [/home/abi/fetcher/tmp/loquax-0.1.5.tar.gz]
+[2023-06-21 05:19:49] INFO root fetch - main [MainThread]: End processing [loquax]: success
+[2023-06-21 05:19:49] INFO root fetch - processPackages [flatterer]: Remove: archive file [/home/abi/fetcher/tmp/flatterer-0.8.0.tar.gz]
+[2023-06-21 05:19:49] INFO root fetch - processPackages [flatterer]: Remove: archive file [/home/abi/fetcher/tmp/flatterer-0.9.0.tar.gz]
+[2023-06-21 05:19:49] INFO root fetch - main [MainThread]: End processing [flatterer]: success
+[2023-06-21 05:19:50] INFO root fetch - processPackages [wxdat]: Remove: archive file [/home/abi/fetcher/tmp/wxdat-1.1.2.tar.gz]
+[2023-06-21 05:19:50] INFO root fetch - processPackages [wxdat]: Remove: archive file [/home/abi/fetcher/tmp/wxdat-1.2.0.tar.gz]
+[2023-06-21 05:19:50] INFO root fetch - main [MainThread]: End processing [wxdat]: success
+[2023-06-21 05:19:50] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.70.tar.gz]
+[2023-06-21 05:19:50] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.72.tar.gz]
+[2023-06-21 05:19:50] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-21 05:19:51] INFO root fetch - processPackages [bcdup]: Remove: archive file [/home/abi/fetcher/tmp/bcdup-2.3.tar.gz]
+[2023-06-21 05:19:51] INFO root fetch - processPackages [bcdup]: Remove: archive file [/home/abi/fetcher/tmp/bcdup-2.3.1.tar.gz]
+[2023-06-21 05:19:51] INFO root fetch - main [MainThread]: End processing [bcdup]: success
+[2023-06-21 05:19:53] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.1.tar.gz]
+[2023-06-21 05:19:53] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.2.tar.gz]
+[2023-06-21 05:19:53] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-21 05:19:53] INFO root fetch - main [MainThread]: Store serial: [18584640]
