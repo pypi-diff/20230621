@@ -10577,3 +10577,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 05:19:53] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.5.2.tar.gz]
 [2023-06-21 05:19:53] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-21 05:19:53] INFO root fetch - main [MainThread]: Store serial: [18584640]
+[2023-06-21 05:24:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584640]
+[2023-06-21 05:25:02] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: icarus-bt
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-event-sale-session
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: fastgenerateapi
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Telexy.MARS
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: goplus
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyakamai
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-fieldservice-sale
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-field-service
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: confapi
+[2023-06-21 05:25:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: subwhisper
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-21 05:25:02] INFO root fetch - processPackages [goplus]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-21 05:25:02] INFO root fetch - processPackages [Telexy.MARS]: New version: [1.23.624] Old Version: [1.23.623]
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo14-addon-event-sale-session]: New version: [14.0.1.0.4.dev1] Old Version: [14.0.1.0.3]
+[2023-06-21 05:25:02] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo-addons-oca-field-service]: New version: [16.0.20230620.0] Old Version: [16.0.20230613.0]
+[2023-06-21 05:25:02] WARNING root fetch - processPackages [confapi]: Skipping, unable to determine old version
+[2023-06-21 05:25:02] INFO root fetch - processPackages [confapi]: Start processing: odoo-addon-fleet-vehicle-inspection
+[2023-06-21 05:25:02] INFO root fetch - processPackages [pyakamai]: New version: [1.16] Old Version: [1.15]
+[2023-06-21 05:25:02] INFO root fetch - main [MainThread]: End processing [confapi] error
+[2023-06-21 05:25:02] WARNING root fetch - processPackages [subwhisper]: Skipping, unable to determine old version
+[2023-06-21 05:25:02] INFO root fetch - processPackages [subwhisper]: Start processing: odoo14-addon-fleet-vehicle-inspection
+[2023-06-21 05:25:02] INFO root fetch - main [MainThread]: End processing [subwhisper] error
+[2023-06-21 05:25:02] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/83/6d/2cc828965a510fdfcf565bbee0529b755e68f8a9e0de2e06584bd1f6b9fb/fastgenerateapi-0.0.7.tar.gz
+[2023-06-21 05:25:02] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/b3/4b/1399dc9644d9045b7ff062488e1b0892a3872c3bce0fd35a5118323ddefa/Telexy.MARS-1.23.623.tar.gz
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-06-21 05:25:02] WARNING root fetch - processPackages [icarus-bt]: Skipping, unable to determine old version
+[2023-06-21 05:25:02] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/d4/b4/7904f9952d640df1f72ab386e46f08ba24c7bb6c66fc08a13de4240e5fe9/pyakamai-1.15-py3-none-any.whl
+[2023-06-21 05:25:02] INFO root fetch - main [MainThread]: End processing [icarus-bt] error
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo14-addon-event-sale-session]: Downloading https://files.pythonhosted.org/packages/75/2d/cabdf583426fee34c89279d4ffcb6837d148f7f20679ea1d0283e40afa0f/odoo14_addon_event_sale_session-14.0.1.0.3-py3-none-any.whl
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: New version: [14.0.3.0.2.dev9] Old Version: [14.0.3.0.2.dev8]
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/4d/a9/5288973642f6e677137d3310974c077c2d1a3da30cb19f6f5b42c0143dae/odoo_addon_fieldservice_sale-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-21 05:25:02] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/bf/1b/dca257a4bdda5a4f9d778073c3838de88a75e0f94259b63bcf8446b0a7a1/goplus-0.1.0.tar.gz
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/d7/fa/0fbcc0f819fc7d9e8a176acfbf015f62c4ec7ee236eefe7a84408b6139d5/odoo_addons_oca_field_service-16.0.20230613.0-py3-none-any.whl
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Downloading https://files.pythonhosted.org/packages/7b/8c/02ad9ce42103eb4890f429a5bc5edfb951b2ad204579358021ae8ae81e89/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.8-py3-none-any.whl
+[2023-06-21 05:25:02] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/b8/56/31c3c7a2b1a91ef73b6a0015f6d078cf057223b9f5145c972c92e0865b28/Telexy.MARS-1.23.624.tar.gz
+[2023-06-21 05:25:02] INFO root fetch - processPackages [pyakamai]: Downloading https://files.pythonhosted.org/packages/13/fa/b700cf1da432a4b1a2e7f56d1e37855fa7e9f99a54c230a8922c023ab050/pyakamai-1.16-py3-none-any.whl
+[2023-06-21 05:25:02] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/a2/33/504df0ce0acaf61f60613df21ade352c390d6e4af2d9fc79095d66ea98dc/fastgenerateapi-0.0.8.tar.gz
+[2023-06-21 05:25:02] INFO root fetch - processPackages [odoo14-addon-event-sale-session]: Downloading https://files.pythonhosted.org/packages/6e/07/d1298abcf48472049262f8940aadfd0996b353d24fef4bd821b7bd47cf71/odoo14_addon_event_sale_session-14.0.1.0.4.dev1-py3-none-any.whl
+[2023-06-21 05:25:03] INFO root fetch - processPackages [Telexy.MARS]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [Telexy.MARS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telexy.MARS-1.23.623.tar.gz tmp/Telexy.MARS-1.23.624.tar.gz --markdown 20230621/T/Telexy.MARS/1.23.623-1.23.624/diff.md --exclude *.pyd
+[2023-06-21 05:25:03] INFO root fetch - processPackages [pyakamai]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [pyakamai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyakamai-1.15-py3-none-any.whl.zip tmp/pyakamai-1.16-py3-none-any.whl.zip --markdown 20230621/p/pyakamai/1.15-1.16/diff.md --exclude *.pyd
+[2023-06-21 05:25:03] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.7.tar.gz tmp/fastgenerateapi-0.0.8.tar.gz --markdown 20230621/f/fastgenerateapi/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Downloading https://files.pythonhosted.org/packages/27/95/eee3d618ac664a260b94a9c2be31f4c9ed3c6f2e9a317aaca9263d70913c/odoo_addon_fieldservice_sale-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo14-addon-event-sale-session]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo14-addon-event-sale-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_event_sale_session-14.0.1.0.3-py3-none-any.whl.zip tmp/odoo14_addon_event_sale_session-14.0.1.0.4.dev1-py3-none-any.whl.zip --markdown 20230621/o/odoo14-addon-event-sale-session/14.0.1.0.3-14.0.1.0.4.dev1/diff.md --exclude *.pyd
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Downloading https://files.pythonhosted.org/packages/f8/ba/63d93351ef8cb5e39c30aa54ee1e3621e6c1572ac287dadb76aa7d310929/odoo_addons_oca_field_service-16.0.20230620.0-py3-none-any.whl
+[2023-06-21 05:25:03] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/95/8d/c4aa2aacc61215db63a0538e3f97c333fe2f1628b65177cb647bb734f975/goplus-0.1.2-py3-none-any.whl
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fieldservice_sale-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_fieldservice_sale-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-fieldservice-sale/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_fleet_vehicle_inspection-14.0.3.0.2.dev8-py3-none-any.whl.zip tmp/odoo14_addon_fleet_vehicle_inspection-14.0.3.0.2.dev9-py3-none-any.whl.zip --markdown 20230621/o/odoo14-addon-fleet-vehicle-inspection/14.0.3.0.2.dev8-14.0.3.0.2.dev9/diff.md --exclude *.pyd
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Downloading https://files.pythonhosted.org/packages/74/c2/8511e168a5541365b6ee664df1f7bb1cec15a1c309ad134b166660e05e4a/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.9-py3-none-any.whl
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addons-oca-field-service]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addons-oca-field-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_field_service-16.0.20230613.0-py3-none-any.whl.zip tmp/odoo_addons_oca_field_service-16.0.20230620.0-py3-none-any.whl.zip --markdown 20230621/o/odoo-addons-oca-field-service/16.0.20230613.0-16.0.20230620.0/diff.md --exclude *.pyd
+[2023-06-21 05:25:03] INFO root fetch - processPackages [goplus]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [goplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goplus-0.1.0.tar.gz tmp/goplus-0.1.2-py3-none-any.whl.zip --markdown 20230621/g/goplus/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: executing diffoscope
+[2023-06-21 05:25:03] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-fleet-vehicle-inspection/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-21 05:25:04] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.15-py3-none-any.whl.zip]
+[2023-06-21 05:25:04] INFO root fetch - processPackages [pyakamai]: Remove: archive file [/home/abi/fetcher/tmp/pyakamai-1.16-py3-none-any.whl.zip]
+[2023-06-21 05:25:04] INFO root fetch - main [MainThread]: End processing [pyakamai]: success
+[2023-06-21 05:25:04] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.623.tar.gz]
+[2023-06-21 05:25:04] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.624.tar.gz]
+[2023-06-21 05:25:04] INFO root fetch - main [MainThread]: End processing [Telexy.MARS]: success
+[2023-06-21 05:25:04] INFO root fetch - processPackages [odoo14-addon-event-sale-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_event_sale_session-14.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-21 05:25:04] INFO root fetch - processPackages [odoo14-addon-event-sale-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_event_sale_session-14.0.1.0.4.dev1-py3-none-any.whl.zip]
+[2023-06-21 05:25:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-event-sale-session]: success
+[2023-06-21 05:25:04] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230613.0-py3-none-any.whl.zip]
+[2023-06-21 05:25:04] INFO root fetch - processPackages [odoo-addons-oca-field-service]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_field_service-16.0.20230620.0-py3-none-any.whl.zip]
+[2023-06-21 05:25:04] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-field-service]: success
+[2023-06-21 05:25:04] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_sale-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-21 05:25:04] INFO root fetch - processPackages [odoo-addon-fieldservice-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fieldservice_sale-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-21 05:25:04] INFO root fetch - main [MainThread]: End processing [odoo-addon-fieldservice-sale]: success
+[2023-06-21 05:25:05] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.1.0.tar.gz]
+[2023-06-21 05:25:05] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.1.2-py3-none-any.whl.zip]
+[2023-06-21 05:25:05] INFO root fetch - main [MainThread]: End processing [goplus]: success
+[2023-06-21 05:25:05] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fleet_vehicle_inspection-14.0.3.0.2.dev8-py3-none-any.whl.zip]
+[2023-06-21 05:25:05] INFO root fetch - processPackages [odoo14-addon-fleet-vehicle-inspection]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_fleet_vehicle_inspection-14.0.3.0.2.dev9-py3-none-any.whl.zip]
+[2023-06-21 05:25:05] INFO root fetch - main [MainThread]: End processing [odoo14-addon-fleet-vehicle-inspection]: success
+[2023-06-21 05:25:05] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-21 05:25:05] INFO root fetch - processPackages [odoo-addon-fleet-vehicle-inspection]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_fleet_vehicle_inspection-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-21 05:25:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-fleet-vehicle-inspection]: success
+[2023-06-21 05:25:05] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.7.tar.gz]
+[2023-06-21 05:25:05] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.8.tar.gz]
+[2023-06-21 05:25:05] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-21 05:25:05] INFO root fetch - main [MainThread]: Store serial: [18584687]
