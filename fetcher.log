@@ -16188,3 +16188,204 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 10:04:20] INFO root fetch - processPackages [ascend-deployer]: Remove: archive file [/home/abi/fetcher/tmp/ascend_deployer-5.0.0b8-py3-none-any.whl.zip]
 [2023-06-21 10:04:20] INFO root fetch - main [MainThread]: End processing [ascend-deployer]: success
 [2023-06-21 10:04:20] INFO root fetch - main [MainThread]: Store serial: [18586946]
+[2023-06-21 10:09:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586946]
+[2023-06-21 10:09:29] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: belvo-python
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gpt-term
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: data-engineering-pulumi-components
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ai2-kit
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pymemri
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qtl-xtp-api
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cipher-kit
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: blackjax-nightly
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nonebot-plugin-wordle
+[2023-06-21 10:09:29] INFO root fetch - processPackages [data-engineering-pulumi-components]: New version: [0.4.1.dev7] Old Version: [0.4.1.dev6]
+[2023-06-21 10:09:29] INFO root fetch - processPackages [nonebot-plugin-wordle]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-21 10:09:29] INFO root fetch - processPackages [ai2-kit]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-21 10:09:29] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-06-21 10:09:30] INFO root fetch - processPackages [kcli]: New version: [99.0.202306202008] Old Version: [99.0.202306201309]
+[2023-06-21 10:09:30] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/14/06/305be1ee829edb9af712a657d8e45e51744e8c9027ea92116b31bcbf75a8/data-engineering-pulumi-components-0.4.1.dev6.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [nonebot-plugin-wordle]: Downloading https://files.pythonhosted.org/packages/6d/56/245b432a1f71e96c8dde2f1b0727bd7115825083ff6d08a3962daf092964/nonebot_plugin_wordle-0.2.1.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/35/e4/b4508015ac938554ad9168836b40951a45b88893af3c4aec8f73bbf90a6b/ai2_kit-0.3.2.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [belvo-python]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-21 10:09:30] INFO root fetch - processPackages [gpt-term]: New version: [1.2.0] Old Version: [1.1.4]
+[2023-06-21 10:09:30] INFO root fetch - processPackages [qtl-xtp-api]: New version: [2.2.35.1] Old Version: [2.2.34.9]
+[2023-06-21 10:09:30] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/92/6d/422e9e95a27c826c4b864ee3e0b55710e81e9082ed87a8b3cffb4c50bc6a/blackjax-nightly-0.9.6.post98.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [pymemri]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 10:09:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/3e/4d/395257d12436669c1b34fb6289147fbc9a7d8933a18c0636d2cb9c021809/kcli-99.0.202306201309-py3-none-any.whl
+[2023-06-21 10:09:30] INFO root fetch - processPackages [ai2-kit]: Downloading https://files.pythonhosted.org/packages/21/dc/f58384df7dcbb4e22a8ee1a2a81780ff68e512432c0d59970d237adc981b/ai2_kit-0.3.3.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [cipher-kit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 10:09:30] INFO root fetch - processPackages [belvo-python]: Downloading https://files.pythonhosted.org/packages/82/11/e3043b43de6bd0b71005dceb859c72842794602354049ee7da5b31c119c5/belvo-python-0.8.0.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [nonebot-plugin-wordle]: Downloading https://files.pythonhosted.org/packages/6e/5a/41b810bf82d915b7917e0b1c8fa763b551eebf71d7cce62c18c62bc1f666/nonebot_plugin_wordle-0.3.0.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [ai2-kit]: executing diffoscope
+[2023-06-21 10:09:30] INFO root fetch - processPackages [ai2-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai2_kit-0.3.2.tar.gz tmp/ai2_kit-0.3.3.tar.gz --markdown 20230621/a/ai2-kit/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-21 10:09:30] INFO root fetch - processPackages [gpt-term]: Downloading https://files.pythonhosted.org/packages/58/78/401d5f9e35bf8f661d8f34fe675a0f422e88ebc9671c87ce7051be4fea1f/gpt-term-1.1.4.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [qtl-xtp-api]: Downloading https://files.pythonhosted.org/packages/35/64/cadacf06bb56749d6c6c3ec5f6360d1d3ab35961d01100b8aca8e5cad662/qtl-xtp-api-2.2.34.9.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/0a/e7/14592c365bf8ffb51707e15763cef8c10eeae142ca25ce02085d7e87d6cc/blackjax-nightly-0.9.6.post99.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [pymemri]: Downloading https://files.pythonhosted.org/packages/72/3b/fd0739b423a7ca70dc033e9e822ae382c63c559a0d82d8e72fe58085ac5e/pymemri-0.0.8.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [cipher-kit]: Downloading https://files.pythonhosted.org/packages/ae/3a/2e03031d692bf1c6be58f1ce1b0881f7031e4757fcf6bfc65bbccb82323c/cipher_kit-0.0.2.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [nonebot-plugin-wordle]: executing diffoscope
+[2023-06-21 10:09:30] INFO root fetch - processPackages [nonebot-plugin-wordle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_wordle-0.2.1.tar.gz tmp/nonebot_plugin_wordle-0.3.0.tar.gz --markdown 20230621/n/nonebot-plugin-wordle/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-21 10:09:30] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/a9/6d/f7cbcea0e59da0b46ac6928af03fa05ab751edde5b212d59bd00b77f8e59/kcli-99.0.202306202008-py3-none-any.whl
+[2023-06-21 10:09:30] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-06-21 10:09:30] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230621/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-06-21 10:09:30] INFO root fetch - processPackages [belvo-python]: Downloading https://files.pythonhosted.org/packages/1f/4d/d9d9a2e131b8c740167fd083ea41a3f5df46964018b98794a80f4f77bb9d/belvo-python-0.9.0.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [belvo-python]: executing diffoscope
+[2023-06-21 10:09:30] INFO root fetch - processPackages [belvo-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/belvo-python-0.8.0.tar.gz tmp/belvo-python-0.9.0.tar.gz --markdown 20230621/b/belvo-python/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 10:09:30] INFO root fetch - processPackages [qtl-xtp-api]: Downloading https://files.pythonhosted.org/packages/2d/61/d1ad022f6e679313158aa29629ceab6106acd8c87db45236e3a88a7d97c2/qtl-xtp-api-2.2.35.1.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [pymemri]: Downloading https://files.pythonhosted.org/packages/76/34/fd60ecc79c07d503e6fbe32e661bd1324390924f0746bb39459636a366ef/pymemri-0.0.9.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [cipher-kit]: Downloading https://files.pythonhosted.org/packages/cb/cd/22c8f27c340c06786b73abfd6f23a4405c849a3669f261b29594fd6b6670/cipher_kit-0.0.3.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [data-engineering-pulumi-components]: Downloading https://files.pythonhosted.org/packages/e8/ee/a6dfcd17c8a1f4bed3781cf6f66ac1b46a52fee1c1505bb2365d662ae762/data-engineering-pulumi-components-0.4.1.dev7.tar.gz
+[2023-06-21 10:09:30] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-21 10:09:30] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306201309-py3-none-any.whl.zip tmp/kcli-99.0.202306202008-py3-none-any.whl.zip --markdown 20230621/k/kcli/99.0.202306201309-99.0.202306202008/diff.md --exclude *.pyd
+[2023-06-21 10:09:30] INFO root fetch - processPackages [pymemri]: executing diffoscope
+[2023-06-21 10:09:30] INFO root fetch - processPackages [pymemri]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymemri-0.0.8.tar.gz tmp/pymemri-0.0.9.tar.gz --markdown 20230621/p/pymemri/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 10:09:30] INFO root fetch - processPackages [cipher-kit]: executing diffoscope
+[2023-06-21 10:09:30] INFO root fetch - processPackages [cipher-kit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cipher_kit-0.0.2.tar.gz tmp/cipher_kit-0.0.3.tar.gz --markdown 20230621/c/cipher-kit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 10:09:31] INFO root fetch - processPackages [gpt-term]: Downloading https://files.pythonhosted.org/packages/01/8a/64bb7a5d3f09274f852c594ea004e33e6ddf969afe76cc84ce460ce93a0f/gpt-term-1.2.0.tar.gz
+[2023-06-21 10:09:31] INFO root fetch - processPackages [data-engineering-pulumi-components]: executing diffoscope
+[2023-06-21 10:09:31] INFO root fetch - processPackages [data-engineering-pulumi-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz --markdown 20230621/d/data-engineering-pulumi-components/0.4.1.dev6-0.4.1.dev7/diff.md --exclude *.pyd
+[2023-06-21 10:09:31] INFO root fetch - processPackages [qtl-xtp-api]: executing diffoscope
+[2023-06-21 10:09:31] INFO root fetch - processPackages [qtl-xtp-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qtl-xtp-api-2.2.34.9.tar.gz tmp/qtl-xtp-api-2.2.35.1.tar.gz --markdown 20230621/q/qtl-xtp-api/2.2.34.9-2.2.35.1/diff.md --exclude *.pyd
+[2023-06-21 10:09:31] INFO root fetch - processPackages [gpt-term]: executing diffoscope
+[2023-06-21 10:09:31] INFO root fetch - processPackages [gpt-term]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt-term-1.1.4.tar.gz tmp/gpt-term-1.2.0.tar.gz --markdown 20230621/g/gpt-term/1.1.4-1.2.0/diff.md --exclude *.pyd
+[2023-06-21 10:09:32] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.2.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [ai2-kit]: Remove: archive file [/home/abi/fetcher/tmp/ai2_kit-0.3.3.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [ai2-kit]: Start processing: invenio-oauthclient
+[2023-06-21 10:09:32] INFO root fetch - main [MainThread]: End processing [ai2-kit]: success
+[2023-06-21 10:09:32] INFO root fetch - processPackages [invenio-oauthclient]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [belvo-python]: Remove: archive file [/home/abi/fetcher/tmp/belvo-python-0.8.0.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [belvo-python]: Remove: archive file [/home/abi/fetcher/tmp/belvo-python-0.9.0.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [belvo-python]: Start processing: grader-service
+[2023-06-21 10:09:32] INFO root fetch - main [MainThread]: End processing [belvo-python]: success
+[2023-06-21 10:09:32] INFO root fetch - processPackages [cipher-kit]: Remove: archive file [/home/abi/fetcher/tmp/cipher_kit-0.0.2.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [cipher-kit]: Remove: archive file [/home/abi/fetcher/tmp/cipher_kit-0.0.3.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [cipher-kit]: Start processing: odoo-addon-shipment-advice
+[2023-06-21 10:09:32] INFO root fetch - main [MainThread]: End processing [cipher-kit]: success
+[2023-06-21 10:09:32] INFO root fetch - processPackages [grader-service]: New version: [0.1.9a5] Old Version: [0.1.9a4]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [invenio-oauthclient]: Downloading https://files.pythonhosted.org/packages/0f/b3/97063606015da4d51de09d529d990a8c52c1763d1c1a0f1a22174d68a56d/invenio-oauthclient-3.0.0.tar.gz
+[2023-06-21 10:09:32] INFO root fetch - processPackages [odoo-addon-shipment-advice]: New version: [16.0.1.1.1] Old Version: [16.0.1.1.0]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [grader-service]: Downloading https://files.pythonhosted.org/packages/73/05/592f8214ba62104b64d5b97a4fb30c2c9f509ea071f330276c75e81b41d1/grader-service-0.1.9a4.tar.gz
+[2023-06-21 10:09:32] INFO root fetch - processPackages [pymemri]: Remove: archive file [/home/abi/fetcher/tmp/pymemri-0.0.8.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [pymemri]: Remove: archive file [/home/abi/fetcher/tmp/pymemri-0.0.9.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [pymemri]: Start processing: pyglove
+[2023-06-21 10:09:32] INFO root fetch - main [MainThread]: End processing [pymemri]: success
+[2023-06-21 10:09:32] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/61/ce/bcd33ad2c4d6ca4d8be5ecb38706c49460824bdb9b4c4bc2ee2e1d6d1420/odoo_addon_shipment_advice-16.0.1.1.0-py3-none-any.whl
+[2023-06-21 10:09:32] INFO root fetch - processPackages [invenio-oauthclient]: Downloading https://files.pythonhosted.org/packages/5d/dc/d9e11c2cfe35f5b6a1b176db1095e01e4c8c78ee879c651d64e0a77602f7/invenio-oauthclient-3.1.0.tar.gz
+[2023-06-21 10:09:32] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230620] Old Version: [0.3.1.dev20230619]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [nonebot-plugin-wordle]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wordle-0.2.1.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [nonebot-plugin-wordle]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wordle-0.3.0.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [nonebot-plugin-wordle]: Start processing: gdsfactory
+[2023-06-21 10:09:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-wordle]: success
+[2023-06-21 10:09:32] INFO root fetch - processPackages [gdsfactory]: New version: [6.99.0] Old Version: [6.98.2]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [invenio-oauthclient]: executing diffoscope
+[2023-06-21 10:09:32] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/99/7c/8266ef0a968f48cb56d27ab7a980e91c27471737070b00fbe8a2f004f95e/pyglove-0.3.1.dev20230619.tar.gz
+[2023-06-21 10:09:32] INFO root fetch - processPackages [invenio-oauthclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/invenio-oauthclient-3.0.0.tar.gz tmp/invenio-oauthclient-3.1.0.tar.gz --markdown 20230621/i/invenio-oauthclient/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-21 10:09:32] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-0.9.6.post98.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-0.9.6.post99.tar.gz]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [blackjax-nightly]: Start processing: kfish
+[2023-06-21 10:09:32] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-06-21 10:09:32] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/c8/dd/88303eeb3c46484a4a64c2675611a92ea3816ae1ec8181c6eb5e78e85064/gdsfactory-6.98.2.tar.gz
+[2023-06-21 10:09:32] INFO root fetch - processPackages [kfish]: New version: [99.0.202306202011] Old Version: [99.0.202306201311]
+[2023-06-21 10:09:32] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/b1/48/4546e483896f1a24340c03eab3a82e86c595849c777d87fe97fe3dc63c43/pyglove-0.3.1.dev20230620.tar.gz
+[2023-06-21 10:09:32] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/4a/43/9048d1c9cb83db55621d476d0ceb10e0df779688f3fc6bf0276957b645fd/kfish-99.0.202306201311-py3-none-any.whl
+[2023-06-21 10:09:33] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Downloading https://files.pythonhosted.org/packages/d7/aa/6f73d4d1c5eb225c6fea69f45bfb05f65cb153c89d250faa14adc75f37cb/odoo_addon_shipment_advice-16.0.1.1.1-py3-none-any.whl
+[2023-06-21 10:09:33] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-21 10:09:33] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230619.tar.gz tmp/pyglove-0.3.1.dev20230620.tar.gz --markdown 20230621/p/pyglove/0.3.1.dev20230619-0.3.1.dev20230620/diff.md --exclude *.pyd
+[2023-06-21 10:09:33] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/7e/ec/2cd39e2ce278d617eac6988e914b8df36d3496205cac9e991937c8cd1fe3/gdsfactory-6.99.0.tar.gz
+[2023-06-21 10:09:33] INFO root fetch - processPackages [grader-service]: Downloading https://files.pythonhosted.org/packages/36/15/0d546dc02bd4446e2e8ac038540740a31b21befe40074db5b60e03e48eb0/grader-service-0.1.9a5.tar.gz
+[2023-06-21 10:09:33] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c1/c5/c12fa845031093dccdba44fc60617fb82bfc284ed714137ec18116213cd5/kfish-99.0.202306202011-py3-none-any.whl
+[2023-06-21 10:09:33] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-21 10:09:33] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306201311-py3-none-any.whl.zip tmp/kfish-99.0.202306202011-py3-none-any.whl.zip --markdown 20230621/k/kfish/99.0.202306201311-99.0.202306202011/diff.md --exclude *.pyd
+[2023-06-21 10:09:33] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-06-21 10:09:33] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-6.98.2.tar.gz tmp/gdsfactory-6.99.0.tar.gz --markdown 20230621/g/gdsfactory/6.98.2-6.99.0/diff.md --exclude *.pyd
+[2023-06-21 10:09:33] INFO root fetch - processPackages [odoo-addon-shipment-advice]: executing diffoscope
+[2023-06-21 10:09:33] INFO root fetch - processPackages [odoo-addon-shipment-advice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_shipment_advice-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_shipment_advice-16.0.1.1.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-shipment-advice/16.0.1.1.0-16.0.1.1.1/diff.md --exclude *.pyd
+[2023-06-21 10:09:33] INFO root fetch - processPackages [grader-service]: executing diffoscope
+[2023-06-21 10:09:33] INFO root fetch - processPackages [grader-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grader-service-0.1.9a4.tar.gz tmp/grader-service-0.1.9a5.tar.gz --markdown 20230621/g/grader-service/0.1.9a4-0.1.9a5/diff.md --exclude *.pyd
+[2023-06-21 10:09:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306201311-py3-none-any.whl.zip]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306202011-py3-none-any.whl.zip]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [kfish]: Start processing: dbm-agent
+[2023-06-21 10:09:34] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-21 10:09:34] INFO root fetch - processPackages [dbm-agent]: New version: [8.33.9] Old Version: [8.33.8]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/96/b4/5d18c8ae0baf6ec55dd17fe5481bea87feb7ea2efe1bf67a841037c6843c/dbm-agent-8.33.8.tar.gz
+[2023-06-21 10:09:34] INFO root fetch - processPackages [invenio-oauthclient]: Remove: archive file [/home/abi/fetcher/tmp/invenio-oauthclient-3.0.0.tar.gz]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [invenio-oauthclient]: Remove: archive file [/home/abi/fetcher/tmp/invenio-oauthclient-3.1.0.tar.gz]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [invenio-oauthclient]: Start processing: lb-telemetry
+[2023-06-21 10:09:34] INFO root fetch - main [MainThread]: End processing [invenio-oauthclient]: success
+[2023-06-21 10:09:34] INFO root fetch - processPackages [lb-telemetry]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_shipment_advice-16.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [odoo-addon-shipment-advice]: Start processing: mecapacktools
+[2023-06-21 10:09:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-shipment-advice]: success
+[2023-06-21 10:09:34] INFO root fetch - processPackages [grader-service]: Remove: archive file [/home/abi/fetcher/tmp/grader-service-0.1.9a4.tar.gz]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [grader-service]: Remove: archive file [/home/abi/fetcher/tmp/grader-service-0.1.9a5.tar.gz]
+[2023-06-21 10:09:34] INFO root fetch - processPackages [grader-service]: Start processing: pytket-qirpass
+[2023-06-21 10:09:34] INFO root fetch - main [MainThread]: End processing [grader-service]: success
+[2023-06-21 10:09:34] INFO root fetch - processPackages [dbm-agent]: Downloading https://files.pythonhosted.org/packages/6e/eb/46f6de2ab921535aa9eac258386a1d4005faf46ad0a43f4556c8e41d51d5/dbm-agent-8.33.9.tar.gz
+[2023-06-21 10:09:35] INFO root fetch - processPackages [mecapacktools]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-21 10:09:35] INFO root fetch - processPackages [pytket-qirpass]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-21 10:09:35] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/48/f0/99d27eb920b2aac274861a1527d0d74a3a1d651ece63c3346a07b423df99/lb-telemetry-0.0.1.tar.gz
+[2023-06-21 10:09:35] INFO root fetch - processPackages [dbm-agent]: executing diffoscope
+[2023-06-21 10:09:35] INFO root fetch - processPackages [dbm-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbm-agent-8.33.8.tar.gz tmp/dbm-agent-8.33.9.tar.gz --markdown 20230621/d/dbm-agent/8.33.8-8.33.9/diff.md --exclude *.pyd
+[2023-06-21 10:09:35] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/52/5e/2fbb1db56c3f21d74ac9d33b79f586adc4175fa5756b6f816afaecd61108/mecapacktools-1.1.2.tar.gz
+[2023-06-21 10:09:35] INFO root fetch - processPackages [pytket-qirpass]: Downloading https://files.pythonhosted.org/packages/7f/f3/0721c60b3e006c9fb975728335e8a655bc99bafcb79705ff7c8c3ec9934f/pytket-qirpass-0.4.0.tar.gz
+[2023-06-21 10:09:35] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/28/0f/fedb6026710b3b68be573ca2233c7820a31acb76c77a871deee67049c6ac/lb-telemetry-0.0.2.tar.gz
+[2023-06-21 10:09:35] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230619.tar.gz]
+[2023-06-21 10:09:35] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230620.tar.gz]
+[2023-06-21 10:09:35] INFO root fetch - processPackages [pyglove]: Start processing: localstack
+[2023-06-21 10:09:35] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-21 10:09:35] INFO root fetch - processPackages [lb-telemetry]: executing diffoscope
+[2023-06-21 10:09:35] INFO root fetch - processPackages [lb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lb-telemetry-0.0.1.tar.gz tmp/lb-telemetry-0.0.2.tar.gz --markdown 20230621/l/lb-telemetry/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 10:09:35] INFO root fetch - processPackages [mecapacktools]: Downloading https://files.pythonhosted.org/packages/30/b2/3bfb9c5a75a3b2df14da3615066c37d81a08d9ecd0f61f02049194c0cbc5/mecapacktools-1.1.3.tar.gz
+[2023-06-21 10:09:35] INFO root fetch - processPackages [localstack]: New version: [2.1.1.dev20230621080533] Old Version: [2.1.1.dev20230605083031]
+[2023-06-21 10:09:35] INFO root fetch - processPackages [pytket-qirpass]: Downloading https://files.pythonhosted.org/packages/01/62/d89c42484f68e0f9918ffaa6148d5114f586117496c6d28105119b343d27/pytket_qirpass-0.5.0.tar.gz
+[2023-06-21 10:09:35] INFO root fetch - processPackages [mecapacktools]: executing diffoscope
+[2023-06-21 10:09:35] INFO root fetch - processPackages [mecapacktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecapacktools-1.1.2.tar.gz tmp/mecapacktools-1.1.3.tar.gz --markdown 20230621/m/mecapacktools/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-21 10:09:35] INFO root fetch - processPackages [pytket-qirpass]: executing diffoscope
+[2023-06-21 10:09:35] INFO root fetch - processPackages [pytket-qirpass]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytket-qirpass-0.4.0.tar.gz tmp/pytket_qirpass-0.5.0.tar.gz --markdown 20230621/p/pytket-qirpass/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-21 10:09:35] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/d0/cb/7f6cf5809bab2257f6ceeefe06f80e33cf433b805f8260e9bb9944284054/localstack-2.1.1.dev20230605083031.tar.gz
+[2023-06-21 10:09:36] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/2a/13/9fbc3040ec80fabde6fc413a5649c3da0c0c846981bbdfe264cc87309da8/localstack-2.1.1.dev20230621080533.tar.gz
+[2023-06-21 10:09:36] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-06-21 10:09:36] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.1.1.dev20230605083031.tar.gz tmp/localstack-2.1.1.dev20230621080533.tar.gz --markdown 20230621/l/localstack/2.1.1.dev20230605083031-2.1.1.dev20230621080533/diff.md --exclude *.pyd
+[2023-06-21 10:09:36] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.1.2.tar.gz]
+[2023-06-21 10:09:36] INFO root fetch - processPackages [mecapacktools]: Remove: archive file [/home/abi/fetcher/tmp/mecapacktools-1.1.3.tar.gz]
+[2023-06-21 10:09:36] INFO root fetch - processPackages [mecapacktools]: Start processing: localstack-ext
+[2023-06-21 10:09:36] INFO root fetch - main [MainThread]: End processing [mecapacktools]: success
+[2023-06-21 10:09:37] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev6.tar.gz]
+[2023-06-21 10:09:37] INFO root fetch - processPackages [data-engineering-pulumi-components]: Remove: archive file [/home/abi/fetcher/tmp/data-engineering-pulumi-components-0.4.1.dev7.tar.gz]
+[2023-06-21 10:09:37] INFO root fetch - main [MainThread]: End processing [data-engineering-pulumi-components]: success
+[2023-06-21 10:09:37] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.0.1.tar.gz]
+[2023-06-21 10:09:37] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.0.2.tar.gz]
+[2023-06-21 10:09:37] INFO root fetch - main [MainThread]: End processing [lb-telemetry]: success
+[2023-06-21 10:09:37] INFO root fetch - processPackages [localstack-ext]: New version: [2.1.1.dev20230621080533] Old Version: [2.1.1.dev20230605083031]
+[2023-06-21 10:09:37] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-2.1.1.dev20230605083031.tar.gz]
+[2023-06-21 10:09:37] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-2.1.1.dev20230621080533.tar.gz]
+[2023-06-21 10:09:37] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-06-21 10:09:37] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/52/47/60970c27a513eef6bfed1882c69a49b67b12b17d2a3c678b13f561d10027/localstack-ext-2.1.1.dev20230605083031.tar.gz
+[2023-06-21 10:09:38] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.8.tar.gz]
+[2023-06-21 10:09:38] INFO root fetch - processPackages [dbm-agent]: Remove: archive file [/home/abi/fetcher/tmp/dbm-agent-8.33.9.tar.gz]
+[2023-06-21 10:09:38] INFO root fetch - main [MainThread]: End processing [dbm-agent]: success
+[2023-06-21 10:09:38] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/74/d2/d68dba8c929d6be1016bae0d647252e09267898c04cd232e42c34c1060f2/localstack-ext-2.1.1.dev20230621080533.tar.gz
+[2023-06-21 10:09:39] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-06-21 10:09:39] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.1.1.dev20230605083031.tar.gz tmp/localstack-ext-2.1.1.dev20230621080533.tar.gz --markdown 20230621/l/localstack-ext/2.1.1.dev20230605083031-2.1.1.dev20230621080533/diff.md --exclude *.pyd
+[2023-06-21 10:09:39] INFO root fetch - processPackages [gpt-term]: Remove: archive file [/home/abi/fetcher/tmp/gpt-term-1.1.4.tar.gz]
+[2023-06-21 10:09:39] INFO root fetch - processPackages [gpt-term]: Remove: archive file [/home/abi/fetcher/tmp/gpt-term-1.2.0.tar.gz]
+[2023-06-21 10:09:39] INFO root fetch - main [MainThread]: End processing [gpt-term]: success
+[2023-06-21 10:09:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306201309-py3-none-any.whl.zip]
+[2023-06-21 10:09:40] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306202008-py3-none-any.whl.zip]
+[2023-06-21 10:09:40] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-21 10:09:41] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.98.2.tar.gz]
+[2023-06-21 10:09:41] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-6.99.0.tar.gz]
+[2023-06-21 10:09:41] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-06-21 10:09:42] INFO root fetch - processPackages [pytket-qirpass]: Remove: archive file [/home/abi/fetcher/tmp/pytket-qirpass-0.4.0.tar.gz]
+[2023-06-21 10:09:42] INFO root fetch - processPackages [pytket-qirpass]: Remove: archive file [/home/abi/fetcher/tmp/pytket_qirpass-0.5.0.tar.gz]
+[2023-06-21 10:09:42] INFO root fetch - main [MainThread]: End processing [pytket-qirpass]: success
+[2023-06-21 10:09:46] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.1.1.dev20230605083031.tar.gz]
+[2023-06-21 10:09:46] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.1.1.dev20230621080533.tar.gz]
+[2023-06-21 10:09:46] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-06-21 10:09:49] INFO root fetch - processPackages [qtl-xtp-api]: Remove: archive file [/home/abi/fetcher/tmp/qtl-xtp-api-2.2.34.9.tar.gz]
+[2023-06-21 10:09:49] INFO root fetch - processPackages [qtl-xtp-api]: Remove: archive file [/home/abi/fetcher/tmp/qtl-xtp-api-2.2.35.1.tar.gz]
+[2023-06-21 10:09:49] INFO root fetch - main [MainThread]: End processing [qtl-xtp-api]: success
+[2023-06-21 10:09:49] INFO root fetch - main [MainThread]: Store serial: [18587024]
