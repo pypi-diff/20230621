@@ -14765,3 +14765,94 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 08:58:39] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
 [2023-06-21 08:58:39] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
 [2023-06-21 08:58:39] INFO root fetch - main [MainThread]: Store serial: [18586245]
+[2023-06-21 09:03:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586245]
+[2023-06-21 09:03:48] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aliyun-python-sdk-polardb
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tg-bot-ml
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wgs-correction
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: RepRepBuild
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: luka
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shellviz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: federated-content-connector
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seqio-nightly
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nestedaccess
+[2023-06-21 09:03:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: phun
+[2023-06-21 09:03:48] INFO root fetch - processPackages [shellviz]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-21 09:03:48] INFO root fetch - processPackages [nestedaccess]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-21 09:03:48] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-06-21 09:03:48] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/e8/4d/11c4ddc8abd869b3c2fcb8a82725bf0ac02a1ca179d71d25592c2213cded/nestedaccess-0.3.6.tar.gz
+[2023-06-21 09:03:48] WARNING root fetch - processPackages [wgs-correction]: Skipping, unable to determine old version
+[2023-06-21 09:03:48] INFO root fetch - processPackages [wgs-correction]: Start processing: luminesce-sdk-preview
+[2023-06-21 09:03:48] INFO root fetch - main [MainThread]: End processing [wgs-correction] error
+[2023-06-21 09:03:48] WARNING root fetch - processPackages [luka]: Skipping, unable to determine old version
+[2023-06-21 09:03:48] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-21 09:03:48] INFO root fetch - processPackages [luka]: Start processing: tg-bot-ml
+[2023-06-21 09:03:48] WARNING root fetch - processPackages [phun]: Skipping, unable to determine old version
+[2023-06-21 09:03:48] INFO root fetch - main [MainThread]: End processing [luka] error
+[2023-06-21 09:03:48] INFO root fetch - processPackages [shellviz]: Downloading https://files.pythonhosted.org/packages/51/9e/39b2b3d8c0262d977b22c7624310620692e8d87bb009ac15ec864a41a3de/shellviz-0.2.0.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [federated-content-connector]: New version: [1.1.0] Old Version: [1.0.3]
+[2023-06-21 09:03:48] INFO root fetch - main [MainThread]: End processing [phun] error
+[2023-06-21 09:03:48] INFO root fetch - processPackages [RepRepBuild]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-21 09:03:48] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [tg-bot-ml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 09:03:48] INFO root fetch - processPackages [tg-bot-ml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 09:03:48] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-21 09:03:48] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/2f/89/fd7e69d8d655ec180158e31cd691f0258bb5865ef2b782facda6c0158f93/nestedaccess-0.3.7.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [shellviz]: Downloading https://files.pythonhosted.org/packages/58/9f/2bb3951f9cfd1bcc916266b9b6f2b3858cde650ad28072817edb2afab189/shellviz-0.2.1.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 09:03:48] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.3.6.tar.gz tmp/nestedaccess-0.3.7.tar.gz --markdown 20230621/n/nestedaccess/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-21 09:03:48] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/01/fe/f5790b8610dcb697110bfde0cee5a9b77c5d4fdda092e10ee9c36171477c/aliyun-python-sdk-polardb-1.8.8.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/1f/74/190eebea628180649470436baf125d2e51ab5557ac19a073f61523a609c3/tg_bot_ml-0.0.2.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [federated-content-connector]: Downloading https://files.pythonhosted.org/packages/f9/39/c504ad383490f44d762aaae0c889feff3e46645a588358e1a5e5445abca3/federated-content-connector-1.0.3.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/1f/74/190eebea628180649470436baf125d2e51ab5557ac19a073f61523a609c3/tg_bot_ml-0.0.2.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [shellviz]: executing diffoscope
+[2023-06-21 09:03:48] INFO root fetch - processPackages [shellviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shellviz-0.2.0.tar.gz tmp/shellviz-0.2.1.tar.gz --markdown 20230621/s/shellviz/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-21 09:03:48] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/0e/81/183fa2673ed8f4d3c885d0958bd140616694b516dd59d7e8cab1fa824ff3/RepRepBuild-0.9.0.tar.gz
+[2023-06-21 09:03:48] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-06-21 09:03:48] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230621/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-06-21 09:03:49] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Downloading https://files.pythonhosted.org/packages/98/11/7b55beb702af2e9183edd5e70523b817de7c96f4f0e211ad727fd870afd2/aliyun-python-sdk-polardb-1.8.9.tar.gz
+[2023-06-21 09:03:49] INFO root fetch - processPackages [RepRepBuild]: Downloading https://files.pythonhosted.org/packages/50/c1/f5a59c51cae6a695fbe01266bb7f75ded67d632b67bcbbee079deaecbc69/RepRepBuild-0.9.1.tar.gz
+[2023-06-21 09:03:49] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-21 09:03:49] INFO root fetch - processPackages [federated-content-connector]: Downloading https://files.pythonhosted.org/packages/96/ef/4cb4957c7b7f8fcf19d93be60b92d73596f9de2d7b0faf25d6fd1c1508b7/federated-content-connector-1.1.0.tar.gz
+[2023-06-21 09:03:49] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/8e/40/bbaf5021307a35017025575397fb3191d238c933cc5571bcef3ff96cbc36/tg_bot_ml-0.0.3.tar.gz
+[2023-06-21 09:03:49] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/8e/40/bbaf5021307a35017025575397fb3191d238c933cc5571bcef3ff96cbc36/tg_bot_ml-0.0.3.tar.gz
+[2023-06-21 09:03:49] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-21 09:03:49] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230621/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-21 09:03:49] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: executing diffoscope
+[2023-06-21 09:03:49] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz --markdown 20230621/a/aliyun-python-sdk-polardb/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-21 09:03:49] INFO root fetch - processPackages [federated-content-connector]: executing diffoscope
+[2023-06-21 09:03:49] INFO root fetch - processPackages [federated-content-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/federated-content-connector-1.0.3.tar.gz tmp/federated-content-connector-1.1.0.tar.gz --markdown 20230621/f/federated-content-connector/1.0.3-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 09:03:49] INFO root fetch - processPackages [tg-bot-ml]: executing diffoscope
+[2023-06-21 09:03:49] INFO root fetch - processPackages [tg-bot-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_bot_ml-0.0.2.tar.gz tmp/tg_bot_ml-0.0.3.tar.gz --markdown 20230621/t/tg-bot-ml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 09:03:49] INFO root fetch - processPackages [tg-bot-ml]: executing diffoscope
+[2023-06-21 09:03:49] INFO root fetch - processPackages [tg-bot-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_bot_ml-0.0.2.tar.gz tmp/tg_bot_ml-0.0.3.tar.gz --markdown 20230621/t/tg-bot-ml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 09:03:49] INFO root fetch - processPackages [RepRepBuild]: executing diffoscope
+[2023-06-21 09:03:49] INFO root fetch - processPackages [RepRepBuild]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/RepRepBuild-0.9.0.tar.gz tmp/RepRepBuild-0.9.1.tar.gz --markdown 20230621/R/RepRepBuild/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 09:03:50] INFO root fetch - processPackages [shellviz]: Remove: archive file [/home/abi/fetcher/tmp/shellviz-0.2.0.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - processPackages [shellviz]: Remove: archive file [/home/abi/fetcher/tmp/shellviz-0.2.1.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - main [MainThread]: End processing [shellviz]: success
+[2023-06-21 09:03:50] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.3.6.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.3.7.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 09:03:50] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.2.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.3.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - main [MainThread]: End processing [tg-bot-ml]: success
+[2023-06-21 09:03:50] INFO root fetch - processPackages [federated-content-connector]: Remove: archive file [/home/abi/fetcher/tmp/federated-content-connector-1.0.3.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - processPackages [federated-content-connector]: Remove: archive file [/home/abi/fetcher/tmp/federated-content-connector-1.1.0.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - main [MainThread]: End processing [federated-content-connector]: success
+[2023-06-21 09:03:50] INFO root fetch - main [MainThread]: End processing [tg-bot-ml]: success
+[2023-06-21 09:03:50] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.8.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - processPackages [aliyun-python-sdk-polardb]: Remove: archive file [/home/abi/fetcher/tmp/aliyun-python-sdk-polardb-1.8.9.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - main [MainThread]: End processing [aliyun-python-sdk-polardb]: success
+[2023-06-21 09:03:50] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-21 09:03:50] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-21 09:03:51] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.0.tar.gz]
+[2023-06-21 09:03:51] INFO root fetch - processPackages [RepRepBuild]: Remove: archive file [/home/abi/fetcher/tmp/RepRepBuild-0.9.1.tar.gz]
+[2023-06-21 09:03:51] INFO root fetch - main [MainThread]: End processing [RepRepBuild]: success
+[2023-06-21 09:03:52] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-06-21 09:03:52] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-06-21 09:03:52] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-06-21 09:03:52] INFO root fetch - main [MainThread]: Store serial: [18586292]
