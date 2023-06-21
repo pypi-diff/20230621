@@ -11950,3 +11950,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 06:18:29] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
 [2023-06-21 06:18:29] INFO root fetch - main [MainThread]: End processing [metdig]: success
 [2023-06-21 06:18:29] INFO root fetch - main [MainThread]: Store serial: [18585170]
+[2023-06-21 06:23:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585170]
+[2023-06-21 06:23:37] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: newport-motors-py
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdktf-cdktf-provider-google
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flybirds
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moto
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nestedaccess
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: esphome
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adversarial-test
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hdx-python-scraper
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-product-operating-unit
+[2023-06-21 06:23:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: esphome
+[2023-06-21 06:23:37] INFO root fetch - processPackages [flybirds]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [adversarial-test]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [hdx-python-scraper]: New version: [2.1.6] Old Version: [2.1.5]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [newport-motors-py]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: New version: [12.0.1.0.1.99.dev5] Old Version: [12.0.1.0.1.99.dev4]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [esphome]: New version: [2023.6.0b3] Old Version: [2023.6.0b2]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [nestedaccess]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [esphome]: New version: [2023.6.0b3] Old Version: [2023.6.0b2]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: New version: [8.0.1] Old Version: [8.0.0]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [moto]: New version: [4.1.9.dev9] Old Version: [4.1.9.dev8]
+[2023-06-21 06:23:37] INFO root fetch - processPackages [adversarial-test]: Downloading https://files.pythonhosted.org/packages/c6/c3/160ec5598dba03fa0dc81a2893deedd6663030b3b2dd692b2e92016349ec/adversarial-test-0.1.2.tar.gz
+[2023-06-21 06:23:37] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/08/ca/6a9773ec74cd9162d8c679aebecdc2a754f531c7c3d9c48a36c0041a979f/nestedaccess-0.2.9.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [newport-motors-py]: Downloading https://files.pythonhosted.org/packages/da/b0/9bf53e03ad2eb8cb584f1e7fc6edc7bd9c1f77096a2ec83f9b3d8621c013/newport_motors_py-0.1.2-py3-none-any.whl
+[2023-06-21 06:23:38] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/2c/d4/8e03b33a9179ac2880d9ee7985f188927368b16081e05a142152e556685c/moto-4.1.9.dev8.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/34/c8/86b60d8ebd9afd34635526821956dfe76ab3e78d38a3ec5f3a5842e3be32/flybirds-0.6.1.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/f6/8d/df20a8adbd4c5783497079b75c8deb01eac48018e46a5ccb35a00a906cb1/esphome-2023.6.0b2.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/4a/c2/4dba3339e0187f2cd5a34d1bcdc7801684684d4e03657b1d677ff064e8e9/hdx-python-scraper-2.1.5.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/f6/8d/df20a8adbd4c5783497079b75c8deb01eac48018e46a5ccb35a00a906cb1/esphome-2023.6.0b2.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Downloading https://files.pythonhosted.org/packages/6c/11/eddd041ada19356bad9f17130c031409c67d0f84eed0e1304c986bc05e12/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev4-py3-none-any.whl
+[2023-06-21 06:23:38] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Downloading https://files.pythonhosted.org/packages/7e/41/0f2903796e8fd1713adf64875b4dac90c44c724be9c1571580bfc635ea43/cdktf-cdktf-provider-google-8.0.0.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/82/38/91f45c3c8c7bafe48cf3fb0cf19cd2cc0afa8ef09497be15a65c4834dd03/nestedaccess-0.3.0.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [adversarial-test]: Downloading https://files.pythonhosted.org/packages/18/c4/608a57cea52385d7ada07548f95ae80cffe6efec875b44f25b38378912d3/adversarial-test-0.1.3.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 06:23:38] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.2.9.tar.gz tmp/nestedaccess-0.3.0.tar.gz --markdown 20230621/n/nestedaccess/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-21 06:23:38] WARNING root fetch - processPackages [cdktf-cdktf-provider-google]: Skipping package: exceeds size limit 20024494>=10485760
+[2023-06-21 06:23:38] INFO root fetch - processPackages [cdktf-cdktf-provider-google]: Start processing: quickstart-vdk
+[2023-06-21 06:23:38] INFO root fetch - main [MainThread]: End processing [cdktf-cdktf-provider-google] error
+[2023-06-21 06:23:38] INFO root fetch - processPackages [newport-motors-py]: Downloading https://files.pythonhosted.org/packages/88/d1/21dd2d20bb8363ec3dfb61f3365ba7d3b6367ec4f35df76ad636b1c42d68/newport-motors-py-0.1.3.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.906421535.dev11653] Old Version: [0.2.905084255.dev11599]
+[2023-06-21 06:23:38] INFO root fetch - processPackages [newport-motors-py]: executing diffoscope
+[2023-06-21 06:23:38] INFO root fetch - processPackages [newport-motors-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newport_motors_py-0.1.2-py3-none-any.whl.zip tmp/newport-motors-py-0.1.3.tar.gz --markdown 20230621/n/newport-motors-py/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 06:23:38] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/31/ce/390a79fbac96a552e07b77d44044636a2467b9ec299cda9d21d35465533a/quickstart-vdk-0.2.905084255.dev11599.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [adversarial-test]: executing diffoscope
+[2023-06-21 06:23:38] INFO root fetch - processPackages [adversarial-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adversarial-test-0.1.2.tar.gz tmp/adversarial-test-0.1.3.tar.gz --markdown 20230621/a/adversarial-test/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 06:23:38] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Downloading https://files.pythonhosted.org/packages/9f/78/673d760c304026e67f88f5f5e3700485cbe18122d4af136c0da2482f5d0a/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev5-py3-none-any.whl
+[2023-06-21 06:23:38] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ce/23/662f0b0116ec635d91e86d0d573282d537a23f66a5df7efd492ef94a7203/esphome-2023.6.0b3.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [esphome]: Downloading https://files.pythonhosted.org/packages/ce/23/662f0b0116ec635d91e86d0d573282d537a23f66a5df7efd492ef94a7203/esphome-2023.6.0b3.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [moto]: Downloading https://files.pythonhosted.org/packages/4b/79/8731bdd68db60192dd81a418b0552fc817d87bba0726d6c4ff2dbd93f913/moto-4.1.9.dev9.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: executing diffoscope
+[2023-06-21 06:23:38] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev4-py3-none-any.whl.zip tmp/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev5-py3-none-any.whl.zip --markdown 20230621/o/odoo12-addon-product-operating-unit/12.0.1.0.1.99.dev4-12.0.1.0.1.99.dev5/diff.md --exclude *.pyd
+[2023-06-21 06:23:38] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/91/50/f79d8fc554b6458d7ae3551631d2ce9c24c663febe6a1f0884ee5aa2522e/quickstart-vdk-0.2.906421535.dev11653.tar.gz
+[2023-06-21 06:23:38] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-06-21 06:23:38] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.6.0b2.tar.gz tmp/esphome-2023.6.0b3.tar.gz --markdown 20230621/e/esphome/2023.6.0b2-2023.6.0b3/diff.md --exclude *.pyd
+[2023-06-21 06:23:38] INFO root fetch - processPackages [esphome]: executing diffoscope
+[2023-06-21 06:23:38] INFO root fetch - processPackages [esphome]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-2023.6.0b2.tar.gz tmp/esphome-2023.6.0b3.tar.gz --markdown 20230621/e/esphome/2023.6.0b2-2023.6.0b3/diff.md --exclude *.pyd
+[2023-06-21 06:23:38] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-21 06:23:38] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.905084255.dev11599.tar.gz tmp/quickstart-vdk-0.2.906421535.dev11653.tar.gz --markdown 20230621/q/quickstart-vdk/0.2.905084255.dev11599-0.2.906421535.dev11653/diff.md --exclude *.pyd
+[2023-06-21 06:23:39] INFO root fetch - processPackages [hdx-python-scraper]: Downloading https://files.pythonhosted.org/packages/f8/21/d627fabbda783287301462aebfeb7eb15c8d878dec2f6e94ffb108ab50ec/hdx-python-scraper-2.1.6.tar.gz
+[2023-06-21 06:23:39] INFO root fetch - processPackages [moto]: executing diffoscope
+[2023-06-21 06:23:39] INFO root fetch - processPackages [moto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moto-4.1.9.dev8.tar.gz tmp/moto-4.1.9.dev9.tar.gz --markdown 20230621/m/moto/4.1.9.dev8-4.1.9.dev9/diff.md --exclude *.pyd
+[2023-06-21 06:23:39] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.9.tar.gz]
+[2023-06-21 06:23:39] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.3.0.tar.gz]
+[2023-06-21 06:23:39] INFO root fetch - processPackages [nestedaccess]: Start processing: kevin-toolbox
+[2023-06-21 06:23:39] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 06:23:39] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-21 06:23:39] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/95/d2/259c0fd83db8c2245498b3cb9434b8ed951944c14fb8255ffc8ffffe74d4/kevin-toolbox-1.0.9.tar.gz
+[2023-06-21 06:23:39] INFO root fetch - processPackages [newport-motors-py]: Remove: archive file [/home/abi/fetcher/tmp/newport_motors_py-0.1.2-py3-none-any.whl.zip]
+[2023-06-21 06:23:39] INFO root fetch - processPackages [newport-motors-py]: Remove: archive file [/home/abi/fetcher/tmp/newport-motors-py-0.1.3.tar.gz]
+[2023-06-21 06:23:39] INFO root fetch - processPackages [newport-motors-py]: Start processing: azure-mgmt-sqlvirtualmachine
+[2023-06-21 06:23:39] INFO root fetch - main [MainThread]: End processing [newport-motors-py]: success
+[2023-06-21 06:23:39] INFO root fetch - processPackages [adversarial-test]: Remove: archive file [/home/abi/fetcher/tmp/adversarial-test-0.1.2.tar.gz]
+[2023-06-21 06:23:39] INFO root fetch - processPackages [adversarial-test]: Remove: archive file [/home/abi/fetcher/tmp/adversarial-test-0.1.3.tar.gz]
+[2023-06-21 06:23:39] INFO root fetch - main [MainThread]: End processing [adversarial-test]: success
+[2023-06-21 06:23:39] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/f6/85/22978414f58ff2a35ce9d37153e55893fc09dbb91ed53464223091bcc647/kevin-toolbox-1.1.0.tar.gz
+[2023-06-21 06:23:39] INFO root fetch - processPackages [azure-mgmt-sqlvirtualmachine]: New version: [1.0.0b6] Old Version: [1.0.0b5]
+[2023-06-21 06:23:39] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-21 06:23:39] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.9.tar.gz tmp/kevin-toolbox-1.1.0.tar.gz --markdown 20230621/k/kevin-toolbox/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 06:23:40] INFO root fetch - processPackages [azure-mgmt-sqlvirtualmachine]: Downloading https://files.pythonhosted.org/packages/8c/9a/b5f0ebf6b82df07a55556bfb18388d09582e50369b6a69e85b0df66dcb02/azure-mgmt-sqlvirtualmachine-1.0.0b5.zip
+[2023-06-21 06:23:40] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev4-py3-none-any.whl.zip]
+[2023-06-21 06:23:40] INFO root fetch - processPackages [odoo12-addon-product-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_product_operating_unit-12.0.1.0.1.99.dev5-py3-none-any.whl.zip]
+[2023-06-21 06:23:40] INFO root fetch - main [MainThread]: End processing [odoo12-addon-product-operating-unit]: success
+[2023-06-21 06:23:40] INFO root fetch - processPackages [flybirds]: Downloading https://files.pythonhosted.org/packages/0d/fc/937006d5c729a1c03f2e561b26dc55803d25dc4df6c04a6665b70f4a52fc/flybirds-0.6.2.tar.gz
+[2023-06-21 06:23:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.905084255.dev11599.tar.gz]
+[2023-06-21 06:23:40] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.906421535.dev11653.tar.gz]
+[2023-06-21 06:23:40] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-21 06:23:40] INFO root fetch - processPackages [flybirds]: executing diffoscope
+[2023-06-21 06:23:40] INFO root fetch - processPackages [flybirds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flybirds-0.6.1.tar.gz tmp/flybirds-0.6.2.tar.gz --markdown 20230621/f/flybirds/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-21 06:23:40] INFO root fetch - processPackages [azure-mgmt-sqlvirtualmachine]: Downloading https://files.pythonhosted.org/packages/69/64/705fc5e9c434fe895b5fd226cb82dfcf1cf63d135e354a89fe4ca5b969cb/azure-mgmt-sqlvirtualmachine-1.0.0b6.zip
+[2023-06-21 06:23:40] INFO root fetch - processPackages [azure-mgmt-sqlvirtualmachine]: executing diffoscope
+[2023-06-21 06:23:40] INFO root fetch - processPackages [azure-mgmt-sqlvirtualmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-sqlvirtualmachine-1.0.0b5.zip tmp/azure-mgmt-sqlvirtualmachine-1.0.0b6.zip --markdown 20230621/a/azure-mgmt-sqlvirtualmachine/1.0.0b5-1.0.0b6/diff.md --exclude *.pyd
+[2023-06-21 06:23:40] INFO root fetch - processPackages [hdx-python-scraper]: executing diffoscope
+[2023-06-21 06:23:40] INFO root fetch - processPackages [hdx-python-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdx-python-scraper-2.1.5.tar.gz tmp/hdx-python-scraper-2.1.6.tar.gz --markdown 20230621/h/hdx-python-scraper/2.1.5-2.1.6/diff.md --exclude *.pyd
+[2023-06-21 06:23:42] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.9.tar.gz]
+[2023-06-21 06:23:42] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.0.tar.gz]
+[2023-06-21 06:23:42] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-21 06:23:42] INFO root fetch - processPackages [azure-mgmt-sqlvirtualmachine]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-sqlvirtualmachine-1.0.0b5.zip]
+[2023-06-21 06:23:42] INFO root fetch - processPackages [azure-mgmt-sqlvirtualmachine]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-sqlvirtualmachine-1.0.0b6.zip]
+[2023-06-21 06:23:42] INFO root fetch - main [MainThread]: End processing [azure-mgmt-sqlvirtualmachine]: success
+[2023-06-21 06:23:45] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx-python-scraper-2.1.5.tar.gz]
+[2023-06-21 06:23:45] INFO root fetch - processPackages [hdx-python-scraper]: Remove: archive file [/home/abi/fetcher/tmp/hdx-python-scraper-2.1.6.tar.gz]
+[2023-06-21 06:23:45] INFO root fetch - main [MainThread]: End processing [hdx-python-scraper]: success
+[2023-06-21 06:24:13] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.1.tar.gz]
+[2023-06-21 06:24:13] INFO root fetch - processPackages [flybirds]: Remove: archive file [/home/abi/fetcher/tmp/flybirds-0.6.2.tar.gz]
+[2023-06-21 06:24:13] INFO root fetch - main [MainThread]: End processing [flybirds]: success
+[2023-06-21 06:24:14] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev8.tar.gz]
+[2023-06-21 06:24:14] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
+[2023-06-21 06:24:14] INFO root fetch - main [MainThread]: End processing [moto]: success
+[2023-06-21 06:24:32] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b2.tar.gz]
+[2023-06-21 06:24:32] INFO root fetch - processPackages [esphome]: Remove: archive file [/home/abi/fetcher/tmp/esphome-2023.6.0b3.tar.gz]
+[2023-06-21 06:24:32] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-06-21 06:24:32] INFO root fetch - main [MainThread]: End processing [esphome]: success
+[2023-06-21 06:24:32] INFO root fetch - main [MainThread]: Store serial: [18585208]
