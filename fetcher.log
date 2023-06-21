@@ -15493,3 +15493,149 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 09:32:31] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.5.0.tar.gz]
 [2023-06-21 09:32:31] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
 [2023-06-21 09:32:31] INFO root fetch - main [MainThread]: Store serial: [18586678]
+[2023-06-21 09:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586678]
+[2023-06-21 09:37:41] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ctapipe
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ats-case
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Yousra
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaitalytics
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: audiomentations
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openoligo
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fiscalsim-us
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mapreader
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: docker-tags-getter
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: airstack
+[2023-06-21 09:37:41] INFO root fetch - processPackages [mapreader]: New version: [1.0.2] Old Version: [1.0.1.post0.dev9]
+[2023-06-21 09:37:41] INFO root fetch - processPackages [airstack]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 09:37:41] INFO root fetch - processPackages [mapreader]: Downloading https://files.pythonhosted.org/packages/b0/15/a66dee76bca7b4f1beb458b7ace53d3296097b4e23ca6433dc889ad541d9/mapreader-1.0.1.post0.dev9.tar.gz
+[2023-06-21 09:37:41] INFO root fetch - processPackages [airstack]: Downloading https://files.pythonhosted.org/packages/17/4a/91b32db81a8522b60a5006a35cdf9feef3c81bbe297fb2a5d2fbee8ded73/airstack-0.0.3.tar.gz
+[2023-06-21 09:37:41] INFO root fetch - processPackages [docker-tags-getter]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-21 09:37:41] INFO root fetch - processPackages [fiscalsim-us]: New version: [0.1.0] Old Version: [0.0.8]
+[2023-06-21 09:37:41] WARNING root fetch - processPackages [Yousra]: Skipping, unable to determine old version
+[2023-06-21 09:37:41] INFO root fetch - processPackages [Yousra]: Start processing: profiles-rudderstack
+[2023-06-21 09:37:41] INFO root fetch - processPackages [gaitalytics]: New version: [0.0.3b0] Old Version: [0.0.2b0]
+[2023-06-21 09:37:41] INFO root fetch - processPackages [openoligo]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 09:37:41] INFO root fetch - main [MainThread]: End processing [Yousra] error
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ctapipe]: New version: [0.9.1] Old Version: [0.8.0]
+[2023-06-21 09:37:41] INFO root fetch - processPackages [audiomentations]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-21 09:37:41] INFO root fetch - processPackages [ats-case]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-06-21 09:37:41] INFO root fetch - processPackages [airstack]: Downloading https://files.pythonhosted.org/packages/a2/ba/534f8872837ff8beacdc439c8e0abb81ea7969d9414d6226bb8e60d41107/airstack-0.0.4.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [profiles-rudderstack]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-21 09:37:42] INFO root fetch - processPackages [airstack]: executing diffoscope
+[2023-06-21 09:37:42] INFO root fetch - processPackages [airstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airstack-0.0.3.tar.gz tmp/airstack-0.0.4.tar.gz --markdown 20230621/a/airstack/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 09:37:42] INFO root fetch - processPackages [docker-tags-getter]: Downloading https://files.pythonhosted.org/packages/5a/ee/6dfac6f946644d0c8126802867cebb07d0a201e7cd11c601d7f3e4c44ae2/docker_tags_getter-0.3.3.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/f3/cc/544f66f3a24e23c4fe43579b53edbe90ef172444bb9be48c746ccc021b07/openoligo-0.1.0.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/c2/33/e839d6ffebdd8043b0e06804d22404488d4455f6f35153b91eadb55f2abc/fiscalsim-us-0.0.8.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/d7/a0/0e00845abd29e52417e55aa14c6fcfb18171fe3d8df15a5c3fce8c4f9c88/gaitalytics-0.0.2b0.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/f1/40/6b561dcfab4bd492bcca2bbce22a2cc6a228fcff1cd63e204d5ec2855a3f/ats_case-0.9.4.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [audiomentations]: Downloading https://files.pythonhosted.org/packages/d9/cd/284c5162941e00d82cde90381af5321e8c683b1b89aa3bb15a3b8103ab1c/audiomentations-0.8.0.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [ctapipe]: Downloading https://files.pythonhosted.org/packages/12/52/fdca6e2609ea0fede514bcdb5a11f6277382264ad9a681ba868680fadac1/ctapipe-0.8.0.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [profiles-rudderstack]: Downloading https://files.pythonhosted.org/packages/a3/7d/9d273fb2a7b2b337659c561aab42ba44f3403741065b2dca850f6cafaac6/profiles_rudderstack-0.6.0-py3-none-win_amd64.whl
+[2023-06-21 09:37:42] INFO root fetch - processPackages [mapreader]: Downloading https://files.pythonhosted.org/packages/0c/90/927b31ee66eb00128cc2c5784d28a5857a68f435355ae2f7156479bde6b5/mapreader-1.0.2.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [mapreader]: executing diffoscope
+[2023-06-21 09:37:42] INFO root fetch - processPackages [mapreader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapreader-1.0.1.post0.dev9.tar.gz tmp/mapreader-1.0.2.tar.gz --markdown 20230621/m/mapreader/1.0.1.post0.dev9-1.0.2/diff.md --exclude *.pyd
+[2023-06-21 09:37:42] INFO root fetch - processPackages [docker-tags-getter]: Downloading https://files.pythonhosted.org/packages/af/e2/978b886a08c4bf049fabfabe4fc259fabdfb4752a6d382c9d8177d4be1f7/docker_tags_getter-0.3.4.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/4a/ff/ff4773cb87c54d1e388a2b8447ac801f2517087b479e753bd9fd17ac31ac/ats_case-0.9.5.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [openoligo]: Downloading https://files.pythonhosted.org/packages/11/23/3d41deca535e2c2f07de45f3a7d660436625522657f4b19af46aa2c02b93/openoligo-0.1.1.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [docker-tags-getter]: executing diffoscope
+[2023-06-21 09:37:42] INFO root fetch - processPackages [docker-tags-getter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_tags_getter-0.3.3.tar.gz tmp/docker_tags_getter-0.3.4.tar.gz --markdown 20230621/d/docker-tags-getter/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-21 09:37:42] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/c3/ec/175af69636e468fd617c270c4a085d7ff022fd7feee8e5e1ccb78516354f/gaitalytics-0.0.3b0.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-21 09:37:42] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.4.tar.gz tmp/ats_case-0.9.5.tar.gz --markdown 20230621/a/ats-case/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-06-21 09:37:42] WARNING root fetch - processPackages [profiles-rudderstack]: Skipping package: exceeds size limit 23836360>=10485760
+[2023-06-21 09:37:42] INFO root fetch - processPackages [profiles-rudderstack]: Start processing: num7
+[2023-06-21 09:37:42] INFO root fetch - main [MainThread]: End processing [profiles-rudderstack] error
+[2023-06-21 09:37:42] INFO root fetch - processPackages [fiscalsim-us]: Downloading https://files.pythonhosted.org/packages/00/e5/a11538190c300afa6058d7414cc7b6041b8467d8a56071be8c826aa1a66b/fiscalsim-us-0.1.0.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [openoligo]: executing diffoscope
+[2023-06-21 09:37:42] INFO root fetch - processPackages [openoligo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openoligo-0.1.0.tar.gz tmp/openoligo-0.1.1.tar.gz --markdown 20230621/o/openoligo/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 09:37:42] INFO root fetch - processPackages [gaitalytics]: executing diffoscope
+[2023-06-21 09:37:42] INFO root fetch - processPackages [gaitalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitalytics-0.0.2b0.tar.gz tmp/gaitalytics-0.0.3b0.tar.gz --markdown 20230621/g/gaitalytics/0.0.2b0-0.0.3b0/diff.md --exclude *.pyd
+[2023-06-21 09:37:42] INFO root fetch - processPackages [num7]: New version: [1.0.29] Old Version: [1.0.28]
+[2023-06-21 09:37:42] INFO root fetch - processPackages [audiomentations]: Downloading https://files.pythonhosted.org/packages/78/22/7ce28f15171fd8d163b00eebf2b07a8469ca32ae72fd6c0f08e8e5cc791b/audiomentations-0.9.0.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [fiscalsim-us]: executing diffoscope
+[2023-06-21 09:37:42] INFO root fetch - processPackages [fiscalsim-us]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiscalsim-us-0.0.8.tar.gz tmp/fiscalsim-us-0.1.0.tar.gz --markdown 20230621/f/fiscalsim-us/0.0.8-0.1.0/diff.md --exclude *.pyd
+[2023-06-21 09:37:42] INFO root fetch - processPackages [num7]: Downloading https://files.pythonhosted.org/packages/d5/3f/5627890a1d25123246a4a0b44bfcba7928083af3951d793f1058a6a02403/num7-1.0.28.tar.gz
+[2023-06-21 09:37:42] INFO root fetch - processPackages [audiomentations]: executing diffoscope
+[2023-06-21 09:37:42] INFO root fetch - processPackages [audiomentations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audiomentations-0.8.0.tar.gz tmp/audiomentations-0.9.0.tar.gz --markdown 20230621/a/audiomentations/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 09:37:43] INFO root fetch - processPackages [ctapipe]: Downloading https://files.pythonhosted.org/packages/04/8c/09554f91c5de9d06950b469a382199c0a690474b62285f6c4a4ce12bb950/ctapipe-0.9.1.tar.gz
+[2023-06-21 09:37:43] INFO root fetch - processPackages [num7]: Downloading https://files.pythonhosted.org/packages/b6/9b/b35876daf2a8550bec5b6be8fb3ed8621d8bcb427f5b5169b48bddf3d218/num7-1.0.29.tar.gz
+[2023-06-21 09:37:43] INFO root fetch - processPackages [airstack]: Remove: archive file [/home/abi/fetcher/tmp/airstack-0.0.3.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [airstack]: Remove: archive file [/home/abi/fetcher/tmp/airstack-0.0.4.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [airstack]: Start processing: ory-client
+[2023-06-21 09:37:43] INFO root fetch - main [MainThread]: End processing [airstack]: success
+[2023-06-21 09:37:43] INFO root fetch - processPackages [ctapipe]: executing diffoscope
+[2023-06-21 09:37:43] INFO root fetch - processPackages [ctapipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctapipe-0.8.0.tar.gz tmp/ctapipe-0.9.1.tar.gz --markdown 20230621/c/ctapipe/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 09:37:43] INFO root fetch - processPackages [mapreader]: Remove: archive file [/home/abi/fetcher/tmp/mapreader-1.0.1.post0.dev9.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [mapreader]: Remove: archive file [/home/abi/fetcher/tmp/mapreader-1.0.2.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [mapreader]: Start processing: conllup
+[2023-06-21 09:37:43] INFO root fetch - main [MainThread]: End processing [mapreader]: success
+[2023-06-21 09:37:43] INFO root fetch - processPackages [num7]: executing diffoscope
+[2023-06-21 09:37:43] INFO root fetch - processPackages [num7]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/num7-1.0.28.tar.gz tmp/num7-1.0.29.tar.gz --markdown 20230621/n/num7/1.0.28-1.0.29/diff.md --exclude *.pyd
+[2023-06-21 09:37:43] INFO root fetch - processPackages [conllup]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [docker-tags-getter]: Remove: archive file [/home/abi/fetcher/tmp/docker_tags_getter-0.3.3.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [docker-tags-getter]: Remove: archive file [/home/abi/fetcher/tmp/docker_tags_getter-0.3.4.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [docker-tags-getter]: Start processing: damona
+[2023-06-21 09:37:43] INFO root fetch - main [MainThread]: End processing [docker-tags-getter]: success
+[2023-06-21 09:37:43] INFO root fetch - processPackages [ory-client]: New version: [1.1.7] Old Version: [1.1.5]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.0.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [openoligo]: Remove: archive file [/home/abi/fetcher/tmp/openoligo-0.1.1.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [openoligo]: Start processing: otpme
+[2023-06-21 09:37:43] INFO root fetch - main [MainThread]: End processing [openoligo]: success
+[2023-06-21 09:37:43] INFO root fetch - processPackages [conllup]: Downloading https://files.pythonhosted.org/packages/69/34/97e9be236225c9c0b3ce2c08f52492ebfa9791696d2ea199a34be4f49493/conllup-0.4.7.tar.gz
+[2023-06-21 09:37:43] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.4.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.5.tar.gz]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [ats-case]: Start processing: batch-mailchimp
+[2023-06-21 09:37:43] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-21 09:37:43] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [batch-mailchimp]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-21 09:37:43] INFO root fetch - processPackages [damona]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-21 09:37:43] INFO root fetch - processPackages [conllup]: Downloading https://files.pythonhosted.org/packages/60/ed/96e94d96816e183c91ff251ce52a1b40e53961673ab6c106e1f73f07fae5/conllup-0.4.8.tar.gz
+[2023-06-21 09:37:43] INFO root fetch - processPackages [batch-mailchimp]: Downloading https://files.pythonhosted.org/packages/db/ea/2684e660e2f0dedb55236e0a29d03863fbd049c8c2df877dc55932472db8/batch-mailchimp-1.0.1.tar.gz
+[2023-06-21 09:37:44] INFO root fetch - processPackages [conllup]: executing diffoscope
+[2023-06-21 09:37:44] INFO root fetch - processPackages [conllup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conllup-0.4.7.tar.gz tmp/conllup-0.4.8.tar.gz --markdown 20230621/c/conllup/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-21 09:37:44] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/44/8b/4799fb838d0092b7ac666a8dae770a02996267998f6731162949bce09317/ory-client-1.1.5.tar.gz
+[2023-06-21 09:37:44] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-21 09:37:44] INFO root fetch - processPackages [damona]: Downloading https://files.pythonhosted.org/packages/74/c1/7e180bf7870c0ab1a09a753eec3dab56a3ab1537d33dc20e4a3862834654/damona-0.8.3.tar.gz
+[2023-06-21 09:37:44] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-21 09:37:44] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230621/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-21 09:37:44] INFO root fetch - processPackages [batch-mailchimp]: Downloading https://files.pythonhosted.org/packages/e3/7c/f6daf11f78a11683a33784586e5040a19f689dd49f3b460e2cd3de05b574/batch-mailchimp-1.1.0.tar.gz
+[2023-06-21 09:37:44] INFO root fetch - processPackages [batch-mailchimp]: executing diffoscope
+[2023-06-21 09:37:44] INFO root fetch - processPackages [batch-mailchimp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batch-mailchimp-1.0.1.tar.gz tmp/batch-mailchimp-1.1.0.tar.gz --markdown 20230621/b/batch-mailchimp/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 09:37:44] INFO root fetch - processPackages [audiomentations]: Remove: archive file [/home/abi/fetcher/tmp/audiomentations-0.8.0.tar.gz]
+[2023-06-21 09:37:44] INFO root fetch - processPackages [audiomentations]: Remove: archive file [/home/abi/fetcher/tmp/audiomentations-0.9.0.tar.gz]
+[2023-06-21 09:37:44] INFO root fetch - main [MainThread]: End processing [audiomentations]: success
+[2023-06-21 09:37:44] INFO root fetch - processPackages [ory-client]: Downloading https://files.pythonhosted.org/packages/a5/c2/168ddaefc28da41c63d772b9db3c39f3033665541e1a4b4ecc510c5eb836/ory-client-1.1.7.tar.gz
+[2023-06-21 09:37:44] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.0.2b0.tar.gz]
+[2023-06-21 09:37:44] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.0.3b0.tar.gz]
+[2023-06-21 09:37:44] INFO root fetch - main [MainThread]: End processing [gaitalytics]: success
+[2023-06-21 09:37:44] INFO root fetch - processPackages [damona]: Downloading https://files.pythonhosted.org/packages/95/92/8f20d85d858e9cf92c5e0a113d38f0d8df6517cc55fbe811c54851fb20bd/damona-0.9.0.tar.gz
+[2023-06-21 09:37:44] INFO root fetch - processPackages [ory-client]: executing diffoscope
+[2023-06-21 09:37:44] INFO root fetch - processPackages [ory-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ory-client-1.1.5.tar.gz tmp/ory-client-1.1.7.tar.gz --markdown 20230621/o/ory-client/1.1.5-1.1.7/diff.md --exclude *.pyd
+[2023-06-21 09:37:44] INFO root fetch - processPackages [damona]: executing diffoscope
+[2023-06-21 09:37:44] INFO root fetch - processPackages [damona]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/damona-0.8.3.tar.gz tmp/damona-0.9.0.tar.gz --markdown 20230621/d/damona/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 09:37:44] INFO root fetch - processPackages [num7]: Remove: archive file [/home/abi/fetcher/tmp/num7-1.0.28.tar.gz]
+[2023-06-21 09:37:44] INFO root fetch - processPackages [num7]: Remove: archive file [/home/abi/fetcher/tmp/num7-1.0.29.tar.gz]
+[2023-06-21 09:37:44] INFO root fetch - main [MainThread]: End processing [num7]: success
+[2023-06-21 09:37:45] INFO root fetch - processPackages [conllup]: Remove: archive file [/home/abi/fetcher/tmp/conllup-0.4.7.tar.gz]
+[2023-06-21 09:37:45] INFO root fetch - processPackages [conllup]: Remove: archive file [/home/abi/fetcher/tmp/conllup-0.4.8.tar.gz]
+[2023-06-21 09:37:45] INFO root fetch - main [MainThread]: End processing [conllup]: success
+[2023-06-21 09:37:45] INFO root fetch - processPackages [batch-mailchimp]: Remove: archive file [/home/abi/fetcher/tmp/batch-mailchimp-1.0.1.tar.gz]
+[2023-06-21 09:37:45] INFO root fetch - processPackages [batch-mailchimp]: Remove: archive file [/home/abi/fetcher/tmp/batch-mailchimp-1.1.0.tar.gz]
+[2023-06-21 09:37:45] INFO root fetch - main [MainThread]: End processing [batch-mailchimp]: success
+[2023-06-21 09:37:47] INFO root fetch - processPackages [damona]: Remove: archive file [/home/abi/fetcher/tmp/damona-0.8.3.tar.gz]
+[2023-06-21 09:37:47] INFO root fetch - processPackages [damona]: Remove: archive file [/home/abi/fetcher/tmp/damona-0.9.0.tar.gz]
+[2023-06-21 09:37:47] INFO root fetch - main [MainThread]: End processing [damona]: success
+[2023-06-21 09:37:47] INFO root fetch - processPackages [ctapipe]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe-0.8.0.tar.gz]
+[2023-06-21 09:37:47] INFO root fetch - processPackages [ctapipe]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe-0.9.1.tar.gz]
+[2023-06-21 09:37:47] INFO root fetch - main [MainThread]: End processing [ctapipe]: success
+[2023-06-21 09:37:50] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-21 09:37:50] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-21 09:37:50] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-21 09:37:55] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.5.tar.gz]
+[2023-06-21 09:37:55] INFO root fetch - processPackages [ory-client]: Remove: archive file [/home/abi/fetcher/tmp/ory-client-1.1.7.tar.gz]
+[2023-06-21 09:37:55] INFO root fetch - main [MainThread]: End processing [ory-client]: success
+[2023-06-21 09:39:37] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.0.8.tar.gz]
+[2023-06-21 09:39:37] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.1.0.tar.gz]
+[2023-06-21 09:39:37] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
+[2023-06-21 09:39:37] INFO root fetch - main [MainThread]: Store serial: [18586747]
