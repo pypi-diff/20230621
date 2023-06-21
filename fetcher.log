@@ -17004,3 +17004,335 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 10:36:22] INFO root fetch - processPackages [pyprecice]: Remove: archive file [/home/abi/fetcher/tmp/pyprecice-3.0.0.0.dev0.tar.gz]
 [2023-06-21 10:36:22] INFO root fetch - main [MainThread]: End processing [pyprecice]: success
 [2023-06-21 10:36:22] INFO root fetch - main [MainThread]: Store serial: [18587406]
+[2023-06-21 10:46:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18587406]
+[2023-06-21 10:46:34] INFO root fetch - main [MainThread]: Found 37 changed packages
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: libretrofuzz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mezcla
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: steam-pysigma
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tigeropen
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-estimator-nightly
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easysurrogate
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: coconut-develop
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: amulet-map-editor
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: hagworm
+[2023-06-21 10:46:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hotsos
+[2023-06-21 10:46:34] INFO root fetch - processPackages [libretrofuzz]: New version: [3.2.8] Old Version: [3.2.7]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [steam-pysigma]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [mezcla]: New version: [1.3.8] Old Version: [1.3.7.post1]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [easysurrogate]: New version: [0.24.1] Old Version: [0.24]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tigeropen]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [hotsos]: New version: [1.1.14.post9] Old Version: [1.1.14.post8]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [hagworm]: New version: [5.5.8] Old Version: [5.5.7]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [amulet-map-editor]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tf-estimator-nightly]: New version: [2.9.0.dev2022033108] Old Version: [2.9.0.dev2022033008]
+[2023-06-21 10:46:34] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/51/be/d25d23db775dc5be46f871a3fddb188822c8cca5b0a163bc17eb0fa8e321/steam-pysigma-2023.6.8.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [easysurrogate]: Downloading https://files.pythonhosted.org/packages/b7/da/b0845008a932335dcb0d9fc2d4e9c31900beeb38e72a3a8703dc6cc1cfbb/easysurrogate-0.24.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [mezcla]: Downloading https://files.pythonhosted.org/packages/ff/c6/b0aa61aef1cfe5ca2a0b18e25205c32af1e0de388558da0e4c9309f40929/mezcla-1.3.7.post1.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/5b/c7/445dc2a677349d74942fa3aa30fac241c50e1e4c647e1dda37598705e442/libretrofuzz-3.2.7.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/e9/3f/a8b352f66ffbeea1ee4b0c24d1bd7a5a2a1b94b7f576d6ae5e0d43fbbf12/tigeropen-3.0.0.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/29/55/28f405b717be7ff19bad769415b5893ed136b66e4a39c255b19d95501b53/hagworm-5.5.7.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/de/2d/fdf0aaa2b1e07e6d91918c01be57d8f6a6e848e85ed670d75fe1d9b39cd5/hotsos-1.1.14.post8.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/31/a0/5e1b898e43043b32d95e8719e2eb127692fd8261edbdad4801876a46893f/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl
+[2023-06-21 10:46:34] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/22/fe3c93fbda35d1cdacc4caca6d416247cf754bced7899f75801286234efd/amulet-map-editor-0.9.5.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [easysurrogate]: Downloading https://files.pythonhosted.org/packages/e2/41/97f74b41db99374953160c729164c701eaa97f4e79d05f0182cc57d55673/easysurrogate-0.24.1.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [steam-pysigma]: Downloading https://files.pythonhosted.org/packages/15/a3/205116d570783e79477ce21f7157ff265e747d7ef0db0dd1397eaab5e5ec/steam-pysigma-2023.6.9.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [steam-pysigma]: executing diffoscope
+[2023-06-21 10:46:34] INFO root fetch - processPackages [steam-pysigma]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-pysigma-2023.6.8.tar.gz tmp/steam-pysigma-2023.6.9.tar.gz --markdown 20230621/s/steam-pysigma/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-21 10:46:34] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/00/20/b8ef159bbedb6f92e2bdd7665eac3a64757fff5bb7f8d1eb706e89401536/libretrofuzz-3.2.8.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [mezcla]: Downloading https://files.pythonhosted.org/packages/95/58/0a71624b5729594a20e267c1df13ffbb84ff4e7256bec9698459e41d7a3d/mezcla-1.3.8.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tf-estimator-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b6/fe4f7077ae036fd90bf9dfdc09b52cf611b857e7a26c3bc44a2e76c94af2/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl
+[2023-06-21 10:46:34] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/da/c9/7eacdd09b8fe987d35c33395e293035c63b16ded1000aadb2bc49c6f7882/hotsos-1.1.14.post9.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tigeropen]: Downloading https://files.pythonhosted.org/packages/d9/b1/e518383d14f8ef14780394c160b25031e2dbf92ebc61e0d2fd8cebc24d11/tigeropen-3.0.1.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [amulet-map-editor]: Downloading https://files.pythonhosted.org/packages/3f/6c/53a1a90d5583a066d8244e345ab522afff85e8fd5acd593d8195f9fcb7b7/amulet-map-editor-0.9.6.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [easysurrogate]: executing diffoscope
+[2023-06-21 10:46:34] INFO root fetch - processPackages [easysurrogate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easysurrogate-0.24.tar.gz tmp/easysurrogate-0.24.1.tar.gz --markdown 20230621/e/easysurrogate/0.24-0.24.1/diff.md --exclude *.pyd
+[2023-06-21 10:46:34] INFO root fetch - processPackages [hagworm]: Downloading https://files.pythonhosted.org/packages/e6/ec/6e3034e361e8552c67c851dc0ab19f1145b3bfb0a2a50928eddfdc98c4ab/hagworm-5.5.8.tar.gz
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tf-estimator-nightly]: executing diffoscope
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tf-estimator-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip --markdown 20230621/t/tf-estimator-nightly/2.9.0.dev2022033008-2.9.0.dev2022033108/diff.md --exclude *.pyd
+[2023-06-21 10:46:34] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-21 10:46:34] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-3.2.7.tar.gz tmp/libretrofuzz-3.2.8.tar.gz --markdown 20230621/l/libretrofuzz/3.2.7-3.2.8/diff.md --exclude *.pyd
+[2023-06-21 10:46:34] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-06-21 10:46:34] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230621/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tigeropen]: executing diffoscope
+[2023-06-21 10:46:34] INFO root fetch - processPackages [tigeropen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tigeropen-3.0.0.tar.gz tmp/tigeropen-3.0.1.tar.gz --markdown 20230621/t/tigeropen/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-21 10:46:34] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-06-21 10:46:34] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.1.14.post8.tar.gz tmp/hotsos-1.1.14.post9.tar.gz --markdown 20230621/h/hotsos/1.1.14.post8-1.1.14.post9/diff.md --exclude *.pyd
+[2023-06-21 10:46:34] INFO root fetch - processPackages [amulet-map-editor]: executing diffoscope
+[2023-06-21 10:46:34] INFO root fetch - processPackages [amulet-map-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amulet-map-editor-0.9.5.tar.gz tmp/amulet-map-editor-0.9.6.tar.gz --markdown 20230621/a/amulet-map-editor/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-21 10:46:35] INFO root fetch - processPackages [hagworm]: executing diffoscope
+[2023-06-21 10:46:35] INFO root fetch - processPackages [hagworm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hagworm-5.5.7.tar.gz tmp/hagworm-5.5.8.tar.gz --markdown 20230621/h/hagworm/5.5.7-5.5.8/diff.md --exclude *.pyd
+[2023-06-21 10:46:35] INFO root fetch - processPackages [mezcla]: executing diffoscope
+[2023-06-21 10:46:35] INFO root fetch - processPackages [mezcla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mezcla-1.3.7.post1.tar.gz tmp/mezcla-1.3.8.tar.gz --markdown 20230621/m/mezcla/1.3.7.post1-1.3.8/diff.md --exclude *.pyd
+[2023-06-21 10:46:37] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.2.7.tar.gz]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-3.2.8.tar.gz]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [libretrofuzz]: Start processing: jykj
+[2023-06-21 10:46:37] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-21 10:46:37] INFO root fetch - processPackages [steam-pysigma]: Remove: archive file [/home/abi/fetcher/tmp/steam-pysigma-2023.6.8.tar.gz]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [steam-pysigma]: Remove: archive file [/home/abi/fetcher/tmp/steam-pysigma-2023.6.9.tar.gz]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [steam-pysigma]: Start processing: sparrow-order-lib
+[2023-06-21 10:46:37] INFO root fetch - main [MainThread]: End processing [steam-pysigma]: success
+[2023-06-21 10:46:37] INFO root fetch - processPackages [jykj]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/0c/2b/049e8caebee0cece44c6e30c1ace74f6dcdca9c389a19016ed400a8b0ecd/jykj-0.0.4.tar.gz
+[2023-06-21 10:46:37] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033008-py2.py3-none-any.whl.zip]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [tf-estimator-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_estimator_nightly-2.9.0.dev2022033108-py2.py3-none-any.whl.zip]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [tf-estimator-nightly]: Start processing: BulkRenamerPy
+[2023-06-21 10:46:37] INFO root fetch - main [MainThread]: End processing [tf-estimator-nightly]: success
+[2023-06-21 10:46:37] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/55/f9/100cc56dcaa6988a3680efa3c6a9f822db3f1bd1313779ae50acc02f0f71/sparrow-order-lib-0.2.2.tar.gz
+[2023-06-21 10:46:37] INFO root fetch - processPackages [BulkRenamerPy]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [easysurrogate]: Remove: archive file [/home/abi/fetcher/tmp/easysurrogate-0.24.tar.gz]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [easysurrogate]: Remove: archive file [/home/abi/fetcher/tmp/easysurrogate-0.24.1.tar.gz]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [easysurrogate]: Start processing: hyko-sdk
+[2023-06-21 10:46:37] INFO root fetch - main [MainThread]: End processing [easysurrogate]: success
+[2023-06-21 10:46:37] INFO root fetch - processPackages [jykj]: Downloading https://files.pythonhosted.org/packages/b6/2d/e0e3ec2197cee944f46e3a04f497e91675c2c5ed201d011f0b728f0375e1/jykj-0.0.5.tar.gz
+[2023-06-21 10:46:37] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [jykj]: executing diffoscope
+[2023-06-21 10:46:37] INFO root fetch - processPackages [jykj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jykj-0.0.4.tar.gz tmp/jykj-0.0.5.tar.gz --markdown 20230621/j/jykj/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 10:46:37] INFO root fetch - processPackages [mezcla]: Remove: archive file [/home/abi/fetcher/tmp/mezcla-1.3.7.post1.tar.gz]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [mezcla]: Remove: archive file [/home/abi/fetcher/tmp/mezcla-1.3.8.tar.gz]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [mezcla]: Start processing: codecarbon
+[2023-06-21 10:46:37] INFO root fetch - main [MainThread]: End processing [mezcla]: success
+[2023-06-21 10:46:37] INFO root fetch - processPackages [BulkRenamerPy]: Downloading https://files.pythonhosted.org/packages/91/c2/60a5c5337cdadec730899fef1673f2959998aa440c2aa2bef6d65d13253f/BulkRenamerPy-0.1.4.tar.gz
+[2023-06-21 10:46:37] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/f5/9f/4ea5de1dc0a8a6f26690772a972b4c878d90d135019dba3f58b6fa73f428/sparrow-order-lib-0.2.3.tar.gz
+[2023-06-21 10:46:37] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/57/01/7379424de4c21415fc124675040999ada2ccc825e244c0c4b35484fd1d50/hyko_sdk-0.1.3.tar.gz
+[2023-06-21 10:46:37] INFO root fetch - processPackages [codecarbon]: New version: [2.2.4] Old Version: [2.2.3]
+[2023-06-21 10:46:37] INFO root fetch - processPackages [BulkRenamerPy]: Downloading https://files.pythonhosted.org/packages/76/e1/f1ec6a69bd399d015802fc9cf3c926ce221044d7be25af81e85d266d1efb/BulkRenamerPy-0.1.5.tar.gz
+[2023-06-21 10:46:38] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-06-21 10:46:38] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.2.2.tar.gz tmp/sparrow-order-lib-0.2.3.tar.gz --markdown 20230621/s/sparrow-order-lib/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-21 10:46:38] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/c5/2d/f83998583c02ae4c653801642f49bd90f29ece54ced4cfec6d576a937983/codecarbon-2.2.3.tar.gz
+[2023-06-21 10:46:38] INFO root fetch - processPackages [BulkRenamerPy]: executing diffoscope
+[2023-06-21 10:46:38] INFO root fetch - processPackages [BulkRenamerPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BulkRenamerPy-0.1.4.tar.gz tmp/BulkRenamerPy-0.1.5.tar.gz --markdown 20230621/B/BulkRenamerPy/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-21 10:46:38] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/0c/78/99dc796e64d4957fea1c6d8aa079fbdae897f136b034aea579064051ad3e/hyko_sdk-0.1.4.tar.gz
+[2023-06-21 10:46:38] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-21 10:46:38] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.3.tar.gz tmp/hyko_sdk-0.1.4.tar.gz --markdown 20230621/h/hyko-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 10:46:38] INFO root fetch - processPackages [codecarbon]: Downloading https://files.pythonhosted.org/packages/07/ef/cff0409a51ad1b19cf6f421684a14529bfdedd9a7935729e41f218fe4cf1/codecarbon-2.2.4.tar.gz
+[2023-06-21 10:46:38] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.5.7.tar.gz]
+[2023-06-21 10:46:38] INFO root fetch - processPackages [hagworm]: Remove: archive file [/home/abi/fetcher/tmp/hagworm-5.5.8.tar.gz]
+[2023-06-21 10:46:38] INFO root fetch - processPackages [hagworm]: Start processing: tff-nightly
+[2023-06-21 10:46:38] INFO root fetch - main [MainThread]: End processing [hagworm]: success
+[2023-06-21 10:46:38] INFO root fetch - processPackages [codecarbon]: executing diffoscope
+[2023-06-21 10:46:38] INFO root fetch - processPackages [codecarbon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codecarbon-2.2.3.tar.gz tmp/codecarbon-2.2.4.tar.gz --markdown 20230621/c/codecarbon/2.2.3-2.2.4/diff.md --exclude *.pyd
+[2023-06-21 10:46:38] INFO root fetch - processPackages [tff-nightly]: New version: [0.0.1.dev20230621] Old Version: [0.0.1.dev20230620]
+[2023-06-21 10:46:38] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.4.tar.gz]
+[2023-06-21 10:46:38] INFO root fetch - processPackages [jykj]: Remove: archive file [/home/abi/fetcher/tmp/jykj-0.0.5.tar.gz]
+[2023-06-21 10:46:38] INFO root fetch - processPackages [jykj]: Start processing: nonebot-plugin-heweather
+[2023-06-21 10:46:38] INFO root fetch - main [MainThread]: End processing [jykj]: success
+[2023-06-21 10:46:38] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/41/fd/96f89542bf581616b90c47d133780a7231cf1b6eac6ea2fa5f674c6e4808/tff_nightly-0.0.1.dev20230620-py2.py3-none-any.whl
+[2023-06-21 10:46:38] INFO root fetch - processPackages [nonebot-plugin-heweather]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [tff-nightly]: Downloading https://files.pythonhosted.org/packages/1c/b2/25eb841c4b2c65ad34d0e5ed3b59c2ec76ce362a8d6246af3a84efbe1293/tff_nightly-0.0.1.dev20230621-py2.py3-none-any.whl
+[2023-06-21 10:46:39] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/5a/81/81fe5b30a7243b671f2ce814233b6e8caf5b05ecb7eac5d545048f0a8a91/nonebot_plugin_heweather-0.6.7.tar.gz
+[2023-06-21 10:46:39] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.0.0.tar.gz]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [tigeropen]: Remove: archive file [/home/abi/fetcher/tmp/tigeropen-3.0.1.tar.gz]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [tigeropen]: Start processing: bl3d
+[2023-06-21 10:46:39] INFO root fetch - main [MainThread]: End processing [tigeropen]: success
+[2023-06-21 10:46:39] INFO root fetch - processPackages [bl3d]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [tff-nightly]: executing diffoscope
+[2023-06-21 10:46:39] INFO root fetch - processPackages [tff-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tff_nightly-0.0.1.dev20230620-py2.py3-none-any.whl.zip tmp/tff_nightly-0.0.1.dev20230621-py2.py3-none-any.whl.zip --markdown 20230621/t/tff-nightly/0.0.1.dev20230620-0.0.1.dev20230621/diff.md --exclude *.pyd
+[2023-06-21 10:46:39] INFO root fetch - processPackages [nonebot-plugin-heweather]: Downloading https://files.pythonhosted.org/packages/35/e3/552887f385bce0be7161acfeea7b4a2623d8a50587db36328d90ee01f293/nonebot_plugin_heweather-0.6.8.tar.gz
+[2023-06-21 10:46:39] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.3.tar.gz]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.4.tar.gz]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [hyko-sdk]: Start processing: lino-react
+[2023-06-21 10:46:39] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-21 10:46:39] INFO root fetch - processPackages [bl3d]: Downloading https://files.pythonhosted.org/packages/d1/79/58b521d28c47cdd119110ccdf1bc9ab2705e69f8a7e2c829f2431a64f6ae/bl3d-0.3.0-py3-none-any.whl
+[2023-06-21 10:46:39] INFO root fetch - processPackages [nonebot-plugin-heweather]: executing diffoscope
+[2023-06-21 10:46:39] INFO root fetch - processPackages [nonebot-plugin-heweather]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_heweather-0.6.7.tar.gz tmp/nonebot_plugin_heweather-0.6.8.tar.gz --markdown 20230621/n/nonebot-plugin-heweather/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-06-21 10:46:39] INFO root fetch - processPackages [lino-react]: New version: [23.6.2] Old Version: [23.6.1]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [BulkRenamerPy]: Remove: archive file [/home/abi/fetcher/tmp/BulkRenamerPy-0.1.4.tar.gz]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [BulkRenamerPy]: Remove: archive file [/home/abi/fetcher/tmp/BulkRenamerPy-0.1.5.tar.gz]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [BulkRenamerPy]: Start processing: tat-pulsar
+[2023-06-21 10:46:39] INFO root fetch - main [MainThread]: End processing [BulkRenamerPy]: success
+[2023-06-21 10:46:39] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.2.2.tar.gz]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.2.3.tar.gz]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [sparrow-order-lib]: Start processing: fastapi-magic-di
+[2023-06-21 10:46:39] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-06-21 10:46:39] INFO root fetch - processPackages [tat-pulsar]: New version: [0.4.2] Old Version: [0.4.0]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [fastapi-magic-di]: New version: [0.0.1a3] Old Version: [0.0.1a2]
+[2023-06-21 10:46:39] INFO root fetch - processPackages [bl3d]: Downloading https://files.pythonhosted.org/packages/81/ea/238e96e7e59eb5911fa798f60db9487a08375a310a7cd899f519769bbff5/bl3d-0.4.0.tar.gz
+[2023-06-21 10:46:39] INFO root fetch - processPackages [fastapi-magic-di]: Downloading https://files.pythonhosted.org/packages/9a/d2/00fd787ea2b3597c19ff5f0a3982b764f8b8922056bfc86d4c16463e01e3/fastapi_magic_di-0.0.1a2.tar.gz
+[2023-06-21 10:46:39] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/e1/be/8e884216e421a2654478146072eb0b26ceafc050cd615ab67bab5bb92e1b/lino_react-23.6.1.tar.gz
+[2023-06-21 10:46:39] INFO root fetch - processPackages [bl3d]: executing diffoscope
+[2023-06-21 10:46:39] INFO root fetch - processPackages [bl3d]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl3d-0.3.0-py3-none-any.whl.zip tmp/bl3d-0.4.0.tar.gz --markdown 20230621/b/bl3d/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-21 10:46:39] INFO root fetch - processPackages [tat-pulsar]: Downloading https://files.pythonhosted.org/packages/cf/ba/e3b2e06c57d64971916bf71781c94a40cd9d63c08926ff3f0e6fab666337/tat_pulsar-0.4.0-cp37-cp37m-macosx_10_9_x86_64.whl
+[2023-06-21 10:46:40] WARNING root fetch - processPackages [tat-pulsar]: Skipping package: exceeds size limit 69871430>=10485760
+[2023-06-21 10:46:40] INFO root fetch - processPackages [tat-pulsar]: Start processing: qwak-core
+[2023-06-21 10:46:40] INFO root fetch - main [MainThread]: End processing [tat-pulsar] error
+[2023-06-21 10:46:40] INFO root fetch - processPackages [lino-react]: Downloading https://files.pythonhosted.org/packages/54/00/8a7a14cd068ce4df9c21bc310cc1cf84d4e8d5be8594b448e5854785d37e/lino_react-23.6.2.tar.gz
+[2023-06-21 10:46:40] INFO root fetch - processPackages [fastapi-magic-di]: Downloading https://files.pythonhosted.org/packages/65/d3/2ae025beabbbe912d6783e9e8a1c09ad85a1bed8637247d60bda5f9f79b5/fastapi_magic_di-0.0.1a3.tar.gz
+[2023-06-21 10:46:40] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 10:46:40] INFO root fetch - processPackages [lino-react]: executing diffoscope
+[2023-06-21 10:46:40] INFO root fetch - processPackages [lino-react]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino_react-23.6.1.tar.gz tmp/lino_react-23.6.2.tar.gz --markdown 20230621/l/lino-react/23.6.1-23.6.2/diff.md --exclude *.pyd
+[2023-06-21 10:46:40] INFO root fetch - processPackages [fastapi-magic-di]: executing diffoscope
+[2023-06-21 10:46:40] INFO root fetch - processPackages [fastapi-magic-di]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_magic_di-0.0.1a2.tar.gz tmp/fastapi_magic_di-0.0.1a3.tar.gz --markdown 20230621/f/fastapi-magic-di/0.0.1a2-0.0.1a3/diff.md --exclude *.pyd
+[2023-06-21 10:46:40] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-21 10:46:40] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-21 10:46:41] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-21 10:46:41] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230621/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 10:46:41] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [coconut-develop]: Start processing: trulia-rapidapi
+[2023-06-21 10:46:41] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-06-21 10:46:41] INFO root fetch - processPackages [trulia-rapidapi]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [bl3d]: Remove: archive file [/home/abi/fetcher/tmp/bl3d-0.3.0-py3-none-any.whl.zip]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [bl3d]: Remove: archive file [/home/abi/fetcher/tmp/bl3d-0.4.0.tar.gz]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [bl3d]: Start processing: assisted-service-client
+[2023-06-21 10:46:41] INFO root fetch - main [MainThread]: End processing [bl3d]: success
+[2023-06-21 10:46:41] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-21 10:46:41] INFO root fetch - processPackages [nonebot-plugin-heweather]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_heweather-0.6.7.tar.gz]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [nonebot-plugin-heweather]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_heweather-0.6.8.tar.gz]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [nonebot-plugin-heweather]: Start processing: reytool
+[2023-06-21 10:46:41] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-heweather]: success
+[2023-06-21 10:46:41] INFO root fetch - processPackages [trulia-rapidapi]: Downloading https://files.pythonhosted.org/packages/5e/43/672cd628d2599d70ef181d34f50a3d07f638c87be3eb06a965d274467585/trulia_rapidapi-0.1.2.tar.gz
+[2023-06-21 10:46:41] INFO root fetch - processPackages [reytool]: New version: [0.99] Old Version: [0.98]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-21 10:46:41] INFO root fetch - processPackages [trulia-rapidapi]: Downloading https://files.pythonhosted.org/packages/a5/e2/f1e1f7d47416d4c724e87c02d294631d38f9265e2db6a9a47b442f6ca1bc/trulia_rapidapi-0.1.3.tar.gz
+[2023-06-21 10:46:41] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-21 10:46:41] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230621/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-21 10:46:41] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f7/1b/12dc89a309309c9361d59a38462b453a322b261239fade997e196d798838/reytool-0.98-py3-none-any.whl
+[2023-06-21 10:46:41] INFO root fetch - processPackages [fastapi-magic-di]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_magic_di-0.0.1a2.tar.gz]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [fastapi-magic-di]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_magic_di-0.0.1a3.tar.gz]
+[2023-06-21 10:46:41] INFO root fetch - processPackages [fastapi-magic-di]: Start processing: open-prime-rando
+[2023-06-21 10:46:41] INFO root fetch - main [MainThread]: End processing [fastapi-magic-di]: success
+[2023-06-21 10:46:41] INFO root fetch - processPackages [trulia-rapidapi]: executing diffoscope
+[2023-06-21 10:46:41] INFO root fetch - processPackages [trulia-rapidapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trulia_rapidapi-0.1.2.tar.gz tmp/trulia_rapidapi-0.1.3.tar.gz --markdown 20230621/t/trulia-rapidapi/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 10:46:41] INFO root fetch - processPackages [open-prime-rando]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-21 10:46:42] INFO root fetch - processPackages [reytool]: Downloading https://files.pythonhosted.org/packages/f3/55/5da881836b0a141d1b9cfbb9118f95b0a7873ba578976b4a1a7cf3718b49/reytool-0.99-py3-none-any.whl
+[2023-06-21 10:46:42] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/12/86/7799371f39447806a139026dc6dcd14d71f83e54c51f1442b6dedb7797ad/open-prime-rando-0.5.0.tar.gz
+[2023-06-21 10:46:42] INFO root fetch - processPackages [reytool]: executing diffoscope
+[2023-06-21 10:46:42] INFO root fetch - processPackages [reytool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reytool-0.98-py3-none-any.whl.zip tmp/reytool-0.99-py3-none-any.whl.zip --markdown 20230621/r/reytool/0.98-0.99/diff.md --exclude *.pyd
+[2023-06-21 10:46:42] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.2.3.tar.gz]
+[2023-06-21 10:46:42] INFO root fetch - processPackages [codecarbon]: Remove: archive file [/home/abi/fetcher/tmp/codecarbon-2.2.4.tar.gz]
+[2023-06-21 10:46:42] INFO root fetch - processPackages [codecarbon]: Start processing: steam-sdk
+[2023-06-21 10:46:42] INFO root fetch - main [MainThread]: End processing [codecarbon]: success
+[2023-06-21 10:46:42] INFO root fetch - processPackages [steam-sdk]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-21 10:46:42] INFO root fetch - processPackages [open-prime-rando]: Downloading https://files.pythonhosted.org/packages/dd/51/deac67f802245ba4f49c4c548be984fd8819202cf7c2ecc831db9cd86f25/open-prime-rando-0.6.0.tar.gz
+[2023-06-21 10:46:42] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/60/2c/3c21c0815edf029e79c95d2f5fccd2a2f589a21e648b6c3ea6a2a61d7c1e/steam-sdk-2023.6.8.tar.gz
+[2023-06-21 10:46:42] INFO root fetch - processPackages [open-prime-rando]: executing diffoscope
+[2023-06-21 10:46:42] INFO root fetch - processPackages [open-prime-rando]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-prime-rando-0.5.0.tar.gz tmp/open-prime-rando-0.6.0.tar.gz --markdown 20230621/o/open-prime-rando/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-21 10:46:42] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post8.tar.gz]
+[2023-06-21 10:46:42] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.1.14.post9.tar.gz]
+[2023-06-21 10:46:42] INFO root fetch - processPackages [hotsos]: Start processing: tlgateway
+[2023-06-21 10:46:42] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-06-21 10:46:42] INFO root fetch - processPackages [steam-sdk]: Downloading https://files.pythonhosted.org/packages/cf/10/2b634f09e25cfaaa5b5c4ea8889e69240ff6c0ad61d248fcbfd14e6aa988/steam-sdk-2023.6.9.tar.gz
+[2023-06-21 10:46:42] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 10:46:42] INFO root fetch - processPackages [steam-sdk]: executing diffoscope
+[2023-06-21 10:46:42] INFO root fetch - processPackages [steam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-sdk-2023.6.8.tar.gz tmp/steam-sdk-2023.6.9.tar.gz --markdown 20230621/s/steam-sdk/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-21 10:46:42] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-06-21 10:46:43] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230620-py2.py3-none-any.whl.zip]
+[2023-06-21 10:46:43] INFO root fetch - processPackages [tff-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tff_nightly-0.0.1.dev20230621-py2.py3-none-any.whl.zip]
+[2023-06-21 10:46:43] INFO root fetch - processPackages [tff-nightly]: Start processing: pywa
+[2023-06-21 10:46:43] INFO root fetch - main [MainThread]: End processing [tff-nightly]: success
+[2023-06-21 10:46:43] INFO root fetch - processPackages [pywa]: New version: [0.0.1rc2] Old Version: [0.0.1rc1]
+[2023-06-21 10:46:43] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-06-21 10:46:43] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/85/88/a516c61b31833be21117cf286ec4e850189624b7da917ff66ef81e49da58/pywa-0.0.1rc1.linux-x86_64.tar.gz
+[2023-06-21 10:46:43] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-06-21 10:46:43] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230621/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 10:46:43] INFO root fetch - processPackages [trulia-rapidapi]: Remove: archive file [/home/abi/fetcher/tmp/trulia_rapidapi-0.1.2.tar.gz]
+[2023-06-21 10:46:43] INFO root fetch - processPackages [trulia-rapidapi]: Remove: archive file [/home/abi/fetcher/tmp/trulia_rapidapi-0.1.3.tar.gz]
+[2023-06-21 10:46:43] INFO root fetch - processPackages [trulia-rapidapi]: Start processing: tfp-nightly
+[2023-06-21 10:46:43] INFO root fetch - main [MainThread]: End processing [trulia-rapidapi]: success
+[2023-06-21 10:46:43] INFO root fetch - processPackages [tfp-nightly]: New version: [0.9.0.dev20200114] Old Version: [0.9.0.dev20200113]
+[2023-06-21 10:46:43] INFO root fetch - processPackages [pywa]: Downloading https://files.pythonhosted.org/packages/b5/b3/65613cb280888a510ae353fdfea8471efe40f6c46574d3393e9627da72ce/pywa-0.0.1rc2.linux-x86_64.tar.gz
+[2023-06-21 10:46:43] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/be/16/ebf16b1094e104257af6265eee53833e4f737ef6d11426d959009fa9952a/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl
+[2023-06-21 10:46:43] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.98-py3-none-any.whl.zip]
+[2023-06-21 10:46:43] INFO root fetch - processPackages [reytool]: Remove: archive file [/home/abi/fetcher/tmp/reytool-0.99-py3-none-any.whl.zip]
+[2023-06-21 10:46:43] INFO root fetch - processPackages [reytool]: Start processing: pytlgateway
+[2023-06-21 10:46:43] INFO root fetch - main [MainThread]: End processing [reytool]: success
+[2023-06-21 10:46:43] INFO root fetch - processPackages [pywa]: executing diffoscope
+[2023-06-21 10:46:43] INFO root fetch - processPackages [pywa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywa-0.0.1rc1.linux-x86_64.tar.gz tmp/pywa-0.0.1rc2.linux-x86_64.tar.gz --markdown 20230621/p/pywa/0.0.1rc1-0.0.1rc2/diff.md --exclude *.pyd
+[2023-06-21 10:46:44] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 10:46:44] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-06-21 10:46:44] INFO root fetch - processPackages [tfp-nightly]: Downloading https://files.pythonhosted.org/packages/f1/98/c1f5a754a26ea1f08e3558803ffb67dd65482de4f6bfadc5415573cd3cb7/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl
+[2023-06-21 10:46:44] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-06-21 10:46:44] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-06-21 10:46:44] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230621/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 10:46:44] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-06-21 10:46:44] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-06-21 10:46:44] INFO root fetch - processPackages [tlgateway]: Start processing: proliantutils
+[2023-06-21 10:46:44] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-06-21 10:46:44] INFO root fetch - processPackages [proliantutils]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-06-21 10:46:44] INFO root fetch - processPackages [proliantutils]: Downloading https://files.pythonhosted.org/packages/e1/41/3f189f4dc06af18a1bab09c0e9d7f37978a06fe0bf34a7dc8eb61b636cf8/proliantutils-2.9.4.tar.gz
+[2023-06-21 10:46:45] INFO root fetch - processPackages [tfp-nightly]: executing diffoscope
+[2023-06-21 10:46:45] INFO root fetch - processPackages [tfp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip --markdown 20230621/t/tfp-nightly/0.9.0.dev20200113-0.9.0.dev20200114/diff.md --exclude *.pyd
+[2023-06-21 10:46:45] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc1.linux-x86_64.tar.gz]
+[2023-06-21 10:46:45] INFO root fetch - processPackages [pywa]: Remove: archive file [/home/abi/fetcher/tmp/pywa-0.0.1rc2.linux-x86_64.tar.gz]
+[2023-06-21 10:46:45] INFO root fetch - processPackages [pywa]: Start processing: ppafm
+[2023-06-21 10:46:45] INFO root fetch - main [MainThread]: End processing [pywa]: success
+[2023-06-21 10:46:45] INFO root fetch - processPackages [proliantutils]: Downloading https://files.pythonhosted.org/packages/97/b4/55c47fcb4b6de912e65d1ef95764f68a5d77b10f7b330926e50f10054da6/proliantutils-2.9.5.tar.gz
+[2023-06-21 10:46:45] INFO root fetch - processPackages [ppafm]: New version: [0.2.0a3] Old Version: [0.2.0a1]
+[2023-06-21 10:46:45] INFO root fetch - processPackages [proliantutils]: executing diffoscope
+[2023-06-21 10:46:45] INFO root fetch - processPackages [proliantutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proliantutils-2.9.4.tar.gz tmp/proliantutils-2.9.5.tar.gz --markdown 20230621/p/proliantutils/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-06-21 10:46:45] INFO root fetch - processPackages [ppafm]: Downloading https://files.pythonhosted.org/packages/c9/68/47a05d36a7ce8c1ccc41bbc974b832f0c18aac52fde8a468fcb953d03fac/ppafm-0.2.0a1.tar.gz
+[2023-06-21 10:46:45] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.8.tar.gz]
+[2023-06-21 10:46:45] INFO root fetch - processPackages [steam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/steam-sdk-2023.6.9.tar.gz]
+[2023-06-21 10:46:45] INFO root fetch - processPackages [steam-sdk]: Start processing: hyperglot
+[2023-06-21 10:46:45] INFO root fetch - main [MainThread]: End processing [steam-sdk]: success
+[2023-06-21 10:46:45] INFO root fetch - processPackages [hyperglot]: New version: [0.5.0] Old Version: [0.4.5]
+[2023-06-21 10:46:45] INFO root fetch - processPackages [hyperglot]: Downloading https://files.pythonhosted.org/packages/64/13/a74403322c46ece4b26c44f70b06bd8e2549e8f34a2d07921f47dcf7d757/hyperglot-0.4.5.tar.gz
+[2023-06-21 10:46:45] INFO root fetch - processPackages [hyperglot]: Downloading https://files.pythonhosted.org/packages/d2/64/40cdd6b1c69fe7209a58e1c584ca20768da9f3914f60448cd914f967d245/hyperglot-0.5.0.tar.gz
+[2023-06-21 10:46:45] INFO root fetch - processPackages [hyperglot]: executing diffoscope
+[2023-06-21 10:46:45] INFO root fetch - processPackages [hyperglot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperglot-0.4.5.tar.gz tmp/hyperglot-0.5.0.tar.gz --markdown 20230621/h/hyperglot/0.4.5-0.5.0/diff.md --exclude *.pyd
+[2023-06-21 10:46:45] INFO root fetch - processPackages [ppafm]: Downloading https://files.pythonhosted.org/packages/71/81/8c7765efd216a564dc0d1fd702f90eeb61b358c3aa10069e4764553580b2/ppafm-0.2.0a3.tar.gz
+[2023-06-21 10:46:46] INFO root fetch - processPackages [ppafm]: executing diffoscope
+[2023-06-21 10:46:46] INFO root fetch - processPackages [ppafm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppafm-0.2.0a1.tar.gz tmp/ppafm-0.2.0a3.tar.gz --markdown 20230621/p/ppafm/0.2.0a1-0.2.0a3/diff.md --exclude *.pyd
+[2023-06-21 10:46:46] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-21 10:46:46] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-21 10:46:46] INFO root fetch - processPackages [assisted-service-client]: Start processing: explorerApi
+[2023-06-21 10:46:46] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-21 10:46:46] INFO root fetch - processPackages [explorerApi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 10:46:46] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.8.tar.gz]
+[2023-06-21 10:46:46] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
+[2023-06-21 10:46:46] INFO root fetch - processPackages [pytlgateway]: Start processing: panos-upgrade-assurance
+[2023-06-21 10:46:46] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-06-21 10:46:46] INFO root fetch - processPackages [panos-upgrade-assurance]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-21 10:46:46] INFO root fetch - processPackages [explorerApi]: Downloading https://files.pythonhosted.org/packages/3d/43/631f55c0894e5eeda1f8976ca5a8c381aa6ccf8d3a27a785f0c58c84a95e/explorerApi-0.0.1.tar.gz
+[2023-06-21 10:46:46] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/e3/70/ec749fe1c2dc1ad4792697583dffef75d536881f7d8b513b2f4b9c619f0d/panos_upgrade_assurance-0.0.2.tar.gz
+[2023-06-21 10:46:46] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.5.0.tar.gz]
+[2023-06-21 10:46:46] INFO root fetch - processPackages [open-prime-rando]: Remove: archive file [/home/abi/fetcher/tmp/open-prime-rando-0.6.0.tar.gz]
+[2023-06-21 10:46:46] INFO root fetch - processPackages [open-prime-rando]: Start processing: nifpga-fast-fifo-recv
+[2023-06-21 10:46:46] INFO root fetch - main [MainThread]: End processing [open-prime-rando]: success
+[2023-06-21 10:46:47] INFO root fetch - processPackages [explorerApi]: Downloading https://files.pythonhosted.org/packages/28/51/83980537a5403af60adf5dd455dbb8fa27d432c5e260d18c3e3951ff45ac/explorerApi-0.0.2.tar.gz
+[2023-06-21 10:46:47] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 10:46:47] INFO root fetch - processPackages [explorerApi]: executing diffoscope
+[2023-06-21 10:46:47] INFO root fetch - processPackages [explorerApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/explorerApi-0.0.1.tar.gz tmp/explorerApi-0.0.2.tar.gz --markdown 20230621/e/explorerApi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 10:46:47] INFO root fetch - processPackages [panos-upgrade-assurance]: Downloading https://files.pythonhosted.org/packages/e7/84/22051d1bb8fc9dd77c22237a591ca85e0657b4ed87b13bc744ded00f9eb1/panos_upgrade_assurance-0.1.0.tar.gz
+[2023-06-21 10:46:47] INFO root fetch - processPackages [hyperglot]: Remove: archive file [/home/abi/fetcher/tmp/hyperglot-0.4.5.tar.gz]
+[2023-06-21 10:46:47] INFO root fetch - processPackages [hyperglot]: Remove: archive file [/home/abi/fetcher/tmp/hyperglot-0.5.0.tar.gz]
+[2023-06-21 10:46:47] INFO root fetch - main [MainThread]: End processing [hyperglot]: success
+[2023-06-21 10:46:47] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/d0/db/8b0800910898c371c7b58e87baf302bd8e22816515d202c3ed9909342654/nifpga_fast_fifo_recv-0.1.0-cp311-none-win_amd64.whl
+[2023-06-21 10:46:47] INFO root fetch - processPackages [panos-upgrade-assurance]: executing diffoscope
+[2023-06-21 10:46:47] INFO root fetch - processPackages [panos-upgrade-assurance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panos_upgrade_assurance-0.0.2.tar.gz tmp/panos_upgrade_assurance-0.1.0.tar.gz --markdown 20230621/p/panos-upgrade-assurance/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-21 10:46:47] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/40/61/bd094c59e33585bf5725c42d8d14338879070f072faeb1898f582a7167fd/nifpga_fast_fifo_recv-0.1.1.tar.gz
+[2023-06-21 10:46:47] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: executing diffoscope
+[2023-06-21 10:46:47] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifpga_fast_fifo_recv-0.1.0-cp311-none-win_amd64.whl.zip tmp/nifpga_fast_fifo_recv-0.1.1.tar.gz --markdown 20230621/n/nifpga-fast-fifo-recv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 10:46:47] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.5.tar.gz]
+[2023-06-21 10:46:47] INFO root fetch - processPackages [amulet-map-editor]: Remove: archive file [/home/abi/fetcher/tmp/amulet-map-editor-0.9.6.tar.gz]
+[2023-06-21 10:46:47] INFO root fetch - main [MainThread]: End processing [amulet-map-editor]: success
+[2023-06-21 10:46:48] INFO root fetch - processPackages [explorerApi]: Remove: archive file [/home/abi/fetcher/tmp/explorerApi-0.0.1.tar.gz]
+[2023-06-21 10:46:48] INFO root fetch - processPackages [explorerApi]: Remove: archive file [/home/abi/fetcher/tmp/explorerApi-0.0.2.tar.gz]
+[2023-06-21 10:46:48] INFO root fetch - main [MainThread]: End processing [explorerApi]: success
+[2023-06-21 10:46:48] INFO root fetch - processPackages [ppafm]: Remove: archive file [/home/abi/fetcher/tmp/ppafm-0.2.0a1.tar.gz]
+[2023-06-21 10:46:48] INFO root fetch - processPackages [ppafm]: Remove: archive file [/home/abi/fetcher/tmp/ppafm-0.2.0a3.tar.gz]
+[2023-06-21 10:46:48] INFO root fetch - main [MainThread]: End processing [ppafm]: success
+[2023-06-21 10:46:49] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-21 10:46:49] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-21 10:46:49] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-21 10:46:49] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.1.0-cp311-none-win_amd64.whl.zip]
+[2023-06-21 10:46:49] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.1.1.tar.gz]
+[2023-06-21 10:46:49] INFO root fetch - main [MainThread]: End processing [nifpga-fast-fifo-recv]: success
+[2023-06-21 10:46:49] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.0.2.tar.gz]
+[2023-06-21 10:46:49] INFO root fetch - processPackages [panos-upgrade-assurance]: Remove: archive file [/home/abi/fetcher/tmp/panos_upgrade_assurance-0.1.0.tar.gz]
+[2023-06-21 10:46:49] INFO root fetch - main [MainThread]: End processing [panos-upgrade-assurance]: success
+[2023-06-21 10:46:51] INFO root fetch - processPackages [proliantutils]: Remove: archive file [/home/abi/fetcher/tmp/proliantutils-2.9.4.tar.gz]
+[2023-06-21 10:46:51] INFO root fetch - processPackages [proliantutils]: Remove: archive file [/home/abi/fetcher/tmp/proliantutils-2.9.5.tar.gz]
+[2023-06-21 10:46:51] INFO root fetch - main [MainThread]: End processing [proliantutils]: success
+[2023-06-21 10:46:54] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.6.1.tar.gz]
+[2023-06-21 10:46:54] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.6.2.tar.gz]
+[2023-06-21 10:46:54] INFO root fetch - main [MainThread]: End processing [lino-react]: success
+[2023-06-21 10:46:58] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200113-py2.py3-none-any.whl.zip]
+[2023-06-21 10:46:58] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
+[2023-06-21 10:46:58] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
+[2023-06-21 10:46:58] INFO root fetch - main [MainThread]: Store serial: [18587513]
