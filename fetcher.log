@@ -9541,3 +9541,45 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 04:06:30] INFO root fetch - processPackages [arelle-release]: Remove: archive file [/home/abi/fetcher/tmp/arelle-release-2.9.0.tar.gz]
 [2023-06-21 04:06:30] INFO root fetch - main [MainThread]: End processing [arelle-release]: success
 [2023-06-21 04:06:30] INFO root fetch - main [MainThread]: Store serial: [18584227]
+[2023-06-21 04:11:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584227]
+[2023-06-21 04:11:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-21 04:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gsd
+[2023-06-21 04:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: contrasttransferfunction
+[2023-06-21 04:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: funboost
+[2023-06-21 04:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oloren
+[2023-06-21 04:11:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-al
+[2023-06-21 04:11:41] INFO root fetch - processPackages [gsd]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-21 04:11:41] INFO root fetch - processPackages [oloren]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 04:11:41] WARNING root fetch - processPackages [contrasttransferfunction]: Skipping, unable to determine old version
+[2023-06-21 04:11:41] INFO root fetch - processPackages [nonebot-plugin-al]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-21 04:11:41] INFO root fetch - main [MainThread]: End processing [contrasttransferfunction] error
+[2023-06-21 04:11:41] INFO root fetch - processPackages [funboost]: New version: [23.3] Old Version: [23.1]
+[2023-06-21 04:11:41] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/61/20/816789fc6657586cbab07583728d6936f6db95e453930c6ef6b42be0506f/nonebot_plugin_al-0.3.2.tar.gz
+[2023-06-21 04:11:41] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/59/da/1bc8226b0baf1054887178a52ebd0c87656d6b4b19e6d65b8da956c44786/funboost-23.1-py3-none-any.whl
+[2023-06-21 04:11:41] INFO root fetch - processPackages [gsd]: Downloading https://files.pythonhosted.org/packages/9f/c8/311c8188ab1df67d01e1ef51d07e59b466190e3860b4f81b61728ef52cdc/gsd-3.0.0.tar.gz
+[2023-06-21 04:11:41] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/a3/76/06db9dcd349a4094baa829da1112066fd4fe60d5748d1b0c8c0833367603/oloren-0.0.8.tar.gz
+[2023-06-21 04:11:41] INFO root fetch - processPackages [nonebot-plugin-al]: Downloading https://files.pythonhosted.org/packages/fc/dc/7c707779a8b5b382a0a6c5813f87a094512e5afa64d0cf6930732ed20619/nonebot_plugin_al-0.3.3.tar.gz
+[2023-06-21 04:11:41] INFO root fetch - processPackages [nonebot-plugin-al]: executing diffoscope
+[2023-06-21 04:11:41] INFO root fetch - processPackages [nonebot-plugin-al]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_al-0.3.2.tar.gz tmp/nonebot_plugin_al-0.3.3.tar.gz --markdown 20230621/n/nonebot-plugin-al/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-21 04:11:41] INFO root fetch - processPackages [funboost]: Downloading https://files.pythonhosted.org/packages/5e/72/863a4b4fa046770283fa20138f0312c8472462c624c4764de69071e5dc4d/funboost-23.3-py3-none-any.whl
+[2023-06-21 04:11:41] INFO root fetch - processPackages [gsd]: Downloading https://files.pythonhosted.org/packages/1f/aa/c9f1d8107fad358a33b066de2c47530240eccce3c4adf8d07db78676a32c/gsd-3.0.1.tar.gz
+[2023-06-21 04:11:42] INFO root fetch - processPackages [gsd]: executing diffoscope
+[2023-06-21 04:11:42] INFO root fetch - processPackages [gsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gsd-3.0.0.tar.gz tmp/gsd-3.0.1.tar.gz --markdown 20230621/g/gsd/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-21 04:11:42] INFO root fetch - processPackages [funboost]: executing diffoscope
+[2023-06-21 04:11:42] INFO root fetch - processPackages [funboost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funboost-23.1-py3-none-any.whl.zip tmp/funboost-23.3-py3-none-any.whl.zip --markdown 20230621/f/funboost/23.1-23.3/diff.md --exclude *.pyd
+[2023-06-21 04:11:42] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.2.tar.gz]
+[2023-06-21 04:11:42] INFO root fetch - processPackages [nonebot-plugin-al]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_al-0.3.3.tar.gz]
+[2023-06-21 04:11:42] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-al]: success
+[2023-06-21 04:11:43] INFO root fetch - processPackages [gsd]: Remove: archive file [/home/abi/fetcher/tmp/gsd-3.0.0.tar.gz]
+[2023-06-21 04:11:43] INFO root fetch - processPackages [gsd]: Remove: archive file [/home/abi/fetcher/tmp/gsd-3.0.1.tar.gz]
+[2023-06-21 04:11:43] INFO root fetch - main [MainThread]: End processing [gsd]: success
+[2023-06-21 04:11:44] INFO root fetch - processPackages [oloren]: Downloading https://files.pythonhosted.org/packages/8f/84/66581190d09357a5dd522267963c2d727e20650e6690064dc2efadd1c020/oloren-0.0.9.tar.gz
+[2023-06-21 04:11:45] INFO root fetch - processPackages [oloren]: executing diffoscope
+[2023-06-21 04:11:45] INFO root fetch - processPackages [oloren]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oloren-0.0.8.tar.gz tmp/oloren-0.0.9.tar.gz --markdown 20230621/o/oloren/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 04:11:45] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.1-py3-none-any.whl.zip]
+[2023-06-21 04:11:45] INFO root fetch - processPackages [funboost]: Remove: archive file [/home/abi/fetcher/tmp/funboost-23.3-py3-none-any.whl.zip]
+[2023-06-21 04:11:45] INFO root fetch - main [MainThread]: End processing [funboost]: success
+[2023-06-21 04:11:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.8.tar.gz]
+[2023-06-21 04:11:51] INFO root fetch - processPackages [oloren]: Remove: archive file [/home/abi/fetcher/tmp/oloren-0.0.9.tar.gz]
+[2023-06-21 04:11:51] INFO root fetch - main [MainThread]: End processing [oloren]: success
+[2023-06-21 04:11:51] INFO root fetch - main [MainThread]: Store serial: [18584255]
