@@ -12450,3 +12450,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 06:46:09] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
 [2023-06-21 06:46:09] INFO root fetch - main [MainThread]: End processing [JustScan]: success
 [2023-06-21 06:46:09] INFO root fetch - main [MainThread]: Store serial: [18585356]
+[2023-06-21 06:51:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585356]
+[2023-06-21 06:51:18] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: JustScan
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: machinable
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo9-addon-bi-sql-editor
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo10-addon-bi-sql-editor
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo11-addon-bi-sql-editor
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bantam
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: abl-quantconnect-stubs
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo13-addon-bi-sql-editor
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo12-addon-bi-sql-editor
+[2023-06-21 06:51:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addon-sql-export
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo10-addon-bi-sql-editor]: New version: [10.0.1.0.2.99.dev2] Old Version: [10.0.1.0.2.99.dev1]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo-addon-sql-export]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.7]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [JustScan]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [abl-quantconnect-stubs]: New version: [13987.4] Old Version: [13987.3]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo11-addon-bi-sql-editor]: New version: [11.0.1.0.0.99.dev7] Old Version: [11.0.1.0.0.99.dev6]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [machinable]: New version: [4.4.0] Old Version: [4.3.1]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo13-addon-bi-sql-editor]: New version: [13.0.1.0.2.dev9] Old Version: [13.0.1.0.2.dev8]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo12-addon-bi-sql-editor]: New version: [12.0.1.3.0.99.dev2] Old Version: [12.0.1.3.0.99.dev1]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo9-addon-bi-sql-editor]: New version: [9.0.1.1.0.99.dev4] Old Version: [9.0.1.1.0.99.dev3]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [bantam]: New version: [2.4.4] Old Version: [2.4.3]
+[2023-06-21 06:51:18] INFO root fetch - processPackages [abl-quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/66/44/a9073bd00718494271cbfef2a7c04d8e627ad65cdc5e412fa4c4f464c657/abl-quantconnect-stubs-13987.3.tar.gz
+[2023-06-21 06:51:18] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/a4/44/774cad908cb59fd53dba0dca3eaece85c83882028800804f522b6c6137a7/bantam-2.4.3.tar.gz
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo10-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/47/f4/db3b869bbbb7d9ee39780455267b92b5dac8a9e0b8f9b75371ee9c9083c2/odoo10_addon_bi_sql_editor-10.0.1.0.2.99.dev1-py2-none-any.whl
+[2023-06-21 06:51:18] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/d0/09/8c7595bf614b47a6fe6d38e0972f1be9001c6f2c1c821ce3c52ca848b198/JustScan-1.1.8.tar.gz
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/0d/42/427cb6912db4388d0ccf754f975a501d048e51e04faba46ae9ffaeae0e59/odoo_addon_sql_export-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo13-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/df/2f/197bc2c56c943afbc49f9835ee8615b4a28e268ebc29eba0ee455b8cf227/odoo13_addon_bi_sql_editor-13.0.1.0.2.dev8-py3-none-any.whl
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo12-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/f8/ce/3d50b9900f0ae4de595fb48820b94a5a73d163f6f8cd2d7c07bda47a594d/odoo12_addon_bi_sql_editor-12.0.1.3.0.99.dev1-py3-none-any.whl
+[2023-06-21 06:51:18] INFO root fetch - processPackages [machinable]: Downloading https://files.pythonhosted.org/packages/cf/6e/08637699811c2f364374ebaff69a0521df53ae43f1cea0991a5fefdbb9a6/machinable-4.3.1.tar.gz
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo11-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/eb/74/9ebc93b8018d95137c821293d1d597053c0def846bb0ca1bd1220c3bfbf2/odoo11_addon_bi_sql_editor-11.0.1.0.0.99.dev6-py2.py3-none-any.whl
+[2023-06-21 06:51:18] INFO root fetch - processPackages [odoo9-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/39/50/1e656f8f800d64484b5713df42c7084e28b2e7d1ffb56f886650a98574e5/odoo9_addon_bi_sql_editor-9.0.1.1.0.99.dev3-py2-none-any.whl
+[2023-06-21 06:51:18] INFO root fetch - processPackages [bantam]: Downloading https://files.pythonhosted.org/packages/47/6f/e5a717847010e574275c6a4c72dd813ca4d4fb2de8d1eb9958040b6b0d2c/bantam-2.4.4.tar.gz
+[2023-06-21 06:51:18] INFO root fetch - processPackages [abl-quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/ed/f8/a67fee607cc055ec85771793d2aacdf878f9df1ea94699d4ba65fa6693f7/abl-quantconnect-stubs-13987.4.tar.gz
+[2023-06-21 06:51:19] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/e2/a7/e8f7bbcc1965eb7bbd2d9dd70ddff01d907c27ce30cec5471f5859c35017/JustScan-1.1.9.tar.gz
+[2023-06-21 06:51:19] INFO root fetch - processPackages [machinable]: Downloading https://files.pythonhosted.org/packages/40/18/e92275c691d6cc7550799ca1672ea6706d05d6e6f9f10edb385ecc8fd003/machinable-4.4.0.tar.gz
+[2023-06-21 06:51:19] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.8.tar.gz tmp/JustScan-1.1.9.tar.gz --markdown 20230621/J/JustScan/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo10-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/66/fe/8131c97029b724e043520ce6ca1303460db7a071ff2b862f3b05e98737a4/odoo10_addon_bi_sql_editor-10.0.1.0.2.99.dev2-py2-none-any.whl
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo12-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/47/c9/e38971e465c70054c1270cb964ebb54eb57b9b69b68dbd329c8b55ee3beb/odoo12_addon_bi_sql_editor-12.0.1.3.0.99.dev2-py3-none-any.whl
+[2023-06-21 06:51:19] INFO root fetch - processPackages [bantam]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [bantam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bantam-2.4.3.tar.gz tmp/bantam-2.4.4.tar.gz --markdown 20230621/b/bantam/2.4.3-2.4.4/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [machinable]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [machinable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/machinable-4.3.1.tar.gz tmp/machinable-4.4.0.tar.gz --markdown 20230621/m/machinable/4.3.1-4.4.0/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/71/02/4a30c4d8081977ca0848bfaada85c9547ff14277fad6fa23bf344eb78d42/odoo_addon_sql_export-16.0.1.0.1-py3-none-any.whl
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo11-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/52/52/746b8c945c301bc81bd7b2681cfd8af855f8e18a6119729ebcc7fe5f48ed/odoo11_addon_bi_sql_editor-11.0.1.0.0.99.dev7-py2.py3-none-any.whl
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo-addon-sql-export]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo-addon-sql-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sql_export-16.0.1.0.0.7-py3-none-any.whl.zip tmp/odoo_addon_sql_export-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-sql-export/16.0.1.0.0.7-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo13-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/0f/df/5ebb4158d95fd2b6e5d92e8c3940ab024adc60202c409b8ebfee44a33afe/odoo13_addon_bi_sql_editor-13.0.1.0.2.dev9-py3-none-any.whl
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo12-addon-bi-sql-editor]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo12-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_bi_sql_editor-12.0.1.3.0.99.dev1-py3-none-any.whl.zip tmp/odoo12_addon_bi_sql_editor-12.0.1.3.0.99.dev2-py3-none-any.whl.zip --markdown 20230621/o/odoo12-addon-bi-sql-editor/12.0.1.3.0.99.dev1-12.0.1.3.0.99.dev2/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo10-addon-bi-sql-editor]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo10-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_bi_sql_editor-10.0.1.0.2.99.dev1-py2-none-any.whl.zip tmp/odoo10_addon_bi_sql_editor-10.0.1.0.2.99.dev2-py2-none-any.whl.zip --markdown 20230621/o/odoo10-addon-bi-sql-editor/10.0.1.0.2.99.dev1-10.0.1.0.2.99.dev2/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [abl-quantconnect-stubs]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [abl-quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abl-quantconnect-stubs-13987.3.tar.gz tmp/abl-quantconnect-stubs-13987.4.tar.gz --markdown 20230621/a/abl-quantconnect-stubs/13987.3-13987.4/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo11-addon-bi-sql-editor]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo11-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_bi_sql_editor-11.0.1.0.0.99.dev6-py2.py3-none-any.whl.zip tmp/odoo11_addon_bi_sql_editor-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip --markdown 20230621/o/odoo11-addon-bi-sql-editor/11.0.1.0.0.99.dev6-11.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo13-addon-bi-sql-editor]: executing diffoscope
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo13-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_bi_sql_editor-13.0.1.0.2.dev8-py3-none-any.whl.zip tmp/odoo13_addon_bi_sql_editor-13.0.1.0.2.dev9-py3-none-any.whl.zip --markdown 20230621/o/odoo13-addon-bi-sql-editor/13.0.1.0.2.dev8-13.0.1.0.2.dev9/diff.md --exclude *.pyd
+[2023-06-21 06:51:19] INFO root fetch - processPackages [odoo9-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/18/4e/df1ca51e2a951240a3ab7a73224663becefda68926b73d464361c8b95b16/odoo9_addon_bi_sql_editor-9.0.1.1.0.99.dev4-py2-none-any.whl
+[2023-06-21 06:51:20] INFO root fetch - processPackages [odoo9-addon-bi-sql-editor]: executing diffoscope
+[2023-06-21 06:51:20] INFO root fetch - processPackages [odoo9-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_bi_sql_editor-9.0.1.1.0.99.dev3-py2-none-any.whl.zip tmp/odoo9_addon_bi_sql_editor-9.0.1.1.0.99.dev4-py2-none-any.whl.zip --markdown 20230621/o/odoo9-addon-bi-sql-editor/9.0.1.1.0.99.dev3-9.0.1.1.0.99.dev4/diff.md --exclude *.pyd
+[2023-06-21 06:51:20] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.3.tar.gz]
+[2023-06-21 06:51:20] INFO root fetch - processPackages [bantam]: Remove: archive file [/home/abi/fetcher/tmp/bantam-2.4.4.tar.gz]
+[2023-06-21 06:51:20] INFO root fetch - processPackages [bantam]: Start processing: odoo14-addon-bi-sql-editor
+[2023-06-21 06:51:20] INFO root fetch - main [MainThread]: End processing [bantam]: success
+[2023-06-21 06:51:20] INFO root fetch - processPackages [odoo14-addon-bi-sql-editor]: New version: [14.0.1.0.5.dev3] Old Version: [14.0.1.0.5.dev2]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo14-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/3a/83/13c5d9cb857fde727f3766a766bfac686ea8fceb940673ec659d84b04538/odoo14_addon_bi_sql_editor-14.0.1.0.5.dev2-py3-none-any.whl
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo14-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/df/b4/eb772f912a3b13d240f38579aa75a5345a6a923dc9ee4928c958159ab91d/odoo14_addon_bi_sql_editor-14.0.1.0.5.dev3-py3-none-any.whl
+[2023-06-21 06:51:21] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.8.tar.gz]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.9.tar.gz]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [JustScan]: Start processing: odoo-addon-bi-sql-editor
+[2023-06-21 06:51:21] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-21 06:51:21] INFO root fetch - processPackages [machinable]: Remove: archive file [/home/abi/fetcher/tmp/machinable-4.3.1.tar.gz]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [machinable]: Remove: archive file [/home/abi/fetcher/tmp/machinable-4.4.0.tar.gz]
+[2023-06-21 06:51:21] INFO root fetch - main [MainThread]: End processing [machinable]: success
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: New version: [16.0.1.0.3] Old Version: [16.0.1.0.2.7]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sql_export-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sql_export-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-21 06:51:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-sql-export]: success
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo14-addon-bi-sql-editor]: executing diffoscope
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo14-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_bi_sql_editor-14.0.1.0.5.dev2-py3-none-any.whl.zip tmp/odoo14_addon_bi_sql_editor-14.0.1.0.5.dev3-py3-none-any.whl.zip --markdown 20230621/o/odoo14-addon-bi-sql-editor/14.0.1.0.5.dev2-14.0.1.0.5.dev3/diff.md --exclude *.pyd
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo12-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_bi_sql_editor-12.0.1.3.0.99.dev1-py3-none-any.whl.zip]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo12-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_bi_sql_editor-12.0.1.3.0.99.dev2-py3-none-any.whl.zip]
+[2023-06-21 06:51:21] INFO root fetch - main [MainThread]: End processing [odoo12-addon-bi-sql-editor]: success
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/4c/51/269f22998c22a1a7332e297f790e6662bdf3c5b54f7d8b694beb1b96a59c/odoo_addon_bi_sql_editor-16.0.1.0.2.7-py3-none-any.whl
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo10-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_bi_sql_editor-10.0.1.0.2.99.dev1-py2-none-any.whl.zip]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo10-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_bi_sql_editor-10.0.1.0.2.99.dev2-py2-none-any.whl.zip]
+[2023-06-21 06:51:21] INFO root fetch - main [MainThread]: End processing [odoo10-addon-bi-sql-editor]: success
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo13-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_bi_sql_editor-13.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo13-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_bi_sql_editor-13.0.1.0.2.dev9-py3-none-any.whl.zip]
+[2023-06-21 06:51:21] INFO root fetch - main [MainThread]: End processing [odoo13-addon-bi-sql-editor]: success
+[2023-06-21 06:51:21] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Downloading https://files.pythonhosted.org/packages/fb/d8/89feb86320d8d50116748818aa36c776da6b2f1889a1a2117d948f9c8a20/odoo_addon_bi_sql_editor-16.0.1.0.3-py3-none-any.whl
+[2023-06-21 06:51:22] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: executing diffoscope
+[2023-06-21 06:51:22] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_bi_sql_editor-16.0.1.0.2.7-py3-none-any.whl.zip tmp/odoo_addon_bi_sql_editor-16.0.1.0.3-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-bi-sql-editor/16.0.1.0.2.7-16.0.1.0.3/diff.md --exclude *.pyd
+[2023-06-21 06:51:22] INFO root fetch - processPackages [odoo9-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_bi_sql_editor-9.0.1.1.0.99.dev3-py2-none-any.whl.zip]
+[2023-06-21 06:51:22] INFO root fetch - processPackages [odoo9-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_bi_sql_editor-9.0.1.1.0.99.dev4-py2-none-any.whl.zip]
+[2023-06-21 06:51:22] INFO root fetch - main [MainThread]: End processing [odoo9-addon-bi-sql-editor]: success
+[2023-06-21 06:51:22] INFO root fetch - processPackages [odoo11-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_bi_sql_editor-11.0.1.0.0.99.dev6-py2.py3-none-any.whl.zip]
+[2023-06-21 06:51:22] INFO root fetch - processPackages [odoo11-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_bi_sql_editor-11.0.1.0.0.99.dev7-py2.py3-none-any.whl.zip]
+[2023-06-21 06:51:22] INFO root fetch - main [MainThread]: End processing [odoo11-addon-bi-sql-editor]: success
+[2023-06-21 06:51:23] INFO root fetch - processPackages [odoo14-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_bi_sql_editor-14.0.1.0.5.dev2-py3-none-any.whl.zip]
+[2023-06-21 06:51:23] INFO root fetch - processPackages [odoo14-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_bi_sql_editor-14.0.1.0.5.dev3-py3-none-any.whl.zip]
+[2023-06-21 06:51:23] INFO root fetch - main [MainThread]: End processing [odoo14-addon-bi-sql-editor]: success
+[2023-06-21 06:51:23] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bi_sql_editor-16.0.1.0.2.7-py3-none-any.whl.zip]
+[2023-06-21 06:51:23] INFO root fetch - processPackages [odoo-addon-bi-sql-editor]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_bi_sql_editor-16.0.1.0.3-py3-none-any.whl.zip]
+[2023-06-21 06:51:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-bi-sql-editor]: success
+[2023-06-21 06:51:26] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.3.tar.gz]
+[2023-06-21 06:51:26] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.4.tar.gz]
+[2023-06-21 06:51:26] INFO root fetch - main [MainThread]: End processing [abl-quantconnect-stubs]: success
+[2023-06-21 06:51:26] INFO root fetch - main [MainThread]: Store serial: [18585387]
