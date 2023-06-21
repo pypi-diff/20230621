@@ -22083,3 +22083,172 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 13:23:14] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
 [2023-06-21 13:23:14] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
 [2023-06-21 13:23:14] INFO root fetch - main [MainThread]: Store serial: [18589358]
+[2023-06-21 13:28:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18589358]
+[2023-06-21 13:28:29] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ta-bitwarden-cli
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: p-ttauto-crawler
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: frontegg
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bl-hector
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: genopyc
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pmx-biobb
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyppms
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yls
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: miejskiapi-PanSageYT
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-yls
+[2023-06-21 13:28:29] INFO root fetch - processPackages [ta-bitwarden-cli]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [pmx-biobb]: New version: [4.0.1] Old Version: [4.0.0]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [genopyc]: New version: [1.0.0] Old Version: [0.3.6]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [pyppms]: New version: [3.1.0a0] Old Version: [3.0.0]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [bl-hector]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [frontegg]: New version: [2.1.6] Old Version: [2.1.4]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [pytest-yls]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [yls]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-21 13:28:29] INFO root fetch - processPackages [pyppms]: Downloading https://files.pythonhosted.org/packages/f9/f9/c0eaa6fec97ea1abf639e9ce11ea1a55cfbcbabb0b66eb29adbd444524a7/pyppms-3.0.0.tar.gz
+[2023-06-21 13:28:29] ERROR root fetch - processPackages [miejskiapi-PanSageYT]: Unable to get metadata: No such project 'miejskiapi-PanSageYT'
+[2023-06-21 13:28:29] INFO root fetch - processPackages [miejskiapi-PanSageYT]: Start processing: checkov3
+[2023-06-21 13:28:29] INFO root fetch - main [MainThread]: End processing [miejskiapi-PanSageYT] error
+[2023-06-21 13:28:29] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/6f/47/57be58891e539ecdf76b55677b64cf23dacbd0c0e27021bf31ff13719da5/p-ttauto-crawler-0.1.7.tar.gz
+[2023-06-21 13:28:29] INFO root fetch - processPackages [checkov3]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-21 13:28:30] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/66/fd/2b44553f422dabc9d9a997a0bba9d4c26ee57ff005595f33eff02190b87e/genopyc-0.3.6-py3-none-any.whl
+[2023-06-21 13:28:30] INFO root fetch - processPackages [ta-bitwarden-cli]: Downloading https://files.pythonhosted.org/packages/05/1f/4b145794b5fb3da2e7f1936794c72511cd9a7a51e0bc32fc7e2ae766eeb2/ta_bitwarden_cli-0.8.2.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [frontegg]: Downloading https://files.pythonhosted.org/packages/47/d4/f0a4cc7964445506aa31fea59a861acbdf4b6a94706d929e3398f621894c/frontegg-2.1.4.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [yls]: Downloading https://files.pythonhosted.org/packages/b8/6c/b5bc2c86df8e181e0088afe96f7de6d3c1f6315c02f94a9112fbdb2a1281/yls-1.3.3.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/17/c2/0646042789f0c2f0de6d3ec1052a17e93d825b36bd4f97e287b944974f6a/bl_hector-0.1.2.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pytest-yls]: Downloading https://files.pythonhosted.org/packages/46/d9/c2d7c68707818ca55bbaa89eee4daccdd68ee53d44c166f17b10d2fbe4f2/pytest_yls-1.3.3.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pmx-biobb]: Downloading https://files.pythonhosted.org/packages/d3/ee/61a98e8a9a4a1d5ab8ea32a2712cc1dfb3d7326a8404fcbd3347b28fab4d/pmx_biobb-4.0.0.tar.gz
+[2023-06-21 13:28:30] WARNING root fetch - processPackages [ta-bitwarden-cli]: Skipping package: exceeds size limit 74392492>=10485760
+[2023-06-21 13:28:30] INFO root fetch - processPackages [ta-bitwarden-cli]: Start processing: torchserve-nightly
+[2023-06-21 13:28:30] INFO root fetch - main [MainThread]: End processing [ta-bitwarden-cli] error
+[2023-06-21 13:28:30] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pyppms]: Downloading https://files.pythonhosted.org/packages/13/3c/8cfb443ede8f888b92db0f3da0b7d27e47be60abf1a49e3f16484ca0412c/pyppms-3.1.0a0.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/7d/b6/806da47830165b4716bbcd5d55839455a81d72b7f59f4817af5adfbf5a13/checkov3-0.1.7.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/56/b6/048d65207c6147185cedfdfe7821bba7a9b4dcbe0872a2ea7bf026469542/torchserve_nightly-2023.6.8-py3-none-any.whl
+[2023-06-21 13:28:30] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/36/32/e936d1e906e2d4e77ddd42524ff58fca2bd23f003a87a4b0e149dcaf6c7d/genopyc-1.0.0-py3-none-any.whl
+[2023-06-21 13:28:30] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719695>=10485760
+[2023-06-21 13:28:30] INFO root fetch - processPackages [torchserve-nightly]: Start processing: torch-model-archiver-nightly
+[2023-06-21 13:28:30] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-21 13:28:30] INFO root fetch - processPackages [frontegg]: Downloading https://files.pythonhosted.org/packages/77/e2/d99fd10835f6513c2c0a062be7c4fffc2f2f3cba4ef33993e797bd94cc86/frontegg-2.1.6.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-21 13:28:30] INFO root fetch - processPackages [yls]: Downloading https://files.pythonhosted.org/packages/30/7e/47d0e6ad0b7017da5e9bed14f393f48c540dd76b624d9c9b71ea3ab52c29/yls-1.3.4.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pyppms]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pyppms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyppms-3.0.0.tar.gz tmp/pyppms-3.1.0a0.tar.gz --markdown 20230621/p/pyppms/3.0.0-3.1.0a0/diff.md --exclude *.pyd
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pytest-yls]: Downloading https://files.pythonhosted.org/packages/0c/a7/f50ee9e58ce0db85ddf738d18d626c33410c667069881b65eb9dd3912e86/pytest_yls-1.3.4.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [bl-hector]: Downloading https://files.pythonhosted.org/packages/15/88/a35001e28e6d67627d25599ad33eee8d2b5f866cdead3ad702662c7cd8db/bl_hector-0.2.0.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/2d/32/4e894d3be8e8e9434a6a981f3753ef5962d2361cf8b1882e7b00802b9794/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pmx-biobb]: Downloading https://files.pythonhosted.org/packages/b9/64/0a7b31944dfae299db2a1da0949f82c4843cbc8ee4abb2f2b3f716d38640/pmx_biobb-4.0.1.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.7.tar.gz tmp/p-ttauto-crawler-0.1.8.tar.gz --markdown 20230621/p/p-ttauto-crawler/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-21 13:28:30] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-0.3.6-py3-none-any.whl.zip tmp/genopyc-1.0.0-py3-none-any.whl.zip --markdown 20230621/g/genopyc/0.3.6-1.0.0/diff.md --exclude *.pyd
+[2023-06-21 13:28:30] INFO root fetch - processPackages [frontegg]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [frontegg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frontegg-2.1.4.tar.gz tmp/frontegg-2.1.6.tar.gz --markdown 20230621/f/frontegg/2.1.4-2.1.6/diff.md --exclude *.pyd
+[2023-06-21 13:28:30] INFO root fetch - processPackages [checkov3]: Downloading https://files.pythonhosted.org/packages/61/1e/4e033f962f90e316186c790b47156b97c7487d8b98697561c2787970cba6/checkov3-0.1.8.tar.gz
+[2023-06-21 13:28:30] INFO root fetch - processPackages [yls]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [yls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yls-1.3.3.tar.gz tmp/yls-1.3.4.tar.gz --markdown 20230621/y/yls/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-21 13:28:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f1/30/b2bda61c7beb66124a778454c53b13e6e3368a1964be094e7a260aafb8a7/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pytest-yls]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [pytest-yls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest_yls-1.3.3.tar.gz tmp/pytest_yls-1.3.4.tar.gz --markdown 20230621/p/pytest-yls/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-21 13:28:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230621/t/torch-model-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-21 13:28:30] INFO root fetch - processPackages [checkov3]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [checkov3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov3-0.1.7.tar.gz tmp/checkov3-0.1.8.tar.gz --markdown 20230621/c/checkov3/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-21 13:28:30] INFO root fetch - processPackages [bl-hector]: executing diffoscope
+[2023-06-21 13:28:30] INFO root fetch - processPackages [bl-hector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bl_hector-0.1.2.tar.gz tmp/bl_hector-0.2.0.tar.gz --markdown 20230621/b/bl-hector/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 13:28:31] INFO root fetch - processPackages [pmx-biobb]: executing diffoscope
+[2023-06-21 13:28:31] INFO root fetch - processPackages [pmx-biobb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmx_biobb-4.0.0.tar.gz tmp/pmx_biobb-4.0.1.tar.gz --markdown 20230621/p/pmx-biobb/4.0.0-4.0.1/diff.md --exclude *.pyd
+[2023-06-21 13:28:32] INFO root fetch - processPackages [pytest-yls]: Remove: archive file [/home/abi/fetcher/tmp/pytest_yls-1.3.3.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [pytest-yls]: Remove: archive file [/home/abi/fetcher/tmp/pytest_yls-1.3.4.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [pytest-yls]: Start processing: torch-workflow-archiver-nightly
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [pytest-yls]: success
+[2023-06-21 13:28:32] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-0.3.6-py3-none-any.whl.zip]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.0.0-py3-none-any.whl.zip]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [genopyc]: Start processing: pybeamline
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-06-21 13:28:32] WARNING root fetch - processPackages [pybeamline]: Skipping, unable to determine old version
+[2023-06-21 13:28:32] INFO root fetch - processPackages [pybeamline]: Start processing: yls-yara
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [pybeamline] error
+[2023-06-21 13:28:32] INFO root fetch - processPackages [yls-yara]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: dbt-copilot-tools
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-21 13:28:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [dbt-copilot-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/f5/2a/88193e82d25d79119cc3ada46f444a1b21b3f7e2c788642590d33eac95e9/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl
+[2023-06-21 13:28:32] INFO root fetch - processPackages [pyppms]: Remove: archive file [/home/abi/fetcher/tmp/pyppms-3.0.0.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [pyppms]: Remove: archive file [/home/abi/fetcher/tmp/pyppms-3.1.0a0.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [pyppms]: Start processing: processingtools
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [pyppms]: success
+[2023-06-21 13:28:32] INFO root fetch - processPackages [yls-yara]: Downloading https://files.pythonhosted.org/packages/63/e4/3c859f5a81a2e41c59a88bd5d24293eb4bf785fcbe6f62f15b6f49a03209/yls_yara-1.3.3.tar.gz
+[2023-06-21 13:28:32] INFO root fetch - processPackages [processingtools]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [dbt-copilot-tools]: Downloading https://files.pythonhosted.org/packages/43/e1/36e40d895b8d84397e366b5a2a8f7b07a4475223be66a3b6c927bcc7a9ee/dbt_copilot_tools-0.1.2.tar.gz
+[2023-06-21 13:28:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/5f/39/ae38721c2532ed03ae71497a6d5158695daf882cb31dff90ce342e46ef32/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl
+[2023-06-21 13:28:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-21 13:28:32] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip --markdown 20230621/t/torch-workflow-archiver-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-21 13:28:32] INFO root fetch - processPackages [processingtools]: Downloading https://files.pythonhosted.org/packages/e1/df/b24c35ba5f0bec75a0b1a9fd4da1858025c3a8dc0ca1e6abf75c43d69bef/processingtools-0.2.8.tar.gz
+[2023-06-21 13:28:32] INFO root fetch - processPackages [yls-yara]: Downloading https://files.pythonhosted.org/packages/a8/71/11e1ab356234bf18169f7f7946970a4f9f96fb19426089ced23f4f6d6618/yls_yara-1.3.4.tar.gz
+[2023-06-21 13:28:32] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.7.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [p-ttauto-crawler]: Start processing: dotml
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-21 13:28:32] WARNING root fetch - processPackages [dotml]: Skipping, unable to determine old version
+[2023-06-21 13:28:32] INFO root fetch - processPackages [dotml]: Start processing: featurelayers
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [dotml] error
+[2023-06-21 13:28:32] INFO root fetch - processPackages [featurelayers]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [frontegg]: Remove: archive file [/home/abi/fetcher/tmp/frontegg-2.1.4.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [frontegg]: Remove: archive file [/home/abi/fetcher/tmp/frontegg-2.1.6.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [frontegg]: Start processing: enfobench
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [frontegg]: success
+[2023-06-21 13:28:32] INFO root fetch - processPackages [dbt-copilot-tools]: Downloading https://files.pythonhosted.org/packages/d7/ae/af38366871f2437c63eba191708b0d981cfaa8dc47ce30a089a63c7028ba/dbt_copilot_tools-0.1.3.tar.gz
+[2023-06-21 13:28:32] WARNING root fetch - processPackages [enfobench]: Skipping, unable to determine old version
+[2023-06-21 13:28:32] INFO root fetch - processPackages [enfobench]: Start processing: p-ttauto-crawler
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [enfobench] error
+[2023-06-21 13:28:32] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [yls-yara]: executing diffoscope
+[2023-06-21 13:28:32] INFO root fetch - processPackages [yls-yara]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yls_yara-1.3.3.tar.gz tmp/yls_yara-1.3.4.tar.gz --markdown 20230621/y/yls-yara/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-21 13:28:32] INFO root fetch - processPackages [yls]: Remove: archive file [/home/abi/fetcher/tmp/yls-1.3.3.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - processPackages [yls]: Remove: archive file [/home/abi/fetcher/tmp/yls-1.3.4.tar.gz]
+[2023-06-21 13:28:32] INFO root fetch - main [MainThread]: End processing [yls]: success
+[2023-06-21 13:28:32] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-21 13:28:32] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/fc/d6/d92aeb1dbbba4c3678946cc764f1fa81ca9de1567266e55f1acfb2839078/featurelayers-1.0.0.tar.gz
+[2023-06-21 13:28:32] INFO root fetch - processPackages [dbt-copilot-tools]: executing diffoscope
+[2023-06-21 13:28:32] INFO root fetch - processPackages [dbt-copilot-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt_copilot_tools-0.1.2.tar.gz tmp/dbt_copilot_tools-0.1.3.tar.gz --markdown 20230621/d/dbt-copilot-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 13:28:32] INFO root fetch - processPackages [processingtools]: Downloading https://files.pythonhosted.org/packages/d4/f2/d0f2d8f7c3ee50f7aac0a94ec8c7d01e8098b8937608a9435926e031d34e/processingtools-0.2.9-py3-none-any.whl
+[2023-06-21 13:28:33] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-21 13:28:33] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/16/91/98f3c13a37bda97324ed1d5e97afecf6d4af22f3930e1b930fb89a735918/featurelayers-1.0.1.tar.gz
+[2023-06-21 13:28:33] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-21 13:28:33] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230621/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 13:28:33] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.1.2.tar.gz]
+[2023-06-21 13:28:33] INFO root fetch - processPackages [bl-hector]: Remove: archive file [/home/abi/fetcher/tmp/bl_hector-0.2.0.tar.gz]
+[2023-06-21 13:28:33] INFO root fetch - main [MainThread]: End processing [bl-hector]: success
+[2023-06-21 13:28:33] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-21 13:28:33] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.0.0.tar.gz tmp/featurelayers-1.0.1.tar.gz --markdown 20230621/f/featurelayers/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-21 13:28:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.8-py3-none-any.whl.zip]
+[2023-06-21 13:28:33] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.9-py3-none-any.whl.zip]
+[2023-06-21 13:28:33] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-21 13:28:33] INFO root fetch - processPackages [yls-yara]: Remove: archive file [/home/abi/fetcher/tmp/yls_yara-1.3.3.tar.gz]
+[2023-06-21 13:28:33] INFO root fetch - processPackages [yls-yara]: Remove: archive file [/home/abi/fetcher/tmp/yls_yara-1.3.4.tar.gz]
+[2023-06-21 13:28:33] INFO root fetch - main [MainThread]: End processing [yls-yara]: success
+[2023-06-21 13:28:34] INFO root fetch - processPackages [dbt-copilot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_tools-0.1.2.tar.gz]
+[2023-06-21 13:28:34] INFO root fetch - processPackages [dbt-copilot-tools]: Remove: archive file [/home/abi/fetcher/tmp/dbt_copilot_tools-0.1.3.tar.gz]
+[2023-06-21 13:28:34] INFO root fetch - main [MainThread]: End processing [dbt-copilot-tools]: success
+[2023-06-21 13:28:34] INFO root fetch - processPackages [processingtools]: executing diffoscope
+[2023-06-21 13:28:34] INFO root fetch - processPackages [processingtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processingtools-0.2.8.tar.gz tmp/processingtools-0.2.9-py3-none-any.whl.zip --markdown 20230621/p/processingtools/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 13:28:34] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-21 13:28:34] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-21 13:28:34] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-21 13:28:34] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.0.0.tar.gz]
+[2023-06-21 13:28:34] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.0.1.tar.gz]
+[2023-06-21 13:28:34] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-21 13:28:35] INFO root fetch - processPackages [processingtools]: Remove: archive file [/home/abi/fetcher/tmp/processingtools-0.2.8.tar.gz]
+[2023-06-21 13:28:35] INFO root fetch - processPackages [processingtools]: Remove: archive file [/home/abi/fetcher/tmp/processingtools-0.2.9-py3-none-any.whl.zip]
+[2023-06-21 13:28:35] INFO root fetch - main [MainThread]: End processing [processingtools]: success
+[2023-06-21 13:28:36] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.0.0.tar.gz]
+[2023-06-21 13:28:36] INFO root fetch - processPackages [pmx-biobb]: Remove: archive file [/home/abi/fetcher/tmp/pmx_biobb-4.0.1.tar.gz]
+[2023-06-21 13:28:36] INFO root fetch - main [MainThread]: End processing [pmx-biobb]: success
+[2023-06-21 13:29:11] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.7.tar.gz]
+[2023-06-21 13:29:11] INFO root fetch - processPackages [checkov3]: Remove: archive file [/home/abi/fetcher/tmp/checkov3-0.1.8.tar.gz]
+[2023-06-21 13:29:11] INFO root fetch - main [MainThread]: End processing [checkov3]: success
+[2023-06-21 13:29:11] INFO root fetch - main [MainThread]: Store serial: [18589437]
