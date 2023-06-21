@@ -21870,3 +21870,216 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 13:17:51] ERROR root fetch - processPackages [schwifty]: Timeout during execution of pkgdiff
 [2023-06-21 13:17:51] INFO root fetch - main [MainThread]: End processing [schwifty] error
 [2023-06-21 13:17:51] INFO root fetch - main [MainThread]: Store serial: [18589275]
+[2023-06-21 13:22:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18589275]
+[2023-06-21 13:23:01] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: applyx
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kcli
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: p-ttauto-crawler
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: osprofiler
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: kpops
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: medsenger-api
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kfish
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: oslo.config
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cognite-sdk
+[2023-06-21 13:23:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: binary-refinery
+[2023-06-21 13:23:01] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-21 13:23:01] INFO root fetch - processPackages [applyx]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-21 13:23:01] INFO root fetch - processPackages [medsenger-api]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 13:23:01] INFO root fetch - processPackages [kpops]: New version: [1.2.0] Old Version: [1.1.5]
+[2023-06-21 13:23:01] INFO root fetch - processPackages [osprofiler]: New version: [4.0.0] Old Version: [3.4.3]
+[2023-06-21 13:23:01] INFO root fetch - processPackages [oslo.config]: New version: [9.1.1] Old Version: [9.1.0]
+[2023-06-21 13:23:01] INFO root fetch - processPackages [binary-refinery]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-21 13:23:01] INFO root fetch - processPackages [cognite-sdk]: New version: [6.4.5] Old Version: [6.4.4]
+[2023-06-21 13:23:01] INFO root fetch - processPackages [kfish]: New version: [99.0.202306211117] Old Version: [99.0.202306210807]
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kcli]: New version: [99.0.202306211114] Old Version: [99.0.202306210805]
+[2023-06-21 13:23:02] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/33/59/029ee4ba9756cddf4aeaad06f831f6f3e26da14b31ae8be3c6585007485d/p-ttauto-crawler-0.1.6.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/1e/f6/0136af6ef3f3d3e66e7782f431b2418206d39b08050c9aba165a25f3e305/cognite_sdk-6.4.4.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/30/96/bf00ea1d25d2d488fbefc1ff443a118a6c42de1422b84c2c517bf582d16c/applyx-0.2.7-py3-none-any.whl
+[2023-06-21 13:23:02] INFO root fetch - processPackages [binary-refinery]: Downloading https://files.pythonhosted.org/packages/78/e7/f24f5f15d7ebee0b386c6c723bfad23fe1c68536032f72a004c714a54ccf/binary-refinery-0.6.8.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/10/9d/f7b13ad5e8383a001014af80b53c81b80a73fdea5ca4268b557a703efd93/medsenger_api-0.1.8.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [osprofiler]: Downloading https://files.pythonhosted.org/packages/da/81/b491c886e073a96852e61f7e9f2b846f0e39125894fe2f63c178ffc7e237/osprofiler-3.4.3.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [oslo.config]: Downloading https://files.pythonhosted.org/packages/ce/e3/ef9a432d8bf61f1077d3b5cf7ab68e0b9047a773208dce017004d2b9ccd4/oslo.config-9.1.0.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/72/94/4fe0493b1553c0e502174373f666f5e9f753ce092205aa872a26c3c778e4/kfish-99.0.202306210807-py3-none-any.whl
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/eb/c8/27d5356868721b6a064f3cd1a67a25d3e45979f8fc406a5137f7f59dfb75/kpops-1.1.5.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/93/2e/3d9afdadaf84d58b4954c1dcfda1d24d780dad60e4ff3e42053163e4a465/kcli-99.0.202306210805-py3-none-any.whl
+[2023-06-21 13:23:02] INFO root fetch - processPackages [applyx]: Downloading https://files.pythonhosted.org/packages/55/82/e3be3f202f0a3163a1550c0b5b78be1aea8301a9ac6459c4ad6c5d2f7499/applyx-0.2.9-py3-none-any.whl
+[2023-06-21 13:23:02] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/6f/47/57be58891e539ecdf76b55677b64cf23dacbd0c0e27021bf31ff13719da5/p-ttauto-crawler-0.1.7.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [oslo.config]: Downloading https://files.pythonhosted.org/packages/c2/f1/9012e248ca4a53d64aa2db2a9aad1c38861ec77237a149a521d00cf95c0a/oslo.config-9.1.1.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/11/c9/77453c8b95d3eb632a8f5467e996f131a82017d608bacc0ec65b580b0266/kfish-99.0.202306211117-py3-none-any.whl
+[2023-06-21 13:23:02] INFO root fetch - processPackages [binary-refinery]: Downloading https://files.pythonhosted.org/packages/00/6d/f287f684167e762f94c880a85639f229f8be47af59175e8062209b17059e/binary-refinery-0.6.9.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kpops]: Downloading https://files.pythonhosted.org/packages/bf/a1/5bc9655e3f9805cfa291d40e95914e3c62c3779f80c659830983efece5c5/kpops-1.2.0.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [medsenger-api]: Downloading https://files.pythonhosted.org/packages/e9/26/e1fbb78bfd4a0de98e7c9b2573d47a63aa0aa5bcf1942047b2e443591ac7/medsenger_api-0.1.9.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [applyx]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [applyx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/applyx-0.2.7-py3-none-any.whl.zip tmp/applyx-0.2.9-py3-none-any.whl.zip --markdown 20230621/a/applyx/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [osprofiler]: Downloading https://files.pythonhosted.org/packages/cf/f3/10d60cc84efc07b0aa96fa40701024f02d37d1b5608de7ff073a4dc08ac8/osprofiler-4.0.0.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [cognite-sdk]: Downloading https://files.pythonhosted.org/packages/41/42/69e8eeef42355da0e31013fe0ed298ade33ac6a4a6e98aeea65c1981c342/cognite_sdk-6.4.5.tar.gz
+[2023-06-21 13:23:02] INFO root fetch - processPackages [oslo.config]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [oslo.config]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.config-9.1.0.tar.gz tmp/oslo.config-9.1.1.tar.gz --markdown 20230621/o/oslo.config/9.1.0-9.1.1/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.6.tar.gz tmp/p-ttauto-crawler-0.1.7.tar.gz --markdown 20230621/p/p-ttauto-crawler/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/d7/11/ac4368e622c36e95ef6dfc54638fedbdc001d475d2c597b703c52990b3b5/kcli-99.0.202306211114-py3-none-any.whl
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306210807-py3-none-any.whl.zip tmp/kfish-99.0.202306211117-py3-none-any.whl.zip --markdown 20230621/k/kfish/99.0.202306210807-99.0.202306211117/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kpops]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kpops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kpops-1.1.5.tar.gz tmp/kpops-1.2.0.tar.gz --markdown 20230621/k/kpops/1.1.5-1.2.0/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [binary-refinery]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [binary-refinery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/binary-refinery-0.6.8.tar.gz tmp/binary-refinery-0.6.9.tar.gz --markdown 20230621/b/binary-refinery/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [medsenger-api]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [medsenger-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/medsenger_api-0.1.8.tar.gz tmp/medsenger_api-0.1.9.tar.gz --markdown 20230621/m/medsenger-api/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [cognite-sdk]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [cognite-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_sdk-6.4.4.tar.gz tmp/cognite_sdk-6.4.5.tar.gz --markdown 20230621/c/cognite-sdk/6.4.4-6.4.5/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306210805-py3-none-any.whl.zip tmp/kcli-99.0.202306211114-py3-none-any.whl.zip --markdown 20230621/k/kcli/99.0.202306210805-99.0.202306211114/diff.md --exclude *.pyd
+[2023-06-21 13:23:02] INFO root fetch - processPackages [osprofiler]: executing diffoscope
+[2023-06-21 13:23:02] INFO root fetch - processPackages [osprofiler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/osprofiler-3.4.3.tar.gz tmp/osprofiler-4.0.0.tar.gz --markdown 20230621/o/osprofiler/3.4.3-4.0.0/diff.md --exclude *.pyd
+[2023-06-21 13:23:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306210807-py3-none-any.whl.zip]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306211117-py3-none-any.whl.zip]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [kfish]: Start processing: akshare
+[2023-06-21 13:23:04] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-21 13:23:04] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.6.tar.gz]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.7.tar.gz]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [p-ttauto-crawler]: Start processing: pull-request-codecommit
+[2023-06-21 13:23:04] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-21 13:23:04] INFO root fetch - processPackages [pull-request-codecommit]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [medsenger-api]: Remove: archive file [/home/abi/fetcher/tmp/medsenger_api-0.1.8.tar.gz]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [medsenger-api]: Remove: archive file [/home/abi/fetcher/tmp/medsenger_api-0.1.9.tar.gz]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [medsenger-api]: Start processing: mujoco-dev
+[2023-06-21 13:23:04] INFO root fetch - main [MainThread]: End processing [medsenger-api]: success
+[2023-06-21 13:23:04] INFO root fetch - processPackages [mujoco-dev]: New version: [2.3.6.dev542209911] Old Version: [2.3.6.dev542013022]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-21 13:23:04] INFO root fetch - processPackages [pull-request-codecommit]: Downloading https://files.pythonhosted.org/packages/09/97/c4c2c027349b562695db16e2ce9efa9d55a5a902b39824a69903c9f709b5/pull-request-codecommit-0.5.1.tar.gz
+[2023-06-21 13:23:04] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/ae/33/9d26bd52f488ec547435d1be2e5b6f1ccbf461e3fd6fdbab4945ce388690/mujoco_dev-2.3.6.dev542013022-cp39-cp39-win_amd64.whl
+[2023-06-21 13:23:04] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.7-py3-none-any.whl.zip]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [applyx]: Remove: archive file [/home/abi/fetcher/tmp/applyx-0.2.9-py3-none-any.whl.zip]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [applyx]: Start processing: NeoBase
+[2023-06-21 13:23:04] INFO root fetch - main [MainThread]: End processing [applyx]: success
+[2023-06-21 13:23:04] INFO root fetch - processPackages [NeoBase]: New version: [0.9] Old Version: [0.8]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [oslo.config]: Remove: archive file [/home/abi/fetcher/tmp/oslo.config-9.1.0.tar.gz]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [oslo.config]: Remove: archive file [/home/abi/fetcher/tmp/oslo.config-9.1.1.tar.gz]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [oslo.config]: Start processing: reuse
+[2023-06-21 13:23:04] INFO root fetch - main [MainThread]: End processing [oslo.config]: success
+[2023-06-21 13:23:04] INFO root fetch - processPackages [reuse]: New version: [2.0.0] Old Version: [1.1.2]
+[2023-06-21 13:23:04] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/b4/53/4b4f01141b8169f2bc36cbab336187c93b3d7c513e01de94771feafd459d/NeoBase-0.8.tar.gz
+[2023-06-21 13:23:04] INFO root fetch - processPackages [pull-request-codecommit]: Downloading https://files.pythonhosted.org/packages/ab/2e/d3c8657be71e0f2a6580673e5aa4e290a8d8a1973233b61d047a3db983d7/pull_request_codecommit-0.5.2.tar.gz
+[2023-06-21 13:23:05] INFO root fetch - processPackages [reuse]: Downloading https://files.pythonhosted.org/packages/38/79/0f9c7166daa711e9e2015cb76789e8628c794ed1d8a43ea805e5d929a1ba/reuse-1.1.2.tar.gz
+[2023-06-21 13:23:05] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-21 13:23:05] INFO root fetch - processPackages [pull-request-codecommit]: executing diffoscope
+[2023-06-21 13:23:05] INFO root fetch - processPackages [pull-request-codecommit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pull-request-codecommit-0.5.1.tar.gz tmp/pull_request_codecommit-0.5.2.tar.gz --markdown 20230621/p/pull-request-codecommit/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-21 13:23:05] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-21 13:23:05] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230621/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-21 13:23:05] INFO root fetch - processPackages [reuse]: Downloading https://files.pythonhosted.org/packages/b9/28/c6d1b521b4c886e2ca9abd8b90afd5b79c14754d4a8e85243f1852e0880f/reuse-2.0.0.tar.gz
+[2023-06-21 13:23:05] INFO root fetch - processPackages [mujoco-dev]: Downloading https://files.pythonhosted.org/packages/ed/63/ad3289f0578cffbbbc33daa776bbc534c042d6ddd1c240a1edce23a1cdfd/mujoco_dev-2.3.6.dev542209911-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 13:23:05] INFO root fetch - processPackages [reuse]: executing diffoscope
+[2023-06-21 13:23:05] INFO root fetch - processPackages [reuse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reuse-1.1.2.tar.gz tmp/reuse-2.0.0.tar.gz --markdown 20230621/r/reuse/1.1.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-21 13:23:05] INFO root fetch - processPackages [NeoBase]: Downloading https://files.pythonhosted.org/packages/1c/f1/8a7eff769f23a3a8cfc58c10f83fd688a54ca4051adf2fc99487632e3c4b/NeoBase-0.9.tar.gz
+[2023-06-21 13:23:06] INFO root fetch - processPackages [mujoco-dev]: executing diffoscope
+[2023-06-21 13:23:06] INFO root fetch - processPackages [mujoco-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mujoco_dev-2.3.6.dev542013022-cp39-cp39-win_amd64.whl.zip tmp/mujoco_dev-2.3.6.dev542209911-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230621/m/mujoco-dev/2.3.6.dev542013022-2.3.6.dev542209911/diff.md --exclude *.pyd
+[2023-06-21 13:23:06] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-1.1.5.tar.gz]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [kpops]: Remove: archive file [/home/abi/fetcher/tmp/kpops-1.2.0.tar.gz]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [kpops]: Start processing: oslo.utils
+[2023-06-21 13:23:06] INFO root fetch - main [MainThread]: End processing [kpops]: success
+[2023-06-21 13:23:06] INFO root fetch - processPackages [oslo.utils]: New version: [6.1.0] Old Version: [6.0.2]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [oslo.utils]: Downloading https://files.pythonhosted.org/packages/77/49/59ce8b4a91b82aa18153730471e0967e4642acc17cdb3bbe2aded2b5ddd3/oslo.utils-6.0.2.tar.gz
+[2023-06-21 13:23:06] INFO root fetch - processPackages [pull-request-codecommit]: Remove: archive file [/home/abi/fetcher/tmp/pull-request-codecommit-0.5.1.tar.gz]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [pull-request-codecommit]: Remove: archive file [/home/abi/fetcher/tmp/pull_request_codecommit-0.5.2.tar.gz]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [pull-request-codecommit]: Start processing: tb-nightly
+[2023-06-21 13:23:06] INFO root fetch - main [MainThread]: End processing [pull-request-codecommit]: success
+[2023-06-21 13:23:06] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-06-21 13:23:06] INFO root fetch - processPackages [oslo.utils]: Downloading https://files.pythonhosted.org/packages/f7/49/7f6790af38e9ce1a1418dd74c7d07492d711384269b1cecc69bef136b033/oslo.utils-6.1.0.tar.gz
+[2023-06-21 13:23:06] INFO root fetch - processPackages [osprofiler]: Remove: archive file [/home/abi/fetcher/tmp/osprofiler-3.4.3.tar.gz]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [osprofiler]: Remove: archive file [/home/abi/fetcher/tmp/osprofiler-4.0.0.tar.gz]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [osprofiler]: Start processing: shortloop-python
+[2023-06-21 13:23:06] INFO root fetch - main [MainThread]: End processing [osprofiler]: success
+[2023-06-21 13:23:06] INFO root fetch - processPackages [shortloop-python]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 13:23:06] INFO root fetch - processPackages [NeoBase]: executing diffoscope
+[2023-06-21 13:23:06] INFO root fetch - processPackages [NeoBase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NeoBase-0.8.tar.gz tmp/NeoBase-0.9.tar.gz --markdown 20230621/N/NeoBase/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-21 13:23:06] INFO root fetch - processPackages [oslo.utils]: executing diffoscope
+[2023-06-21 13:23:06] INFO root fetch - processPackages [oslo.utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.utils-6.0.2.tar.gz tmp/oslo.utils-6.1.0.tar.gz --markdown 20230621/o/oslo.utils/6.0.2-6.1.0/diff.md --exclude *.pyd
+[2023-06-21 13:23:06] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/7a/19/888cf6f211c918febe96943b09f0f6cf447492831fd59627b5886be81e1d/shortloop_python-0.1.3.tar.gz
+[2023-06-21 13:23:07] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-06-21 13:23:07] INFO root fetch - processPackages [shortloop-python]: Downloading https://files.pythonhosted.org/packages/b5/ec/392c7b4c0e0e2b75f95a3a4703d2fb0d88e76d578e8bc3dcf277aa56501c/shortloop_python-0.1.4.tar.gz
+[2023-06-21 13:23:07] INFO root fetch - processPackages [binary-refinery]: Remove: archive file [/home/abi/fetcher/tmp/binary-refinery-0.6.8.tar.gz]
+[2023-06-21 13:23:07] INFO root fetch - processPackages [binary-refinery]: Remove: archive file [/home/abi/fetcher/tmp/binary-refinery-0.6.9.tar.gz]
+[2023-06-21 13:23:07] INFO root fetch - processPackages [binary-refinery]: Start processing: nrf24-op
+[2023-06-21 13:23:07] INFO root fetch - main [MainThread]: End processing [binary-refinery]: success
+[2023-06-21 13:23:07] WARNING root fetch - processPackages [nrf24-op]: Skipping, unable to determine old version
+[2023-06-21 13:23:07] INFO root fetch - processPackages [nrf24-op]: Start processing: semgrep
+[2023-06-21 13:23:07] INFO root fetch - main [MainThread]: End processing [nrf24-op] error
+[2023-06-21 13:23:07] INFO root fetch - processPackages [semgrep]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-21 13:23:07] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-06-21 13:23:07] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230621/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-06-21 13:23:07] INFO root fetch - processPackages [shortloop-python]: executing diffoscope
+[2023-06-21 13:23:07] INFO root fetch - processPackages [shortloop-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortloop_python-0.1.3.tar.gz tmp/shortloop_python-0.1.4.tar.gz --markdown 20230621/s/shortloop-python/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 13:23:07] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.4.4.tar.gz]
+[2023-06-21 13:23:07] INFO root fetch - processPackages [cognite-sdk]: Remove: archive file [/home/abi/fetcher/tmp/cognite_sdk-6.4.5.tar.gz]
+[2023-06-21 13:23:07] INFO root fetch - processPackages [cognite-sdk]: Start processing: p-ttauto-crawler
+[2023-06-21 13:23:07] INFO root fetch - main [MainThread]: End processing [cognite-sdk]: success
+[2023-06-21 13:23:07] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-21 13:23:07] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/e8/01/19545ddda759ac5490b06824be79cc94ba77a16ead929171b99d0a246bad/semgrep-1.8.0.tar.gz
+[2023-06-21 13:23:07] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/33/59/029ee4ba9756cddf4aeaad06f831f6f3e26da14b31ae8be3c6585007485d/p-ttauto-crawler-0.1.6.tar.gz
+[2023-06-21 13:23:07] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/6f/47/57be58891e539ecdf76b55677b64cf23dacbd0c0e27021bf31ff13719da5/p-ttauto-crawler-0.1.7.tar.gz
+[2023-06-21 13:23:07] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-21 13:23:07] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.6.tar.gz tmp/p-ttauto-crawler-0.1.7.tar.gz --markdown 20230621/p/p-ttauto-crawler/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-21 13:23:07] INFO root fetch - processPackages [semgrep]: Downloading https://files.pythonhosted.org/packages/36/c5/83e730de608ee46ac2e59871a9d5b8ab500f02215a25a3ed6300916d796f/semgrep-1.9.0.tar.gz
+[2023-06-21 13:23:08] INFO root fetch - processPackages [semgrep]: executing diffoscope
+[2023-06-21 13:23:08] INFO root fetch - processPackages [semgrep]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semgrep-1.8.0.tar.gz tmp/semgrep-1.9.0.tar.gz --markdown 20230621/s/semgrep/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-21 13:23:08] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.3.tar.gz]
+[2023-06-21 13:23:08] INFO root fetch - processPackages [shortloop-python]: Remove: archive file [/home/abi/fetcher/tmp/shortloop_python-0.1.4.tar.gz]
+[2023-06-21 13:23:08] INFO root fetch - processPackages [shortloop-python]: Start processing: quetz-server
+[2023-06-21 13:23:08] INFO root fetch - main [MainThread]: End processing [shortloop-python]: success
+[2023-06-21 13:23:08] INFO root fetch - processPackages [quetz-server]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-21 13:23:08] INFO root fetch - processPackages [oslo.utils]: Remove: archive file [/home/abi/fetcher/tmp/oslo.utils-6.0.2.tar.gz]
+[2023-06-21 13:23:08] INFO root fetch - processPackages [oslo.utils]: Remove: archive file [/home/abi/fetcher/tmp/oslo.utils-6.1.0.tar.gz]
+[2023-06-21 13:23:08] INFO root fetch - processPackages [oslo.utils]: Start processing: trubrics
+[2023-06-21 13:23:08] INFO root fetch - main [MainThread]: End processing [oslo.utils]: success
+[2023-06-21 13:23:08] INFO root fetch - processPackages [trubrics]: New version: [1.4.0] Old Version: [1.3.7]
+[2023-06-21 13:23:08] INFO root fetch - processPackages [quetz-server]: Downloading https://files.pythonhosted.org/packages/2c/a1/5c961d9f15d31dd734fbc140b413912bc8652901d069cd0447c5ffd0a9ed/quetz-server-0.9.1.tar.gz
+[2023-06-21 13:23:09] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/a4/c3/3ce0ec5cd63e07507f0fd89b012e7f48b7bd63ab2f7a0eb28c4434800153/trubrics-1.3.7.tar.gz
+[2023-06-21 13:23:09] INFO root fetch - processPackages [quetz-server]: Downloading https://files.pythonhosted.org/packages/da/ca/ea93772b069a422a5d0ab3bc75b1cf254a71c3525c5c70f59836ffa98252/quetz-server-0.9.2.tar.gz
+[2023-06-21 13:23:09] INFO root fetch - processPackages [quetz-server]: executing diffoscope
+[2023-06-21 13:23:09] INFO root fetch - processPackages [quetz-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quetz-server-0.9.1.tar.gz tmp/quetz-server-0.9.2.tar.gz --markdown 20230621/q/quetz-server/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-21 13:23:09] INFO root fetch - processPackages [trubrics]: Downloading https://files.pythonhosted.org/packages/e8/68/368c35b15cde4f66cb2cbf693c67fb0857ef44fe0ef4f6d8dfa04618662e/trubrics-1.4.0.tar.gz
+[2023-06-21 13:23:09] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.6.tar.gz]
+[2023-06-21 13:23:09] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.7.tar.gz]
+[2023-06-21 13:23:09] INFO root fetch - processPackages [p-ttauto-crawler]: Start processing: s2and
+[2023-06-21 13:23:09] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-21 13:23:09] INFO root fetch - processPackages [s2and]: New version: [0.17] Old Version: [0.16]
+[2023-06-21 13:23:09] INFO root fetch - processPackages [s2and]: Downloading https://files.pythonhosted.org/packages/eb/48/b2bc925f2d031274a6a37fec14b8e545a1d1e21da4ae69f6aa47cf2bedc9/s2and-0.16.tar.gz
+[2023-06-21 13:23:09] INFO root fetch - processPackages [trubrics]: executing diffoscope
+[2023-06-21 13:23:09] INFO root fetch - processPackages [trubrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trubrics-1.3.7.tar.gz tmp/trubrics-1.4.0.tar.gz --markdown 20230621/t/trubrics/1.3.7-1.4.0/diff.md --exclude *.pyd
+[2023-06-21 13:23:10] INFO root fetch - processPackages [s2and]: Downloading https://files.pythonhosted.org/packages/8d/7b/b89138eb4f0ace07eb8d0688cd4dd0753b4a603117473be2ded348c04355/s2and-0.17.tar.gz
+[2023-06-21 13:23:10] INFO root fetch - processPackages [s2and]: executing diffoscope
+[2023-06-21 13:23:10] INFO root fetch - processPackages [s2and]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2and-0.16.tar.gz tmp/s2and-0.17.tar.gz --markdown 20230621/s/s2and/0.16-0.17/diff.md --exclude *.pyd
+[2023-06-21 13:23:10] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev542013022-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 13:23:10] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.6.dev542209911-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-21 13:23:10] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
+[2023-06-21 13:23:11] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-21 13:23:11] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-21 13:23:11] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-21 13:23:11] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-06-21 13:23:11] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-06-21 13:23:11] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-06-21 13:23:11] INFO root fetch - processPackages [s2and]: Remove: archive file [/home/abi/fetcher/tmp/s2and-0.16.tar.gz]
+[2023-06-21 13:23:11] INFO root fetch - processPackages [s2and]: Remove: archive file [/home/abi/fetcher/tmp/s2and-0.17.tar.gz]
+[2023-06-21 13:23:11] INFO root fetch - main [MainThread]: End processing [s2and]: success
+[2023-06-21 13:23:11] INFO root fetch - processPackages [trubrics]: Remove: archive file [/home/abi/fetcher/tmp/trubrics-1.3.7.tar.gz]
+[2023-06-21 13:23:11] INFO root fetch - processPackages [trubrics]: Remove: archive file [/home/abi/fetcher/tmp/trubrics-1.4.0.tar.gz]
+[2023-06-21 13:23:11] INFO root fetch - main [MainThread]: End processing [trubrics]: success
+[2023-06-21 13:23:12] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.8.0.tar.gz]
+[2023-06-21 13:23:12] INFO root fetch - processPackages [semgrep]: Remove: archive file [/home/abi/fetcher/tmp/semgrep-1.9.0.tar.gz]
+[2023-06-21 13:23:12] INFO root fetch - main [MainThread]: End processing [semgrep]: success
+[2023-06-21 13:23:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306210805-py3-none-any.whl.zip]
+[2023-06-21 13:23:12] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306211114-py3-none-any.whl.zip]
+[2023-06-21 13:23:12] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-21 13:23:13] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-1.1.2.tar.gz]
+[2023-06-21 13:23:13] INFO root fetch - processPackages [reuse]: Remove: archive file [/home/abi/fetcher/tmp/reuse-2.0.0.tar.gz]
+[2023-06-21 13:23:13] INFO root fetch - main [MainThread]: End processing [reuse]: success
+[2023-06-21 13:23:14] INFO root fetch - processPackages [quetz-server]: Remove: archive file [/home/abi/fetcher/tmp/quetz-server-0.9.1.tar.gz]
+[2023-06-21 13:23:14] INFO root fetch - processPackages [quetz-server]: Remove: archive file [/home/abi/fetcher/tmp/quetz-server-0.9.2.tar.gz]
+[2023-06-21 13:23:14] INFO root fetch - main [MainThread]: End processing [quetz-server]: success
+[2023-06-21 13:23:14] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.8.tar.gz]
+[2023-06-21 13:23:14] INFO root fetch - processPackages [NeoBase]: Remove: archive file [/home/abi/fetcher/tmp/NeoBase-0.9.tar.gz]
+[2023-06-21 13:23:14] INFO root fetch - main [MainThread]: End processing [NeoBase]: success
+[2023-06-21 13:23:14] INFO root fetch - main [MainThread]: Store serial: [18589358]
