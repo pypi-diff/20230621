@@ -15762,3 +15762,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 09:45:20] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
 [2023-06-21 09:45:20] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
 [2023-06-21 09:45:20] INFO root fetch - main [MainThread]: Store serial: [18586797]
+[2023-06-21 09:50:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586797]
+[2023-06-21 09:50:32] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vcorelib
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mediagrains
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: UComp
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nucliadb-contributor-assets
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dnd5epy
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dreamcoat
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydtk
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cluster-tools
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sparrow-order-lib
+[2023-06-21 09:50:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: webknossos
+[2023-06-21 09:50:32] INFO root fetch - processPackages [vcorelib]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-21 09:50:32] INFO root fetch - processPackages [sparrow-order-lib]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-21 09:50:32] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/89/4e/067a468312e159636bca6c962c97c384666226207058c1a9780495652a53/vcorelib-1.6.8.tar.gz
+[2023-06-21 09:50:32] INFO root fetch - processPackages [UComp]: New version: [1.0.72] Old Version: [1.0.71]
+[2023-06-21 09:50:32] INFO root fetch - processPackages [pydtk]: New version: [0.3.0] Old Version: [0.2.9]
+[2023-06-21 09:50:32] WARNING root fetch - processPackages [dnd5epy]: Skipping, unable to determine old version
+[2023-06-21 09:50:32] INFO root fetch - processPackages [dnd5epy]: Start processing: adaptivelcbin
+[2023-06-21 09:50:32] INFO root fetch - main [MainThread]: End processing [dnd5epy] error
+[2023-06-21 09:50:32] INFO root fetch - processPackages [dreamcoat]: New version: [0.1] Old Version: [0.0.1]
+[2023-06-21 09:50:32] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/8b/89/071a3d3325b79e38ef5b3a441abbecd881077f9ec1d1b38c3cd17d5eb807/sparrow-order-lib-0.2.0.tar.gz
+[2023-06-21 09:50:32] INFO root fetch - processPackages [mediagrains]: New version: [3.5.2] Old Version: [3.5.1]
+[2023-06-21 09:50:32] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post852] Old Version: [1.0.0.post851]
+[2023-06-21 09:50:32] INFO root fetch - processPackages [cluster-tools]: New version: [1.61] Old Version: [1.60]
+[2023-06-21 09:50:32] INFO root fetch - processPackages [webknossos]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-21 09:50:32] INFO root fetch - processPackages [adaptivelcbin]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 09:50:33] INFO root fetch - processPackages [vcorelib]: Downloading https://files.pythonhosted.org/packages/26/6c/c7cd517073dbe853133bea34046998a94a7a8c5f89c4d5abd05d52a4e6eb/vcorelib-1.6.9.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [dreamcoat]: Downloading https://files.pythonhosted.org/packages/5d/4a/23aa97d620f1a62b6dbab66088cd92866daa5f60cd9b973a33ea9fbac87f/dreamcoat-0.0.1.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/a0/88/946d2800a393af0166c9b0a5c2368fe915370037db5b85c50679b5b60b66/nucliadb_contributor_assets-1.0.0.post851-py3-none-any.whl
+[2023-06-21 09:50:33] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/ae/8c/cd664cf78a262c8445eb342ba4d4cb662975f5e68a1db6c460ad1ee4e5b5/UComp-1.0.71.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [vcorelib]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [vcorelib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vcorelib-1.6.8.tar.gz tmp/vcorelib-1.6.9.tar.gz --markdown 20230621/v/vcorelib/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-21 09:50:33] INFO root fetch - processPackages [cluster-tools]: Downloading https://files.pythonhosted.org/packages/55/95/8e06c87289a9b44d6590288790d348b307858d2b60a00ec30d67e9283c25/cluster_tools-1.60.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/4d/c9/42745013d0db958e84167cf8ba8ddfd89dbae5c1261cbab4f13c519c94d3/webknossos-0.9.8.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [mediagrains]: Downloading https://files.pythonhosted.org/packages/15/ce/aebfa0cbfef24002de4d9b6e97b5ef5b14bcc4330d157a061f7f86f5cff0/mediagrains-3.5.1.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [sparrow-order-lib]: Downloading https://files.pythonhosted.org/packages/44/53/db8bd972b34822f8dbbae26324690b54126c480dcf17310e8834ffb83d51/sparrow-order-lib-0.2.1.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [adaptivelcbin]: Downloading https://files.pythonhosted.org/packages/d9/41/9f90048b6513db7b68e2e374e1ca225e8e2ebe7a06c04374d972a8015f13/adaptivelcbin-0.1.8.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [pydtk]: Downloading https://files.pythonhosted.org/packages/90/99/3f17267af6d0352076f90a51c651ed7a2c03351d6681b6093427f1db8ae3/pydtk-0.2.9.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [sparrow-order-lib]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [sparrow-order-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sparrow-order-lib-0.2.0.tar.gz tmp/sparrow-order-lib-0.2.1.tar.gz --markdown 20230621/s/sparrow-order-lib/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-21 09:50:33] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/4b/78/663725180e0f66308f67ab31e9ef7b69ab47c961e22856da6b2aa5a88962/nucliadb_contributor_assets-1.0.0.post852-py3-none-any.whl
+[2023-06-21 09:50:33] INFO root fetch - processPackages [dreamcoat]: Downloading https://files.pythonhosted.org/packages/6b/5e/0a41bcb7116bcfbea925462e0de187785713f0a0e9a82cd057523024eaba/dreamcoat-0.1.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [mediagrains]: Downloading https://files.pythonhosted.org/packages/7a/e0/ae484a4a9b88e6083ad31ba768b27922392742202bc4556dfe087e650421/mediagrains-3.5.2.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [pydtk]: Downloading https://files.pythonhosted.org/packages/98/49/948e53787a75276aa9eaa52056a2283f5d92ba714d2a0648d18c5b601d34/pydtk-0.3.0.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [cluster-tools]: Downloading https://files.pythonhosted.org/packages/f1/c8/cfa558d3aa9a9e9a7b5d923e1008b8553c75e12df34ecec1666b038ba0d1/cluster_tools-1.61.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [cluster-tools]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [cluster-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cluster_tools-1.60.tar.gz tmp/cluster_tools-1.61.tar.gz --markdown 20230621/c/cluster-tools/1.60-1.61/diff.md --exclude *.pyd
+[2023-06-21 09:50:33] INFO root fetch - processPackages [adaptivelcbin]: Downloading https://files.pythonhosted.org/packages/3c/8d/b38e3d6915cb7a02b1c19b56169c8513d777a77ae9ed7ac288ad37163c40/adaptivelcbin-0.1.9.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [dreamcoat]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [dreamcoat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dreamcoat-0.0.1.tar.gz tmp/dreamcoat-0.1.tar.gz --markdown 20230621/d/dreamcoat/0.0.1-0.1/diff.md --exclude *.pyd
+[2023-06-21 09:50:33] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post851-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post852-py3-none-any.whl.zip --markdown 20230621/n/nucliadb-contributor-assets/1.0.0.post851-1.0.0.post852/diff.md --exclude *.pyd
+[2023-06-21 09:50:33] INFO root fetch - processPackages [pydtk]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [pydtk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydtk-0.2.9.tar.gz tmp/pydtk-0.3.0.tar.gz --markdown 20230621/p/pydtk/0.2.9-0.3.0/diff.md --exclude *.pyd
+[2023-06-21 09:50:33] INFO root fetch - processPackages [mediagrains]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [mediagrains]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mediagrains-3.5.1.tar.gz tmp/mediagrains-3.5.2.tar.gz --markdown 20230621/m/mediagrains/3.5.1-3.5.2/diff.md --exclude *.pyd
+[2023-06-21 09:50:33] INFO root fetch - processPackages [webknossos]: Downloading https://files.pythonhosted.org/packages/65/2d/254028182afa9bf201aacc282c3cd1026f4b26a37ffc1b5f38836ca32347/webknossos-0.9.9.tar.gz
+[2023-06-21 09:50:33] INFO root fetch - processPackages [adaptivelcbin]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [adaptivelcbin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adaptivelcbin-0.1.8.tar.gz tmp/adaptivelcbin-0.1.9.tar.gz --markdown 20230621/a/adaptivelcbin/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 09:50:33] INFO root fetch - processPackages [webknossos]: executing diffoscope
+[2023-06-21 09:50:33] INFO root fetch - processPackages [webknossos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webknossos-0.9.8.tar.gz tmp/webknossos-0.9.9.tar.gz --markdown 20230621/w/webknossos/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-21 09:50:34] INFO root fetch - processPackages [UComp]: Downloading https://files.pythonhosted.org/packages/d9/29/adc0653255b0573822c3eece353946c0faab6b0127ad46d0b89892509af5/UComp-1.0.72.tar.gz
+[2023-06-21 09:50:34] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-1.6.8.tar.gz]
+[2023-06-21 09:50:34] INFO root fetch - processPackages [vcorelib]: Remove: archive file [/home/abi/fetcher/tmp/vcorelib-1.6.9.tar.gz]
+[2023-06-21 09:50:34] INFO root fetch - processPackages [vcorelib]: Start processing: collective.eeafaceted.z3ctable
+[2023-06-21 09:50:34] INFO root fetch - main [MainThread]: End processing [vcorelib]: success
+[2023-06-21 09:50:34] INFO root fetch - processPackages [dreamcoat]: Remove: archive file [/home/abi/fetcher/tmp/dreamcoat-0.0.1.tar.gz]
+[2023-06-21 09:50:34] INFO root fetch - processPackages [dreamcoat]: Remove: archive file [/home/abi/fetcher/tmp/dreamcoat-0.1.tar.gz]
+[2023-06-21 09:50:34] INFO root fetch - main [MainThread]: End processing [dreamcoat]: success
+[2023-06-21 09:50:34] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: New version: [2.9] Old Version: [2.8]
+[2023-06-21 09:50:35] INFO root fetch - processPackages [cluster-tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.60.tar.gz]
+[2023-06-21 09:50:35] INFO root fetch - processPackages [cluster-tools]: Remove: archive file [/home/abi/fetcher/tmp/cluster_tools-1.61.tar.gz]
+[2023-06-21 09:50:35] INFO root fetch - main [MainThread]: End processing [cluster-tools]: success
+[2023-06-21 09:50:35] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: Downloading https://files.pythonhosted.org/packages/9f/ec/4cffcdf9107ddd7c84dd3dcc10f5557c4ebbf33dec622106ff803537c125/collective.eeafaceted.z3ctable-2.8.tar.gz
+[2023-06-21 09:50:35] INFO root fetch - processPackages [adaptivelcbin]: Remove: archive file [/home/abi/fetcher/tmp/adaptivelcbin-0.1.8.tar.gz]
+[2023-06-21 09:50:35] INFO root fetch - processPackages [adaptivelcbin]: Remove: archive file [/home/abi/fetcher/tmp/adaptivelcbin-0.1.9.tar.gz]
+[2023-06-21 09:50:35] INFO root fetch - main [MainThread]: End processing [adaptivelcbin]: success
+[2023-06-21 09:50:35] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: Downloading https://files.pythonhosted.org/packages/06/f4/a6dbc951df4f0e6ab1da75ce145fa71af6bd37f82167f0dd62d8da94b9a8/collective.eeafaceted.z3ctable-2.9.tar.gz
+[2023-06-21 09:50:35] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: executing diffoscope
+[2023-06-21 09:50:35] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/collective.eeafaceted.z3ctable-2.8.tar.gz tmp/collective.eeafaceted.z3ctable-2.9.tar.gz --markdown 20230621/c/collective.eeafaceted.z3ctable/2.8-2.9/diff.md --exclude *.pyd
+[2023-06-21 09:50:35] INFO root fetch - processPackages [UComp]: executing diffoscope
+[2023-06-21 09:50:35] INFO root fetch - processPackages [UComp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/UComp-1.0.71.tar.gz tmp/UComp-1.0.72.tar.gz --markdown 20230621/U/UComp/1.0.71-1.0.72/diff.md --exclude *.pyd
+[2023-06-21 09:50:36] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.8.tar.gz]
+[2023-06-21 09:50:36] INFO root fetch - processPackages [webknossos]: Remove: archive file [/home/abi/fetcher/tmp/webknossos-0.9.9.tar.gz]
+[2023-06-21 09:50:36] INFO root fetch - main [MainThread]: End processing [webknossos]: success
+[2023-06-21 09:50:36] INFO root fetch - processPackages [pydtk]: Remove: archive file [/home/abi/fetcher/tmp/pydtk-0.2.9.tar.gz]
+[2023-06-21 09:50:36] INFO root fetch - processPackages [pydtk]: Remove: archive file [/home/abi/fetcher/tmp/pydtk-0.3.0.tar.gz]
+[2023-06-21 09:50:36] INFO root fetch - main [MainThread]: End processing [pydtk]: success
+[2023-06-21 09:50:36] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.2.0.tar.gz]
+[2023-06-21 09:50:36] INFO root fetch - processPackages [sparrow-order-lib]: Remove: archive file [/home/abi/fetcher/tmp/sparrow-order-lib-0.2.1.tar.gz]
+[2023-06-21 09:50:36] INFO root fetch - main [MainThread]: End processing [sparrow-order-lib]: success
+[2023-06-21 09:50:36] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.z3ctable-2.8.tar.gz]
+[2023-06-21 09:50:36] INFO root fetch - processPackages [collective.eeafaceted.z3ctable]: Remove: archive file [/home/abi/fetcher/tmp/collective.eeafaceted.z3ctable-2.9.tar.gz]
+[2023-06-21 09:50:36] INFO root fetch - main [MainThread]: End processing [collective.eeafaceted.z3ctable]: success
+[2023-06-21 09:50:37] INFO root fetch - processPackages [mediagrains]: Remove: archive file [/home/abi/fetcher/tmp/mediagrains-3.5.1.tar.gz]
+[2023-06-21 09:50:37] INFO root fetch - processPackages [mediagrains]: Remove: archive file [/home/abi/fetcher/tmp/mediagrains-3.5.2.tar.gz]
+[2023-06-21 09:50:37] INFO root fetch - main [MainThread]: End processing [mediagrains]: success
+[2023-06-21 09:50:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post851-py3-none-any.whl.zip]
+[2023-06-21 09:50:39] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post852-py3-none-any.whl.zip]
+[2023-06-21 09:50:39] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-21 09:50:45] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.71.tar.gz]
+[2023-06-21 09:50:45] INFO root fetch - processPackages [UComp]: Remove: archive file [/home/abi/fetcher/tmp/UComp-1.0.72.tar.gz]
+[2023-06-21 09:50:45] INFO root fetch - main [MainThread]: End processing [UComp]: success
+[2023-06-21 09:50:45] INFO root fetch - main [MainThread]: Store serial: [18586834]
