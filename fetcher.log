@@ -9337,3 +9337,51 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-21 03:55:20] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.8.tar.gz]
 [2023-06-21 03:55:20] INFO root fetch - main [MainThread]: End processing [fastervit]: success
 [2023-06-21 03:55:20] INFO root fetch - main [MainThread]: Store serial: [18584183]
+[2023-06-21 04:00:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584183]
+[2023-06-21 04:00:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-21 04:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: esphome-dashboard
+[2023-06-21 04:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dataclass-codec
+[2023-06-21 04:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sui-brownie
+[2023-06-21 04:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: big-thing-py
+[2023-06-21 04:00:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: re2shield
+[2023-06-21 04:00:30] INFO root fetch - processPackages [dataclass-codec]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-21 04:00:30] INFO root fetch - processPackages [esphome-dashboard]: New version: [20230621.0] Old Version: [20230516.0]
+[2023-06-21 04:00:30] INFO root fetch - processPackages [sui-brownie]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-21 04:00:30] INFO root fetch - processPackages [big-thing-py]: New version: [0.4.1.5] Old Version: [0.4.1.4]
+[2023-06-21 04:00:30] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/f8/b1/707bb3ff87cac9a24c96bd5846d2a34c37e9edbe7ca05e6e6f512925737c/dataclass_codec-0.1.5.tar.gz
+[2023-06-21 04:00:30] INFO root fetch - processPackages [re2shield]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 04:00:30] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/de/d8/32dd67cfae810d9cdfcaf71400f0e46be8374186512659f5c432b3518be7/sui_brownie-1.0.5-py3-none-any.whl
+[2023-06-21 04:00:30] INFO root fetch - processPackages [esphome-dashboard]: Downloading https://files.pythonhosted.org/packages/43/66/948850dae7ed52390f52add5eab194efd66b42a4f4c750eae945e8b4a767/esphome-dashboard-20230516.0.tar.gz
+[2023-06-21 04:00:30] INFO root fetch - processPackages [big-thing-py]: Downloading https://files.pythonhosted.org/packages/c4/4d/0d1dbca7144ab954bf0527f7c6df19f8fb331cbd06fb86c1881d682dc93a/big_thing_py-0.4.1.4-9-py3-none-any.whl
+[2023-06-21 04:00:30] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/5b/22/d03a17a41eb22a887ae98cd7198ace95d686efc0efea1d295d0e39fbd011/re2shield-0.1.3.tar.gz
+[2023-06-21 04:00:30] INFO root fetch - processPackages [dataclass-codec]: Downloading https://files.pythonhosted.org/packages/27/78/7856b6829a6b61e3b0aaff8e73dbb36cf0f29b8e08eb09592f1b9bd67508/dataclass_codec-0.1.6.tar.gz
+[2023-06-21 04:00:31] INFO root fetch - processPackages [dataclass-codec]: executing diffoscope
+[2023-06-21 04:00:31] INFO root fetch - processPackages [dataclass-codec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dataclass_codec-0.1.5.tar.gz tmp/dataclass_codec-0.1.6.tar.gz --markdown 20230621/d/dataclass-codec/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-21 04:00:31] INFO root fetch - processPackages [big-thing-py]: Downloading https://files.pythonhosted.org/packages/0e/22/6881173ced6aec0c7fb66340f81efbfedb9f4e4d335d7e1d64843663ac1d/big_thing_py-0.4.1.5-1-py3-none-any.whl
+[2023-06-21 04:00:31] INFO root fetch - processPackages [sui-brownie]: Downloading https://files.pythonhosted.org/packages/3a/fd/29879369c0e7d7be71d01846f2948669f1b66567a6de9a4db90db9175062/sui_brownie-1.0.6-py3-none-any.whl
+[2023-06-21 04:00:31] INFO root fetch - processPackages [big-thing-py]: executing diffoscope
+[2023-06-21 04:00:31] INFO root fetch - processPackages [big-thing-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big_thing_py-0.4.1.4-9-py3-none-any.whl.zip tmp/big_thing_py-0.4.1.5-1-py3-none-any.whl.zip --markdown 20230621/b/big-thing-py/0.4.1.4-0.4.1.5/diff.md --exclude *.pyd
+[2023-06-21 04:00:31] INFO root fetch - processPackages [re2shield]: Downloading https://files.pythonhosted.org/packages/8b/33/ac2c0aa33ff62610e1a3c58d7da5251da3f174e5dbfee6e65ea278ce9bc9/re2shield-0.1.4.tar.gz
+[2023-06-21 04:00:31] INFO root fetch - processPackages [sui-brownie]: executing diffoscope
+[2023-06-21 04:00:31] INFO root fetch - processPackages [sui-brownie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sui_brownie-1.0.5-py3-none-any.whl.zip tmp/sui_brownie-1.0.6-py3-none-any.whl.zip --markdown 20230621/s/sui-brownie/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-21 04:00:31] INFO root fetch - processPackages [esphome-dashboard]: Downloading https://files.pythonhosted.org/packages/3c/14/570b72f7d572dc8c9fd0d830c0606b0a71e574f76fc15add27a0ba112b62/esphome-dashboard-20230621.0.tar.gz
+[2023-06-21 04:00:31] INFO root fetch - processPackages [esphome-dashboard]: executing diffoscope
+[2023-06-21 04:00:31] INFO root fetch - processPackages [esphome-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/esphome-dashboard-20230516.0.tar.gz tmp/esphome-dashboard-20230621.0.tar.gz --markdown 20230621/e/esphome-dashboard/20230516.0-20230621.0/diff.md --exclude *.pyd
+[2023-06-21 04:00:31] INFO root fetch - processPackages [re2shield]: executing diffoscope
+[2023-06-21 04:00:31] INFO root fetch - processPackages [re2shield]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/re2shield-0.1.3.tar.gz tmp/re2shield-0.1.4.tar.gz --markdown 20230621/r/re2shield/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 04:00:32] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.1.5.tar.gz]
+[2023-06-21 04:00:32] INFO root fetch - processPackages [dataclass-codec]: Remove: archive file [/home/abi/fetcher/tmp/dataclass_codec-0.1.6.tar.gz]
+[2023-06-21 04:00:32] INFO root fetch - main [MainThread]: End processing [dataclass-codec]: success
+[2023-06-21 04:00:32] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.0.5-py3-none-any.whl.zip]
+[2023-06-21 04:00:32] INFO root fetch - processPackages [sui-brownie]: Remove: archive file [/home/abi/fetcher/tmp/sui_brownie-1.0.6-py3-none-any.whl.zip]
+[2023-06-21 04:00:32] INFO root fetch - main [MainThread]: End processing [sui-brownie]: success
+[2023-06-21 04:00:32] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.3.tar.gz]
+[2023-06-21 04:00:32] INFO root fetch - processPackages [re2shield]: Remove: archive file [/home/abi/fetcher/tmp/re2shield-0.1.4.tar.gz]
+[2023-06-21 04:00:32] INFO root fetch - main [MainThread]: End processing [re2shield]: success
+[2023-06-21 04:00:32] INFO root fetch - processPackages [big-thing-py]: Remove: archive file [/home/abi/fetcher/tmp/big_thing_py-0.4.1.4-9-py3-none-any.whl.zip]
+[2023-06-21 04:00:32] INFO root fetch - processPackages [big-thing-py]: Remove: archive file [/home/abi/fetcher/tmp/big_thing_py-0.4.1.5-1-py3-none-any.whl.zip]
+[2023-06-21 04:00:32] INFO root fetch - main [MainThread]: End processing [big-thing-py]: success
+[2023-06-21 04:01:09] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20230516.0.tar.gz]
+[2023-06-21 04:01:09] INFO root fetch - processPackages [esphome-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/esphome-dashboard-20230621.0.tar.gz]
+[2023-06-21 04:01:09] INFO root fetch - main [MainThread]: End processing [esphome-dashboard]: success
+[2023-06-21 04:01:09] INFO root fetch - main [MainThread]: Store serial: [18584202]
