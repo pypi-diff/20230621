@@ -20961,3 +20961,108 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 12:37:19] INFO root fetch - processPackages [cysecuretools]: Remove: archive file [/home/abi/fetcher/tmp/cysecuretools-5.0.0.tar.gz]
 [2023-06-21 12:37:19] INFO root fetch - main [MainThread]: End processing [cysecuretools]: success
 [2023-06-21 12:37:19] INFO root fetch - main [MainThread]: Store serial: [18588816]
+[2023-06-21 12:42:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588816]
+[2023-06-21 12:42:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyworxcloud
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hypos
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: turbx
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pybw-comic
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: fiware-pyspark-connector
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kiki-utils-api
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tonic
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dbt-athena-community
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: autodistill-grounding-dino
+[2023-06-21 12:42:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lusid-notification-sdk-preview
+[2023-06-21 12:42:32] WARNING root fetch - processPackages [pybw-comic]: Skipping, unable to determine old version
+[2023-06-21 12:42:32] INFO root fetch - processPackages [pybw-comic]: Start processing: embedchain
+[2023-06-21 12:42:32] INFO root fetch - main [MainThread]: End processing [pybw-comic] error
+[2023-06-21 12:42:32] INFO root fetch - processPackages [pyworxcloud]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-21 12:42:32] INFO root fetch - processPackages [turbx]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-21 12:42:32] INFO root fetch - processPackages [fiware-pyspark-connector]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-21 12:42:32] WARNING root fetch - processPackages [hypos]: Skipping, unable to determine old version
+[2023-06-21 12:42:32] INFO root fetch - processPackages [hypos]: Start processing: roft
+[2023-06-21 12:42:32] INFO root fetch - main [MainThread]: End processing [hypos] error
+[2023-06-21 12:42:32] INFO root fetch - processPackages [dbt-athena-community]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-21 12:42:32] INFO root fetch - processPackages [autodistill-grounding-dino]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-21 12:42:32] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.748.post3] Old Version: [0.1.748.post2]
+[2023-06-21 12:42:32] INFO root fetch - processPackages [kiki-utils-api]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-21 12:42:32] INFO root fetch - processPackages [tonic]: New version: [1.2.8.dev8] Old Version: [1.2.8.dev7]
+[2023-06-21 12:42:32] INFO root fetch - processPackages [embedchain]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-21 12:42:32] WARNING root fetch - processPackages [roft]: Skipping, unable to determine old version
+[2023-06-21 12:42:32] INFO root fetch - processPackages [roft]: Start processing: sql-field-report
+[2023-06-21 12:42:32] INFO root fetch - main [MainThread]: End processing [roft] error
+[2023-06-21 12:42:32] INFO root fetch - processPackages [sql-field-report]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-21 12:42:32] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/98/1e/f1b1c29eb4fd280536c9f1b7f5989cbb094524387a382dd05d3df7fa7e47/tonic-1.2.8.dev7.tar.gz
+[2023-06-21 12:42:32] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/8e/5e/9850c03ea1348e878ee88ef101fe8aae2df9bdebe1a501b83cdf6245d58f/sql_field_report-0.3.0.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [turbx]: Downloading https://files.pythonhosted.org/packages/71/24/a93fb13d3ec9d5a017dea71796ccc488fbc29169d3b2fb45c30d326f0d9e/turbx-0.3.0.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [fiware-pyspark-connector]: Downloading https://files.pythonhosted.org/packages/0a/5e/b34d60619d919289d070479285760639acaa456950cc814c6e7a5c414dfe/fiware_pyspark_connector-0.0.6.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/b0/fa/afee854cea033a908859097396a27ccd5d41055e289723c5d6e66eac41a4/pyworxcloud-3.1.8.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/ce/03/4c2854006f648a95500b338001a7cbb1daa232cab95c4fa1b8f43a80513e/dbt-athena-community-1.5.0.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [kiki-utils-api]: Downloading https://files.pythonhosted.org/packages/b8/b0/e71778c248e38d7662190b3d247fed56d67875373c1cf74e3c20270f8f62/kiki_utils_api-1.4.7.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [autodistill-grounding-dino]: Downloading https://files.pythonhosted.org/packages/29/50/115cc3ba5e3190fac7f95f44a4368343e261cb783745775783a7321a3b19/autodistill-grounding-dino-0.1.0.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/95/02/b1c92fd9d516e489f3b7f378e78085da151c3245143c229dc0b65b2dcb4c/lusid-notification-sdk-preview-0.1.748.post2.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/2c/cd/db99a253a4658930703a37f38bbe5afba95ba2dfda2a291ad044ddd2ccb5/embedchain-0.0.5.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [sql-field-report]: Downloading https://files.pythonhosted.org/packages/6d/72/a00c5724f63edbd086802e7508b3b65ee200af591bc70b11c2bfa42fa1a3/sql_field_report-0.3.1.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [sql-field-report]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [sql-field-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sql_field_report-0.3.0.tar.gz tmp/sql_field_report-0.3.1.tar.gz --markdown 20230621/s/sql-field-report/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-21 12:42:33] INFO root fetch - processPackages [fiware-pyspark-connector]: Downloading https://files.pythonhosted.org/packages/f4/91/f08f3cb0e00cfe97e06ffa51996c1e1e9a320ec43b38f142e39a5627a3fa/fiware_pyspark_connector-0.0.8.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f2/3c/a644c32f6c7ad451488058df6c41eedfc8fface95a5c5ca997330feba278/lusid-notification-sdk-preview-0.1.748.post3.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [embedchain]: Downloading https://files.pythonhosted.org/packages/cc/1b/401167555a09dfca56b8abb6c5be8ed27cac3f58b92706c901519062aa81/embedchain-0.0.6.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [turbx]: Downloading https://files.pythonhosted.org/packages/09/90/6f9e831d2f15aa21d10d65a0c51155d45e80e5d5330990befe343d9dfd98/turbx-0.3.1.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.748.post2.tar.gz tmp/lusid-notification-sdk-preview-0.1.748.post3.tar.gz --markdown 20230621/l/lusid-notification-sdk-preview/0.1.748.post2-0.1.748.post3/diff.md --exclude *.pyd
+[2023-06-21 12:42:33] INFO root fetch - processPackages [embedchain]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [embedchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedchain-0.0.5.tar.gz tmp/embedchain-0.0.6.tar.gz --markdown 20230621/e/embedchain/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-21 12:42:33] INFO root fetch - processPackages [autodistill-grounding-dino]: Downloading https://files.pythonhosted.org/packages/9c/d4/239775424467e44cd6cbfb6c374a0f19e52d1002aa1cb55baf4e92fa66d9/autodistill-grounding-dino-0.1.2.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [dbt-athena-community]: Downloading https://files.pythonhosted.org/packages/b4/39/9c368cfeba0eb71de7bb473c0da8514ef7744422035320f29929fface8e0/dbt-athena-community-1.5.1.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [pyworxcloud]: Downloading https://files.pythonhosted.org/packages/25/e7/2c14088664cc15b3aadc50c7e6823bd3c0479d894d1374ddbcaf2f649ef8/pyworxcloud-3.1.9.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [fiware-pyspark-connector]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [fiware-pyspark-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fiware_pyspark_connector-0.0.6.tar.gz tmp/fiware_pyspark_connector-0.0.8.tar.gz --markdown 20230621/f/fiware-pyspark-connector/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-21 12:42:33] INFO root fetch - processPackages [autodistill-grounding-dino]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [autodistill-grounding-dino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autodistill-grounding-dino-0.1.0.tar.gz tmp/autodistill-grounding-dino-0.1.2.tar.gz --markdown 20230621/a/autodistill-grounding-dino/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 12:42:33] INFO root fetch - processPackages [turbx]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [turbx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turbx-0.3.0.tar.gz tmp/turbx-0.3.1.tar.gz --markdown 20230621/t/turbx/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-21 12:42:33] INFO root fetch - processPackages [pyworxcloud]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [pyworxcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyworxcloud-3.1.8.tar.gz tmp/pyworxcloud-3.1.9.tar.gz --markdown 20230621/p/pyworxcloud/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-21 12:42:33] INFO root fetch - processPackages [dbt-athena-community]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [dbt-athena-community]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-athena-community-1.5.0.tar.gz tmp/dbt-athena-community-1.5.1.tar.gz --markdown 20230621/d/dbt-athena-community/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-21 12:42:33] INFO root fetch - processPackages [kiki-utils-api]: Downloading https://files.pythonhosted.org/packages/58/c5/0ad2bbd8999f32b8935e7a5d7b7931c826b2c8bf89e6ef9b38c5987a0400/kiki_utils_api-1.4.8-py3-none-any.whl
+[2023-06-21 12:42:33] INFO root fetch - processPackages [tonic]: Downloading https://files.pythonhosted.org/packages/b4/ee/779ed113c266a04ed3947b18f3e66d8d57410acc2a230acfa42f7395116a/tonic-1.2.8.dev8.tar.gz
+[2023-06-21 12:42:33] INFO root fetch - processPackages [kiki-utils-api]: executing diffoscope
+[2023-06-21 12:42:33] INFO root fetch - processPackages [kiki-utils-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kiki_utils_api-1.4.7.tar.gz tmp/kiki_utils_api-1.4.8-py3-none-any.whl.zip --markdown 20230621/k/kiki-utils-api/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-21 12:42:34] INFO root fetch - processPackages [tonic]: executing diffoscope
+[2023-06-21 12:42:34] INFO root fetch - processPackages [tonic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tonic-1.2.8.dev7.tar.gz tmp/tonic-1.2.8.dev8.tar.gz --markdown 20230621/t/tonic/1.2.8.dev7-1.2.8.dev8/diff.md --exclude *.pyd
+[2023-06-21 12:42:34] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-0.3.0.tar.gz]
+[2023-06-21 12:42:34] INFO root fetch - processPackages [sql-field-report]: Remove: archive file [/home/abi/fetcher/tmp/sql_field_report-0.3.1.tar.gz]
+[2023-06-21 12:42:34] INFO root fetch - processPackages [sql-field-report]: Start processing: cybotrade
+[2023-06-21 12:42:34] INFO root fetch - main [MainThread]: End processing [sql-field-report]: success
+[2023-06-21 12:42:34] INFO root fetch - processPackages [fiware-pyspark-connector]: Remove: archive file [/home/abi/fetcher/tmp/fiware_pyspark_connector-0.0.6.tar.gz]
+[2023-06-21 12:42:34] INFO root fetch - processPackages [fiware-pyspark-connector]: Remove: archive file [/home/abi/fetcher/tmp/fiware_pyspark_connector-0.0.8.tar.gz]
+[2023-06-21 12:42:34] INFO root fetch - main [MainThread]: End processing [fiware-pyspark-connector]: success
+[2023-06-21 12:42:35] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.5.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - processPackages [embedchain]: Remove: archive file [/home/abi/fetcher/tmp/embedchain-0.0.6.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - main [MainThread]: End processing [embedchain]: success
+[2023-06-21 12:42:35] INFO root fetch - processPackages [autodistill-grounding-dino]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-grounding-dino-0.1.0.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - processPackages [autodistill-grounding-dino]: Remove: archive file [/home/abi/fetcher/tmp/autodistill-grounding-dino-0.1.2.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - main [MainThread]: End processing [autodistill-grounding-dino]: success
+[2023-06-21 12:42:35] WARNING root fetch - processPackages [cybotrade]: Skipping, unable to determine old version
+[2023-06-21 12:42:35] INFO root fetch - main [MainThread]: End processing [cybotrade] error
+[2023-06-21 12:42:35] INFO root fetch - processPackages [kiki-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils_api-1.4.7.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - processPackages [kiki-utils-api]: Remove: archive file [/home/abi/fetcher/tmp/kiki_utils_api-1.4.8-py3-none-any.whl.zip]
+[2023-06-21 12:42:35] INFO root fetch - main [MainThread]: End processing [kiki-utils-api]: success
+[2023-06-21 12:42:35] INFO root fetch - processPackages [turbx]: Remove: archive file [/home/abi/fetcher/tmp/turbx-0.3.0.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - processPackages [turbx]: Remove: archive file [/home/abi/fetcher/tmp/turbx-0.3.1.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - main [MainThread]: End processing [turbx]: success
+[2023-06-21 12:42:35] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-3.1.8.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - processPackages [pyworxcloud]: Remove: archive file [/home/abi/fetcher/tmp/pyworxcloud-3.1.9.tar.gz]
+[2023-06-21 12:42:35] INFO root fetch - main [MainThread]: End processing [pyworxcloud]: success
+[2023-06-21 12:42:36] INFO root fetch - processPackages [dbt-athena-community]: Remove: archive file [/home/abi/fetcher/tmp/dbt-athena-community-1.5.0.tar.gz]
+[2023-06-21 12:42:36] INFO root fetch - processPackages [dbt-athena-community]: Remove: archive file [/home/abi/fetcher/tmp/dbt-athena-community-1.5.1.tar.gz]
+[2023-06-21 12:42:36] INFO root fetch - main [MainThread]: End processing [dbt-athena-community]: success
+[2023-06-21 12:42:36] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.2.8.dev7.tar.gz]
+[2023-06-21 12:42:36] INFO root fetch - processPackages [tonic]: Remove: archive file [/home/abi/fetcher/tmp/tonic-1.2.8.dev8.tar.gz]
+[2023-06-21 12:42:36] INFO root fetch - main [MainThread]: End processing [tonic]: success
+[2023-06-21 12:42:36] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.748.post2.tar.gz]
+[2023-06-21 12:42:36] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.748.post3.tar.gz]
+[2023-06-21 12:42:36] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-06-21 12:42:36] INFO root fetch - main [MainThread]: Store serial: [18588861]
