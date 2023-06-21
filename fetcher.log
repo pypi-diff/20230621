@@ -10445,3 +10445,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 05:09:26] INFO root fetch - processPackages [odoo14-addon-currency-monthly-rate]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_currency_monthly_rate-14.0.1.0.1.dev5-py3-none-any.whl.zip]
 [2023-06-21 05:09:26] INFO root fetch - main [MainThread]: End processing [odoo14-addon-currency-monthly-rate]: success
 [2023-06-21 05:09:26] INFO root fetch - main [MainThread]: Store serial: [18584547]
+[2023-06-21 05:14:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584547]
+[2023-06-21 05:14:34] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-21 05:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nvosscript
+[2023-06-21 05:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bcdup
+[2023-06-21 05:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: GANDLF
+[2023-06-21 05:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mtmtool
+[2023-06-21 05:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hatch-project-pypi-2
+[2023-06-21 05:14:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agixt
+[2023-06-21 05:14:34] INFO root fetch - processPackages [hatch-project-pypi-2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 05:14:34] INFO root fetch - processPackages [mtmtool]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-21 05:14:34] INFO root fetch - processPackages [nvosscript]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-06-21 05:14:34] INFO root fetch - processPackages [agixt]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-21 05:14:34] INFO root fetch - processPackages [bcdup]: New version: [2.3] Old Version: [2.2]
+[2023-06-21 05:14:34] INFO root fetch - processPackages [GANDLF]: New version: [0.0.17.dev20230621] Old Version: [0.0.17.dev20230620]
+[2023-06-21 05:14:34] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/33/14/71435fdb6affb8081bbebb681de69466e0d7e38c3958f0085af597363ef8/nvosscript-1.3.6.tar.gz
+[2023-06-21 05:14:34] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/65/21/18e508b556acfb0f25eb15780b599b66c03427b88b9777981cf91b3ae7b1/hatch_project_pypi_2-0.0.2.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/72/f6/05aa84da4a4a92f60509327d99757c9f44d33c306ee6f42fdbbbf0dd5b69/agixt-1.2.8.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/d9/f4/8b4fa2dad2eb0547ce3d0862346398348915eaee8e0bd206cd53010d2d86/GANDLF-0.0.17.dev20230620.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [bcdup]: Downloading https://files.pythonhosted.org/packages/80/91/77a82684336044a2304c11bc2832ff3fb3fb452ab06250cdfd58ea27e70c/bcdup-2.2.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/95/a6/aa5865ff23641f3a39d922f52996547a3b4907d1b73726581249fec68ffc/mtmtool-1.2.8.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [agixt]: Downloading https://files.pythonhosted.org/packages/ad/3a/7b239b1c21f484f09369851f21976facf1680c29f5c7c2993e0349cb6b1f/agixt-1.2.9.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/a1/ad/4e8031b4fcb2a263287791e0b35f3dda64d3e7910427e5f43c3a68fb16fb/hatch_project_pypi_2-0.0.3.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [nvosscript]: Downloading https://files.pythonhosted.org/packages/6b/98/04746bdfc926b5a6ee0c432529c11d2e36f36496a29d94bfc9517a2e6827/nvosscript-1.3.7.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [agixt]: executing diffoscope
+[2023-06-21 05:14:35] INFO root fetch - processPackages [agixt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agixt-1.2.8.tar.gz tmp/agixt-1.2.9.tar.gz --markdown 20230621/a/agixt/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-21 05:14:35] INFO root fetch - processPackages [GANDLF]: Downloading https://files.pythonhosted.org/packages/e7/60/4448c30505b25e7e49a0022e710d69dbf43a73f01dd60bf61fc7051c64c4/GANDLF-0.0.17.dev20230621.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [hatch-project-pypi-2]: executing diffoscope
+[2023-06-21 05:14:35] INFO root fetch - processPackages [hatch-project-pypi-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi_2-0.0.2.tar.gz tmp/hatch_project_pypi_2-0.0.3.tar.gz --markdown 20230621/h/hatch-project-pypi-2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 05:14:35] INFO root fetch - processPackages [nvosscript]: executing diffoscope
+[2023-06-21 05:14:35] INFO root fetch - processPackages [nvosscript]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvosscript-1.3.6.tar.gz tmp/nvosscript-1.3.7.tar.gz --markdown 20230621/n/nvosscript/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-06-21 05:14:35] INFO root fetch - processPackages [mtmtool]: Downloading https://files.pythonhosted.org/packages/d4/ed/60b45a1dcc5ad753b89251e6c897a9d8e542e7fd3df3faef4a8262f0996d/mtmtool-1.2.9.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [bcdup]: Downloading https://files.pythonhosted.org/packages/51/73/8387df666d11fccfee26d176c4a1749074da029a34db6505a0cdfc80a852/bcdup-2.3.tar.gz
+[2023-06-21 05:14:35] INFO root fetch - processPackages [mtmtool]: executing diffoscope
+[2023-06-21 05:14:35] INFO root fetch - processPackages [mtmtool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mtmtool-1.2.8.tar.gz tmp/mtmtool-1.2.9.tar.gz --markdown 20230621/m/mtmtool/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-21 05:14:35] INFO root fetch - processPackages [GANDLF]: executing diffoscope
+[2023-06-21 05:14:35] INFO root fetch - processPackages [GANDLF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GANDLF-0.0.17.dev20230620.tar.gz tmp/GANDLF-0.0.17.dev20230621.tar.gz --markdown 20230621/G/GANDLF/0.0.17.dev20230620-0.0.17.dev20230621/diff.md --exclude *.pyd
+[2023-06-21 05:14:35] INFO root fetch - processPackages [bcdup]: executing diffoscope
+[2023-06-21 05:14:35] INFO root fetch - processPackages [bcdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bcdup-2.2.tar.gz tmp/bcdup-2.3.tar.gz --markdown 20230621/b/bcdup/2.2-2.3/diff.md --exclude *.pyd
+[2023-06-21 05:14:36] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.2.tar.gz]
+[2023-06-21 05:14:36] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.3.tar.gz]
+[2023-06-21 05:14:36] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi-2]: success
+[2023-06-21 05:14:36] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.6.tar.gz]
+[2023-06-21 05:14:36] INFO root fetch - processPackages [nvosscript]: Remove: archive file [/home/abi/fetcher/tmp/nvosscript-1.3.7.tar.gz]
+[2023-06-21 05:14:36] INFO root fetch - main [MainThread]: End processing [nvosscript]: success
+[2023-06-21 05:14:36] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.8.tar.gz]
+[2023-06-21 05:14:36] INFO root fetch - processPackages [mtmtool]: Remove: archive file [/home/abi/fetcher/tmp/mtmtool-1.2.9.tar.gz]
+[2023-06-21 05:14:36] INFO root fetch - main [MainThread]: End processing [mtmtool]: success
+[2023-06-21 05:14:37] INFO root fetch - processPackages [bcdup]: Remove: archive file [/home/abi/fetcher/tmp/bcdup-2.2.tar.gz]
+[2023-06-21 05:14:37] INFO root fetch - processPackages [bcdup]: Remove: archive file [/home/abi/fetcher/tmp/bcdup-2.3.tar.gz]
+[2023-06-21 05:14:37] INFO root fetch - main [MainThread]: End processing [bcdup]: success
+[2023-06-21 05:14:37] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.8.tar.gz]
+[2023-06-21 05:14:37] INFO root fetch - processPackages [agixt]: Remove: archive file [/home/abi/fetcher/tmp/agixt-1.2.9.tar.gz]
+[2023-06-21 05:14:37] INFO root fetch - main [MainThread]: End processing [agixt]: success
+[2023-06-21 05:14:38] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230620.tar.gz]
+[2023-06-21 05:14:38] INFO root fetch - processPackages [GANDLF]: Remove: archive file [/home/abi/fetcher/tmp/GANDLF-0.0.17.dev20230621.tar.gz]
+[2023-06-21 05:14:38] INFO root fetch - main [MainThread]: End processing [GANDLF]: success
+[2023-06-21 05:14:38] INFO root fetch - main [MainThread]: Store serial: [18584572]
