@@ -5369,3 +5369,47 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 03:09:11] INFO root fetch - processPackages [django-ipghrms-employee]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-employee-1.9.tar.gz]
 [2023-06-21 03:09:11] INFO root fetch - main [MainThread]: End processing [django-ipghrms-employee]: success
 [2023-06-21 03:09:11] INFO root fetch - main [MainThread]: Store serial: [18582736]
+[2023-06-21 03:14:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18582736]
+[2023-06-21 03:14:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-21 03:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikGapps
+[2023-06-21 03:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: duckdb
+[2023-06-21 03:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-ipghrms-main
+[2023-06-21 03:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: requests-pkcs12
+[2023-06-21 03:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: np-session
+[2023-06-21 03:14:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dsds
+[2023-06-21 03:14:20] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-21 03:14:20] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-06-21 03:14:20] INFO root fetch - processPackages [NikGapps]: New version: [1.47] Old Version: [1.46]
+[2023-06-21 03:14:20] INFO root fetch - processPackages [django-ipghrms-main]: New version: [1.4] Old Version: [1.3]
+[2023-06-21 03:14:20] WARNING root fetch - processPackages [dsds]: Skipping, unable to determine old version
+[2023-06-21 03:14:20] INFO root fetch - main [MainThread]: End processing [dsds] error
+[2023-06-21 03:14:20] INFO root fetch - processPackages [requests-pkcs12]: New version: [1.9] Old Version: [1.8]
+[2023-06-21 03:14:20] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev72] Old Version: [0.8.2.dev37]
+[2023-06-21 03:14:20] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-06-21 03:14:20] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/da/39/7b5cab8d656d2ece9662fbb76eae903cba5edfe849d28c49a52f082714e9/NikGapps-1.46.tar.gz
+[2023-06-21 03:14:20] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564273>=10485760
+[2023-06-21 03:14:20] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-21 03:14:20] INFO root fetch - processPackages [django-ipghrms-main]: Downloading https://files.pythonhosted.org/packages/a1/92/29347efaec9dfd605809985ea19fbc4e115db9a72454b303681a6f331c1b/django-ipghrms-main-1.3.tar.gz
+[2023-06-21 03:14:20] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-21 03:14:20] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230621/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-21 03:14:20] INFO root fetch - processPackages [requests-pkcs12]: Downloading https://files.pythonhosted.org/packages/70/3c/0141e12b587bec5b891a41842fbcece287881b9943b05633bfe7a77c212e/requests_pkcs12-1.8.tar.gz
+[2023-06-21 03:14:20] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/a8/ec/415cea7c52a1ec240d6be7b12c246ca2c96fad8ff7fac789419fa1f4f769/duckdb-0.8.2.dev37.tar.gz
+[2023-06-21 03:14:21] INFO root fetch - processPackages [requests-pkcs12]: Downloading https://files.pythonhosted.org/packages/14/dd/3651b0dd709a3712d5581cbd74b92a5b2c38d03c51e07a2906b45a1074b9/requests_pkcs12-1.9.tar.gz
+[2023-06-21 03:14:21] INFO root fetch - processPackages [requests-pkcs12]: executing diffoscope
+[2023-06-21 03:14:21] INFO root fetch - processPackages [requests-pkcs12]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/requests_pkcs12-1.8.tar.gz tmp/requests_pkcs12-1.9.tar.gz --markdown 20230621/r/requests-pkcs12/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-21 03:14:22] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.8.tar.gz]
+[2023-06-21 03:14:22] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.9.tar.gz]
+[2023-06-21 03:14:22] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-06-21 03:14:22] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/cb/c6/8e848f4be63807952f1f76de58d53acc718a31ccd7586b2ee386d2023124/duckdb-0.8.2.dev72-cp36-cp36m-macosx_10_9_x86_64.whl
+[2023-06-21 03:14:22] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 14644111>=10485760
+[2023-06-21 03:14:22] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-06-21 03:14:22] INFO root fetch - processPackages [django-ipghrms-main]: Downloading https://files.pythonhosted.org/packages/c5/98/a5e38e972866c3e42177533ac6e647c7436b4a4609915f1e98e7df1ac083/django_ipghrms_main-1.4-py3-none-any.whl
+[2023-06-21 03:14:23] INFO root fetch - processPackages [requests-pkcs12]: Remove: archive file [/home/abi/fetcher/tmp/requests_pkcs12-1.8.tar.gz]
+[2023-06-21 03:14:23] INFO root fetch - processPackages [requests-pkcs12]: Remove: archive file [/home/abi/fetcher/tmp/requests_pkcs12-1.9.tar.gz]
+[2023-06-21 03:14:23] INFO root fetch - main [MainThread]: End processing [requests-pkcs12]: success
+[2023-06-21 03:14:25] INFO root fetch - processPackages [django-ipghrms-main]: executing diffoscope
+[2023-06-21 03:14:25] INFO root fetch - processPackages [django-ipghrms-main]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-ipghrms-main-1.3.tar.gz tmp/django_ipghrms_main-1.4-py3-none-any.whl.zip --markdown 20230621/d/django-ipghrms-main/1.3-1.4/diff.md --exclude *.pyd
+[2023-06-21 03:14:28] INFO root fetch - processPackages [django-ipghrms-main]: Remove: archive file [/home/abi/fetcher/tmp/django-ipghrms-main-1.3.tar.gz]
+[2023-06-21 03:14:28] INFO root fetch - processPackages [django-ipghrms-main]: Remove: archive file [/home/abi/fetcher/tmp/django_ipghrms_main-1.4-py3-none-any.whl.zip]
+[2023-06-21 03:14:28] INFO root fetch - main [MainThread]: End processing [django-ipghrms-main]: success
+[2023-06-21 03:14:28] INFO root fetch - main [MainThread]: Store serial: [18582759]
