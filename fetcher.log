@@ -14194,3 +14194,77 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 08:26:29] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230621.tar.gz]
 [2023-06-21 08:26:29] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
 [2023-06-21 08:26:29] INFO root fetch - main [MainThread]: Store serial: [18585963]
+[2023-06-21 08:31:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585963]
+[2023-06-21 08:31:40] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idem
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: smartchart
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m000.000.00m
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dapla-statbank-client
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wizata-dsapi
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: a-bigelow.cdk-eventbridge-partner-processors
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lollms
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastgenerateapi
+[2023-06-21 08:31:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pgb-broker-utils
+[2023-06-21 08:31:40] INFO root fetch - processPackages [idem]: New version: [9] Old Version: [7.6]
+[2023-06-21 08:31:40] INFO root fetch - processPackages [dapla-statbank-client]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-21 08:31:40] INFO root fetch - processPackages [fastgenerateapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 08:31:40] INFO root fetch - processPackages [smartchart]: New version: [6.6.8] Old Version: [5.7.4.7]
+[2023-06-21 08:31:40] WARNING root fetch - processPackages [m000.000.00m]: Skipping, unable to determine old version
+[2023-06-21 08:31:40] INFO root fetch - main [MainThread]: End processing [m000.000.00m] error
+[2023-06-21 08:31:40] INFO root fetch - processPackages [lollms]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-21 08:31:40] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-21 08:31:40] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 08:31:41] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/a2/33/504df0ce0acaf61f60613df21ade352c390d6e4af2d9fc79095d66ea98dc/fastgenerateapi-0.0.8.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [lollms]: Downloading https://files.pythonhosted.org/packages/0a/d7/9a9371ce1d129955fbd70fecc02198b70fe85eeb9e073d27d4608fbe5d57/lollms-1.2.8.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [pgb-broker-utils]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 08:31:41] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-21 08:31:41] WARNING root fetch - processPackages [lollms]: Skipping package: exceeds size limit 31321967>=10485760
+[2023-06-21 08:31:41] INFO root fetch - main [MainThread]: End processing [lollms] error
+[2023-06-21 08:31:41] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/6f/2c/e9e431837a8ced8d0195833d67715cdf4ed7804462b01ac7326d4b9064de/dapla_statbank_client-1.0.4.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/6b/32/90614adb2af56a238f8db9e38c8305c0e48acb1029648e959b2fd38b56bb/smartchart-5.7.4.7.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [idem]: Downloading https://files.pythonhosted.org/packages/05/d1/ae55ae3db2dbdf032cc9b659329f3421a2cbccba05c19626eccb74e0a7e4/idem-7.6.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Downloading https://files.pythonhosted.org/packages/48/a8/263041f72e28e48a61da3038506e6dff7e193f0a9a99659f5af5f290f46f/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [fastgenerateapi]: Downloading https://files.pythonhosted.org/packages/37/b4/3a4b842aeadf32d0bb647e0db074a1339df44d91e60901a3624d9ee2a285/fastgenerateapi-0.0.9.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [pgb-broker-utils]: Downloading https://files.pythonhosted.org/packages/2e/16/0ed7b8d05f2a44f0e1a0e9ec70aae1e803211126be25d13c57a15e1acf71/pgb_broker_utils-0.2.8.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-21 08:31:41] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230621/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-21 08:31:41] INFO root fetch - processPackages [fastgenerateapi]: executing diffoscope
+[2023-06-21 08:31:41] INFO root fetch - processPackages [fastgenerateapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastgenerateapi-0.0.8.tar.gz tmp/fastgenerateapi-0.0.9.tar.gz --markdown 20230621/f/fastgenerateapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 08:31:41] INFO root fetch - processPackages [dapla-statbank-client]: Downloading https://files.pythonhosted.org/packages/4d/e6/f1dbf1ef1a4ea7bc0ed3b3bbd943056a5c7e84cc16e21a8c86c4f1b4f442/dapla_statbank_client-1.0.5.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [dapla-statbank-client]: executing diffoscope
+[2023-06-21 08:31:41] INFO root fetch - processPackages [dapla-statbank-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_statbank_client-1.0.4.tar.gz tmp/dapla_statbank_client-1.0.5.tar.gz --markdown 20230621/d/dapla-statbank-client/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-21 08:31:41] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Downloading https://files.pythonhosted.org/packages/30/d0/0f99b15dece1c9b0a7f7827179d38814c1186e463612d88b29c6737b4b2e/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [pgb-broker-utils]: Downloading https://files.pythonhosted.org/packages/ce/07/51be91ecdfbae24cc02226c764836b3b5ff7e2c477d89cf16313070ce49d/pgb_broker_utils-0.2.9.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [idem]: Downloading https://files.pythonhosted.org/packages/80/07/c0fcb9ef8650ecb03eb10da8b61f2177eeeb1d6f19fd169f6f615646a69d/idem-9.tar.gz
+[2023-06-21 08:31:41] INFO root fetch - processPackages [idem]: executing diffoscope
+[2023-06-21 08:31:41] INFO root fetch - processPackages [idem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem-7.6.tar.gz tmp/idem-9.tar.gz --markdown 20230621/i/idem/7.6-9/diff.md --exclude *.pyd
+[2023-06-21 08:31:41] INFO root fetch - processPackages [pgb-broker-utils]: executing diffoscope
+[2023-06-21 08:31:41] INFO root fetch - processPackages [pgb-broker-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pgb_broker_utils-0.2.8.tar.gz tmp/pgb_broker_utils-0.2.9.tar.gz --markdown 20230621/p/pgb-broker-utils/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 08:31:41] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: executing diffoscope
+[2023-06-21 08:31:41] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz --markdown 20230621/a/a-bigelow.cdk-eventbridge-partner-processors/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 08:31:42] INFO root fetch - processPackages [smartchart]: Downloading https://files.pythonhosted.org/packages/ed/2e/a64e8cba75811e2701e2a82fff520e0ab05291910a39c186aaaee77c55b6/smartchart-6.6.8.tar.gz
+[2023-06-21 08:31:42] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.0.4.tar.gz]
+[2023-06-21 08:31:42] INFO root fetch - processPackages [dapla-statbank-client]: Remove: archive file [/home/abi/fetcher/tmp/dapla_statbank_client-1.0.5.tar.gz]
+[2023-06-21 08:31:42] INFO root fetch - main [MainThread]: End processing [dapla-statbank-client]: success
+[2023-06-21 08:31:42] INFO root fetch - processPackages [pgb-broker-utils]: Remove: archive file [/home/abi/fetcher/tmp/pgb_broker_utils-0.2.8.tar.gz]
+[2023-06-21 08:31:42] INFO root fetch - processPackages [pgb-broker-utils]: Remove: archive file [/home/abi/fetcher/tmp/pgb_broker_utils-0.2.9.tar.gz]
+[2023-06-21 08:31:42] INFO root fetch - main [MainThread]: End processing [pgb-broker-utils]: success
+[2023-06-21 08:31:42] INFO root fetch - processPackages [smartchart]: executing diffoscope
+[2023-06-21 08:31:42] INFO root fetch - processPackages [smartchart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smartchart-5.7.4.7.tar.gz tmp/smartchart-6.6.8.tar.gz --markdown 20230621/s/smartchart/5.7.4.7-6.6.8/diff.md --exclude *.pyd
+[2023-06-21 08:31:43] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-21 08:31:43] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-21 08:31:43] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-21 08:31:43] INFO root fetch - processPackages [idem]: Remove: archive file [/home/abi/fetcher/tmp/idem-7.6.tar.gz]
+[2023-06-21 08:31:43] INFO root fetch - processPackages [idem]: Remove: archive file [/home/abi/fetcher/tmp/idem-9.tar.gz]
+[2023-06-21 08:31:43] INFO root fetch - main [MainThread]: End processing [idem]: success
+[2023-06-21 08:31:43] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.8.tar.gz]
+[2023-06-21 08:31:43] INFO root fetch - processPackages [fastgenerateapi]: Remove: archive file [/home/abi/fetcher/tmp/fastgenerateapi-0.0.9.tar.gz]
+[2023-06-21 08:31:43] INFO root fetch - main [MainThread]: End processing [fastgenerateapi]: success
+[2023-06-21 08:31:45] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.98.tar.gz]
+[2023-06-21 08:31:45] INFO root fetch - processPackages [a-bigelow.cdk-eventbridge-partner-processors]: Remove: archive file [/home/abi/fetcher/tmp/a-bigelow.cdk-eventbridge-partner-processors-0.0.99.tar.gz]
+[2023-06-21 08:31:45] INFO root fetch - main [MainThread]: End processing [a-bigelow.cdk-eventbridge-partner-processors]: success
+[2023-06-21 08:32:18] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-5.7.4.7.tar.gz]
+[2023-06-21 08:32:18] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.tar.gz]
+[2023-06-21 08:32:18] INFO root fetch - main [MainThread]: End processing [smartchart]: success
+[2023-06-21 08:32:18] INFO root fetch - main [MainThread]: Store serial: [18585997]
