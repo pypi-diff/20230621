@@ -20278,3 +20278,229 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 12:08:35] INFO root fetch - processPackages [pycdfpp]: Remove: archive file [/home/abi/fetcher/tmp/pycdfpp-0.4.5.tar.gz]
 [2023-06-21 12:08:35] INFO root fetch - main [MainThread]: End processing [pycdfpp]: success
 [2023-06-21 12:08:35] INFO root fetch - main [MainThread]: Store serial: [18588528]
+[2023-06-21 12:13:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588528]
+[2023-06-21 12:13:47] INFO root fetch - main [MainThread]: Found 27 changed packages
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: uptick-splat
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alibabacloud-pds-sdk
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openai-dbd
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: open-aea
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-l4d2-server
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-gcloud-connectors
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: open-aea-cli-benchmark
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: open-aea-cli-ipfs
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: open-aea-ledger-cosmos
+[2023-06-21 12:13:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: open-aea-ledger-ethereum
+[2023-06-21 12:13:47] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.6.5] Old Version: [0.5.6.4]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [alibabacloud-pds-sdk]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/96/0a/6ddd2419f4033e5c20a3b89dd671e715efd5b4fbfb919ff3325f8b3cea0b/nonebot_plugin_l4d2_server-0.5.6.4.tar.gz
+[2023-06-21 12:13:47] INFO root fetch - processPackages [open-aea-cli-benchmark]: New version: [1.35.0] Old Version: [1.34.0]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [open-aea-cli-ipfs]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [uptick-splat]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [openai-dbd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [open-aea-ledger-cosmos]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [django-gcloud-connectors]: New version: [0.4.0] Old Version: [0.3.7]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [open-aea-ledger-ethereum]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-21 12:13:47] INFO root fetch - processPackages [open-aea]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-21 12:13:48] INFO root fetch - processPackages [alibabacloud-pds-sdk]: Downloading https://files.pythonhosted.org/packages/fd/cb/71974c9ae66ebede51fea39b7a83637e8cbc5c18cdbf348573d3dbc34c2c/alibabacloud_pds_sdk-1.1.6.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-cli-benchmark]: Downloading https://files.pythonhosted.org/packages/ed/21/7ef8541debd9a09418f415d39597a1290a470ed613f0928f2ad8d58f943a/open-aea-cli-benchmark-1.34.0.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-cli-ipfs]: Downloading https://files.pythonhosted.org/packages/ee/91/2e992d2fbb21f1c4976404b5f9f6d72aff9c1444a80f3ac7d0bcd8cf805e/open-aea-cli-ipfs-1.9.0.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [django-gcloud-connectors]: Downloading https://files.pythonhosted.org/packages/e5/f4/253649c5656ccd01bb228b9667f1d6f21ba22354a35d921a83a81dbf5c7e/django-gcloud-connectors-0.3.7.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Downloading https://files.pythonhosted.org/packages/83/67/960e6fa3586afa96b5fc5cd411f1403706ae6993d9fc85456dae6175968f/open-aea-ledger-ethereum-1.9.0.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [uptick-splat]: Downloading https://files.pythonhosted.org/packages/21/d2/d155e9ae1973a13e7a72df2e5d70265807f10bcd8b66ccfc19f9d4f6b5d7/uptick_splat-0.1.7.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/d9/31/d86f0f50993f5e8dc618557dd9b665b20eb455d40c850a6f35aed5bd146b/openai_dbd-0.0.8-py3-none-any.whl
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Downloading https://files.pythonhosted.org/packages/8d/74/f371c3137a52ba978c1bb14e30533a29ec5f5648b1cdc3357ce5a9b48ef9/open-aea-ledger-cosmos-1.9.0.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/21/c7/1d043f72ede44299498075404eb0a8e6a52d8df1888b116bfd9cad1899d4/nonebot_plugin_l4d2_server-0.5.6.5.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea]: Downloading https://files.pythonhosted.org/packages/7f/40/3bc96b026068c72069daaa6c85cc6c0c5904acc0c80107b1752886595b2b/open-aea-1.9.0.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-cli-benchmark]: Downloading https://files.pythonhosted.org/packages/35/ff/58371aa1808d4e31fdaf0d02c750fc67617645b4433d9002abc4c70e6681/open-aea-cli-benchmark-1.35.0.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [alibabacloud-pds-sdk]: Downloading https://files.pythonhosted.org/packages/2e/0c/a70e6af45806881f978b89bead9a20ddb28416c7134a3519efc653fa7627/alibabacloud_pds_sdk-1.1.7.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-cli-ipfs]: Downloading https://files.pythonhosted.org/packages/e4/34/810547261a12125c890b47a5e3ed32ef550369d1e4c298604ae35d4216cb/open-aea-cli-ipfs-1.9.0.post1.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [openai-dbd]: Downloading https://files.pythonhosted.org/packages/fc/89/8191aebb736ee888c76204cd3dffedad5abfb27acc27bc9ccabd4a30f62b/openai_dbd-0.0.9-py3-none-any.whl
+[2023-06-21 12:13:48] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-06-21 12:13:48] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.6.4.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.6.5.tar.gz --markdown 20230621/n/nonebot-plugin-l4d2-server/0.5.6.4-0.5.6.5/diff.md --exclude *.pyd
+[2023-06-21 12:13:48] INFO root fetch - processPackages [django-gcloud-connectors]: Downloading https://files.pythonhosted.org/packages/9c/6c/f0e27fb745aeda5bbd2493a963cc27823e7fe54e609cedd8758f1de50a13/django-gcloud-connectors-0.4.0.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [openai-dbd]: executing diffoscope
+[2023-06-21 12:13:48] INFO root fetch - processPackages [openai-dbd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai_dbd-0.0.8-py3-none-any.whl.zip tmp/openai_dbd-0.0.9-py3-none-any.whl.zip --markdown 20230621/o/openai-dbd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 12:13:48] INFO root fetch - processPackages [uptick-splat]: Downloading https://files.pythonhosted.org/packages/f6/8d/da870c950da2935b4aaf799d36901ec9b0cfa4c8f0f2dc39f131b8d44e23/uptick_splat-0.1.8.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Downloading https://files.pythonhosted.org/packages/5a/2f/432a8948e4381bf374a78adafb58677bc83c853fe716108f745d13ecd673/open-aea-ledger-ethereum-1.9.0.post1.tar.gz
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-cli-benchmark]: executing diffoscope
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-cli-benchmark]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-cli-benchmark-1.34.0.tar.gz tmp/open-aea-cli-benchmark-1.35.0.tar.gz --markdown 20230621/o/open-aea-cli-benchmark/1.34.0-1.35.0/diff.md --exclude *.pyd
+[2023-06-21 12:13:48] INFO root fetch - processPackages [alibabacloud-pds-sdk]: executing diffoscope
+[2023-06-21 12:13:48] INFO root fetch - processPackages [alibabacloud-pds-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_pds_sdk-1.1.6.tar.gz tmp/alibabacloud_pds_sdk-1.1.7.tar.gz --markdown 20230621/a/alibabacloud-pds-sdk/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-21 12:13:48] INFO root fetch - processPackages [uptick-splat]: executing diffoscope
+[2023-06-21 12:13:48] INFO root fetch - processPackages [uptick-splat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptick_splat-0.1.7.tar.gz tmp/uptick_splat-0.1.8.tar.gz --markdown 20230621/u/uptick-splat/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-21 12:13:48] INFO root fetch - processPackages [django-gcloud-connectors]: executing diffoscope
+[2023-06-21 12:13:48] INFO root fetch - processPackages [django-gcloud-connectors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-gcloud-connectors-0.3.7.tar.gz tmp/django-gcloud-connectors-0.4.0.tar.gz --markdown 20230621/d/django-gcloud-connectors/0.3.7-0.4.0/diff.md --exclude *.pyd
+[2023-06-21 12:13:48] WARNING root fetch - processPackages [open-aea]: Skipping package: exceeds size limit 16774114>=10485760
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea]: Start processing: open-aea-ledger-ethereum-hwi
+[2023-06-21 12:13:48] INFO root fetch - main [MainThread]: End processing [open-aea] error
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-ledger-ethereum]: executing diffoscope
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-ledger-ethereum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-ethereum-1.9.0.tar.gz tmp/open-aea-ledger-ethereum-1.9.0.post1.tar.gz --markdown 20230621/o/open-aea-ledger-ethereum/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: New version: [1.35.0] Old Version: [1.34.0]
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-cli-ipfs]: executing diffoscope
+[2023-06-21 12:13:48] INFO root fetch - processPackages [open-aea-cli-ipfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-cli-ipfs-1.9.0.tar.gz tmp/open-aea-cli-ipfs-1.9.0.post1.tar.gz --markdown 20230621/o/open-aea-cli-ipfs/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-06-21 12:13:49] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Downloading https://files.pythonhosted.org/packages/61/d2/94be4f42f237964ad50ffebdd1d35d5a2fa8ad842708135c5d7386d2426a/open-aea-ledger-cosmos-1.9.0.post1.tar.gz
+[2023-06-21 12:13:49] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Downloading https://files.pythonhosted.org/packages/12/3a/53667a91ea6ea397067171d76403484ac2522f9a044be2f9aeb42cdecf47/open-aea-ledger-ethereum-hwi-1.34.0.tar.gz
+[2023-06-21 12:13:49] INFO root fetch - processPackages [open-aea-ledger-cosmos]: executing diffoscope
+[2023-06-21 12:13:49] INFO root fetch - processPackages [open-aea-ledger-cosmos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-cosmos-1.9.0.tar.gz tmp/open-aea-ledger-cosmos-1.9.0.post1.tar.gz --markdown 20230621/o/open-aea-ledger-cosmos/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-06-21 12:13:49] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Downloading https://files.pythonhosted.org/packages/c4/c3/b9dbecefeecd193e8dd8ed80a05be2c8c97fdab20bf5f84ab302680c6d84/open-aea-ledger-ethereum-hwi-1.35.0.tar.gz
+[2023-06-21 12:13:49] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: executing diffoscope
+[2023-06-21 12:13:49] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-ethereum-hwi-1.34.0.tar.gz tmp/open-aea-ledger-ethereum-hwi-1.35.0.tar.gz --markdown 20230621/o/open-aea-ledger-ethereum-hwi/1.34.0-1.35.0/diff.md --exclude *.pyd
+[2023-06-21 12:13:50] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.8-py3-none-any.whl.zip]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [openai-dbd]: Remove: archive file [/home/abi/fetcher/tmp/openai_dbd-0.0.9-py3-none-any.whl.zip]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [openai-dbd]: Start processing: open-aea-ledger-ethereum-flashbots
+[2023-06-21 12:13:50] INFO root fetch - main [MainThread]: End processing [openai-dbd]: success
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: New version: [1.35.0] Old Version: [1.34.0]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [uptick-splat]: Remove: archive file [/home/abi/fetcher/tmp/uptick_splat-0.1.7.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [uptick-splat]: Remove: archive file [/home/abi/fetcher/tmp/uptick_splat-0.1.8.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [uptick-splat]: Start processing: open-aea-ledger-solana
+[2023-06-21 12:13:50] INFO root fetch - main [MainThread]: End processing [uptick-splat]: success
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-solana]: New version: [1.35.0] Old Version: [1.34.0]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-cli-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-cli-benchmark-1.34.0.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-cli-benchmark]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-cli-benchmark-1.35.0.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-cli-benchmark]: Start processing: open-aea-ledger-fetchai
+[2023-06-21 12:13:50] INFO root fetch - main [MainThread]: End processing [open-aea-cli-benchmark]: success
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Downloading https://files.pythonhosted.org/packages/46/8d/9031b8c8d2d43efd4d6073b6719fd2a461647cfb9f06c7ce350f54e00a5b/open-aea-ledger-ethereum-flashbots-1.34.0.tar.gz
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-fetchai]: New version: [1.9.0.post1] Old Version: [1.9.0]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-solana]: Downloading https://files.pythonhosted.org/packages/c6/a8/791f339d03d993305160a0b7bdeefdf4ccffd6aef7598092e19cd870256e/open-aea-ledger-solana-1.34.0.tar.gz
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-cosmos-1.9.0.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-cosmos-1.9.0.post1.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-cosmos]: Start processing: dm-reverb-nightly
+[2023-06-21 12:13:50] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-cosmos]: success
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Downloading https://files.pythonhosted.org/packages/6f/64/6fafe0a04c08ef9050d95cd66c6b408c9cf3ef07b159772f61c5185adddc/open-aea-ledger-ethereum-flashbots-1.35.0.tar.gz
+[2023-06-21 12:13:50] INFO root fetch - processPackages [dm-reverb-nightly]: New version: [0.9.0.dev20221207] Old Version: [0.9.0.dev20221206]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Downloading https://files.pythonhosted.org/packages/d3/7a/a66a5cc018ff6d37acfa3cd9b460fed2f2a5d5fc5d1f429183c1245dd818/open-aea-ledger-fetchai-1.9.0.tar.gz
+[2023-06-21 12:13:50] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/b4/60/e92fdb2c772dd865b56f7c50bfc1c4bffe5431b4007700cd760900e7aaf2/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-ethereum-hwi-1.34.0.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-ethereum-hwi-1.35.0.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-ethereum-hwi]: Start processing: py-ai-cli
+[2023-06-21 12:13:50] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum-hwi]: success
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-cli-ipfs]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-cli-ipfs-1.9.0.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-cli-ipfs]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-cli-ipfs-1.9.0.post1.tar.gz]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-cli-ipfs]: Start processing: django-admin-atlantis
+[2023-06-21 12:13:50] INFO root fetch - main [MainThread]: End processing [open-aea-cli-ipfs]: success
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-solana]: Downloading https://files.pythonhosted.org/packages/af/0f/b7b83579e2da7354d873d0401da14b600d030dc9068676490efb35e6bef5/open-aea-ledger-solana-1.35.0.tar.gz
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: executing diffoscope
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-ethereum-flashbots-1.34.0.tar.gz tmp/open-aea-ledger-ethereum-flashbots-1.35.0.tar.gz --markdown 20230621/o/open-aea-ledger-ethereum-flashbots/1.34.0-1.35.0/diff.md --exclude *.pyd
+[2023-06-21 12:13:50] INFO root fetch - processPackages [py-ai-cli]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [django-admin-atlantis]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-21 12:13:50] INFO root fetch - processPackages [dm-reverb-nightly]: Downloading https://files.pythonhosted.org/packages/07/ba/e9ef4e61b606a17814023d4b0a99ebf04f48787449f89134eb770db70591/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-solana]: executing diffoscope
+[2023-06-21 12:13:50] INFO root fetch - processPackages [open-aea-ledger-solana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-solana-1.34.0.tar.gz tmp/open-aea-ledger-solana-1.35.0.tar.gz --markdown 20230621/o/open-aea-ledger-solana/1.34.0-1.35.0/diff.md --exclude *.pyd
+[2023-06-21 12:13:51] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/94/07/d17e18e89d09348654797a3774b0a3d6622db5c619011f3150f63510fe61/py-ai-cli-0.3.6.tar.gz
+[2023-06-21 12:13:51] INFO root fetch - processPackages [django-admin-atlantis]: Downloading https://files.pythonhosted.org/packages/98/eb/93b01c9f6640f4ba0f5b479b7727626f16b567873a24b75ee78c1e394b3c/django-admin-atlantis-1.0.0.tar.gz
+[2023-06-21 12:13:51] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Downloading https://files.pythonhosted.org/packages/93/4a/2cf242698e247471b6846b556e0a78f7b682853d7234b5b9343510df0e98/open-aea-ledger-fetchai-1.9.0.post1.tar.gz
+[2023-06-21 12:13:51] WARNING root fetch - processPackages [django-admin-atlantis]: Skipping package: exceeds size limit 11278447>=10485760
+[2023-06-21 12:13:51] INFO root fetch - processPackages [django-admin-atlantis]: Start processing: djwebdapp
+[2023-06-21 12:13:51] INFO root fetch - main [MainThread]: End processing [django-admin-atlantis] error
+[2023-06-21 12:13:51] INFO root fetch - processPackages [djwebdapp]: New version: [1.0.0rc6] Old Version: [1.0.0rc5]
+[2023-06-21 12:13:51] INFO root fetch - processPackages [open-aea-ledger-fetchai]: executing diffoscope
+[2023-06-21 12:13:51] INFO root fetch - processPackages [open-aea-ledger-fetchai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open-aea-ledger-fetchai-1.9.0.tar.gz tmp/open-aea-ledger-fetchai-1.9.0.post1.tar.gz --markdown 20230621/o/open-aea-ledger-fetchai/1.9.0-1.9.0.post1/diff.md --exclude *.pyd
+[2023-06-21 12:13:51] INFO root fetch - processPackages [py-ai-cli]: Downloading https://files.pythonhosted.org/packages/6b/d3/c3f49357bf2e1d37922faee0f811ab30269589a62b7713d34cb2b2e08331/py-ai-cli-0.3.7.tar.gz
+[2023-06-21 12:13:51] INFO root fetch - processPackages [djwebdapp]: Downloading https://files.pythonhosted.org/packages/d2/c4/d03688c3123527203f2a270e6b84902c663015b161c5f004b9a0f8d8d56f/djwebdapp-1.0.0rc5.tar.gz
+[2023-06-21 12:13:51] INFO root fetch - processPackages [dm-reverb-nightly]: executing diffoscope
+[2023-06-21 12:13:51] INFO root fetch - processPackages [dm-reverb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230621/d/dm-reverb-nightly/0.9.0.dev20221206-0.9.0.dev20221207/diff.md --exclude *.pyd
+[2023-06-21 12:13:51] INFO root fetch - processPackages [py-ai-cli]: executing diffoscope
+[2023-06-21 12:13:51] INFO root fetch - processPackages [py-ai-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-ai-cli-0.3.6.tar.gz tmp/py-ai-cli-0.3.7.tar.gz --markdown 20230621/p/py-ai-cli/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-21 12:13:51] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-ethereum-flashbots-1.34.0.tar.gz]
+[2023-06-21 12:13:51] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-ethereum-flashbots-1.35.0.tar.gz]
+[2023-06-21 12:13:51] INFO root fetch - processPackages [open-aea-ledger-ethereum-flashbots]: Start processing: homeassistant-historical-sensor
+[2023-06-21 12:13:51] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum-flashbots]: success
+[2023-06-21 12:13:51] INFO root fetch - processPackages [djwebdapp]: Downloading https://files.pythonhosted.org/packages/6e/a0/1fac84f38ca5b908dc02429a56957fa330d5892a018a5a29a811a0379d51/djwebdapp-1.0.0rc6.tar.gz
+[2023-06-21 12:13:51] INFO root fetch - processPackages [djwebdapp]: executing diffoscope
+[2023-06-21 12:13:51] INFO root fetch - processPackages [djwebdapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djwebdapp-1.0.0rc5.tar.gz tmp/djwebdapp-1.0.0rc6.tar.gz --markdown 20230621/d/djwebdapp/1.0.0rc5-1.0.0rc6/diff.md --exclude *.pyd
+[2023-06-21 12:13:51] INFO root fetch - processPackages [homeassistant-historical-sensor]: New version: [1.0.0a2] Old Version: [1.0.0a1]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-solana]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-solana-1.34.0.tar.gz]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-solana]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-solana-1.35.0.tar.gz]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-solana]: Start processing: nemo-library
+[2023-06-21 12:13:52] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-solana]: success
+[2023-06-21 12:13:52] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/44/c4/aedfe892968cf558c6e935c19cf08bd02b340b394ba529d08447b0062ff4/homeassistant-historical-sensor-1.0.0a1.tar.gz
+[2023-06-21 12:13:52] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2023-06-21 12:13:52] INFO root fetch - processPackages [homeassistant-historical-sensor]: Downloading https://files.pythonhosted.org/packages/a5/fb/580231d5ffa5b606166f3ee1a6fbce8bbef6c275255ed8834e58f9e196b1/homeassistant-historical-sensor-1.0.0a2.tar.gz
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-fetchai-1.9.0.tar.gz]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-fetchai-1.9.0.post1.tar.gz]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-fetchai]: Start processing: gaohn-dsa
+[2023-06-21 12:13:52] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-fetchai]: success
+[2023-06-21 12:13:52] INFO root fetch - processPackages [homeassistant-historical-sensor]: executing diffoscope
+[2023-06-21 12:13:52] INFO root fetch - processPackages [homeassistant-historical-sensor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant-historical-sensor-1.0.0a1.tar.gz tmp/homeassistant-historical-sensor-1.0.0a2.tar.gz --markdown 20230621/h/homeassistant-historical-sensor/1.0.0a1-1.0.0a2/diff.md --exclude *.pyd
+[2023-06-21 12:13:52] WARNING root fetch - processPackages [gaohn-dsa]: Skipping, unable to determine old version
+[2023-06-21 12:13:52] INFO root fetch - processPackages [gaohn-dsa]: Start processing: prettyqt
+[2023-06-21 12:13:52] INFO root fetch - main [MainThread]: End processing [gaohn-dsa] error
+[2023-06-21 12:13:52] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2023-06-21 12:13:52] INFO root fetch - processPackages [prettyqt]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-ethereum-1.9.0.tar.gz]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Remove: archive file [/home/abi/fetcher/tmp/open-aea-ledger-ethereum-1.9.0.post1.tar.gz]
+[2023-06-21 12:13:52] INFO root fetch - processPackages [open-aea-ledger-ethereum]: Start processing: macrometa-target-bigquery
+[2023-06-21 12:13:52] INFO root fetch - main [MainThread]: End processing [open-aea-ledger-ethereum]: success
+[2023-06-21 12:13:52] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2023-06-21 12:13:52] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20230621/n/nemo-library/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-21 12:13:52] INFO root fetch - processPackages [macrometa-target-bigquery]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/90/b7/c5a53747168c1ccc1d26309eca89b437a5f5c027f7a8486b65463ad4770c/prettyqt-1.9.1.tar.gz
+[2023-06-21 12:13:53] INFO root fetch - processPackages [py-ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/py-ai-cli-0.3.6.tar.gz]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [py-ai-cli]: Remove: archive file [/home/abi/fetcher/tmp/py-ai-cli-0.3.7.tar.gz]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [py-ai-cli]: Start processing: panels
+[2023-06-21 12:13:53] INFO root fetch - main [MainThread]: End processing [py-ai-cli]: success
+[2023-06-21 12:13:53] INFO root fetch - processPackages [panels]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [macrometa-target-bigquery]: Downloading https://files.pythonhosted.org/packages/19/d5/1c6e9cb56f5373994835dd5aba2b936858eadbde4d813e4738603c1abf9a/macrometa-target-bigquery-0.0.8.tar.gz
+[2023-06-21 12:13:53] INFO root fetch - processPackages [panels]: Downloading https://files.pythonhosted.org/packages/40/5d/05d11574d9a30b10c8566e405e0173377420513501e132449ff0a8fc2351/panels-0.3.0.tar.gz
+[2023-06-21 12:13:53] INFO root fetch - processPackages [prettyqt]: Downloading https://files.pythonhosted.org/packages/49/65/b381f14f4a70e301a6f9cd50931dea1693b62567e0d6f4a9f55040563489/prettyqt-1.9.2.tar.gz
+[2023-06-21 12:13:53] INFO root fetch - processPackages [django-gcloud-connectors]: Remove: archive file [/home/abi/fetcher/tmp/django-gcloud-connectors-0.3.7.tar.gz]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [django-gcloud-connectors]: Remove: archive file [/home/abi/fetcher/tmp/django-gcloud-connectors-0.4.0.tar.gz]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [django-gcloud-connectors]: Start processing: punpy
+[2023-06-21 12:13:53] INFO root fetch - main [MainThread]: End processing [django-gcloud-connectors]: success
+[2023-06-21 12:13:53] INFO root fetch - processPackages [macrometa-target-bigquery]: Downloading https://files.pythonhosted.org/packages/6e/cd/6f15044ed527373c8f1a213e0addddd5bc37d37fd5844bbee63eb7fdaa81/macrometa-target-bigquery-0.0.9.tar.gz
+[2023-06-21 12:13:53] INFO root fetch - processPackages [djwebdapp]: Remove: archive file [/home/abi/fetcher/tmp/djwebdapp-1.0.0rc5.tar.gz]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [djwebdapp]: Remove: archive file [/home/abi/fetcher/tmp/djwebdapp-1.0.0rc6.tar.gz]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [djwebdapp]: Start processing: generalized-model-trainer
+[2023-06-21 12:13:53] INFO root fetch - main [MainThread]: End processing [djwebdapp]: success
+[2023-06-21 12:13:53] INFO root fetch - processPackages [punpy]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [prettyqt]: executing diffoscope
+[2023-06-21 12:13:53] INFO root fetch - processPackages [prettyqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettyqt-1.9.1.tar.gz tmp/prettyqt-1.9.2.tar.gz --markdown 20230621/p/prettyqt/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-21 12:13:53] WARNING root fetch - processPackages [generalized-model-trainer]: Skipping, unable to determine old version
+[2023-06-21 12:13:53] INFO root fetch - processPackages [generalized-model-trainer]: Start processing: sourceshot
+[2023-06-21 12:13:53] INFO root fetch - main [MainThread]: End processing [generalized-model-trainer] error
+[2023-06-21 12:13:53] INFO root fetch - processPackages [sourceshot]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [panels]: Downloading https://files.pythonhosted.org/packages/87/08/e51b1e78cf7015507a4d7ff8afca922b153db21e8b1d1a33e2d8488d8c79/panels-0.3.1.tar.gz
+[2023-06-21 12:13:53] INFO root fetch - processPackages [macrometa-target-bigquery]: executing diffoscope
+[2023-06-21 12:13:53] INFO root fetch - processPackages [macrometa-target-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-bigquery-0.0.8.tar.gz tmp/macrometa-target-bigquery-0.0.9.tar.gz --markdown 20230621/m/macrometa-target-bigquery/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 12:13:53] INFO root fetch - processPackages [sourceshot]: Downloading https://files.pythonhosted.org/packages/2d/4b/0fc6fe747a7455da4e51945c74be7f9c08d8e8771f789ef0d551efd0efa2/sourceshot-1.0.1.tar.gz
+[2023-06-21 12:13:53] INFO root fetch - processPackages [punpy]: Downloading https://files.pythonhosted.org/packages/c1/c8/86ff83071bc1e95db8b78a4a2239e12bf25780e6ffa151a18eef36dd85ad/punpy-0.8.2.tar.gz
+[2023-06-21 12:13:53] INFO root fetch - processPackages [homeassistant-historical-sensor]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant-historical-sensor-1.0.0a1.tar.gz]
+[2023-06-21 12:13:53] INFO root fetch - processPackages [homeassistant-historical-sensor]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant-historical-sensor-1.0.0a2.tar.gz]
+[2023-06-21 12:13:53] INFO root fetch - main [MainThread]: End processing [homeassistant-historical-sensor]: success
+[2023-06-21 12:13:54] INFO root fetch - processPackages [panels]: executing diffoscope
+[2023-06-21 12:13:54] INFO root fetch - processPackages [panels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panels-0.3.0.tar.gz tmp/panels-0.3.1.tar.gz --markdown 20230621/p/panels/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-21 12:13:54] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.8.tar.gz]
+[2023-06-21 12:13:54] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.9.tar.gz]
+[2023-06-21 12:13:54] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2023-06-21 12:13:54] INFO root fetch - processPackages [sourceshot]: Downloading https://files.pythonhosted.org/packages/e7/f9/ad73471dac84deefe81ed0ec82a4662aad2a93d832394f1de204f5d4c280/sourceshot-1.0.2.tar.gz
+[2023-06-21 12:13:54] INFO root fetch - processPackages [alibabacloud-pds-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pds_sdk-1.1.6.tar.gz]
+[2023-06-21 12:13:54] INFO root fetch - processPackages [alibabacloud-pds-sdk]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_pds_sdk-1.1.7.tar.gz]
+[2023-06-21 12:13:54] INFO root fetch - main [MainThread]: End processing [alibabacloud-pds-sdk]: success
+[2023-06-21 12:13:54] INFO root fetch - processPackages [punpy]: Downloading https://files.pythonhosted.org/packages/07/a1/6bc6efae7b59b163afd98856c5b0c21b7c0b2953a0904bcb434db787bf68/punpy-0.9.0.tar.gz
+[2023-06-21 12:13:54] INFO root fetch - processPackages [sourceshot]: executing diffoscope
+[2023-06-21 12:13:54] INFO root fetch - processPackages [sourceshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourceshot-1.0.1.tar.gz tmp/sourceshot-1.0.2.tar.gz --markdown 20230621/s/sourceshot/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-21 12:13:54] INFO root fetch - processPackages [punpy]: executing diffoscope
+[2023-06-21 12:13:54] INFO root fetch - processPackages [punpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/punpy-0.8.2.tar.gz tmp/punpy-0.9.0.tar.gz --markdown 20230621/p/punpy/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 12:13:54] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.4.tar.gz]
+[2023-06-21 12:13:54] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.5.tar.gz]
+[2023-06-21 12:13:54] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-06-21 12:13:55] INFO root fetch - processPackages [macrometa-target-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-bigquery-0.0.8.tar.gz]
+[2023-06-21 12:13:55] INFO root fetch - processPackages [macrometa-target-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-bigquery-0.0.9.tar.gz]
+[2023-06-21 12:13:55] INFO root fetch - main [MainThread]: End processing [macrometa-target-bigquery]: success
+[2023-06-21 12:13:55] INFO root fetch - processPackages [sourceshot]: Remove: archive file [/home/abi/fetcher/tmp/sourceshot-1.0.1.tar.gz]
+[2023-06-21 12:13:55] INFO root fetch - processPackages [sourceshot]: Remove: archive file [/home/abi/fetcher/tmp/sourceshot-1.0.2.tar.gz]
+[2023-06-21 12:13:55] INFO root fetch - main [MainThread]: End processing [sourceshot]: success
+[2023-06-21 12:13:55] INFO root fetch - processPackages [punpy]: Remove: archive file [/home/abi/fetcher/tmp/punpy-0.8.2.tar.gz]
+[2023-06-21 12:13:55] INFO root fetch - processPackages [punpy]: Remove: archive file [/home/abi/fetcher/tmp/punpy-0.9.0.tar.gz]
+[2023-06-21 12:13:55] INFO root fetch - main [MainThread]: End processing [punpy]: success
+[2023-06-21 12:13:56] INFO root fetch - processPackages [panels]: Remove: archive file [/home/abi/fetcher/tmp/panels-0.3.0.tar.gz]
+[2023-06-21 12:13:56] INFO root fetch - processPackages [panels]: Remove: archive file [/home/abi/fetcher/tmp/panels-0.3.1.tar.gz]
+[2023-06-21 12:13:56] INFO root fetch - main [MainThread]: End processing [panels]: success
+[2023-06-21 12:14:01] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.1.tar.gz]
+[2023-06-21 12:14:01] INFO root fetch - processPackages [prettyqt]: Remove: archive file [/home/abi/fetcher/tmp/prettyqt-1.9.2.tar.gz]
+[2023-06-21 12:14:01] INFO root fetch - main [MainThread]: End processing [prettyqt]: success
+[2023-06-21 12:14:46] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221206-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-21 12:14:46] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-21 12:14:46] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
+[2023-06-21 12:14:46] INFO root fetch - main [MainThread]: Store serial: [18588613]
