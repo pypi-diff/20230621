@@ -9289,3 +9289,51 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-21 03:50:09] INFO root fetch - processPackages [element-animal]: Remove: archive file [/home/abi/fetcher/tmp/element-animal-0.1.8.tar.gz]
 [2023-06-21 03:50:09] INFO root fetch - main [MainThread]: End processing [element-animal]: success
 [2023-06-21 03:50:09] INFO root fetch - main [MainThread]: Store serial: [18584158]
+[2023-06-21 03:55:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584158]
+[2023-06-21 03:55:18] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-21 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fastervit
+[2023-06-21 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hatch-project-pypi
+[2023-06-21 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cubestat
+[2023-06-21 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: element-session
+[2023-06-21 03:55:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: element-event
+[2023-06-21 03:55:18] INFO root fetch - processPackages [element-event]: New version: [0.2.3] Old Version: [0.2.0]
+[2023-06-21 03:55:18] INFO root fetch - processPackages [fastervit]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-21 03:55:18] INFO root fetch - processPackages [hatch-project-pypi]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 03:55:18] INFO root fetch - processPackages [element-session]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-06-21 03:55:18] INFO root fetch - processPackages [cubestat]: New version: [0.0.8] Old Version: [0.0.6]
+[2023-06-21 03:55:18] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/b6/c8/b22586174d6a3400ae101b3c1abedfc6aaf7a271a5b1dd8d02817cdf177d/hatch_project_pypi-0.0.3.tar.gz
+[2023-06-21 03:55:18] INFO root fetch - processPackages [element-event]: Downloading https://files.pythonhosted.org/packages/b2/2c/505098e930b03b03aba581eaca3e8a1a6fff046259522cd1460c16d92d08/element-event-0.2.0.tar.gz
+[2023-06-21 03:55:18] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/a2/9c/587371db2c8f7e5b68723e712173daa9d4c40eaa0b8b08d3134b8fab8667/fastervit-0.8.7.tar.gz
+[2023-06-21 03:55:18] INFO root fetch - processPackages [element-session]: Downloading https://files.pythonhosted.org/packages/25/5e/c51807a7e8034e6299e8118dccdb9ebb3fb8680f2ca8b21366c1b030410b/element-session-0.1.2.tar.gz
+[2023-06-21 03:55:18] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/6c/6b/8273459eb9d2beced57bc39b4bd434eddf8ec5b85c2049af82242f7b39a9/cubestat-0.0.6.tar.gz
+[2023-06-21 03:55:18] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/a2/4a/94f1515e7e89c7fb338b4ea9c607db59c6c5c5f8d88a1eefc0ef07f2c74d/hatch_project_pypi-0.0.4.tar.gz
+[2023-06-21 03:55:18] INFO root fetch - processPackages [hatch-project-pypi]: executing diffoscope
+[2023-06-21 03:55:18] INFO root fetch - processPackages [hatch-project-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi-0.0.3.tar.gz tmp/hatch_project_pypi-0.0.4.tar.gz --markdown 20230621/h/hatch-project-pypi/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 03:55:19] INFO root fetch - processPackages [cubestat]: Downloading https://files.pythonhosted.org/packages/17/14/78fec0e611f3e8eebd23ae925d6a8d908e61364d7e25fe4fb75cf0cc4ed9/cubestat-0.0.8.tar.gz
+[2023-06-21 03:55:19] INFO root fetch - processPackages [fastervit]: Downloading https://files.pythonhosted.org/packages/ea/ab/298023a9439bc63022ac0b5adcce14ec638e905636a4d11b96e2a2233407/fastervit-0.8.8.tar.gz
+[2023-06-21 03:55:19] INFO root fetch - processPackages [element-event]: Downloading https://files.pythonhosted.org/packages/09/0f/088fdd1c49db052f94dd2b728256967d5618cc61586ef2c773226d9415dc/element-event-0.2.3.tar.gz
+[2023-06-21 03:55:19] INFO root fetch - processPackages [fastervit]: executing diffoscope
+[2023-06-21 03:55:19] INFO root fetch - processPackages [fastervit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastervit-0.8.7.tar.gz tmp/fastervit-0.8.8.tar.gz --markdown 20230621/f/fastervit/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-21 03:55:19] INFO root fetch - processPackages [cubestat]: executing diffoscope
+[2023-06-21 03:55:19] INFO root fetch - processPackages [cubestat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubestat-0.0.6.tar.gz tmp/cubestat-0.0.8.tar.gz --markdown 20230621/c/cubestat/0.0.6-0.0.8/diff.md --exclude *.pyd
+[2023-06-21 03:55:19] INFO root fetch - processPackages [element-event]: executing diffoscope
+[2023-06-21 03:55:19] INFO root fetch - processPackages [element-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-event-0.2.0.tar.gz tmp/element-event-0.2.3.tar.gz --markdown 20230621/e/element-event/0.2.0-0.2.3/diff.md --exclude *.pyd
+[2023-06-21 03:55:19] INFO root fetch - processPackages [element-session]: Downloading https://files.pythonhosted.org/packages/35/a0/29df100a4d135406f7a075373fa795925ba29571f5749e12d0b5ff0bc107/element-session-0.1.5.tar.gz
+[2023-06-21 03:55:19] INFO root fetch - processPackages [element-session]: executing diffoscope
+[2023-06-21 03:55:19] INFO root fetch - processPackages [element-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-session-0.1.2.tar.gz tmp/element-session-0.1.5.tar.gz --markdown 20230621/e/element-session/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-06-21 03:55:20] INFO root fetch - processPackages [hatch-project-pypi]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi-0.0.3.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - processPackages [hatch-project-pypi]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi-0.0.4.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi]: success
+[2023-06-21 03:55:20] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.6.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - processPackages [cubestat]: Remove: archive file [/home/abi/fetcher/tmp/cubestat-0.0.8.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - main [MainThread]: End processing [cubestat]: success
+[2023-06-21 03:55:20] INFO root fetch - processPackages [element-event]: Remove: archive file [/home/abi/fetcher/tmp/element-event-0.2.0.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - processPackages [element-event]: Remove: archive file [/home/abi/fetcher/tmp/element-event-0.2.3.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - main [MainThread]: End processing [element-event]: success
+[2023-06-21 03:55:20] INFO root fetch - processPackages [element-session]: Remove: archive file [/home/abi/fetcher/tmp/element-session-0.1.2.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - processPackages [element-session]: Remove: archive file [/home/abi/fetcher/tmp/element-session-0.1.5.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - main [MainThread]: End processing [element-session]: success
+[2023-06-21 03:55:20] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.7.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - processPackages [fastervit]: Remove: archive file [/home/abi/fetcher/tmp/fastervit-0.8.8.tar.gz]
+[2023-06-21 03:55:20] INFO root fetch - main [MainThread]: End processing [fastervit]: success
+[2023-06-21 03:55:20] INFO root fetch - main [MainThread]: Store serial: [18584183]

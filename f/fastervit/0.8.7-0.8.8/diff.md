@@ -1,0 +1,2590 @@
+# Comparing `tmp/fastervit-0.8.7.tar.gz` & `tmp/fastervit-0.8.8.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "/home/ali/Desktop/Gitlab_repos/FasterViT_pip_test/dist/.tmp-z0jp8_f6/fastervit-0.8.7.tar", last modified: Mon Jun 19 14:15:49 2023, max compression
++gzip compressed data, was "/home/ali/Desktop/Gitlab_repos/FasterViT_pip_test/dist/.tmp-0qqt6cya/fastervit-0.8.8.tar", last modified: Wed Jun 21 01:50:06 2023, max compression
+```
+
+## Comparing `fastervit-0.8.7.tar` & `fastervit-0.8.8.tar`
+
+### file list
+
+```diff
+@@ -1,35 +1,35 @@
+-drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-19 14:15:49.000000 fastervit-0.8.7/
+--rw-rw-r--   0 ali       (1000) ali       (1000)     4146 2023-06-17 23:20:57.000000 fastervit-0.8.7/LICENSE
+--rw-rw-r--   0 ali       (1000) ali       (1000)       45 2023-06-19 01:32:21.000000 fastervit-0.8.7/MANIFEST.in
+--rw-rw-r--   0 ali       (1000) ali       (1000)     9356 2023-06-19 14:15:49.000000 fastervit-0.8.7/PKG-INFO
+--rw-rw-r--   0 ali       (1000) ali       (1000)     8406 2023-06-19 14:15:25.000000 fastervit-0.8.7/README.md
+-drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit/
+--rw-rw-r--   0 ali       (1000) ali       (1000)       41 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/__init__.py
+-drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit/assets/
+--rw-rw-r--   0 ali       (1000) ali       (1000)   100537 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/assets/hierarchial_attn.png
+-drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit/models/
+--rw-rw-r--   0 ali       (1000) ali       (1000)       96 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/models/__init__.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)    46959 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/models/faster_vit.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)    48698 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/models/faster_vit_any_res.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     7840 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/models/registry.py
+-drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit/scheduler/
+--rw-rw-r--   0 ali       (1000) ali       (1000)      291 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/__init__.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     4161 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/cosine_lr.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     2098 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/multistep_lr.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     3457 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/plateau_lr.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     4003 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/poly_lr.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     5095 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/scheduler.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     3907 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/scheduler_factory.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     1902 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/step_lr.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)     3936 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/scheduler/tanh_lr.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)      734 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/tensorboard.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)    49797 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/train.py
+--rw-rw-r--   0 ali       (1000) ali       (1000)    16145 2023-06-19 14:07:51.000000 fastervit-0.8.7/fastervit/validate.py
+-drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit.egg-info/
+--rw-rw-r--   0 ali       (1000) ali       (1000)     9356 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit.egg-info/PKG-INFO
+--rw-rw-r--   0 ali       (1000) ali       (1000)      768 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit.egg-info/SOURCES.txt
+--rw-rw-r--   0 ali       (1000) ali       (1000)        1 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit.egg-info/dependency_links.txt
+--rw-rw-r--   0 ali       (1000) ali       (1000)       32 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit.egg-info/requires.txt
+--rw-rw-r--   0 ali       (1000) ali       (1000)       10 2023-06-19 14:15:49.000000 fastervit-0.8.7/fastervit.egg-info/top_level.txt
+--rw-rw-r--   0 ali       (1000) ali       (1000)      126 2023-06-19 14:15:49.000000 fastervit-0.8.7/setup.cfg
+--rw-rw-r--   0 ali       (1000) ali       (1000)     1549 2023-06-19 14:15:38.000000 fastervit-0.8.7/setup.py
++drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-21 01:50:06.000000 fastervit-0.8.8/
++-rw-rw-r--   0 ali       (1000) ali       (1000)     4146 2023-06-21 01:30:26.000000 fastervit-0.8.8/LICENSE
++-rw-rw-r--   0 ali       (1000) ali       (1000)       45 2023-06-21 01:30:26.000000 fastervit-0.8.8/MANIFEST.in
++-rw-rw-r--   0 ali       (1000) ali       (1000)     9390 2023-06-21 01:50:06.000000 fastervit-0.8.8/PKG-INFO
++-rw-rw-r--   0 ali       (1000) ali       (1000)     8440 2023-06-21 01:49:57.000000 fastervit-0.8.8/README.md
++drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit/
++-rw-rw-r--   0 ali       (1000) ali       (1000)       41 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/__init__.py
++drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit/assets/
++-rw-rw-r--   0 ali       (1000) ali       (1000)   100537 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/assets/hierarchial_attn.png
++drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit/models/
++-rw-rw-r--   0 ali       (1000) ali       (1000)       96 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/models/__init__.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)    47103 2023-06-21 01:34:03.000000 fastervit-0.8.8/fastervit/models/faster_vit.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)    48860 2023-06-21 01:36:32.000000 fastervit-0.8.8/fastervit/models/faster_vit_any_res.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     7844 2023-06-21 01:32:20.000000 fastervit-0.8.8/fastervit/models/registry.py
++drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit/scheduler/
++-rw-rw-r--   0 ali       (1000) ali       (1000)      291 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/__init__.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     4161 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/cosine_lr.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     2098 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/multistep_lr.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     3457 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/plateau_lr.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     4003 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/poly_lr.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     5095 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/scheduler.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     3907 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/scheduler_factory.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     1902 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/step_lr.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)     3936 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/scheduler/tanh_lr.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)      734 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/tensorboard.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)    49797 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/train.py
++-rw-rw-r--   0 ali       (1000) ali       (1000)    16145 2023-06-21 01:30:26.000000 fastervit-0.8.8/fastervit/validate.py
++drwxrwxr-x   0 ali       (1000) ali       (1000)        0 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit.egg-info/
++-rw-rw-r--   0 ali       (1000) ali       (1000)     9390 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit.egg-info/PKG-INFO
++-rw-rw-r--   0 ali       (1000) ali       (1000)      768 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit.egg-info/SOURCES.txt
++-rw-rw-r--   0 ali       (1000) ali       (1000)        1 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit.egg-info/dependency_links.txt
++-rw-rw-r--   0 ali       (1000) ali       (1000)       32 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit.egg-info/requires.txt
++-rw-rw-r--   0 ali       (1000) ali       (1000)       10 2023-06-21 01:50:06.000000 fastervit-0.8.8/fastervit.egg-info/top_level.txt
++-rw-rw-r--   0 ali       (1000) ali       (1000)      126 2023-06-21 01:50:06.000000 fastervit-0.8.8/setup.cfg
++-rw-rw-r--   0 ali       (1000) ali       (1000)     1549 2023-06-21 01:31:44.000000 fastervit-0.8.8/setup.py
+```
+
+### Comparing `fastervit-0.8.7/LICENSE` & `fastervit-0.8.8/LICENSE`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/PKG-INFO` & `fastervit-0.8.8/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310a 4e61 6d65 3a20 6661 7374  : 2.1.Name: fast
+ 00000020: 6572 7669 740a 5665 7273 696f 6e3a 2030  ervit.Version: 0
+-00000030: 2e38 2e37 0a53 756d 6d61 7279 3a20 4661  .8.7.Summary: Fa
++00000030: 2e38 2e38 0a53 756d 6d61 7279 3a20 4661  .8.8.Summary: Fa
+ 00000040: 7374 6572 5669 543a 2046 6173 7420 5669  sterViT: Fast Vi
+ 00000050: 7369 6f6e 2054 7261 6e73 666f 726d 6572  sion Transformer
+ 00000060: 7320 7769 7468 2048 6965 7261 7263 6869  s with Hierarchi
+ 00000070: 6361 6c20 4174 7465 6e74 696f 6e0a 486f  cal Attention.Ho
+ 00000080: 6d65 2d70 6167 653a 2068 7474 7073 3a2f  me-page: https:/
+ 00000090: 2f67 6974 6875 622e 636f 6d2f 4e56 6c61  /github.com/NVla
+ 000000a0: 6273 2f46 6173 7465 7256 6954 0a41 7574  bs/FasterViT.Aut
+@@ -108,478 +108,480 @@
+ 000006b0: 0a0a 2d2d 2d20 0a0a 4661 7374 6572 5669  ..--- ..FasterVi
+ 000006c0: 5420 6163 6869 6576 6573 2061 206e 6577  T achieves a new
+ 000006d0: 2053 4f54 4120 5061 7265 746f 2d66 726f   SOTA Pareto-fro
+ 000006e0: 6e74 2069 6e0a 7465 726d 7320 6f66 2061  nt in.terms of a
+ 000006f0: 6363 7572 6163 7920 7673 2e20 696d 6167  ccuracy vs. imag
+ 00000700: 6520 7468 726f 7567 6870 7574 2028 6e6f  e throughput (no
+ 00000710: 2065 7874 7261 2074 7261 696e 696e 6720   extra training 
+-00000720: 6461 7461 2021 290a 0a3c 7020 616c 6967  data !)..<p alig
+-00000730: 6e3d 2263 656e 7465 7222 3e0a 3c69 6d67  n="center">.<img
+-00000740: 2073 7263 3d22 6874 7470 733a 2f2f 6769   src="https://gi
+-00000750: 7468 7562 2e63 6f6d 2f4e 566c 6162 732f  thub.com/NVlabs/
+-00000760: 4661 7374 6572 5669 542f 6173 7365 7473  FasterViT/assets
+-00000770: 2f32 3638 3036 3339 342f 3235 3364 3161  /26806394/253d1a
+-00000780: 3265 2d62 3566 352d 3461 3962 2d61 3336  2e-b5f5-4a9b-a36
+-00000790: 322d 3663 6464 3136 6266 6363 6331 2220  2-6cdd16bfccc1" 
+-000007a0: 7769 6474 683d 3632 2520 6865 6967 6874  width=62% height
+-000007b0: 3d36 3225 200a 636c 6173 733d 2263 656e  =62% .class="cen
+-000007c0: 7465 7222 3e0a 3c2f 703e 0a0a 3c21 2d2d  ter">.</p>..<!--
+-000007d0: 200a 5765 2069 6e74 726f 6475 6365 2061   .We introduce a
+-000007e0: 206e 6577 2073 656c 662d 6174 7465 6e74   new self-attent
+-000007f0: 696f 6e20 6d65 6368 616e 6973 6d2c 2064  ion mechanism, d
+-00000800: 656e 6f74 6564 2061 7320 4869 6572 6172  enoted as Hierar
+-00000810: 6368 6963 616c 0a41 7474 656e 7469 6f6e  chical.Attention
+-00000820: 2028 4841 5429 2c20 7468 6174 2063 6170   (HAT), that cap
+-00000830: 7475 7265 7320 626f 7468 2073 686f 7274  tures both short
+-00000840: 2061 6e64 206c 6f6e 672d 7261 6e67 6520   and long-range 
+-00000850: 696e 666f 726d 6174 696f 6e20 6279 206c  information by l
+-00000860: 6561 726e 696e 670a 6372 6f73 732d 7769  earning.cross-wi
+-00000870: 6e64 6f77 2063 6172 7269 6572 2074 6f6b  ndow carrier tok
+-00000880: 656e 732e 0a0a 215b 7465 6173 6572 5d28  ens...![teaser](
+-00000890: 2e2f 6661 7374 6572 7669 742f 6173 7365  ./fastervit/asse
+-000008a0: 7473 2f68 6965 7261 7263 6869 616c 5f61  ts/hierarchial_a
+-000008b0: 7474 6e2e 706e 6729 202d 2d3e 0a0a 0a23  ttn.png) -->...#
+-000008c0: 2320 f09f 92a5 204e 6577 7320 f09f 92a5  # .... News ....
+-000008d0: 0a0a 2d20 2a2a 5b30 362e 3138 2e32 3032  ..- **[06.18.202
+-000008e0: 335d 2a2a 20f0 9f94 a520 5765 2068 6176  3]** .... We hav
+-000008f0: 6520 7265 6c65 6173 6564 2074 6865 2046  e released the F
+-00000900: 6173 7465 7256 6954 205b 7069 7020 7061  asterViT [pip pa
+-00000910: 636b 6167 655d 2868 7474 7073 3a2f 2f70  ckage](https://p
+-00000920: 7970 692e 6f72 672f 7072 6f6a 6563 742f  ypi.org/project/
+-00000930: 6661 7374 6572 7669 742f 2920 210a 2d20  fastervit/) !.- 
+-00000940: 2a2a 5b30 362e 3137 2e32 3032 335d 2a2a  **[06.17.2023]**
+-00000950: 20f0 9f94 a520 5b41 6e79 2d72 6573 6f6c   .... [Any-resol
+-00000960: 7574 696f 6e20 4661 7374 6572 5669 545d  ution FasterViT]
+-00000970: 282e 2f66 6173 7465 7276 6974 2f6d 6f64  (./fastervit/mod
+-00000980: 656c 732f 6661 7374 6572 5f76 6974 5f61  els/faster_vit_a
+-00000990: 6e79 5f72 6573 2e70 7929 2020 6d6f 6465  ny_res.py)  mode
+-000009a0: 6c20 6973 206e 6f77 2061 7661 696c 6162  l is now availab
+-000009b0: 6c65 2021 2074 6865 206d 6f64 656c 2063  le ! the model c
+-000009c0: 616e 2062 6520 7573 6564 2066 6f72 2076  an be used for v
+-000009d0: 6172 6965 7479 206f 6620 6170 706c 6963  ariety of applic
+-000009e0: 6174 696f 6e73 2073 7563 6820 6173 2064  ations such as d
+-000009f0: 6574 6563 7469 6f6e 2061 6e64 2073 6567  etection and seg
+-00000a00: 6d65 6e74 6174 696f 6e20 6f72 2068 6967  mentation or hig
+-00000a10: 682d 7265 736f 6c75 7469 6f6e 2066 696e  h-resolution fin
+-00000a20: 652d 7475 6e69 6e67 2077 6974 6820 6172  e-tuning with ar
+-00000a30: 6269 7472 6172 7920 696e 7075 7420 696d  bitrary input im
+-00000a40: 6167 6520 7265 736f 6c75 7469 6f6e 732e  age resolutions.
+-00000a50: 200a 2d20 2a2a 5b30 362e 3039 2e32 3032   .- **[06.09.202
+-00000a60: 335d 2a2a 20f0 9f94 a5f0 9f94 a520 5765  3]** ........ We
+-00000a70: 2068 6176 6520 7265 6c65 6173 6564 2073   have released s
+-00000a80: 6f75 7263 6520 636f 6465 2061 6e64 2049  ource code and I
+-00000a90: 6d61 6765 4e65 742d 314b 2046 6173 7465  mageNet-1K Faste
+-00000aa0: 7256 6954 2d6d 6f64 656c 7320 210a 0a23  rViT-models !..#
+-00000ab0: 2320 5175 6963 6b20 5374 6172 740a 0a54  # Quick Start..T
+-00000ac0: 6865 2046 6173 7465 7256 6954 2063 616e  he FasterViT can
+-00000ad0: 2062 6520 636f 6e76 656e 6965 6e74 6c79   be conveniently
+-00000ae0: 2069 6e73 7461 6c6c 6564 2062 793a 0a0a   installed by:..
+-00000af0: 6060 6062 6173 680a 7069 7020 696e 7374  ```bash.pip inst
+-00000b00: 616c 6c20 6661 7374 6572 7669 740a 6060  all fastervit.``
+-00000b10: 600a 0a41 2046 6173 7465 7256 6954 206d  `..A FasterViT m
+-00000b20: 6f64 656c 2077 6974 6820 6465 6661 756c  odel with defaul
+-00000b30: 7420 6879 7065 722d 7061 7261 6d65 7465  t hyper-paramete
+-00000b40: 7273 2063 616e 2062 6520 6372 6561 7465  rs can be create
+-00000b50: 6420 6173 2069 6e20 7468 6520 666f 6c6c  d as in the foll
+-00000b60: 6f77 696e 673a 0a0a 6060 6070 7974 686f  owing:..```pytho
+-00000b70: 6e0a 3e3e 3e20 6672 6f6d 2066 6173 7465  n.>>> from faste
+-00000b80: 7276 6974 2069 6d70 6f72 7420 6372 6561  rvit import crea
+-00000b90: 7465 5f6d 6f64 656c 0a0a 2320 4465 6669  te_model..# Defi
+-00000ba0: 6e65 2066 6173 7465 7276 6974 2d30 206d  ne fastervit-0 m
+-00000bb0: 6f64 656c 2077 6974 6820 3232 3420 7820  odel with 224 x 
+-00000bc0: 3232 3420 7265 736f 6c75 7469 6f6e 0a3e  224 resolution.>
+-00000bd0: 3e3e 206d 6f64 656c 203d 2063 7265 6174  >> model = creat
+-00000be0: 655f 6d6f 6465 6c28 2766 6173 7465 725f  e_model('faster_
+-00000bf0: 7669 745f 305f 3232 3427 290a 6060 600a  vit_0_224').```.
+-00000c00: 0a57 6520 6361 6e20 616c 736f 2075 7365  .We can also use
+-00000c10: 2074 6865 2061 6e79 2d72 6573 6f6c 7574   the any-resolut
+-00000c20: 696f 6e20 4661 7374 6572 5669 5420 6d6f  ion FasterViT mo
+-00000c30: 6465 6c20 746f 2061 6363 6f6d 6d6f 6461  del to accommoda
+-00000c40: 7465 2061 7262 6974 7261 7279 2069 6d61  te arbitrary ima
+-00000c50: 6765 2072 6573 6f6c 7574 696f 6e73 2e20  ge resolutions. 
+-00000c60: 496e 2074 6865 2066 6f6c 6c6f 7769 6e67  In the following
+-00000c70: 2c20 7765 2064 6566 696e 6520 616e 2061  , we define an a
+-00000c80: 6e79 2d72 6573 6f6c 7574 696f 6e20 4661  ny-resolution Fa
+-00000c90: 7374 6572 5669 542d 310a 6d6f 6465 6c20  sterViT-1.model 
+-00000ca0: 7769 7468 2069 6e70 7574 2072 6573 6f6c  with input resol
+-00000cb0: 7574 696f 6e20 6f66 2035 3736 2078 2039  ution of 576 x 9
+-00000cc0: 3630 2c20 7769 6e64 6f77 2073 697a 6573  60, window sizes
+-00000cd0: 206f 6620 3132 2061 6e64 2036 2069 6e20   of 12 and 6 in 
+-00000ce0: 3372 6420 616e 6420 3474 6820 7374 6167  3rd and 4th stag
+-00000cf0: 6573 2c20 6361 7272 6965 7220 746f 6b65  es, carrier toke
+-00000d00: 6e20 7369 7a65 206f 6620 3220 616e 6420  n size of 2 and 
+-00000d10: 656d 6265 6464 696e 6720 6469 6d65 6e73  embedding dimens
+-00000d20: 696f 6e20 6f66 0a31 3238 3a0a 0a60 6060  ion of.128:..```
+-00000d30: 7079 7468 6f6e 0a3e 3e3e 2066 726f 6d20  python.>>> from 
+-00000d40: 6661 7374 6572 7669 7420 696d 706f 7274  fastervit import
+-00000d50: 2063 7265 6174 655f 6d6f 6465 6c0a 0a23   create_model..#
+-00000d60: 2044 6566 696e 6520 616e 792d 7265 736f   Define any-reso
+-00000d70: 6c75 7469 6f6e 2046 6173 7465 7256 6954  lution FasterViT
+-00000d80: 2d31 206d 6f64 656c 2077 6974 6820 3537  -1 model with 57
+-00000d90: 3620 7820 3936 3020 7265 736f 6c75 7469  6 x 960 resoluti
+-00000da0: 6f6e 0a3e 3e3e 206d 6f64 656c 203d 2063  on.>>> model = c
+-00000db0: 7265 6174 655f 6d6f 6465 6c28 2766 6173  reate_model('fas
+-00000dc0: 7465 725f 7669 745f 315f 616e 795f 7265  ter_vit_1_any_re
+-00000dd0: 7327 2c20 0a20 2020 2020 2020 2020 2020  s', .           
+-00000de0: 2020 2020 2020 2020 2020 2020 2020 2072                 r
+-00000df0: 6573 6f6c 7574 696f 6e3d 5b35 3736 2c20  esolution=[576, 
+-00000e00: 3936 305d 2c0a 2020 2020 2020 2020 2020  960],.          
+-00000e10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000e20: 7769 6e64 6f77 5f73 697a 653d 5b37 2c20  window_size=[7, 
+-00000e30: 372c 2031 322c 2036 5d2c 0a20 2020 2020  7, 12, 6],.     
+-00000e40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000e50: 2020 2020 2063 745f 7369 7a65 3d32 2c0a       ct_size=2,.
+-00000e60: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000e70: 2020 2020 2020 2020 2020 6469 6d3d 3132            dim=12
+-00000e80: 3829 0a60 6060 0a0a 3c21 2d2d 2023 2320  8).```..<!-- ## 
+-00000e90: 4361 7461 6c6f 670a 2d20 5b78 5d20 496d  Catalog.- [x] Im
+-00000ea0: 6167 654e 6574 2d31 4b20 7472 6169 6e69  ageNet-1K traini
+-00000eb0: 6e67 2063 6f64 650a 2d20 5b78 5d20 496d  ng code.- [x] Im
+-00000ec0: 6167 654e 6574 2d31 4b20 7072 652d 7472  ageNet-1K pre-tr
+-00000ed0: 6169 6e65 6420 6d6f 6465 6c73 0a2d 205b  ained models.- [
+-00000ee0: 785d 2041 6e79 2d72 6573 6f6c 7574 696f  x] Any-resolutio
+-00000ef0: 6e20 4661 7374 6572 5669 540a 2d20 5b78  n FasterViT.- [x
+-00000f00: 5d20 4661 7374 6572 5669 5420 7069 702d  ] FasterViT pip-
+-00000f10: 7061 636b 6167 6520 7265 6c65 6173 650a  package release.
+-00000f20: 2d20 5b20 5d20 496d 6167 654e 6574 2d32  - [ ] ImageNet-2
+-00000f30: 314b 2070 7265 2d74 7261 696e 6564 206d  1K pre-trained m
+-00000f40: 6f64 656c 730a 2d20 5b20 5d20 496d 6167  odels.- [ ] Imag
+-00000f50: 654e 6574 2d32 314b 2066 696e 652d 7475  eNet-21K fine-tu
+-00000f60: 6e65 2073 6372 6970 7473 0a2d 205b 205d  ne scripts.- [ ]
+-00000f70: 2044 6574 6563 7469 6f6e 2063 6f64 6520   Detection code 
+-00000f80: 2844 494e 4f29 202b 206d 6f64 656c 730a  (DINO) + models.
+-00000f90: 2d20 5b20 5d20 5365 676d 656e 7461 7469  - [ ] Segmentati
+-00000fa0: 6f6e 2063 6f64 6520 2b20 6d6f 6465 6c73  on code + models
+-00000fb0: 202d 2d3e 0a0a 2d2d 2d20 0a0a 2323 2052   -->..--- ..## R
+-00000fc0: 6573 756c 7473 202b 2050 7265 7472 6169  esults + Pretrai
+-00000fd0: 6e65 6420 4d6f 6465 6c73 0a0a 2323 2320  ned Models..### 
+-00000fe0: 496d 6167 654e 6574 2d31 4b0a 2a2a 4661  ImageNet-1K.**Fa
+-00000ff0: 7374 6572 5669 5420 496d 6167 654e 6574  sterViT ImageNet
+-00001000: 2d31 4b20 5072 6574 7261 696e 6564 204d  -1K Pretrained M
+-00001010: 6f64 656c 732a 2a0a 0a3c 7461 626c 653e  odels**..<table>
+-00001020: 0a20 203c 7472 3e0a 2020 2020 3c74 683e  .  <tr>.    <th>
+-00001030: 4e61 6d65 3c2f 7468 3e0a 2020 2020 3c74  Name</th>.    <t
+-00001040: 683e 4163 6340 3128 2529 3c2f 7468 3e0a  h>Acc@1(%)</th>.
+-00001050: 2020 2020 3c74 683e 4163 6340 3528 2529      <th>Acc@5(%)
+-00001060: 3c2f 7468 3e0a 2020 2020 3c74 683e 5468  </th>.    <th>Th
+-00001070: 726f 7567 6870 7574 2849 6d67 2f53 6563  roughput(Img/Sec
+-00001080: 293c 2f74 683e 0a20 2020 203c 7468 3e52  )</th>.    <th>R
+-00001090: 6573 6f6c 7574 696f 6e3c 2f74 683e 0a20  esolution</th>. 
+-000010a0: 2020 203c 7468 3e23 5061 7261 6d73 284d     <th>#Params(M
+-000010b0: 293c 2f74 683e 0a20 2020 203c 7468 3e46  )</th>.    <th>F
+-000010c0: 4c4f 5073 2847 293c 2f74 683e 0a20 2020  LOPs(G)</th>.   
+-000010d0: 203c 7468 3e44 6f77 6e6c 6f61 643c 2f74   <th>Download</t
+-000010e0: 683e 0a20 203c 2f74 723e 0a0a 3c74 723e  h>.  </tr>..<tr>
+-000010f0: 0a20 2020 203c 7464 3e46 6173 7465 7256  .    <td>FasterV
+-00001100: 6954 2d30 3c2f 7464 3e0a 2020 2020 3c74  iT-0</td>.    <t
+-00001110: 643e 3832 2e31 3c2f 7464 3e0a 2020 2020  d>82.1</td>.    
+-00001120: 3c74 643e 3935 2e39 3c2f 7464 3e0a 2020  <td>95.9</td>.  
+-00001130: 2020 3c74 643e 3538 3032 3c2f 7464 3e0a    <td>5802</td>.
+-00001140: 2020 2020 3c74 643e 3232 3478 3232 343c      <td>224x224<
+-00001150: 2f74 643e 0a20 2020 203c 7464 3e33 312e  /td>.    <td>31.
+-00001160: 343c 2f74 643e 0a20 2020 203c 7464 3e33  4</td>.    <td>3
+-00001170: 2e33 3c2f 7464 3e0a 2020 2020 3c74 643e  .3</td>.    <td>
+-00001180: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001190: 2f64 7269 7665 2e67 6f6f 676c 652e 636f  /drive.google.co
+-000011a0: 6d2f 7563 3f65 7870 6f72 743d 646f 776e  m/uc?export=down
+-000011b0: 6c6f 6164 2669 643d 3174 7749 324c 464a  load&id=1twI2LFJ
+-000011c0: 7333 3931 5972 6a38 4d52 3455 6939 5066  s391Yrj8MR4Ui9Pf
+-000011d0: 7276 5771 6a45 3169 4222 3e6d 6f64 656c  rvWqjE1iB">model
+-000011e0: 3c2f 613e 3c2f 7464 3e0a 3c2f 7472 3e0a  </a></td>.</tr>.
+-000011f0: 0a3c 7472 3e0a 2020 2020 3c74 643e 4661  .<tr>.    <td>Fa
+-00001200: 7374 6572 5669 542d 313c 2f74 643e 0a20  sterViT-1</td>. 
+-00001210: 2020 203c 7464 3e38 332e 323c 2f74 643e     <td>83.2</td>
+-00001220: 0a20 2020 203c 7464 3e39 362e 353c 2f74  .    <td>96.5</t
+-00001230: 643e 0a20 2020 203c 7464 3e34 3138 383c  d>.    <td>4188<
+-00001240: 2f74 643e 0a20 2020 203c 7464 3e32 3234  /td>.    <td>224
+-00001250: 7832 3234 3c2f 7464 3e0a 2020 2020 3c74  x224</td>.    <t
+-00001260: 643e 3533 2e34 3c2f 7464 3e0a 2020 2020  d>53.4</td>.    
+-00001270: 3c74 643e 352e 333c 2f74 643e 0a20 2020  <td>5.3</td>.   
+-00001280: 203c 7464 3e3c 6120 6872 6566 3d22 6874   <td><a href="ht
+-00001290: 7470 733a 2f2f 6472 6976 652e 676f 6f67  tps://drive.goog
+-000012a0: 6c65 2e63 6f6d 2f75 633f 6578 706f 7274  le.com/uc?export
+-000012b0: 3d64 6f77 6e6c 6f61 6426 6964 3d31 7237  =download&id=1r7
+-000012c0: 5731 306e 352d 6246 744d 3373 7a34 626d  W10n5-bFtM3sz4bm
+-000012d0: 614c 726f 774e 3267 5950 6b4c 4754 223e  aLrowN2gYPkLGT">
+-000012e0: 6d6f 6465 6c3c 2f61 3e3c 2f74 643e 0a3c  model</a></td>.<
+-000012f0: 2f74 723e 0a0a 3c74 723e 0a20 2020 203c  /tr>..<tr>.    <
+-00001300: 7464 3e46 6173 7465 7256 6954 2d32 3c2f  td>FasterViT-2</
+-00001310: 7464 3e0a 2020 2020 3c74 643e 3834 2e32  td>.    <td>84.2
+-00001320: 3c2f 7464 3e0a 2020 2020 3c74 643e 3936  </td>.    <td>96
+-00001330: 2e38 3c2f 7464 3e0a 2020 2020 3c74 643e  .8</td>.    <td>
+-00001340: 3331 3631 3c2f 7464 3e0a 2020 2020 3c74  3161</td>.    <t
+-00001350: 643e 3232 3478 3232 343c 2f74 643e 0a20  d>224x224</td>. 
+-00001360: 2020 203c 7464 3e37 352e 393c 2f74 643e     <td>75.9</td>
+-00001370: 0a20 2020 203c 7464 3e38 2e37 3c2f 7464  .    <td>8.7</td
+-00001380: 3e0a 2020 2020 3c74 643e 3c61 2068 7265  >.    <td><a hre
+-00001390: 663d 2268 7474 7073 3a2f 2f64 7269 7665  f="https://drive
+-000013a0: 2e67 6f6f 676c 652e 636f 6d2f 7563 3f65  .google.com/uc?e
+-000013b0: 7870 6f72 743d 646f 776e 6c6f 6164 2669  xport=download&i
+-000013c0: 643d 316e 5f61 3673 3070 6769 306a 565a  d=1n_a6s0pgi0jVZ
+-000013d0: 4f47 6d44 6569 3276 5848 5535 4536 5248  OGmDei2vXHU5E6RH
+-000013e0: 3577 5522 3e6d 6f64 656c 3c2f 613e 3c2f  5wU">model</a></
+-000013f0: 7464 3e0a 3c2f 7472 3e0a 0a3c 7472 3e0a  td>.</tr>..<tr>.
+-00001400: 2020 2020 3c74 643e 4661 7374 6572 5669      <td>FasterVi
+-00001410: 542d 333c 2f74 643e 0a20 2020 203c 7464  T-3</td>.    <td
+-00001420: 3e38 342e 393c 2f74 643e 0a20 2020 203c  >84.9</td>.    <
+-00001430: 7464 3e39 372e 323c 2f74 643e 0a20 2020  td>97.2</td>.   
+-00001440: 203c 7464 3e31 3738 303c 2f74 643e 0a20   <td>1780</td>. 
+-00001450: 2020 203c 7464 3e32 3234 7832 3234 3c2f     <td>224x224</
+-00001460: 7464 3e0a 2020 2020 3c74 643e 3135 392e  td>.    <td>159.
+-00001470: 353c 2f74 643e 0a20 2020 203c 7464 3e31  5</td>.    <td>1
+-00001480: 382e 323c 2f74 643e 0a20 2020 203c 7464  8.2</td>.    <td
+-00001490: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-000014a0: 2f2f 6472 6976 652e 676f 6f67 6c65 2e63  //drive.google.c
+-000014b0: 6f6d 2f75 633f 6578 706f 7274 3d64 6f77  om/uc?export=dow
+-000014c0: 6e6c 6f61 6426 6964 3d31 7476 5745 6c5a  nload&id=1tvWElZ
+-000014d0: 3931 5369 6132 5373 5859 5846 4d4e 5951  91Sia2SsXYXFMNYQ
+-000014e0: 7766 6970 4378 7449 3758 223e 6d6f 6465  wfipCxtI7X">mode
+-000014f0: 6c3c 2f61 3e3c 2f74 643e 0a3c 2f74 723e  l</a></td>.</tr>
+-00001500: 0a0a 3c74 723e 0a20 2020 203c 7464 3e46  ..<tr>.    <td>F
+-00001510: 6173 7465 7256 6954 2d34 3c2f 7464 3e0a  asterViT-4</td>.
+-00001520: 2020 2020 3c74 643e 3835 2e34 3c2f 7464      <td>85.4</td
+-00001530: 3e0a 2020 2020 3c74 643e 3937 2e33 3c2f  >.    <td>97.3</
+-00001540: 7464 3e0a 2020 2020 3c74 643e 3834 393c  td>.    <td>849<
+-00001550: 2f74 643e 0a20 2020 203c 7464 3e32 3234  /td>.    <td>224
+-00001560: 7832 3234 3c2f 7464 3e0a 2020 2020 3c74  x224</td>.    <t
+-00001570: 643e 3432 342e 363c 2f74 643e 0a20 2020  d>424.6</td>.   
+-00001580: 203c 7464 3e33 362e 363c 2f74 643e 0a20   <td>36.6</td>. 
+-00001590: 2020 203c 7464 3e3c 6120 6872 6566 3d22     <td><a href="
+-000015a0: 6874 7470 733a 2f2f 6472 6976 652e 676f  https://drive.go
+-000015b0: 6f67 6c65 2e63 6f6d 2f75 633f 6578 706f  ogle.com/uc?expo
+-000015c0: 7274 3d64 6f77 6e6c 6f61 6426 6964 3d31  rt=download&id=1
+-000015d0: 6759 6858 4133 3251 2d5f 3943 3544 5865  gYhXA32Q-_9C5DXe
+-000015e0: 6c31 3761 7656 5f5a 4c6f 6148 7764 677a  l17avV_ZLoaHwdgz
+-000015f0: 223e 6d6f 6465 6c3c 2f61 3e3c 2f74 643e  ">model</a></td>
+-00001600: 0a3c 2f74 723e 0a0a 3c74 723e 0a20 2020  .</tr>..<tr>.   
+-00001610: 203c 7464 3e46 6173 7465 7256 6954 2d35   <td>FasterViT-5
+-00001620: 3c2f 7464 3e0a 2020 2020 3c74 643e 3835  </td>.    <td>85
+-00001630: 2e36 3c2f 7464 3e0a 2020 2020 3c74 643e  .6</td>.    <td>
+-00001640: 3937 2e34 3c2f 7464 3e0a 2020 2020 3c74  97.4</td>.    <t
+-00001650: 643e 3434 393c 2f74 643e 0a20 2020 203c  d>449</td>.    <
+-00001660: 7464 3e32 3234 7832 3234 3c2f 7464 3e0a  td>224x224</td>.
+-00001670: 2020 2020 3c74 643e 3937 352e 353c 2f74      <td>975.5</t
+-00001680: 643e 0a20 2020 203c 7464 3e31 3133 2e30  d>.    <td>113.0
+-00001690: 3c2f 7464 3e0a 2020 2020 3c74 643e 3c61  </td>.    <td><a
+-000016a0: 2068 7265 663d 2268 7474 7073 3a2f 2f64   href="https://d
+-000016b0: 7269 7665 2e67 6f6f 676c 652e 636f 6d2f  rive.google.com/
+-000016c0: 7563 3f65 7870 6f72 743d 646f 776e 6c6f  uc?export=downlo
+-000016d0: 6164 2669 643d 316d 7170 6169 3758 6948  ad&id=1mqpai7XiH
+-000016e0: 4c72 5f6e 3174 6a78 6a7a 5438 7133 3639  Lr_n1tjxjzT8q369
+-000016f0: 7854 4371 5f7a 2d22 3e6d 6f64 656c 3c2f  xTCq_z-">model</
+-00001700: 613e 3c2f 7464 3e0a 3c2f 7472 3e0a 0a3c  a></td>.</tr>..<
+-00001710: 7472 3e0a 2020 2020 3c74 643e 4661 7374  tr>.    <td>Fast
+-00001720: 6572 5669 542d 363c 2f74 643e 0a20 2020  erViT-6</td>.   
+-00001730: 203c 7464 3e38 352e 383c 2f74 643e 0a20   <td>85.8</td>. 
+-00001740: 2020 203c 7464 3e39 372e 343c 2f74 643e     <td>97.4</td>
+-00001750: 0a20 2020 203c 7464 3e33 3532 3c2f 7464  .    <td>352</td
+-00001760: 3e0a 2020 2020 3c74 643e 3232 3478 3232  >.    <td>224x22
+-00001770: 343c 2f74 643e 0a20 2020 203c 7464 3e31  4</td>.    <td>1
+-00001780: 3336 302e 303c 2f74 643e 0a20 2020 203c  360.0</td>.    <
+-00001790: 7464 3e31 3432 2e30 3c2f 7464 3e0a 2020  td>142.0</td>.  
+-000017a0: 2020 3c74 643e 3c61 2068 7265 663d 2268    <td><a href="h
+-000017b0: 7474 7073 3a2f 2f64 7269 7665 2e67 6f6f  ttps://drive.goo
+-000017c0: 676c 652e 636f 6d2f 7563 3f65 7870 6f72  gle.com/uc?expor
+-000017d0: 743d 646f 776e 6c6f 6164 2669 643d 3132  t=download&id=12
+-000017e0: 6a74 6176 5232 5178 6d4d 7a63 4b77 507a  jtavR2QxmMzcKwPz
+-000017f0: 5765 376b 772d 6f79 3334 4959 6935 3922  We7kw-oy34IYi59"
+-00001800: 3e6d 6f64 656c 3c2f 613e 3c2f 7464 3e0a  >model</a></td>.
+-00001810: 3c2f 7472 3e0a 0a3c 2f74 6162 6c65 3e0a  </tr>..</table>.
+-00001820: 0a0a 2323 2320 526f 6275 7374 6e65 7373  ..### Robustness
+-00001830: 2028 496d 6167 654e 6574 2d41 202d 2049   (ImageNet-A - I
+-00001840: 6d61 6765 4e65 742d 5220 2d20 496d 6167  mageNet-R - Imag
+-00001850: 654e 6574 2d56 3229 0a0a 416c 6c20 6d6f  eNet-V2)..All mo
+-00001860: 6465 6c73 2075 7365 2060 6372 6f70 5f70  dels use `crop_p
+-00001870: 6374 3d30 2e38 3735 602e 2052 6573 756c  ct=0.875`. Resul
+-00001880: 7473 2061 7265 206f 6274 6169 6e65 6420  ts are obtained 
+-00001890: 6279 2072 756e 6e69 6e67 2069 6e66 6572  by running infer
+-000018a0: 656e 6365 206f 6e20 496d 6167 654e 6574  ence on ImageNet
+-000018b0: 2d31 4b20 7072 6574 7261 696e 6564 206d  -1K pretrained m
+-000018c0: 6f64 656c 7320 7769 7468 6f75 7420 6669  odels without fi
+-000018d0: 6e65 7475 6e69 6e67 2e0a 3c74 6162 6c65  netuning..<table
+-000018e0: 3e0a 2020 3c74 723e 0a20 2020 203c 7468  >.  <tr>.    <th
+-000018f0: 3e4e 616d 653c 2f74 683e 0a20 2020 203c  >Name</th>.    <
+-00001900: 7468 3e41 2d41 6363 4031 2825 293c 2f74  th>A-Acc@1(%)</t
+-00001910: 683e 0a20 2020 203c 7468 3e41 2d41 6363  h>.    <th>A-Acc
+-00001920: 4035 2825 293c 2f74 683e 0a20 2020 203c  @5(%)</th>.    <
+-00001930: 7468 3e52 2d41 6363 4031 2825 293c 2f74  th>R-Acc@1(%)</t
+-00001940: 683e 0a20 2020 203c 7468 3e52 2d41 6363  h>.    <th>R-Acc
+-00001950: 4035 2825 293c 2f74 683e 0a20 2020 203c  @5(%)</th>.    <
+-00001960: 7468 3e56 322d 4163 6340 3128 2529 3c2f  th>V2-Acc@1(%)</
+-00001970: 7468 3e0a 2020 2020 3c74 683e 5632 2d41  th>.    <th>V2-A
+-00001980: 6363 4035 2825 293c 2f74 683e 0a20 203c  cc@5(%)</th>.  <
+-00001990: 2f74 723e 0a0a 3c74 723e 0a20 2020 203c  /tr>..<tr>.    <
+-000019a0: 7464 3e46 6173 7465 7256 6954 2d30 3c2f  td>FasterViT-0</
+-000019b0: 7464 3e0a 2020 2020 3c74 643e 3233 2e39  td>.    <td>23.9
+-000019c0: 3c2f 7464 3e0a 2020 2020 3c74 643e 3537  </td>.    <td>57
+-000019d0: 2e36 3c2f 7464 3e0a 2020 2020 3c74 643e  .6</td>.    <td>
+-000019e0: 3435 2e39 3c2f 7464 3e0a 2020 2020 3c74  45.9</td>.    <t
+-000019f0: 643e 3630 2e34 3c2f 7464 3e0a 2020 2020  d>60.4</td>.    
+-00001a00: 3c74 643e 3730 2e39 3c2f 7464 3e0a 2020  <td>70.9</td>.  
+-00001a10: 2020 3c74 643e 3930 2e30 3c2f 7464 3e0a    <td>90.0</td>.
+-00001a20: 3c2f 7472 3e0a 0a3c 7472 3e0a 2020 2020  </tr>..<tr>.    
+-00001a30: 3c74 643e 4661 7374 6572 5669 542d 313c  <td>FasterViT-1<
+-00001a40: 2f74 643e 0a20 2020 203c 7464 3e33 312e  /td>.    <td>31.
+-00001a50: 323c 2f74 643e 0a20 2020 203c 7464 3e36  2</td>.    <td>6
+-00001a60: 332e 333c 2f74 643e 0a20 2020 203c 7464  3.3</td>.    <td
+-00001a70: 3e34 372e 353c 2f74 643e 0a20 2020 203c  >47.5</td>.    <
+-00001a80: 7464 3e36 312e 393c 2f74 643e 0a20 2020  td>61.9</td>.   
+-00001a90: 203c 7464 3e37 322e 363c 2f74 643e 0a20   <td>72.6</td>. 
+-00001aa0: 2020 203c 7464 3e39 312e 303c 2f74 643e     <td>91.0</td>
+-00001ab0: 0a3c 2f74 723e 0a0a 3c74 723e 0a20 2020  .</tr>..<tr>.   
+-00001ac0: 203c 7464 3e46 6173 7465 7256 6954 2d32   <td>FasterViT-2
+-00001ad0: 3c2f 7464 3e0a 2020 2020 3c74 643e 3338  </td>.    <td>38
+-00001ae0: 2e32 3c2f 7464 3e0a 2020 2020 3c74 643e  .2</td>.    <td>
+-00001af0: 3638 2e39 3c2f 7464 3e0a 2020 2020 3c74  68.9</td>.    <t
+-00001b00: 643e 3439 2e36 3c2f 7464 3e0a 2020 2020  d>49.6</td>.    
+-00001b10: 3c74 643e 3633 2e34 3c2f 7464 3e0a 2020  <td>63.4</td>.  
+-00001b20: 2020 3c74 643e 3733 2e37 3c2f 7464 3e0a    <td>73.7</td>.
+-00001b30: 2020 2020 3c74 643e 3931 2e36 3c2f 7464      <td>91.6</td
+-00001b40: 3e0a 3c2f 7472 3e0a 0a3c 7472 3e0a 2020  >.</tr>..<tr>.  
+-00001b50: 2020 3c74 643e 4661 7374 6572 5669 542d    <td>FasterViT-
+-00001b60: 333c 2f74 643e 0a20 2020 203c 7464 3e34  3</td>.    <td>4
+-00001b70: 342e 323c 2f74 643e 0a20 2020 203c 7464  4.2</td>.    <td
+-00001b80: 3e37 332e 303c 2f74 643e 0a20 2020 203c  >73.0</td>.    <
+-00001b90: 7464 3e35 312e 393c 2f74 643e 0a20 2020  td>51.9</td>.   
+-00001ba0: 203c 7464 3e36 352e 363c 2f74 643e 0a20   <td>65.6</td>. 
+-00001bb0: 2020 203c 7464 3e37 352e 303c 2f74 643e     <td>75.0</td>
+-00001bc0: 0a20 2020 203c 7464 3e39 322e 323c 2f74  .    <td>92.2</t
+-00001bd0: 643e 0a3c 2f74 723e 0a0a 3c74 723e 0a20  d>.</tr>..<tr>. 
+-00001be0: 2020 203c 7464 3e46 6173 7465 7256 6954     <td>FasterViT
+-00001bf0: 2d34 3c2f 7464 3e0a 2020 2020 3c74 643e  -4</td>.    <td>
+-00001c00: 3439 2e30 3c2f 7464 3e0a 2020 2020 3c74  49.0</td>.    <t
+-00001c10: 643e 3735 2e34 3c2f 7464 3e0a 2020 2020  d>75.4</td>.    
+-00001c20: 3c74 643e 3536 2e30 3c2f 7464 3e0a 2020  <td>56.0</td>.  
+-00001c30: 2020 3c74 643e 3639 2e36 3c2f 7464 3e0a    <td>69.6</td>.
+-00001c40: 2020 2020 3c74 643e 3735 2e37 3c2f 7464      <td>75.7</td
+-00001c50: 3e0a 2020 2020 3c74 643e 3932 2e37 3c2f  >.    <td>92.7</
+-00001c60: 7464 3e0a 3c2f 7472 3e0a 0a3c 7472 3e0a  td>.</tr>..<tr>.
+-00001c70: 2020 2020 3c74 643e 4661 7374 6572 5669      <td>FasterVi
+-00001c80: 542d 353c 2f74 643e 0a20 2020 203c 7464  T-5</td>.    <td
+-00001c90: 3e35 322e 373c 2f74 643e 0a20 2020 203c  >52.7</td>.    <
+-00001ca0: 7464 3e37 372e 363c 2f74 643e 0a20 2020  td>77.6</td>.   
+-00001cb0: 203c 7464 3e35 362e 393c 2f74 643e 0a20   <td>56.9</td>. 
+-00001cc0: 2020 203c 7464 3e37 302e 303c 2f74 643e     <td>70.0</td>
+-00001cd0: 0a20 2020 203c 7464 3e37 362e 303c 2f74  .    <td>76.0</t
+-00001ce0: 643e 0a20 2020 203c 7464 3e39 332e 303c  d>.    <td>93.0<
+-00001cf0: 2f74 643e 0a3c 2f74 723e 0a0a 3c74 723e  /td>.</tr>..<tr>
+-00001d00: 0a20 2020 203c 7464 3e46 6173 7465 7256  .    <td>FasterV
+-00001d10: 6954 2d36 3c2f 7464 3e0a 2020 2020 3c74  iT-6</td>.    <t
+-00001d20: 643e 3533 2e37 3c2f 7464 3e0a 2020 2020  d>53.7</td>.    
+-00001d30: 3c74 643e 3738 2e34 3c2f 7464 3e0a 2020  <td>78.4</td>.  
+-00001d40: 2020 3c74 643e 3537 2e31 3c2f 7464 3e0a    <td>57.1</td>.
+-00001d50: 2020 2020 3c74 643e 3730 2e31 3c2f 7464      <td>70.1</td
+-00001d60: 3e0a 2020 2020 3c74 643e 3736 2e31 3c2f  >.    <td>76.1</
+-00001d70: 7464 3e0a 2020 2020 3c74 643e 3933 2e30  td>.    <td>93.0
+-00001d80: 3c2f 7464 3e0a 3c2f 7472 3e0a 0a3c 2f74  </td>.</tr>..</t
+-00001d90: 6162 6c65 3e0a 0a41 2c20 5220 616e 6420  able>..A, R and 
+-00001da0: 5632 2064 656e 6f74 6520 496d 6167 654e  V2 denote ImageN
+-00001db0: 6574 2d41 2c20 496d 6167 654e 6574 2d52  et-A, ImageNet-R
+-00001dc0: 2061 6e64 2049 6d61 6765 4e65 742d 5632   and ImageNet-V2
+-00001dd0: 2072 6573 7065 6374 6976 656c 792e 200a   respectively. .
+-00001de0: 2323 2054 7261 696e 696e 670a 0a50 6c65  ## Training..Ple
+-00001df0: 6173 6520 7365 6520 5b54 5241 494e 494e  ase see [TRAININ
+-00001e00: 472e 6d64 5d28 5452 4149 4e49 4e47 2e6d  G.md](TRAINING.m
+-00001e10: 6429 2066 6f72 2064 6574 6169 6c65 6420  d) for detailed 
+-00001e20: 7472 6169 6e69 6e67 2069 6e73 7472 7563  training instruc
+-00001e30: 7469 6f6e 7320 6f66 2061 6c6c 206d 6f64  tions of all mod
+-00001e40: 656c 732e 200a 0a23 2320 4576 616c 7561  els. ..## Evalua
+-00001e50: 7469 6f6e 0a0a 5468 6520 4661 7374 6572  tion..The Faster
+-00001e60: 5669 5420 6d6f 6465 6c73 2063 616e 2062  ViT models can b
+-00001e70: 6520 6576 616c 7561 7465 6420 6f6e 2049  e evaluated on I
+-00001e80: 6d61 6765 4e65 742d 314b 2076 616c 6964  mageNet-1K valid
+-00001e90: 6174 696f 6e20 7365 7420 7573 696e 6720  ation set using 
+-00001ea0: 7468 6520 666f 6c6c 6f77 696e 673a 200a  the following: .
+-00001eb0: 0a60 6060 0a70 7974 686f 6e20 7661 6c69  .```.python vali
+-00001ec0: 6461 7465 2e70 7920 5c0a 2d2d 6d6f 6465  date.py \.--mode
+-00001ed0: 6c20 3c6d 6f64 656c 2d6e 616d 653e 0a2d  l <model-name>.-
+-00001ee0: 2d63 6865 636b 706f 696e 7420 3c63 6865  -checkpoint <che
+-00001ef0: 636b 706f 696e 742d 7061 7468 3e0a 2d2d  ckpoint-path>.--
+-00001f00: 6461 7461 5f64 6972 203c 696d 6167 656e  data_dir <imagen
+-00001f10: 6574 2d70 6174 683e 0a2d 2d62 6174 6368  et-path>.--batch
+-00001f20: 2d73 697a 6520 3c62 6174 6368 2d73 697a  -size <batch-siz
+-00001f30: 652d 7065 722d 6770 750a 6060 6020 0a0a  e-per-gpu.``` ..
+-00001f40: 4865 7265 2060 2d2d 6d6f 6465 6c60 2069  Here `--model` i
+-00001f50: 7320 7468 6520 4661 7374 6572 5669 5420  s the FasterViT 
+-00001f60: 7661 7269 616e 7420 2865 2e67 2e20 6066  variant (e.g. `f
+-00001f70: 6173 7465 725f 7669 745f 305f 3232 345f  aster_vit_0_224_
+-00001f80: 316b 6029 2c20 602d 2d63 6865 636b 706f  1k`), `--checkpo
+-00001f90: 696e 7460 2069 7320 7468 6520 7061 7468  int` is the path
+-00001fa0: 2074 6f20 7072 6574 7261 696e 6564 206d   to pretrained m
+-00001fb0: 6f64 656c 2077 6569 6768 7473 2c20 602d  odel weights, `-
+-00001fc0: 2d64 6174 615f 6469 7260 2069 7320 7468  -data_dir` is th
+-00001fd0: 6520 7061 7468 2074 6f20 496d 6167 654e  e path to ImageN
+-00001fe0: 6574 2d31 4b20 7661 6c69 6461 7469 6f6e  et-1K validation
+-00001ff0: 2073 6574 2061 6e64 2060 2d2d 6261 7463   set and `--batc
+-00002000: 682d 7369 7a65 6020 6973 2074 6865 206e  h-size` is the n
+-00002010: 756d 6265 7220 6f66 2062 6174 6368 2073  umber of batch s
+-00002020: 697a 652e 2057 6520 616c 736f 2070 726f  ize. We also pro
+-00002030: 7669 6465 2061 2073 616d 706c 6520 7363  vide a sample sc
+-00002040: 7269 7074 205b 6865 7265 5d28 2e2f 6661  ript [here](./fa
+-00002050: 7374 6572 7669 742f 7661 6c69 6461 7465  stervit/validate
+-00002060: 2e73 6829 2e20 0a0a 0a23 2320 496e 7374  .sh). ...## Inst
+-00002070: 616c 6c61 7469 6f6e 0a0a 5468 6520 6465  allation..The de
+-00002080: 7065 6e64 656e 6369 6573 2063 616e 2062  pendencies can b
+-00002090: 6520 696e 7374 616c 6c65 6420 6279 2072  e installed by r
+-000020a0: 756e 6e69 6e67 3a0a 0a60 6060 6261 7368  unning:..```bash
+-000020b0: 0a70 6970 2069 6e73 7461 6c6c 202d 7220  .pip install -r 
+-000020c0: 7265 7175 6972 656d 656e 7473 2e74 7874  requirements.txt
+-000020d0: 0a60 6060 0a0a 2323 2054 6869 7264 2d70  .```..## Third-p
+-000020e0: 6172 7479 2045 7874 656e 7469 6f6e 730a  arty Extentions.
+-000020f0: 5765 2061 6c77 6179 7320 7765 6c63 6f6d  We always welcom
+-00002100: 6520 7468 6972 642d 7061 7274 7920 6578  e third-party ex
+-00002110: 7465 6e74 696f 6e73 2f69 6d70 6c65 6d65  tentions/impleme
+-00002120: 6e74 6174 696f 6e73 2061 6e64 2075 7361  ntations and usa
+-00002130: 6765 2066 6f72 206f 7468 6572 2070 7572  ge for other pur
+-00002140: 706f 7365 732e 2049 6620 796f 7520 776f  poses. If you wo
+-00002150: 756c 6420 6c69 6b65 2079 6f75 7220 776f  uld like your wo
+-00002160: 726b 2074 6f20 6265 206c 6973 7465 6420  rk to be listed 
+-00002170: 696e 2074 6869 7320 7265 706f 7369 746f  in this reposito
+-00002180: 7279 2c20 706c 6561 7365 2072 6169 7365  ry, please raise
+-00002190: 2061 6e64 2069 7373 7565 2061 6e64 2070   and issue and p
+-000021a0: 726f 7669 6465 2075 7320 7769 7468 2064  rovide us with d
+-000021b0: 6574 6169 6c65 6420 696e 666f 726d 6174  etailed informat
+-000021c0: 696f 6e2e 2020 0a0a 0a23 2320 4163 6b6e  ion.  ...## Ackn
+-000021d0: 6f77 6c65 6467 656d 656e 740a 5468 6973  owledgement.This
+-000021e0: 2072 6570 6f73 6974 6f72 7920 6973 2062   repository is b
+-000021f0: 7569 6c74 206f 6e20 746f 7020 6f66 2074  uilt on top of t
+-00002200: 6865 205b 7469 6d6d 5d28 6874 7470 733a  he [timm](https:
+-00002210: 2f2f 6769 7468 7562 2e63 6f6d 2f68 7567  //github.com/hug
+-00002220: 6769 6e67 6661 6365 2f70 7974 6f72 6368  gingface/pytorch
+-00002230: 2d69 6d61 6765 2d6d 6f64 656c 7329 2072  -image-models) r
+-00002240: 6570 6f73 6974 6f72 792e 2057 6520 7468  epository. We th
+-00002250: 616e 6b20 5b52 6f73 7320 5772 6967 6874  ank [Ross Wright
+-00002260: 6d61 6e5d 2868 7474 7073 3a2f 2f72 7769  man](https://rwi
+-00002270: 6768 746d 616e 2e63 6f6d 2f29 2066 6f72  ghtman.com/) for
+-00002280: 2063 7265 6174 696e 6720 616e 6420 6d61   creating and ma
+-00002290: 696e 7461 696e 696e 6720 7468 6973 2068  intaining this h
+-000022a0: 6967 682d 7175 616c 6974 7920 6c69 6272  igh-quality libr
+-000022b0: 6172 792e 2020 0a0a 2323 204c 6963 656e  ary.  ..## Licen
+-000022c0: 7365 730a 0a43 6f70 7972 6967 6874 20c2  ses..Copyright .
+-000022d0: a920 3230 3233 2c20 4e56 4944 4941 2043  . 2023, NVIDIA C
+-000022e0: 6f72 706f 7261 7469 6f6e 2e20 416c 6c20  orporation. All 
+-000022f0: 7269 6768 7473 2072 6573 6572 7665 642e  rights reserved.
+-00002300: 0a0a 5468 6973 2077 6f72 6b20 6973 206d  ..This work is m
+-00002310: 6164 6520 6176 6169 6c61 626c 6520 756e  ade available un
+-00002320: 6465 7220 7468 6520 4e56 4944 4941 2053  der the NVIDIA S
+-00002330: 6f75 7263 6520 436f 6465 204c 6963 656e  ource Code Licen
+-00002340: 7365 2d4e 432e 2043 6c69 636b 205b 6865  se-NC. Click [he
+-00002350: 7265 5d28 4c49 4345 4e53 4529 2074 6f20  re](LICENSE) to 
+-00002360: 7669 6577 2061 2063 6f70 7920 6f66 2074  view a copy of t
+-00002370: 6869 7320 6c69 6365 6e73 652e 0a0a 466f  his license...Fo
+-00002380: 7220 6c69 6365 6e73 6520 696e 666f 726d  r license inform
+-00002390: 6174 696f 6e20 7265 6761 7264 696e 6720  ation regarding 
+-000023a0: 7468 6520 7469 6d6d 2072 6570 6f73 6974  the timm reposit
+-000023b0: 6f72 792c 2070 6c65 6173 6520 7265 6665  ory, please refe
+-000023c0: 7220 746f 2069 7473 205b 7265 706f 7369  r to its [reposi
+-000023d0: 746f 7279 5d28 6874 7470 733a 2f2f 6769  tory](https://gi
+-000023e0: 7468 7562 2e63 6f6d 2f72 7769 6768 746d  thub.com/rwightm
+-000023f0: 616e 2f70 7974 6f72 6368 2d69 6d61 6765  an/pytorch-image
+-00002400: 2d6d 6f64 656c 7329 2e0a 0a46 6f72 206c  -models)...For l
+-00002410: 6963 656e 7365 2069 6e66 6f72 6d61 7469  icense informati
+-00002420: 6f6e 2072 6567 6172 6469 6e67 2074 6865  on regarding the
+-00002430: 2049 6d61 6765 4e65 7420 6461 7461 7365   ImageNet datase
+-00002440: 742c 2070 6c65 6173 6520 7365 6520 7468  t, please see th
+-00002450: 6520 5b49 6d61 6765 4e65 7420 6f66 6669  e [ImageNet offi
+-00002460: 6369 616c 2077 6562 7369 7465 5d28 6874  cial website](ht
+-00002470: 7470 733a 2f2f 7777 772e 696d 6167 652d  tps://www.image-
+-00002480: 6e65 742e 6f72 672f 292e 200a            net.org/). .
++00000720: 6461 7461 2021 290a 0a21 5b74 6561 7365  data !)..![tease
++00000730: 725d 282e 2f66 6173 7465 7276 6974 2f61  r](./fastervit/a
++00000740: 7373 6574 732f 706c 6f74 2e70 6e67 290a  ssets/plot.png).
++00000750: 0a0a 0a23 2320 f09f 92a5 204e 6577 7320  ...## .... News 
++00000760: f09f 92a5 0a0a 2d20 2a2a 5b30 362e 3138  ......- **[06.18
++00000770: 2e32 3032 335d 2a2a 20f0 9f94 a520 5765  .2023]** .... We
++00000780: 2068 6176 6520 7265 6c65 6173 6564 2074   have released t
++00000790: 6865 2046 6173 7465 7256 6954 205b 7069  he FasterViT [pi
++000007a0: 7020 7061 636b 6167 655d 2868 7474 7073  p package](https
++000007b0: 3a2f 2f70 7970 692e 6f72 672f 7072 6f6a  ://pypi.org/proj
++000007c0: 6563 742f 6661 7374 6572 7669 742f 2920  ect/fastervit/) 
++000007d0: 210a 2d20 2a2a 5b30 362e 3137 2e32 3032  !.- **[06.17.202
++000007e0: 335d 2a2a 20f0 9f94 a520 5b41 6e79 2d72  3]** .... [Any-r
++000007f0: 6573 6f6c 7574 696f 6e20 4661 7374 6572  esolution Faster
++00000800: 5669 545d 282e 2f66 6173 7465 7276 6974  ViT](./fastervit
++00000810: 2f6d 6f64 656c 732f 6661 7374 6572 5f76  /models/faster_v
++00000820: 6974 5f61 6e79 5f72 6573 2e70 7929 2020  it_any_res.py)  
++00000830: 6d6f 6465 6c20 6973 206e 6f77 2061 7661  model is now ava
++00000840: 696c 6162 6c65 2021 2074 6865 206d 6f64  ilable ! the mod
++00000850: 656c 2063 616e 2062 6520 7573 6564 2066  el can be used f
++00000860: 6f72 2076 6172 6965 7479 206f 6620 6170  or variety of ap
++00000870: 706c 6963 6174 696f 6e73 2073 7563 6820  plications such 
++00000880: 6173 2064 6574 6563 7469 6f6e 2061 6e64  as detection and
++00000890: 2073 6567 6d65 6e74 6174 696f 6e20 6f72   segmentation or
++000008a0: 2068 6967 682d 7265 736f 6c75 7469 6f6e   high-resolution
++000008b0: 2066 696e 652d 7475 6e69 6e67 2077 6974   fine-tuning wit
++000008c0: 6820 6172 6269 7472 6172 7920 696e 7075  h arbitrary inpu
++000008d0: 7420 696d 6167 6520 7265 736f 6c75 7469  t image resoluti
++000008e0: 6f6e 732e 200a 2d20 2a2a 5b30 362e 3039  ons. .- **[06.09
++000008f0: 2e32 3032 335d 2a2a 20f0 9f94 a5f0 9f94  .2023]** .......
++00000900: a520 5765 2068 6176 6520 7265 6c65 6173  . We have releas
++00000910: 6564 2073 6f75 7263 6520 636f 6465 2061  ed source code a
++00000920: 6e64 2049 6d61 6765 4e65 742d 314b 2046  nd ImageNet-1K F
++00000930: 6173 7465 7256 6954 2d6d 6f64 656c 7320  asterViT-models 
++00000940: 210a 0a23 2320 5175 6963 6b20 5374 6172  !..## Quick Star
++00000950: 740a 0a54 6865 2046 6173 7465 7256 6954  t..The FasterViT
++00000960: 2063 616e 2062 6520 636f 6e76 656e 6965   can be convenie
++00000970: 6e74 6c79 2069 6e73 7461 6c6c 6564 2062  ntly installed b
++00000980: 793a 0a0a 6060 6062 6173 680a 7069 7020  y:..```bash.pip 
++00000990: 696e 7374 616c 6c20 6661 7374 6572 7669  install fastervi
++000009a0: 740a 6060 600a 0a41 2046 6173 7465 7256  t.```..A FasterV
++000009b0: 6954 206d 6f64 656c 2077 6974 6820 6465  iT model with de
++000009c0: 6661 756c 7420 6879 7065 722d 7061 7261  fault hyper-para
++000009d0: 6d65 7465 7273 2063 616e 2062 6520 6372  meters can be cr
++000009e0: 6561 7465 6420 6173 2069 6e20 7468 6520  eated as in the 
++000009f0: 666f 6c6c 6f77 696e 673a 0a0a 6060 6070  following:..```p
++00000a00: 7974 686f 6e0a 3e3e 3e20 6672 6f6d 2066  ython.>>> from f
++00000a10: 6173 7465 7276 6974 2069 6d70 6f72 7420  astervit import 
++00000a20: 6372 6561 7465 5f6d 6f64 656c 0a0a 2320  create_model..# 
++00000a30: 4465 6669 6e65 2066 6173 7465 7276 6974  Define fastervit
++00000a40: 2d30 206d 6f64 656c 2077 6974 6820 3232  -0 model with 22
++00000a50: 3420 7820 3232 3420 7265 736f 6c75 7469  4 x 224 resoluti
++00000a60: 6f6e 0a3e 3e3e 206d 6f64 656c 203d 2063  on.>>> model = c
++00000a70: 7265 6174 655f 6d6f 6465 6c28 2766 6173  reate_model('fas
++00000a80: 7465 725f 7669 745f 305f 3232 3427 290a  ter_vit_0_224').
++00000a90: 6060 600a 0a57 6520 6361 6e20 616c 736f  ```..We can also
++00000aa0: 2075 7365 2074 6865 2061 6e79 2d72 6573   use the any-res
++00000ab0: 6f6c 7574 696f 6e20 4661 7374 6572 5669  olution FasterVi
++00000ac0: 5420 6d6f 6465 6c20 746f 2061 6363 6f6d  T model to accom
++00000ad0: 6d6f 6461 7465 2061 7262 6974 7261 7279  modate arbitrary
++00000ae0: 2069 6d61 6765 2072 6573 6f6c 7574 696f   image resolutio
++00000af0: 6e73 2e20 496e 2074 6865 2066 6f6c 6c6f  ns. In the follo
++00000b00: 7769 6e67 2c20 7765 2064 6566 696e 6520  wing, we define 
++00000b10: 616e 2061 6e79 2d72 6573 6f6c 7574 696f  an any-resolutio
++00000b20: 6e20 4661 7374 6572 5669 542d 310a 6d6f  n FasterViT-1.mo
++00000b30: 6465 6c20 7769 7468 2069 6e70 7574 2072  del with input r
++00000b40: 6573 6f6c 7574 696f 6e20 6f66 2035 3736  esolution of 576
++00000b50: 2078 2039 3630 2c20 7769 6e64 6f77 2073   x 960, window s
++00000b60: 697a 6573 206f 6620 3132 2061 6e64 2036  izes of 12 and 6
++00000b70: 2069 6e20 3372 6420 616e 6420 3474 6820   in 3rd and 4th 
++00000b80: 7374 6167 6573 2c20 6361 7272 6965 7220  stages, carrier 
++00000b90: 746f 6b65 6e20 7369 7a65 206f 6620 3220  token size of 2 
++00000ba0: 616e 6420 656d 6265 6464 696e 6720 6469  and embedding di
++00000bb0: 6d65 6e73 696f 6e20 6f66 0a31 3238 3a0a  mension of.128:.
++00000bc0: 0a60 6060 7079 7468 6f6e 0a3e 3e3e 2066  .```python.>>> f
++00000bd0: 726f 6d20 6661 7374 6572 7669 7420 696d  rom fastervit im
++00000be0: 706f 7274 2063 7265 6174 655f 6d6f 6465  port create_mode
++00000bf0: 6c0a 0a23 2044 6566 696e 6520 616e 792d  l..# Define any-
++00000c00: 7265 736f 6c75 7469 6f6e 2046 6173 7465  resolution Faste
++00000c10: 7256 6954 2d31 206d 6f64 656c 2077 6974  rViT-1 model wit
++00000c20: 6820 3537 3620 7820 3936 3020 7265 736f  h 576 x 960 reso
++00000c30: 6c75 7469 6f6e 0a3e 3e3e 206d 6f64 656c  lution.>>> model
++00000c40: 203d 2063 7265 6174 655f 6d6f 6465 6c28   = create_model(
++00000c50: 2766 6173 7465 725f 7669 745f 315f 616e  'faster_vit_1_an
++00000c60: 795f 7265 7327 2c20 0a20 2020 2020 2020  y_res', .       
++00000c70: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000c80: 2020 2072 6573 6f6c 7574 696f 6e3d 5b35     resolution=[5
++00000c90: 3736 2c20 3936 305d 2c0a 2020 2020 2020  76, 960],.      
++00000ca0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000cb0: 2020 2020 7769 6e64 6f77 5f73 697a 653d      window_size=
++00000cc0: 5b37 2c20 372c 2031 322c 2036 5d2c 0a20  [7, 7, 12, 6],. 
++00000cd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000ce0: 2020 2020 2020 2020 2063 745f 7369 7a65           ct_size
++00000cf0: 3d32 2c0a 2020 2020 2020 2020 2020 2020  =2,.            
++00000d00: 2020 2020 2020 2020 2020 2020 2020 6469                di
++00000d10: 6d3d 3132 3829 0a60 6060 0a0a 2323 2043  m=128).```..## C
++00000d20: 6174 616c 6f67 0a2d 205b 785d 2049 6d61  atalog.- [x] Ima
++00000d30: 6765 4e65 742d 314b 2074 7261 696e 696e  geNet-1K trainin
++00000d40: 6720 636f 6465 0a2d 205b 785d 2049 6d61  g code.- [x] Ima
++00000d50: 6765 4e65 742d 314b 2070 7265 2d74 7261  geNet-1K pre-tra
++00000d60: 696e 6564 206d 6f64 656c 730a 2d20 5b78  ined models.- [x
++00000d70: 5d20 416e 792d 7265 736f 6c75 7469 6f6e  ] Any-resolution
++00000d80: 2046 6173 7465 7256 6954 0a2d 205b 785d   FasterViT.- [x]
++00000d90: 2046 6173 7465 7256 6954 2070 6970 2d70   FasterViT pip-p
++00000da0: 6163 6b61 6765 2072 656c 6561 7365 0a2d  ackage release.-
++00000db0: 205b 205d 2049 6d61 6765 4e65 742d 3231   [ ] ImageNet-21
++00000dc0: 4b20 7072 652d 7472 6169 6e65 6420 6d6f  K pre-trained mo
++00000dd0: 6465 6c73 0a2d 205b 205d 2049 6d61 6765  dels.- [ ] Image
++00000de0: 4e65 742d 3231 4b20 6669 6e65 2d74 756e  Net-21K fine-tun
++00000df0: 6520 7363 7269 7074 730a 2d20 5b20 5d20  e scripts.- [ ] 
++00000e00: 4465 7465 6374 696f 6e20 636f 6465 2028  Detection code (
++00000e10: 4449 4e4f 2920 2b20 6d6f 6465 6c73 0a2d  DINO) + models.-
++00000e20: 205b 205d 2053 6567 6d65 6e74 6174 696f   [ ] Segmentatio
++00000e30: 6e20 636f 6465 202b 206d 6f64 656c 730a  n code + models.
++00000e40: 0a2d 2d2d 200a 0a23 2320 5265 7375 6c74  .--- ..## Result
++00000e50: 7320 2b20 5072 6574 7261 696e 6564 204d  s + Pretrained M
++00000e60: 6f64 656c 730a 0a23 2323 2049 6d61 6765  odels..### Image
++00000e70: 4e65 742d 314b 0a2a 2a46 6173 7465 7256  Net-1K.**FasterV
++00000e80: 6954 2049 6d61 6765 4e65 742d 314b 2050  iT ImageNet-1K P
++00000e90: 7265 7472 6169 6e65 6420 4d6f 6465 6c73  retrained Models
++00000ea0: 2a2a 0a0a 3c74 6162 6c65 3e0a 2020 3c74  **..<table>.  <t
++00000eb0: 723e 0a20 2020 203c 7468 3e4e 616d 653c  r>.    <th>Name<
++00000ec0: 2f74 683e 0a20 2020 203c 7468 3e41 6363  /th>.    <th>Acc
++00000ed0: 4031 2825 293c 2f74 683e 0a20 2020 203c  @1(%)</th>.    <
++00000ee0: 7468 3e41 6363 4035 2825 293c 2f74 683e  th>Acc@5(%)</th>
++00000ef0: 0a20 2020 203c 7468 3e54 6872 6f75 6768  .    <th>Through
++00000f00: 7075 7428 496d 672f 5365 6329 3c2f 7468  put(Img/Sec)</th
++00000f10: 3e0a 2020 2020 3c74 683e 5265 736f 6c75  >.    <th>Resolu
++00000f20: 7469 6f6e 3c2f 7468 3e0a 2020 2020 3c74  tion</th>.    <t
++00000f30: 683e 2350 6172 616d 7328 4d29 3c2f 7468  h>#Params(M)</th
++00000f40: 3e0a 2020 2020 3c74 683e 464c 4f50 7328  >.    <th>FLOPs(
++00000f50: 4729 3c2f 7468 3e0a 2020 2020 3c74 683e  G)</th>.    <th>
++00000f60: 446f 776e 6c6f 6164 3c2f 7468 3e0a 2020  Download</th>.  
++00000f70: 3c2f 7472 3e0a 0a3c 7472 3e0a 2020 2020  </tr>..<tr>.    
++00000f80: 3c74 643e 4661 7374 6572 5669 542d 303c  <td>FasterViT-0<
++00000f90: 2f74 643e 0a20 2020 203c 7464 3e38 322e  /td>.    <td>82.
++00000fa0: 313c 2f74 643e 0a20 2020 203c 7464 3e39  1</td>.    <td>9
++00000fb0: 352e 393c 2f74 643e 0a20 2020 203c 7464  5.9</td>.    <td
++00000fc0: 3e35 3830 323c 2f74 643e 0a20 2020 203c  >5802</td>.    <
++00000fd0: 7464 3e32 3234 7832 3234 3c2f 7464 3e0a  td>224x224</td>.
++00000fe0: 2020 2020 3c74 643e 3331 2e34 3c2f 7464      <td>31.4</td
++00000ff0: 3e0a 2020 2020 3c74 643e 332e 333c 2f74  >.    <td>3.3</t
++00001000: 643e 0a20 2020 203c 7464 3e3c 6120 6872  d>.    <td><a hr
++00001010: 6566 3d22 6874 7470 733a 2f2f 6472 6976  ef="https://driv
++00001020: 652e 676f 6f67 6c65 2e63 6f6d 2f75 633f  e.google.com/uc?
++00001030: 6578 706f 7274 3d64 6f77 6e6c 6f61 6426  export=download&
++00001040: 6964 3d31 7477 4932 4c46 4a73 3339 3159  id=1twI2LFJs391Y
++00001050: 726a 384d 5234 5569 3950 6672 7657 716a  rj8MR4Ui9PfrvWqj
++00001060: 4531 6942 223e 6d6f 6465 6c3c 2f61 3e3c  E1iB">model</a><
++00001070: 2f74 643e 0a3c 2f74 723e 0a0a 3c74 723e  /td>.</tr>..<tr>
++00001080: 0a20 2020 203c 7464 3e46 6173 7465 7256  .    <td>FasterV
++00001090: 6954 2d31 3c2f 7464 3e0a 2020 2020 3c74  iT-1</td>.    <t
++000010a0: 643e 3833 2e32 3c2f 7464 3e0a 2020 2020  d>83.2</td>.    
++000010b0: 3c74 643e 3936 2e35 3c2f 7464 3e0a 2020  <td>96.5</td>.  
++000010c0: 2020 3c74 643e 3431 3838 3c2f 7464 3e0a    <td>4188</td>.
++000010d0: 2020 2020 3c74 643e 3232 3478 3232 343c      <td>224x224<
++000010e0: 2f74 643e 0a20 2020 203c 7464 3e35 332e  /td>.    <td>53.
++000010f0: 343c 2f74 643e 0a20 2020 203c 7464 3e35  4</td>.    <td>5
++00001100: 2e33 3c2f 7464 3e0a 2020 2020 3c74 643e  .3</td>.    <td>
++00001110: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00001120: 2f64 7269 7665 2e67 6f6f 676c 652e 636f  /drive.google.co
++00001130: 6d2f 7563 3f65 7870 6f72 743d 646f 776e  m/uc?export=down
++00001140: 6c6f 6164 2669 643d 3172 3757 3130 6e35  load&id=1r7W10n5
++00001150: 2d62 4674 4d33 737a 3462 6d61 4c72 6f77  -bFtM3sz4bmaLrow
++00001160: 4e32 6759 506b 4c47 5422 3e6d 6f64 656c  N2gYPkLGT">model
++00001170: 3c2f 613e 3c2f 7464 3e0a 3c2f 7472 3e0a  </a></td>.</tr>.
++00001180: 0a3c 7472 3e0a 2020 2020 3c74 643e 4661  .<tr>.    <td>Fa
++00001190: 7374 6572 5669 542d 323c 2f74 643e 0a20  sterViT-2</td>. 
++000011a0: 2020 203c 7464 3e38 342e 323c 2f74 643e     <td>84.2</td>
++000011b0: 0a20 2020 203c 7464 3e39 362e 383c 2f74  .    <td>96.8</t
++000011c0: 643e 0a20 2020 203c 7464 3e33 3136 313c  d>.    <td>3161<
++000011d0: 2f74 643e 0a20 2020 203c 7464 3e32 3234  /td>.    <td>224
++000011e0: 7832 3234 3c2f 7464 3e0a 2020 2020 3c74  x224</td>.    <t
++000011f0: 643e 3735 2e39 3c2f 7464 3e0a 2020 2020  d>75.9</td>.    
++00001200: 3c74 643e 382e 373c 2f74 643e 0a20 2020  <td>8.7</td>.   
++00001210: 203c 7464 3e3c 6120 6872 6566 3d22 6874   <td><a href="ht
++00001220: 7470 733a 2f2f 6472 6976 652e 676f 6f67  tps://drive.goog
++00001230: 6c65 2e63 6f6d 2f75 633f 6578 706f 7274  le.com/uc?export
++00001240: 3d64 6f77 6e6c 6f61 6426 6964 3d31 6e5f  =download&id=1n_
++00001250: 6136 7330 7067 6930 6a56 5a4f 476d 4465  a6s0pgi0jVZOGmDe
++00001260: 6932 7658 4855 3545 3652 4835 7755 223e  i2vXHU5E6RH5wU">
++00001270: 6d6f 6465 6c3c 2f61 3e3c 2f74 643e 0a3c  model</a></td>.<
++00001280: 2f74 723e 0a0a 3c74 723e 0a20 2020 203c  /tr>..<tr>.    <
++00001290: 7464 3e46 6173 7465 7256 6954 2d33 3c2f  td>FasterViT-3</
++000012a0: 7464 3e0a 2020 2020 3c74 643e 3834 2e39  td>.    <td>84.9
++000012b0: 3c2f 7464 3e0a 2020 2020 3c74 643e 3937  </td>.    <td>97
++000012c0: 2e32 3c2f 7464 3e0a 2020 2020 3c74 643e  .2</td>.    <td>
++000012d0: 3137 3830 3c2f 7464 3e0a 2020 2020 3c74  1780</td>.    <t
++000012e0: 643e 3232 3478 3232 343c 2f74 643e 0a20  d>224x224</td>. 
++000012f0: 2020 203c 7464 3e31 3539 2e35 3c2f 7464     <td>159.5</td
++00001300: 3e0a 2020 2020 3c74 643e 3138 2e32 3c2f  >.    <td>18.2</
++00001310: 7464 3e0a 2020 2020 3c74 643e 3c61 2068  td>.    <td><a h
++00001320: 7265 663d 2268 7474 7073 3a2f 2f64 7269  ref="https://dri
++00001330: 7665 2e67 6f6f 676c 652e 636f 6d2f 7563  ve.google.com/uc
++00001340: 3f65 7870 6f72 743d 646f 776e 6c6f 6164  ?export=download
++00001350: 2669 643d 3174 7657 456c 5a39 3153 6961  &id=1tvWElZ91Sia
++00001360: 3253 7358 5958 464d 4e59 5177 6669 7043  2SsXYXFMNYQwfipC
++00001370: 7874 4937 5822 3e6d 6f64 656c 3c2f 613e  xtI7X">model</a>
++00001380: 3c2f 7464 3e0a 3c2f 7472 3e0a 0a3c 7472  </td>.</tr>..<tr
++00001390: 3e0a 2020 2020 3c74 643e 4661 7374 6572  >.    <td>Faster
++000013a0: 5669 542d 343c 2f74 643e 0a20 2020 203c  ViT-4</td>.    <
++000013b0: 7464 3e38 352e 343c 2f74 643e 0a20 2020  td>85.4</td>.   
++000013c0: 203c 7464 3e39 372e 333c 2f74 643e 0a20   <td>97.3</td>. 
++000013d0: 2020 203c 7464 3e38 3439 3c2f 7464 3e0a     <td>849</td>.
++000013e0: 2020 2020 3c74 643e 3232 3478 3232 343c      <td>224x224<
++000013f0: 2f74 643e 0a20 2020 203c 7464 3e34 3234  /td>.    <td>424
++00001400: 2e36 3c2f 7464 3e0a 2020 2020 3c74 643e  .6</td>.    <td>
++00001410: 3336 2e36 3c2f 7464 3e0a 2020 2020 3c74  36.6</td>.    <t
++00001420: 643e 3c61 2068 7265 663d 2268 7474 7073  d><a href="https
++00001430: 3a2f 2f64 7269 7665 2e67 6f6f 676c 652e  ://drive.google.
++00001440: 636f 6d2f 7563 3f65 7870 6f72 743d 646f  com/uc?export=do
++00001450: 776e 6c6f 6164 2669 643d 3167 5968 5841  wnload&id=1gYhXA
++00001460: 3332 512d 5f39 4335 4458 656c 3137 6176  32Q-_9C5DXel17av
++00001470: 565f 5a4c 6f61 4877 6467 7a22 3e6d 6f64  V_ZLoaHwdgz">mod
++00001480: 656c 3c2f 613e 3c2f 7464 3e0a 3c2f 7472  el</a></td>.</tr
++00001490: 3e0a 0a3c 7472 3e0a 2020 2020 3c74 643e  >..<tr>.    <td>
++000014a0: 4661 7374 6572 5669 542d 353c 2f74 643e  FasterViT-5</td>
++000014b0: 0a20 2020 203c 7464 3e38 352e 363c 2f74  .    <td>85.6</t
++000014c0: 643e 0a20 2020 203c 7464 3e39 372e 343c  d>.    <td>97.4<
++000014d0: 2f74 643e 0a20 2020 203c 7464 3e34 3439  /td>.    <td>449
++000014e0: 3c2f 7464 3e0a 2020 2020 3c74 643e 3232  </td>.    <td>22
++000014f0: 3478 3232 343c 2f74 643e 0a20 2020 203c  4x224</td>.    <
++00001500: 7464 3e39 3735 2e35 3c2f 7464 3e0a 2020  td>975.5</td>.  
++00001510: 2020 3c74 643e 3131 332e 303c 2f74 643e    <td>113.0</td>
++00001520: 0a20 2020 203c 7464 3e3c 6120 6872 6566  .    <td><a href
++00001530: 3d22 6874 7470 733a 2f2f 6472 6976 652e  ="https://drive.
++00001540: 676f 6f67 6c65 2e63 6f6d 2f75 633f 6578  google.com/uc?ex
++00001550: 706f 7274 3d64 6f77 6e6c 6f61 6426 6964  port=download&id
++00001560: 3d31 6d71 7061 6937 5869 484c 725f 6e31  =1mqpai7XiHLr_n1
++00001570: 746a 786a 7a54 3871 3336 3978 5443 715f  tjxjzT8q369xTCq_
++00001580: 7a2d 223e 6d6f 6465 6c3c 2f61 3e3c 2f74  z-">model</a></t
++00001590: 643e 0a3c 2f74 723e 0a0a 3c74 723e 0a20  d>.</tr>..<tr>. 
++000015a0: 2020 203c 7464 3e46 6173 7465 7256 6954     <td>FasterViT
++000015b0: 2d36 3c2f 7464 3e0a 2020 2020 3c74 643e  -6</td>.    <td>
++000015c0: 3835 2e38 3c2f 7464 3e0a 2020 2020 3c74  85.8</td>.    <t
++000015d0: 643e 3937 2e34 3c2f 7464 3e0a 2020 2020  d>97.4</td>.    
++000015e0: 3c74 643e 3335 323c 2f74 643e 0a20 2020  <td>352</td>.   
++000015f0: 203c 7464 3e32 3234 7832 3234 3c2f 7464   <td>224x224</td
++00001600: 3e0a 2020 2020 3c74 643e 3133 3630 2e30  >.    <td>1360.0
++00001610: 3c2f 7464 3e0a 2020 2020 3c74 643e 3134  </td>.    <td>14
++00001620: 322e 303c 2f74 643e 0a20 2020 203c 7464  2.0</td>.    <td
++00001630: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++00001640: 2f2f 6472 6976 652e 676f 6f67 6c65 2e63  //drive.google.c
++00001650: 6f6d 2f75 633f 6578 706f 7274 3d64 6f77  om/uc?export=dow
++00001660: 6e6c 6f61 6426 6964 3d31 326a 7461 7652  nload&id=12jtavR
++00001670: 3251 786d 4d7a 634b 7750 7a57 6537 6b77  2QxmMzcKwPzWe7kw
++00001680: 2d6f 7933 3449 5969 3539 223e 6d6f 6465  -oy34IYi59">mode
++00001690: 6c3c 2f61 3e3c 2f74 643e 0a3c 2f74 723e  l</a></td>.</tr>
++000016a0: 0a0a 3c2f 7461 626c 653e 0a0a 0a23 2323  ..</table>...###
++000016b0: 2052 6f62 7573 746e 6573 7320 2849 6d61   Robustness (Ima
++000016c0: 6765 4e65 742d 4120 2d20 496d 6167 654e  geNet-A - ImageN
++000016d0: 6574 2d52 202d 2049 6d61 6765 4e65 742d  et-R - ImageNet-
++000016e0: 5632 290a 0a41 6c6c 206d 6f64 656c 7320  V2)..All models 
++000016f0: 7573 6520 6063 726f 705f 7063 743d 302e  use `crop_pct=0.
++00001700: 3837 3560 2e20 5265 7375 6c74 7320 6172  875`. Results ar
++00001710: 6520 6f62 7461 696e 6564 2062 7920 7275  e obtained by ru
++00001720: 6e6e 696e 6720 696e 6665 7265 6e63 6520  nning inference 
++00001730: 6f6e 2049 6d61 6765 4e65 742d 314b 2070  on ImageNet-1K p
++00001740: 7265 7472 6169 6e65 6420 6d6f 6465 6c73  retrained models
++00001750: 2077 6974 686f 7574 2066 696e 6574 756e   without finetun
++00001760: 696e 672e 0a3c 7461 626c 653e 0a20 203c  ing..<table>.  <
++00001770: 7472 3e0a 2020 2020 3c74 683e 4e61 6d65  tr>.    <th>Name
++00001780: 3c2f 7468 3e0a 2020 2020 3c74 683e 412d  </th>.    <th>A-
++00001790: 4163 6340 3128 2529 3c2f 7468 3e0a 2020  Acc@1(%)</th>.  
++000017a0: 2020 3c74 683e 412d 4163 6340 3528 2529    <th>A-Acc@5(%)
++000017b0: 3c2f 7468 3e0a 2020 2020 3c74 683e 522d  </th>.    <th>R-
++000017c0: 4163 6340 3128 2529 3c2f 7468 3e0a 2020  Acc@1(%)</th>.  
++000017d0: 2020 3c74 683e 522d 4163 6340 3528 2529    <th>R-Acc@5(%)
++000017e0: 3c2f 7468 3e0a 2020 2020 3c74 683e 5632  </th>.    <th>V2
++000017f0: 2d41 6363 4031 2825 293c 2f74 683e 0a20  -Acc@1(%)</th>. 
++00001800: 2020 203c 7468 3e56 322d 4163 6340 3528     <th>V2-Acc@5(
++00001810: 2529 3c2f 7468 3e0a 2020 3c2f 7472 3e0a  %)</th>.  </tr>.
++00001820: 0a3c 7472 3e0a 2020 2020 3c74 643e 4661  .<tr>.    <td>Fa
++00001830: 7374 6572 5669 542d 303c 2f74 643e 0a20  sterViT-0</td>. 
++00001840: 2020 203c 7464 3e32 332e 393c 2f74 643e     <td>23.9</td>
++00001850: 0a20 2020 203c 7464 3e35 372e 363c 2f74  .    <td>57.6</t
++00001860: 643e 0a20 2020 203c 7464 3e34 352e 393c  d>.    <td>45.9<
++00001870: 2f74 643e 0a20 2020 203c 7464 3e36 302e  /td>.    <td>60.
++00001880: 343c 2f74 643e 0a20 2020 203c 7464 3e37  4</td>.    <td>7
++00001890: 302e 393c 2f74 643e 0a20 2020 203c 7464  0.9</td>.    <td
++000018a0: 3e39 302e 303c 2f74 643e 0a3c 2f74 723e  >90.0</td>.</tr>
++000018b0: 0a0a 3c74 723e 0a20 2020 203c 7464 3e46  ..<tr>.    <td>F
++000018c0: 6173 7465 7256 6954 2d31 3c2f 7464 3e0a  asterViT-1</td>.
++000018d0: 2020 2020 3c74 643e 3331 2e32 3c2f 7464      <td>31.2</td
++000018e0: 3e0a 2020 2020 3c74 643e 3633 2e33 3c2f  >.    <td>63.3</
++000018f0: 7464 3e0a 2020 2020 3c74 643e 3437 2e35  td>.    <td>47.5
++00001900: 3c2f 7464 3e0a 2020 2020 3c74 643e 3631  </td>.    <td>61
++00001910: 2e39 3c2f 7464 3e0a 2020 2020 3c74 643e  .9</td>.    <td>
++00001920: 3732 2e36 3c2f 7464 3e0a 2020 2020 3c74  72.6</td>.    <t
++00001930: 643e 3931 2e30 3c2f 7464 3e0a 3c2f 7472  d>91.0</td>.</tr
++00001940: 3e0a 0a3c 7472 3e0a 2020 2020 3c74 643e  >..<tr>.    <td>
++00001950: 4661 7374 6572 5669 542d 323c 2f74 643e  FasterViT-2</td>
++00001960: 0a20 2020 203c 7464 3e33 382e 323c 2f74  .    <td>38.2</t
++00001970: 643e 0a20 2020 203c 7464 3e36 382e 393c  d>.    <td>68.9<
++00001980: 2f74 643e 0a20 2020 203c 7464 3e34 392e  /td>.    <td>49.
++00001990: 363c 2f74 643e 0a20 2020 203c 7464 3e36  6</td>.    <td>6
++000019a0: 332e 343c 2f74 643e 0a20 2020 203c 7464  3.4</td>.    <td
++000019b0: 3e37 332e 373c 2f74 643e 0a20 2020 203c  >73.7</td>.    <
++000019c0: 7464 3e39 312e 363c 2f74 643e 0a3c 2f74  td>91.6</td>.</t
++000019d0: 723e 0a0a 3c74 723e 0a20 2020 203c 7464  r>..<tr>.    <td
++000019e0: 3e46 6173 7465 7256 6954 2d33 3c2f 7464  >FasterViT-3</td
++000019f0: 3e0a 2020 2020 3c74 643e 3434 2e32 3c2f  >.    <td>44.2</
++00001a00: 7464 3e0a 2020 2020 3c74 643e 3733 2e30  td>.    <td>73.0
++00001a10: 3c2f 7464 3e0a 2020 2020 3c74 643e 3531  </td>.    <td>51
++00001a20: 2e39 3c2f 7464 3e0a 2020 2020 3c74 643e  .9</td>.    <td>
++00001a30: 3635 2e36 3c2f 7464 3e0a 2020 2020 3c74  65.6</td>.    <t
++00001a40: 643e 3735 2e30 3c2f 7464 3e0a 2020 2020  d>75.0</td>.    
++00001a50: 3c74 643e 3932 2e32 3c2f 7464 3e0a 3c2f  <td>92.2</td>.</
++00001a60: 7472 3e0a 0a3c 7472 3e0a 2020 2020 3c74  tr>..<tr>.    <t
++00001a70: 643e 4661 7374 6572 5669 542d 343c 2f74  d>FasterViT-4</t
++00001a80: 643e 0a20 2020 203c 7464 3e34 392e 303c  d>.    <td>49.0<
++00001a90: 2f74 643e 0a20 2020 203c 7464 3e37 352e  /td>.    <td>75.
++00001aa0: 343c 2f74 643e 0a20 2020 203c 7464 3e35  4</td>.    <td>5
++00001ab0: 362e 303c 2f74 643e 0a20 2020 203c 7464  6.0</td>.    <td
++00001ac0: 3e36 392e 363c 2f74 643e 0a20 2020 203c  >69.6</td>.    <
++00001ad0: 7464 3e37 352e 373c 2f74 643e 0a20 2020  td>75.7</td>.   
++00001ae0: 203c 7464 3e39 322e 373c 2f74 643e 0a3c   <td>92.7</td>.<
++00001af0: 2f74 723e 0a0a 3c74 723e 0a20 2020 203c  /tr>..<tr>.    <
++00001b00: 7464 3e46 6173 7465 7256 6954 2d35 3c2f  td>FasterViT-5</
++00001b10: 7464 3e0a 2020 2020 3c74 643e 3532 2e37  td>.    <td>52.7
++00001b20: 3c2f 7464 3e0a 2020 2020 3c74 643e 3737  </td>.    <td>77
++00001b30: 2e36 3c2f 7464 3e0a 2020 2020 3c74 643e  .6</td>.    <td>
++00001b40: 3536 2e39 3c2f 7464 3e0a 2020 2020 3c74  56.9</td>.    <t
++00001b50: 643e 3730 2e30 3c2f 7464 3e0a 2020 2020  d>70.0</td>.    
++00001b60: 3c74 643e 3736 2e30 3c2f 7464 3e0a 2020  <td>76.0</td>.  
++00001b70: 2020 3c74 643e 3933 2e30 3c2f 7464 3e0a    <td>93.0</td>.
++00001b80: 3c2f 7472 3e0a 0a3c 7472 3e0a 2020 2020  </tr>..<tr>.    
++00001b90: 3c74 643e 4661 7374 6572 5669 542d 363c  <td>FasterViT-6<
++00001ba0: 2f74 643e 0a20 2020 203c 7464 3e35 332e  /td>.    <td>53.
++00001bb0: 373c 2f74 643e 0a20 2020 203c 7464 3e37  7</td>.    <td>7
++00001bc0: 382e 343c 2f74 643e 0a20 2020 203c 7464  8.4</td>.    <td
++00001bd0: 3e35 372e 313c 2f74 643e 0a20 2020 203c  >57.1</td>.    <
++00001be0: 7464 3e37 302e 313c 2f74 643e 0a20 2020  td>70.1</td>.   
++00001bf0: 203c 7464 3e37 362e 313c 2f74 643e 0a20   <td>76.1</td>. 
++00001c00: 2020 203c 7464 3e39 332e 303c 2f74 643e     <td>93.0</td>
++00001c10: 0a3c 2f74 723e 0a0a 3c2f 7461 626c 653e  .</tr>..</table>
++00001c20: 0a0a 412c 2052 2061 6e64 2056 3220 6465  ..A, R and V2 de
++00001c30: 6e6f 7465 2049 6d61 6765 4e65 742d 412c  note ImageNet-A,
++00001c40: 2049 6d61 6765 4e65 742d 5220 616e 6420   ImageNet-R and 
++00001c50: 496d 6167 654e 6574 2d56 3220 7265 7370  ImageNet-V2 resp
++00001c60: 6563 7469 7665 6c79 2e20 0a23 2320 5472  ectively. .## Tr
++00001c70: 6169 6e69 6e67 0a0a 506c 6561 7365 2073  aining..Please s
++00001c80: 6565 205b 5452 4149 4e49 4e47 2e6d 645d  ee [TRAINING.md]
++00001c90: 2854 5241 494e 494e 472e 6d64 2920 666f  (TRAINING.md) fo
++00001ca0: 7220 6465 7461 696c 6564 2074 7261 696e  r detailed train
++00001cb0: 696e 6720 696e 7374 7275 6374 696f 6e73  ing instructions
++00001cc0: 206f 6620 616c 6c20 6d6f 6465 6c73 2e20   of all models. 
++00001cd0: 0a0a 2323 2045 7661 6c75 6174 696f 6e0a  ..## Evaluation.
++00001ce0: 0a54 6865 2046 6173 7465 7256 6954 206d  .The FasterViT m
++00001cf0: 6f64 656c 7320 6361 6e20 6265 2065 7661  odels can be eva
++00001d00: 6c75 6174 6564 206f 6e20 496d 6167 654e  luated on ImageN
++00001d10: 6574 2d31 4b20 7661 6c69 6461 7469 6f6e  et-1K validation
++00001d20: 2073 6574 2075 7369 6e67 2074 6865 2066   set using the f
++00001d30: 6f6c 6c6f 7769 6e67 3a20 0a0a 6060 600a  ollowing: ..```.
++00001d40: 7079 7468 6f6e 2076 616c 6964 6174 652e  python validate.
++00001d50: 7079 205c 0a2d 2d6d 6f64 656c 203c 6d6f  py \.--model <mo
++00001d60: 6465 6c2d 6e61 6d65 3e0a 2d2d 6368 6563  del-name>.--chec
++00001d70: 6b70 6f69 6e74 203c 6368 6563 6b70 6f69  kpoint <checkpoi
++00001d80: 6e74 2d70 6174 683e 0a2d 2d64 6174 615f  nt-path>.--data_
++00001d90: 6469 7220 3c69 6d61 6765 6e65 742d 7061  dir <imagenet-pa
++00001da0: 7468 3e0a 2d2d 6261 7463 682d 7369 7a65  th>.--batch-size
++00001db0: 203c 6261 7463 682d 7369 7a65 2d70 6572   <batch-size-per
++00001dc0: 2d67 7075 0a60 6060 200a 0a48 6572 6520  -gpu.``` ..Here 
++00001dd0: 602d 2d6d 6f64 656c 6020 6973 2074 6865  `--model` is the
++00001de0: 2046 6173 7465 7256 6954 2076 6172 6961   FasterViT varia
++00001df0: 6e74 2028 652e 672e 2060 6661 7374 6572  nt (e.g. `faster
++00001e00: 5f76 6974 5f30 5f32 3234 5f31 6b60 292c  _vit_0_224_1k`),
++00001e10: 2060 2d2d 6368 6563 6b70 6f69 6e74 6020   `--checkpoint` 
++00001e20: 6973 2074 6865 2070 6174 6820 746f 2070  is the path to p
++00001e30: 7265 7472 6169 6e65 6420 6d6f 6465 6c20  retrained model 
++00001e40: 7765 6967 6874 732c 2060 2d2d 6461 7461  weights, `--data
++00001e50: 5f64 6972 6020 6973 2074 6865 2070 6174  _dir` is the pat
++00001e60: 6820 746f 2049 6d61 6765 4e65 742d 314b  h to ImageNet-1K
++00001e70: 2076 616c 6964 6174 696f 6e20 7365 7420   validation set 
++00001e80: 616e 6420 602d 2d62 6174 6368 2d73 697a  and `--batch-siz
++00001e90: 6560 2069 7320 7468 6520 6e75 6d62 6572  e` is the number
++00001ea0: 206f 6620 6261 7463 6820 7369 7a65 2e20   of batch size. 
++00001eb0: 5765 2061 6c73 6f20 7072 6f76 6964 6520  We also provide 
++00001ec0: 6120 7361 6d70 6c65 2073 6372 6970 7420  a sample script 
++00001ed0: 5b68 6572 655d 282e 2f66 6173 7465 7276  [here](./fasterv
++00001ee0: 6974 2f76 616c 6964 6174 652e 7368 292e  it/validate.sh).
++00001ef0: 200a 0a0a 2323 2049 6e73 7461 6c6c 6174   ...## Installat
++00001f00: 696f 6e0a 0a54 6865 2064 6570 656e 6465  ion..The depende
++00001f10: 6e63 6965 7320 6361 6e20 6265 2069 6e73  ncies can be ins
++00001f20: 7461 6c6c 6564 2062 7920 7275 6e6e 696e  talled by runnin
++00001f30: 673a 0a0a 6060 6062 6173 680a 7069 7020  g:..```bash.pip 
++00001f40: 696e 7374 616c 6c20 2d72 2072 6571 7569  install -r requi
++00001f50: 7265 6d65 6e74 732e 7478 740a 6060 600a  rements.txt.```.
++00001f60: 0a23 2320 5468 6972 642d 7061 7274 7920  .## Third-party 
++00001f70: 4578 7465 6e74 696f 6e73 0a57 6520 616c  Extentions.We al
++00001f80: 7761 7973 2077 656c 636f 6d65 2074 6869  ways welcome thi
++00001f90: 7264 2d70 6172 7479 2065 7874 656e 7469  rd-party extenti
++00001fa0: 6f6e 732f 696d 706c 656d 656e 7461 7469  ons/implementati
++00001fb0: 6f6e 7320 616e 6420 7573 6167 6520 666f  ons and usage fo
++00001fc0: 7220 6f74 6865 7220 7075 7270 6f73 6573  r other purposes
++00001fd0: 2e20 4966 2079 6f75 2077 6f75 6c64 206c  . If you would l
++00001fe0: 696b 6520 796f 7572 2077 6f72 6b20 746f  ike your work to
++00001ff0: 2062 6520 6c69 7374 6564 2069 6e20 7468   be listed in th
++00002000: 6973 2072 6570 6f73 6974 6f72 792c 2070  is repository, p
++00002010: 6c65 6173 6520 7261 6973 6520 616e 6420  lease raise and 
++00002020: 6973 7375 6520 616e 6420 7072 6f76 6964  issue and provid
++00002030: 6520 7573 2077 6974 6820 6465 7461 696c  e us with detail
++00002040: 6564 2069 6e66 6f72 6d61 7469 6f6e 2e20  ed information. 
++00002050: 200a 0a0a 2323 2041 636b 6e6f 776c 6564   ...## Acknowled
++00002060: 6765 6d65 6e74 0a54 6869 7320 7265 706f  gement.This repo
++00002070: 7369 746f 7279 2069 7320 6275 696c 7420  sitory is built 
++00002080: 6f6e 2074 6f70 206f 6620 7468 6520 5b74  on top of the [t
++00002090: 696d 6d5d 2868 7474 7073 3a2f 2f67 6974  imm](https://git
++000020a0: 6875 622e 636f 6d2f 6875 6767 696e 6766  hub.com/huggingf
++000020b0: 6163 652f 7079 746f 7263 682d 696d 6167  ace/pytorch-imag
++000020c0: 652d 6d6f 6465 6c73 2920 7265 706f 7369  e-models) reposi
++000020d0: 746f 7279 2e20 5765 2074 6861 6e6b 205b  tory. We thank [
++000020e0: 526f 7373 2057 7269 6768 746d 616e 5d28  Ross Wrightman](
++000020f0: 6874 7470 733a 2f2f 7277 6967 6874 6d61  https://rwightma
++00002100: 6e2e 636f 6d2f 2920 666f 7220 6372 6561  n.com/) for crea
++00002110: 7469 6e67 2061 6e64 206d 6169 6e74 6169  ting and maintai
++00002120: 6e69 6e67 2074 6869 7320 6869 6768 2d71  ning this high-q
++00002130: 7561 6c69 7479 206c 6962 7261 7279 2e20  uality library. 
++00002140: 200a 0a23 2320 4369 7461 7469 6f6e 0a0a   ..## Citation..
++00002150: 506c 6561 7365 2063 6f6e 7369 6465 7220  Please consider 
++00002160: 6369 7469 6e67 2046 6173 7465 7256 6954  citing FasterViT
++00002170: 2069 6620 7468 6973 2072 6570 6f73 6974   if this reposit
++00002180: 6f72 7920 6973 2075 7365 6675 6c20 666f  ory is useful fo
++00002190: 7220 796f 7572 2077 6f72 6b3a 0a0a 6060  r your work:..``
++000021a0: 600a 4061 7274 6963 6c65 7b68 6174 616d  `.@article{hatam
++000021b0: 697a 6164 6568 3230 3233 6661 7374 6572  izadeh2023faster
++000021c0: 7669 742c 0a20 2074 6974 6c65 3d7b 4661  vit,.  title={Fa
++000021d0: 7374 6572 5669 543a 2046 6173 7420 5669  sterViT: Fast Vi
++000021e0: 7369 6f6e 2054 7261 6e73 666f 726d 6572  sion Transformer
++000021f0: 7320 7769 7468 2048 6965 7261 7263 6869  s with Hierarchi
++00002200: 6361 6c20 4174 7465 6e74 696f 6e7d 2c0a  cal Attention},.
++00002210: 2020 6175 7468 6f72 3d7b 4861 7461 6d69    author={Hatami
++00002220: 7a61 6465 682c 2041 6c69 2061 6e64 2048  zadeh, Ali and H
++00002230: 6569 6e72 6963 682c 2047 7265 6720 616e  einrich, Greg an
++00002240: 6420 5969 6e2c 2048 6f6e 6778 7520 616e  d Yin, Hongxu an
++00002250: 6420 5461 6f2c 2041 6e64 7265 7720 616e  d Tao, Andrew an
++00002260: 6420 416c 7661 7265 7a2c 204a 6f73 6520  d Alvarez, Jose 
++00002270: 4d20 616e 6420 4b61 7574 7a2c 204a 616e  M and Kautz, Jan
++00002280: 2061 6e64 204d 6f6c 6368 616e 6f76 2c20   and Molchanov, 
++00002290: 5061 766c 6f7d 2c0a 2020 6a6f 7572 6e61  Pavlo},.  journa
++000022a0: 6c3d 7b61 7258 6976 2070 7265 7072 696e  l={arXiv preprin
++000022b0: 7420 6172 5869 763a 3233 3036 2e30 3631  t arXiv:2306.061
++000022c0: 3839 7d2c 0a20 2079 6561 723d 7b32 3032  89},.  year={202
++000022d0: 337d 0a7d 0a60 6060 0a0a 2323 204c 6963  3}.}.```..## Lic
++000022e0: 656e 7365 730a 0a43 6f70 7972 6967 6874  enses..Copyright
++000022f0: 20c2 a920 3230 3233 2c20 4e56 4944 4941   .. 2023, NVIDIA
++00002300: 2043 6f72 706f 7261 7469 6f6e 2e20 416c   Corporation. Al
++00002310: 6c20 7269 6768 7473 2072 6573 6572 7665  l rights reserve
++00002320: 642e 0a0a 5468 6973 2077 6f72 6b20 6973  d...This work is
++00002330: 206d 6164 6520 6176 6169 6c61 626c 6520   made available 
++00002340: 756e 6465 7220 7468 6520 4e56 4944 4941  under the NVIDIA
++00002350: 2053 6f75 7263 6520 436f 6465 204c 6963   Source Code Lic
++00002360: 656e 7365 2d4e 432e 2043 6c69 636b 205b  ense-NC. Click [
++00002370: 6865 7265 5d28 4c49 4345 4e53 4529 2074  here](LICENSE) t
++00002380: 6f20 7669 6577 2061 2063 6f70 7920 6f66  o view a copy of
++00002390: 2074 6869 7320 6c69 6365 6e73 652e 0a0a   this license...
++000023a0: 466f 7220 6c69 6365 6e73 6520 696e 666f  For license info
++000023b0: 726d 6174 696f 6e20 7265 6761 7264 696e  rmation regardin
++000023c0: 6720 7468 6520 7469 6d6d 2072 6570 6f73  g the timm repos
++000023d0: 6974 6f72 792c 2070 6c65 6173 6520 7265  itory, please re
++000023e0: 6665 7220 746f 2069 7473 205b 7265 706f  fer to its [repo
++000023f0: 7369 746f 7279 5d28 6874 7470 733a 2f2f  sitory](https://
++00002400: 6769 7468 7562 2e63 6f6d 2f72 7769 6768  github.com/rwigh
++00002410: 746d 616e 2f70 7974 6f72 6368 2d69 6d61  tman/pytorch-ima
++00002420: 6765 2d6d 6f64 656c 7329 2e0a 0a46 6f72  ge-models)...For
++00002430: 206c 6963 656e 7365 2069 6e66 6f72 6d61   license informa
++00002440: 7469 6f6e 2072 6567 6172 6469 6e67 2074  tion regarding t
++00002450: 6865 2049 6d61 6765 4e65 7420 6461 7461  he ImageNet data
++00002460: 7365 742c 2070 6c65 6173 6520 7365 6520  set, please see 
++00002470: 7468 6520 5b49 6d61 6765 4e65 7420 6f66  the [ImageNet of
++00002480: 6669 6369 616c 2077 6562 7369 7465 5d28  ficial website](
++00002490: 6874 7470 733a 2f2f 7777 772e 696d 6167  https://www.imag
++000024a0: 652d 6e65 742e 6f72 672f 292e 200a       e-net.org/). .
+```
+
+### Comparing `fastervit-0.8.7/README.md` & `fastervit-0.8.8/README.md`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -14,25 +14,16 @@
+ 
+ 
+ --- 
+ 
+ FasterViT achieves a new SOTA Pareto-front in
+ terms of accuracy vs. image throughput (no extra training data !)
+ 
+-<p align="center">
+-<img src="https://github.com/NVlabs/FasterViT/assets/26806394/253d1a2e-b5f5-4a9b-a362-6cdd16bfccc1" width=62% height=62% 
+-class="center">
+-</p>
+-
+-<!-- 
+-We introduce a new self-attention mechanism, denoted as Hierarchical
+-Attention (HAT), that captures both short and long-range information by learning
+-cross-window carrier tokens.
++![teaser](./fastervit/assets/plot.png)
+ 
+-![teaser](./fastervit/assets/hierarchial_attn.png) -->
+ 
+ 
+ ## 💥 News 💥
+ 
+ - **[06.18.2023]** 🔥 We have released the FasterViT [pip package](https://pypi.org/project/fastervit/) !
+ - **[06.17.2023]** 🔥 [Any-resolution FasterViT](./fastervit/models/faster_vit_any_res.py)  model is now available ! the model can be used for variety of applications such as detection and segmentation or high-resolution fine-tuning with arbitrary input image resolutions. 
+ - **[06.09.2023]** 🔥🔥 We have released source code and ImageNet-1K FasterViT-models !
+@@ -65,23 +56,23 @@
+ >>> model = create_model('faster_vit_1_any_res', 
+                           resolution=[576, 960],
+                           window_size=[7, 7, 12, 6],
+                           ct_size=2,
+                           dim=128)
+ ```
+ 
+-<!-- ## Catalog
++## Catalog
+ - [x] ImageNet-1K training code
+ - [x] ImageNet-1K pre-trained models
+ - [x] Any-resolution FasterViT
+ - [x] FasterViT pip-package release
+ - [ ] ImageNet-21K pre-trained models
+ - [ ] ImageNet-21K fine-tune scripts
+ - [ ] Detection code (DINO) + models
+-- [ ] Segmentation code + models -->
++- [ ] Segmentation code + models
+ 
+ --- 
+ 
+ ## Results + Pretrained Models
+ 
+ ### ImageNet-1K
+ **FasterViT ImageNet-1K Pretrained Models**
+@@ -295,14 +286,27 @@
+ ## Third-party Extentions
+ We always welcome third-party extentions/implementations and usage for other purposes. If you would like your work to be listed in this repository, please raise and issue and provide us with detailed information.  
+ 
+ 
+ ## Acknowledgement
+ This repository is built on top of the [timm](https://github.com/huggingface/pytorch-image-models) repository. We thank [Ross Wrightman](https://rwightman.com/) for creating and maintaining this high-quality library.  
+ 
++## Citation
++
++Please consider citing FasterViT if this repository is useful for your work:
++
++```
++@article{hatamizadeh2023fastervit,
++  title={FasterViT: Fast Vision Transformers with Hierarchical Attention},
++  author={Hatamizadeh, Ali and Heinrich, Greg and Yin, Hongxu and Tao, Andrew and Alvarez, Jose M and Kautz, Jan and Molchanov, Pavlo},
++  journal={arXiv preprint arXiv:2306.06189},
++  year={2023}
++}
++```
++
+ ## Licenses
+ 
+ Copyright © 2023, NVIDIA Corporation. All rights reserved.
+ 
+ This work is made available under the NVIDIA Source Code License-NC. Click [here](LICENSE) to view a copy of this license.
+ 
+ For license information regarding the timm repository, please refer to its [repository](https://github.com/rwightman/pytorch-image-models).
+```
+
+#### html2text {}
+
+```diff
+@@ -5,18 +5,16 @@
+ developer.nvidia.com/blog/author/gheinrich/), [Hongxu (Danny) Yin](https://
+ scholar.princeton.edu/hongxu), [Andrew Tao](https://developer.nvidia.com/blog/
+ author/atao/), [Jose M. Alvarez](https://alvarezlopezjosem.github.io/), [Jan
+ Kautz](https://jankautz.com/), [Pavlo Molchanov](https://www.pmolchanov.com/).
+ For business inquiries, please visit our website and submit the form: [NVIDIA
+ Research Licensing](https://www.nvidia.com/en-us/research/inquiries/) --
+ - FasterViT achieves a new SOTA Pareto-front in terms of accuracy vs. image
+-throughput (no extra training data !)
+- [https://github.com/NVlabs/FasterViT/assets/26806394/253d1a2e-b5f5-4a9b-a362-
+-                                 6cdd16bfccc1]
+- ## ð¥ News ð¥ - **[06.18.2023]** ð¥ We have released the FasterViT [pip
++throughput (no extra training data !) ![teaser](./fastervit/assets/plot.png) ##
++ð¥ News ð¥ - **[06.18.2023]** ð¥ We have released the FasterViT [pip
+ package](https://pypi.org/project/fastervit/) ! - **[06.17.2023]** ð¥ [Any-
+ resolution FasterViT](./fastervit/models/faster_vit_any_res.py) model is now
+ available ! the model can be used for variety of applications such as detection
+ and segmentation or high-resolution fine-tuning with arbitrary input image
+ resolutions. - **[06.09.2023]** ð¥ð¥ We have released source code and
+ ImageNet-1K FasterViT-models ! ## Quick Start The FasterViT can be conveniently
+ installed by: ```bash pip install fastervit ``` A FasterViT model with default
+@@ -25,17 +23,20 @@
+ resolution >>> model = create_model('faster_vit_0_224') ``` We can also use the
+ any-resolution FasterViT model to accommodate arbitrary image resolutions. In
+ the following, we define an any-resolution FasterViT-1 model with input
+ resolution of 576 x 960, window sizes of 12 and 6 in 3rd and 4th stages,
+ carrier token size of 2 and embedding dimension of 128: ```python >>> from
+ fastervit import create_model # Define any-resolution FasterViT-1 model with
+ 576 x 960 resolution >>> model = create_model('faster_vit_1_any_res',
+-resolution=[576, 960], window_size=[7, 7, 12, 6], ct_size=2, dim=128) ```  --
+-- ## Results + Pretrained Models ### ImageNet-1K **FasterViT ImageNet-1K
+-Pretrained Models**
++resolution=[576, 960], window_size=[7, 7, 12, 6], ct_size=2, dim=128) ``` ##
++Catalog - [x] ImageNet-1K training code - [x] ImageNet-1K pre-trained models -
++[x] Any-resolution FasterViT - [x] FasterViT pip-package release - [ ]
++ImageNet-21K pre-trained models - [ ] ImageNet-21K fine-tune scripts - [ ]
++Detection code (DINO) + models - [ ] Segmentation code + models --- ## Results
+++ Pretrained Models ### ImageNet-1K **FasterViT ImageNet-1K Pretrained Models**
+ Name       Acc@1(%) Acc@5(%) Throughput Resolution #Params(M) FLOPs(G) Download
+                              (Img/Sec)
+ FasterViT- 82.1     95.9     5802       224x224    31.4       3.3      model
+ 0
+ FasterViT- 83.2     96.5     4188       224x224    53.4       5.3      model
+ 1
+ FasterViT- 84.2     96.8     3161       224x224    75.9       8.7      model
+@@ -71,14 +72,19 @@
+ Installation The dependencies can be installed by running: ```bash pip install
+ -r requirements.txt ``` ## Third-party Extentions We always welcome third-party
+ extentions/implementations and usage for other purposes. If you would like your
+ work to be listed in this repository, please raise and issue and provide us
+ with detailed information. ## Acknowledgement This repository is built on top
+ of the [timm](https://github.com/huggingface/pytorch-image-models) repository.
+ We thank [Ross Wrightman](https://rwightman.com/) for creating and maintaining
+-this high-quality library. ## Licenses Copyright Â© 2023, NVIDIA Corporation.
+-All rights reserved. This work is made available under the NVIDIA Source Code
+-License-NC. Click [here](LICENSE) to view a copy of this license. For license
+-information regarding the timm repository, please refer to its [repository]
+-(https://github.com/rwightman/pytorch-image-models). For license information
+-regarding the ImageNet dataset, please see the [ImageNet official website]
+-(https://www.image-net.org/).
++this high-quality library. ## Citation Please consider citing FasterViT if this
++repository is useful for your work: ``` @article{hatamizadeh2023fastervit,
++title={FasterViT: Fast Vision Transformers with Hierarchical Attention},
++author={Hatamizadeh, Ali and Heinrich, Greg and Yin, Hongxu and Tao, Andrew and
++Alvarez, Jose M and Kautz, Jan and Molchanov, Pavlo}, journal={arXiv preprint
++arXiv:2306.06189}, year={2023} } ``` ## Licenses Copyright Â© 2023, NVIDIA
++Corporation. All rights reserved. This work is made available under the NVIDIA
++Source Code License-NC. Click [here](LICENSE) to view a copy of this license.
++For license information regarding the timm repository, please refer to its
++[repository](https://github.com/rwightman/pytorch-image-models). For license
++information regarding the ImageNet dataset, please see the [ImageNet official
++website](https://www.image-net.org/).
+```
+
+### Comparing `fastervit-0.8.7/fastervit/assets/hierarchial_attn.png` & `fastervit-0.8.8/fastervit/assets/hierarchial_attn.png`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/models/faster_vit.py` & `fastervit-0.8.8/fastervit/models/faster_vit.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -8,15 +8,15 @@
+ # distribution of this software and related documentation without an express
+ # license agreement from NVIDIA CORPORATION is strictly prohibited.
+ 
+ import torch
+ import torch.nn as nn
+ from timm.models.registry import register_model
+ from timm.models.layers import trunc_normal_, DropPath, LayerNorm2d
+-from .registry import register_model
++from .registry import register_pip_model
+ import numpy as np
+ 
+ 
+ def _cfg(url='', **kwargs):
+     return {'url': url,
+             'num_classes': 1000,
+             'input_size': (3, 224, 224),
+@@ -971,14 +971,15 @@
+ 
+     def forward(self, x):
+         x = self.forward_features(x)
+         x = self.head(x)
+         return x
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_0_224(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [2, 3, 6, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 64)
+@@ -998,14 +999,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_0_224']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_1_224(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [1, 3, 8, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 80)
+@@ -1025,14 +1027,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_1_224']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_2_224(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 8, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 96)
+@@ -1052,14 +1055,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_2_224']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_3_224(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 12, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 128)
+@@ -1083,14 +1087,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_3_224']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_4_224(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 12, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 196)
+@@ -1115,14 +1120,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_4_224']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_5_224(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 12, 5])
+     num_heads = kwargs.pop("num_heads", [4, 8, 16, 32])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 320)
+@@ -1147,14 +1153,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_5_224']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_6_224(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 16, 8])
+     num_heads = kwargs.pop("num_heads", [4, 8, 16, 32])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 320)
+```
+
+### Comparing `fastervit-0.8.7/fastervit/models/faster_vit_any_res.py` & `fastervit-0.8.8/fastervit/models/faster_vit_any_res.py`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -8,15 +8,15 @@
+ # distribution of this software and related documentation without an express
+ # license agreement from NVIDIA CORPORATION is strictly prohibited.
+ 
+ import torch
+ import torch.nn as nn
+ from timm.models.registry import register_model
+ from timm.models.layers import trunc_normal_, DropPath, LayerNorm2d
+-from .registry import register_model
++from .registry import register_pip_model
+ import numpy as np
+ 
+ 
+ def _cfg(url='', **kwargs):
+     return {'url': url,
+             'num_classes': 1000,
+             'input_size': (3, 224, 224),
+@@ -859,15 +859,15 @@
+ 
+     def forward(self, x):
+         B, C, H, W = x.shape
+         if self.transformer_block:
+             pad_r = (self.window_size - W % self.window_size) % self.window_size
+             pad_b = (self.window_size - H % self.window_size) % self.window_size
+             if pad_r > 0 or pad_b > 0:
+-                x = F.pad(x, (0,pad_r,0,pad_b))
++                x = torch.nn.functional.pad(x, (0,pad_r,0,pad_b))
+                 _, _, Hp, Wp = x.shape
+             else:
+                 Hp, Wp = H, W
+         ct = self.global_tokenizer(x) if self.do_gt else None
+         if self.transformer_block:
+             x = window_partition(x, self.window_size)
+         for bn, blk in enumerate(self.blocks):
+@@ -999,14 +999,15 @@
+ 
+     def forward(self, x):
+         x = self.forward_features(x)
+         x = self.head(x)
+         return x
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_0_any_res(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [2, 3, 6, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 64)
+@@ -1026,14 +1027,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_0_any_res']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_1_any_res(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [1, 3, 8, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 80)
+@@ -1053,14 +1055,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_1_any_res']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_2_any_res(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 8, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 96)
+@@ -1080,14 +1083,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_2_any_res']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_3_any_res(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 12, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 128)
+@@ -1111,14 +1115,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_3_any_res']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_4_any_res(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 12, 5])
+     num_heads = kwargs.pop("num_heads", [2, 4, 8, 16])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 196)
+@@ -1143,14 +1148,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_4_any_res']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_5_any_res(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 12, 5])
+     num_heads = kwargs.pop("num_heads", [4, 8, 16, 32])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 320)
+@@ -1175,14 +1181,15 @@
+                       **kwargs)
+     model.default_cfg = default_cfgs['faster_vit_5_any_res']
+     if pretrained:
+         model.load_state_dict(torch.load(pretrained))
+     return model
+ 
+ 
++@register_pip_model
+ @register_model
+ def faster_vit_6_any_res(pretrained=False, **kwargs):
+     depths = kwargs.pop("depths", [3, 3, 16, 8])
+     num_heads = kwargs.pop("num_heads", [4, 8, 16, 32])
+     window_size = kwargs.pop("window_size", [7, 7, 7, 7])
+     ct_size = kwargs.pop("ct_size", 2)
+     dim = kwargs.pop("dim", 320)
+```
+
+### Comparing `fastervit-0.8.7/fastervit/models/registry.py` & `fastervit-0.8.8/fastervit/models/registry.py`
+
+ * *Files 0% similar despite different names*
+
+```diff
+@@ -23,15 +23,15 @@
+ _module_to_models = defaultdict(set)  # dict of sets to check membership of model in module
+ _model_to_module = {}  # mapping of model names to module names
+ _model_entrypoints = {}  # mapping of model names to entrypoint fns
+ _model_has_pretrained = set()  # set of model names that have pretrained weight url present
+ _model_default_cfgs = dict()  # central repo for model default_cfgs
+ 
+ 
+-def register_model(fn):
++def register_pip_model(fn):
+     # lookup containing module
+     mod = sys.modules[fn.__module__]
+     module_name_split = fn.__module__.split('.')
+     module_name = module_name_split[-1] if len(module_name_split) else ''
+ 
+     # add model to __all__ in module
+     model_name = fn.__name__
+```
+
+### Comparing `fastervit-0.8.7/fastervit/scheduler/cosine_lr.py` & `fastervit-0.8.8/fastervit/scheduler/cosine_lr.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/scheduler/multistep_lr.py` & `fastervit-0.8.8/fastervit/scheduler/multistep_lr.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/scheduler/plateau_lr.py` & `fastervit-0.8.8/fastervit/scheduler/plateau_lr.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/scheduler/poly_lr.py` & `fastervit-0.8.8/fastervit/scheduler/poly_lr.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/scheduler/scheduler.py` & `fastervit-0.8.8/fastervit/scheduler/scheduler.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/scheduler/scheduler_factory.py` & `fastervit-0.8.8/fastervit/scheduler/scheduler_factory.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/scheduler/step_lr.py` & `fastervit-0.8.8/fastervit/scheduler/step_lr.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/scheduler/tanh_lr.py` & `fastervit-0.8.8/fastervit/scheduler/tanh_lr.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/tensorboard.py` & `fastervit-0.8.8/fastervit/tensorboard.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/train.py` & `fastervit-0.8.8/fastervit/train.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit/validate.py` & `fastervit-0.8.8/fastervit/validate.py`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/fastervit.egg-info/PKG-INFO` & `fastervit-0.8.8/fastervit.egg-info/PKG-INFO`
+
+ * *Files 2% similar despite different names*
+
+```diff
+@@ -1,11 +1,11 @@
+ 00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+ 00000010: 3a20 322e 310a 4e61 6d65 3a20 6661 7374  : 2.1.Name: fast
+ 00000020: 6572 7669 740a 5665 7273 696f 6e3a 2030  ervit.Version: 0
+-00000030: 2e38 2e37 0a53 756d 6d61 7279 3a20 4661  .8.7.Summary: Fa
++00000030: 2e38 2e38 0a53 756d 6d61 7279 3a20 4661  .8.8.Summary: Fa
+ 00000040: 7374 6572 5669 543a 2046 6173 7420 5669  sterViT: Fast Vi
+ 00000050: 7369 6f6e 2054 7261 6e73 666f 726d 6572  sion Transformer
+ 00000060: 7320 7769 7468 2048 6965 7261 7263 6869  s with Hierarchi
+ 00000070: 6361 6c20 4174 7465 6e74 696f 6e0a 486f  cal Attention.Ho
+ 00000080: 6d65 2d70 6167 653a 2068 7474 7073 3a2f  me-page: https:/
+ 00000090: 2f67 6974 6875 622e 636f 6d2f 4e56 6c61  /github.com/NVla
+ 000000a0: 6273 2f46 6173 7465 7256 6954 0a41 7574  bs/FasterViT.Aut
+@@ -108,478 +108,480 @@
+ 000006b0: 0a0a 2d2d 2d20 0a0a 4661 7374 6572 5669  ..--- ..FasterVi
+ 000006c0: 5420 6163 6869 6576 6573 2061 206e 6577  T achieves a new
+ 000006d0: 2053 4f54 4120 5061 7265 746f 2d66 726f   SOTA Pareto-fro
+ 000006e0: 6e74 2069 6e0a 7465 726d 7320 6f66 2061  nt in.terms of a
+ 000006f0: 6363 7572 6163 7920 7673 2e20 696d 6167  ccuracy vs. imag
+ 00000700: 6520 7468 726f 7567 6870 7574 2028 6e6f  e throughput (no
+ 00000710: 2065 7874 7261 2074 7261 696e 696e 6720   extra training 
+-00000720: 6461 7461 2021 290a 0a3c 7020 616c 6967  data !)..<p alig
+-00000730: 6e3d 2263 656e 7465 7222 3e0a 3c69 6d67  n="center">.<img
+-00000740: 2073 7263 3d22 6874 7470 733a 2f2f 6769   src="https://gi
+-00000750: 7468 7562 2e63 6f6d 2f4e 566c 6162 732f  thub.com/NVlabs/
+-00000760: 4661 7374 6572 5669 542f 6173 7365 7473  FasterViT/assets
+-00000770: 2f32 3638 3036 3339 342f 3235 3364 3161  /26806394/253d1a
+-00000780: 3265 2d62 3566 352d 3461 3962 2d61 3336  2e-b5f5-4a9b-a36
+-00000790: 322d 3663 6464 3136 6266 6363 6331 2220  2-6cdd16bfccc1" 
+-000007a0: 7769 6474 683d 3632 2520 6865 6967 6874  width=62% height
+-000007b0: 3d36 3225 200a 636c 6173 733d 2263 656e  =62% .class="cen
+-000007c0: 7465 7222 3e0a 3c2f 703e 0a0a 3c21 2d2d  ter">.</p>..<!--
+-000007d0: 200a 5765 2069 6e74 726f 6475 6365 2061   .We introduce a
+-000007e0: 206e 6577 2073 656c 662d 6174 7465 6e74   new self-attent
+-000007f0: 696f 6e20 6d65 6368 616e 6973 6d2c 2064  ion mechanism, d
+-00000800: 656e 6f74 6564 2061 7320 4869 6572 6172  enoted as Hierar
+-00000810: 6368 6963 616c 0a41 7474 656e 7469 6f6e  chical.Attention
+-00000820: 2028 4841 5429 2c20 7468 6174 2063 6170   (HAT), that cap
+-00000830: 7475 7265 7320 626f 7468 2073 686f 7274  tures both short
+-00000840: 2061 6e64 206c 6f6e 672d 7261 6e67 6520   and long-range 
+-00000850: 696e 666f 726d 6174 696f 6e20 6279 206c  information by l
+-00000860: 6561 726e 696e 670a 6372 6f73 732d 7769  earning.cross-wi
+-00000870: 6e64 6f77 2063 6172 7269 6572 2074 6f6b  ndow carrier tok
+-00000880: 656e 732e 0a0a 215b 7465 6173 6572 5d28  ens...![teaser](
+-00000890: 2e2f 6661 7374 6572 7669 742f 6173 7365  ./fastervit/asse
+-000008a0: 7473 2f68 6965 7261 7263 6869 616c 5f61  ts/hierarchial_a
+-000008b0: 7474 6e2e 706e 6729 202d 2d3e 0a0a 0a23  ttn.png) -->...#
+-000008c0: 2320 f09f 92a5 204e 6577 7320 f09f 92a5  # .... News ....
+-000008d0: 0a0a 2d20 2a2a 5b30 362e 3138 2e32 3032  ..- **[06.18.202
+-000008e0: 335d 2a2a 20f0 9f94 a520 5765 2068 6176  3]** .... We hav
+-000008f0: 6520 7265 6c65 6173 6564 2074 6865 2046  e released the F
+-00000900: 6173 7465 7256 6954 205b 7069 7020 7061  asterViT [pip pa
+-00000910: 636b 6167 655d 2868 7474 7073 3a2f 2f70  ckage](https://p
+-00000920: 7970 692e 6f72 672f 7072 6f6a 6563 742f  ypi.org/project/
+-00000930: 6661 7374 6572 7669 742f 2920 210a 2d20  fastervit/) !.- 
+-00000940: 2a2a 5b30 362e 3137 2e32 3032 335d 2a2a  **[06.17.2023]**
+-00000950: 20f0 9f94 a520 5b41 6e79 2d72 6573 6f6c   .... [Any-resol
+-00000960: 7574 696f 6e20 4661 7374 6572 5669 545d  ution FasterViT]
+-00000970: 282e 2f66 6173 7465 7276 6974 2f6d 6f64  (./fastervit/mod
+-00000980: 656c 732f 6661 7374 6572 5f76 6974 5f61  els/faster_vit_a
+-00000990: 6e79 5f72 6573 2e70 7929 2020 6d6f 6465  ny_res.py)  mode
+-000009a0: 6c20 6973 206e 6f77 2061 7661 696c 6162  l is now availab
+-000009b0: 6c65 2021 2074 6865 206d 6f64 656c 2063  le ! the model c
+-000009c0: 616e 2062 6520 7573 6564 2066 6f72 2076  an be used for v
+-000009d0: 6172 6965 7479 206f 6620 6170 706c 6963  ariety of applic
+-000009e0: 6174 696f 6e73 2073 7563 6820 6173 2064  ations such as d
+-000009f0: 6574 6563 7469 6f6e 2061 6e64 2073 6567  etection and seg
+-00000a00: 6d65 6e74 6174 696f 6e20 6f72 2068 6967  mentation or hig
+-00000a10: 682d 7265 736f 6c75 7469 6f6e 2066 696e  h-resolution fin
+-00000a20: 652d 7475 6e69 6e67 2077 6974 6820 6172  e-tuning with ar
+-00000a30: 6269 7472 6172 7920 696e 7075 7420 696d  bitrary input im
+-00000a40: 6167 6520 7265 736f 6c75 7469 6f6e 732e  age resolutions.
+-00000a50: 200a 2d20 2a2a 5b30 362e 3039 2e32 3032   .- **[06.09.202
+-00000a60: 335d 2a2a 20f0 9f94 a5f0 9f94 a520 5765  3]** ........ We
+-00000a70: 2068 6176 6520 7265 6c65 6173 6564 2073   have released s
+-00000a80: 6f75 7263 6520 636f 6465 2061 6e64 2049  ource code and I
+-00000a90: 6d61 6765 4e65 742d 314b 2046 6173 7465  mageNet-1K Faste
+-00000aa0: 7256 6954 2d6d 6f64 656c 7320 210a 0a23  rViT-models !..#
+-00000ab0: 2320 5175 6963 6b20 5374 6172 740a 0a54  # Quick Start..T
+-00000ac0: 6865 2046 6173 7465 7256 6954 2063 616e  he FasterViT can
+-00000ad0: 2062 6520 636f 6e76 656e 6965 6e74 6c79   be conveniently
+-00000ae0: 2069 6e73 7461 6c6c 6564 2062 793a 0a0a   installed by:..
+-00000af0: 6060 6062 6173 680a 7069 7020 696e 7374  ```bash.pip inst
+-00000b00: 616c 6c20 6661 7374 6572 7669 740a 6060  all fastervit.``
+-00000b10: 600a 0a41 2046 6173 7465 7256 6954 206d  `..A FasterViT m
+-00000b20: 6f64 656c 2077 6974 6820 6465 6661 756c  odel with defaul
+-00000b30: 7420 6879 7065 722d 7061 7261 6d65 7465  t hyper-paramete
+-00000b40: 7273 2063 616e 2062 6520 6372 6561 7465  rs can be create
+-00000b50: 6420 6173 2069 6e20 7468 6520 666f 6c6c  d as in the foll
+-00000b60: 6f77 696e 673a 0a0a 6060 6070 7974 686f  owing:..```pytho
+-00000b70: 6e0a 3e3e 3e20 6672 6f6d 2066 6173 7465  n.>>> from faste
+-00000b80: 7276 6974 2069 6d70 6f72 7420 6372 6561  rvit import crea
+-00000b90: 7465 5f6d 6f64 656c 0a0a 2320 4465 6669  te_model..# Defi
+-00000ba0: 6e65 2066 6173 7465 7276 6974 2d30 206d  ne fastervit-0 m
+-00000bb0: 6f64 656c 2077 6974 6820 3232 3420 7820  odel with 224 x 
+-00000bc0: 3232 3420 7265 736f 6c75 7469 6f6e 0a3e  224 resolution.>
+-00000bd0: 3e3e 206d 6f64 656c 203d 2063 7265 6174  >> model = creat
+-00000be0: 655f 6d6f 6465 6c28 2766 6173 7465 725f  e_model('faster_
+-00000bf0: 7669 745f 305f 3232 3427 290a 6060 600a  vit_0_224').```.
+-00000c00: 0a57 6520 6361 6e20 616c 736f 2075 7365  .We can also use
+-00000c10: 2074 6865 2061 6e79 2d72 6573 6f6c 7574   the any-resolut
+-00000c20: 696f 6e20 4661 7374 6572 5669 5420 6d6f  ion FasterViT mo
+-00000c30: 6465 6c20 746f 2061 6363 6f6d 6d6f 6461  del to accommoda
+-00000c40: 7465 2061 7262 6974 7261 7279 2069 6d61  te arbitrary ima
+-00000c50: 6765 2072 6573 6f6c 7574 696f 6e73 2e20  ge resolutions. 
+-00000c60: 496e 2074 6865 2066 6f6c 6c6f 7769 6e67  In the following
+-00000c70: 2c20 7765 2064 6566 696e 6520 616e 2061  , we define an a
+-00000c80: 6e79 2d72 6573 6f6c 7574 696f 6e20 4661  ny-resolution Fa
+-00000c90: 7374 6572 5669 542d 310a 6d6f 6465 6c20  sterViT-1.model 
+-00000ca0: 7769 7468 2069 6e70 7574 2072 6573 6f6c  with input resol
+-00000cb0: 7574 696f 6e20 6f66 2035 3736 2078 2039  ution of 576 x 9
+-00000cc0: 3630 2c20 7769 6e64 6f77 2073 697a 6573  60, window sizes
+-00000cd0: 206f 6620 3132 2061 6e64 2036 2069 6e20   of 12 and 6 in 
+-00000ce0: 3372 6420 616e 6420 3474 6820 7374 6167  3rd and 4th stag
+-00000cf0: 6573 2c20 6361 7272 6965 7220 746f 6b65  es, carrier toke
+-00000d00: 6e20 7369 7a65 206f 6620 3220 616e 6420  n size of 2 and 
+-00000d10: 656d 6265 6464 696e 6720 6469 6d65 6e73  embedding dimens
+-00000d20: 696f 6e20 6f66 0a31 3238 3a0a 0a60 6060  ion of.128:..```
+-00000d30: 7079 7468 6f6e 0a3e 3e3e 2066 726f 6d20  python.>>> from 
+-00000d40: 6661 7374 6572 7669 7420 696d 706f 7274  fastervit import
+-00000d50: 2063 7265 6174 655f 6d6f 6465 6c0a 0a23   create_model..#
+-00000d60: 2044 6566 696e 6520 616e 792d 7265 736f   Define any-reso
+-00000d70: 6c75 7469 6f6e 2046 6173 7465 7256 6954  lution FasterViT
+-00000d80: 2d31 206d 6f64 656c 2077 6974 6820 3537  -1 model with 57
+-00000d90: 3620 7820 3936 3020 7265 736f 6c75 7469  6 x 960 resoluti
+-00000da0: 6f6e 0a3e 3e3e 206d 6f64 656c 203d 2063  on.>>> model = c
+-00000db0: 7265 6174 655f 6d6f 6465 6c28 2766 6173  reate_model('fas
+-00000dc0: 7465 725f 7669 745f 315f 616e 795f 7265  ter_vit_1_any_re
+-00000dd0: 7327 2c20 0a20 2020 2020 2020 2020 2020  s', .           
+-00000de0: 2020 2020 2020 2020 2020 2020 2020 2072                 r
+-00000df0: 6573 6f6c 7574 696f 6e3d 5b35 3736 2c20  esolution=[576, 
+-00000e00: 3936 305d 2c0a 2020 2020 2020 2020 2020  960],.          
+-00000e10: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000e20: 7769 6e64 6f77 5f73 697a 653d 5b37 2c20  window_size=[7, 
+-00000e30: 372c 2031 322c 2036 5d2c 0a20 2020 2020  7, 12, 6],.     
+-00000e40: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000e50: 2020 2020 2063 745f 7369 7a65 3d32 2c0a       ct_size=2,.
+-00000e60: 2020 2020 2020 2020 2020 2020 2020 2020                  
+-00000e70: 2020 2020 2020 2020 2020 6469 6d3d 3132            dim=12
+-00000e80: 3829 0a60 6060 0a0a 3c21 2d2d 2023 2320  8).```..<!-- ## 
+-00000e90: 4361 7461 6c6f 670a 2d20 5b78 5d20 496d  Catalog.- [x] Im
+-00000ea0: 6167 654e 6574 2d31 4b20 7472 6169 6e69  ageNet-1K traini
+-00000eb0: 6e67 2063 6f64 650a 2d20 5b78 5d20 496d  ng code.- [x] Im
+-00000ec0: 6167 654e 6574 2d31 4b20 7072 652d 7472  ageNet-1K pre-tr
+-00000ed0: 6169 6e65 6420 6d6f 6465 6c73 0a2d 205b  ained models.- [
+-00000ee0: 785d 2041 6e79 2d72 6573 6f6c 7574 696f  x] Any-resolutio
+-00000ef0: 6e20 4661 7374 6572 5669 540a 2d20 5b78  n FasterViT.- [x
+-00000f00: 5d20 4661 7374 6572 5669 5420 7069 702d  ] FasterViT pip-
+-00000f10: 7061 636b 6167 6520 7265 6c65 6173 650a  package release.
+-00000f20: 2d20 5b20 5d20 496d 6167 654e 6574 2d32  - [ ] ImageNet-2
+-00000f30: 314b 2070 7265 2d74 7261 696e 6564 206d  1K pre-trained m
+-00000f40: 6f64 656c 730a 2d20 5b20 5d20 496d 6167  odels.- [ ] Imag
+-00000f50: 654e 6574 2d32 314b 2066 696e 652d 7475  eNet-21K fine-tu
+-00000f60: 6e65 2073 6372 6970 7473 0a2d 205b 205d  ne scripts.- [ ]
+-00000f70: 2044 6574 6563 7469 6f6e 2063 6f64 6520   Detection code 
+-00000f80: 2844 494e 4f29 202b 206d 6f64 656c 730a  (DINO) + models.
+-00000f90: 2d20 5b20 5d20 5365 676d 656e 7461 7469  - [ ] Segmentati
+-00000fa0: 6f6e 2063 6f64 6520 2b20 6d6f 6465 6c73  on code + models
+-00000fb0: 202d 2d3e 0a0a 2d2d 2d20 0a0a 2323 2052   -->..--- ..## R
+-00000fc0: 6573 756c 7473 202b 2050 7265 7472 6169  esults + Pretrai
+-00000fd0: 6e65 6420 4d6f 6465 6c73 0a0a 2323 2320  ned Models..### 
+-00000fe0: 496d 6167 654e 6574 2d31 4b0a 2a2a 4661  ImageNet-1K.**Fa
+-00000ff0: 7374 6572 5669 5420 496d 6167 654e 6574  sterViT ImageNet
+-00001000: 2d31 4b20 5072 6574 7261 696e 6564 204d  -1K Pretrained M
+-00001010: 6f64 656c 732a 2a0a 0a3c 7461 626c 653e  odels**..<table>
+-00001020: 0a20 203c 7472 3e0a 2020 2020 3c74 683e  .  <tr>.    <th>
+-00001030: 4e61 6d65 3c2f 7468 3e0a 2020 2020 3c74  Name</th>.    <t
+-00001040: 683e 4163 6340 3128 2529 3c2f 7468 3e0a  h>Acc@1(%)</th>.
+-00001050: 2020 2020 3c74 683e 4163 6340 3528 2529      <th>Acc@5(%)
+-00001060: 3c2f 7468 3e0a 2020 2020 3c74 683e 5468  </th>.    <th>Th
+-00001070: 726f 7567 6870 7574 2849 6d67 2f53 6563  roughput(Img/Sec
+-00001080: 293c 2f74 683e 0a20 2020 203c 7468 3e52  )</th>.    <th>R
+-00001090: 6573 6f6c 7574 696f 6e3c 2f74 683e 0a20  esolution</th>. 
+-000010a0: 2020 203c 7468 3e23 5061 7261 6d73 284d     <th>#Params(M
+-000010b0: 293c 2f74 683e 0a20 2020 203c 7468 3e46  )</th>.    <th>F
+-000010c0: 4c4f 5073 2847 293c 2f74 683e 0a20 2020  LOPs(G)</th>.   
+-000010d0: 203c 7468 3e44 6f77 6e6c 6f61 643c 2f74   <th>Download</t
+-000010e0: 683e 0a20 203c 2f74 723e 0a0a 3c74 723e  h>.  </tr>..<tr>
+-000010f0: 0a20 2020 203c 7464 3e46 6173 7465 7256  .    <td>FasterV
+-00001100: 6954 2d30 3c2f 7464 3e0a 2020 2020 3c74  iT-0</td>.    <t
+-00001110: 643e 3832 2e31 3c2f 7464 3e0a 2020 2020  d>82.1</td>.    
+-00001120: 3c74 643e 3935 2e39 3c2f 7464 3e0a 2020  <td>95.9</td>.  
+-00001130: 2020 3c74 643e 3538 3032 3c2f 7464 3e0a    <td>5802</td>.
+-00001140: 2020 2020 3c74 643e 3232 3478 3232 343c      <td>224x224<
+-00001150: 2f74 643e 0a20 2020 203c 7464 3e33 312e  /td>.    <td>31.
+-00001160: 343c 2f74 643e 0a20 2020 203c 7464 3e33  4</td>.    <td>3
+-00001170: 2e33 3c2f 7464 3e0a 2020 2020 3c74 643e  .3</td>.    <td>
+-00001180: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00001190: 2f64 7269 7665 2e67 6f6f 676c 652e 636f  /drive.google.co
+-000011a0: 6d2f 7563 3f65 7870 6f72 743d 646f 776e  m/uc?export=down
+-000011b0: 6c6f 6164 2669 643d 3174 7749 324c 464a  load&id=1twI2LFJ
+-000011c0: 7333 3931 5972 6a38 4d52 3455 6939 5066  s391Yrj8MR4Ui9Pf
+-000011d0: 7276 5771 6a45 3169 4222 3e6d 6f64 656c  rvWqjE1iB">model
+-000011e0: 3c2f 613e 3c2f 7464 3e0a 3c2f 7472 3e0a  </a></td>.</tr>.
+-000011f0: 0a3c 7472 3e0a 2020 2020 3c74 643e 4661  .<tr>.    <td>Fa
+-00001200: 7374 6572 5669 542d 313c 2f74 643e 0a20  sterViT-1</td>. 
+-00001210: 2020 203c 7464 3e38 332e 323c 2f74 643e     <td>83.2</td>
+-00001220: 0a20 2020 203c 7464 3e39 362e 353c 2f74  .    <td>96.5</t
+-00001230: 643e 0a20 2020 203c 7464 3e34 3138 383c  d>.    <td>4188<
+-00001240: 2f74 643e 0a20 2020 203c 7464 3e32 3234  /td>.    <td>224
+-00001250: 7832 3234 3c2f 7464 3e0a 2020 2020 3c74  x224</td>.    <t
+-00001260: 643e 3533 2e34 3c2f 7464 3e0a 2020 2020  d>53.4</td>.    
+-00001270: 3c74 643e 352e 333c 2f74 643e 0a20 2020  <td>5.3</td>.   
+-00001280: 203c 7464 3e3c 6120 6872 6566 3d22 6874   <td><a href="ht
+-00001290: 7470 733a 2f2f 6472 6976 652e 676f 6f67  tps://drive.goog
+-000012a0: 6c65 2e63 6f6d 2f75 633f 6578 706f 7274  le.com/uc?export
+-000012b0: 3d64 6f77 6e6c 6f61 6426 6964 3d31 7237  =download&id=1r7
+-000012c0: 5731 306e 352d 6246 744d 3373 7a34 626d  W10n5-bFtM3sz4bm
+-000012d0: 614c 726f 774e 3267 5950 6b4c 4754 223e  aLrowN2gYPkLGT">
+-000012e0: 6d6f 6465 6c3c 2f61 3e3c 2f74 643e 0a3c  model</a></td>.<
+-000012f0: 2f74 723e 0a0a 3c74 723e 0a20 2020 203c  /tr>..<tr>.    <
+-00001300: 7464 3e46 6173 7465 7256 6954 2d32 3c2f  td>FasterViT-2</
+-00001310: 7464 3e0a 2020 2020 3c74 643e 3834 2e32  td>.    <td>84.2
+-00001320: 3c2f 7464 3e0a 2020 2020 3c74 643e 3936  </td>.    <td>96
+-00001330: 2e38 3c2f 7464 3e0a 2020 2020 3c74 643e  .8</td>.    <td>
+-00001340: 3331 3631 3c2f 7464 3e0a 2020 2020 3c74  3161</td>.    <t
+-00001350: 643e 3232 3478 3232 343c 2f74 643e 0a20  d>224x224</td>. 
+-00001360: 2020 203c 7464 3e37 352e 393c 2f74 643e     <td>75.9</td>
+-00001370: 0a20 2020 203c 7464 3e38 2e37 3c2f 7464  .    <td>8.7</td
+-00001380: 3e0a 2020 2020 3c74 643e 3c61 2068 7265  >.    <td><a hre
+-00001390: 663d 2268 7474 7073 3a2f 2f64 7269 7665  f="https://drive
+-000013a0: 2e67 6f6f 676c 652e 636f 6d2f 7563 3f65  .google.com/uc?e
+-000013b0: 7870 6f72 743d 646f 776e 6c6f 6164 2669  xport=download&i
+-000013c0: 643d 316e 5f61 3673 3070 6769 306a 565a  d=1n_a6s0pgi0jVZ
+-000013d0: 4f47 6d44 6569 3276 5848 5535 4536 5248  OGmDei2vXHU5E6RH
+-000013e0: 3577 5522 3e6d 6f64 656c 3c2f 613e 3c2f  5wU">model</a></
+-000013f0: 7464 3e0a 3c2f 7472 3e0a 0a3c 7472 3e0a  td>.</tr>..<tr>.
+-00001400: 2020 2020 3c74 643e 4661 7374 6572 5669      <td>FasterVi
+-00001410: 542d 333c 2f74 643e 0a20 2020 203c 7464  T-3</td>.    <td
+-00001420: 3e38 342e 393c 2f74 643e 0a20 2020 203c  >84.9</td>.    <
+-00001430: 7464 3e39 372e 323c 2f74 643e 0a20 2020  td>97.2</td>.   
+-00001440: 203c 7464 3e31 3738 303c 2f74 643e 0a20   <td>1780</td>. 
+-00001450: 2020 203c 7464 3e32 3234 7832 3234 3c2f     <td>224x224</
+-00001460: 7464 3e0a 2020 2020 3c74 643e 3135 392e  td>.    <td>159.
+-00001470: 353c 2f74 643e 0a20 2020 203c 7464 3e31  5</td>.    <td>1
+-00001480: 382e 323c 2f74 643e 0a20 2020 203c 7464  8.2</td>.    <td
+-00001490: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-000014a0: 2f2f 6472 6976 652e 676f 6f67 6c65 2e63  //drive.google.c
+-000014b0: 6f6d 2f75 633f 6578 706f 7274 3d64 6f77  om/uc?export=dow
+-000014c0: 6e6c 6f61 6426 6964 3d31 7476 5745 6c5a  nload&id=1tvWElZ
+-000014d0: 3931 5369 6132 5373 5859 5846 4d4e 5951  91Sia2SsXYXFMNYQ
+-000014e0: 7766 6970 4378 7449 3758 223e 6d6f 6465  wfipCxtI7X">mode
+-000014f0: 6c3c 2f61 3e3c 2f74 643e 0a3c 2f74 723e  l</a></td>.</tr>
+-00001500: 0a0a 3c74 723e 0a20 2020 203c 7464 3e46  ..<tr>.    <td>F
+-00001510: 6173 7465 7256 6954 2d34 3c2f 7464 3e0a  asterViT-4</td>.
+-00001520: 2020 2020 3c74 643e 3835 2e34 3c2f 7464      <td>85.4</td
+-00001530: 3e0a 2020 2020 3c74 643e 3937 2e33 3c2f  >.    <td>97.3</
+-00001540: 7464 3e0a 2020 2020 3c74 643e 3834 393c  td>.    <td>849<
+-00001550: 2f74 643e 0a20 2020 203c 7464 3e32 3234  /td>.    <td>224
+-00001560: 7832 3234 3c2f 7464 3e0a 2020 2020 3c74  x224</td>.    <t
+-00001570: 643e 3432 342e 363c 2f74 643e 0a20 2020  d>424.6</td>.   
+-00001580: 203c 7464 3e33 362e 363c 2f74 643e 0a20   <td>36.6</td>. 
+-00001590: 2020 203c 7464 3e3c 6120 6872 6566 3d22     <td><a href="
+-000015a0: 6874 7470 733a 2f2f 6472 6976 652e 676f  https://drive.go
+-000015b0: 6f67 6c65 2e63 6f6d 2f75 633f 6578 706f  ogle.com/uc?expo
+-000015c0: 7274 3d64 6f77 6e6c 6f61 6426 6964 3d31  rt=download&id=1
+-000015d0: 6759 6858 4133 3251 2d5f 3943 3544 5865  gYhXA32Q-_9C5DXe
+-000015e0: 6c31 3761 7656 5f5a 4c6f 6148 7764 677a  l17avV_ZLoaHwdgz
+-000015f0: 223e 6d6f 6465 6c3c 2f61 3e3c 2f74 643e  ">model</a></td>
+-00001600: 0a3c 2f74 723e 0a0a 3c74 723e 0a20 2020  .</tr>..<tr>.   
+-00001610: 203c 7464 3e46 6173 7465 7256 6954 2d35   <td>FasterViT-5
+-00001620: 3c2f 7464 3e0a 2020 2020 3c74 643e 3835  </td>.    <td>85
+-00001630: 2e36 3c2f 7464 3e0a 2020 2020 3c74 643e  .6</td>.    <td>
+-00001640: 3937 2e34 3c2f 7464 3e0a 2020 2020 3c74  97.4</td>.    <t
+-00001650: 643e 3434 393c 2f74 643e 0a20 2020 203c  d>449</td>.    <
+-00001660: 7464 3e32 3234 7832 3234 3c2f 7464 3e0a  td>224x224</td>.
+-00001670: 2020 2020 3c74 643e 3937 352e 353c 2f74      <td>975.5</t
+-00001680: 643e 0a20 2020 203c 7464 3e31 3133 2e30  d>.    <td>113.0
+-00001690: 3c2f 7464 3e0a 2020 2020 3c74 643e 3c61  </td>.    <td><a
+-000016a0: 2068 7265 663d 2268 7474 7073 3a2f 2f64   href="https://d
+-000016b0: 7269 7665 2e67 6f6f 676c 652e 636f 6d2f  rive.google.com/
+-000016c0: 7563 3f65 7870 6f72 743d 646f 776e 6c6f  uc?export=downlo
+-000016d0: 6164 2669 643d 316d 7170 6169 3758 6948  ad&id=1mqpai7XiH
+-000016e0: 4c72 5f6e 3174 6a78 6a7a 5438 7133 3639  Lr_n1tjxjzT8q369
+-000016f0: 7854 4371 5f7a 2d22 3e6d 6f64 656c 3c2f  xTCq_z-">model</
+-00001700: 613e 3c2f 7464 3e0a 3c2f 7472 3e0a 0a3c  a></td>.</tr>..<
+-00001710: 7472 3e0a 2020 2020 3c74 643e 4661 7374  tr>.    <td>Fast
+-00001720: 6572 5669 542d 363c 2f74 643e 0a20 2020  erViT-6</td>.   
+-00001730: 203c 7464 3e38 352e 383c 2f74 643e 0a20   <td>85.8</td>. 
+-00001740: 2020 203c 7464 3e39 372e 343c 2f74 643e     <td>97.4</td>
+-00001750: 0a20 2020 203c 7464 3e33 3532 3c2f 7464  .    <td>352</td
+-00001760: 3e0a 2020 2020 3c74 643e 3232 3478 3232  >.    <td>224x22
+-00001770: 343c 2f74 643e 0a20 2020 203c 7464 3e31  4</td>.    <td>1
+-00001780: 3336 302e 303c 2f74 643e 0a20 2020 203c  360.0</td>.    <
+-00001790: 7464 3e31 3432 2e30 3c2f 7464 3e0a 2020  td>142.0</td>.  
+-000017a0: 2020 3c74 643e 3c61 2068 7265 663d 2268    <td><a href="h
+-000017b0: 7474 7073 3a2f 2f64 7269 7665 2e67 6f6f  ttps://drive.goo
+-000017c0: 676c 652e 636f 6d2f 7563 3f65 7870 6f72  gle.com/uc?expor
+-000017d0: 743d 646f 776e 6c6f 6164 2669 643d 3132  t=download&id=12
+-000017e0: 6a74 6176 5232 5178 6d4d 7a63 4b77 507a  jtavR2QxmMzcKwPz
+-000017f0: 5765 376b 772d 6f79 3334 4959 6935 3922  We7kw-oy34IYi59"
+-00001800: 3e6d 6f64 656c 3c2f 613e 3c2f 7464 3e0a  >model</a></td>.
+-00001810: 3c2f 7472 3e0a 0a3c 2f74 6162 6c65 3e0a  </tr>..</table>.
+-00001820: 0a0a 2323 2320 526f 6275 7374 6e65 7373  ..### Robustness
+-00001830: 2028 496d 6167 654e 6574 2d41 202d 2049   (ImageNet-A - I
+-00001840: 6d61 6765 4e65 742d 5220 2d20 496d 6167  mageNet-R - Imag
+-00001850: 654e 6574 2d56 3229 0a0a 416c 6c20 6d6f  eNet-V2)..All mo
+-00001860: 6465 6c73 2075 7365 2060 6372 6f70 5f70  dels use `crop_p
+-00001870: 6374 3d30 2e38 3735 602e 2052 6573 756c  ct=0.875`. Resul
+-00001880: 7473 2061 7265 206f 6274 6169 6e65 6420  ts are obtained 
+-00001890: 6279 2072 756e 6e69 6e67 2069 6e66 6572  by running infer
+-000018a0: 656e 6365 206f 6e20 496d 6167 654e 6574  ence on ImageNet
+-000018b0: 2d31 4b20 7072 6574 7261 696e 6564 206d  -1K pretrained m
+-000018c0: 6f64 656c 7320 7769 7468 6f75 7420 6669  odels without fi
+-000018d0: 6e65 7475 6e69 6e67 2e0a 3c74 6162 6c65  netuning..<table
+-000018e0: 3e0a 2020 3c74 723e 0a20 2020 203c 7468  >.  <tr>.    <th
+-000018f0: 3e4e 616d 653c 2f74 683e 0a20 2020 203c  >Name</th>.    <
+-00001900: 7468 3e41 2d41 6363 4031 2825 293c 2f74  th>A-Acc@1(%)</t
+-00001910: 683e 0a20 2020 203c 7468 3e41 2d41 6363  h>.    <th>A-Acc
+-00001920: 4035 2825 293c 2f74 683e 0a20 2020 203c  @5(%)</th>.    <
+-00001930: 7468 3e52 2d41 6363 4031 2825 293c 2f74  th>R-Acc@1(%)</t
+-00001940: 683e 0a20 2020 203c 7468 3e52 2d41 6363  h>.    <th>R-Acc
+-00001950: 4035 2825 293c 2f74 683e 0a20 2020 203c  @5(%)</th>.    <
+-00001960: 7468 3e56 322d 4163 6340 3128 2529 3c2f  th>V2-Acc@1(%)</
+-00001970: 7468 3e0a 2020 2020 3c74 683e 5632 2d41  th>.    <th>V2-A
+-00001980: 6363 4035 2825 293c 2f74 683e 0a20 203c  cc@5(%)</th>.  <
+-00001990: 2f74 723e 0a0a 3c74 723e 0a20 2020 203c  /tr>..<tr>.    <
+-000019a0: 7464 3e46 6173 7465 7256 6954 2d30 3c2f  td>FasterViT-0</
+-000019b0: 7464 3e0a 2020 2020 3c74 643e 3233 2e39  td>.    <td>23.9
+-000019c0: 3c2f 7464 3e0a 2020 2020 3c74 643e 3537  </td>.    <td>57
+-000019d0: 2e36 3c2f 7464 3e0a 2020 2020 3c74 643e  .6</td>.    <td>
+-000019e0: 3435 2e39 3c2f 7464 3e0a 2020 2020 3c74  45.9</td>.    <t
+-000019f0: 643e 3630 2e34 3c2f 7464 3e0a 2020 2020  d>60.4</td>.    
+-00001a00: 3c74 643e 3730 2e39 3c2f 7464 3e0a 2020  <td>70.9</td>.  
+-00001a10: 2020 3c74 643e 3930 2e30 3c2f 7464 3e0a    <td>90.0</td>.
+-00001a20: 3c2f 7472 3e0a 0a3c 7472 3e0a 2020 2020  </tr>..<tr>.    
+-00001a30: 3c74 643e 4661 7374 6572 5669 542d 313c  <td>FasterViT-1<
+-00001a40: 2f74 643e 0a20 2020 203c 7464 3e33 312e  /td>.    <td>31.
+-00001a50: 323c 2f74 643e 0a20 2020 203c 7464 3e36  2</td>.    <td>6
+-00001a60: 332e 333c 2f74 643e 0a20 2020 203c 7464  3.3</td>.    <td
+-00001a70: 3e34 372e 353c 2f74 643e 0a20 2020 203c  >47.5</td>.    <
+-00001a80: 7464 3e36 312e 393c 2f74 643e 0a20 2020  td>61.9</td>.   
+-00001a90: 203c 7464 3e37 322e 363c 2f74 643e 0a20   <td>72.6</td>. 
+-00001aa0: 2020 203c 7464 3e39 312e 303c 2f74 643e     <td>91.0</td>
+-00001ab0: 0a3c 2f74 723e 0a0a 3c74 723e 0a20 2020  .</tr>..<tr>.   
+-00001ac0: 203c 7464 3e46 6173 7465 7256 6954 2d32   <td>FasterViT-2
+-00001ad0: 3c2f 7464 3e0a 2020 2020 3c74 643e 3338  </td>.    <td>38
+-00001ae0: 2e32 3c2f 7464 3e0a 2020 2020 3c74 643e  .2</td>.    <td>
+-00001af0: 3638 2e39 3c2f 7464 3e0a 2020 2020 3c74  68.9</td>.    <t
+-00001b00: 643e 3439 2e36 3c2f 7464 3e0a 2020 2020  d>49.6</td>.    
+-00001b10: 3c74 643e 3633 2e34 3c2f 7464 3e0a 2020  <td>63.4</td>.  
+-00001b20: 2020 3c74 643e 3733 2e37 3c2f 7464 3e0a    <td>73.7</td>.
+-00001b30: 2020 2020 3c74 643e 3931 2e36 3c2f 7464      <td>91.6</td
+-00001b40: 3e0a 3c2f 7472 3e0a 0a3c 7472 3e0a 2020  >.</tr>..<tr>.  
+-00001b50: 2020 3c74 643e 4661 7374 6572 5669 542d    <td>FasterViT-
+-00001b60: 333c 2f74 643e 0a20 2020 203c 7464 3e34  3</td>.    <td>4
+-00001b70: 342e 323c 2f74 643e 0a20 2020 203c 7464  4.2</td>.    <td
+-00001b80: 3e37 332e 303c 2f74 643e 0a20 2020 203c  >73.0</td>.    <
+-00001b90: 7464 3e35 312e 393c 2f74 643e 0a20 2020  td>51.9</td>.   
+-00001ba0: 203c 7464 3e36 352e 363c 2f74 643e 0a20   <td>65.6</td>. 
+-00001bb0: 2020 203c 7464 3e37 352e 303c 2f74 643e     <td>75.0</td>
+-00001bc0: 0a20 2020 203c 7464 3e39 322e 323c 2f74  .    <td>92.2</t
+-00001bd0: 643e 0a3c 2f74 723e 0a0a 3c74 723e 0a20  d>.</tr>..<tr>. 
+-00001be0: 2020 203c 7464 3e46 6173 7465 7256 6954     <td>FasterViT
+-00001bf0: 2d34 3c2f 7464 3e0a 2020 2020 3c74 643e  -4</td>.    <td>
+-00001c00: 3439 2e30 3c2f 7464 3e0a 2020 2020 3c74  49.0</td>.    <t
+-00001c10: 643e 3735 2e34 3c2f 7464 3e0a 2020 2020  d>75.4</td>.    
+-00001c20: 3c74 643e 3536 2e30 3c2f 7464 3e0a 2020  <td>56.0</td>.  
+-00001c30: 2020 3c74 643e 3639 2e36 3c2f 7464 3e0a    <td>69.6</td>.
+-00001c40: 2020 2020 3c74 643e 3735 2e37 3c2f 7464      <td>75.7</td
+-00001c50: 3e0a 2020 2020 3c74 643e 3932 2e37 3c2f  >.    <td>92.7</
+-00001c60: 7464 3e0a 3c2f 7472 3e0a 0a3c 7472 3e0a  td>.</tr>..<tr>.
+-00001c70: 2020 2020 3c74 643e 4661 7374 6572 5669      <td>FasterVi
+-00001c80: 542d 353c 2f74 643e 0a20 2020 203c 7464  T-5</td>.    <td
+-00001c90: 3e35 322e 373c 2f74 643e 0a20 2020 203c  >52.7</td>.    <
+-00001ca0: 7464 3e37 372e 363c 2f74 643e 0a20 2020  td>77.6</td>.   
+-00001cb0: 203c 7464 3e35 362e 393c 2f74 643e 0a20   <td>56.9</td>. 
+-00001cc0: 2020 203c 7464 3e37 302e 303c 2f74 643e     <td>70.0</td>
+-00001cd0: 0a20 2020 203c 7464 3e37 362e 303c 2f74  .    <td>76.0</t
+-00001ce0: 643e 0a20 2020 203c 7464 3e39 332e 303c  d>.    <td>93.0<
+-00001cf0: 2f74 643e 0a3c 2f74 723e 0a0a 3c74 723e  /td>.</tr>..<tr>
+-00001d00: 0a20 2020 203c 7464 3e46 6173 7465 7256  .    <td>FasterV
+-00001d10: 6954 2d36 3c2f 7464 3e0a 2020 2020 3c74  iT-6</td>.    <t
+-00001d20: 643e 3533 2e37 3c2f 7464 3e0a 2020 2020  d>53.7</td>.    
+-00001d30: 3c74 643e 3738 2e34 3c2f 7464 3e0a 2020  <td>78.4</td>.  
+-00001d40: 2020 3c74 643e 3537 2e31 3c2f 7464 3e0a    <td>57.1</td>.
+-00001d50: 2020 2020 3c74 643e 3730 2e31 3c2f 7464      <td>70.1</td
+-00001d60: 3e0a 2020 2020 3c74 643e 3736 2e31 3c2f  >.    <td>76.1</
+-00001d70: 7464 3e0a 2020 2020 3c74 643e 3933 2e30  td>.    <td>93.0
+-00001d80: 3c2f 7464 3e0a 3c2f 7472 3e0a 0a3c 2f74  </td>.</tr>..</t
+-00001d90: 6162 6c65 3e0a 0a41 2c20 5220 616e 6420  able>..A, R and 
+-00001da0: 5632 2064 656e 6f74 6520 496d 6167 654e  V2 denote ImageN
+-00001db0: 6574 2d41 2c20 496d 6167 654e 6574 2d52  et-A, ImageNet-R
+-00001dc0: 2061 6e64 2049 6d61 6765 4e65 742d 5632   and ImageNet-V2
+-00001dd0: 2072 6573 7065 6374 6976 656c 792e 200a   respectively. .
+-00001de0: 2323 2054 7261 696e 696e 670a 0a50 6c65  ## Training..Ple
+-00001df0: 6173 6520 7365 6520 5b54 5241 494e 494e  ase see [TRAININ
+-00001e00: 472e 6d64 5d28 5452 4149 4e49 4e47 2e6d  G.md](TRAINING.m
+-00001e10: 6429 2066 6f72 2064 6574 6169 6c65 6420  d) for detailed 
+-00001e20: 7472 6169 6e69 6e67 2069 6e73 7472 7563  training instruc
+-00001e30: 7469 6f6e 7320 6f66 2061 6c6c 206d 6f64  tions of all mod
+-00001e40: 656c 732e 200a 0a23 2320 4576 616c 7561  els. ..## Evalua
+-00001e50: 7469 6f6e 0a0a 5468 6520 4661 7374 6572  tion..The Faster
+-00001e60: 5669 5420 6d6f 6465 6c73 2063 616e 2062  ViT models can b
+-00001e70: 6520 6576 616c 7561 7465 6420 6f6e 2049  e evaluated on I
+-00001e80: 6d61 6765 4e65 742d 314b 2076 616c 6964  mageNet-1K valid
+-00001e90: 6174 696f 6e20 7365 7420 7573 696e 6720  ation set using 
+-00001ea0: 7468 6520 666f 6c6c 6f77 696e 673a 200a  the following: .
+-00001eb0: 0a60 6060 0a70 7974 686f 6e20 7661 6c69  .```.python vali
+-00001ec0: 6461 7465 2e70 7920 5c0a 2d2d 6d6f 6465  date.py \.--mode
+-00001ed0: 6c20 3c6d 6f64 656c 2d6e 616d 653e 0a2d  l <model-name>.-
+-00001ee0: 2d63 6865 636b 706f 696e 7420 3c63 6865  -checkpoint <che
+-00001ef0: 636b 706f 696e 742d 7061 7468 3e0a 2d2d  ckpoint-path>.--
+-00001f00: 6461 7461 5f64 6972 203c 696d 6167 656e  data_dir <imagen
+-00001f10: 6574 2d70 6174 683e 0a2d 2d62 6174 6368  et-path>.--batch
+-00001f20: 2d73 697a 6520 3c62 6174 6368 2d73 697a  -size <batch-siz
+-00001f30: 652d 7065 722d 6770 750a 6060 6020 0a0a  e-per-gpu.``` ..
+-00001f40: 4865 7265 2060 2d2d 6d6f 6465 6c60 2069  Here `--model` i
+-00001f50: 7320 7468 6520 4661 7374 6572 5669 5420  s the FasterViT 
+-00001f60: 7661 7269 616e 7420 2865 2e67 2e20 6066  variant (e.g. `f
+-00001f70: 6173 7465 725f 7669 745f 305f 3232 345f  aster_vit_0_224_
+-00001f80: 316b 6029 2c20 602d 2d63 6865 636b 706f  1k`), `--checkpo
+-00001f90: 696e 7460 2069 7320 7468 6520 7061 7468  int` is the path
+-00001fa0: 2074 6f20 7072 6574 7261 696e 6564 206d   to pretrained m
+-00001fb0: 6f64 656c 2077 6569 6768 7473 2c20 602d  odel weights, `-
+-00001fc0: 2d64 6174 615f 6469 7260 2069 7320 7468  -data_dir` is th
+-00001fd0: 6520 7061 7468 2074 6f20 496d 6167 654e  e path to ImageN
+-00001fe0: 6574 2d31 4b20 7661 6c69 6461 7469 6f6e  et-1K validation
+-00001ff0: 2073 6574 2061 6e64 2060 2d2d 6261 7463   set and `--batc
+-00002000: 682d 7369 7a65 6020 6973 2074 6865 206e  h-size` is the n
+-00002010: 756d 6265 7220 6f66 2062 6174 6368 2073  umber of batch s
+-00002020: 697a 652e 2057 6520 616c 736f 2070 726f  ize. We also pro
+-00002030: 7669 6465 2061 2073 616d 706c 6520 7363  vide a sample sc
+-00002040: 7269 7074 205b 6865 7265 5d28 2e2f 6661  ript [here](./fa
+-00002050: 7374 6572 7669 742f 7661 6c69 6461 7465  stervit/validate
+-00002060: 2e73 6829 2e20 0a0a 0a23 2320 496e 7374  .sh). ...## Inst
+-00002070: 616c 6c61 7469 6f6e 0a0a 5468 6520 6465  allation..The de
+-00002080: 7065 6e64 656e 6369 6573 2063 616e 2062  pendencies can b
+-00002090: 6520 696e 7374 616c 6c65 6420 6279 2072  e installed by r
+-000020a0: 756e 6e69 6e67 3a0a 0a60 6060 6261 7368  unning:..```bash
+-000020b0: 0a70 6970 2069 6e73 7461 6c6c 202d 7220  .pip install -r 
+-000020c0: 7265 7175 6972 656d 656e 7473 2e74 7874  requirements.txt
+-000020d0: 0a60 6060 0a0a 2323 2054 6869 7264 2d70  .```..## Third-p
+-000020e0: 6172 7479 2045 7874 656e 7469 6f6e 730a  arty Extentions.
+-000020f0: 5765 2061 6c77 6179 7320 7765 6c63 6f6d  We always welcom
+-00002100: 6520 7468 6972 642d 7061 7274 7920 6578  e third-party ex
+-00002110: 7465 6e74 696f 6e73 2f69 6d70 6c65 6d65  tentions/impleme
+-00002120: 6e74 6174 696f 6e73 2061 6e64 2075 7361  ntations and usa
+-00002130: 6765 2066 6f72 206f 7468 6572 2070 7572  ge for other pur
+-00002140: 706f 7365 732e 2049 6620 796f 7520 776f  poses. If you wo
+-00002150: 756c 6420 6c69 6b65 2079 6f75 7220 776f  uld like your wo
+-00002160: 726b 2074 6f20 6265 206c 6973 7465 6420  rk to be listed 
+-00002170: 696e 2074 6869 7320 7265 706f 7369 746f  in this reposito
+-00002180: 7279 2c20 706c 6561 7365 2072 6169 7365  ry, please raise
+-00002190: 2061 6e64 2069 7373 7565 2061 6e64 2070   and issue and p
+-000021a0: 726f 7669 6465 2075 7320 7769 7468 2064  rovide us with d
+-000021b0: 6574 6169 6c65 6420 696e 666f 726d 6174  etailed informat
+-000021c0: 696f 6e2e 2020 0a0a 0a23 2320 4163 6b6e  ion.  ...## Ackn
+-000021d0: 6f77 6c65 6467 656d 656e 740a 5468 6973  owledgement.This
+-000021e0: 2072 6570 6f73 6974 6f72 7920 6973 2062   repository is b
+-000021f0: 7569 6c74 206f 6e20 746f 7020 6f66 2074  uilt on top of t
+-00002200: 6865 205b 7469 6d6d 5d28 6874 7470 733a  he [timm](https:
+-00002210: 2f2f 6769 7468 7562 2e63 6f6d 2f68 7567  //github.com/hug
+-00002220: 6769 6e67 6661 6365 2f70 7974 6f72 6368  gingface/pytorch
+-00002230: 2d69 6d61 6765 2d6d 6f64 656c 7329 2072  -image-models) r
+-00002240: 6570 6f73 6974 6f72 792e 2057 6520 7468  epository. We th
+-00002250: 616e 6b20 5b52 6f73 7320 5772 6967 6874  ank [Ross Wright
+-00002260: 6d61 6e5d 2868 7474 7073 3a2f 2f72 7769  man](https://rwi
+-00002270: 6768 746d 616e 2e63 6f6d 2f29 2066 6f72  ghtman.com/) for
+-00002280: 2063 7265 6174 696e 6720 616e 6420 6d61   creating and ma
+-00002290: 696e 7461 696e 696e 6720 7468 6973 2068  intaining this h
+-000022a0: 6967 682d 7175 616c 6974 7920 6c69 6272  igh-quality libr
+-000022b0: 6172 792e 2020 0a0a 2323 204c 6963 656e  ary.  ..## Licen
+-000022c0: 7365 730a 0a43 6f70 7972 6967 6874 20c2  ses..Copyright .
+-000022d0: a920 3230 3233 2c20 4e56 4944 4941 2043  . 2023, NVIDIA C
+-000022e0: 6f72 706f 7261 7469 6f6e 2e20 416c 6c20  orporation. All 
+-000022f0: 7269 6768 7473 2072 6573 6572 7665 642e  rights reserved.
+-00002300: 0a0a 5468 6973 2077 6f72 6b20 6973 206d  ..This work is m
+-00002310: 6164 6520 6176 6169 6c61 626c 6520 756e  ade available un
+-00002320: 6465 7220 7468 6520 4e56 4944 4941 2053  der the NVIDIA S
+-00002330: 6f75 7263 6520 436f 6465 204c 6963 656e  ource Code Licen
+-00002340: 7365 2d4e 432e 2043 6c69 636b 205b 6865  se-NC. Click [he
+-00002350: 7265 5d28 4c49 4345 4e53 4529 2074 6f20  re](LICENSE) to 
+-00002360: 7669 6577 2061 2063 6f70 7920 6f66 2074  view a copy of t
+-00002370: 6869 7320 6c69 6365 6e73 652e 0a0a 466f  his license...Fo
+-00002380: 7220 6c69 6365 6e73 6520 696e 666f 726d  r license inform
+-00002390: 6174 696f 6e20 7265 6761 7264 696e 6720  ation regarding 
+-000023a0: 7468 6520 7469 6d6d 2072 6570 6f73 6974  the timm reposit
+-000023b0: 6f72 792c 2070 6c65 6173 6520 7265 6665  ory, please refe
+-000023c0: 7220 746f 2069 7473 205b 7265 706f 7369  r to its [reposi
+-000023d0: 746f 7279 5d28 6874 7470 733a 2f2f 6769  tory](https://gi
+-000023e0: 7468 7562 2e63 6f6d 2f72 7769 6768 746d  thub.com/rwightm
+-000023f0: 616e 2f70 7974 6f72 6368 2d69 6d61 6765  an/pytorch-image
+-00002400: 2d6d 6f64 656c 7329 2e0a 0a46 6f72 206c  -models)...For l
+-00002410: 6963 656e 7365 2069 6e66 6f72 6d61 7469  icense informati
+-00002420: 6f6e 2072 6567 6172 6469 6e67 2074 6865  on regarding the
+-00002430: 2049 6d61 6765 4e65 7420 6461 7461 7365   ImageNet datase
+-00002440: 742c 2070 6c65 6173 6520 7365 6520 7468  t, please see th
+-00002450: 6520 5b49 6d61 6765 4e65 7420 6f66 6669  e [ImageNet offi
+-00002460: 6369 616c 2077 6562 7369 7465 5d28 6874  cial website](ht
+-00002470: 7470 733a 2f2f 7777 772e 696d 6167 652d  tps://www.image-
+-00002480: 6e65 742e 6f72 672f 292e 200a            net.org/). .
++00000720: 6461 7461 2021 290a 0a21 5b74 6561 7365  data !)..![tease
++00000730: 725d 282e 2f66 6173 7465 7276 6974 2f61  r](./fastervit/a
++00000740: 7373 6574 732f 706c 6f74 2e70 6e67 290a  ssets/plot.png).
++00000750: 0a0a 0a23 2320 f09f 92a5 204e 6577 7320  ...## .... News 
++00000760: f09f 92a5 0a0a 2d20 2a2a 5b30 362e 3138  ......- **[06.18
++00000770: 2e32 3032 335d 2a2a 20f0 9f94 a520 5765  .2023]** .... We
++00000780: 2068 6176 6520 7265 6c65 6173 6564 2074   have released t
++00000790: 6865 2046 6173 7465 7256 6954 205b 7069  he FasterViT [pi
++000007a0: 7020 7061 636b 6167 655d 2868 7474 7073  p package](https
++000007b0: 3a2f 2f70 7970 692e 6f72 672f 7072 6f6a  ://pypi.org/proj
++000007c0: 6563 742f 6661 7374 6572 7669 742f 2920  ect/fastervit/) 
++000007d0: 210a 2d20 2a2a 5b30 362e 3137 2e32 3032  !.- **[06.17.202
++000007e0: 335d 2a2a 20f0 9f94 a520 5b41 6e79 2d72  3]** .... [Any-r
++000007f0: 6573 6f6c 7574 696f 6e20 4661 7374 6572  esolution Faster
++00000800: 5669 545d 282e 2f66 6173 7465 7276 6974  ViT](./fastervit
++00000810: 2f6d 6f64 656c 732f 6661 7374 6572 5f76  /models/faster_v
++00000820: 6974 5f61 6e79 5f72 6573 2e70 7929 2020  it_any_res.py)  
++00000830: 6d6f 6465 6c20 6973 206e 6f77 2061 7661  model is now ava
++00000840: 696c 6162 6c65 2021 2074 6865 206d 6f64  ilable ! the mod
++00000850: 656c 2063 616e 2062 6520 7573 6564 2066  el can be used f
++00000860: 6f72 2076 6172 6965 7479 206f 6620 6170  or variety of ap
++00000870: 706c 6963 6174 696f 6e73 2073 7563 6820  plications such 
++00000880: 6173 2064 6574 6563 7469 6f6e 2061 6e64  as detection and
++00000890: 2073 6567 6d65 6e74 6174 696f 6e20 6f72   segmentation or
++000008a0: 2068 6967 682d 7265 736f 6c75 7469 6f6e   high-resolution
++000008b0: 2066 696e 652d 7475 6e69 6e67 2077 6974   fine-tuning wit
++000008c0: 6820 6172 6269 7472 6172 7920 696e 7075  h arbitrary inpu
++000008d0: 7420 696d 6167 6520 7265 736f 6c75 7469  t image resoluti
++000008e0: 6f6e 732e 200a 2d20 2a2a 5b30 362e 3039  ons. .- **[06.09
++000008f0: 2e32 3032 335d 2a2a 20f0 9f94 a5f0 9f94  .2023]** .......
++00000900: a520 5765 2068 6176 6520 7265 6c65 6173  . We have releas
++00000910: 6564 2073 6f75 7263 6520 636f 6465 2061  ed source code a
++00000920: 6e64 2049 6d61 6765 4e65 742d 314b 2046  nd ImageNet-1K F
++00000930: 6173 7465 7256 6954 2d6d 6f64 656c 7320  asterViT-models 
++00000940: 210a 0a23 2320 5175 6963 6b20 5374 6172  !..## Quick Star
++00000950: 740a 0a54 6865 2046 6173 7465 7256 6954  t..The FasterViT
++00000960: 2063 616e 2062 6520 636f 6e76 656e 6965   can be convenie
++00000970: 6e74 6c79 2069 6e73 7461 6c6c 6564 2062  ntly installed b
++00000980: 793a 0a0a 6060 6062 6173 680a 7069 7020  y:..```bash.pip 
++00000990: 696e 7374 616c 6c20 6661 7374 6572 7669  install fastervi
++000009a0: 740a 6060 600a 0a41 2046 6173 7465 7256  t.```..A FasterV
++000009b0: 6954 206d 6f64 656c 2077 6974 6820 6465  iT model with de
++000009c0: 6661 756c 7420 6879 7065 722d 7061 7261  fault hyper-para
++000009d0: 6d65 7465 7273 2063 616e 2062 6520 6372  meters can be cr
++000009e0: 6561 7465 6420 6173 2069 6e20 7468 6520  eated as in the 
++000009f0: 666f 6c6c 6f77 696e 673a 0a0a 6060 6070  following:..```p
++00000a00: 7974 686f 6e0a 3e3e 3e20 6672 6f6d 2066  ython.>>> from f
++00000a10: 6173 7465 7276 6974 2069 6d70 6f72 7420  astervit import 
++00000a20: 6372 6561 7465 5f6d 6f64 656c 0a0a 2320  create_model..# 
++00000a30: 4465 6669 6e65 2066 6173 7465 7276 6974  Define fastervit
++00000a40: 2d30 206d 6f64 656c 2077 6974 6820 3232  -0 model with 22
++00000a50: 3420 7820 3232 3420 7265 736f 6c75 7469  4 x 224 resoluti
++00000a60: 6f6e 0a3e 3e3e 206d 6f64 656c 203d 2063  on.>>> model = c
++00000a70: 7265 6174 655f 6d6f 6465 6c28 2766 6173  reate_model('fas
++00000a80: 7465 725f 7669 745f 305f 3232 3427 290a  ter_vit_0_224').
++00000a90: 6060 600a 0a57 6520 6361 6e20 616c 736f  ```..We can also
++00000aa0: 2075 7365 2074 6865 2061 6e79 2d72 6573   use the any-res
++00000ab0: 6f6c 7574 696f 6e20 4661 7374 6572 5669  olution FasterVi
++00000ac0: 5420 6d6f 6465 6c20 746f 2061 6363 6f6d  T model to accom
++00000ad0: 6d6f 6461 7465 2061 7262 6974 7261 7279  modate arbitrary
++00000ae0: 2069 6d61 6765 2072 6573 6f6c 7574 696f   image resolutio
++00000af0: 6e73 2e20 496e 2074 6865 2066 6f6c 6c6f  ns. In the follo
++00000b00: 7769 6e67 2c20 7765 2064 6566 696e 6520  wing, we define 
++00000b10: 616e 2061 6e79 2d72 6573 6f6c 7574 696f  an any-resolutio
++00000b20: 6e20 4661 7374 6572 5669 542d 310a 6d6f  n FasterViT-1.mo
++00000b30: 6465 6c20 7769 7468 2069 6e70 7574 2072  del with input r
++00000b40: 6573 6f6c 7574 696f 6e20 6f66 2035 3736  esolution of 576
++00000b50: 2078 2039 3630 2c20 7769 6e64 6f77 2073   x 960, window s
++00000b60: 697a 6573 206f 6620 3132 2061 6e64 2036  izes of 12 and 6
++00000b70: 2069 6e20 3372 6420 616e 6420 3474 6820   in 3rd and 4th 
++00000b80: 7374 6167 6573 2c20 6361 7272 6965 7220  stages, carrier 
++00000b90: 746f 6b65 6e20 7369 7a65 206f 6620 3220  token size of 2 
++00000ba0: 616e 6420 656d 6265 6464 696e 6720 6469  and embedding di
++00000bb0: 6d65 6e73 696f 6e20 6f66 0a31 3238 3a0a  mension of.128:.
++00000bc0: 0a60 6060 7079 7468 6f6e 0a3e 3e3e 2066  .```python.>>> f
++00000bd0: 726f 6d20 6661 7374 6572 7669 7420 696d  rom fastervit im
++00000be0: 706f 7274 2063 7265 6174 655f 6d6f 6465  port create_mode
++00000bf0: 6c0a 0a23 2044 6566 696e 6520 616e 792d  l..# Define any-
++00000c00: 7265 736f 6c75 7469 6f6e 2046 6173 7465  resolution Faste
++00000c10: 7256 6954 2d31 206d 6f64 656c 2077 6974  rViT-1 model wit
++00000c20: 6820 3537 3620 7820 3936 3020 7265 736f  h 576 x 960 reso
++00000c30: 6c75 7469 6f6e 0a3e 3e3e 206d 6f64 656c  lution.>>> model
++00000c40: 203d 2063 7265 6174 655f 6d6f 6465 6c28   = create_model(
++00000c50: 2766 6173 7465 725f 7669 745f 315f 616e  'faster_vit_1_an
++00000c60: 795f 7265 7327 2c20 0a20 2020 2020 2020  y_res', .       
++00000c70: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000c80: 2020 2072 6573 6f6c 7574 696f 6e3d 5b35     resolution=[5
++00000c90: 3736 2c20 3936 305d 2c0a 2020 2020 2020  76, 960],.      
++00000ca0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000cb0: 2020 2020 7769 6e64 6f77 5f73 697a 653d      window_size=
++00000cc0: 5b37 2c20 372c 2031 322c 2036 5d2c 0a20  [7, 7, 12, 6],. 
++00000cd0: 2020 2020 2020 2020 2020 2020 2020 2020                  
++00000ce0: 2020 2020 2020 2020 2063 745f 7369 7a65           ct_size
++00000cf0: 3d32 2c0a 2020 2020 2020 2020 2020 2020  =2,.            
++00000d00: 2020 2020 2020 2020 2020 2020 2020 6469                di
++00000d10: 6d3d 3132 3829 0a60 6060 0a0a 2323 2043  m=128).```..## C
++00000d20: 6174 616c 6f67 0a2d 205b 785d 2049 6d61  atalog.- [x] Ima
++00000d30: 6765 4e65 742d 314b 2074 7261 696e 696e  geNet-1K trainin
++00000d40: 6720 636f 6465 0a2d 205b 785d 2049 6d61  g code.- [x] Ima
++00000d50: 6765 4e65 742d 314b 2070 7265 2d74 7261  geNet-1K pre-tra
++00000d60: 696e 6564 206d 6f64 656c 730a 2d20 5b78  ined models.- [x
++00000d70: 5d20 416e 792d 7265 736f 6c75 7469 6f6e  ] Any-resolution
++00000d80: 2046 6173 7465 7256 6954 0a2d 205b 785d   FasterViT.- [x]
++00000d90: 2046 6173 7465 7256 6954 2070 6970 2d70   FasterViT pip-p
++00000da0: 6163 6b61 6765 2072 656c 6561 7365 0a2d  ackage release.-
++00000db0: 205b 205d 2049 6d61 6765 4e65 742d 3231   [ ] ImageNet-21
++00000dc0: 4b20 7072 652d 7472 6169 6e65 6420 6d6f  K pre-trained mo
++00000dd0: 6465 6c73 0a2d 205b 205d 2049 6d61 6765  dels.- [ ] Image
++00000de0: 4e65 742d 3231 4b20 6669 6e65 2d74 756e  Net-21K fine-tun
++00000df0: 6520 7363 7269 7074 730a 2d20 5b20 5d20  e scripts.- [ ] 
++00000e00: 4465 7465 6374 696f 6e20 636f 6465 2028  Detection code (
++00000e10: 4449 4e4f 2920 2b20 6d6f 6465 6c73 0a2d  DINO) + models.-
++00000e20: 205b 205d 2053 6567 6d65 6e74 6174 696f   [ ] Segmentatio
++00000e30: 6e20 636f 6465 202b 206d 6f64 656c 730a  n code + models.
++00000e40: 0a2d 2d2d 200a 0a23 2320 5265 7375 6c74  .--- ..## Result
++00000e50: 7320 2b20 5072 6574 7261 696e 6564 204d  s + Pretrained M
++00000e60: 6f64 656c 730a 0a23 2323 2049 6d61 6765  odels..### Image
++00000e70: 4e65 742d 314b 0a2a 2a46 6173 7465 7256  Net-1K.**FasterV
++00000e80: 6954 2049 6d61 6765 4e65 742d 314b 2050  iT ImageNet-1K P
++00000e90: 7265 7472 6169 6e65 6420 4d6f 6465 6c73  retrained Models
++00000ea0: 2a2a 0a0a 3c74 6162 6c65 3e0a 2020 3c74  **..<table>.  <t
++00000eb0: 723e 0a20 2020 203c 7468 3e4e 616d 653c  r>.    <th>Name<
++00000ec0: 2f74 683e 0a20 2020 203c 7468 3e41 6363  /th>.    <th>Acc
++00000ed0: 4031 2825 293c 2f74 683e 0a20 2020 203c  @1(%)</th>.    <
++00000ee0: 7468 3e41 6363 4035 2825 293c 2f74 683e  th>Acc@5(%)</th>
++00000ef0: 0a20 2020 203c 7468 3e54 6872 6f75 6768  .    <th>Through
++00000f00: 7075 7428 496d 672f 5365 6329 3c2f 7468  put(Img/Sec)</th
++00000f10: 3e0a 2020 2020 3c74 683e 5265 736f 6c75  >.    <th>Resolu
++00000f20: 7469 6f6e 3c2f 7468 3e0a 2020 2020 3c74  tion</th>.    <t
++00000f30: 683e 2350 6172 616d 7328 4d29 3c2f 7468  h>#Params(M)</th
++00000f40: 3e0a 2020 2020 3c74 683e 464c 4f50 7328  >.    <th>FLOPs(
++00000f50: 4729 3c2f 7468 3e0a 2020 2020 3c74 683e  G)</th>.    <th>
++00000f60: 446f 776e 6c6f 6164 3c2f 7468 3e0a 2020  Download</th>.  
++00000f70: 3c2f 7472 3e0a 0a3c 7472 3e0a 2020 2020  </tr>..<tr>.    
++00000f80: 3c74 643e 4661 7374 6572 5669 542d 303c  <td>FasterViT-0<
++00000f90: 2f74 643e 0a20 2020 203c 7464 3e38 322e  /td>.    <td>82.
++00000fa0: 313c 2f74 643e 0a20 2020 203c 7464 3e39  1</td>.    <td>9
++00000fb0: 352e 393c 2f74 643e 0a20 2020 203c 7464  5.9</td>.    <td
++00000fc0: 3e35 3830 323c 2f74 643e 0a20 2020 203c  >5802</td>.    <
++00000fd0: 7464 3e32 3234 7832 3234 3c2f 7464 3e0a  td>224x224</td>.
++00000fe0: 2020 2020 3c74 643e 3331 2e34 3c2f 7464      <td>31.4</td
++00000ff0: 3e0a 2020 2020 3c74 643e 332e 333c 2f74  >.    <td>3.3</t
++00001000: 643e 0a20 2020 203c 7464 3e3c 6120 6872  d>.    <td><a hr
++00001010: 6566 3d22 6874 7470 733a 2f2f 6472 6976  ef="https://driv
++00001020: 652e 676f 6f67 6c65 2e63 6f6d 2f75 633f  e.google.com/uc?
++00001030: 6578 706f 7274 3d64 6f77 6e6c 6f61 6426  export=download&
++00001040: 6964 3d31 7477 4932 4c46 4a73 3339 3159  id=1twI2LFJs391Y
++00001050: 726a 384d 5234 5569 3950 6672 7657 716a  rj8MR4Ui9PfrvWqj
++00001060: 4531 6942 223e 6d6f 6465 6c3c 2f61 3e3c  E1iB">model</a><
++00001070: 2f74 643e 0a3c 2f74 723e 0a0a 3c74 723e  /td>.</tr>..<tr>
++00001080: 0a20 2020 203c 7464 3e46 6173 7465 7256  .    <td>FasterV
++00001090: 6954 2d31 3c2f 7464 3e0a 2020 2020 3c74  iT-1</td>.    <t
++000010a0: 643e 3833 2e32 3c2f 7464 3e0a 2020 2020  d>83.2</td>.    
++000010b0: 3c74 643e 3936 2e35 3c2f 7464 3e0a 2020  <td>96.5</td>.  
++000010c0: 2020 3c74 643e 3431 3838 3c2f 7464 3e0a    <td>4188</td>.
++000010d0: 2020 2020 3c74 643e 3232 3478 3232 343c      <td>224x224<
++000010e0: 2f74 643e 0a20 2020 203c 7464 3e35 332e  /td>.    <td>53.
++000010f0: 343c 2f74 643e 0a20 2020 203c 7464 3e35  4</td>.    <td>5
++00001100: 2e33 3c2f 7464 3e0a 2020 2020 3c74 643e  .3</td>.    <td>
++00001110: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00001120: 2f64 7269 7665 2e67 6f6f 676c 652e 636f  /drive.google.co
++00001130: 6d2f 7563 3f65 7870 6f72 743d 646f 776e  m/uc?export=down
++00001140: 6c6f 6164 2669 643d 3172 3757 3130 6e35  load&id=1r7W10n5
++00001150: 2d62 4674 4d33 737a 3462 6d61 4c72 6f77  -bFtM3sz4bmaLrow
++00001160: 4e32 6759 506b 4c47 5422 3e6d 6f64 656c  N2gYPkLGT">model
++00001170: 3c2f 613e 3c2f 7464 3e0a 3c2f 7472 3e0a  </a></td>.</tr>.
++00001180: 0a3c 7472 3e0a 2020 2020 3c74 643e 4661  .<tr>.    <td>Fa
++00001190: 7374 6572 5669 542d 323c 2f74 643e 0a20  sterViT-2</td>. 
++000011a0: 2020 203c 7464 3e38 342e 323c 2f74 643e     <td>84.2</td>
++000011b0: 0a20 2020 203c 7464 3e39 362e 383c 2f74  .    <td>96.8</t
++000011c0: 643e 0a20 2020 203c 7464 3e33 3136 313c  d>.    <td>3161<
++000011d0: 2f74 643e 0a20 2020 203c 7464 3e32 3234  /td>.    <td>224
++000011e0: 7832 3234 3c2f 7464 3e0a 2020 2020 3c74  x224</td>.    <t
++000011f0: 643e 3735 2e39 3c2f 7464 3e0a 2020 2020  d>75.9</td>.    
++00001200: 3c74 643e 382e 373c 2f74 643e 0a20 2020  <td>8.7</td>.   
++00001210: 203c 7464 3e3c 6120 6872 6566 3d22 6874   <td><a href="ht
++00001220: 7470 733a 2f2f 6472 6976 652e 676f 6f67  tps://drive.goog
++00001230: 6c65 2e63 6f6d 2f75 633f 6578 706f 7274  le.com/uc?export
++00001240: 3d64 6f77 6e6c 6f61 6426 6964 3d31 6e5f  =download&id=1n_
++00001250: 6136 7330 7067 6930 6a56 5a4f 476d 4465  a6s0pgi0jVZOGmDe
++00001260: 6932 7658 4855 3545 3652 4835 7755 223e  i2vXHU5E6RH5wU">
++00001270: 6d6f 6465 6c3c 2f61 3e3c 2f74 643e 0a3c  model</a></td>.<
++00001280: 2f74 723e 0a0a 3c74 723e 0a20 2020 203c  /tr>..<tr>.    <
++00001290: 7464 3e46 6173 7465 7256 6954 2d33 3c2f  td>FasterViT-3</
++000012a0: 7464 3e0a 2020 2020 3c74 643e 3834 2e39  td>.    <td>84.9
++000012b0: 3c2f 7464 3e0a 2020 2020 3c74 643e 3937  </td>.    <td>97
++000012c0: 2e32 3c2f 7464 3e0a 2020 2020 3c74 643e  .2</td>.    <td>
++000012d0: 3137 3830 3c2f 7464 3e0a 2020 2020 3c74  1780</td>.    <t
++000012e0: 643e 3232 3478 3232 343c 2f74 643e 0a20  d>224x224</td>. 
++000012f0: 2020 203c 7464 3e31 3539 2e35 3c2f 7464     <td>159.5</td
++00001300: 3e0a 2020 2020 3c74 643e 3138 2e32 3c2f  >.    <td>18.2</
++00001310: 7464 3e0a 2020 2020 3c74 643e 3c61 2068  td>.    <td><a h
++00001320: 7265 663d 2268 7474 7073 3a2f 2f64 7269  ref="https://dri
++00001330: 7665 2e67 6f6f 676c 652e 636f 6d2f 7563  ve.google.com/uc
++00001340: 3f65 7870 6f72 743d 646f 776e 6c6f 6164  ?export=download
++00001350: 2669 643d 3174 7657 456c 5a39 3153 6961  &id=1tvWElZ91Sia
++00001360: 3253 7358 5958 464d 4e59 5177 6669 7043  2SsXYXFMNYQwfipC
++00001370: 7874 4937 5822 3e6d 6f64 656c 3c2f 613e  xtI7X">model</a>
++00001380: 3c2f 7464 3e0a 3c2f 7472 3e0a 0a3c 7472  </td>.</tr>..<tr
++00001390: 3e0a 2020 2020 3c74 643e 4661 7374 6572  >.    <td>Faster
++000013a0: 5669 542d 343c 2f74 643e 0a20 2020 203c  ViT-4</td>.    <
++000013b0: 7464 3e38 352e 343c 2f74 643e 0a20 2020  td>85.4</td>.   
++000013c0: 203c 7464 3e39 372e 333c 2f74 643e 0a20   <td>97.3</td>. 
++000013d0: 2020 203c 7464 3e38 3439 3c2f 7464 3e0a     <td>849</td>.
++000013e0: 2020 2020 3c74 643e 3232 3478 3232 343c      <td>224x224<
++000013f0: 2f74 643e 0a20 2020 203c 7464 3e34 3234  /td>.    <td>424
++00001400: 2e36 3c2f 7464 3e0a 2020 2020 3c74 643e  .6</td>.    <td>
++00001410: 3336 2e36 3c2f 7464 3e0a 2020 2020 3c74  36.6</td>.    <t
++00001420: 643e 3c61 2068 7265 663d 2268 7474 7073  d><a href="https
++00001430: 3a2f 2f64 7269 7665 2e67 6f6f 676c 652e  ://drive.google.
++00001440: 636f 6d2f 7563 3f65 7870 6f72 743d 646f  com/uc?export=do
++00001450: 776e 6c6f 6164 2669 643d 3167 5968 5841  wnload&id=1gYhXA
++00001460: 3332 512d 5f39 4335 4458 656c 3137 6176  32Q-_9C5DXel17av
++00001470: 565f 5a4c 6f61 4877 6467 7a22 3e6d 6f64  V_ZLoaHwdgz">mod
++00001480: 656c 3c2f 613e 3c2f 7464 3e0a 3c2f 7472  el</a></td>.</tr
++00001490: 3e0a 0a3c 7472 3e0a 2020 2020 3c74 643e  >..<tr>.    <td>
++000014a0: 4661 7374 6572 5669 542d 353c 2f74 643e  FasterViT-5</td>
++000014b0: 0a20 2020 203c 7464 3e38 352e 363c 2f74  .    <td>85.6</t
++000014c0: 643e 0a20 2020 203c 7464 3e39 372e 343c  d>.    <td>97.4<
++000014d0: 2f74 643e 0a20 2020 203c 7464 3e34 3439  /td>.    <td>449
++000014e0: 3c2f 7464 3e0a 2020 2020 3c74 643e 3232  </td>.    <td>22
++000014f0: 3478 3232 343c 2f74 643e 0a20 2020 203c  4x224</td>.    <
++00001500: 7464 3e39 3735 2e35 3c2f 7464 3e0a 2020  td>975.5</td>.  
++00001510: 2020 3c74 643e 3131 332e 303c 2f74 643e    <td>113.0</td>
++00001520: 0a20 2020 203c 7464 3e3c 6120 6872 6566  .    <td><a href
++00001530: 3d22 6874 7470 733a 2f2f 6472 6976 652e  ="https://drive.
++00001540: 676f 6f67 6c65 2e63 6f6d 2f75 633f 6578  google.com/uc?ex
++00001550: 706f 7274 3d64 6f77 6e6c 6f61 6426 6964  port=download&id
++00001560: 3d31 6d71 7061 6937 5869 484c 725f 6e31  =1mqpai7XiHLr_n1
++00001570: 746a 786a 7a54 3871 3336 3978 5443 715f  tjxjzT8q369xTCq_
++00001580: 7a2d 223e 6d6f 6465 6c3c 2f61 3e3c 2f74  z-">model</a></t
++00001590: 643e 0a3c 2f74 723e 0a0a 3c74 723e 0a20  d>.</tr>..<tr>. 
++000015a0: 2020 203c 7464 3e46 6173 7465 7256 6954     <td>FasterViT
++000015b0: 2d36 3c2f 7464 3e0a 2020 2020 3c74 643e  -6</td>.    <td>
++000015c0: 3835 2e38 3c2f 7464 3e0a 2020 2020 3c74  85.8</td>.    <t
++000015d0: 643e 3937 2e34 3c2f 7464 3e0a 2020 2020  d>97.4</td>.    
++000015e0: 3c74 643e 3335 323c 2f74 643e 0a20 2020  <td>352</td>.   
++000015f0: 203c 7464 3e32 3234 7832 3234 3c2f 7464   <td>224x224</td
++00001600: 3e0a 2020 2020 3c74 643e 3133 3630 2e30  >.    <td>1360.0
++00001610: 3c2f 7464 3e0a 2020 2020 3c74 643e 3134  </td>.    <td>14
++00001620: 322e 303c 2f74 643e 0a20 2020 203c 7464  2.0</td>.    <td
++00001630: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++00001640: 2f2f 6472 6976 652e 676f 6f67 6c65 2e63  //drive.google.c
++00001650: 6f6d 2f75 633f 6578 706f 7274 3d64 6f77  om/uc?export=dow
++00001660: 6e6c 6f61 6426 6964 3d31 326a 7461 7652  nload&id=12jtavR
++00001670: 3251 786d 4d7a 634b 7750 7a57 6537 6b77  2QxmMzcKwPzWe7kw
++00001680: 2d6f 7933 3449 5969 3539 223e 6d6f 6465  -oy34IYi59">mode
++00001690: 6c3c 2f61 3e3c 2f74 643e 0a3c 2f74 723e  l</a></td>.</tr>
++000016a0: 0a0a 3c2f 7461 626c 653e 0a0a 0a23 2323  ..</table>...###
++000016b0: 2052 6f62 7573 746e 6573 7320 2849 6d61   Robustness (Ima
++000016c0: 6765 4e65 742d 4120 2d20 496d 6167 654e  geNet-A - ImageN
++000016d0: 6574 2d52 202d 2049 6d61 6765 4e65 742d  et-R - ImageNet-
++000016e0: 5632 290a 0a41 6c6c 206d 6f64 656c 7320  V2)..All models 
++000016f0: 7573 6520 6063 726f 705f 7063 743d 302e  use `crop_pct=0.
++00001700: 3837 3560 2e20 5265 7375 6c74 7320 6172  875`. Results ar
++00001710: 6520 6f62 7461 696e 6564 2062 7920 7275  e obtained by ru
++00001720: 6e6e 696e 6720 696e 6665 7265 6e63 6520  nning inference 
++00001730: 6f6e 2049 6d61 6765 4e65 742d 314b 2070  on ImageNet-1K p
++00001740: 7265 7472 6169 6e65 6420 6d6f 6465 6c73  retrained models
++00001750: 2077 6974 686f 7574 2066 696e 6574 756e   without finetun
++00001760: 696e 672e 0a3c 7461 626c 653e 0a20 203c  ing..<table>.  <
++00001770: 7472 3e0a 2020 2020 3c74 683e 4e61 6d65  tr>.    <th>Name
++00001780: 3c2f 7468 3e0a 2020 2020 3c74 683e 412d  </th>.    <th>A-
++00001790: 4163 6340 3128 2529 3c2f 7468 3e0a 2020  Acc@1(%)</th>.  
++000017a0: 2020 3c74 683e 412d 4163 6340 3528 2529    <th>A-Acc@5(%)
++000017b0: 3c2f 7468 3e0a 2020 2020 3c74 683e 522d  </th>.    <th>R-
++000017c0: 4163 6340 3128 2529 3c2f 7468 3e0a 2020  Acc@1(%)</th>.  
++000017d0: 2020 3c74 683e 522d 4163 6340 3528 2529    <th>R-Acc@5(%)
++000017e0: 3c2f 7468 3e0a 2020 2020 3c74 683e 5632  </th>.    <th>V2
++000017f0: 2d41 6363 4031 2825 293c 2f74 683e 0a20  -Acc@1(%)</th>. 
++00001800: 2020 203c 7468 3e56 322d 4163 6340 3528     <th>V2-Acc@5(
++00001810: 2529 3c2f 7468 3e0a 2020 3c2f 7472 3e0a  %)</th>.  </tr>.
++00001820: 0a3c 7472 3e0a 2020 2020 3c74 643e 4661  .<tr>.    <td>Fa
++00001830: 7374 6572 5669 542d 303c 2f74 643e 0a20  sterViT-0</td>. 
++00001840: 2020 203c 7464 3e32 332e 393c 2f74 643e     <td>23.9</td>
++00001850: 0a20 2020 203c 7464 3e35 372e 363c 2f74  .    <td>57.6</t
++00001860: 643e 0a20 2020 203c 7464 3e34 352e 393c  d>.    <td>45.9<
++00001870: 2f74 643e 0a20 2020 203c 7464 3e36 302e  /td>.    <td>60.
++00001880: 343c 2f74 643e 0a20 2020 203c 7464 3e37  4</td>.    <td>7
++00001890: 302e 393c 2f74 643e 0a20 2020 203c 7464  0.9</td>.    <td
++000018a0: 3e39 302e 303c 2f74 643e 0a3c 2f74 723e  >90.0</td>.</tr>
++000018b0: 0a0a 3c74 723e 0a20 2020 203c 7464 3e46  ..<tr>.    <td>F
++000018c0: 6173 7465 7256 6954 2d31 3c2f 7464 3e0a  asterViT-1</td>.
++000018d0: 2020 2020 3c74 643e 3331 2e32 3c2f 7464      <td>31.2</td
++000018e0: 3e0a 2020 2020 3c74 643e 3633 2e33 3c2f  >.    <td>63.3</
++000018f0: 7464 3e0a 2020 2020 3c74 643e 3437 2e35  td>.    <td>47.5
++00001900: 3c2f 7464 3e0a 2020 2020 3c74 643e 3631  </td>.    <td>61
++00001910: 2e39 3c2f 7464 3e0a 2020 2020 3c74 643e  .9</td>.    <td>
++00001920: 3732 2e36 3c2f 7464 3e0a 2020 2020 3c74  72.6</td>.    <t
++00001930: 643e 3931 2e30 3c2f 7464 3e0a 3c2f 7472  d>91.0</td>.</tr
++00001940: 3e0a 0a3c 7472 3e0a 2020 2020 3c74 643e  >..<tr>.    <td>
++00001950: 4661 7374 6572 5669 542d 323c 2f74 643e  FasterViT-2</td>
++00001960: 0a20 2020 203c 7464 3e33 382e 323c 2f74  .    <td>38.2</t
++00001970: 643e 0a20 2020 203c 7464 3e36 382e 393c  d>.    <td>68.9<
++00001980: 2f74 643e 0a20 2020 203c 7464 3e34 392e  /td>.    <td>49.
++00001990: 363c 2f74 643e 0a20 2020 203c 7464 3e36  6</td>.    <td>6
++000019a0: 332e 343c 2f74 643e 0a20 2020 203c 7464  3.4</td>.    <td
++000019b0: 3e37 332e 373c 2f74 643e 0a20 2020 203c  >73.7</td>.    <
++000019c0: 7464 3e39 312e 363c 2f74 643e 0a3c 2f74  td>91.6</td>.</t
++000019d0: 723e 0a0a 3c74 723e 0a20 2020 203c 7464  r>..<tr>.    <td
++000019e0: 3e46 6173 7465 7256 6954 2d33 3c2f 7464  >FasterViT-3</td
++000019f0: 3e0a 2020 2020 3c74 643e 3434 2e32 3c2f  >.    <td>44.2</
++00001a00: 7464 3e0a 2020 2020 3c74 643e 3733 2e30  td>.    <td>73.0
++00001a10: 3c2f 7464 3e0a 2020 2020 3c74 643e 3531  </td>.    <td>51
++00001a20: 2e39 3c2f 7464 3e0a 2020 2020 3c74 643e  .9</td>.    <td>
++00001a30: 3635 2e36 3c2f 7464 3e0a 2020 2020 3c74  65.6</td>.    <t
++00001a40: 643e 3735 2e30 3c2f 7464 3e0a 2020 2020  d>75.0</td>.    
++00001a50: 3c74 643e 3932 2e32 3c2f 7464 3e0a 3c2f  <td>92.2</td>.</
++00001a60: 7472 3e0a 0a3c 7472 3e0a 2020 2020 3c74  tr>..<tr>.    <t
++00001a70: 643e 4661 7374 6572 5669 542d 343c 2f74  d>FasterViT-4</t
++00001a80: 643e 0a20 2020 203c 7464 3e34 392e 303c  d>.    <td>49.0<
++00001a90: 2f74 643e 0a20 2020 203c 7464 3e37 352e  /td>.    <td>75.
++00001aa0: 343c 2f74 643e 0a20 2020 203c 7464 3e35  4</td>.    <td>5
++00001ab0: 362e 303c 2f74 643e 0a20 2020 203c 7464  6.0</td>.    <td
++00001ac0: 3e36 392e 363c 2f74 643e 0a20 2020 203c  >69.6</td>.    <
++00001ad0: 7464 3e37 352e 373c 2f74 643e 0a20 2020  td>75.7</td>.   
++00001ae0: 203c 7464 3e39 322e 373c 2f74 643e 0a3c   <td>92.7</td>.<
++00001af0: 2f74 723e 0a0a 3c74 723e 0a20 2020 203c  /tr>..<tr>.    <
++00001b00: 7464 3e46 6173 7465 7256 6954 2d35 3c2f  td>FasterViT-5</
++00001b10: 7464 3e0a 2020 2020 3c74 643e 3532 2e37  td>.    <td>52.7
++00001b20: 3c2f 7464 3e0a 2020 2020 3c74 643e 3737  </td>.    <td>77
++00001b30: 2e36 3c2f 7464 3e0a 2020 2020 3c74 643e  .6</td>.    <td>
++00001b40: 3536 2e39 3c2f 7464 3e0a 2020 2020 3c74  56.9</td>.    <t
++00001b50: 643e 3730 2e30 3c2f 7464 3e0a 2020 2020  d>70.0</td>.    
++00001b60: 3c74 643e 3736 2e30 3c2f 7464 3e0a 2020  <td>76.0</td>.  
++00001b70: 2020 3c74 643e 3933 2e30 3c2f 7464 3e0a    <td>93.0</td>.
++00001b80: 3c2f 7472 3e0a 0a3c 7472 3e0a 2020 2020  </tr>..<tr>.    
++00001b90: 3c74 643e 4661 7374 6572 5669 542d 363c  <td>FasterViT-6<
++00001ba0: 2f74 643e 0a20 2020 203c 7464 3e35 332e  /td>.    <td>53.
++00001bb0: 373c 2f74 643e 0a20 2020 203c 7464 3e37  7</td>.    <td>7
++00001bc0: 382e 343c 2f74 643e 0a20 2020 203c 7464  8.4</td>.    <td
++00001bd0: 3e35 372e 313c 2f74 643e 0a20 2020 203c  >57.1</td>.    <
++00001be0: 7464 3e37 302e 313c 2f74 643e 0a20 2020  td>70.1</td>.   
++00001bf0: 203c 7464 3e37 362e 313c 2f74 643e 0a20   <td>76.1</td>. 
++00001c00: 2020 203c 7464 3e39 332e 303c 2f74 643e     <td>93.0</td>
++00001c10: 0a3c 2f74 723e 0a0a 3c2f 7461 626c 653e  .</tr>..</table>
++00001c20: 0a0a 412c 2052 2061 6e64 2056 3220 6465  ..A, R and V2 de
++00001c30: 6e6f 7465 2049 6d61 6765 4e65 742d 412c  note ImageNet-A,
++00001c40: 2049 6d61 6765 4e65 742d 5220 616e 6420   ImageNet-R and 
++00001c50: 496d 6167 654e 6574 2d56 3220 7265 7370  ImageNet-V2 resp
++00001c60: 6563 7469 7665 6c79 2e20 0a23 2320 5472  ectively. .## Tr
++00001c70: 6169 6e69 6e67 0a0a 506c 6561 7365 2073  aining..Please s
++00001c80: 6565 205b 5452 4149 4e49 4e47 2e6d 645d  ee [TRAINING.md]
++00001c90: 2854 5241 494e 494e 472e 6d64 2920 666f  (TRAINING.md) fo
++00001ca0: 7220 6465 7461 696c 6564 2074 7261 696e  r detailed train
++00001cb0: 696e 6720 696e 7374 7275 6374 696f 6e73  ing instructions
++00001cc0: 206f 6620 616c 6c20 6d6f 6465 6c73 2e20   of all models. 
++00001cd0: 0a0a 2323 2045 7661 6c75 6174 696f 6e0a  ..## Evaluation.
++00001ce0: 0a54 6865 2046 6173 7465 7256 6954 206d  .The FasterViT m
++00001cf0: 6f64 656c 7320 6361 6e20 6265 2065 7661  odels can be eva
++00001d00: 6c75 6174 6564 206f 6e20 496d 6167 654e  luated on ImageN
++00001d10: 6574 2d31 4b20 7661 6c69 6461 7469 6f6e  et-1K validation
++00001d20: 2073 6574 2075 7369 6e67 2074 6865 2066   set using the f
++00001d30: 6f6c 6c6f 7769 6e67 3a20 0a0a 6060 600a  ollowing: ..```.
++00001d40: 7079 7468 6f6e 2076 616c 6964 6174 652e  python validate.
++00001d50: 7079 205c 0a2d 2d6d 6f64 656c 203c 6d6f  py \.--model <mo
++00001d60: 6465 6c2d 6e61 6d65 3e0a 2d2d 6368 6563  del-name>.--chec
++00001d70: 6b70 6f69 6e74 203c 6368 6563 6b70 6f69  kpoint <checkpoi
++00001d80: 6e74 2d70 6174 683e 0a2d 2d64 6174 615f  nt-path>.--data_
++00001d90: 6469 7220 3c69 6d61 6765 6e65 742d 7061  dir <imagenet-pa
++00001da0: 7468 3e0a 2d2d 6261 7463 682d 7369 7a65  th>.--batch-size
++00001db0: 203c 6261 7463 682d 7369 7a65 2d70 6572   <batch-size-per
++00001dc0: 2d67 7075 0a60 6060 200a 0a48 6572 6520  -gpu.``` ..Here 
++00001dd0: 602d 2d6d 6f64 656c 6020 6973 2074 6865  `--model` is the
++00001de0: 2046 6173 7465 7256 6954 2076 6172 6961   FasterViT varia
++00001df0: 6e74 2028 652e 672e 2060 6661 7374 6572  nt (e.g. `faster
++00001e00: 5f76 6974 5f30 5f32 3234 5f31 6b60 292c  _vit_0_224_1k`),
++00001e10: 2060 2d2d 6368 6563 6b70 6f69 6e74 6020   `--checkpoint` 
++00001e20: 6973 2074 6865 2070 6174 6820 746f 2070  is the path to p
++00001e30: 7265 7472 6169 6e65 6420 6d6f 6465 6c20  retrained model 
++00001e40: 7765 6967 6874 732c 2060 2d2d 6461 7461  weights, `--data
++00001e50: 5f64 6972 6020 6973 2074 6865 2070 6174  _dir` is the pat
++00001e60: 6820 746f 2049 6d61 6765 4e65 742d 314b  h to ImageNet-1K
++00001e70: 2076 616c 6964 6174 696f 6e20 7365 7420   validation set 
++00001e80: 616e 6420 602d 2d62 6174 6368 2d73 697a  and `--batch-siz
++00001e90: 6560 2069 7320 7468 6520 6e75 6d62 6572  e` is the number
++00001ea0: 206f 6620 6261 7463 6820 7369 7a65 2e20   of batch size. 
++00001eb0: 5765 2061 6c73 6f20 7072 6f76 6964 6520  We also provide 
++00001ec0: 6120 7361 6d70 6c65 2073 6372 6970 7420  a sample script 
++00001ed0: 5b68 6572 655d 282e 2f66 6173 7465 7276  [here](./fasterv
++00001ee0: 6974 2f76 616c 6964 6174 652e 7368 292e  it/validate.sh).
++00001ef0: 200a 0a0a 2323 2049 6e73 7461 6c6c 6174   ...## Installat
++00001f00: 696f 6e0a 0a54 6865 2064 6570 656e 6465  ion..The depende
++00001f10: 6e63 6965 7320 6361 6e20 6265 2069 6e73  ncies can be ins
++00001f20: 7461 6c6c 6564 2062 7920 7275 6e6e 696e  talled by runnin
++00001f30: 673a 0a0a 6060 6062 6173 680a 7069 7020  g:..```bash.pip 
++00001f40: 696e 7374 616c 6c20 2d72 2072 6571 7569  install -r requi
++00001f50: 7265 6d65 6e74 732e 7478 740a 6060 600a  rements.txt.```.
++00001f60: 0a23 2320 5468 6972 642d 7061 7274 7920  .## Third-party 
++00001f70: 4578 7465 6e74 696f 6e73 0a57 6520 616c  Extentions.We al
++00001f80: 7761 7973 2077 656c 636f 6d65 2074 6869  ways welcome thi
++00001f90: 7264 2d70 6172 7479 2065 7874 656e 7469  rd-party extenti
++00001fa0: 6f6e 732f 696d 706c 656d 656e 7461 7469  ons/implementati
++00001fb0: 6f6e 7320 616e 6420 7573 6167 6520 666f  ons and usage fo
++00001fc0: 7220 6f74 6865 7220 7075 7270 6f73 6573  r other purposes
++00001fd0: 2e20 4966 2079 6f75 2077 6f75 6c64 206c  . If you would l
++00001fe0: 696b 6520 796f 7572 2077 6f72 6b20 746f  ike your work to
++00001ff0: 2062 6520 6c69 7374 6564 2069 6e20 7468   be listed in th
++00002000: 6973 2072 6570 6f73 6974 6f72 792c 2070  is repository, p
++00002010: 6c65 6173 6520 7261 6973 6520 616e 6420  lease raise and 
++00002020: 6973 7375 6520 616e 6420 7072 6f76 6964  issue and provid
++00002030: 6520 7573 2077 6974 6820 6465 7461 696c  e us with detail
++00002040: 6564 2069 6e66 6f72 6d61 7469 6f6e 2e20  ed information. 
++00002050: 200a 0a0a 2323 2041 636b 6e6f 776c 6564   ...## Acknowled
++00002060: 6765 6d65 6e74 0a54 6869 7320 7265 706f  gement.This repo
++00002070: 7369 746f 7279 2069 7320 6275 696c 7420  sitory is built 
++00002080: 6f6e 2074 6f70 206f 6620 7468 6520 5b74  on top of the [t
++00002090: 696d 6d5d 2868 7474 7073 3a2f 2f67 6974  imm](https://git
++000020a0: 6875 622e 636f 6d2f 6875 6767 696e 6766  hub.com/huggingf
++000020b0: 6163 652f 7079 746f 7263 682d 696d 6167  ace/pytorch-imag
++000020c0: 652d 6d6f 6465 6c73 2920 7265 706f 7369  e-models) reposi
++000020d0: 746f 7279 2e20 5765 2074 6861 6e6b 205b  tory. We thank [
++000020e0: 526f 7373 2057 7269 6768 746d 616e 5d28  Ross Wrightman](
++000020f0: 6874 7470 733a 2f2f 7277 6967 6874 6d61  https://rwightma
++00002100: 6e2e 636f 6d2f 2920 666f 7220 6372 6561  n.com/) for crea
++00002110: 7469 6e67 2061 6e64 206d 6169 6e74 6169  ting and maintai
++00002120: 6e69 6e67 2074 6869 7320 6869 6768 2d71  ning this high-q
++00002130: 7561 6c69 7479 206c 6962 7261 7279 2e20  uality library. 
++00002140: 200a 0a23 2320 4369 7461 7469 6f6e 0a0a   ..## Citation..
++00002150: 506c 6561 7365 2063 6f6e 7369 6465 7220  Please consider 
++00002160: 6369 7469 6e67 2046 6173 7465 7256 6954  citing FasterViT
++00002170: 2069 6620 7468 6973 2072 6570 6f73 6974   if this reposit
++00002180: 6f72 7920 6973 2075 7365 6675 6c20 666f  ory is useful fo
++00002190: 7220 796f 7572 2077 6f72 6b3a 0a0a 6060  r your work:..``
++000021a0: 600a 4061 7274 6963 6c65 7b68 6174 616d  `.@article{hatam
++000021b0: 697a 6164 6568 3230 3233 6661 7374 6572  izadeh2023faster
++000021c0: 7669 742c 0a20 2074 6974 6c65 3d7b 4661  vit,.  title={Fa
++000021d0: 7374 6572 5669 543a 2046 6173 7420 5669  sterViT: Fast Vi
++000021e0: 7369 6f6e 2054 7261 6e73 666f 726d 6572  sion Transformer
++000021f0: 7320 7769 7468 2048 6965 7261 7263 6869  s with Hierarchi
++00002200: 6361 6c20 4174 7465 6e74 696f 6e7d 2c0a  cal Attention},.
++00002210: 2020 6175 7468 6f72 3d7b 4861 7461 6d69    author={Hatami
++00002220: 7a61 6465 682c 2041 6c69 2061 6e64 2048  zadeh, Ali and H
++00002230: 6569 6e72 6963 682c 2047 7265 6720 616e  einrich, Greg an
++00002240: 6420 5969 6e2c 2048 6f6e 6778 7520 616e  d Yin, Hongxu an
++00002250: 6420 5461 6f2c 2041 6e64 7265 7720 616e  d Tao, Andrew an
++00002260: 6420 416c 7661 7265 7a2c 204a 6f73 6520  d Alvarez, Jose 
++00002270: 4d20 616e 6420 4b61 7574 7a2c 204a 616e  M and Kautz, Jan
++00002280: 2061 6e64 204d 6f6c 6368 616e 6f76 2c20   and Molchanov, 
++00002290: 5061 766c 6f7d 2c0a 2020 6a6f 7572 6e61  Pavlo},.  journa
++000022a0: 6c3d 7b61 7258 6976 2070 7265 7072 696e  l={arXiv preprin
++000022b0: 7420 6172 5869 763a 3233 3036 2e30 3631  t arXiv:2306.061
++000022c0: 3839 7d2c 0a20 2079 6561 723d 7b32 3032  89},.  year={202
++000022d0: 337d 0a7d 0a60 6060 0a0a 2323 204c 6963  3}.}.```..## Lic
++000022e0: 656e 7365 730a 0a43 6f70 7972 6967 6874  enses..Copyright
++000022f0: 20c2 a920 3230 3233 2c20 4e56 4944 4941   .. 2023, NVIDIA
++00002300: 2043 6f72 706f 7261 7469 6f6e 2e20 416c   Corporation. Al
++00002310: 6c20 7269 6768 7473 2072 6573 6572 7665  l rights reserve
++00002320: 642e 0a0a 5468 6973 2077 6f72 6b20 6973  d...This work is
++00002330: 206d 6164 6520 6176 6169 6c61 626c 6520   made available 
++00002340: 756e 6465 7220 7468 6520 4e56 4944 4941  under the NVIDIA
++00002350: 2053 6f75 7263 6520 436f 6465 204c 6963   Source Code Lic
++00002360: 656e 7365 2d4e 432e 2043 6c69 636b 205b  ense-NC. Click [
++00002370: 6865 7265 5d28 4c49 4345 4e53 4529 2074  here](LICENSE) t
++00002380: 6f20 7669 6577 2061 2063 6f70 7920 6f66  o view a copy of
++00002390: 2074 6869 7320 6c69 6365 6e73 652e 0a0a   this license...
++000023a0: 466f 7220 6c69 6365 6e73 6520 696e 666f  For license info
++000023b0: 726d 6174 696f 6e20 7265 6761 7264 696e  rmation regardin
++000023c0: 6720 7468 6520 7469 6d6d 2072 6570 6f73  g the timm repos
++000023d0: 6974 6f72 792c 2070 6c65 6173 6520 7265  itory, please re
++000023e0: 6665 7220 746f 2069 7473 205b 7265 706f  fer to its [repo
++000023f0: 7369 746f 7279 5d28 6874 7470 733a 2f2f  sitory](https://
++00002400: 6769 7468 7562 2e63 6f6d 2f72 7769 6768  github.com/rwigh
++00002410: 746d 616e 2f70 7974 6f72 6368 2d69 6d61  tman/pytorch-ima
++00002420: 6765 2d6d 6f64 656c 7329 2e0a 0a46 6f72  ge-models)...For
++00002430: 206c 6963 656e 7365 2069 6e66 6f72 6d61   license informa
++00002440: 7469 6f6e 2072 6567 6172 6469 6e67 2074  tion regarding t
++00002450: 6865 2049 6d61 6765 4e65 7420 6461 7461  he ImageNet data
++00002460: 7365 742c 2070 6c65 6173 6520 7365 6520  set, please see 
++00002470: 7468 6520 5b49 6d61 6765 4e65 7420 6f66  the [ImageNet of
++00002480: 6669 6369 616c 2077 6562 7369 7465 5d28  ficial website](
++00002490: 6874 7470 733a 2f2f 7777 772e 696d 6167  https://www.imag
++000024a0: 652d 6e65 742e 6f72 672f 292e 200a       e-net.org/). .
+```
+
+### Comparing `fastervit-0.8.7/fastervit.egg-info/SOURCES.txt` & `fastervit-0.8.8/fastervit.egg-info/SOURCES.txt`
+
+ * *Files identical despite different names*
+
+### Comparing `fastervit-0.8.7/setup.py` & `fastervit-0.8.8/setup.py`
+
+ * *Files 12% similar despite different names*
+
+```diff
+@@ -8,15 +8,15 @@
+ 
+ # Get the long description from the README file
+ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
+     long_description = f.read()
+ 
+ setup(
+     name='fastervit',
+-    version='0.8.7',
++    version='0.8.8',
+     description='FasterViT: Fast Vision Transformers with Hierarchical Attention',
+     long_description=long_description,
+     long_description_content_type='text/markdown',
+     url='https://github.com/NVlabs/FasterViT',
+     author='Ali Hatamizadeh',
+     author_email='ahatamiz123@gmail.com',
+     classifiers=[
+```
+
