@@ -11538,3 +11538,117 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 05:56:56] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
 [2023-06-21 05:56:56] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
 [2023-06-21 05:56:56] INFO root fetch - main [MainThread]: Store serial: [18585018]
+[2023-06-21 06:02:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585018]
+[2023-06-21 06:02:05] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-gitlab
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kevin-toolbox
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kevin-toolbox-dev
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-l10n-es-ticketbai-api
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: qqbot-linger
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo12-addon-l10n-es-ticketbai
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Telexy.MARS
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pydantic-dict
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: evals-nightly
+[2023-06-21 06:02:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lm-datahandler
+[2023-06-21 06:02:05] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: New version: [12.0.2.3.5.99.dev1] Old Version: [12.0.2.3.5]
+[2023-06-21 06:02:05] WARNING root fetch - processPackages [pydantic-dict]: Skipping, unable to determine old version
+[2023-06-21 06:02:05] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: New version: [12.0.2.7.7.99.dev1] Old Version: [12.0.2.7.7]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [pydantic-dict]: Start processing: odoo-addon-l10n-es-account-banking-sepa-fsdd
+[2023-06-21 06:02:05] INFO root fetch - main [MainThread]: End processing [pydantic-dict] error
+[2023-06-21 06:02:05] INFO root fetch - processPackages [Telexy.MARS]: New version: [1.23.629] Old Version: [1.23.628]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [qqbot-linger]: New version: [0.2.0a1] Old Version: [0.2.0]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [kevin-toolbox]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230619] Old Version: [1.0.3.dev20230618]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [pulumi-gitlab]: New version: [6.1.0a1687318522] Old Version: [6.1.0a1687054842]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [kevin-toolbox-dev]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-21 06:02:05] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/17/6d/61690fba1554c31aa7ad83e3eb097c508d2ac6cedd12e183ed4f6641b1b9/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5-py3-none-any.whl
+[2023-06-21 06:02:05] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/a1/07/db5beaae98f522da999a0bf0cfa45dabf23bff1fd26865a5473e7b793fbe/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7-py3-none-any.whl
+[2023-06-21 06:02:05] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/06/e8/f1efbd2edcf4627240d0bf6078b00e54d826d533ee9f26d3598f408c6e8b/Telexy.MARS-1.23.628.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/6b/7e/47f9afe302b7aa7e6db12cff231fba3b86cc67aedf9a7748cdf544f6c2c6/evals-nightly-1.0.3.dev20230618.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [qqbot-linger]: Downloading https://files.pythonhosted.org/packages/ac/8e/89b74b88cc28c020dcf7e67e90dd985c38ba91c749865a0846982ff52f76/qqbot_linger-0.2.0.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/37/c7/b888b4a1a406ea6d81679fe18ec9679bcf7679a20743c2531ac8218d0b00/pulumi_gitlab-6.1.0a1687054842.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/50/51/6f85ab7120f80babd9c87d198cc1f3f2afbf36a523b5db9ee86218150ffe/kevin-toolbox-dev-1.0.9.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/95/d2/259c0fd83db8c2245498b3cb9434b8ed951944c14fb8255ffc8ffffe74d4/kevin-toolbox-1.0.9.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: Downloading https://files.pythonhosted.org/packages/1e/4a/dc2aca7b08944ebd34d8f6ab74ade0b09a01582805548afe3206edc037ce/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-21 06:02:05] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/5d/fa/ecdef9bde6b3a5b2b9df91cf025d70ea8c0138410947e455e4e4c5ef37a1/evals-nightly-1.0.3.dev20230619.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/c2/ef/b44c395945b3ae9e796687fac6d9e70bfba0f841225709b0d76a4932f5dd/Telexy.MARS-1.23.629.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-06-21 06:02:05] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: Downloading https://files.pythonhosted.org/packages/b1/21/a0ddcf767b29f4ceb412367c9051e4034efdf0b1af55417c11ac8917b0d2/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5.99.dev1-py3-none-any.whl
+[2023-06-21 06:02:05] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-06-21 06:02:05] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230618.tar.gz tmp/evals-nightly-1.0.3.dev20230619.tar.gz --markdown 20230621/e/evals-nightly/1.0.3.dev20230618-1.0.3.dev20230619/diff.md --exclude *.pyd
+[2023-06-21 06:02:05] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Downloading https://files.pythonhosted.org/packages/91/e6/401a97448233f86ab4b985ba1e69b741dc7f24cd7e4a2d8ff6acc8bb755f/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7.99.dev1-py3-none-any.whl
+[2023-06-21 06:02:05] INFO root fetch - processPackages [Telexy.MARS]: executing diffoscope
+[2023-06-21 06:02:05] INFO root fetch - processPackages [Telexy.MARS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telexy.MARS-1.23.628.tar.gz tmp/Telexy.MARS-1.23.629.tar.gz --markdown 20230621/T/Telexy.MARS/1.23.628-1.23.629/diff.md --exclude *.pyd
+[2023-06-21 06:02:05] INFO root fetch - processPackages [qqbot-linger]: Downloading https://files.pythonhosted.org/packages/c5/ba/3cd62c34860e8834a7de89c68a718c9e26789a6099c476866d8321dbd0a2/qqbot_linger-0.2.0a1.tar.gz
+[2023-06-21 06:02:06] INFO root fetch - processPackages [kevin-toolbox]: Downloading https://files.pythonhosted.org/packages/f6/85/22978414f58ff2a35ce9d37153e55893fc09dbb91ed53464223091bcc647/kevin-toolbox-1.1.0.tar.gz
+[2023-06-21 06:02:06] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-21 06:02:06] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230621/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 06:02:06] INFO root fetch - processPackages [qqbot-linger]: executing diffoscope
+[2023-06-21 06:02:06] INFO root fetch - processPackages [qqbot-linger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qqbot_linger-0.2.0.tar.gz tmp/qqbot_linger-0.2.0a1.tar.gz --markdown 20230621/q/qqbot-linger/0.2.0-0.2.0a1/diff.md --exclude *.pyd
+[2023-06-21 06:02:06] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: Downloading https://files.pythonhosted.org/packages/4b/63/2c1a0fcd7f574aa171975fcf001391187a097baec666ffd657eb470d2633/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-21 06:02:06] INFO root fetch - processPackages [pulumi-gitlab]: Downloading https://files.pythonhosted.org/packages/fb/b8/fcf1edd33b8ec3b8033abd5b4f5ff175d0401f2db62c16872abb430c166f/pulumi_gitlab-6.1.0a1687318522.tar.gz
+[2023-06-21 06:02:06] INFO root fetch - processPackages [kevin-toolbox]: executing diffoscope
+[2023-06-21 06:02:06] INFO root fetch - processPackages [kevin-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-1.0.9.tar.gz tmp/kevin-toolbox-1.1.0.tar.gz --markdown 20230621/k/kevin-toolbox/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 06:02:06] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: executing diffoscope
+[2023-06-21 06:02:06] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7-py3-none-any.whl.zip tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7.99.dev1-py3-none-any.whl.zip --markdown 20230621/o/odoo12-addon-l10n-es-ticketbai/12.0.2.7.7-12.0.2.7.7.99.dev1/diff.md --exclude *.pyd
+[2023-06-21 06:02:06] INFO root fetch - processPackages [kevin-toolbox-dev]: Downloading https://files.pythonhosted.org/packages/67/d8/388ff830c557ef2dbcdebf1c34c5016b5543672c767101c036bf64fe349d/kevin-toolbox-dev-1.1.0.tar.gz
+[2023-06-21 06:02:06] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: executing diffoscope
+[2023-06-21 06:02:06] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-l10n-es-account-banking-sepa-fsdd/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-21 06:02:06] INFO root fetch - processPackages [pulumi-gitlab]: executing diffoscope
+[2023-06-21 06:02:06] INFO root fetch - processPackages [pulumi-gitlab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_gitlab-6.1.0a1687054842.tar.gz tmp/pulumi_gitlab-6.1.0a1687318522.tar.gz --markdown 20230621/p/pulumi-gitlab/6.1.0a1687054842-6.1.0a1687318522/diff.md --exclude *.pyd
+[2023-06-21 06:02:06] INFO root fetch - processPackages [kevin-toolbox-dev]: executing diffoscope
+[2023-06-21 06:02:06] INFO root fetch - processPackages [kevin-toolbox-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevin-toolbox-dev-1.0.9.tar.gz tmp/kevin-toolbox-dev-1.1.0.tar.gz --markdown 20230621/k/kevin-toolbox-dev/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 06:02:06] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: executing diffoscope
+[2023-06-21 06:02:06] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5-py3-none-any.whl.zip tmp/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5.99.dev1-py3-none-any.whl.zip --markdown 20230621/o/odoo12-addon-l10n-es-ticketbai-api/12.0.2.3.5-12.0.2.3.5.99.dev1/diff.md --exclude *.pyd
+[2023-06-21 06:02:07] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.628.tar.gz]
+[2023-06-21 06:02:07] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.629.tar.gz]
+[2023-06-21 06:02:07] INFO root fetch - processPackages [Telexy.MARS]: Start processing: deemon
+[2023-06-21 06:02:07] INFO root fetch - main [MainThread]: End processing [Telexy.MARS]: success
+[2023-06-21 06:02:07] INFO root fetch - processPackages [deemon]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-06-21 06:02:07] INFO root fetch - processPackages [qqbot-linger]: Remove: archive file [/home/abi/fetcher/tmp/qqbot_linger-0.2.0.tar.gz]
+[2023-06-21 06:02:07] INFO root fetch - processPackages [qqbot-linger]: Remove: archive file [/home/abi/fetcher/tmp/qqbot_linger-0.2.0a1.tar.gz]
+[2023-06-21 06:02:07] INFO root fetch - processPackages [qqbot-linger]: Start processing: odoo-addons-oca-l10n-spain
+[2023-06-21 06:02:07] INFO root fetch - main [MainThread]: End processing [qqbot-linger]: success
+[2023-06-21 06:02:07] INFO root fetch - processPackages [deemon]: Downloading https://files.pythonhosted.org/packages/c4/4d/dcdb6b003c65ae95253d45cfcad694c5c9934cb8210b6175f3fddab79b12/deemon-2.9.2.tar.gz
+[2023-06-21 06:02:07] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: New version: [16.0.20230619.0] Old Version: [16.0.20230615.0]
+[2023-06-21 06:02:07] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-06-21 06:02:07] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-06-21 06:02:07] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-21 06:02:07] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/65/be/f19567b36c5c70f859b4ca2b45b2d81b4b79191879d88a12fece657850c0/odoo_addons_oca_l10n_spain-16.0.20230615.0-py3-none-any.whl
+[2023-06-21 06:02:08] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-21 06:02:08] INFO root fetch - processPackages [odoo-addon-l10n-es-account-banking-sepa-fsdd]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_account_banking_sepa_fsdd-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-21 06:02:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-account-banking-sepa-fsdd]: success
+[2023-06-21 06:02:08] INFO root fetch - processPackages [deemon]: Downloading https://files.pythonhosted.org/packages/ce/76/0d02403eaaa45d10e2a5369d280b2cdd9d95ac096bce61a1005a25afb684/deemon-2.9.3.tar.gz
+[2023-06-21 06:02:08] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7-py3-none-any.whl.zip]
+[2023-06-21 06:02:08] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai-12.0.2.7.7.99.dev1-py3-none-any.whl.zip]
+[2023-06-21 06:02:08] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-es-ticketbai]: success
+[2023-06-21 06:02:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Downloading https://files.pythonhosted.org/packages/df/e0/ce3e0f0489fa419d475226fb2aa955de74b35a87e4f53090fdec079f1a6e/odoo_addons_oca_l10n_spain-16.0.20230619.0-py3-none-any.whl
+[2023-06-21 06:02:08] INFO root fetch - processPackages [deemon]: executing diffoscope
+[2023-06-21 06:02:08] INFO root fetch - processPackages [deemon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deemon-2.9.2.tar.gz tmp/deemon-2.9.3.tar.gz --markdown 20230621/d/deemon/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-06-21 06:02:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: executing diffoscope
+[2023-06-21 06:02:08] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_spain-16.0.20230615.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_spain-16.0.20230619.0-py3-none-any.whl.zip --markdown 20230621/o/odoo-addons-oca-l10n-spain/16.0.20230615.0-16.0.20230619.0/diff.md --exclude *.pyd
+[2023-06-21 06:02:08] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.0.9.tar.gz]
+[2023-06-21 06:02:08] INFO root fetch - processPackages [kevin-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-1.1.0.tar.gz]
+[2023-06-21 06:02:08] INFO root fetch - main [MainThread]: End processing [kevin-toolbox]: success
+[2023-06-21 06:02:08] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687054842.tar.gz]
+[2023-06-21 06:02:08] INFO root fetch - processPackages [pulumi-gitlab]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_gitlab-6.1.0a1687318522.tar.gz]
+[2023-06-21 06:02:08] INFO root fetch - main [MainThread]: End processing [pulumi-gitlab]: success
+[2023-06-21 06:02:09] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230618.tar.gz]
+[2023-06-21 06:02:09] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230619.tar.gz]
+[2023-06-21 06:02:09] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-06-21 06:02:09] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5-py3-none-any.whl.zip]
+[2023-06-21 06:02:09] INFO root fetch - processPackages [odoo12-addon-l10n-es-ticketbai-api]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_l10n_es_ticketbai_api-12.0.2.3.5.99.dev1-py3-none-any.whl.zip]
+[2023-06-21 06:02:09] INFO root fetch - main [MainThread]: End processing [odoo12-addon-l10n-es-ticketbai-api]: success
+[2023-06-21 06:02:09] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230615.0-py3-none-any.whl.zip]
+[2023-06-21 06:02:09] INFO root fetch - processPackages [odoo-addons-oca-l10n-spain]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_spain-16.0.20230619.0-py3-none-any.whl.zip]
+[2023-06-21 06:02:09] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-spain]: success
+[2023-06-21 06:02:09] INFO root fetch - processPackages [deemon]: Remove: archive file [/home/abi/fetcher/tmp/deemon-2.9.2.tar.gz]
+[2023-06-21 06:02:09] INFO root fetch - processPackages [deemon]: Remove: archive file [/home/abi/fetcher/tmp/deemon-2.9.3.tar.gz]
+[2023-06-21 06:02:09] INFO root fetch - main [MainThread]: End processing [deemon]: success
+[2023-06-21 06:02:10] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.0.9.tar.gz]
+[2023-06-21 06:02:10] INFO root fetch - processPackages [kevin-toolbox-dev]: Remove: archive file [/home/abi/fetcher/tmp/kevin-toolbox-dev-1.1.0.tar.gz]
+[2023-06-21 06:02:10] INFO root fetch - main [MainThread]: End processing [kevin-toolbox-dev]: success
+[2023-06-21 06:02:10] INFO root fetch - main [MainThread]: Store serial: [18585055]
