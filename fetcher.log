@@ -21348,3 +21348,154 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 12:53:29] INFO root fetch - processPackages [wikimedia-spicerack]: Remove: archive file [/home/abi/fetcher/tmp/wikimedia-spicerack-7.2.1.tar.gz]
 [2023-06-21 12:53:29] INFO root fetch - main [MainThread]: End processing [wikimedia-spicerack]: success
 [2023-06-21 12:53:29] INFO root fetch - main [MainThread]: Store serial: [18588955]
+[2023-06-21 12:58:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588955]
+[2023-06-21 12:58:40] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ccxt
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sum-dirac-dfcoef
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: h2o-client
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastf1
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lusid-notification-sdk-preview
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack-core
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: AMAS-sb
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-node-binding
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: file-chunk-iterators
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openmetadata-ingestion
+[2023-06-21 12:58:40] INFO root fetch - processPackages [h2o-client]: New version: [3.42.0.1] Old Version: [3.40.0.4]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [AMAS-sb]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230621105507] Old Version: [2.1.1.dev20230621093345]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [sum-dirac-dfcoef]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [openmetadata-ingestion]: New version: [1.0.5.0] Old Version: [1.0.4.4]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [lusid-notification-sdk-preview]: New version: [0.1.748.post4] Old Version: [0.1.748.post3]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [file-chunk-iterators]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [fastf1]: New version: [3.0.6] Old Version: [3.0.5]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ccxt]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [nucliadb-node-binding]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-21 12:58:40] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f2/3c/a644c32f6c7ad451488058df6c41eedfc8fface95a5c5ca997330feba278/lusid-notification-sdk-preview-0.1.748.post3.tar.gz
+[2023-06-21 12:58:40] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/28/73/2f98c85c4ffdc94c3b6e1fddaaa8337d24cdac3c2344e5c63c3225d8705b/openmetadata-ingestion-1.0.4.4.tar.gz
+[2023-06-21 12:58:40] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/54/7f/bd92b2bc5b6d5afd18cdd0fcce2e630f48f2d5106ff59410683a272991bb/fastf1-3.0.5.tar.gz
+[2023-06-21 12:58:40] INFO root fetch - processPackages [file-chunk-iterators]: Downloading https://files.pythonhosted.org/packages/55/14/aae9ca62f3333f3e826bca55e4d226cde5e50fc4752be69a113680e0f7de/file_chunk_iterators-0.0.1.tar.gz
+[2023-06-21 12:58:40] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c2/1e/dbffa6c53d9e41702c8fde80c8c07abb784fd5569f7b0d0db684f9078f3a/localstack-core-2.1.1.dev20230621093345.tar.gz
+[2023-06-21 12:58:40] INFO root fetch - processPackages [h2o-client]: Downloading https://files.pythonhosted.org/packages/2f/0f/0117d87c5716ceebae9b992174e81c3fba2d7ca70dfb8b06075fcc2c0d24/h2o_client-3.40.0.4-py2.py3-none-any.whl
+[2023-06-21 12:58:40] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/c8/8c/0f6049cfe62c7345061ebc4bc204d5b43328f61a0dea4dba781a9cb6d23c/ccxt-3.1.8.tar.gz
+[2023-06-21 12:58:40] INFO root fetch - processPackages [sum-dirac-dfcoef]: Downloading https://files.pythonhosted.org/packages/0b/d5/58be02f8a11856fa550961dd26c723869f0e3e45adc35d4a71754a95c0f7/sum_dirac_dfcoef-0.0.1.tar.gz
+[2023-06-21 12:58:40] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/62/81/7b2fe721d28e899f1951a934ab4a45d84f919997bc011175c1e90ab0ccd4/nucliadb_node_binding-0.7.6.tar.gz
+[2023-06-21 12:58:40] INFO root fetch - processPackages [AMAS-sb]: Downloading https://files.pythonhosted.org/packages/e4/8c/95e47c8830f2b7778965b5dbaca9b52b3c3bab73c138ca17b50074f6a891/AMAS-sb-0.3.1.tar.gz
+[2023-06-21 12:58:41] WARNING root fetch - processPackages [AMAS-sb]: Skipping package: exceeds size limit 23188220>=10485760
+[2023-06-21 12:58:41] INFO root fetch - processPackages [AMAS-sb]: Start processing: ds-caselaw-marklogic-api-client
+[2023-06-21 12:58:41] INFO root fetch - main [MainThread]: End processing [AMAS-sb] error
+[2023-06-21 12:58:41] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Downloading https://files.pythonhosted.org/packages/13/dd/3379957881bedbdddaf0d4cf27897ca08f6b1d039d3f0356e963014cb384/lusid-notification-sdk-preview-0.1.748.post4.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/4d/77/46c35426fa8b7a597c552b312795fb6d09a72c2558384b28701a3769c2e6/fastf1-3.0.6-py3-none-any.whl
+[2023-06-21 12:58:41] INFO root fetch - processPackages [openmetadata-ingestion]: Downloading https://files.pythonhosted.org/packages/b0/f3/9b85e24bb280579ac1fc8bdc86957badce7fb62996643a7fcf7cb16dc8ba/openmetadata-ingestion-1.0.5.0.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: New version: [9.0.0] Old Version: [8.0.0]
+[2023-06-21 12:58:41] INFO root fetch - processPackages [sum-dirac-dfcoef]: Downloading https://files.pythonhosted.org/packages/34/7d/e2a68e00572ead5eb336dae520104b2d94c18ff2721b21414c6ad0bca77a/sum_dirac_dfcoef-0.0.2.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [file-chunk-iterators]: Downloading https://files.pythonhosted.org/packages/6a/64/a297cb937f7f3b75c7fe6bcbf12ea48811618fae4b25e1384aaf1ee1dcc0/file_chunk_iterators-0.0.3.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [h2o-client]: Downloading https://files.pythonhosted.org/packages/00/93/e9eabe57c2df1505f7d49e91abe65706a641bc709f01eed1a8094fb1899e/h2o_client-3.42.0.1-py2.py3-none-any.whl
+[2023-06-21 12:58:41] INFO root fetch - processPackages [fastf1]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [fastf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastf1-3.0.5.tar.gz tmp/fastf1-3.0.6-py3-none-any.whl.zip --markdown 20230621/f/fastf1/3.0.5-3.0.6/diff.md --exclude *.pyd
+[2023-06-21 12:58:41] INFO root fetch - processPackages [openmetadata-ingestion]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/c1/7e/184154dfc89e91d89a6e6e9ad41bc64b427d1f97aefdfe8b83f3c74c8a96/localstack-core-2.1.1.dev20230621105507.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [openmetadata-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmetadata-ingestion-1.0.4.4.tar.gz tmp/openmetadata-ingestion-1.0.5.0.tar.gz --markdown 20230621/o/openmetadata-ingestion/1.0.4.4-1.0.5.0/diff.md --exclude *.pyd
+[2023-06-21 12:58:41] INFO root fetch - processPackages [lusid-notification-sdk-preview]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [lusid-notification-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notification-sdk-preview-0.1.748.post3.tar.gz tmp/lusid-notification-sdk-preview-0.1.748.post4.tar.gz --markdown 20230621/l/lusid-notification-sdk-preview/0.1.748.post3-0.1.748.post4/diff.md --exclude *.pyd
+[2023-06-21 12:58:41] INFO root fetch - processPackages [nucliadb-node-binding]: Downloading https://files.pythonhosted.org/packages/42/b9/74acb4ddf52cf2281c0e728ce66a9e3a0bc548282274b1717e4d4661fae5/nucliadb_node_binding-0.7.7.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [sum-dirac-dfcoef]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [sum-dirac-dfcoef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sum_dirac_dfcoef-0.0.1.tar.gz tmp/sum_dirac_dfcoef-0.0.2.tar.gz --markdown 20230621/s/sum-dirac-dfcoef/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 12:58:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/5b/8a/0481fc7e5ba3e035cc1653d98c2f46ecd48b306fc79b995ec6af7e7b0f5d/ds_caselaw_marklogic_api_client-8.0.0.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [file-chunk-iterators]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [file-chunk-iterators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/file_chunk_iterators-0.0.1.tar.gz tmp/file_chunk_iterators-0.0.3.tar.gz --markdown 20230621/f/file-chunk-iterators/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 12:58:41] INFO root fetch - processPackages [ccxt]: Downloading https://files.pythonhosted.org/packages/da/20/697a7c246ccda48f1db7fabcef3d2ae5b059eb38ab11d028ed79393e0d46/ccxt-3.1.9.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [h2o-client]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [h2o-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h2o_client-3.40.0.4-py2.py3-none-any.whl.zip tmp/h2o_client-3.42.0.1-py2.py3-none-any.whl.zip --markdown 20230621/h/h2o-client/3.40.0.4-3.42.0.1/diff.md --exclude *.pyd
+[2023-06-21 12:58:41] INFO root fetch - processPackages [nucliadb-node-binding]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [nucliadb-node-binding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_node_binding-0.7.6.tar.gz tmp/nucliadb_node_binding-0.7.7.tar.gz --markdown 20230621/n/nucliadb-node-binding/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-21 12:58:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Downloading https://files.pythonhosted.org/packages/3c/df/fedd765da0968ca3e553992d6546069c8c5f4dab1b3aa406246988c77909/ds_caselaw_marklogic_api_client-9.0.0.tar.gz
+[2023-06-21 12:58:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz --markdown 20230621/d/ds-caselaw-marklogic-api-client/8.0.0-9.0.0/diff.md --exclude *.pyd
+[2023-06-21 12:58:41] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-21 12:58:41] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230621093345.tar.gz tmp/localstack-core-2.1.1.dev20230621105507.tar.gz --markdown 20230621/l/localstack-core/2.1.1.dev20230621093345-2.1.1.dev20230621105507/diff.md --exclude *.pyd
+[2023-06-21 12:58:42] INFO root fetch - processPackages [ccxt]: executing diffoscope
+[2023-06-21 12:58:42] INFO root fetch - processPackages [ccxt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccxt-3.1.8.tar.gz tmp/ccxt-3.1.9.tar.gz --markdown 20230621/c/ccxt/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-06-21 12:58:42] INFO root fetch - processPackages [file-chunk-iterators]: Remove: archive file [/home/abi/fetcher/tmp/file_chunk_iterators-0.0.1.tar.gz]
+[2023-06-21 12:58:42] INFO root fetch - processPackages [file-chunk-iterators]: Remove: archive file [/home/abi/fetcher/tmp/file_chunk_iterators-0.0.3.tar.gz]
+[2023-06-21 12:58:42] INFO root fetch - processPackages [file-chunk-iterators]: Start processing: ailingbot
+[2023-06-21 12:58:42] INFO root fetch - main [MainThread]: End processing [file-chunk-iterators]: success
+[2023-06-21 12:58:43] INFO root fetch - processPackages [sum-dirac-dfcoef]: Remove: archive file [/home/abi/fetcher/tmp/sum_dirac_dfcoef-0.0.1.tar.gz]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [sum-dirac-dfcoef]: Remove: archive file [/home/abi/fetcher/tmp/sum_dirac_dfcoef-0.0.2.tar.gz]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [sum-dirac-dfcoef]: Start processing: th2-grpc-lw-data-provider
+[2023-06-21 12:58:43] INFO root fetch - main [MainThread]: End processing [sum-dirac-dfcoef]: success
+[2023-06-21 12:58:43] INFO root fetch - processPackages [ailingbot]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5332826731]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/92/2b/768b65577d9587e2dfbe821b5ad77293324cbf00a0ce4994dc9b26c74f53/ailingbot-0.0.1.tar.gz
+[2023-06-21 12:58:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/81/a0/0715a4b038fa955dd3a69538a796972c222c95f8c7271ea1385f1ddceddc/th2_grpc_lw_data_provider-2.0.0.dev5332826731.tar.gz
+[2023-06-21 12:58:43] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-8.0.0.tar.gz]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ds_caselaw_marklogic_api_client-9.0.0.tar.gz]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [ds-caselaw-marklogic-api-client]: Start processing: task-timer-birdhouses
+[2023-06-21 12:58:43] INFO root fetch - main [MainThread]: End processing [ds-caselaw-marklogic-api-client]: success
+[2023-06-21 12:58:43] INFO root fetch - processPackages [task-timer-birdhouses]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [task-timer-birdhouses]: Downloading https://files.pythonhosted.org/packages/31/4c/2259081d97d152346bc6c922a996af17a7d0d8236e4d9f64e2f16ef7f35c/task_timer_birdhouses-0.0.4.tar.gz
+[2023-06-21 12:58:43] INFO root fetch - processPackages [ailingbot]: Downloading https://files.pythonhosted.org/packages/db/fc/767e0a44b776c609268a419bffb97eabfc21ad3d22081df45922634f3d40/ailingbot-0.0.2.tar.gz
+[2023-06-21 12:58:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-21 12:58:43] INFO root fetch - processPackages [task-timer-birdhouses]: Downloading https://files.pythonhosted.org/packages/66/b9/74681e20cda210fc25f91c3a4043780356cb8669582d5a00800e5369eba9/task_timer_birdhouses-0.0.5.tar.gz
+[2023-06-21 12:58:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-21 12:58:43] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5332826731.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230621/t/th2-grpc-lw-data-provider/2.0.0.dev5332826731-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-21 12:58:43] INFO root fetch - processPackages [ailingbot]: executing diffoscope
+[2023-06-21 12:58:43] INFO root fetch - processPackages [ailingbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ailingbot-0.0.1.tar.gz tmp/ailingbot-0.0.2.tar.gz --markdown 20230621/a/ailingbot/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 12:58:43] INFO root fetch - processPackages [task-timer-birdhouses]: executing diffoscope
+[2023-06-21 12:58:43] INFO root fetch - processPackages [task-timer-birdhouses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/task_timer_birdhouses-0.0.4.tar.gz tmp/task_timer_birdhouses-0.0.5.tar.gz --markdown 20230621/t/task-timer-birdhouses/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 12:58:43] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.0.5.tar.gz]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.0.6-py3-none-any.whl.zip]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [fastf1]: Start processing: preprocessing-pgp
+[2023-06-21 12:58:43] INFO root fetch - main [MainThread]: End processing [fastf1]: success
+[2023-06-21 12:58:43] INFO root fetch - processPackages [preprocessing-pgp]: New version: [0.2.9.post9.dev8] Old Version: [0.2.9.post9.dev7]
+[2023-06-21 12:58:43] INFO root fetch - processPackages [preprocessing-pgp]: Downloading https://files.pythonhosted.org/packages/3b/ff/280ddfc30db341960587617aede0239f03d7380c369e1410cf3fc31d07bf/preprocessing-pgp-0.2.9.post9.dev7.tar.gz
+[2023-06-21 12:58:44] WARNING root fetch - processPackages [preprocessing-pgp]: Skipping package: exceeds size limit 78857974>=10485760
+[2023-06-21 12:58:44] INFO root fetch - processPackages [preprocessing-pgp]: Start processing: bondzai.gateway
+[2023-06-21 12:58:44] INFO root fetch - main [MainThread]: End processing [preprocessing-pgp] error
+[2023-06-21 12:58:44] WARNING root fetch - processPackages [bondzai.gateway]: Skipping, unable to determine old version
+[2023-06-21 12:58:44] INFO root fetch - processPackages [bondzai.gateway]: Start processing: aos-prov
+[2023-06-21 12:58:44] INFO root fetch - main [MainThread]: End processing [bondzai.gateway] error
+[2023-06-21 12:58:44] INFO root fetch - processPackages [aos-prov]: New version: [4.2.0b2] Old Version: [4.2.0b1]
+[2023-06-21 12:58:44] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/4b/41/9592e5f3bb38786b958fad1cc317a55c3104065a78e2c6d1782aa700a9cb/aos_prov-4.2.0b1-py3-none-any.whl
+[2023-06-21 12:58:44] INFO root fetch - processPackages [aos-prov]: Downloading https://files.pythonhosted.org/packages/2e/b4/ae47f12aa204c5212ffd3ddb19491b49594e284fc411e1d9cb2a8851a56e/aos_prov-4.2.0b2-py3-none-any.whl
+[2023-06-21 12:58:44] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.748.post3.tar.gz]
+[2023-06-21 12:58:44] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notification-sdk-preview-0.1.748.post4.tar.gz]
+[2023-06-21 12:58:44] INFO root fetch - processPackages [lusid-notification-sdk-preview]: Start processing: social-blade-scraper
+[2023-06-21 12:58:44] INFO root fetch - main [MainThread]: End processing [lusid-notification-sdk-preview]: success
+[2023-06-21 12:58:44] INFO root fetch - processPackages [aos-prov]: executing diffoscope
+[2023-06-21 12:58:44] INFO root fetch - processPackages [aos-prov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aos_prov-4.2.0b1-py3-none-any.whl.zip tmp/aos_prov-4.2.0b2-py3-none-any.whl.zip --markdown 20230621/a/aos-prov/4.2.0b1-4.2.0b2/diff.md --exclude *.pyd
+[2023-06-21 12:58:45] INFO root fetch - processPackages [social-blade-scraper]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 12:58:45] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/4a/a2/684fe35edaac5dd9c594a8ee751ea3498f99ccbc9e19d2aa06f1a4ef3c8f/social-blade-scraper-0.0.8.tar.gz
+[2023-06-21 12:58:45] INFO root fetch - processPackages [task-timer-birdhouses]: Remove: archive file [/home/abi/fetcher/tmp/task_timer_birdhouses-0.0.4.tar.gz]
+[2023-06-21 12:58:45] INFO root fetch - processPackages [task-timer-birdhouses]: Remove: archive file [/home/abi/fetcher/tmp/task_timer_birdhouses-0.0.5.tar.gz]
+[2023-06-21 12:58:45] INFO root fetch - main [MainThread]: End processing [task-timer-birdhouses]: success
+[2023-06-21 12:58:45] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/16/01/ec25ec34da772dba8599fa23782ad25d2b2af7a94b17b285b1f4ccd954d9/social-blade-scraper-0.0.9.tar.gz
+[2023-06-21 12:58:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5332826731.tar.gz]
+[2023-06-21 12:58:45] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-21 12:58:45] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-21 12:58:45] INFO root fetch - processPackages [social-blade-scraper]: executing diffoscope
+[2023-06-21 12:58:45] INFO root fetch - processPackages [social-blade-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social-blade-scraper-0.0.8.tar.gz tmp/social-blade-scraper-0.0.9.tar.gz --markdown 20230621/s/social-blade-scraper/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 12:58:45] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.1.tar.gz]
+[2023-06-21 12:58:45] INFO root fetch - processPackages [ailingbot]: Remove: archive file [/home/abi/fetcher/tmp/ailingbot-0.0.2.tar.gz]
+[2023-06-21 12:58:45] INFO root fetch - main [MainThread]: End processing [ailingbot]: success
+[2023-06-21 12:58:45] INFO root fetch - processPackages [h2o-client]: Remove: archive file [/home/abi/fetcher/tmp/h2o_client-3.40.0.4-py2.py3-none-any.whl.zip]
+[2023-06-21 12:58:45] INFO root fetch - processPackages [h2o-client]: Remove: archive file [/home/abi/fetcher/tmp/h2o_client-3.42.0.1-py2.py3-none-any.whl.zip]
+[2023-06-21 12:58:45] INFO root fetch - main [MainThread]: End processing [h2o-client]: success
+[2023-06-21 12:58:46] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-0.7.6.tar.gz]
+[2023-06-21 12:58:46] INFO root fetch - processPackages [nucliadb-node-binding]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_node_binding-0.7.7.tar.gz]
+[2023-06-21 12:58:46] INFO root fetch - main [MainThread]: End processing [nucliadb-node-binding]: success
+[2023-06-21 12:58:46] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.2.0b1-py3-none-any.whl.zip]
+[2023-06-21 12:58:46] INFO root fetch - processPackages [aos-prov]: Remove: archive file [/home/abi/fetcher/tmp/aos_prov-4.2.0b2-py3-none-any.whl.zip]
+[2023-06-21 12:58:46] INFO root fetch - main [MainThread]: End processing [aos-prov]: success
+[2023-06-21 12:58:46] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.0.8.tar.gz]
+[2023-06-21 12:58:46] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.0.9.tar.gz]
+[2023-06-21 12:58:46] INFO root fetch - main [MainThread]: End processing [social-blade-scraper]: success
+[2023-06-21 12:58:50] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230621093345.tar.gz]
+[2023-06-21 12:58:50] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230621105507.tar.gz]
+[2023-06-21 12:58:50] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-21 12:58:51] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.8.tar.gz]
+[2023-06-21 12:58:51] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-3.1.9.tar.gz]
+[2023-06-21 12:58:51] INFO root fetch - main [MainThread]: End processing [ccxt]: success
+[2023-06-21 12:59:00] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.4.4.tar.gz]
+[2023-06-21 12:59:00] INFO root fetch - processPackages [openmetadata-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/openmetadata-ingestion-1.0.5.0.tar.gz]
+[2023-06-21 12:59:00] INFO root fetch - main [MainThread]: End processing [openmetadata-ingestion]: success
+[2023-06-21 12:59:00] INFO root fetch - main [MainThread]: Store serial: [18589058]
