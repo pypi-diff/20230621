@@ -11453,3 +11453,88 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 05:51:40] INFO root fetch - processPackages [ruff]: Remove: archive file [/home/abi/fetcher/tmp/ruff-0.0.99.tar.gz]
 [2023-06-21 05:51:40] INFO root fetch - main [MainThread]: End processing [ruff]: success
 [2023-06-21 05:51:40] INFO root fetch - main [MainThread]: Store serial: [18584982]
+[2023-06-21 05:56:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584982]
+[2023-06-21 05:56:51] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-l10n-it-delivery-note
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Telexy.MARS
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: uniem
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nestedaccess
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: video-process
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sagemaker
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weni-rp-apps
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tdf-tool
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: litenai
+[2023-06-21 05:56:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: WIDscript
+[2023-06-21 05:56:51] INFO root fetch - processPackages [nestedaccess]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-21 05:56:51] INFO root fetch - processPackages [uniem]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-21 05:56:51] INFO root fetch - processPackages [weni-rp-apps]: New version: [2.6.0] Old Version: [2.5.0a5]
+[2023-06-21 05:56:51] WARNING root fetch - processPackages [video-process]: Skipping, unable to determine old version
+[2023-06-21 05:56:51] INFO root fetch - processPackages [video-process]: Start processing: fastel
+[2023-06-21 05:56:51] INFO root fetch - main [MainThread]: End processing [video-process] error
+[2023-06-21 05:56:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: New version: [16.0.1.0.3.2] Old Version: [16.0.1.0.3.1]
+[2023-06-21 05:56:51] WARNING root fetch - processPackages [tdf-tool]: Skipping, unable to determine old version
+[2023-06-21 05:56:51] INFO root fetch - main [MainThread]: End processing [tdf-tool] error
+[2023-06-21 05:56:51] INFO root fetch - processPackages [litenai]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 05:56:51] INFO root fetch - processPackages [Telexy.MARS]: New version: [1.23.628] Old Version: [1.23.626]
+[2023-06-21 05:56:51] INFO root fetch - processPackages [WIDscript]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-21 05:56:51] INFO root fetch - processPackages [fastel]: New version: [2.7.9] Old Version: [2.7.8]
+[2023-06-21 05:56:51] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-06-21 05:56:51] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/68/51/1748941a92fd108b27d60e29ab2655b30948bd270ea1bfb65b140ea2c000/weni_rp_apps-2.5.0a5.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/45/ef/c73f91a05c1c85c7a1b48c4a717ba72ee4bfcf99d7ad1df3190110000f11/Telexy.MARS-1.23.626.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/02/40/506f0c37f4b1e03fe2cd0b3f3992feeec0db1765d06d509d6f5d72ea89d7/nestedaccess-0.2.5.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/fb/33/01146d213c7ee9f973d302dfa19e815973dbcb52442c12e78591cbd9cb65/uniem-0.2.2.tar.gz
+[2023-06-21 05:56:51] ERROR root fetch - processPackages [WIDscript]: Unable to fetch info: No such project/version 'WIDscript' 1.0.7
+[2023-06-21 05:56:51] INFO root fetch - main [MainThread]: End processing [WIDscript] error
+[2023-06-21 05:56:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/0e/76/b7ffd4fc30732df3e823643ed53f440321ee3a232c44239c89624b3a7594/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.1-py3-none-any.whl
+[2023-06-21 05:56:51] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/25/6c/536c61f2d17a22c2f84acc8d5b4aea42cebd47b2c935d6da4b5f69926c6f/litenai-0.0.1-py3-none-any.whl
+[2023-06-21 05:56:51] INFO root fetch - processPackages [fastel]: Downloading https://files.pythonhosted.org/packages/d4/7c/0ac3553271018540f34e1c23fe0d5f1dd1c745d8eceb8354f57ba65bab50/fastel-2.7.8.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [weni-rp-apps]: Downloading https://files.pythonhosted.org/packages/f9/a7/9fa70ea69b64cf62f19bb30dfc655f4dd4b13d8c102a6cba023476f50799/weni_rp_apps-2.6.0.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/06/e8/f1efbd2edcf4627240d0bf6078b00e54d826d533ee9f26d3598f408c6e8b/Telexy.MARS-1.23.628.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [weni-rp-apps]: executing diffoscope
+[2023-06-21 05:56:51] INFO root fetch - processPackages [weni-rp-apps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weni_rp_apps-2.5.0a5.tar.gz tmp/weni_rp_apps-2.6.0.tar.gz --markdown 20230621/w/weni-rp-apps/2.5.0a5-2.6.0/diff.md --exclude *.pyd
+[2023-06-21 05:56:51] INFO root fetch - processPackages [Telexy.MARS]: executing diffoscope
+[2023-06-21 05:56:51] INFO root fetch - processPackages [Telexy.MARS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telexy.MARS-1.23.626.tar.gz tmp/Telexy.MARS-1.23.628.tar.gz --markdown 20230621/T/Telexy.MARS/1.23.626-1.23.628/diff.md --exclude *.pyd
+[2023-06-21 05:56:51] INFO root fetch - processPackages [uniem]: Downloading https://files.pythonhosted.org/packages/b5/3d/12963d7826188aeb1e8446f3d58e54b4c87052933e783a2e30ed86efa184/uniem-0.2.3.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/3f/b5/41f7222e99d26fb8cb165bc5b801a308ad89b4bb5db1239ab19e0f5db5b6/nestedaccess-0.2.6.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/60/44/a9f0c44ed46a685a7e3947425d9d2c6a64e34f32979bde63c1b4b3788229/litenai-0.0.2-py3-none-any.whl
+[2023-06-21 05:56:51] INFO root fetch - processPackages [uniem]: executing diffoscope
+[2023-06-21 05:56:51] INFO root fetch - processPackages [uniem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uniem-0.2.2.tar.gz tmp/uniem-0.2.3.tar.gz --markdown 20230621/u/uniem/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-21 05:56:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Downloading https://files.pythonhosted.org/packages/21/e5/142a2723420116b5903871abcd3138d6894657faa9140cc43caea42005cc/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.2-py3-none-any.whl
+[2023-06-21 05:56:51] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 05:56:51] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.2.5.tar.gz tmp/nestedaccess-0.2.6.tar.gz --markdown 20230621/n/nestedaccess/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-21 05:56:51] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-06-21 05:56:51] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.1-py3-none-any.whl.zip tmp/litenai-0.0.2-py3-none-any.whl.zip --markdown 20230621/l/litenai/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 05:56:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: executing diffoscope
+[2023-06-21 05:56:51] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.2-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-l10n-it-delivery-note/16.0.1.0.3.1-16.0.1.0.3.2/diff.md --exclude *.pyd
+[2023-06-21 05:56:51] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2023-06-21 05:56:51] INFO root fetch - processPackages [fastel]: Downloading https://files.pythonhosted.org/packages/9c/ee/07f1d2a50223ed3acf40b6c4fe9e9cf7cddc2cc50050109b66f2104c8dec/fastel-2.7.9.tar.gz
+[2023-06-21 05:56:52] INFO root fetch - processPackages [fastel]: executing diffoscope
+[2023-06-21 05:56:52] INFO root fetch - processPackages [fastel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastel-2.7.8.tar.gz tmp/fastel-2.7.9.tar.gz --markdown 20230621/f/fastel/2.7.8-2.7.9/diff.md --exclude *.pyd
+[2023-06-21 05:56:52] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2023-06-21 05:56:52] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20230621/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-06-21 05:56:53] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.626.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.628.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - main [MainThread]: End processing [Telexy.MARS]: success
+[2023-06-21 05:56:53] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.1-py3-none-any.whl.zip]
+[2023-06-21 05:56:53] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.2-py3-none-any.whl.zip]
+[2023-06-21 05:56:53] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-06-21 05:56:53] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.5.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.6.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 05:56:53] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.1-py3-none-any.whl.zip]
+[2023-06-21 05:56:53] INFO root fetch - processPackages [odoo-addon-l10n-it-delivery-note]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_it_delivery_note-16.0.1.0.3.2-py3-none-any.whl.zip]
+[2023-06-21 05:56:53] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-it-delivery-note]: success
+[2023-06-21 05:56:53] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.2.2.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - processPackages [uniem]: Remove: archive file [/home/abi/fetcher/tmp/uniem-0.2.3.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - main [MainThread]: End processing [uniem]: success
+[2023-06-21 05:56:53] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.5.0a5.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - processPackages [weni-rp-apps]: Remove: archive file [/home/abi/fetcher/tmp/weni_rp_apps-2.6.0.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - main [MainThread]: End processing [weni-rp-apps]: success
+[2023-06-21 05:56:53] INFO root fetch - processPackages [fastel]: Remove: archive file [/home/abi/fetcher/tmp/fastel-2.7.8.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - processPackages [fastel]: Remove: archive file [/home/abi/fetcher/tmp/fastel-2.7.9.tar.gz]
+[2023-06-21 05:56:53] INFO root fetch - main [MainThread]: End processing [fastel]: success
+[2023-06-21 05:56:56] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.98.0.tar.gz]
+[2023-06-21 05:56:56] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
+[2023-06-21 05:56:56] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2023-06-21 05:56:56] INFO root fetch - main [MainThread]: Store serial: [18585018]
