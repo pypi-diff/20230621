@@ -16470,3 +16470,93 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 10:15:10] INFO root fetch - processPackages [acconeer-exptool]: Remove: archive file [/home/abi/fetcher/tmp/acconeer-exptool-7.1.0.tar.gz]
 [2023-06-21 10:15:10] INFO root fetch - main [MainThread]: End processing [acconeer-exptool]: success
 [2023-06-21 10:15:10] INFO root fetch - main [MainThread]: Store serial: [18587075]
+[2023-06-21 10:20:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18587075]
+[2023-06-21 10:20:19] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: docarray
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-sky
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cameralyze
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyko-sdk
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spark-sdk
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastweixin
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indi-pylibcamera
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: khoj-assistant
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-handle
+[2023-06-21 10:20:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jms-storage
+[2023-06-21 10:20:20] WARNING root fetch - processPackages [hyko-sdk]: Skipping, unable to determine old version
+[2023-06-21 10:20:20] INFO root fetch - processPackages [hyko-sdk]: Start processing: capytaine
+[2023-06-21 10:20:20] INFO root fetch - main [MainThread]: End processing [hyko-sdk] error
+[2023-06-21 10:20:20] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev79] Old Version: [0.6.3.dev78]
+[2023-06-21 10:20:20] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-21 10:20:20] WARNING root fetch - processPackages [indi-pylibcamera]: Skipping, unable to determine old version
+[2023-06-21 10:20:20] INFO root fetch - main [MainThread]: End processing [indi-pylibcamera] error
+[2023-06-21 10:20:20] INFO root fetch - processPackages [spark-sdk]: New version: [0.4.9] Old Version: [0.4.22rc0]
+[2023-06-21 10:20:20] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [jms-storage]: New version: [0.0.9] Old Version: [0.0.47]
+[2023-06-21 10:20:20] INFO root fetch - processPackages [nonebot-plugin-sky]: New version: [2.2.9.post1] Old Version: [2.2.9]
+[2023-06-21 10:20:20] INFO root fetch - processPackages [nonebot-plugin-handle]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-21 10:20:20] INFO root fetch - processPackages [fastweixin]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-21 10:20:20] INFO root fetch - processPackages [cameralyze]: New version: [1.4.8] Old Version: [1.4.7]
+[2023-06-21 10:20:20] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/3d/51/fc3aab1e617e9bd9182b3effc4ae7fa37b92532b0dca1fccd00a82437913/khoj_assistant-0.6.3.dev78.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [capytaine]: New version: [2.0] Old Version: [1.5.post1]
+[2023-06-21 10:20:20] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/d6/bd/2d8a0715db741621a1ce94899a495f64687879feb80b0c54f8cf9abfed14/spark_sdk-0.4.22rc0-py3-none-any.whl
+[2023-06-21 10:20:20] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/0a/38/956439f5ca5fbf2168f12ef4468b107f5c15eb97a1b534291e2f5f7d7d26/jms-storage-0.0.47.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [fastweixin]: Downloading https://files.pythonhosted.org/packages/f2/57/5f94871496417f54e913b583fc731d7db42a4b9df6837c6637180153b3a7/fastweixin-0.0.5.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [nonebot-plugin-sky]: Downloading https://files.pythonhosted.org/packages/a2/c4/c8bd8866838ff6cd531b7c7875a10692087ad5ce3d7753669e38537cab65/nonebot-plugin-sky-2.2.9.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/df/7a/59fcfcc09191a3cab4029f00eadf18fabc755c452eadfd46801374b7cce7/khoj_assistant-0.6.3.dev79.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [cameralyze]: Downloading https://files.pythonhosted.org/packages/06/06/0013ca7af27dd8788d4b69ce7ac5df20302b8368b3cfca7ebfd0b0647f63/cameralyze-1.4.7.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [nonebot-plugin-handle]: Downloading https://files.pythonhosted.org/packages/d2/fd/85099ea08e59b5876b42dd7f660f8b93141c60892bde40d0c5b27d135cf7/nonebot_plugin_handle-0.2.0.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [capytaine]: Downloading https://files.pythonhosted.org/packages/03/dc/aebf8c706198dfa7418433457dc9a786dae960a78a557ba091efe6f3405c/capytaine-1.5.post1.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-21 10:20:20] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev78.tar.gz tmp/khoj_assistant-0.6.3.dev79.tar.gz --markdown 20230621/k/khoj-assistant/0.6.3.dev78-0.6.3.dev79/diff.md --exclude *.pyd
+[2023-06-21 10:20:20] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-21 10:20:20] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230621/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-21 10:20:20] INFO root fetch - processPackages [cameralyze]: Downloading https://files.pythonhosted.org/packages/d2/9b/f2b2e897d0d62d3b4b93130287fb5d2b749f9882b1ca88878007936d8671/cameralyze-1.4.8.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [fastweixin]: Downloading https://files.pythonhosted.org/packages/1c/b1/ab53bf201796841c164762cf11f3d9746dc0d4672bff748eb2a347bf8f35/fastweixin-0.0.6.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [jms-storage]: Downloading https://files.pythonhosted.org/packages/e5/fe/4fc0396d4a55b575307fcabe6631c50a2563cb2d9bd4af2ca7414c1dd1af/jms-storage-0.0.9.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [capytaine]: Downloading https://files.pythonhosted.org/packages/54/5c/5661079533cf406e42b595b3023ffca7a5e14c0fd80332fe6ceeaf7367c6/capytaine-2.0.tar.gz
+[2023-06-21 10:20:20] INFO root fetch - processPackages [spark-sdk]: Downloading https://files.pythonhosted.org/packages/78/ef/a94fc9e735951687c8ae5c09971b47a197f864afe848bd3c4ada1591b88a/spark_sdk-0.4.9-py3-none-any.whl
+[2023-06-21 10:20:20] INFO root fetch - processPackages [cameralyze]: executing diffoscope
+[2023-06-21 10:20:20] INFO root fetch - processPackages [cameralyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cameralyze-1.4.7.tar.gz tmp/cameralyze-1.4.8.tar.gz --markdown 20230621/c/cameralyze/1.4.7-1.4.8/diff.md --exclude *.pyd
+[2023-06-21 10:20:20] INFO root fetch - processPackages [jms-storage]: executing diffoscope
+[2023-06-21 10:20:20] INFO root fetch - processPackages [fastweixin]: executing diffoscope
+[2023-06-21 10:20:20] INFO root fetch - processPackages [jms-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jms-storage-0.0.47.tar.gz tmp/jms-storage-0.0.9.tar.gz --markdown 20230621/j/jms-storage/0.0.47-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 10:20:20] INFO root fetch - processPackages [fastweixin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastweixin-0.0.5.tar.gz tmp/fastweixin-0.0.6.tar.gz --markdown 20230621/f/fastweixin/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-21 10:20:21] INFO root fetch - processPackages [capytaine]: executing diffoscope
+[2023-06-21 10:20:21] INFO root fetch - processPackages [capytaine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capytaine-1.5.post1.tar.gz tmp/capytaine-2.0.tar.gz --markdown 20230621/c/capytaine/1.5.post1-2.0/diff.md --exclude *.pyd
+[2023-06-21 10:20:21] INFO root fetch - processPackages [nonebot-plugin-sky]: Downloading https://files.pythonhosted.org/packages/f2/09/52a7fd843dfcee3bc994606a6d94baf85d1921205fd8d0c5408c37f6d104/nonebot-plugin-sky-2.2.9.post1.tar.gz
+[2023-06-21 10:20:21] INFO root fetch - processPackages [nonebot-plugin-sky]: executing diffoscope
+[2023-06-21 10:20:21] INFO root fetch - processPackages [nonebot-plugin-sky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sky-2.2.9.tar.gz tmp/nonebot-plugin-sky-2.2.9.post1.tar.gz --markdown 20230621/n/nonebot-plugin-sky/2.2.9-2.2.9.post1/diff.md --exclude *.pyd
+[2023-06-21 10:20:21] INFO root fetch - processPackages [spark-sdk]: executing diffoscope
+[2023-06-21 10:20:21] INFO root fetch - processPackages [spark-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spark_sdk-0.4.22rc0-py3-none-any.whl.zip tmp/spark_sdk-0.4.9-py3-none-any.whl.zip --markdown 20230621/s/spark-sdk/0.4.22rc0-0.4.9/diff.md --exclude *.pyd
+[2023-06-21 10:20:21] INFO root fetch - processPackages [nonebot-plugin-handle]: Downloading https://files.pythonhosted.org/packages/30/ae/dae7375a7cba92aa26a30ec12a0ba102d056df3663fd9c9ed5e3d8138349/nonebot_plugin_handle-0.3.0.tar.gz
+[2023-06-21 10:20:22] INFO root fetch - processPackages [fastweixin]: Remove: archive file [/home/abi/fetcher/tmp/fastweixin-0.0.5.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - processPackages [fastweixin]: Remove: archive file [/home/abi/fetcher/tmp/fastweixin-0.0.6.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - main [MainThread]: End processing [fastweixin]: success
+[2023-06-21 10:20:22] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.47.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - processPackages [jms-storage]: Remove: archive file [/home/abi/fetcher/tmp/jms-storage-0.0.9.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - main [MainThread]: End processing [jms-storage]: success
+[2023-06-21 10:20:22] INFO root fetch - processPackages [cameralyze]: Remove: archive file [/home/abi/fetcher/tmp/cameralyze-1.4.7.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - processPackages [cameralyze]: Remove: archive file [/home/abi/fetcher/tmp/cameralyze-1.4.8.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - main [MainThread]: End processing [cameralyze]: success
+[2023-06-21 10:20:22] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev78.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev79.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-21 10:20:22] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.22rc0-py3-none-any.whl.zip]
+[2023-06-21 10:20:22] INFO root fetch - processPackages [spark-sdk]: Remove: archive file [/home/abi/fetcher/tmp/spark_sdk-0.4.9-py3-none-any.whl.zip]
+[2023-06-21 10:20:22] INFO root fetch - main [MainThread]: End processing [spark-sdk]: success
+[2023-06-21 10:20:22] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-21 10:20:22] INFO root fetch - processPackages [nonebot-plugin-sky]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sky-2.2.9.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - processPackages [nonebot-plugin-sky]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sky-2.2.9.post1.tar.gz]
+[2023-06-21 10:20:22] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sky]: success
+[2023-06-21 10:20:23] INFO root fetch - processPackages [nonebot-plugin-handle]: executing diffoscope
+[2023-06-21 10:20:23] INFO root fetch - processPackages [nonebot-plugin-handle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_handle-0.2.0.tar.gz tmp/nonebot_plugin_handle-0.3.0.tar.gz --markdown 20230621/n/nonebot-plugin-handle/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-21 10:20:24] INFO root fetch - processPackages [capytaine]: Remove: archive file [/home/abi/fetcher/tmp/capytaine-1.5.post1.tar.gz]
+[2023-06-21 10:20:24] INFO root fetch - processPackages [capytaine]: Remove: archive file [/home/abi/fetcher/tmp/capytaine-2.0.tar.gz]
+[2023-06-21 10:20:24] INFO root fetch - main [MainThread]: End processing [capytaine]: success
+[2023-06-21 10:20:25] INFO root fetch - processPackages [nonebot-plugin-handle]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_handle-0.2.0.tar.gz]
+[2023-06-21 10:20:25] INFO root fetch - processPackages [nonebot-plugin-handle]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_handle-0.3.0.tar.gz]
+[2023-06-21 10:20:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-handle]: success
+[2023-06-21 10:20:25] INFO root fetch - main [MainThread]: Store serial: [18587131]
