@@ -5033,3 +5033,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 02:47:33] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-21 02:47:33] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-21 02:47:33] INFO root fetch - main [MainThread]: Store serial: [18582599]
+[2023-06-21 02:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18582599]
+[2023-06-21 02:52:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: OpenGeode-IO
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jaraco.vcs
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micropython-hts221
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: reliableGPT
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Geode-Background
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modelbit
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pykeadhcp
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.ecs-codedeploy
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tfds-nightly
+[2023-06-21 02:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: orthanc-server-extensions
+[2023-06-21 02:52:44] WARNING root fetch - processPackages [micropython-hts221]: Skipping, unable to determine old version
+[2023-06-21 02:52:44] INFO root fetch - processPackages [micropython-hts221]: Start processing: turing-sdk
+[2023-06-21 02:52:44] INFO root fetch - main [MainThread]: End processing [micropython-hts221] error
+[2023-06-21 02:52:44] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [jaraco.vcs]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [Geode-Background]: New version: [7.2.2rc1] Old Version: [7.2.2]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [OpenGeode-IO]: New version: [6.0.8rc1] Old Version: [6.0.8]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [orthanc-server-extensions]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [pykeadhcp]: New version: [0.4.0a0] Old Version: [0.4.0]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [turing-sdk]: New version: [0.9.1] Old Version: [0.9.0rc1]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/5e/b3/6c88154c4b663638a5fa66c94c69999c8d9457f70237ea0b7721087ca49e/reliableGPT-0.1.9.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202306200044] Old Version: [4.9.2.dev202306190045]
+[2023-06-21 02:52:44] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/26/36/2ac15f8049170e515149e0b51fbf0316d875cdb2d73ecbc60270ff767a87/turing-sdk-0.9.0rc1.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/1e/23/cd7f1ea60c01a76bbc916d203826b8754956c2ba1cf22162661cc6758866/tfds-nightly-4.9.2.dev202306190045.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/db/5a/04d9526d1725290dfba756f2d5c16f338b6ad7a59ec985d9baf00997d0f4/Geode_Background-7.2.2-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-21 02:52:44] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/c6/34/cef791c667d067a7923df4169adb57934467590c903d5f58c9e5be5a7759/cdklabs.ecs-codedeploy-0.0.98.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/01/48/112d7ac55380970d36ca7ca25293bfc7c1dc76b355269e24ab991019d9c5/OpenGeode_IO-6.0.8-cp39-cp39-win_amd64.whl
+[2023-06-21 02:52:44] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/e4/a2/d4d4169673e904a5193a64e2b7396c3ca9ccc02f428052a1bf6c522dc19e/pykeadhcp-0.4.0.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [jaraco.vcs]: Downloading https://files.pythonhosted.org/packages/fc/12/21e8478447d329c6b8e71c73d6eceb78cd60135180c89b9ae6a114f5f609/jaraco.vcs-1.0.0.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [orthanc-server-extensions]: Downloading https://files.pythonhosted.org/packages/89/0a/d412df309ea2ff90bbbd17a18d9da2357944361ff4331fbeabd7ef1c26bf/orthanc-server-extensions-3.3.0.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Downloading https://files.pythonhosted.org/packages/32/d6/43cc31093e5335204bbb8629fe11154ff7ebd2508f020ee399403b503b2c/cdklabs.ecs-codedeploy-0.0.99.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230621/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-06-21 02:52:44] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/5a/e0/cbc2257b4dd8af8c204f49d03f5e060254b6767251d3f43d30d2345ce76a/Geode_Background-7.2.2rc1-cp39-cp39-win_amd64.whl
+[2023-06-21 02:52:44] INFO root fetch - processPackages [turing-sdk]: Downloading https://files.pythonhosted.org/packages/2d/ff/d3b618586eb0ac11d36e9027ecbd3201b2a991a6f9504008ee0f7cac19c0/turing-sdk-0.9.1.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/c6/97/09342dab6ad0c593777726ae90ed6866a8febe43f28bc30961507838afcf/reliableGPT-0.2.0.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz --markdown 20230621/c/cdklabs.ecs-codedeploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 02:52:44] INFO root fetch - processPackages [jaraco.vcs]: Downloading https://files.pythonhosted.org/packages/98/cc/69165ff280444ca2876cac7ebca1340689738ec2b59a7ea30db8fae63d4f/jaraco.vcs-1.1.0.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [turing-sdk]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [turing-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/turing-sdk-0.9.0rc1.tar.gz tmp/turing-sdk-0.9.1.tar.gz --markdown 20230621/t/turing-sdk/0.9.0rc1-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 02:52:44] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/f7/ea/d9f64d3803dd75c8fc2e5d9cb012ff395dd23fe8883fcd7cfafe18749527/tfds-nightly-4.9.2.dev202306200044.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [pykeadhcp]: Downloading https://files.pythonhosted.org/packages/33/97/ebb4d8fd9baff459258994fd6201af9852c988af4c6915b2e6289353f09d/pykeadhcp-0.4.0a0.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.1.9.tar.gz tmp/reliableGPT-0.2.0.tar.gz --markdown 20230621/r/reliableGPT/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 02:52:44] INFO root fetch - processPackages [jaraco.vcs]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [jaraco.vcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.vcs-1.0.0.tar.gz tmp/jaraco.vcs-1.1.0.tar.gz --markdown 20230621/j/jaraco.vcs/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 02:52:44] INFO root fetch - processPackages [pykeadhcp]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [pykeadhcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pykeadhcp-0.4.0.tar.gz tmp/pykeadhcp-0.4.0a0.tar.gz --markdown 20230621/p/pykeadhcp/0.4.0-0.4.0a0/diff.md --exclude *.pyd
+[2023-06-21 02:52:44] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.2.2-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/Geode_Background-7.2.2rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230621/G/Geode-Background/7.2.2-7.2.2rc1/diff.md --exclude *.pyd
+[2023-06-21 02:52:44] INFO root fetch - processPackages [OpenGeode-IO]: Downloading https://files.pythonhosted.org/packages/7e/7d/4a0d4c6cea7aa8aacb6c47d47c02c3bac7d3d4ad048e91a3b04ed2275e38/OpenGeode_IO-6.0.8rc1-cp39-cp39-win_amd64.whl
+[2023-06-21 02:52:44] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202306190045.tar.gz tmp/tfds-nightly-4.9.2.dev202306200044.tar.gz --markdown 20230621/t/tfds-nightly/4.9.2.dev202306190045-4.9.2.dev202306200044/diff.md --exclude *.pyd
+[2023-06-21 02:52:44] INFO root fetch - processPackages [orthanc-server-extensions]: Downloading https://files.pythonhosted.org/packages/f7/b2/60a9d674dc48cb9c71f51d7a3c8dba102870774359717f40c0ca79288dbd/orthanc-server-extensions-3.4.0.tar.gz
+[2023-06-21 02:52:44] INFO root fetch - processPackages [orthanc-server-extensions]: executing diffoscope
+[2023-06-21 02:52:44] INFO root fetch - processPackages [orthanc-server-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/orthanc-server-extensions-3.3.0.tar.gz tmp/orthanc-server-extensions-3.4.0.tar.gz --markdown 20230621/o/orthanc-server-extensions/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-06-21 02:52:45] INFO root fetch - processPackages [OpenGeode-IO]: executing diffoscope
+[2023-06-21 02:52:45] INFO root fetch - processPackages [OpenGeode-IO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OpenGeode_IO-6.0.8-cp39-cp39-win_amd64.whl.zip tmp/OpenGeode_IO-6.0.8rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230621/O/OpenGeode-IO/6.0.8-6.0.8rc1/diff.md --exclude *.pyd
+[2023-06-21 02:52:46] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-06-21 02:52:46] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.98.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - processPackages [cdklabs.ecs-codedeploy]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.ecs-codedeploy-0.0.99.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - main [MainThread]: End processing [cdklabs.ecs-codedeploy]: success
+[2023-06-21 02:52:46] INFO root fetch - processPackages [jaraco.vcs]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.vcs-1.0.0.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - processPackages [jaraco.vcs]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.vcs-1.1.0.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - main [MainThread]: End processing [jaraco.vcs]: success
+[2023-06-21 02:52:46] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.1.9.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.0.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-21 02:52:46] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.0rc1.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - processPackages [turing-sdk]: Remove: archive file [/home/abi/fetcher/tmp/turing-sdk-0.9.1.tar.gz]
+[2023-06-21 02:52:46] INFO root fetch - main [MainThread]: End processing [turing-sdk]: success
+[2023-06-21 02:52:47] INFO root fetch - processPackages [orthanc-server-extensions]: Remove: archive file [/home/abi/fetcher/tmp/orthanc-server-extensions-3.3.0.tar.gz]
+[2023-06-21 02:52:47] INFO root fetch - processPackages [orthanc-server-extensions]: Remove: archive file [/home/abi/fetcher/tmp/orthanc-server-extensions-3.4.0.tar.gz]
+[2023-06-21 02:52:47] INFO root fetch - main [MainThread]: End processing [orthanc-server-extensions]: success
+[2023-06-21 02:52:47] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.2.2-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-21 02:52:47] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.2.2rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 02:52:47] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-06-21 02:52:47] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.4.0.tar.gz]
+[2023-06-21 02:52:47] INFO root fetch - processPackages [pykeadhcp]: Remove: archive file [/home/abi/fetcher/tmp/pykeadhcp-0.4.0a0.tar.gz]
+[2023-06-21 02:52:47] INFO root fetch - main [MainThread]: End processing [pykeadhcp]: success
+[2023-06-21 02:52:52] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 02:52:52] INFO root fetch - processPackages [OpenGeode-IO]: Remove: archive file [/home/abi/fetcher/tmp/OpenGeode_IO-6.0.8rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 02:52:52] INFO root fetch - main [MainThread]: End processing [OpenGeode-IO]: success
+[2023-06-21 02:52:58] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306190045.tar.gz]
+[2023-06-21 02:52:58] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306200044.tar.gz]
+[2023-06-21 02:52:58] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-06-21 02:52:58] INFO root fetch - main [MainThread]: Store serial: [18582646]
