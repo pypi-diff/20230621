@@ -11724,3 +11724,133 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 06:07:22] INFO root fetch - processPackages [odoo13-addon-maintenance-plan]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_maintenance_plan-13.0.1.9.1.dev1-py3-none-any.whl.zip]
 [2023-06-21 06:07:22] INFO root fetch - main [MainThread]: End processing [odoo13-addon-maintenance-plan]: success
 [2023-06-21 06:07:22] INFO root fetch - main [MainThread]: Store serial: [18585087]
+[2023-06-21 06:12:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585087]
+[2023-06-21 06:12:31] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nestedaccess
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo11-addon-mgmtsystem-nonconformity
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-mgmtsystem-nonconformity
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yt-dlp
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-mgmtsystem-nonconformity
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-mgmtsystem-nonconformity
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: langport
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: img2tags
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo8-addon-quality-control
+[2023-06-21 06:12:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo9-addon-quality-control
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-nonconformity]: New version: [13.0.2.0.2.dev9] Old Version: [13.0.2.0.2.dev8]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [nestedaccess]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: New version: [11.0.1.1.2.99.dev9] Old Version: [11.0.1.1.2.99.dev81]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [langport]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [yt-dlp]: New version: [2023.6.21] Old Version: [2023.3.4]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: New version: [16.0.1.0.0.9] Old Version: [16.0.1.0.0.8]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo8-addon-quality-control]: New version: [8.0.1.3.0.99.dev9] Old Version: [8.0.1.3.0.99.dev8]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [img2tags]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/07/ce/b35ba68942c4d5ea5e9222999652d02509e7a6984b88c5546af4f3d29eb8/nestedaccess-0.2.7.tar.gz
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo9-addon-quality-control]: New version: [9.0.1.3.0.99.dev9] Old Version: [9.0.1.3.0.99.dev8]
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/6f/c0/ce98d978964595f8086a73d2b0356479c3c3ea39d24273a81d037fc1bc1e/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev81-py2.py3-none-any.whl
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/61/54/6bbd76e363f264babb2630962cf5daaa6cab3fd3f7d6e64a19230e7bcd95/odoo13_addon_mgmtsystem_nonconformity-13.0.2.0.2.dev8-py3-none-any.whl
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/18/5a/af3a5ecddd14fe33ad32623d6111b6943491991c16f46d07dddd9c9d3d44/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/18/5a/af3a5ecddd14fe33ad32623d6111b6943491991c16f46d07dddd9c9d3d44/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-21 06:12:31] INFO root fetch - processPackages [img2tags]: Downloading https://files.pythonhosted.org/packages/d5/c7/5c934ac7e3b21b3efbb8ae10ea0656eb91cd56590104b6b9449ad4cda972/img2tags-1.1.1.tar.gz
+[2023-06-21 06:12:31] INFO root fetch - processPackages [langport]: Downloading https://files.pythonhosted.org/packages/21/70/a86522f1bed786492e7a89bb1530b661a90e928f5c1a035ddba6c4f880d8/langport-0.2.0.tar.gz
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo8-addon-quality-control]: Downloading https://files.pythonhosted.org/packages/c1/2f/bea2a25e011a92f102683c2c06b82ec509412dfd59ca44dd000aaff59fa4/odoo8_addon_quality_control-8.0.1.3.0.99.dev8-py2-none-any.whl
+[2023-06-21 06:12:31] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/e8/4a/1e01f24fcb49191626e2b17d00e13a093315d03a9da09fccb1c75913e420/yt-dlp-2023.3.4.tar.gz
+[2023-06-21 06:12:31] INFO root fetch - processPackages [odoo9-addon-quality-control]: Downloading https://files.pythonhosted.org/packages/1c/aa/a0f93a664615b1f70f82b215b97828e9949bd2ff084536a5e723f017cf61/odoo9_addon_quality_control-9.0.1.3.0.99.dev8-py2-none-any.whl
+[2023-06-21 06:12:31] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/2e/10/83701cadfab3880031650405eb960e87bb7dd5f2a2aa1d6015f25f1ee1b5/nestedaccess-0.2.8.tar.gz
+[2023-06-21 06:12:32] INFO root fetch - processPackages [img2tags]: Downloading https://files.pythonhosted.org/packages/60/ab/b7c8059ab7d3df89240adb749dc682e89bf595d929cbf5d1a903b204e20e/img2tags-1.2.0.tar.gz
+[2023-06-21 06:12:32] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.2.7.tar.gz tmp/nestedaccess-0.2.8.tar.gz --markdown 20230621/n/nestedaccess/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [img2tags]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [img2tags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/img2tags-1.1.1.tar.gz tmp/img2tags-1.2.0.tar.gz --markdown 20230621/i/img2tags/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [langport]: Downloading https://files.pythonhosted.org/packages/eb/b0/5e79b254e8edbd978ee5f268c1590311b4694573560bb1e29e5fd5786aa4/langport-0.2.1.tar.gz
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/b1/df/74cb3432fa18cf37c60f58fb2e7f03e8057049f87cbda9ff4a3991a72193/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev9-py2.py3-none-any.whl
+[2023-06-21 06:12:32] INFO root fetch - processPackages [yt-dlp]: Downloading https://files.pythonhosted.org/packages/36/9a/13eee74e6a621ab42d2b8c7fd7daf6e943af1a8269aa966718fae177a64b/yt-dlp-2023.6.21.tar.gz
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/16/8c/3c89c850193f97f475b22924800e31ff4672f76f816d2e5e7ab72d888390/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/16/8c/3c89c850193f97f475b22924800e31ff4672f76f816d2e5e7ab72d888390/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo8-addon-quality-control]: Downloading https://files.pythonhosted.org/packages/a4/ed/87bed26123330d461a61f2c5443f7a5dc0b1068b8c7bceec85584e54d4be/odoo8_addon_quality_control-8.0.1.3.0.99.dev9-py2-none-any.whl
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo9-addon-quality-control]: Downloading https://files.pythonhosted.org/packages/49/db/fbd39d874956beb55e6dc47d3c09b5581c268fbbb814140b9332378d0023/odoo9_addon_quality_control-9.0.1.3.0.99.dev9-py2-none-any.whl
+[2023-06-21 06:12:32] INFO root fetch - processPackages [langport]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [langport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langport-0.2.0.tar.gz tmp/langport-0.2.1.tar.gz --markdown 20230621/l/langport/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [yt-dlp]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [yt-dlp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yt-dlp-2023.3.4.tar.gz tmp/yt-dlp-2023.6.21.tar.gz --markdown 20230621/y/yt-dlp/2023.3.4-2023.6.21/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo8-addon-quality-control]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo8-addon-quality-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_quality_control-8.0.1.3.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_quality_control-8.0.1.3.0.99.dev9-py2-none-any.whl.zip --markdown 20230621/o/odoo8-addon-quality-control/8.0.1.3.0.99.dev8-8.0.1.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo9-addon-quality-control]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo9-addon-quality-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_quality_control-9.0.1.3.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_quality_control-9.0.1.3.0.99.dev9-py2-none-any.whl.zip --markdown 20230621/o/odoo9-addon-quality-control/9.0.1.3.0.99.dev8-9.0.1.3.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-nonconformity]: Downloading https://files.pythonhosted.org/packages/d4/1b/2d0ba60b7cf7f1442fddf4f211e87205377adcd20d2edd9145f74aa2500b/odoo13_addon_mgmtsystem_nonconformity-13.0.2.0.2.dev9-py3-none-any.whl
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-mgmtsystem-nonconformity/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-mgmtsystem-nonconformity/16.0.1.0.0.8-16.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev81-py2.py3-none-any.whl.zip tmp/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev9-py2.py3-none-any.whl.zip --markdown 20230621/o/odoo11-addon-mgmtsystem-nonconformity/11.0.1.1.2.99.dev81-11.0.1.1.2.99.dev9/diff.md --exclude *.pyd
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-nonconformity]: executing diffoscope
+[2023-06-21 06:12:32] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-nonconformity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_mgmtsystem_nonconformity-13.0.2.0.2.dev8-py3-none-any.whl.zip tmp/odoo13_addon_mgmtsystem_nonconformity-13.0.2.0.2.dev9-py3-none-any.whl.zip --markdown 20230621/o/odoo13-addon-mgmtsystem-nonconformity/13.0.2.0.2.dev8-13.0.2.0.2.dev9/diff.md --exclude *.pyd
+[2023-06-21 06:12:33] INFO root fetch - processPackages [img2tags]: Remove: archive file [/home/abi/fetcher/tmp/img2tags-1.1.1.tar.gz]
+[2023-06-21 06:12:33] INFO root fetch - processPackages [img2tags]: Remove: archive file [/home/abi/fetcher/tmp/img2tags-1.2.0.tar.gz]
+[2023-06-21 06:12:33] INFO root fetch - processPackages [img2tags]: Start processing: sesg
+[2023-06-21 06:12:33] INFO root fetch - main [MainThread]: End processing [img2tags]: success
+[2023-06-21 06:12:33] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.7.tar.gz]
+[2023-06-21 06:12:33] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.8.tar.gz]
+[2023-06-21 06:12:33] INFO root fetch - processPackages [nestedaccess]: Start processing: tweeter-basic
+[2023-06-21 06:12:33] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 06:12:33] INFO root fetch - processPackages [sesg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 06:12:33] WARNING root fetch - processPackages [tweeter-basic]: Skipping, unable to determine old version
+[2023-06-21 06:12:33] INFO root fetch - processPackages [tweeter-basic]: Start processing: hkkang-utils
+[2023-06-21 06:12:33] INFO root fetch - main [MainThread]: End processing [tweeter-basic] error
+[2023-06-21 06:12:33] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/32/a5/c948ce4c33581a843a2c081120906c27c689f26208e8d99c3228f95c9c33/sesg-0.0.8.tar.gz
+[2023-06-21 06:12:33] INFO root fetch - processPackages [hkkang-utils]: New version: [0.2.0] Old Version: [0.1.99]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [sesg]: Downloading https://files.pythonhosted.org/packages/b0/99/29404871db61302e769d5573a523b07920080eb0de82ce589685af7d2da5/sesg-0.0.9.tar.gz
+[2023-06-21 06:12:34] INFO root fetch - processPackages [sesg]: executing diffoscope
+[2023-06-21 06:12:34] INFO root fetch - processPackages [sesg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sesg-0.0.8.tar.gz tmp/sesg-0.0.9.tar.gz --markdown 20230621/s/sesg/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 06:12:34] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.2.0.tar.gz]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [langport]: Remove: archive file [/home/abi/fetcher/tmp/langport-0.2.1.tar.gz]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [langport]: Start processing: nestedaccess
+[2023-06-21 06:12:34] INFO root fetch - main [MainThread]: End processing [langport]: success
+[2023-06-21 06:12:34] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/11/64/d0e10937e4b2746e395088c93accb45f4d2c831d9da3dead391624e95fe9/hkkang_utils-0.1.99.tar.gz
+[2023-06-21 06:12:34] INFO root fetch - processPackages [nestedaccess]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/2e/10/83701cadfab3880031650405eb960e87bb7dd5f2a2aa1d6015f25f1ee1b5/nestedaccess-0.2.8.tar.gz
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_mgmtsystem_nonconformity-16.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo-addon-mgmtsystem-nonconformity]: Start processing: tvm-book
+[2023-06-21 06:12:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity]: success
+[2023-06-21 06:12:34] INFO root fetch - main [MainThread]: End processing [odoo-addon-mgmtsystem-nonconformity]: success
+[2023-06-21 06:12:34] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/08/ca/6a9773ec74cd9162d8c679aebecdc2a754f531c7c3d9c48a36c0041a979f/nestedaccess-0.2.9.tar.gz
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo8-addon-quality-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_quality_control-8.0.1.3.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo8-addon-quality-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_quality_control-8.0.1.3.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-21 06:12:34] INFO root fetch - main [MainThread]: End processing [odoo8-addon-quality-control]: success
+[2023-06-21 06:12:34] INFO root fetch - processPackages [hkkang-utils]: Downloading https://files.pythonhosted.org/packages/e2/b1/253a66cf5551d4fde43848e257bf43fffb8cd6e591e75ce1cc58fe162af1/hkkang_utils-0.2.0.tar.gz
+[2023-06-21 06:12:34] INFO root fetch - processPackages [tvm-book]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 06:12:34] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.2.8.tar.gz tmp/nestedaccess-0.2.9.tar.gz --markdown 20230621/n/nestedaccess/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 06:12:34] INFO root fetch - processPackages [hkkang-utils]: executing diffoscope
+[2023-06-21 06:12:34] INFO root fetch - processPackages [hkkang-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hkkang_utils-0.1.99.tar.gz tmp/hkkang_utils-0.2.0.tar.gz --markdown 20230621/h/hkkang-utils/0.1.99-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-nonconformity]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mgmtsystem_nonconformity-13.0.2.0.2.dev8-py3-none-any.whl.zip]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo13-addon-mgmtsystem-nonconformity]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_mgmtsystem_nonconformity-13.0.2.0.2.dev9-py3-none-any.whl.zip]
+[2023-06-21 06:12:34] INFO root fetch - main [MainThread]: End processing [odoo13-addon-mgmtsystem-nonconformity]: success
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo9-addon-quality-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_quality_control-9.0.1.3.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-21 06:12:34] INFO root fetch - processPackages [odoo9-addon-quality-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_quality_control-9.0.1.3.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-21 06:12:34] INFO root fetch - main [MainThread]: End processing [odoo9-addon-quality-control]: success
+[2023-06-21 06:12:35] INFO root fetch - processPackages [tvm-book]: Downloading https://files.pythonhosted.org/packages/28/1b/46394f978e92956050d239f36a4ae756d79694245b3e02395afb48013bc7/tvm-book-0.0.8.tar.gz
+[2023-06-21 06:12:35] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev81-py2.py3-none-any.whl.zip]
+[2023-06-21 06:12:35] INFO root fetch - processPackages [odoo11-addon-mgmtsystem-nonconformity]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_mgmtsystem_nonconformity-11.0.1.1.2.99.dev9-py2.py3-none-any.whl.zip]
+[2023-06-21 06:12:35] INFO root fetch - main [MainThread]: End processing [odoo11-addon-mgmtsystem-nonconformity]: success
+[2023-06-21 06:12:35] INFO root fetch - processPackages [tvm-book]: Downloading https://files.pythonhosted.org/packages/a2/05/a7906c9b1ebf3682a13b8d26037a924657c392a81d7377abdb8fcda1e533/tvm-book-0.0.9.tar.gz
+[2023-06-21 06:12:35] INFO root fetch - processPackages [tvm-book]: executing diffoscope
+[2023-06-21 06:12:35] INFO root fetch - processPackages [tvm-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvm-book-0.0.8.tar.gz tmp/tvm-book-0.0.9.tar.gz --markdown 20230621/t/tvm-book/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 06:12:35] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.8.tar.gz]
+[2023-06-21 06:12:35] INFO root fetch - processPackages [sesg]: Remove: archive file [/home/abi/fetcher/tmp/sesg-0.0.9.tar.gz]
+[2023-06-21 06:12:35] INFO root fetch - main [MainThread]: End processing [sesg]: success
+[2023-06-21 06:12:35] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.8.tar.gz]
+[2023-06-21 06:12:35] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.2.9.tar.gz]
+[2023-06-21 06:12:35] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 06:12:36] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.1.99.tar.gz]
+[2023-06-21 06:12:36] INFO root fetch - processPackages [hkkang-utils]: Remove: archive file [/home/abi/fetcher/tmp/hkkang_utils-0.2.0.tar.gz]
+[2023-06-21 06:12:36] INFO root fetch - main [MainThread]: End processing [hkkang-utils]: success
+[2023-06-21 06:12:36] INFO root fetch - processPackages [tvm-book]: Remove: archive file [/home/abi/fetcher/tmp/tvm-book-0.0.8.tar.gz]
+[2023-06-21 06:12:36] INFO root fetch - processPackages [tvm-book]: Remove: archive file [/home/abi/fetcher/tmp/tvm-book-0.0.9.tar.gz]
+[2023-06-21 06:12:36] INFO root fetch - main [MainThread]: End processing [tvm-book]: success
+[2023-06-21 06:13:01] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt-dlp-2023.3.4.tar.gz]
+[2023-06-21 06:13:01] INFO root fetch - processPackages [yt-dlp]: Remove: archive file [/home/abi/fetcher/tmp/yt-dlp-2023.6.21.tar.gz]
+[2023-06-21 06:13:01] INFO root fetch - main [MainThread]: End processing [yt-dlp]: success
+[2023-06-21 06:13:01] INFO root fetch - main [MainThread]: Store serial: [18585134]
