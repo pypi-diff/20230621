@@ -13047,3 +13047,91 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 07:15:21] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306210509.tar.gz]
 [2023-06-21 07:15:21] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
 [2023-06-21 07:15:21] INFO root fetch - main [MainThread]: Store serial: [18585567]
+[2023-06-21 07:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585567]
+[2023-06-21 07:20:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spinta
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-optional-quick-create
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bdfrr
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spt-factory
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MouseTracks-Generate
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nestedaccess
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remilia
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: citric
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bdfrrr
+[2023-06-21 07:20:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo8-addon-product-barcode-generator
+[2023-06-21 07:20:29] INFO root fetch - processPackages [odoo8-addon-product-barcode-generator]: New version: [8.0.1.0.0.99.dev30] Old Version: [8.0.1.0.0.99.dev29]
+[2023-06-21 07:20:29] INFO root fetch - processPackages [spinta]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 07:20:29] INFO root fetch - processPackages [remilia]: New version: [1.1.8] Old Version: [1.1.6rc0]
+[2023-06-21 07:20:29] INFO root fetch - processPackages [citric]: New version: [0.7.2] Old Version: [0.7.1b3]
+[2023-06-21 07:20:29] INFO root fetch - processPackages [MouseTracks-Generate]: New version: [1.6] Old Version: [1.5.5]
+[2023-06-21 07:20:29] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-21 07:20:29] INFO root fetch - processPackages [spt-factory]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 07:20:29] INFO root fetch - processPackages [nestedaccess]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-21 07:20:29] WARNING root fetch - processPackages [bdfrrr]: Skipping, unable to determine old version
+[2023-06-21 07:20:29] INFO root fetch - processPackages [bdfrrr]: Start processing: nestedaccess
+[2023-06-21 07:20:29] INFO root fetch - main [MainThread]: End processing [bdfrrr] error
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-21 07:20:30] INFO root fetch - processPackages [spt-factory]: Downloading https://files.pythonhosted.org/packages/c2/4c/7c84e2219d9004bfadf0192aafebc7a42f5eaf9e40ca03c2fe101addfee3/spt_factory-0.0.8.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [MouseTracks-Generate]: Downloading https://files.pythonhosted.org/packages/3e/34/2b475d0d9c09841f107b4ccbf7cba5e14016e3cf9740a9fec182d9a3dde5/MouseTracks_Generate-1.5.5.tar.gz
+[2023-06-21 07:20:30] ERROR root fetch - processPackages [bdfrr]: Unable to get metadata: No such project 'bdfrr'
+[2023-06-21 07:20:30] INFO root fetch - main [MainThread]: End processing [bdfrr] error
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/71/42/b90783f03ac907386b6f1291cff63bbe77bee3503d23ab5fa27a93c524ed/nestedaccess-0.3.3.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [odoo8-addon-product-barcode-generator]: Downloading https://files.pythonhosted.org/packages/9d/39/8211e7350a9193f7783682e3068ca97968414ba335cb344ebb96b676d629/odoo8_addon_product_barcode_generator-8.0.1.0.0.99.dev29-py2-none-any.whl
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/71/42/b90783f03ac907386b6f1291cff63bbe77bee3503d23ab5fa27a93c524ed/nestedaccess-0.3.3.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [spinta]: Downloading https://files.pythonhosted.org/packages/d6/18/9ed12f374957e944902814718feaf5b54bfd3c4d67635d80a745af0a9164/spinta-0.1.8.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [remilia]: Downloading https://files.pythonhosted.org/packages/c1/4b/77ce62814e5313ecffff7292e0ab72cef1e6c7f2431ff1894b94dda67b0d/remilia-1.1.6rc0.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [citric]: Downloading https://files.pythonhosted.org/packages/8f/1e/e3d8baa392c7cfc97bf75270ba4ce1a9663e0746998dac78ac950d1ba063/citric-0.7.1b3.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: Downloading https://files.pythonhosted.org/packages/bd/1d/14f7a2da19215d6d178829fcaed6e73000f8375ea62a64e7de9d6e8e81d2/odoo_addon_base_optional_quick_create-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-21 07:20:30] INFO root fetch - processPackages [spt-factory]: Downloading https://files.pythonhosted.org/packages/b9/45/b4ddeefbad693fe21d5bc917e2e9bd8db6f6a28f632dd46cea2102602ea3/spt_factory-0.0.9.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [MouseTracks-Generate]: Downloading https://files.pythonhosted.org/packages/6c/34/2cd11af8e7788c4ab1db0470d825ee276a53d067a449c821e5e3c00621a6/MouseTracks_Generate-1.6.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [spt-factory]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [spt-factory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spt_factory-0.0.8.tar.gz tmp/spt_factory-0.0.9.tar.gz --markdown 20230621/s/spt-factory/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/f5/50/1ec25cf3cd8d463691010ddbab2f7c805bbda3b91abce60c32d454325677/nestedaccess-0.3.4.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/f5/50/1ec25cf3cd8d463691010ddbab2f7c805bbda3b91abce60c32d454325677/nestedaccess-0.3.4.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [MouseTracks-Generate]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [citric]: Downloading https://files.pythonhosted.org/packages/3d/8a/94483b248a46811c443a220641b4e6e54e9f4177c197a82dd791f018c326/citric-0.7.2.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [MouseTracks-Generate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MouseTracks_Generate-1.5.5.tar.gz tmp/MouseTracks_Generate-1.6.tar.gz --markdown 20230621/M/MouseTracks-Generate/1.5.5-1.6/diff.md --exclude *.pyd
+[2023-06-21 07:20:30] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: Downloading https://files.pythonhosted.org/packages/7b/18/b76e45429bc292d7a29b0e5435c319041331674895c43bf44cdca728276e/odoo_addon_base_optional_quick_create-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-21 07:20:30] INFO root fetch - processPackages [odoo8-addon-product-barcode-generator]: Downloading https://files.pythonhosted.org/packages/6a/8b/e03199e486d42c1e9208545fbc2c529d7bef01c4bd151139302cfdb260d2/odoo8_addon_product_barcode_generator-8.0.1.0.0.99.dev30-py2-none-any.whl
+[2023-06-21 07:20:30] INFO root fetch - processPackages [spinta]: Downloading https://files.pythonhosted.org/packages/5a/9c/8d278829c1decafc04da79fe89230199cc6c397169ee377f8eab760997a9/spinta-0.1.9.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [remilia]: Downloading https://files.pythonhosted.org/packages/29/e9/f624b169e8582d83f501699363459f17e9dcce23ff838e118545ab0de074/remilia-1.1.8.tar.gz
+[2023-06-21 07:20:30] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_optional_quick_create-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_base_optional_quick_create-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-base-optional-quick-create/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-21 07:20:30] INFO root fetch - processPackages [citric]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [citric]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citric-0.7.1b3.tar.gz tmp/citric-0.7.2.tar.gz --markdown 20230621/c/citric/0.7.1b3-0.7.2/diff.md --exclude *.pyd
+[2023-06-21 07:20:30] INFO root fetch - processPackages [odoo8-addon-product-barcode-generator]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [odoo8-addon-product-barcode-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_product_barcode_generator-8.0.1.0.0.99.dev29-py2-none-any.whl.zip tmp/odoo8_addon_product_barcode_generator-8.0.1.0.0.99.dev30-py2-none-any.whl.zip --markdown 20230621/o/odoo8-addon-product-barcode-generator/8.0.1.0.0.99.dev29-8.0.1.0.0.99.dev30/diff.md --exclude *.pyd
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.3.3.tar.gz tmp/nestedaccess-0.3.4.tar.gz --markdown 20230621/n/nestedaccess/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [remilia]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.3.3.tar.gz tmp/nestedaccess-0.3.4.tar.gz --markdown 20230621/n/nestedaccess/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-21 07:20:30] INFO root fetch - processPackages [remilia]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remilia-1.1.6rc0.tar.gz tmp/remilia-1.1.8.tar.gz --markdown 20230621/r/remilia/1.1.6rc0-1.1.8/diff.md --exclude *.pyd
+[2023-06-21 07:20:30] INFO root fetch - processPackages [spinta]: executing diffoscope
+[2023-06-21 07:20:30] INFO root fetch - processPackages [spinta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spinta-0.1.8.tar.gz tmp/spinta-0.1.9.tar.gz --markdown 20230621/s/spinta/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 07:20:32] INFO root fetch - processPackages [spt-factory]: Remove: archive file [/home/abi/fetcher/tmp/spt_factory-0.0.8.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - processPackages [spt-factory]: Remove: archive file [/home/abi/fetcher/tmp/spt_factory-0.0.9.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - main [MainThread]: End processing [spt-factory]: success
+[2023-06-21 07:20:32] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.3.3.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.3.4.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 07:20:32] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 07:20:32] INFO root fetch - processPackages [odoo8-addon-product-barcode-generator]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_product_barcode_generator-8.0.1.0.0.99.dev29-py2-none-any.whl.zip]
+[2023-06-21 07:20:32] INFO root fetch - processPackages [odoo8-addon-product-barcode-generator]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_product_barcode_generator-8.0.1.0.0.99.dev30-py2-none-any.whl.zip]
+[2023-06-21 07:20:32] INFO root fetch - main [MainThread]: End processing [odoo8-addon-product-barcode-generator]: success
+[2023-06-21 07:20:32] INFO root fetch - processPackages [remilia]: Remove: archive file [/home/abi/fetcher/tmp/remilia-1.1.6rc0.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - processPackages [remilia]: Remove: archive file [/home/abi/fetcher/tmp/remilia-1.1.8.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - main [MainThread]: End processing [remilia]: success
+[2023-06-21 07:20:32] INFO root fetch - processPackages [MouseTracks-Generate]: Remove: archive file [/home/abi/fetcher/tmp/MouseTracks_Generate-1.5.5.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - processPackages [MouseTracks-Generate]: Remove: archive file [/home/abi/fetcher/tmp/MouseTracks_Generate-1.6.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - main [MainThread]: End processing [MouseTracks-Generate]: success
+[2023-06-21 07:20:32] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_optional_quick_create-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-21 07:20:32] INFO root fetch - processPackages [odoo-addon-base-optional-quick-create]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_optional_quick_create-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-21 07:20:32] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-optional-quick-create]: success
+[2023-06-21 07:20:32] INFO root fetch - processPackages [citric]: Remove: archive file [/home/abi/fetcher/tmp/citric-0.7.1b3.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - processPackages [citric]: Remove: archive file [/home/abi/fetcher/tmp/citric-0.7.2.tar.gz]
+[2023-06-21 07:20:32] INFO root fetch - main [MainThread]: End processing [citric]: success
+[2023-06-21 07:20:35] INFO root fetch - processPackages [spinta]: Remove: archive file [/home/abi/fetcher/tmp/spinta-0.1.8.tar.gz]
+[2023-06-21 07:20:35] INFO root fetch - processPackages [spinta]: Remove: archive file [/home/abi/fetcher/tmp/spinta-0.1.9.tar.gz]
+[2023-06-21 07:20:35] INFO root fetch - main [MainThread]: End processing [spinta]: success
+[2023-06-21 07:20:35] INFO root fetch - main [MainThread]: Store serial: [18585607]
