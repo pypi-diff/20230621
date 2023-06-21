@@ -11001,3 +11001,162 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 05:35:46] INFO root fetch - processPackages [azure-mgmt-resource]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-resource-9.0.0.zip]
 [2023-06-21 05:35:46] INFO root fetch - main [MainThread]: End processing [azure-mgmt-resource]: success
 [2023-06-21 05:35:46] INFO root fetch - main [MainThread]: Store serial: [18584800]
+[2023-06-21 05:40:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584800]
+[2023-06-21 05:40:56] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: consoleiotools
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: peitho-data
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-session
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaohn-common-utils
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Telexy.MARS
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: iwx-manifest-builder
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fsai-shared-funcs
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: recursive-validator
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: geopix
+[2023-06-21 05:40:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cvat-manifest-builder
+[2023-06-21 05:40:56] INFO root fetch - processPackages [peitho-data]: New version: [2.3.7] Old Version: [2.3.6]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [nonebot-plugin-session]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [Telexy.MARS]: New version: [1.23.626] Old Version: [1.23.625]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [consoleiotools]: New version: [4.2.2] Old Version: [4.2.1]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.73] Old Version: [0.0.72]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 05:40:56] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/41/22/f2131733f17571156d8be8474f34230ceb7997106a70847ff37c2ae1b2e6/gaohn-common-utils-0.0.72.tar.gz
+[2023-06-21 05:40:56] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-06-21 05:40:56] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-06-21 05:40:56] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-06-21 05:40:56] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-06-21 05:40:56] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-06-21 05:40:56] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/fd/94/957f0353819e0f177e48cc3c3c84b3dca5f986464879306e217c29570a37/peitho_data-2.3.6.tar.gz
+[2023-06-21 05:40:56] INFO root fetch - processPackages [nonebot-plugin-session]: Downloading https://files.pythonhosted.org/packages/82/1f/fb54f0afb17d84254f6167526b2ba5e811596194c65fd4915be8234476ac/nonebot_plugin_session-0.0.4.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/0d/1f/5527b6f42cbe423bf99a734a2f437232a6a1208c68618fc6da9f6495842a/Telexy.MARS-1.23.625.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [consoleiotools]: Downloading https://files.pythonhosted.org/packages/30/1a/a6e20f42f758d9fcf021d7e56ca899e82d7edb973f45ff92136d7131c0bf/consoleiotools-4.2.1.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/0c/41/8235b4fb82175a4d6effc2b7953ee534304096eff4b7adee5f284eed98e3/gaohn-common-utils-0.0.73.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230621/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230621/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230621/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [peitho-data]: Downloading https://files.pythonhosted.org/packages/1f/21/a2139466046a755a82f8a62b1ae3df93999830ab5814a57c0095daf85305/peitho_data-2.3.7.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230621/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/45/ef/c73f91a05c1c85c7a1b48c4a717ba72ee4bfcf99d7ad1df3190110000f11/Telexy.MARS-1.23.626.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230621/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [consoleiotools]: Downloading https://files.pythonhosted.org/packages/e1/1c/e085ebe5fc0e95379ff549fc795768b0ad79adafa2d6f80d987be1dc444e/consoleiotools-4.2.2.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.72.tar.gz tmp/gaohn-common-utils-0.0.73.tar.gz --markdown 20230621/g/gaohn-common-utils/0.0.72-0.0.73/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [peitho-data]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [peitho-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peitho_data-2.3.6.tar.gz tmp/peitho_data-2.3.7.tar.gz --markdown 20230621/p/peitho-data/2.3.6-2.3.7/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [nonebot-plugin-session]: Downloading https://files.pythonhosted.org/packages/33/96/4254200bb1193c8e117151d336d6e5a74931ea70bf4429a2d126ddecc95f/nonebot_plugin_session-0.0.5.tar.gz
+[2023-06-21 05:40:57] INFO root fetch - processPackages [consoleiotools]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [consoleiotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleiotools-4.2.1.tar.gz tmp/consoleiotools-4.2.2.tar.gz --markdown 20230621/c/consoleiotools/4.2.1-4.2.2/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [nonebot-plugin-session]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [nonebot-plugin-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_session-0.0.4.tar.gz tmp/nonebot_plugin_session-0.0.5.tar.gz --markdown 20230621/n/nonebot-plugin-session/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 05:40:57] INFO root fetch - processPackages [Telexy.MARS]: executing diffoscope
+[2023-06-21 05:40:57] INFO root fetch - processPackages [Telexy.MARS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telexy.MARS-1.23.625.tar.gz tmp/Telexy.MARS-1.23.626.tar.gz --markdown 20230621/T/Telexy.MARS/1.23.625-1.23.626/diff.md --exclude *.pyd
+[2023-06-21 05:40:58] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-06-21 05:40:58] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-06-21 05:40:58] INFO root fetch - processPackages [geopix]: Start processing: json-file-split
+[2023-06-21 05:40:58] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-06-21 05:40:58] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 05:40:58] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-06-21 05:40:58] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-06-21 05:40:58] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-06-21 05:40:58] INFO root fetch - processPackages [cvat-manifest-builder]: Start processing: awpr
+[2023-06-21 05:40:58] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-06-21 05:40:58] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 05:40:58] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-06-21 05:40:58] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-06-21 05:40:59] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [recursive-validator]: Start processing: fsai-grpc-api
+[2023-06-21 05:40:59] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-06-21 05:40:59] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-06-21 05:40:59] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230621/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 05:40:59] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-06-21 05:40:59] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-06-21 05:40:59] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [fsai-shared-funcs]: Start processing: segment-geospatial
+[2023-06-21 05:40:59] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-06-21 05:40:59] INFO root fetch - processPackages [segment-geospatial]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [iwx-manifest-builder]: Start processing: azure-mgmt-cosmosdbforpostgresql
+[2023-06-21 05:40:59] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-06-21 05:40:59] WARNING root fetch - processPackages [azure-mgmt-cosmosdbforpostgresql]: Skipping, unable to determine old version
+[2023-06-21 05:40:59] INFO root fetch - processPackages [azure-mgmt-cosmosdbforpostgresql]: Start processing: azure-mgmt-dataprotection
+[2023-06-21 05:40:59] INFO root fetch - main [MainThread]: End processing [azure-mgmt-cosmosdbforpostgresql] error
+[2023-06-21 05:40:59] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-06-21 05:40:59] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.72.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-06-21 05:40:59] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.73.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230621/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 05:40:59] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: mosec
+[2023-06-21 05:40:59] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-06-21 05:40:59] INFO root fetch - processPackages [azure-mgmt-dataprotection]: New version: [1.1.0] Old Version: [1.0.0b4]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [segment-geospatial]: Downloading https://files.pythonhosted.org/packages/9e/21/5779c7f032fe5b17a3a3801cbd358d776a8a4e1dfd065ef3a75d7185724b/segment-geospatial-0.8.2.tar.gz
+[2023-06-21 05:40:59] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-06-21 05:40:59] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230621/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 05:40:59] INFO root fetch - processPackages [nonebot-plugin-session]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_session-0.0.4.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [nonebot-plugin-session]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_session-0.0.5.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [nonebot-plugin-session]: Start processing: keynote-parser
+[2023-06-21 05:40:59] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-session]: success
+[2023-06-21 05:40:59] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.625.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.626.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - main [MainThread]: End processing [Telexy.MARS]: success
+[2023-06-21 05:40:59] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Downloading https://files.pythonhosted.org/packages/f4/f8/531153955db8f39a82feb105121d1f1e245db7c8116e21bac6ac77bf6aed/azure-mgmt-dataprotection-1.0.0b4.zip
+[2023-06-21 05:40:59] INFO root fetch - processPackages [mosec]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.2.1.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [consoleiotools]: Remove: archive file [/home/abi/fetcher/tmp/consoleiotools-4.2.2.tar.gz]
+[2023-06-21 05:40:59] INFO root fetch - main [MainThread]: End processing [consoleiotools]: success
+[2023-06-21 05:40:59] INFO root fetch - processPackages [segment-geospatial]: Downloading https://files.pythonhosted.org/packages/70/f5/d4b8fa051aeb71b48be9a05b64b0ccc53d188622529fb16bbbff7dfbdc85/segment-geospatial-0.8.3.tar.gz
+[2023-06-21 05:40:59] INFO root fetch - processPackages [keynote-parser]: New version: [1.13.1.0] Old Version: [1.12.2.0]
+[2023-06-21 05:40:59] INFO root fetch - processPackages [segment-geospatial]: executing diffoscope
+[2023-06-21 05:40:59] INFO root fetch - processPackages [segment-geospatial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/segment-geospatial-0.8.2.tar.gz tmp/segment-geospatial-0.8.3.tar.gz --markdown 20230621/s/segment-geospatial/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-06-21 05:40:59] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/f4/53/af7e7efdcbd4f7ad9df5c5d6dc84235cf79feb1e48260dc39aef2562c1a1/mosec-0.7.1.tar.gz
+[2023-06-21 05:40:59] INFO root fetch - processPackages [keynote-parser]: Downloading https://files.pythonhosted.org/packages/c9/64/9a5fc2add0102d4c6064c7f56c2be5d3648c9e8f1606884bd9cc6312e916/keynote-parser-1.12.2.0.tar.gz
+[2023-06-21 05:40:59] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Downloading https://files.pythonhosted.org/packages/f4/5d/606862245af831149d6c70ec799323424a35466d7f8334dcae7828d56493/azure-mgmt-dataprotection-1.1.0.zip
+[2023-06-21 05:41:00] INFO root fetch - processPackages [azure-mgmt-dataprotection]: executing diffoscope
+[2023-06-21 05:41:00] INFO root fetch - processPackages [azure-mgmt-dataprotection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-mgmt-dataprotection-1.0.0b4.zip tmp/azure-mgmt-dataprotection-1.1.0.zip --markdown 20230621/a/azure-mgmt-dataprotection/1.0.0b4-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 05:41:00] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/1f/bd/39b21a4a5baaa354f5bc0fad06b99eaa1302a81aef57d05861cb434328e2/mosec-0.7.2-pp38-pypy38_pp73-macosx_10_9_x86_64.whl
+[2023-06-21 05:41:00] INFO root fetch - processPackages [keynote-parser]: Downloading https://files.pythonhosted.org/packages/06/5b/48e7cafa08dee69a028427be6fb62d3078d1d5e34715e81959c2436516a7/keynote-parser-1.13.1.0.tar.gz
+[2023-06-21 05:41:00] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-06-21 05:41:00] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-06-21 05:41:00] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-06-21 05:41:00] INFO root fetch - processPackages [mosec]: executing diffoscope
+[2023-06-21 05:41:00] INFO root fetch - processPackages [mosec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosec-0.7.1.tar.gz tmp/mosec-0.7.2-pp38-pypy38_pp73-macosx_10_9_x86_64.whl.zip --markdown 20230621/m/mosec/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-21 05:41:00] INFO root fetch - processPackages [keynote-parser]: executing diffoscope
+[2023-06-21 05:41:00] INFO root fetch - processPackages [keynote-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/keynote-parser-1.12.2.0.tar.gz tmp/keynote-parser-1.13.1.0.tar.gz --markdown 20230621/k/keynote-parser/1.12.2.0-1.13.1.0/diff.md --exclude *.pyd
+[2023-06-21 05:41:00] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-06-21 05:41:00] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-06-21 05:41:00] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-06-21 05:41:00] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-06-21 05:41:00] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-06-21 05:41:00] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-06-21 05:41:01] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.6.tar.gz]
+[2023-06-21 05:41:01] INFO root fetch - processPackages [peitho-data]: Remove: archive file [/home/abi/fetcher/tmp/peitho_data-2.3.7.tar.gz]
+[2023-06-21 05:41:01] INFO root fetch - main [MainThread]: End processing [peitho-data]: success
+[2023-06-21 05:41:01] INFO root fetch - processPackages [segment-geospatial]: Remove: archive file [/home/abi/fetcher/tmp/segment-geospatial-0.8.2.tar.gz]
+[2023-06-21 05:41:01] INFO root fetch - processPackages [segment-geospatial]: Remove: archive file [/home/abi/fetcher/tmp/segment-geospatial-0.8.3.tar.gz]
+[2023-06-21 05:41:01] INFO root fetch - main [MainThread]: End processing [segment-geospatial]: success
+[2023-06-21 05:41:01] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.7.1.tar.gz]
+[2023-06-21 05:41:01] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.7.2-pp38-pypy38_pp73-macosx_10_9_x86_64.whl.zip]
+[2023-06-21 05:41:01] INFO root fetch - main [MainThread]: End processing [mosec]: success
+[2023-06-21 05:41:02] INFO root fetch - processPackages [keynote-parser]: Remove: archive file [/home/abi/fetcher/tmp/keynote-parser-1.12.2.0.tar.gz]
+[2023-06-21 05:41:02] INFO root fetch - processPackages [keynote-parser]: Remove: archive file [/home/abi/fetcher/tmp/keynote-parser-1.13.1.0.tar.gz]
+[2023-06-21 05:41:02] INFO root fetch - main [MainThread]: End processing [keynote-parser]: success
+[2023-06-21 05:41:02] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-dataprotection-1.0.0b4.zip]
+[2023-06-21 05:41:02] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-dataprotection-1.1.0.zip]
+[2023-06-21 05:41:02] INFO root fetch - main [MainThread]: End processing [azure-mgmt-dataprotection]: success
+[2023-06-21 05:41:02] INFO root fetch - main [MainThread]: Store serial: [18584869]
