@@ -14856,3 +14856,63 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 09:03:52] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
 [2023-06-21 09:03:52] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
 [2023-06-21 09:03:52] INFO root fetch - main [MainThread]: Store serial: [18586292]
+[2023-06-21 09:08:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586292]
+[2023-06-21 09:09:01] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 09:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oaas-sdk-py
+[2023-06-21 09:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nestedaccess
+[2023-06-21 09:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: m000.000.00m13
+[2023-06-21 09:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: blackjax-nightly
+[2023-06-21 09:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hcai-datasets-nightly
+[2023-06-21 09:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-stock-available-to-promise-release
+[2023-06-21 09:09:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tf-hub-nightly
+[2023-06-21 09:09:01] INFO root fetch - processPackages [nestedaccess]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-06-21 09:09:01] INFO root fetch - processPackages [blackjax-nightly]: New version: [0.9.6.post99] Old Version: [0.9.6.post98]
+[2023-06-21 09:09:01] INFO root fetch - processPackages [hcai-datasets-nightly]: New version: [0.1.9.dev202306061220] Old Version: [0.1.9.dev202306021222]
+[2023-06-21 09:09:01] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-21 09:09:01] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/2f/89/fd7e69d8d655ec180158e31cd691f0258bb5865ef2b782facda6c0158f93/nestedaccess-0.3.7.tar.gz
+[2023-06-21 09:09:01] INFO root fetch - processPackages [oaas-sdk-py]: New version: [0.2.0] Old Version: [0.1.8]
+[2023-06-21 09:09:01] WARNING root fetch - processPackages [m000.000.00m13]: Skipping, unable to determine old version
+[2023-06-21 09:09:01] INFO root fetch - main [MainThread]: End processing [m000.000.00m13] error
+[2023-06-21 09:09:01] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/92/6d/422e9e95a27c826c4b864ee3e0b55710e81e9082ed87a8b3cffb4c50bc6a/blackjax-nightly-0.9.6.post98.tar.gz
+[2023-06-21 09:09:01] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: New version: [16.0.2.1.0] Old Version: [16.0.2.0.0.9]
+[2023-06-21 09:09:01] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/58/82/873eb312c837dd44bf46ea961e3f3c0f39ffc5d2f1be7226ebed41d2cc42/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz
+[2023-06-21 09:09:01] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-21 09:09:01] INFO root fetch - processPackages [oaas-sdk-py]: Downloading https://files.pythonhosted.org/packages/05/40/3907c6419517c4758a695d19754fda89ca3f81c15bc416d285fabf392519/oaas_sdk_py-0.1.8.tar.gz
+[2023-06-21 09:09:01] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/09/b7/3f159f672518d88b59886f565af351a33a02f42733db6bcf01de8bfc50cf/odoo_addon_stock_available_to_promise_release-16.0.2.0.0.9-py3-none-any.whl
+[2023-06-21 09:09:01] INFO root fetch - processPackages [blackjax-nightly]: Downloading https://files.pythonhosted.org/packages/0a/e7/14592c365bf8ffb51707e15763cef8c10eeae142ca25ce02085d7e87d6cc/blackjax-nightly-0.9.6.post99.tar.gz
+[2023-06-21 09:09:01] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/b4/6b/07a4025d93bcdd93647686386c7b8dbec9747b2ad2acc1a142fdf72a1b44/nestedaccess-0.3.8.tar.gz
+[2023-06-21 09:09:01] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-21 09:09:01] INFO root fetch - processPackages [hcai-datasets-nightly]: Downloading https://files.pythonhosted.org/packages/8b/35/91665ab569b1c47ffa8dcc22829612c695da8975c35a4fc66a5d00795e6a/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz
+[2023-06-21 09:09:01] INFO root fetch - processPackages [blackjax-nightly]: executing diffoscope
+[2023-06-21 09:09:01] INFO root fetch - processPackages [blackjax-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackjax-nightly-0.9.6.post98.tar.gz tmp/blackjax-nightly-0.9.6.post99.tar.gz --markdown 20230621/b/blackjax-nightly/0.9.6.post98-0.9.6.post99/diff.md --exclude *.pyd
+[2023-06-21 09:09:01] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-21 09:09:01] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230621/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-21 09:09:02] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 09:09:02] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-0.3.7.tar.gz tmp/nestedaccess-0.3.8.tar.gz --markdown 20230621/n/nestedaccess/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-06-21 09:09:02] INFO root fetch - processPackages [hcai-datasets-nightly]: executing diffoscope
+[2023-06-21 09:09:02] INFO root fetch - processPackages [hcai-datasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz --markdown 20230621/h/hcai-datasets-nightly/0.1.9.dev202306021222-0.1.9.dev202306061220/diff.md --exclude *.pyd
+[2023-06-21 09:09:02] INFO root fetch - processPackages [oaas-sdk-py]: Downloading https://files.pythonhosted.org/packages/77/ff/bf484f775a2539ccd49347bda196945c819c6ebbe95527ae7772c437ec4e/oaas_sdk_py-0.2.0.tar.gz
+[2023-06-21 09:09:02] INFO root fetch - processPackages [oaas-sdk-py]: executing diffoscope
+[2023-06-21 09:09:02] INFO root fetch - processPackages [oaas-sdk-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oaas_sdk_py-0.1.8.tar.gz tmp/oaas_sdk_py-0.2.0.tar.gz --markdown 20230621/o/oaas-sdk-py/0.1.8-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 09:09:02] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Downloading https://files.pythonhosted.org/packages/7f/97/8650075632831b581605c31e08f4d9c21b59cd38cc5fc5d3c55c97f948d0/odoo_addon_stock_available_to_promise_release-16.0.2.1.0-py3-none-any.whl
+[2023-06-21 09:09:02] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: executing diffoscope
+[2023-06-21 09:09:02] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_available_to_promise_release-16.0.2.0.0.9-py3-none-any.whl.zip tmp/odoo_addon_stock_available_to_promise_release-16.0.2.1.0-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-stock-available-to-promise-release/16.0.2.0.0.9-16.0.2.1.0/diff.md --exclude *.pyd
+[2023-06-21 09:09:03] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.3.7.tar.gz]
+[2023-06-21 09:09:03] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-0.3.8.tar.gz]
+[2023-06-21 09:09:03] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 09:09:03] INFO root fetch - processPackages [oaas-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/oaas_sdk_py-0.1.8.tar.gz]
+[2023-06-21 09:09:03] INFO root fetch - processPackages [oaas-sdk-py]: Remove: archive file [/home/abi/fetcher/tmp/oaas_sdk_py-0.2.0.tar.gz]
+[2023-06-21 09:09:03] INFO root fetch - main [MainThread]: End processing [oaas-sdk-py]: success
+[2023-06-21 09:09:03] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-21 09:09:03] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-21 09:09:03] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-21 09:09:03] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306021222.tar.gz]
+[2023-06-21 09:09:03] INFO root fetch - processPackages [hcai-datasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-datasets-nightly-0.1.9.dev202306061220.tar.gz]
+[2023-06-21 09:09:03] INFO root fetch - main [MainThread]: End processing [hcai-datasets-nightly]: success
+[2023-06-21 09:09:03] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release-16.0.2.0.0.9-py3-none-any.whl.zip]
+[2023-06-21 09:09:03] INFO root fetch - processPackages [odoo-addon-stock-available-to-promise-release]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_available_to_promise_release-16.0.2.1.0-py3-none-any.whl.zip]
+[2023-06-21 09:09:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-available-to-promise-release]: success
+[2023-06-21 09:09:03] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-0.9.6.post98.tar.gz]
+[2023-06-21 09:09:03] INFO root fetch - processPackages [blackjax-nightly]: Remove: archive file [/home/abi/fetcher/tmp/blackjax-nightly-0.9.6.post99.tar.gz]
+[2023-06-21 09:09:03] INFO root fetch - main [MainThread]: End processing [blackjax-nightly]: success
+[2023-06-21 09:09:03] INFO root fetch - main [MainThread]: Store serial: [18586317]
