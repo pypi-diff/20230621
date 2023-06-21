@@ -8999,3 +8999,209 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-21 03:39:41] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
 [2023-06-21 03:39:41] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
 [2023-06-21 03:39:41] INFO root fetch - main [MainThread]: Store serial: [18583976]
+[2023-06-21 03:44:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18583976]
+[2023-06-21 03:44:50] INFO root fetch - main [MainThread]: Found 25 changed packages
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hatch-project-pypi
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: euclipy
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: proactive
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nbdev-scipy
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: proactive-jupyter-kernel
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hatch-project-pypi
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rayfed-nightly
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-sphinx
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: WIDscript
+[2023-06-21 03:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: assistorg-api
+[2023-06-21 03:44:50] INFO root fetch - processPackages [euclipy]: New version: [1.0.0] Old Version: [0.3.1]
+[2023-06-21 03:44:50] INFO root fetch - processPackages [hatch-project-pypi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 03:44:50] ERROR root fetch - processPackages [WIDscript]: Unable to get metadata: No such project 'WIDscript'
+[2023-06-21 03:44:50] INFO root fetch - processPackages [WIDscript]: Start processing: NikGapps
+[2023-06-21 03:44:50] INFO root fetch - processPackages [hatch-project-pypi]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 03:44:50] INFO root fetch - main [MainThread]: End processing [WIDscript] error
+[2023-06-21 03:44:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-06-21 03:44:50] INFO root fetch - processPackages [assistorg-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 03:44:50] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:50] INFO root fetch - processPackages [NikGapps]: New version: [1.48] Old Version: [1.47]
+[2023-06-21 03:44:50] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:50] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-06-21 03:44:50] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-06-21 03:44:50] INFO root fetch - processPackages [rayfed-nightly]: New version: [0.1.0b20230621.dev0] Old Version: [0.1.0b20230620.dev0]
+[2023-06-21 03:44:50] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [assistorg-api]: Downloading https://files.pythonhosted.org/packages/01/fb/95d001acaff2cd50d103c65df50c2b0b04cbd6a54db1a0d57441e8189580/assistorg-api-0.0.1.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/61/56/0313c7ee1857bd3e730057ad386a4d47d879de6578b66c50e059a7c2bc20/hatch_project_pypi-0.0.1.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/61/56/0313c7ee1857bd3e730057ad386a4d47d879de6578b66c50e059a7c2bc20/hatch_project_pypi-0.0.1.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [euclipy]: Downloading https://files.pythonhosted.org/packages/89/35/3965087250292c92a63e8b48a06c87265513b7c2e658f97cf798ca21502e/euclipy-0.3.1.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/e7/30/3a9b27488ba4fadc77ea372c3e901230b78551e42068e565a32063e2951a/NikGapps-1.47.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-06-21 03:44:51] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564269>=10485760
+[2023-06-21 03:44:51] INFO root fetch - processPackages [NikGapps]: Start processing: pepperize.cdk-organizations
+[2023-06-21 03:44:51] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-21 03:44:51] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-06-21 03:44:51] INFO root fetch - processPackages [proactive]: Start processing: cvat-manifest-builder
+[2023-06-21 03:44:51] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-06-21 03:44:51] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/20/bf/da3e922a48df72129f1b51a6f49e029bf4df5a312d4938178d38b34aaab1/rayfed_nightly-0.1.0b20230620.dev0-py3-none-any.whl
+[2023-06-21 03:44:51] INFO root fetch - processPackages [cvat-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-21 03:44:51] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230621/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [assistorg-api]: Downloading https://files.pythonhosted.org/packages/2e/c6/ce4e2c6214ba1ff22b8acac148782dc28444341f8608a741a8612bd1330b/assistorg-api-0.0.2.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-06-21 03:44:51] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/b8/ba/9c47b963a48809916c19b4251d8b44d307ead95f77dd919f0ffcccb627a9/hatch_project_pypi-0.0.2.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/b8/ba/9c47b963a48809916c19b4251d8b44d307ead95f77dd919f0ffcccb627a9/hatch_project_pypi-0.0.2.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [assistorg-api]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [assistorg-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assistorg-api-0.0.1.tar.gz tmp/assistorg-api-0.0.2.tar.gz --markdown 20230621/a/assistorg-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230621/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [hatch-project-pypi]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [hatch-project-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi-0.0.1.tar.gz tmp/hatch_project_pypi-0.0.2.tar.gz --markdown 20230621/h/hatch-project-pypi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [hatch-project-pypi]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [hatch-project-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi-0.0.1.tar.gz tmp/hatch_project_pypi-0.0.2.tar.gz --markdown 20230621/h/hatch-project-pypi/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230621/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/4d/53/ceeb4be50300cbb9ab2e0de8699ddef9fb20be70ac60f72cac3097f0efc9/cvat_manifest_builder-0.0.98.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [rayfed-nightly]: Downloading https://files.pythonhosted.org/packages/0b/20/577f1ad3f391343132b80d8397b91a3fb6e210b6bd17d55691ff7b14ba1b/rayfed_nightly-0.1.0b20230621.dev0-py3-none-any.whl
+[2023-06-21 03:44:51] INFO root fetch - processPackages [euclipy]: Downloading https://files.pythonhosted.org/packages/fe/a3/d189437a9091377b49ee253bde6b95346223b132ec9721190b73cbf2eaed/euclipy-1.0.0.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [euclipy]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [euclipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/euclipy-0.3.1.tar.gz tmp/euclipy-1.0.0.tar.gz --markdown 20230621/e/euclipy/0.3.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230621/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [rayfed-nightly]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [rayfed-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rayfed_nightly-0.1.0b20230620.dev0-py3-none-any.whl.zip tmp/rayfed_nightly-0.1.0b20230621.dev0-py3-none-any.whl.zip --markdown 20230621/r/rayfed-nightly/0.1.0b20230620.dev0-0.1.0b20230621.dev0/diff.md --exclude *.pyd
+[2023-06-21 03:44:51] INFO root fetch - processPackages [cvat-manifest-builder]: Downloading https://files.pythonhosted.org/packages/2d/fd/8ffcf4ea6e13da75ab842cd4fdacad9222d483a9b210dbc27e9c251f6a20/cvat_manifest_builder-0.0.99.tar.gz
+[2023-06-21 03:44:51] INFO root fetch - processPackages [cvat-manifest-builder]: executing diffoscope
+[2023-06-21 03:44:51] INFO root fetch - processPackages [cvat-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvat_manifest_builder-0.0.98.tar.gz tmp/cvat_manifest_builder-0.0.99.tar.gz --markdown 20230621/c/cvat-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:52] INFO root fetch - processPackages [assistorg-api]: Remove: archive file [/home/abi/fetcher/tmp/assistorg-api-0.0.1.tar.gz]
+[2023-06-21 03:44:52] INFO root fetch - processPackages [assistorg-api]: Remove: archive file [/home/abi/fetcher/tmp/assistorg-api-0.0.2.tar.gz]
+[2023-06-21 03:44:52] INFO root fetch - processPackages [assistorg-api]: Start processing: iwx-manifest-builder
+[2023-06-21 03:44:52] INFO root fetch - main [MainThread]: End processing [assistorg-api]: success
+[2023-06-21 03:44:53] INFO root fetch - processPackages [iwx-manifest-builder]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/33/bf/02ba356059e9069f6db9f027bf1bd97a4c1de39fe82e72814ed2f73f3c39/iwx_manifest_builder-0.0.98.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [hatch-project-pypi]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi-0.0.1.tar.gz]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [hatch-project-pypi]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi-0.0.2.tar.gz]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [hatch-project-pypi]: Start processing: json-file-split
+[2023-06-21 03:44:53] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi]: success
+[2023-06-21 03:44:53] INFO root fetch - processPackages [hatch-project-pypi]: Start processing: awpr
+[2023-06-21 03:44:53] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi]: success
+[2023-06-21 03:44:53] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: fsai-grpc-api
+[2023-06-21 03:44:53] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-06-21 03:44:53] INFO root fetch - processPackages [json-file-split]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [awpr]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [proactive-jupyter-kernel]: Start processing: fsai-shared-funcs
+[2023-06-21 03:44:53] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-06-21 03:44:53] INFO root fetch - processPackages [fsai-grpc-api]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [fsai-shared-funcs]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [iwx-manifest-builder]: Downloading https://files.pythonhosted.org/packages/d7/d6/4db840a6915c649204176fabdc1a7d70a4fdf7a1d3bd33ddd8cd11c02111/iwx_manifest_builder-0.0.99.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.98.tar.gz]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [cvat-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/cvat_manifest_builder-0.0.99.tar.gz]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [cvat-manifest-builder]: Start processing: geopix
+[2023-06-21 03:44:53] INFO root fetch - main [MainThread]: End processing [cvat-manifest-builder]: success
+[2023-06-21 03:44:53] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/08/a7/9a7ebe38ab432231655f1bfd81e702be8be178baa4b6a212002bdcf3cd96/fsai_grpc_api-0.0.98.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/20/69/15c65a62a3a988a3178f156c6296d17502891a9da8e386979e511c8bd639/awpr-0.0.98.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [geopix]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [iwx-manifest-builder]: executing diffoscope
+[2023-06-21 03:44:53] INFO root fetch - processPackages [iwx-manifest-builder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iwx_manifest_builder-0.0.98.tar.gz tmp/iwx_manifest_builder-0.0.99.tar.gz --markdown 20230621/i/iwx-manifest-builder/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:53] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230620.dev0-py3-none-any.whl.zip]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [rayfed-nightly]: Remove: archive file [/home/abi/fetcher/tmp/rayfed_nightly-0.1.0b20230621.dev0-py3-none-any.whl.zip]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [rayfed-nightly]: Start processing: recursive-validator
+[2023-06-21 03:44:53] INFO root fetch - main [MainThread]: End processing [rayfed-nightly]: success
+[2023-06-21 03:44:53] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/99/d8/622632db80b721cb33feb5bafb9759e9b295589e09234724044a35a985ba/json_file_split-0.0.98.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [recursive-validator]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/61/bc/39412ebc8deaeb66f457caebc15c02bc1fe07bc33108672e4bf143d64e3b/fsai_shared_funcs-0.0.98.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/b6/a3/41b4f581e7463e3bce55e79579de9bf1f2c828011573c06bf7ab33a974bd/geopix-0.0.98.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [awpr]: Downloading https://files.pythonhosted.org/packages/43/6a/a5e099ae1a88431e28ea793094495025f2a78ac4d52ea49d8aad0e55cf8c/awpr-0.0.99.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/44/24/6e3f27033069680d4ad07aee3e1d535e1b3444f1ce72e8df548e8a16dc8e/recursive_validator-0.0.98.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [euclipy]: Remove: archive file [/home/abi/fetcher/tmp/euclipy-0.3.1.tar.gz]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [euclipy]: Remove: archive file [/home/abi/fetcher/tmp/euclipy-1.0.0.tar.gz]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [euclipy]: Start processing: nbdev-django
+[2023-06-21 03:44:53] INFO root fetch - main [MainThread]: End processing [euclipy]: success
+[2023-06-21 03:44:53] INFO root fetch - processPackages [json-file-split]: Downloading https://files.pythonhosted.org/packages/a0/bb/0991effbd14e0114fac9146f11da815fc866dc9e12a179cdfc204af7bd99/json_file_split-0.0.99.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [fsai-grpc-api]: Downloading https://files.pythonhosted.org/packages/9b/76/8a69144e2e7db3d7b70f7a9a6458e71d63b921d67ca39c9f646ee438e103/fsai_grpc_api-0.0.99.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:44:53] INFO root fetch - processPackages [json-file-split]: executing diffoscope
+[2023-06-21 03:44:53] INFO root fetch - processPackages [json-file-split]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/json_file_split-0.0.98.tar.gz tmp/json_file_split-0.0.99.tar.gz --markdown 20230621/j/json-file-split/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:53] INFO root fetch - processPackages [fsai-shared-funcs]: Downloading https://files.pythonhosted.org/packages/3d/ad/0128c444d5b95fa3b9882d63404069f05fbee06ab63f54a541348c51a445/fsai_shared_funcs-0.0.99.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [fsai-grpc-api]: executing diffoscope
+[2023-06-21 03:44:53] INFO root fetch - processPackages [fsai-grpc-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_grpc_api-0.0.98.tar.gz tmp/fsai_grpc_api-0.0.99.tar.gz --markdown 20230621/f/fsai-grpc-api/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:53] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [geopix]: Downloading https://files.pythonhosted.org/packages/6a/35/1c90409a83c347836b8e4e5b2ad3d6ad6534718a8977dd9b3a646edd5e26/geopix-0.0.99.tar.gz
+[2023-06-21 03:44:53] INFO root fetch - processPackages [awpr]: executing diffoscope
+[2023-06-21 03:44:53] INFO root fetch - processPackages [awpr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awpr-0.0.98.tar.gz tmp/awpr-0.0.99.tar.gz --markdown 20230621/a/awpr/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:54] INFO root fetch - processPackages [fsai-shared-funcs]: executing diffoscope
+[2023-06-21 03:44:54] INFO root fetch - processPackages [fsai-shared-funcs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsai_shared_funcs-0.0.98.tar.gz tmp/fsai_shared_funcs-0.0.99.tar.gz --markdown 20230621/f/fsai-shared-funcs/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:54] INFO root fetch - processPackages [geopix]: executing diffoscope
+[2023-06-21 03:44:54] INFO root fetch - processPackages [geopix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopix-0.0.98.tar.gz tmp/geopix-0.0.99.tar.gz --markdown 20230621/g/geopix/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:54] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-06-21 03:44:54] INFO root fetch - processPackages [recursive-validator]: Downloading https://files.pythonhosted.org/packages/3a/cc/f8feacbe20ac476d11c94a3c866b32fb9b4dde5694a5194843b6b0dde0eb/recursive_validator-0.0.99.tar.gz
+[2023-06-21 03:44:54] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-06-21 03:44:54] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230621/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [pepperize.cdk-organizations]: Start processing: data-repo-client
+[2023-06-21 03:44:54] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-21 03:44:54] INFO root fetch - processPackages [data-repo-client]: New version: [1.64.0] Old Version: [1.493.0]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [recursive-validator]: executing diffoscope
+[2023-06-21 03:44:54] INFO root fetch - processPackages [recursive-validator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/recursive_validator-0.0.98.tar.gz tmp/recursive_validator-0.0.99.tar.gz --markdown 20230621/r/recursive-validator/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:44:54] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/23/79/b683cb9efdf1df5a9979ada4e2c6e66f26790fd968bc1b045fb3e176b313/data-repo-client-1.493.0.tar.gz
+[2023-06-21 03:44:54] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [nbdev-scipy]: Start processing: splinterglyph
+[2023-06-21 03:44:54] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-06-21 03:44:54] WARNING root fetch - processPackages [splinterglyph]: Skipping, unable to determine old version
+[2023-06-21 03:44:54] INFO root fetch - processPackages [splinterglyph]: Start processing: nbdev-apl
+[2023-06-21 03:44:54] INFO root fetch - main [MainThread]: End processing [splinterglyph] error
+[2023-06-21 03:44:54] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.847] Old Version: [0.0.846]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.98.tar.gz]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [iwx-manifest-builder]: Remove: archive file [/home/abi/fetcher/tmp/iwx_manifest_builder-0.0.99.tar.gz]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [iwx-manifest-builder]: Start processing: coiled
+[2023-06-21 03:44:54] INFO root fetch - main [MainThread]: End processing [iwx-manifest-builder]: success
+[2023-06-21 03:44:54] INFO root fetch - processPackages [coiled]: New version: [0.7.8.dev8] Old Version: [0.7.8.dev7]
+[2023-06-21 03:44:54] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/9e/e9/499e909adff1f5cb216ed4e5ea695c5a527e3d7ef8800a123ed00a90f5d2/nbdev-apl-0.0.846.tar.gz
+[2023-06-21 03:44:54] INFO root fetch - processPackages [data-repo-client]: Downloading https://files.pythonhosted.org/packages/19/fa/5b70d821d8c8a059d230c6bfc9611cca8674093f2e0058fe6c06a5041daf/data-repo-client-1.64.0.tar.gz
+[2023-06-21 03:44:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/30/f2/c6365e5a77213d394a9a7158d66b9adbd524915484a2241b0538108b3802/coiled-0.7.8.dev7.tar.gz
+[2023-06-21 03:44:55] INFO root fetch - processPackages [coiled]: Downloading https://files.pythonhosted.org/packages/b0/1f/4cae7c0896fb4f108f0000b8489576a5c6af1c54944e41813f7cd0e09c65/coiled-0.7.8.dev8.tar.gz
+[2023-06-21 03:44:55] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/a5/9a/76bc4f3b2aa280e8807b192a281942cf6d383e5bc852d0cf079c43aeca01/nbdev-apl-0.0.847.tar.gz
+[2023-06-21 03:44:55] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.98.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - processPackages [json-file-split]: Remove: archive file [/home/abi/fetcher/tmp/json_file_split-0.0.99.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - main [MainThread]: End processing [json-file-split]: success
+[2023-06-21 03:44:55] INFO root fetch - processPackages [data-repo-client]: executing diffoscope
+[2023-06-21 03:44:55] INFO root fetch - processPackages [data-repo-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/data-repo-client-1.493.0.tar.gz tmp/data-repo-client-1.64.0.tar.gz --markdown 20230621/d/data-repo-client/1.493.0-1.64.0/diff.md --exclude *.pyd
+[2023-06-21 03:44:55] INFO root fetch - processPackages [coiled]: executing diffoscope
+[2023-06-21 03:44:55] INFO root fetch - processPackages [coiled]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coiled-0.7.8.dev7.tar.gz tmp/coiled-0.7.8.dev8.tar.gz --markdown 20230621/c/coiled/0.7.8.dev7-0.7.8.dev8/diff.md --exclude *.pyd
+[2023-06-21 03:44:55] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-06-21 03:44:55] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.846.tar.gz tmp/nbdev-apl-0.0.847.tar.gz --markdown 20230621/n/nbdev-apl/0.0.846-0.0.847/diff.md --exclude *.pyd
+[2023-06-21 03:44:55] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.98.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - processPackages [awpr]: Remove: archive file [/home/abi/fetcher/tmp/awpr-0.0.99.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - main [MainThread]: End processing [awpr]: success
+[2023-06-21 03:44:55] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.98.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - processPackages [geopix]: Remove: archive file [/home/abi/fetcher/tmp/geopix-0.0.99.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - main [MainThread]: End processing [geopix]: success
+[2023-06-21 03:44:55] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.98.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - processPackages [recursive-validator]: Remove: archive file [/home/abi/fetcher/tmp/recursive_validator-0.0.99.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - main [MainThread]: End processing [recursive-validator]: success
+[2023-06-21 03:44:55] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.98.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - processPackages [fsai-shared-funcs]: Remove: archive file [/home/abi/fetcher/tmp/fsai_shared_funcs-0.0.99.tar.gz]
+[2023-06-21 03:44:55] INFO root fetch - main [MainThread]: End processing [fsai-shared-funcs]: success
+[2023-06-21 03:44:56] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.846.tar.gz]
+[2023-06-21 03:44:56] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.847.tar.gz]
+[2023-06-21 03:44:56] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-06-21 03:44:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.8.dev7.tar.gz]
+[2023-06-21 03:44:56] INFO root fetch - processPackages [coiled]: Remove: archive file [/home/abi/fetcher/tmp/coiled-0.7.8.dev8.tar.gz]
+[2023-06-21 03:44:56] INFO root fetch - main [MainThread]: End processing [coiled]: success
+[2023-06-21 03:44:57] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.98.tar.gz]
+[2023-06-21 03:44:57] INFO root fetch - processPackages [fsai-grpc-api]: Remove: archive file [/home/abi/fetcher/tmp/fsai_grpc_api-0.0.99.tar.gz]
+[2023-06-21 03:44:57] INFO root fetch - main [MainThread]: End processing [fsai-grpc-api]: success
+[2023-06-21 03:44:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-06-21 03:44:57] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-06-21 03:44:57] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-06-21 03:44:58] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.493.0.tar.gz]
+[2023-06-21 03:44:58] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.64.0.tar.gz]
+[2023-06-21 03:44:58] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
+[2023-06-21 03:44:58] INFO root fetch - main [MainThread]: Store serial: [18584116]
