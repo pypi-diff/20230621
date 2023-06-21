@@ -15302,3 +15302,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 09:21:14] INFO root fetch - processPackages [imgo]: Remove: archive file [/home/abi/fetcher/tmp/imgo-2.5.7.tar.gz]
 [2023-06-21 09:21:14] INFO root fetch - main [MainThread]: End processing [imgo]: success
 [2023-06-21 09:21:14] INFO root fetch - main [MainThread]: Store serial: [18586544]
+[2023-06-21 09:26:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586544]
+[2023-06-21 09:26:24] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-21 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kynaylibs
+[2023-06-21 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sphecerix
+[2023-06-21 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperfast-python-template
+[2023-06-21 09:26:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pygeoweaver
+[2023-06-21 09:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: thipstercli
+[2023-06-21 09:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: lb-telemetry
+[2023-06-21 09:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: planetmint-abci
+[2023-06-21 09:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fabrique-nodes-core
+[2023-06-21 09:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aioarp
+[2023-06-21 09:26:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: titan-iris
+[2023-06-21 09:26:25] INFO root fetch - processPackages [titan-iris]: New version: [0.5.0a0] Old Version: [0.4.0a0]
+[2023-06-21 09:26:25] INFO root fetch - processPackages [thipstercli]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-21 09:26:25] WARNING root fetch - processPackages [lb-telemetry]: Skipping, unable to determine old version
+[2023-06-21 09:26:25] INFO root fetch - main [MainThread]: End processing [lb-telemetry] error
+[2023-06-21 09:26:25] INFO root fetch - processPackages [pygeoweaver]: New version: [0.7.3] Old Version: [0.7.2]
+[2023-06-21 09:26:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/00/f5/04c2b82028328441503f4f7939dc1e1148ce6d647297f2137bc60e3c4d2a/titan-iris-0.4.0a0.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/e4/4e/ff4b1716721603132e2e79f78cd2608bd26b07196103baf949381760a12e/thipstercli-0.3.1.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [kynaylibs]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-21 09:26:25] INFO root fetch - processPackages [aioarp]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-21 09:26:25] INFO root fetch - processPackages [sphecerix]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-21 09:26:25] INFO root fetch - processPackages [fabrique-nodes-core]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-21 09:26:25] WARNING root fetch - processPackages [planetmint-abci]: Skipping, unable to determine old version
+[2023-06-21 09:26:25] INFO root fetch - main [MainThread]: End processing [planetmint-abci] error
+[2023-06-21 09:26:25] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-21 09:26:25] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/9c/48/0d0c1025eb41b50b1b298093dfb1cb49585ee42bf6a4229376a5d68006b1/hyperfast_python_template-0.8.8.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [thipstercli]: Downloading https://files.pythonhosted.org/packages/a3/45/b3f27aed4daf16a886fb1f54a2cd48b082e51a163969fd13cc20ff6da7a9/thipstercli-0.3.2.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/75/cf/614b653bb18bec500e8d28537d7346ab178ab0c89030f0de9000bc761f2a/pygeoweaver-0.7.2.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/4d/8d/e763a30d4b0cc8dd41b765ed56b50ee35a6237f965e2aebe5f9e0010ffb0/titan-iris-0.5.0a0.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/01/f0/9ef8c78798ad954dc2914175a635294e8a233102fcef98d09cafc8277bfa/kynaylibs-1.8.8.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [sphecerix]: Downloading https://files.pythonhosted.org/packages/ba/22/b0a5b991066591030472b4d6adf95f484b3ad25659d7d357fd8cb8df2952/sphecerix-0.3.0-py3-none-any.whl
+[2023-06-21 09:26:25] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/7f/a8/4f4c3be9e820976c34aa162c025015407999315a0a300d4a2de80573d788/aioarp-0.0.7.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [thipstercli]: executing diffoscope
+[2023-06-21 09:26:25] INFO root fetch - processPackages [thipstercli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipstercli-0.3.1.tar.gz tmp/thipstercli-0.3.2.tar.gz --markdown 20230621/t/thipstercli/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-21 09:26:25] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/f6/7b/80706f67cf2427dcc174b38d9ba9f40f1eca676d6c6eda0de7281b15e443/hyperfast_python_template-0.9.0.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-21 09:26:25] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.4.0a0.tar.gz tmp/titan-iris-0.5.0a0.tar.gz --markdown 20230621/t/titan-iris/0.4.0a0-0.5.0a0/diff.md --exclude *.pyd
+[2023-06-21 09:26:25] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/59/21/5347bdae23e1f4486334f037f76d34b2023effebb750f85fb4e5d087fdc9/fabrique_nodes_core-0.9.7-py3-none-any.whl
+[2023-06-21 09:26:25] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-06-21 09:26:25] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.8.8.tar.gz tmp/hyperfast_python_template-0.9.0.tar.gz --markdown 20230621/h/hyperfast-python-template/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 09:26:25] INFO root fetch - processPackages [pygeoweaver]: Downloading https://files.pythonhosted.org/packages/bf/c6/fbaa88ece2b8d09359c25767b154363efd66ab8d0eca7a34f9ccf6e84d99/pygeoweaver-0.7.3.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [kynaylibs]: Downloading https://files.pythonhosted.org/packages/bb/41/50c70a7fc9b684c466bbb3ded808dc5c299717782c0d07c937064a87d62b/kynaylibs-1.8.9.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [aioarp]: Downloading https://files.pythonhosted.org/packages/34/27/9534d9ebcbe9e8e05c50858b881dff670d1f16ceab7289ef073d07d6525e/aioarp-0.0.8.tar.gz
+[2023-06-21 09:26:25] INFO root fetch - processPackages [pygeoweaver]: executing diffoscope
+[2023-06-21 09:26:25] INFO root fetch - processPackages [pygeoweaver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygeoweaver-0.7.2.tar.gz tmp/pygeoweaver-0.7.3.tar.gz --markdown 20230621/p/pygeoweaver/0.7.2-0.7.3/diff.md --exclude *.pyd
+[2023-06-21 09:26:25] INFO root fetch - processPackages [kynaylibs]: executing diffoscope
+[2023-06-21 09:26:25] INFO root fetch - processPackages [kynaylibs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kynaylibs-1.8.8.tar.gz tmp/kynaylibs-1.8.9.tar.gz --markdown 20230621/k/kynaylibs/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-21 09:26:25] INFO root fetch - processPackages [aioarp]: executing diffoscope
+[2023-06-21 09:26:25] INFO root fetch - processPackages [aioarp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioarp-0.0.7.tar.gz tmp/aioarp-0.0.8.tar.gz --markdown 20230621/a/aioarp/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-21 09:26:25] INFO root fetch - processPackages [fabrique-nodes-core]: Downloading https://files.pythonhosted.org/packages/82/20/2f588d230e810ce50e4b1f27f47a5ff3114cba10e64659f1208874ac1396/fabrique_nodes_core-0.9.8-py3-none-any.whl
+[2023-06-21 09:26:25] INFO root fetch - processPackages [sphecerix]: Downloading https://files.pythonhosted.org/packages/21/cc/434ecd6eace1d8422e9648a293ff319ccf1fdd9bdfec8d52f67e78dcb419/sphecerix-0.4.0-py3-none-any.whl
+[2023-06-21 09:26:25] INFO root fetch - processPackages [fabrique-nodes-core]: executing diffoscope
+[2023-06-21 09:26:25] INFO root fetch - processPackages [fabrique-nodes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip --markdown 20230621/f/fabrique-nodes-core/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-21 09:26:25] INFO root fetch - processPackages [sphecerix]: executing diffoscope
+[2023-06-21 09:26:25] INFO root fetch - processPackages [sphecerix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphecerix-0.3.0-py3-none-any.whl.zip tmp/sphecerix-0.4.0-py3-none-any.whl.zip --markdown 20230621/s/sphecerix/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-21 09:26:26] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.8.tar.gz]
+[2023-06-21 09:26:26] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.9.0.tar.gz]
+[2023-06-21 09:26:26] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-06-21 09:26:26] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.3.1.tar.gz]
+[2023-06-21 09:26:26] INFO root fetch - processPackages [thipstercli]: Remove: archive file [/home/abi/fetcher/tmp/thipstercli-0.3.2.tar.gz]
+[2023-06-21 09:26:26] INFO root fetch - main [MainThread]: End processing [thipstercli]: success
+[2023-06-21 09:26:27] INFO root fetch - processPackages [sphecerix]: Remove: archive file [/home/abi/fetcher/tmp/sphecerix-0.3.0-py3-none-any.whl.zip]
+[2023-06-21 09:26:27] INFO root fetch - processPackages [sphecerix]: Remove: archive file [/home/abi/fetcher/tmp/sphecerix-0.4.0-py3-none-any.whl.zip]
+[2023-06-21 09:26:27] INFO root fetch - main [MainThread]: End processing [sphecerix]: success
+[2023-06-21 09:26:27] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.7.tar.gz]
+[2023-06-21 09:26:27] INFO root fetch - processPackages [aioarp]: Remove: archive file [/home/abi/fetcher/tmp/aioarp-0.0.8.tar.gz]
+[2023-06-21 09:26:27] INFO root fetch - main [MainThread]: End processing [aioarp]: success
+[2023-06-21 09:26:27] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.7-py3-none-any.whl.zip]
+[2023-06-21 09:26:27] INFO root fetch - processPackages [fabrique-nodes-core]: Remove: archive file [/home/abi/fetcher/tmp/fabrique_nodes_core-0.9.8-py3-none-any.whl.zip]
+[2023-06-21 09:26:27] INFO root fetch - main [MainThread]: End processing [fabrique-nodes-core]: success
+[2023-06-21 09:26:27] INFO root fetch - processPackages [kynaylibs]: Remove: archive file [/home/abi/fetcher/tmp/kynaylibs-1.8.8.tar.gz]
+[2023-06-21 09:26:27] INFO root fetch - processPackages [kynaylibs]: Remove: archive file [/home/abi/fetcher/tmp/kynaylibs-1.8.9.tar.gz]
+[2023-06-21 09:26:27] INFO root fetch - main [MainThread]: End processing [kynaylibs]: success
+[2023-06-21 09:26:27] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.7.2.tar.gz]
+[2023-06-21 09:26:27] INFO root fetch - processPackages [pygeoweaver]: Remove: archive file [/home/abi/fetcher/tmp/pygeoweaver-0.7.3.tar.gz]
+[2023-06-21 09:26:27] INFO root fetch - main [MainThread]: End processing [pygeoweaver]: success
+[2023-06-21 09:26:27] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.4.0a0.tar.gz]
+[2023-06-21 09:26:27] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.5.0a0.tar.gz]
+[2023-06-21 09:26:27] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-21 09:26:27] INFO root fetch - main [MainThread]: Store serial: [18586609]
