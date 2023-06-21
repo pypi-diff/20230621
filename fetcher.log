@@ -15129,3 +15129,176 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 09:14:20] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-06-21 09:15:11] INFO root fetch - main [MainThread]: End processing [upgini]: success
 [2023-06-21 09:15:11] INFO root fetch - main [MainThread]: Store serial: [18586441]
+[2023-06-21 09:20:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586441]
+[2023-06-21 09:20:21] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: napari-labelprop
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: conllup
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: khoj-assistant
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: biblatex2bibtex
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kalm
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: iolsmp
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modern.button
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: khoj-assistant
+[2023-06-21 09:20:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tg-bot-ml
+[2023-06-21 09:20:21] INFO root fetch - processPackages [kalm]: New version: [0.7.3] Old Version: [0.7.1]
+[2023-06-21 09:20:21] INFO root fetch - processPackages [tg-bot-ml]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 09:20:21] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/5a/60/74a597cb40b41bae78bb46d812a1e4a613d6626e72238fa254f22ef7d552/kalm-0.7.1.tar.gz
+[2023-06-21 09:20:21] WARNING root fetch - processPackages [iolsmp]: Skipping, unable to determine old version
+[2023-06-21 09:20:21] INFO root fetch - processPackages [iolsmp]: Start processing: tfq-nightly
+[2023-06-21 09:20:21] INFO root fetch - main [MainThread]: End processing [iolsmp] error
+[2023-06-21 09:20:21] INFO root fetch - processPackages [napari-labelprop]: New version: [1.0.0] Old Version: [0.0.1]
+[2023-06-21 09:20:21] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/1f/74/190eebea628180649470436baf125d2e51ab5557ac19a073f61523a609c3/tg_bot_ml-0.0.2.tar.gz
+[2023-06-21 09:20:21] INFO root fetch - processPackages [biblatex2bibtex]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 09:20:21] INFO root fetch - processPackages [conllup]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-21 09:20:21] WARNING root fetch - processPackages [modern.button]: Skipping, unable to determine old version
+[2023-06-21 09:20:21] INFO root fetch - processPackages [modern.button]: Start processing: lb-telemetry
+[2023-06-21 09:20:21] INFO root fetch - main [MainThread]: End processing [modern.button] error
+[2023-06-21 09:20:22] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev79] Old Version: [0.6.3.dev78]
+[2023-06-21 09:20:22] INFO root fetch - processPackages [khoj-assistant]: New version: [0.6.3.dev79] Old Version: [0.6.3.dev78]
+[2023-06-21 09:20:22] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230620] Old Version: [0.7.3.dev20230619]
+[2023-06-21 09:20:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-21 09:20:22] WARNING root fetch - processPackages [lb-telemetry]: Skipping, unable to determine old version
+[2023-06-21 09:20:22] INFO root fetch - processPackages [lb-telemetry]: Start processing: triplex
+[2023-06-21 09:20:22] INFO root fetch - main [MainThread]: End processing [lb-telemetry] error
+[2023-06-21 09:20:22] INFO root fetch - processPackages [tg-bot-ml]: Downloading https://files.pythonhosted.org/packages/8e/40/bbaf5021307a35017025575397fb3191d238c933cc5571bcef3ff96cbc36/tg_bot_ml-0.0.3.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/c3/c1/92a1e18de55e11157457faf461d4781b2ea956dc6a55954a0b59ae66e16c/kalm-0.7.3.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [conllup]: Downloading https://files.pythonhosted.org/packages/69/34/97e9be236225c9c0b3ce2c08f52492ebfa9791696d2ea199a34be4f49493/conllup-0.4.7.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [napari-labelprop]: Downloading https://files.pythonhosted.org/packages/33/de/3c063bc08ab0a6950f2421e37334411f6dc0295f028f7cf2653520864b8c/napari-labelprop-0.0.1.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [biblatex2bibtex]: Downloading https://files.pythonhosted.org/packages/72/a7/7fac34f7d04d6399bf81968e26607fb9248b2ab2dbae7bf7d5354af1654c/biblatex2bibtex-0.0.2.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [triplex]: New version: [0.0.11] Old Version: [0.0.10]
+[2023-06-21 09:20:22] INFO root fetch - processPackages [tg-bot-ml]: executing diffoscope
+[2023-06-21 09:20:22] INFO root fetch - processPackages [tg-bot-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tg_bot_ml-0.0.2.tar.gz tmp/tg_bot_ml-0.0.3.tar.gz --markdown 20230621/t/tg-bot-ml/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 09:20:22] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/c6/c0/257d6b420cb32e5beb7800c69ee2c3e312ec12bc28ce371eca999df932df/tfq_nightly-0.7.3.dev20230619-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 09:20:22] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/3d/51/fc3aab1e617e9bd9182b3effc4ae7fa37b92532b0dca1fccd00a82437913/khoj_assistant-0.6.3.dev78.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/3d/51/fc3aab1e617e9bd9182b3effc4ae7fa37b92532b0dca1fccd00a82437913/khoj_assistant-0.6.3.dev78.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-21 09:20:22] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.1.tar.gz tmp/kalm-0.7.3.tar.gz --markdown 20230621/k/kalm/0.7.1-0.7.3/diff.md --exclude *.pyd
+[2023-06-21 09:20:22] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10822715>=10485760
+[2023-06-21 09:20:22] INFO root fetch - processPackages [tfq-nightly]: Start processing: irene-pro
+[2023-06-21 09:20:22] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-06-21 09:20:22] INFO root fetch - processPackages [conllup]: Downloading https://files.pythonhosted.org/packages/60/ed/96e94d96816e183c91ff251ce52a1b40e53961673ab6c106e1f73f07fae5/conllup-0.4.8.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [triplex]: Downloading https://files.pythonhosted.org/packages/d9/92/659c2f80cddf8a69ba26a7c2c843ad39d21fc3a2c8ba7e9d089146d9a84e/triplex-0.0.10.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [napari-labelprop]: Downloading https://files.pythonhosted.org/packages/00/54/c5cc7026a3c51b14f6deddd4e29c8f400599423f6f11dd6c8424746d4294/napari-labelprop-1.0.0.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [irene-pro]: New version: [0.0.64] Old Version: [0.0.63]
+[2023-06-21 09:20:22] INFO root fetch - processPackages [biblatex2bibtex]: Downloading https://files.pythonhosted.org/packages/83/6e/e853c69ff261d8721573f301d15c2373daf992f7f51eceba5355b5d72b8d/biblatex2bibtex-0.0.3.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [conllup]: executing diffoscope
+[2023-06-21 09:20:22] INFO root fetch - processPackages [conllup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/conllup-0.4.7.tar.gz tmp/conllup-0.4.8.tar.gz --markdown 20230621/c/conllup/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-21 09:20:22] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/df/7a/59fcfcc09191a3cab4029f00eadf18fabc755c452eadfd46801374b7cce7/khoj_assistant-0.6.3.dev79.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [khoj-assistant]: Downloading https://files.pythonhosted.org/packages/df/7a/59fcfcc09191a3cab4029f00eadf18fabc755c452eadfd46801374b7cce7/khoj_assistant-0.6.3.dev79.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [napari-labelprop]: executing diffoscope
+[2023-06-21 09:20:22] INFO root fetch - processPackages [napari-labelprop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/napari-labelprop-0.0.1.tar.gz tmp/napari-labelprop-1.0.0.tar.gz --markdown 20230621/n/napari-labelprop/0.0.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-21 09:20:22] INFO root fetch - processPackages [biblatex2bibtex]: executing diffoscope
+[2023-06-21 09:20:22] INFO root fetch - processPackages [biblatex2bibtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biblatex2bibtex-0.0.2.tar.gz tmp/biblatex2bibtex-0.0.3.tar.gz --markdown 20230621/b/biblatex2bibtex/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 09:20:22] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/3e/1b/18f19051953aa24466e7931688538e2f1e07b3731c918d73704503850fb2/irene_pro-0.0.63.tar.gz
+[2023-06-21 09:20:22] INFO root fetch - processPackages [triplex]: Downloading https://files.pythonhosted.org/packages/d6/4f/9e330d6b3245d820dc2366ce8d2a8f5d23850409d9dcd38f77a227411c59/triplex-0.0.11.tar.gz
+[2023-06-21 09:20:23] INFO root fetch - processPackages [triplex]: executing diffoscope
+[2023-06-21 09:20:23] INFO root fetch - processPackages [triplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triplex-0.0.10.tar.gz tmp/triplex-0.0.11.tar.gz --markdown 20230621/t/triplex/0.0.10-0.0.11/diff.md --exclude *.pyd
+[2023-06-21 09:20:23] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-21 09:20:23] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev78.tar.gz tmp/khoj_assistant-0.6.3.dev79.tar.gz --markdown 20230621/k/khoj-assistant/0.6.3.dev78-0.6.3.dev79/diff.md --exclude *.pyd
+[2023-06-21 09:20:23] INFO root fetch - processPackages [khoj-assistant]: executing diffoscope
+[2023-06-21 09:20:23] INFO root fetch - processPackages [khoj-assistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/khoj_assistant-0.6.3.dev78.tar.gz tmp/khoj_assistant-0.6.3.dev79.tar.gz --markdown 20230621/k/khoj-assistant/0.6.3.dev78-0.6.3.dev79/diff.md --exclude *.pyd
+[2023-06-21 09:20:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-21 09:20:23] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/5a/9e/753aa3bb88a353d9d1e268b8b589dad35cf69bedd145a105989099d271bd/irene_pro-0.0.64.tar.gz
+[2023-06-21 09:20:23] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-06-21 09:20:23] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.0.63.tar.gz tmp/irene_pro-0.0.64.tar.gz --markdown 20230621/i/irene-pro/0.0.63-0.0.64/diff.md --exclude *.pyd
+[2023-06-21 09:20:23] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.1.tar.gz]
+[2023-06-21 09:20:23] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.3.tar.gz]
+[2023-06-21 09:20:23] INFO root fetch - processPackages [kalm]: Start processing: nonebot-plugin-wordle
+[2023-06-21 09:20:23] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-21 09:20:23] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.2.tar.gz]
+[2023-06-21 09:20:23] INFO root fetch - processPackages [tg-bot-ml]: Remove: archive file [/home/abi/fetcher/tmp/tg_bot_ml-0.0.3.tar.gz]
+[2023-06-21 09:20:23] INFO root fetch - processPackages [tg-bot-ml]: Start processing: aim-ui
+[2023-06-21 09:20:23] INFO root fetch - main [MainThread]: End processing [tg-bot-ml]: success
+[2023-06-21 09:20:23] INFO root fetch - processPackages [nonebot-plugin-wordle]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-21 09:20:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-21 09:20:23] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230621/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 09:20:23] INFO root fetch - processPackages [aim-ui]: New version: [4.0.0a9] Old Version: [4.0.0a8]
+[2023-06-21 09:20:23] INFO root fetch - processPackages [nonebot-plugin-wordle]: Downloading https://files.pythonhosted.org/packages/6d/56/245b432a1f71e96c8dde2f1b0727bd7115825083ff6d08a3962daf092964/nonebot_plugin_wordle-0.2.1.tar.gz
+[2023-06-21 09:20:23] INFO root fetch - processPackages [aim-ui]: Downloading https://files.pythonhosted.org/packages/1b/27/ec8ff042712fc8f1ee017399fe7207ef06baaecaee7d6b1738df5c3467c0/aim-ui-4.0.0a8.tar.gz
+[2023-06-21 09:20:24] INFO root fetch - processPackages [conllup]: Remove: archive file [/home/abi/fetcher/tmp/conllup-0.4.7.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [conllup]: Remove: archive file [/home/abi/fetcher/tmp/conllup-0.4.8.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [conllup]: Start processing: kalm
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [conllup]: success
+[2023-06-21 09:20:24] INFO root fetch - processPackages [kalm]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-21 09:20:24] WARNING root fetch - processPackages [aim-ui]: Skipping package: exceeds size limit 19414824>=10485760
+[2023-06-21 09:20:24] INFO root fetch - processPackages [aim-ui]: Start processing: streamlit-nightly
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [aim-ui] error
+[2023-06-21 09:20:24] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/3f/63/4138148cc8e18a2bcbb8d257c1e3a0f0d69b48d9ef31c95ffe16f7cbdafe/kalm-0.7.4.tar.gz
+[2023-06-21 09:20:24] INFO root fetch - processPackages [biblatex2bibtex]: Remove: archive file [/home/abi/fetcher/tmp/biblatex2bibtex-0.0.2.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [biblatex2bibtex]: Remove: archive file [/home/abi/fetcher/tmp/biblatex2bibtex-0.0.3.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [biblatex2bibtex]: Start processing: imgo
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [biblatex2bibtex]: success
+[2023-06-21 09:20:24] INFO root fetch - processPackages [imgo]: New version: [2.5.7] Old Version: [2.5.6]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-21 09:20:24] INFO root fetch - processPackages [nonebot-plugin-wordle]: Downloading https://files.pythonhosted.org/packages/6e/5a/41b810bf82d915b7917e0b1c8fa763b551eebf71d7cce62c18c62bc1f666/nonebot_plugin_wordle-0.3.0.tar.gz
+[2023-06-21 09:20:24] INFO root fetch - processPackages [imgo]: Downloading https://files.pythonhosted.org/packages/62/2a/d0c8b2933018e586140e36783906676fa0b05f27531e2a5bcc49136ef34e/imgo-2.5.6.tar.gz
+[2023-06-21 09:20:24] INFO root fetch - processPackages [napari-labelprop]: Remove: archive file [/home/abi/fetcher/tmp/napari-labelprop-0.0.1.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [napari-labelprop]: Remove: archive file [/home/abi/fetcher/tmp/napari-labelprop-1.0.0.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [napari-labelprop]: Start processing: antchain-mpaasfaceverify
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [napari-labelprop]: success
+[2023-06-21 09:20:24] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.63.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.0.64.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [irene-pro]: Start processing: aim
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-06-21 09:20:24] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/09/2e/2a7426666d234221f4d2df0ba8e341bcb26d55502a6281c1d2db2746e379/kalm-0.7.5.tar.gz
+[2023-06-21 09:20:24] INFO root fetch - processPackages [antchain-mpaasfaceverify]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [imgo]: Downloading https://files.pythonhosted.org/packages/5f/6b/8515f2070b0dbc6661d179b17dfa0843e686b1886055327404d458ae5ea1/imgo-2.5.7.tar.gz
+[2023-06-21 09:20:24] INFO root fetch - processPackages [imgo]: executing diffoscope
+[2023-06-21 09:20:24] INFO root fetch - processPackages [imgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imgo-2.5.6.tar.gz tmp/imgo-2.5.7.tar.gz --markdown 20230621/i/imgo/2.5.6-2.5.7/diff.md --exclude *.pyd
+[2023-06-21 09:20:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev78.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [khoj-assistant]: Remove: archive file [/home/abi/fetcher/tmp/khoj_assistant-0.6.3.dev79.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [khoj-assistant]: Start processing: acquire
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-21 09:20:24] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-21 09:20:24] INFO root fetch - processPackages [nonebot-plugin-wordle]: executing diffoscope
+[2023-06-21 09:20:24] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.4.tar.gz tmp/kalm-0.7.5.tar.gz --markdown 20230621/k/kalm/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-21 09:20:24] INFO root fetch - processPackages [nonebot-plugin-wordle]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_wordle-0.2.1.tar.gz tmp/nonebot_plugin_wordle-0.3.0.tar.gz --markdown 20230621/n/nonebot-plugin-wordle/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-21 09:20:24] INFO root fetch - processPackages [antchain-mpaasfaceverify]: Downloading https://files.pythonhosted.org/packages/85/5d/b0b12f8b5e37d44c7819bdf9b464d1e4ba86a0db8d3db8e3dc92d6bc5a17/antchain_mpaasfaceverify-1.1.8.tar.gz
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [khoj-assistant]: success
+[2023-06-21 09:20:24] INFO root fetch - processPackages [triplex]: Remove: archive file [/home/abi/fetcher/tmp/triplex-0.0.10.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [triplex]: Remove: archive file [/home/abi/fetcher/tmp/triplex-0.0.11.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [triplex]: success
+[2023-06-21 09:20:24] INFO root fetch - processPackages [acquire]: New version: [3.7.dev4] Old Version: [3.7.dev3]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-21 09:20:24] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-21 09:20:25] INFO root fetch - processPackages [antchain-mpaasfaceverify]: Downloading https://files.pythonhosted.org/packages/b1/a6/1fe6203be61c75086b3cfb7f2eb47c9fedb7f792ac5c864768f05055f453/antchain_mpaasfaceverify-1.1.9.tar.gz
+[2023-06-21 09:20:25] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/ac/5b/8b671410512a52ef0ad7f4bfac864266260e29a5074a04e9a315b0a033e5/acquire-3.7.dev3.tar.gz
+[2023-06-21 09:20:25] INFO root fetch - processPackages [antchain-mpaasfaceverify]: executing diffoscope
+[2023-06-21 09:20:25] INFO root fetch - processPackages [antchain-mpaasfaceverify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_mpaasfaceverify-1.1.8.tar.gz tmp/antchain_mpaasfaceverify-1.1.9.tar.gz --markdown 20230621/a/antchain-mpaasfaceverify/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-21 09:20:25] INFO root fetch - processPackages [aim]: New version: [4.0.0a9] Old Version: [4.0.0a7]
+[2023-06-21 09:20:25] INFO root fetch - processPackages [acquire]: Downloading https://files.pythonhosted.org/packages/e9/01/25dd599c7bb1b07b1a77bce56833bb6a0aaa468c98fa035953e800dfb674/acquire-3.7.dev4.tar.gz
+[2023-06-21 09:20:25] INFO root fetch - processPackages [acquire]: executing diffoscope
+[2023-06-21 09:20:25] INFO root fetch - processPackages [acquire]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acquire-3.7.dev3.tar.gz tmp/acquire-3.7.dev4.tar.gz --markdown 20230621/a/acquire/3.7.dev3-3.7.dev4/diff.md --exclude *.pyd
+[2023-06-21 09:20:25] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/ee/90/668cdef5d777ae82570a5b95b243506790b0f53ace49feff6d50ef11e28f/aim-4.0.0a7.tar.gz
+[2023-06-21 09:20:25] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.4.tar.gz]
+[2023-06-21 09:20:25] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.5.tar.gz]
+[2023-06-21 09:20:25] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-21 09:20:26] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-21 09:20:26] INFO root fetch - processPackages [antchain-mpaasfaceverify]: Remove: archive file [/home/abi/fetcher/tmp/antchain_mpaasfaceverify-1.1.8.tar.gz]
+[2023-06-21 09:20:26] INFO root fetch - processPackages [antchain-mpaasfaceverify]: Remove: archive file [/home/abi/fetcher/tmp/antchain_mpaasfaceverify-1.1.9.tar.gz]
+[2023-06-21 09:20:26] INFO root fetch - main [MainThread]: End processing [antchain-mpaasfaceverify]: success
+[2023-06-21 09:20:26] INFO root fetch - processPackages [nonebot-plugin-wordle]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wordle-0.2.1.tar.gz]
+[2023-06-21 09:20:26] INFO root fetch - processPackages [nonebot-plugin-wordle]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_wordle-0.3.0.tar.gz]
+[2023-06-21 09:20:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-wordle]: success
+[2023-06-21 09:20:26] INFO root fetch - processPackages [aim]: Downloading https://files.pythonhosted.org/packages/c1/52/6d631d823c78de7a69774c9cb9ea8a853c3a663c3066fb47b845adc1b869/aim-4.0.0a9.tar.gz
+[2023-06-21 09:20:26] INFO root fetch - processPackages [aim]: executing diffoscope
+[2023-06-21 09:20:26] INFO root fetch - processPackages [aim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aim-4.0.0a7.tar.gz tmp/aim-4.0.0a9.tar.gz --markdown 20230621/a/aim/4.0.0a7-4.0.0a9/diff.md --exclude *.pyd
+[2023-06-21 09:20:27] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.7.dev3.tar.gz]
+[2023-06-21 09:20:27] INFO root fetch - processPackages [acquire]: Remove: archive file [/home/abi/fetcher/tmp/acquire-3.7.dev4.tar.gz]
+[2023-06-21 09:20:27] INFO root fetch - main [MainThread]: End processing [acquire]: success
+[2023-06-21 09:20:27] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-21 09:20:27] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230621/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-21 09:20:34] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a7.tar.gz]
+[2023-06-21 09:20:34] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
+[2023-06-21 09:20:34] INFO root fetch - main [MainThread]: End processing [aim]: success
+[2023-06-21 09:20:38] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-21 09:20:38] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-21 09:20:38] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-21 09:21:14] INFO root fetch - processPackages [imgo]: Remove: archive file [/home/abi/fetcher/tmp/imgo-2.5.6.tar.gz]
+[2023-06-21 09:21:14] INFO root fetch - processPackages [imgo]: Remove: archive file [/home/abi/fetcher/tmp/imgo-2.5.7.tar.gz]
+[2023-06-21 09:21:14] INFO root fetch - main [MainThread]: End processing [imgo]: success
+[2023-06-21 09:21:14] INFO root fetch - main [MainThread]: Store serial: [18586544]
