@@ -17336,3 +17336,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 10:46:58] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-06-21 10:46:58] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-06-21 10:46:58] INFO root fetch - main [MainThread]: Store serial: [18587513]
+[2023-06-21 10:52:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18587513]
+[2023-06-21 10:52:10] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oam
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: leanit-mweb
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kld7
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: peaqevcore
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hyko-sdk
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chanpackage
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: experimaestro
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyexplorers
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: always-updates
+[2023-06-21 10:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mltlk
+[2023-06-21 10:52:10] INFO root fetch - processPackages [chanpackage]: New version: [0.3] Old Version: [0.2]
+[2023-06-21 10:52:10] INFO root fetch - processPackages [peaqevcore]: New version: [9.2.3] Old Version: [9.2.2]
+[2023-06-21 10:52:10] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 10:52:10] INFO root fetch - processPackages [mltlk]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-21 10:52:10] INFO root fetch - processPackages [experimaestro]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-21 10:52:10] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-21 10:52:10] INFO root fetch - processPackages [chanpackage]: Downloading https://files.pythonhosted.org/packages/19/1d/3f5f70c8e5d0e932003c5b3cc6e3a8a523d1b587b9533e003fd426df5649/chanpackage-0.2.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/57/01/7379424de4c21415fc124675040999ada2ccc825e244c0c4b35484fd1d50/hyko_sdk-0.1.3.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/d3/3a/d595706eb589ecf59a8cba9b6d5b0456fc65fe7e1d2c1e2aec7feee838b8/peaqevcore-9.2.2.tar.gz
+[2023-06-21 10:52:10] WARNING root fetch - processPackages [pyexplorers]: Skipping, unable to determine old version
+[2023-06-21 10:52:10] INFO root fetch - processPackages [pyexplorers]: Start processing: hansken-extraction-plugin
+[2023-06-21 10:52:10] INFO root fetch - main [MainThread]: End processing [pyexplorers] error
+[2023-06-21 10:52:10] ERROR root fetch - processPackages [oam]: Unable to get metadata: No such project 'oam'
+[2023-06-21 10:52:10] INFO root fetch - main [MainThread]: End processing [oam] error
+[2023-06-21 10:52:10] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/41/6b/4e30b3d3043ecd4dc33de713cc7005c3d42d2bb5ae46e48a5966591589b9/mltlk-0.1.7.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [leanit-mweb]: New version: [23.6.9] Old Version: [23.6.8]
+[2023-06-21 10:52:10] WARNING root fetch - processPackages [kld7]: Skipping, unable to determine old version
+[2023-06-21 10:52:10] INFO root fetch - main [MainThread]: End processing [kld7] error
+[2023-06-21 10:52:10] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/a3/39/e8bf0f2c57679fd9746b8f077f5ada6fdfaffb0d246930aefadb8b96d604/experimaestro-0.9.8-py2.py3-none-any.whl
+[2023-06-21 10:52:10] INFO root fetch - processPackages [chanpackage]: Downloading https://files.pythonhosted.org/packages/6c/d9/510d8e3aef60013f9ed9126fa93114e4ac79aef80e2f4d6c291ba1434a23/chanpackage-0.3.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/0c/78/99dc796e64d4957fea1c6d8aa079fbdae897f136b034aea579064051ad3e/hyko_sdk-0.1.4.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [hansken-extraction-plugin]: New version: [0.7.0] Old Version: [0.6.3]
+[2023-06-21 10:52:10] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [chanpackage]: executing diffoscope
+[2023-06-21 10:52:10] INFO root fetch - processPackages [chanpackage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chanpackage-0.2.tar.gz tmp/chanpackage-0.3.tar.gz --markdown 20230621/c/chanpackage/0.2-0.3/diff.md --exclude *.pyd
+[2023-06-21 10:52:10] INFO root fetch - processPackages [mltlk]: Downloading https://files.pythonhosted.org/packages/a3/43/9f4afc1db775be90fa51d830a740d6aa8de155b1838d1c5480c183ce1c56/mltlk-0.1.8.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-21 10:52:10] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230621/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-21 10:52:10] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/e3/d0/8c5e3921ce223331411d07702b5a482ff39b4312be82341c518fe3649360/leanit-mweb-23.6.8.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-21 10:52:10] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.3.tar.gz tmp/hyko_sdk-0.1.4.tar.gz --markdown 20230621/h/hyko-sdk/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 10:52:10] INFO root fetch - processPackages [peaqevcore]: Downloading https://files.pythonhosted.org/packages/7d/ed/173dd45b11e856f6a0a37a2fe90750405b19807684a9c94bd5e9388c29a2/peaqevcore-9.2.3.tar.gz
+[2023-06-21 10:52:10] INFO root fetch - processPackages [hansken-extraction-plugin]: Downloading https://files.pythonhosted.org/packages/24/05/980e8400d04941b4db92cd5b90dd256bc2360b1140af11311e5149afd913/hansken_extraction_plugin-0.6.3-py3-none-any.whl
+[2023-06-21 10:52:10] INFO root fetch - processPackages [experimaestro]: Downloading https://files.pythonhosted.org/packages/01/8f/03545ff21231a99d4620e2c8cea78638225e661012da7e67c5f46c291a0d/experimaestro-0.9.9-py2.py3-none-any.whl
+[2023-06-21 10:52:10] INFO root fetch - processPackages [peaqevcore]: executing diffoscope
+[2023-06-21 10:52:10] INFO root fetch - processPackages [peaqevcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/peaqevcore-9.2.2.tar.gz tmp/peaqevcore-9.2.3.tar.gz --markdown 20230621/p/peaqevcore/9.2.2-9.2.3/diff.md --exclude *.pyd
+[2023-06-21 10:52:10] INFO root fetch - processPackages [mltlk]: executing diffoscope
+[2023-06-21 10:52:10] INFO root fetch - processPackages [mltlk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltlk-0.1.7.tar.gz tmp/mltlk-0.1.8.tar.gz --markdown 20230621/m/mltlk/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-21 10:52:10] WARNING root fetch - processPackages [hansken-extraction-plugin]: Skipping package: exceeds size limit 56533912>=10485760
+[2023-06-21 10:52:10] INFO root fetch - main [MainThread]: End processing [hansken-extraction-plugin] error
+[2023-06-21 10:52:10] INFO root fetch - processPackages [experimaestro]: executing diffoscope
+[2023-06-21 10:52:10] INFO root fetch - processPackages [experimaestro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip --markdown 20230621/e/experimaestro/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-21 10:52:10] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/ac/d8/ca31edef88b4543a9866f049722c53b4f62cb4f26ffda726c3273f3793ef/leanit-mweb-23.6.9.tar.gz
+[2023-06-21 10:52:11] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-06-21 10:52:11] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.6.8.tar.gz tmp/leanit-mweb-23.6.9.tar.gz --markdown 20230621/l/leanit-mweb/23.6.8-23.6.9/diff.md --exclude *.pyd
+[2023-06-21 10:52:14] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.3.tar.gz]
+[2023-06-21 10:52:14] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.4.tar.gz]
+[2023-06-21 10:52:14] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-21 10:52:14] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-21 10:52:14] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-21 10:52:14] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-21 10:52:14] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.8.tar.gz]
+[2023-06-21 10:52:14] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.9.tar.gz]
+[2023-06-21 10:52:14] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-06-21 10:52:14] INFO root fetch - processPackages [chanpackage]: Remove: archive file [/home/abi/fetcher/tmp/chanpackage-0.2.tar.gz]
+[2023-06-21 10:52:14] INFO root fetch - processPackages [chanpackage]: Remove: archive file [/home/abi/fetcher/tmp/chanpackage-0.3.tar.gz]
+[2023-06-21 10:52:14] INFO root fetch - main [MainThread]: End processing [chanpackage]: success
+[2023-06-21 10:52:14] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.8-py2.py3-none-any.whl.zip]
+[2023-06-21 10:52:14] INFO root fetch - processPackages [experimaestro]: Remove: archive file [/home/abi/fetcher/tmp/experimaestro-0.9.9-py2.py3-none-any.whl.zip]
+[2023-06-21 10:52:14] INFO root fetch - main [MainThread]: End processing [experimaestro]: success
+[2023-06-21 10:52:15] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.2.tar.gz]
+[2023-06-21 10:52:15] INFO root fetch - processPackages [peaqevcore]: Remove: archive file [/home/abi/fetcher/tmp/peaqevcore-9.2.3.tar.gz]
+[2023-06-21 10:52:15] INFO root fetch - main [MainThread]: End processing [peaqevcore]: success
+[2023-06-21 10:52:16] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.7.tar.gz]
+[2023-06-21 10:52:16] INFO root fetch - processPackages [mltlk]: Remove: archive file [/home/abi/fetcher/tmp/mltlk-0.1.8.tar.gz]
+[2023-06-21 10:52:16] INFO root fetch - main [MainThread]: End processing [mltlk]: success
+[2023-06-21 10:52:16] INFO root fetch - main [MainThread]: Store serial: [18587559]
