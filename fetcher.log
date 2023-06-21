@@ -4958,3 +4958,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 02:42:16] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
 [2023-06-21 02:42:16] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
 [2023-06-21 02:42:16] INFO root fetch - main [MainThread]: Store serial: [18582516]
+[2023-06-21 02:47:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18582516]
+[2023-06-21 02:47:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-21 02:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdklabs.cdk-enterprise-iac
+[2023-06-21 02:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: awadb
+[2023-06-21 02:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytheus-backend-rs
+[2023-06-21 02:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtnt-nightly
+[2023-06-21 02:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Telexy.MARS
+[2023-06-21 02:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyaurorax
+[2023-06-21 02:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: niftypad
+[2023-06-21 02:47:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: kubric-nightly
+[2023-06-21 02:47:25] INFO root fetch - processPackages [pyaurorax]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-21 02:47:25] INFO root fetch - processPackages [niftypad]: New version: [2.0.0] Old Version: [1.1.1]
+[2023-06-21 02:47:25] INFO root fetch - processPackages [Telexy.MARS]: New version: [1.23.623] Old Version: [1.23.622]
+[2023-06-21 02:47:25] INFO root fetch - processPackages [awadb]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-21 02:47:26] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pytheus-backend-rs]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 02:47:26] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.6.9] Old Version: [2023.6.8]
+[2023-06-21 02:47:26] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/fe/2f/d9f6893e72417d3ceebad102cf046f90432056d9b673d8c11af1691c31aa/Telexy.MARS-1.23.622.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-21 02:47:26] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/b1/a3/47d225d361d3b5502ac46fb5dff4827f9e1ed416243c22d685d14d8b7b94/kubric-nightly-2023.6.8.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/2c/5f/ffb0dc5a872ef1036ee47e41f9ffe7527275507b73c64911aa046565e0b5/awadb-0.3.3-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pyaurorax]: Downloading https://files.pythonhosted.org/packages/e1/89/4c14d93953c89c25f95686f02d648fd39552381e78636a776657f499fef7/pyaurorax-0.9.1.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [niftypad]: Downloading https://files.pythonhosted.org/packages/89/89/0f55aec390d6a30366cdefd367febd3e62b612e1e1d7f1321c95013202df/niftypad-1.1.1.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/e0/f2/64d46b5d0fa61e5fc47061a81a8f0395ec05f3bb06e8108634a88c43ab22/pytheus_backend_rs-0.0.3.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/26/1b/2d98082d5a50de544ac5b0df408479fcedd8e3cbc7361e0cb0e9f362a0af/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/34/4f/4a90173b01a8086490f647ccb58a5421c9d44a1c56813090cb773ecd7370/torchtnt-nightly-2023.6.4.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/9c/d2/b15b52c4e9ef297c630d83b0ec5cf46fbcbef019d26045f5d4613c1491d7/kubric-nightly-2023.6.9.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [Telexy.MARS]: Downloading https://files.pythonhosted.org/packages/b3/4b/1399dc9644d9045b7ff062488e1b0892a3872c3bce0fd35a5118323ddefa/Telexy.MARS-1.23.623.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-06-21 02:47:26] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.6.8.tar.gz tmp/kubric-nightly-2023.6.9.tar.gz --markdown 20230621/k/kubric-nightly/2023.6.8-2023.6.9/diff.md --exclude *.pyd
+[2023-06-21 02:47:26] INFO root fetch - processPackages [Telexy.MARS]: executing diffoscope
+[2023-06-21 02:47:26] INFO root fetch - processPackages [Telexy.MARS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Telexy.MARS-1.23.622.tar.gz tmp/Telexy.MARS-1.23.623.tar.gz --markdown 20230621/T/Telexy.MARS/1.23.622-1.23.623/diff.md --exclude *.pyd
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pytheus-backend-rs]: Downloading https://files.pythonhosted.org/packages/8d/d4/da64d04f8ff8909618797a871eb96dfcf2fa78a2610546173ef0d869cbcd/pytheus_backend_rs-0.0.4.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [niftypad]: Downloading https://files.pythonhosted.org/packages/9c/00/ebcfecea03ba3a19c738cb9167b305613f96e516f58881fca211c5458113/niftypad-2.0.0.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pytheus-backend-rs]: executing diffoscope
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pytheus-backend-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytheus_backend_rs-0.0.3.tar.gz tmp/pytheus_backend_rs-0.0.4.tar.gz --markdown 20230621/p/pytheus-backend-rs/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pyaurorax]: Downloading https://files.pythonhosted.org/packages/e1/fa/82a595bcb16c5b1675e199a37fb2462ca6d83b19586f2ffbb0e6b5ed9559/pyaurorax-0.9.2.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [niftypad]: executing diffoscope
+[2023-06-21 02:47:26] INFO root fetch - processPackages [niftypad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/niftypad-1.1.1.tar.gz tmp/niftypad-2.0.0.tar.gz --markdown 20230621/n/niftypad/1.1.1-2.0.0/diff.md --exclude *.pyd
+[2023-06-21 02:47:26] INFO root fetch - processPackages [awadb]: Downloading https://files.pythonhosted.org/packages/80/22/040de45ab6f75e7da3b762222cb09fdce2aba0ae96292e80090d182e724f/awadb-0.3.4-cp311-cp311-macosx_10_13_universal2.whl
+[2023-06-21 02:47:26] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/40/59/8e219732c8232b640b0cb88f485f6d98bd76be3c47f0cf80b9d1afd6a0de/torchtnt-nightly-2023.6.5.tar.gz
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pyaurorax]: executing diffoscope
+[2023-06-21 02:47:26] INFO root fetch - processPackages [pyaurorax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyaurorax-0.9.1.tar.gz tmp/pyaurorax-0.9.2.tar.gz --markdown 20230621/p/pyaurorax/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-21 02:47:26] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-06-21 02:47:26] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.6.4.tar.gz tmp/torchtnt-nightly-2023.6.5.tar.gz --markdown 20230621/t/torchtnt-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-21 02:47:27] INFO root fetch - processPackages [awadb]: executing diffoscope
+[2023-06-21 02:47:27] INFO root fetch - processPackages [awadb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awadb-0.3.3-cp39-cp39-manylinux1_x86_64.whl.zip tmp/awadb-0.3.4-cp311-cp311-macosx_10_13_universal2.whl.zip --markdown 20230621/a/awadb/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-21 02:47:27] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.622.tar.gz]
+[2023-06-21 02:47:27] INFO root fetch - processPackages [Telexy.MARS]: Remove: archive file [/home/abi/fetcher/tmp/Telexy.MARS-1.23.623.tar.gz]
+[2023-06-21 02:47:27] INFO root fetch - main [MainThread]: End processing [Telexy.MARS]: success
+[2023-06-21 02:47:27] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.3.tar.gz]
+[2023-06-21 02:47:27] INFO root fetch - processPackages [pytheus-backend-rs]: Remove: archive file [/home/abi/fetcher/tmp/pytheus_backend_rs-0.0.4.tar.gz]
+[2023-06-21 02:47:27] INFO root fetch - main [MainThread]: End processing [pytheus-backend-rs]: success
+[2023-06-21 02:47:27] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.8.tar.gz]
+[2023-06-21 02:47:27] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.6.9.tar.gz]
+[2023-06-21 02:47:27] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-06-21 02:47:28] INFO root fetch - processPackages [niftypad]: Remove: archive file [/home/abi/fetcher/tmp/niftypad-1.1.1.tar.gz]
+[2023-06-21 02:47:28] INFO root fetch - processPackages [niftypad]: Remove: archive file [/home/abi/fetcher/tmp/niftypad-2.0.0.tar.gz]
+[2023-06-21 02:47:28] INFO root fetch - main [MainThread]: End processing [niftypad]: success
+[2023-06-21 02:47:28] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.4.tar.gz]
+[2023-06-21 02:47:28] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.6.5.tar.gz]
+[2023-06-21 02:47:28] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-06-21 02:47:28] INFO root fetch - processPackages [pyaurorax]: Remove: archive file [/home/abi/fetcher/tmp/pyaurorax-0.9.1.tar.gz]
+[2023-06-21 02:47:28] INFO root fetch - processPackages [pyaurorax]: Remove: archive file [/home/abi/fetcher/tmp/pyaurorax-0.9.2.tar.gz]
+[2023-06-21 02:47:28] INFO root fetch - main [MainThread]: End processing [pyaurorax]: success
+[2023-06-21 02:47:29] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Downloading https://files.pythonhosted.org/packages/68/b7/1bc76974269d07601c13aaa5489dbaf5bfced52da0839a380231163281b2/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz
+[2023-06-21 02:47:31] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.3-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-21 02:47:31] INFO root fetch - processPackages [awadb]: Remove: archive file [/home/abi/fetcher/tmp/awadb-0.3.4-cp311-cp311-macosx_10_13_universal2.whl.zip]
+[2023-06-21 02:47:31] INFO root fetch - main [MainThread]: End processing [awadb]: success
+[2023-06-21 02:47:31] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: executing diffoscope
+[2023-06-21 02:47:31] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz --markdown 20230621/c/cdklabs.cdk-enterprise-iac/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 02:47:33] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.98.tar.gz]
+[2023-06-21 02:47:33] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
+[2023-06-21 02:47:33] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
+[2023-06-21 02:47:33] INFO root fetch - main [MainThread]: Store serial: [18582599]
