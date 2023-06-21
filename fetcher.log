@@ -10182,3 +10182,54 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 04:53:48] INFO root fetch - main [MainThread]: End processing [JustScan]: success
 [2023-06-21 04:53:48] INFO root fetch - main [MainThread]: End processing [JustScan]: success
 [2023-06-21 04:53:48] INFO root fetch - main [MainThread]: Store serial: [18584470]
+[2023-06-21 04:58:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584470]
+[2023-06-21 04:58:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-21 04:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cnapps
+[2023-06-21 04:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: JustScan
+[2023-06-21 04:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DiadFit
+[2023-06-21 04:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cvxportfolio
+[2023-06-21 04:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lm-datahandler
+[2023-06-21 04:58:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hoyo-daily-logins-helper
+[2023-06-21 04:58:57] WARNING root fetch - processPackages [cnapps]: Skipping, unable to determine old version
+[2023-06-21 04:58:57] INFO root fetch - main [MainThread]: End processing [cnapps] error
+[2023-06-21 04:58:57] INFO root fetch - processPackages [cvxportfolio]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-21 04:58:57] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-21 04:58:57] INFO root fetch - processPackages [JustScan]: New version: [1.1.7] Old Version: [1.1.6]
+[2023-06-21 04:58:57] INFO root fetch - processPackages [DiadFit]: New version: [0.0.60] Old Version: [0.0.59]
+[2023-06-21 04:58:57] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/f3/8e/d4295bfdc828930a26fbc74b1cfe63bc3143fff8d9cc92f151d500bc8e78/JustScan-1.1.6.tar.gz
+[2023-06-21 04:58:57] INFO root fetch - processPackages [hoyo-daily-logins-helper]: New version: [2.7.0] Old Version: [2.6.2]
+[2023-06-21 04:58:57] INFO root fetch - processPackages [cvxportfolio]: Downloading https://files.pythonhosted.org/packages/6a/88/33caba72bff532504f1621d7019e0da170ff1d1b920268dac1d7d72c19a8/cvxportfolio-0.3.3.tar.gz
+[2023-06-21 04:58:57] INFO root fetch - processPackages [DiadFit]: Downloading https://files.pythonhosted.org/packages/1e/2c/b2bc24cfcbdd7e9f5c61d1e17535ea380012b2e42b987e11ae880ebdb383/DiadFit-0.0.59.tar.gz
+[2023-06-21 04:58:57] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/0f/9a/3f952f6f29c032b1947ffbaad6221e958234440f13a9f7cd32aed4b05319/lm_datahandler-0.1.6.tar.gz
+[2023-06-21 04:58:57] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/28/04/8842eacd1be69729c9e40d5b6fdacdadea64acce566b5061d59373b82709/hoyo_daily_logins_helper-2.6.2.tar.gz
+[2023-06-21 04:58:57] INFO root fetch - processPackages [JustScan]: Downloading https://files.pythonhosted.org/packages/eb/f8/47a6e011b769a364f96c8eb0f0cc9be6f398127ac1ffe6b23384c7cbf782/JustScan-1.1.7.tar.gz
+[2023-06-21 04:58:57] INFO root fetch - processPackages [cvxportfolio]: Downloading https://files.pythonhosted.org/packages/cc/0c/d58fdbe7a919d8081d55a02209f0c4e2e5e3b8f86b3b96cba9c021b7da89/cvxportfolio-0.3.4.tar.gz
+[2023-06-21 04:58:57] INFO root fetch - processPackages [JustScan]: executing diffoscope
+[2023-06-21 04:58:57] INFO root fetch - processPackages [JustScan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/JustScan-1.1.6.tar.gz tmp/JustScan-1.1.7.tar.gz --markdown 20230621/J/JustScan/1.1.6-1.1.7/diff.md --exclude *.pyd
+[2023-06-21 04:58:57] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/0b/b3/66376cf6cc9befecab4aafe60b80f33cbf71e38e23cddb8e64d200dba15f/lm_datahandler-0.1.7.tar.gz
+[2023-06-21 04:58:57] INFO root fetch - processPackages [cvxportfolio]: executing diffoscope
+[2023-06-21 04:58:57] INFO root fetch - processPackages [cvxportfolio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxportfolio-0.3.3.tar.gz tmp/cvxportfolio-0.3.4.tar.gz --markdown 20230621/c/cvxportfolio/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-21 04:58:57] INFO root fetch - processPackages [DiadFit]: Downloading https://files.pythonhosted.org/packages/7d/e6/75a4c73343496146c7f79f9457cef8e5c6823392779f19b3f96c4eadc19f/DiadFit-0.0.60.tar.gz
+[2023-06-21 04:58:58] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-21 04:58:58] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.6.tar.gz tmp/lm_datahandler-0.1.7.tar.gz --markdown 20230621/l/lm-datahandler/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-21 04:58:58] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Downloading https://files.pythonhosted.org/packages/46/c9/c30d39d663f4f30f15d0188d7a5f08139d0e46a34ff8aba7b53292b1c681/hoyo_daily_logins_helper-2.7.0.tar.gz
+[2023-06-21 04:58:58] INFO root fetch - processPackages [DiadFit]: executing diffoscope
+[2023-06-21 04:58:58] INFO root fetch - processPackages [DiadFit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DiadFit-0.0.59.tar.gz tmp/DiadFit-0.0.60.tar.gz --markdown 20230621/D/DiadFit/0.0.59-0.0.60/diff.md --exclude *.pyd
+[2023-06-21 04:58:58] INFO root fetch - processPackages [hoyo-daily-logins-helper]: executing diffoscope
+[2023-06-21 04:58:58] INFO root fetch - processPackages [hoyo-daily-logins-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hoyo_daily_logins_helper-2.6.2.tar.gz tmp/hoyo_daily_logins_helper-2.7.0.tar.gz --markdown 20230621/h/hoyo-daily-logins-helper/2.6.2-2.7.0/diff.md --exclude *.pyd
+[2023-06-21 04:58:59] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.59.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - processPackages [DiadFit]: Remove: archive file [/home/abi/fetcher/tmp/DiadFit-0.0.60.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - main [MainThread]: End processing [DiadFit]: success
+[2023-06-21 04:58:59] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.6.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.7.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-21 04:58:59] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Remove: archive file [/home/abi/fetcher/tmp/hoyo_daily_logins_helper-2.6.2.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - processPackages [hoyo-daily-logins-helper]: Remove: archive file [/home/abi/fetcher/tmp/hoyo_daily_logins_helper-2.7.0.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - main [MainThread]: End processing [hoyo-daily-logins-helper]: success
+[2023-06-21 04:58:59] INFO root fetch - processPackages [cvxportfolio]: Remove: archive file [/home/abi/fetcher/tmp/cvxportfolio-0.3.3.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - processPackages [cvxportfolio]: Remove: archive file [/home/abi/fetcher/tmp/cvxportfolio-0.3.4.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - main [MainThread]: End processing [cvxportfolio]: success
+[2023-06-21 04:58:59] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.6.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - processPackages [JustScan]: Remove: archive file [/home/abi/fetcher/tmp/JustScan-1.1.7.tar.gz]
+[2023-06-21 04:58:59] INFO root fetch - main [MainThread]: End processing [JustScan]: success
+[2023-06-21 04:58:59] INFO root fetch - main [MainThread]: Store serial: [18584491]
