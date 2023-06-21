@@ -14268,3 +14268,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 08:32:18] INFO root fetch - processPackages [smartchart]: Remove: archive file [/home/abi/fetcher/tmp/smartchart-6.6.8.tar.gz]
 [2023-06-21 08:32:18] INFO root fetch - main [MainThread]: End processing [smartchart]: success
 [2023-06-21 08:32:18] INFO root fetch - main [MainThread]: Store serial: [18585997]
+[2023-06-21 08:37:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585997]
+[2023-06-21 08:37:28] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rqdatac
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-configuration-helper
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datadm
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: m000.000.00m0
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: casanovo
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flarespy
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upstash-ratelimit-a
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: iams
+[2023-06-21 08:37:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: warpzone-sdk
+[2023-06-21 08:37:28] WARNING root fetch - processPackages [m000.000.00m0]: Skipping, unable to determine old version
+[2023-06-21 08:37:28] INFO root fetch - processPackages [m000.000.00m0]: Start processing: odoo14-addon-export-async-schedule
+[2023-06-21 08:37:28] INFO root fetch - main [MainThread]: End processing [m000.000.00m0] error
+[2023-06-21 08:37:28] INFO root fetch - processPackages [odoo14-addon-configuration-helper]: New version: [14.0.1.0.1.dev5] Old Version: [14.0.1.0.1.dev4]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [iams]: New version: [0.7.7] Old Version: [0.7.6]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [upstash-ratelimit-a]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-21 08:37:28] WARNING root fetch - processPackages [odoo14-addon-export-async-schedule]: Skipping, unable to determine old version
+[2023-06-21 08:37:28] INFO root fetch - processPackages [odoo14-addon-export-async-schedule]: Start processing: cmip
+[2023-06-21 08:37:28] INFO root fetch - main [MainThread]: End processing [odoo14-addon-export-async-schedule] error
+[2023-06-21 08:37:28] INFO root fetch - processPackages [datadm]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [casanovo]: New version: [3.4.0] Old Version: [3.3.0]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [warpzone-sdk]: New version: [7.0.1] Old Version: [7.0.0]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [flarespy]: New version: [0.9.8] Old Version: [0.9.7]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cmip]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cdk8s]: New version: [2.7.9] Old Version: [2.7.80]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [rqdatac]: New version: [2.9.8] Old Version: [2.9.7]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [upstash-ratelimit-a]: Downloading https://files.pythonhosted.org/packages/ed/2a/d19bf407ae3dc30bbae7cb4d4ee283c6e4f454174bf8fe5358d74bba09dc/upstash_ratelimit_a-0.1.5.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [iams]: Downloading https://files.pythonhosted.org/packages/c1/4c/d9f9e4e92aa9dde017faf23620d8b5bb3790ec7aa610c6f8714b74f5ddcf/iams-0.7.6-py3-none-any.whl
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/6e/0b/932221d720b03e14d69c41ab24cc3ab68010612d2434a259887024a84989/cdk8s-2.7.80.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [datadm]: Downloading https://files.pythonhosted.org/packages/d1/22/b9da1b03df36bce7fb086512a137dcee9103ce2cffcffefb29d128015b9f/datadm-0.3.3.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cmip]: Downloading https://files.pythonhosted.org/packages/82/d0/6803b40f5eb8e103a14f6ef294f805c5760d22c77c248e81c683a2a628a1/cmip-0.0.6.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/79/b4/085e0831b36ecedc0d785de6f16132a0ea1a44810d8266c47c80eb82f76d/warpzone_sdk-7.0.0.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [odoo14-addon-configuration-helper]: Downloading https://files.pythonhosted.org/packages/76/8e/55efd7d06edb6bf751106beeec44653e6e1cd5d297ad139fefc193f1c55d/odoo14_addon_configuration_helper-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-21 08:37:28] INFO root fetch - processPackages [casanovo]: Downloading https://files.pythonhosted.org/packages/80/7c/839a5d3672672837bcdd7830e1263a1687fa7d5ffee104f8179bc9584cff/casanovo-3.3.0.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/04/25/388588a964ee3e165799f36a52ac68432b412f43d936c345577d8f7314ff/flarespy-0.9.7.tar.gz
+[2023-06-21 08:37:28] WARNING root fetch - processPackages [datadm]: Skipping package: exceeds size limit 12226604>=10485760
+[2023-06-21 08:37:28] INFO root fetch - processPackages [datadm]: Start processing: seaborn-analyzer
+[2023-06-21 08:37:28] INFO root fetch - main [MainThread]: End processing [datadm] error
+[2023-06-21 08:37:28] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/90/b6/591b01b456b98874d6e034b98d6ec3812de60b8dc0e73b29d834f8b185ba/rqdatac-2.9.7-cp38-cp38-win_amd64.whl
+[2023-06-21 08:37:28] INFO root fetch - processPackages [seaborn-analyzer]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/71/30/02a1bcc270c53f6b55cd50dc45c426ecdc5d520a1a3f21057474d46e3de9/cdk8s-2.7.9.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/17/0c/e04ec6fdcdc0b5a3f7a89c92c8539729040f3db97fe3c6d4ae005ca91597/seaborn-analyzer-0.3.1.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [iams]: Downloading https://files.pythonhosted.org/packages/81/a3/ede38a7e0f604bb7739737816ba0f68438ee8c9f4f3f5f74bb5207440bcf/iams-0.7.7-py3-none-any.whl
+[2023-06-21 08:37:28] INFO root fetch - processPackages [upstash-ratelimit-a]: Downloading https://files.pythonhosted.org/packages/26/33/2fb9deeffeec8eb4be82b6cdfda2122b86f8fc49cb9cea0043755f325f69/upstash_ratelimit_a-0.1.6.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cmip]: Downloading https://files.pythonhosted.org/packages/0f/cb/f9a8df806325e84e726670806677a6523e7d3ea9d0358447b5000d7e5bd6/cmip-0.0.7.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [iams]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [iams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iams-0.7.6-py3-none-any.whl.zip tmp/iams-0.7.7-py3-none-any.whl.zip --markdown 20230621/i/iams/0.7.6-0.7.7/diff.md --exclude *.pyd
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.7.80.tar.gz tmp/cdk8s-2.7.9.tar.gz --markdown 20230621/c/cdk8s/2.7.80-2.7.9/diff.md --exclude *.pyd
+[2023-06-21 08:37:28] INFO root fetch - processPackages [upstash-ratelimit-a]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [upstash-ratelimit-a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upstash_ratelimit_a-0.1.5.tar.gz tmp/upstash_ratelimit_a-0.1.6.tar.gz --markdown 20230621/u/upstash-ratelimit-a/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-21 08:37:28] INFO root fetch - processPackages [odoo14-addon-configuration-helper]: Downloading https://files.pythonhosted.org/packages/47/d5/65bd34af6dfd76c6bc57e8124647d3488a54cd14b03672ded146e5b3fc47/odoo14_addon_configuration_helper-14.0.1.0.1.dev5-py3-none-any.whl
+[2023-06-21 08:37:28] INFO root fetch - processPackages [rqdatac]: Downloading https://files.pythonhosted.org/packages/d6/cf/51051b52cdbade7aa3c185f1d7fb144e327ff1c676a67ba8d842f933df4b/rqdatac-2.9.8-cp38-cp38-win_amd64.whl
+[2023-06-21 08:37:28] INFO root fetch - processPackages [warpzone-sdk]: Downloading https://files.pythonhosted.org/packages/af/70/613c4279f23fba75c4e047e63aa95927e95d683fd7d3ce006d56783d0e0e/warpzone_sdk-7.0.1.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cmip]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [cmip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmip-0.0.6.tar.gz tmp/cmip-0.0.7.tar.gz --markdown 20230621/c/cmip/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-21 08:37:28] INFO root fetch - processPackages [flarespy]: Downloading https://files.pythonhosted.org/packages/c8/7e/3f154203fb0f1369802551bb5c886d19787ba3740cac776f1ab46ff30696/flarespy-0.9.8.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [casanovo]: Downloading https://files.pythonhosted.org/packages/f3/b7/d6d18d4ca15dfc522aa0cd11ff3dbc38b8657a03b0d5d1106f10f86cd203/casanovo-3.4.0.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [rqdatac]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [warpzone-sdk]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [rqdatac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip --markdown 20230621/r/rqdatac/2.9.7-2.9.8/diff.md --exclude *.pyd
+[2023-06-21 08:37:28] INFO root fetch - processPackages [warpzone-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/warpzone_sdk-7.0.0.tar.gz tmp/warpzone_sdk-7.0.1.tar.gz --markdown 20230621/w/warpzone-sdk/7.0.0-7.0.1/diff.md --exclude *.pyd
+[2023-06-21 08:37:28] INFO root fetch - processPackages [odoo14-addon-configuration-helper]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [odoo14-addon-configuration-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_configuration_helper-14.0.1.0.1.dev4-py3-none-any.whl.zip tmp/odoo14_addon_configuration_helper-14.0.1.0.1.dev5-py3-none-any.whl.zip --markdown 20230621/o/odoo14-addon-configuration-helper/14.0.1.0.1.dev4-14.0.1.0.1.dev5/diff.md --exclude *.pyd
+[2023-06-21 08:37:28] INFO root fetch - processPackages [seaborn-analyzer]: Downloading https://files.pythonhosted.org/packages/13/1e/d7150632c65516bc5c9ceae1000930f20e859eecfda44438180da7f08971/seaborn-analyzer-0.3.2.tar.gz
+[2023-06-21 08:37:28] INFO root fetch - processPackages [flarespy]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [flarespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flarespy-0.9.7.tar.gz tmp/flarespy-0.9.8.tar.gz --markdown 20230621/f/flarespy/0.9.7-0.9.8/diff.md --exclude *.pyd
+[2023-06-21 08:37:28] INFO root fetch - processPackages [casanovo]: executing diffoscope
+[2023-06-21 08:37:28] INFO root fetch - processPackages [casanovo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casanovo-3.3.0.tar.gz tmp/casanovo-3.4.0.tar.gz --markdown 20230621/c/casanovo/3.3.0-3.4.0/diff.md --exclude *.pyd
+[2023-06-21 08:37:29] INFO root fetch - processPackages [seaborn-analyzer]: executing diffoscope
+[2023-06-21 08:37:29] INFO root fetch - processPackages [seaborn-analyzer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seaborn-analyzer-0.3.1.tar.gz tmp/seaborn-analyzer-0.3.2.tar.gz --markdown 20230621/s/seaborn-analyzer/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-21 08:37:30] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.80.tar.gz]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.7.9.tar.gz]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [cdk8s]: Start processing: m000.000.00m1
+[2023-06-21 08:37:30] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-06-21 08:37:30] WARNING root fetch - processPackages [m000.000.00m1]: Skipping, unable to determine old version
+[2023-06-21 08:37:30] INFO root fetch - processPackages [m000.000.00m1]: Start processing: volstreet
+[2023-06-21 08:37:30] INFO root fetch - main [MainThread]: End processing [m000.000.00m1] error
+[2023-06-21 08:37:30] INFO root fetch - processPackages [volstreet]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [upstash-ratelimit-a]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit_a-0.1.5.tar.gz]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [upstash-ratelimit-a]: Remove: archive file [/home/abi/fetcher/tmp/upstash_ratelimit_a-0.1.6.tar.gz]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [upstash-ratelimit-a]: Start processing: pipebuilder
+[2023-06-21 08:37:30] INFO root fetch - main [MainThread]: End processing [upstash-ratelimit-a]: success
+[2023-06-21 08:37:30] INFO root fetch - processPackages [pipebuilder]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [pipebuilder]: Downloading https://files.pythonhosted.org/packages/3d/83/0669f0b807d6a559e553c9afd7735ec2f968bb3288d9b465772d92dd9720/pipebuilder-0.1.3.tar.gz
+[2023-06-21 08:37:30] INFO root fetch - processPackages [cmip]: Remove: archive file [/home/abi/fetcher/tmp/cmip-0.0.6.tar.gz]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [cmip]: Remove: archive file [/home/abi/fetcher/tmp/cmip-0.0.7.tar.gz]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [cmip]: Start processing: showroom-recorder
+[2023-06-21 08:37:30] INFO root fetch - main [MainThread]: End processing [cmip]: success
+[2023-06-21 08:37:30] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.1.tar.gz]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [seaborn-analyzer]: Remove: archive file [/home/abi/fetcher/tmp/seaborn-analyzer-0.3.2.tar.gz]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [seaborn-analyzer]: Start processing: decoratory
+[2023-06-21 08:37:30] INFO root fetch - main [MainThread]: End processing [seaborn-analyzer]: success
+[2023-06-21 08:37:30] WARNING root fetch - processPackages [showroom-recorder]: Skipping, unable to determine old version
+[2023-06-21 08:37:30] INFO root fetch - main [MainThread]: End processing [showroom-recorder] error
+[2023-06-21 08:37:30] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/74/38/469197452247c662ac5ed0210d97840a89cd56b0c7bab9a6f6b0eab60a42/volstreet-0.9.8.tar.gz
+[2023-06-21 08:37:30] INFO root fetch - processPackages [iams]: Remove: archive file [/home/abi/fetcher/tmp/iams-0.7.6-py3-none-any.whl.zip]
+[2023-06-21 08:37:30] INFO root fetch - processPackages [iams]: Remove: archive file [/home/abi/fetcher/tmp/iams-0.7.7-py3-none-any.whl.zip]
+[2023-06-21 08:37:30] INFO root fetch - main [MainThread]: End processing [iams]: success
+[2023-06-21 08:37:30] INFO root fetch - processPackages [decoratory]: New version: [0.1.4.4] Old Version: [0.1.3.11]
+[2023-06-21 08:37:31] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/06/26/571c86a6039976e7069a3d79ecc2d08a49af3b03d23bcc130da1bedbb66a/decoratory-0.1.3.11.tar.gz
+[2023-06-21 08:37:31] INFO root fetch - processPackages [odoo14-addon-configuration-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_configuration_helper-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-21 08:37:31] INFO root fetch - processPackages [odoo14-addon-configuration-helper]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_configuration_helper-14.0.1.0.1.dev5-py3-none-any.whl.zip]
+[2023-06-21 08:37:31] INFO root fetch - main [MainThread]: End processing [odoo14-addon-configuration-helper]: success
+[2023-06-21 08:37:31] INFO root fetch - processPackages [pipebuilder]: Downloading https://files.pythonhosted.org/packages/b9/1a/13c717cc998c89da12d5af091d969b9838291211cf5c1741a09eeab84434/pipebuilder-0.1.4.tar.gz
+[2023-06-21 08:37:31] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.7-cp38-cp38-win_amd64.whl.zip]
+[2023-06-21 08:37:31] INFO root fetch - processPackages [rqdatac]: Remove: archive file [/home/abi/fetcher/tmp/rqdatac-2.9.8-cp38-cp38-win_amd64.whl.zip]
+[2023-06-21 08:37:31] INFO root fetch - main [MainThread]: End processing [rqdatac]: success
+[2023-06-21 08:37:31] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-7.0.0.tar.gz]
+[2023-06-21 08:37:31] INFO root fetch - processPackages [volstreet]: Downloading https://files.pythonhosted.org/packages/a5/69/6d1420893bf88a95ed704efafd8a06fb46a548122583cb93e4d6a4f085a0/volstreet-0.9.9.tar.gz
+[2023-06-21 08:37:31] INFO root fetch - processPackages [warpzone-sdk]: Remove: archive file [/home/abi/fetcher/tmp/warpzone_sdk-7.0.1.tar.gz]
+[2023-06-21 08:37:31] INFO root fetch - main [MainThread]: End processing [warpzone-sdk]: success
+[2023-06-21 08:37:31] INFO root fetch - processPackages [pipebuilder]: executing diffoscope
+[2023-06-21 08:37:31] INFO root fetch - processPackages [pipebuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipebuilder-0.1.3.tar.gz tmp/pipebuilder-0.1.4.tar.gz --markdown 20230621/p/pipebuilder/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 08:37:31] INFO root fetch - processPackages [decoratory]: Downloading https://files.pythonhosted.org/packages/f4/30/30d25ee14d47bcbaef1a384f3b15a8a80e65fff1c568e178693cee3c4472/decoratory-0.1.4.4.tar.gz
+[2023-06-21 08:37:31] INFO root fetch - processPackages [decoratory]: executing diffoscope
+[2023-06-21 08:37:31] INFO root fetch - processPackages [decoratory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decoratory-0.1.3.11.tar.gz tmp/decoratory-0.1.4.4.tar.gz --markdown 20230621/d/decoratory/0.1.3.11-0.1.4.4/diff.md --exclude *.pyd
+[2023-06-21 08:37:31] INFO root fetch - processPackages [volstreet]: executing diffoscope
+[2023-06-21 08:37:31] INFO root fetch - processPackages [volstreet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volstreet-0.9.8.tar.gz tmp/volstreet-0.9.9.tar.gz --markdown 20230621/v/volstreet/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-21 08:37:31] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.7.tar.gz]
+[2023-06-21 08:37:31] INFO root fetch - processPackages [flarespy]: Remove: archive file [/home/abi/fetcher/tmp/flarespy-0.9.8.tar.gz]
+[2023-06-21 08:37:31] INFO root fetch - main [MainThread]: End processing [flarespy]: success
+[2023-06-21 08:37:31] INFO root fetch - processPackages [casanovo]: Remove: archive file [/home/abi/fetcher/tmp/casanovo-3.3.0.tar.gz]
+[2023-06-21 08:37:31] INFO root fetch - processPackages [casanovo]: Remove: archive file [/home/abi/fetcher/tmp/casanovo-3.4.0.tar.gz]
+[2023-06-21 08:37:31] INFO root fetch - main [MainThread]: End processing [casanovo]: success
+[2023-06-21 08:37:32] INFO root fetch - processPackages [pipebuilder]: Remove: archive file [/home/abi/fetcher/tmp/pipebuilder-0.1.3.tar.gz]
+[2023-06-21 08:37:32] INFO root fetch - processPackages [pipebuilder]: Remove: archive file [/home/abi/fetcher/tmp/pipebuilder-0.1.4.tar.gz]
+[2023-06-21 08:37:32] INFO root fetch - main [MainThread]: End processing [pipebuilder]: success
+[2023-06-21 08:37:32] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.1.3.11.tar.gz]
+[2023-06-21 08:37:32] INFO root fetch - processPackages [decoratory]: Remove: archive file [/home/abi/fetcher/tmp/decoratory-0.1.4.4.tar.gz]
+[2023-06-21 08:37:32] INFO root fetch - main [MainThread]: End processing [decoratory]: success
+[2023-06-21 08:37:32] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.8.tar.gz]
+[2023-06-21 08:37:32] INFO root fetch - processPackages [volstreet]: Remove: archive file [/home/abi/fetcher/tmp/volstreet-0.9.9.tar.gz]
+[2023-06-21 08:37:32] INFO root fetch - main [MainThread]: End processing [volstreet]: success
+[2023-06-21 08:37:32] INFO root fetch - main [MainThread]: Store serial: [18586079]
