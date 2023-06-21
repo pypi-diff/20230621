@@ -22453,3 +22453,207 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 13:39:43] INFO root fetch - processPackages [cf-plot]: Remove: archive file [/home/abi/fetcher/tmp/cf-plot-3.2.7.tar.gz]
 [2023-06-21 13:39:43] INFO root fetch - main [MainThread]: End processing [cf-plot]: success
 [2023-06-21 13:39:43] INFO root fetch - main [MainThread]: Store serial: [18589518]
+[2023-06-21 13:44:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18589518]
+[2023-06-21 13:44:52] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arve
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s2and
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hikari-miru
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hyko-sdk
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: p-ttauto-crawler
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: evodflow
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: robotframework-robotlog2db
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyRealEstate
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gftools
+[2023-06-21 13:44:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: featurelayers
+[2023-06-21 13:44:52] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [arve]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [featurelayers]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [evodflow]: New version: [0.1.9.5] Old Version: [0.1.9.4]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [hikari-miru]: New version: [3.1.2] Old Version: [3.1.1]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [robotframework-robotlog2db]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [pyRealEstate]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [s2and]: New version: [0.19] Old Version: [0.18]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [gftools]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-21 13:44:52] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/45/ff/fd444393f6289e82c5f9ff06d56363e7e9a0fbf58d947322f35f27542e2b/p-ttauto-crawler-0.1.8.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [s2and]: Downloading https://files.pythonhosted.org/packages/8d/6c/a3bd77d43cb3e14a0b1989239058e4685a3b8174dc645f5c83d03f89d969/s2and-0.18.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [pyRealEstate]: Downloading https://files.pythonhosted.org/packages/8b/14/37fc1e629dc09ec0f3a964d504330e05a271dd4e7f98c5c3617a93a9b2ab/pyRealEstate-0.1.2.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/16/91/98f3c13a37bda97324ed1d5e97afecf6d4af22f3930e1b930fb89a735918/featurelayers-1.0.1.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [arve]: Downloading https://files.pythonhosted.org/packages/90/8c/56a3e2076e6898c97a0159b9108e5ca675395a0e774bd7c43feccde340ff/arve-0.1.3.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/bc/89/e93decfa584441bc595e7c27f0d539e3c8c5adaf82e78510583f7a1f8bc6/p-ttauto-crawler-0.1.9.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/11/60/81d349f8678e72058236cb07b661c7b9e6c667413de8289104ba9126ef79/hyko_sdk-0.1.5.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/6d/5d/f19c961c63554a9224a8abee321b0a8715dc1e05bbe03077b56b75a8bc0b/gftools-0.9.8.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [hikari-miru]: Downloading https://files.pythonhosted.org/packages/49/22/4b2e481faadc682e32b172b99eecb47045cb04b03e894b7db11c83a5ce2a/hikari-miru-3.1.1.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [robotframework-robotlog2db]: Downloading https://files.pythonhosted.org/packages/ac/a7/a7a8437b945144282b0468ce110d7600e2d011102516f59e45f045e5251f/robotframework-robotlog2db-1.3.7.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/30/29/a0058453294af8def3dbdac24a6ed934062ee7bf9af989272ed48d9ca0a3/evodflow-0.1.9.4.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-21 13:44:52] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.1.8.tar.gz tmp/p-ttauto-crawler-0.1.9.tar.gz --markdown 20230621/p/p-ttauto-crawler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 13:44:52] INFO root fetch - processPackages [s2and]: Downloading https://files.pythonhosted.org/packages/eb/5e/8cc7f9928ada9fb0477ba83932d3f41c377f35c744f50ed79d5283e47bb0/s2and-0.19.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [pyRealEstate]: Downloading https://files.pythonhosted.org/packages/e2/e5/becfa0dfc31b1963d90931acf86c98c75dcf07de30da65a3e0995d76f7e2/pyRealEstate-0.1.3.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [featurelayers]: Downloading https://files.pythonhosted.org/packages/00/98/6d25e7337ef459baf6508868ff0fb01b93c0c6d215a78fea2599bd484093/featurelayers-1.0.2.tar.gz
+[2023-06-21 13:44:52] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/5c/c3/27b6350cdb926fb98ea66708c0b004e496f4de2d5d97b298cd9c3cfdbf77/hyko_sdk-0.1.6.tar.gz
+[2023-06-21 13:44:53] INFO root fetch - processPackages [featurelayers]: executing diffoscope
+[2023-06-21 13:44:53] INFO root fetch - processPackages [featurelayers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurelayers-1.0.1.tar.gz tmp/featurelayers-1.0.2.tar.gz --markdown 20230621/f/featurelayers/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-21 13:44:53] INFO root fetch - processPackages [pyRealEstate]: executing diffoscope
+[2023-06-21 13:44:53] INFO root fetch - processPackages [pyRealEstate]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRealEstate-0.1.2.tar.gz tmp/pyRealEstate-0.1.3.tar.gz --markdown 20230621/p/pyRealEstate/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 13:44:53] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-06-21 13:44:53] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.1.5.tar.gz tmp/hyko_sdk-0.1.6.tar.gz --markdown 20230621/h/hyko-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-21 13:44:53] INFO root fetch - processPackages [s2and]: executing diffoscope
+[2023-06-21 13:44:53] INFO root fetch - processPackages [s2and]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/s2and-0.18.tar.gz tmp/s2and-0.19.tar.gz --markdown 20230621/s/s2and/0.18-0.19/diff.md --exclude *.pyd
+[2023-06-21 13:44:53] INFO root fetch - processPackages [hikari-miru]: Downloading https://files.pythonhosted.org/packages/6c/46/ff0907e79bcbb06c7f2e274992fd9267f62f077485551344d8ab88ce28c7/hikari-miru-3.1.2.tar.gz
+[2023-06-21 13:44:53] INFO root fetch - processPackages [evodflow]: Downloading https://files.pythonhosted.org/packages/42/4e/fc627563b086dcb2cb1b28fe3fb4cefc62e04786bfb310d60fabd6034228/evodflow-0.1.9.5.tar.gz
+[2023-06-21 13:44:53] INFO root fetch - processPackages [arve]: Downloading https://files.pythonhosted.org/packages/6c/e4/c6b72dfc6cf3361fadc47c7f78f8331be42c2bebef647d41ffdedafa74e0/arve-0.1.4.tar.gz
+[2023-06-21 13:44:53] INFO root fetch - processPackages [hikari-miru]: executing diffoscope
+[2023-06-21 13:44:53] INFO root fetch - processPackages [hikari-miru]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari-miru-3.1.1.tar.gz tmp/hikari-miru-3.1.2.tar.gz --markdown 20230621/h/hikari-miru/3.1.1-3.1.2/diff.md --exclude *.pyd
+[2023-06-21 13:44:53] INFO root fetch - processPackages [robotframework-robotlog2db]: Downloading https://files.pythonhosted.org/packages/e4/33/7fd3cd2f4bde070a7a3fc05af7d34d4e876f33b4682ae1947a703f4fcf7c/robotframework-robotlog2db-1.3.8.tar.gz
+[2023-06-21 13:44:53] INFO root fetch - processPackages [evodflow]: executing diffoscope
+[2023-06-21 13:44:53] INFO root fetch - processPackages [evodflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evodflow-0.1.9.4.tar.gz tmp/evodflow-0.1.9.5.tar.gz --markdown 20230621/e/evodflow/0.1.9.4-0.1.9.5/diff.md --exclude *.pyd
+[2023-06-21 13:44:53] INFO root fetch - processPackages [robotframework-robotlog2db]: executing diffoscope
+[2023-06-21 13:44:53] INFO root fetch - processPackages [robotframework-robotlog2db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-robotlog2db-1.3.7.tar.gz tmp/robotframework-robotlog2db-1.3.8.tar.gz --markdown 20230621/r/robotframework-robotlog2db/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-06-21 13:44:53] INFO root fetch - processPackages [arve]: executing diffoscope
+[2023-06-21 13:44:53] INFO root fetch - processPackages [arve]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arve-0.1.3.tar.gz tmp/arve-0.1.4.tar.gz --markdown 20230621/a/arve/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 13:44:53] INFO root fetch - processPackages [gftools]: Downloading https://files.pythonhosted.org/packages/4a/43/0695adddf818c751dd6cd94baf605871116827e1297e634d3f4508330908/gftools-0.9.9.tar.gz
+[2023-06-21 13:44:54] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.0.1.tar.gz]
+[2023-06-21 13:44:54] INFO root fetch - processPackages [featurelayers]: Remove: archive file [/home/abi/fetcher/tmp/featurelayers-1.0.2.tar.gz]
+[2023-06-21 13:44:54] INFO root fetch - processPackages [featurelayers]: Start processing: exchanges-wrapper
+[2023-06-21 13:44:54] INFO root fetch - main [MainThread]: End processing [featurelayers]: success
+[2023-06-21 13:44:54] INFO root fetch - processPackages [gftools]: executing diffoscope
+[2023-06-21 13:44:54] INFO root fetch - processPackages [gftools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gftools-0.9.8.tar.gz tmp/gftools-0.9.9.tar.gz --markdown 20230621/g/gftools/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-21 13:44:54] INFO root fetch - processPackages [exchanges-wrapper]: New version: [1.3.1b0] Old Version: [1.3.0.post2]
+[2023-06-21 13:44:54] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.5.tar.gz]
+[2023-06-21 13:44:54] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.1.6.tar.gz]
+[2023-06-21 13:44:54] INFO root fetch - processPackages [hyko-sdk]: Start processing: libdev
+[2023-06-21 13:44:54] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-06-21 13:44:54] INFO root fetch - processPackages [libdev]: New version: [0.9] Old Version: [0.8]
+[2023-06-21 13:44:54] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/74/bd/5f513cf18977e48c58c4efc373d9ae4425e8235d78f483ef321cd7acea90/exchanges-wrapper-1.3.0.post2.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [pyRealEstate]: Remove: archive file [/home/abi/fetcher/tmp/pyRealEstate-0.1.2.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [pyRealEstate]: Remove: archive file [/home/abi/fetcher/tmp/pyRealEstate-0.1.3.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [pyRealEstate]: Start processing: nwebclient
+[2023-06-21 13:44:55] INFO root fetch - main [MainThread]: End processing [pyRealEstate]: success
+[2023-06-21 13:44:55] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [libdev]: Downloading https://files.pythonhosted.org/packages/e2/8d/bcacab1d4f911d6fbf6c411dfb5a06ce836e521ccc40dc8175441fdb80b8/libdev-0.8.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.8.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.9.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [p-ttauto-crawler]: Start processing: jaraco.develop
+[2023-06-21 13:44:55] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-21 13:44:55] INFO root fetch - processPackages [s2and]: Remove: archive file [/home/abi/fetcher/tmp/s2and-0.18.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [s2and]: Remove: archive file [/home/abi/fetcher/tmp/s2and-0.19.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [s2and]: Start processing: cid-cmd
+[2023-06-21 13:44:55] INFO root fetch - main [MainThread]: End processing [s2and]: success
+[2023-06-21 13:44:55] INFO root fetch - processPackages [jaraco.develop]: New version: [7.9.1] Old Version: [7.9.0]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [cid-cmd]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [jaraco.develop]: Downloading https://files.pythonhosted.org/packages/37/e2/c1e161d6e86ddd1bf447938ffd2603eb81f4c86edc396b39771b0b0df9fc/jaraco.develop-7.9.0.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [exchanges-wrapper]: Downloading https://files.pythonhosted.org/packages/af/de/c2897234967ec3ce402a78610f7a3ad2afcb7a97a7271fcde5cbf9806810/exchanges_wrapper-1.3.1b0.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [jaraco.develop]: Downloading https://files.pythonhosted.org/packages/20/2d/16cf4a7654cc9364083e4419a0641648e22fc2a6bc8b941bb5752d923a56/jaraco.develop-7.9.1.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [libdev]: Downloading https://files.pythonhosted.org/packages/7d/2f/227c058dbbd649c3bb70bbd6d279691828eba2b5bac3cf27685382669b09/libdev-0.9.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/fe/a0/5dd619b961c8d1d90c05d9d9c3ef6c6df786df4198eb728acb3362743acc/cid-cmd-0.2.8.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [jaraco.develop]: executing diffoscope
+[2023-06-21 13:44:55] INFO root fetch - processPackages [jaraco.develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaraco.develop-7.9.0.tar.gz tmp/jaraco.develop-7.9.1.tar.gz --markdown 20230621/j/jaraco.develop/7.9.0-7.9.1/diff.md --exclude *.pyd
+[2023-06-21 13:44:55] INFO root fetch - processPackages [exchanges-wrapper]: executing diffoscope
+[2023-06-21 13:44:55] INFO root fetch - processPackages [exchanges-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/exchanges-wrapper-1.3.0.post2.tar.gz tmp/exchanges_wrapper-1.3.1b0.tar.gz --markdown 20230621/e/exchanges-wrapper/1.3.0.post2-1.3.1b0/diff.md --exclude *.pyd
+[2023-06-21 13:44:55] INFO root fetch - processPackages [libdev]: executing diffoscope
+[2023-06-21 13:44:55] INFO root fetch - processPackages [libdev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libdev-0.8.tar.gz tmp/libdev-0.9.tar.gz --markdown 20230621/l/libdev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-21 13:44:55] INFO root fetch - processPackages [hikari-miru]: Remove: archive file [/home/abi/fetcher/tmp/hikari-miru-3.1.1.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [hikari-miru]: Remove: archive file [/home/abi/fetcher/tmp/hikari-miru-3.1.2.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [hikari-miru]: Start processing: otfftw
+[2023-06-21 13:44:55] INFO root fetch - main [MainThread]: End processing [hikari-miru]: success
+[2023-06-21 13:44:55] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.4.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [evodflow]: Remove: archive file [/home/abi/fetcher/tmp/evodflow-0.1.9.5.tar.gz]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [evodflow]: Start processing: otmixmod
+[2023-06-21 13:44:55] INFO root fetch - main [MainThread]: End processing [evodflow]: success
+[2023-06-21 13:44:55] INFO root fetch - processPackages [otfftw]: New version: [0.13] Old Version: [0.12.post7]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [otmixmod]: New version: [0.14] Old Version: [0.13.post7]
+[2023-06-21 13:44:55] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [otfftw]: Downloading https://files.pythonhosted.org/packages/02/6d/da2be53973f10370ab42a4d03eeb7864b87569aae5935491d3fed426aa43/otfftw-0.12.post7-cp39-cp39-win_amd64.whl
+[2023-06-21 13:44:55] INFO root fetch - processPackages [otmixmod]: Downloading https://files.pythonhosted.org/packages/fd/b6/9665552e293d8f1230d042b1a555dfe65956e4468333c3b609d0c5bbe4d5/otmixmod-0.13.post7-cp39-cp39-win_amd64.whl
+[2023-06-21 13:44:55] INFO root fetch - processPackages [cid-cmd]: Downloading https://files.pythonhosted.org/packages/32/6d/2a17b0502b559cee495f4e07224f56ff0eb2a35fba5a62fb74eacc0381ec/cid-cmd-0.2.9.tar.gz
+[2023-06-21 13:44:55] INFO root fetch - processPackages [cid-cmd]: executing diffoscope
+[2023-06-21 13:44:55] INFO root fetch - processPackages [cid-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cid-cmd-0.2.8.tar.gz tmp/cid-cmd-0.2.9.tar.gz --markdown 20230621/c/cid-cmd/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 13:44:56] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-21 13:44:56] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230621/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-21 13:44:56] INFO root fetch - processPackages [otmixmod]: Downloading https://files.pythonhosted.org/packages/b5/8e/24b26b37965c10ce907129f51210dfa4e2b4d30102013e14c650d61b7f63/otmixmod-0.14-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-21 13:44:56] INFO root fetch - processPackages [otmixmod]: executing diffoscope
+[2023-06-21 13:44:56] INFO root fetch - processPackages [otmixmod]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otmixmod-0.13.post7-cp39-cp39-win_amd64.whl.zip tmp/otmixmod-0.14-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230621/o/otmixmod/0.13.post7-0.14/diff.md --exclude *.pyd
+[2023-06-21 13:44:56] INFO root fetch - processPackages [otfftw]: Downloading https://files.pythonhosted.org/packages/eb/fc/ad44269af6ac65dc0b350b105c7fbcf0e71166156cea7503c2610fed3f49/otfftw-0.13-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-21 13:44:56] INFO root fetch - processPackages [otfftw]: executing diffoscope
+[2023-06-21 13:44:56] INFO root fetch - processPackages [otfftw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otfftw-0.12.post7-cp39-cp39-win_amd64.whl.zip tmp/otfftw-0.13-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230621/o/otfftw/0.12.post7-0.13/diff.md --exclude *.pyd
+[2023-06-21 13:44:57] INFO root fetch - processPackages [libdev]: Remove: archive file [/home/abi/fetcher/tmp/libdev-0.8.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [libdev]: Remove: archive file [/home/abi/fetcher/tmp/libdev-0.9.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [libdev]: Start processing: otmorris
+[2023-06-21 13:44:57] INFO root fetch - main [MainThread]: End processing [libdev]: success
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otmorris]: New version: [0.14] Old Version: [0.13.post7]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges-wrapper-1.3.0.post2.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [exchanges-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/exchanges_wrapper-1.3.1b0.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [exchanges-wrapper]: Start processing: otrobopt
+[2023-06-21 13:44:57] INFO root fetch - main [MainThread]: End processing [exchanges-wrapper]: success
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otrobopt]: New version: [0.9.post1] Old Version: [0.9.3]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [arve]: Remove: archive file [/home/abi/fetcher/tmp/arve-0.1.3.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [arve]: Remove: archive file [/home/abi/fetcher/tmp/arve-0.1.4.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [arve]: Start processing: otsubsetinverse
+[2023-06-21 13:44:57] INFO root fetch - main [MainThread]: End processing [arve]: success
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otsubsetinverse]: New version: [1.9.post7] Old Version: [1.9.post6]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-7.9.0.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [jaraco.develop]: Remove: archive file [/home/abi/fetcher/tmp/jaraco.develop-7.9.1.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [jaraco.develop]: Start processing: otsvm
+[2023-06-21 13:44:57] INFO root fetch - main [MainThread]: End processing [jaraco.develop]: success
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otsvm]: New version: [0.12] Old Version: [0.11.post7]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otmorris]: Downloading https://files.pythonhosted.org/packages/e9/75/7cf97082a1b15150467072fa4f8a885e164c4596eda3e8e82a248b89cc59/otmorris-0.13.post7-cp39-cp39-win_amd64.whl
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otrobopt]: Downloading https://files.pythonhosted.org/packages/33/89/7c08d65a845bd7369559024ead8b1b54bf3bf26f76952b4982f48a5ec41e/otrobopt-0.9.3-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otsubsetinverse]: Downloading https://files.pythonhosted.org/packages/3b/36/b012bc22ada6a9f707e966a1a67336812c8ffd7362f1ca3a1fd9f9775bc3/otsubsetinverse-1.9.post6-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otsvm]: Downloading https://files.pythonhosted.org/packages/6f/e8/aadf8d0757c1261c243cedf58a6805fcd1b07a0bb70c126a69f1ce7c96a9/otsvm-0.11.post7-cp39-cp39-win_amd64.whl
+[2023-06-21 13:44:57] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.3.7.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [robotframework-robotlog2db]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-robotlog2db-1.3.8.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [robotframework-robotlog2db]: Start processing: miejskiapi
+[2023-06-21 13:44:57] INFO root fetch - main [MainThread]: End processing [robotframework-robotlog2db]: success
+[2023-06-21 13:44:57] WARNING root fetch - processPackages [miejskiapi]: Skipping, unable to determine old version
+[2023-06-21 13:44:57] INFO root fetch - processPackages [miejskiapi]: Start processing: genopyc
+[2023-06-21 13:44:57] INFO root fetch - main [MainThread]: End processing [miejskiapi] error
+[2023-06-21 13:44:57] INFO root fetch - processPackages [genopyc]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otmorris]: Downloading https://files.pythonhosted.org/packages/46/a0/2a00cfa9b86d66269430397e73c0ce55ca230e4446886a394913ba29efba/otmorris-0.14-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-21 13:44:57] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/c4/3a/3ca83dec6ec2b538cfa5a7b65298c9d4b08f9e97cd8b32210210ecd90172/genopyc-1.0.4-py3-none-any.whl
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otsvm]: Downloading https://files.pythonhosted.org/packages/9c/a4/e428fa9a7152860d86f58b528a6359920ebda4276535e5576239c1b64a2e/otsvm-0.12-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otmixmod]: Remove: archive file [/home/abi/fetcher/tmp/otmixmod-0.13.post7-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otmorris]: executing diffoscope
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otmorris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otmorris-0.13.post7-cp39-cp39-win_amd64.whl.zip tmp/otmorris-0.14-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230621/o/otmorris/0.13.post7-0.14/diff.md --exclude *.pyd
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otmixmod]: Remove: archive file [/home/abi/fetcher/tmp/otmixmod-0.14-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-21 13:44:57] INFO root fetch - main [MainThread]: End processing [otmixmod]: success
+[2023-06-21 13:44:57] INFO root fetch - processPackages [otsubsetinverse]: Downloading https://files.pythonhosted.org/packages/0b/a2/c55a2069c8ca2097450f2df7d0f012c4f1db70d87121ebbd24e0d266fb4a/otsubsetinverse-1.9.post7-cp39-cp39-win_amd64.whl
+[2023-06-21 13:44:57] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-06-21 13:44:57] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-21 13:44:57] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/c2/93/3c390e0f34ac9c9b74d6f92f2366f11026c386de6473cc764d3e8b91972e/genopyc-1.0.5-py3-none-any.whl
+[2023-06-21 13:44:58] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-06-21 13:44:58] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-1.0.4-py3-none-any.whl.zip tmp/genopyc-1.0.5-py3-none-any.whl.zip --markdown 20230621/g/genopyc/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-21 13:44:58] INFO root fetch - processPackages [otrobopt]: Downloading https://files.pythonhosted.org/packages/ce/8f/6972439419ca87dcfd71175aeee2a7bc190b06326033b93eee09c419fec3/otrobopt-0.9.post1-cp39-cp39-manylinux1_x86_64.whl
+[2023-06-21 13:44:58] INFO root fetch - processPackages [otsvm]: executing diffoscope
+[2023-06-21 13:44:58] INFO root fetch - processPackages [otsvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otsvm-0.11.post7-cp39-cp39-win_amd64.whl.zip tmp/otsvm-0.12-cp39-cp39-manylinux2014_x86_64.whl.zip --markdown 20230621/o/otsvm/0.11.post7-0.12/diff.md --exclude *.pyd
+[2023-06-21 13:44:58] INFO root fetch - processPackages [otrobopt]: executing diffoscope
+[2023-06-21 13:44:58] INFO root fetch - processPackages [otrobopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otrobopt-0.9.3-cp39-cp39-manylinux1_x86_64.whl.zip tmp/otrobopt-0.9.post1-cp39-cp39-manylinux1_x86_64.whl.zip --markdown 20230621/o/otrobopt/0.9.3-0.9.post1/diff.md --exclude *.pyd
+[2023-06-21 13:44:58] INFO root fetch - processPackages [otsubsetinverse]: executing diffoscope
+[2023-06-21 13:44:58] INFO root fetch - processPackages [otsubsetinverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otsubsetinverse-1.9.post6-cp39-cp39-manylinux2014_x86_64.whl.zip tmp/otsubsetinverse-1.9.post7-cp39-cp39-win_amd64.whl.zip --markdown 20230621/o/otsubsetinverse/1.9.post6-1.9.post7/diff.md --exclude *.pyd
+[2023-06-21 13:44:59] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.0.4-py3-none-any.whl.zip]
+[2023-06-21 13:44:59] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.0.5-py3-none-any.whl.zip]
+[2023-06-21 13:44:59] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-06-21 13:44:59] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.8.tar.gz]
+[2023-06-21 13:44:59] INFO root fetch - processPackages [cid-cmd]: Remove: archive file [/home/abi/fetcher/tmp/cid-cmd-0.2.9.tar.gz]
+[2023-06-21 13:44:59] INFO root fetch - main [MainThread]: End processing [cid-cmd]: success
+[2023-06-21 13:44:59] INFO root fetch - processPackages [otmorris]: Remove: archive file [/home/abi/fetcher/tmp/otmorris-0.13.post7-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 13:44:59] INFO root fetch - processPackages [otmorris]: Remove: archive file [/home/abi/fetcher/tmp/otmorris-0.14-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-21 13:44:59] INFO root fetch - main [MainThread]: End processing [otmorris]: success
+[2023-06-21 13:44:59] INFO root fetch - processPackages [otsvm]: Remove: archive file [/home/abi/fetcher/tmp/otsvm-0.11.post7-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 13:44:59] INFO root fetch - processPackages [otsvm]: Remove: archive file [/home/abi/fetcher/tmp/otsvm-0.12-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-21 13:44:59] INFO root fetch - main [MainThread]: End processing [otsvm]: success
+[2023-06-21 13:44:59] INFO root fetch - processPackages [otsubsetinverse]: Remove: archive file [/home/abi/fetcher/tmp/otsubsetinverse-1.9.post6-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-21 13:44:59] INFO root fetch - processPackages [otsubsetinverse]: Remove: archive file [/home/abi/fetcher/tmp/otsubsetinverse-1.9.post7-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 13:44:59] INFO root fetch - main [MainThread]: End processing [otsubsetinverse]: success
+[2023-06-21 13:45:01] INFO root fetch - processPackages [otfftw]: Remove: archive file [/home/abi/fetcher/tmp/otfftw-0.12.post7-cp39-cp39-win_amd64.whl.zip]
+[2023-06-21 13:45:01] INFO root fetch - processPackages [otfftw]: Remove: archive file [/home/abi/fetcher/tmp/otfftw-0.13-cp39-cp39-manylinux2014_x86_64.whl.zip]
+[2023-06-21 13:45:01] INFO root fetch - main [MainThread]: End processing [otfftw]: success
+[2023-06-21 13:45:06] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.8.tar.gz]
+[2023-06-21 13:45:06] INFO root fetch - processPackages [gftools]: Remove: archive file [/home/abi/fetcher/tmp/gftools-0.9.9.tar.gz]
+[2023-06-21 13:45:06] INFO root fetch - main [MainThread]: End processing [gftools]: success
+[2023-06-21 13:45:09] INFO root fetch - processPackages [otrobopt]: Remove: archive file [/home/abi/fetcher/tmp/otrobopt-0.9.3-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-21 13:45:09] INFO root fetch - processPackages [otrobopt]: Remove: archive file [/home/abi/fetcher/tmp/otrobopt-0.9.post1-cp39-cp39-manylinux1_x86_64.whl.zip]
+[2023-06-21 13:45:09] INFO root fetch - main [MainThread]: End processing [otrobopt]: success
+[2023-06-21 13:45:09] INFO root fetch - main [MainThread]: Store serial: [18589596]
