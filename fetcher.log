@@ -9205,3 +9205,87 @@ AssertionError: tmp/cmh_lims_py-1.0.8.tar.gz does not exist
 [2023-06-21 03:44:58] INFO root fetch - processPackages [data-repo-client]: Remove: archive file [/home/abi/fetcher/tmp/data-repo-client-1.64.0.tar.gz]
 [2023-06-21 03:44:58] INFO root fetch - main [MainThread]: End processing [data-repo-client]: success
 [2023-06-21 03:44:58] INFO root fetch - main [MainThread]: Store serial: [18584116]
+[2023-06-21 03:50:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584116]
+[2023-06-21 03:50:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WIDscript
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ml-compiler-opt
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rdrobust
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nonebot-plugin-gw2
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cript-graph
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hatch-project-pypi
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-wordpress
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: element-animal
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: betfair-parser
+[2023-06-21 03:50:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uri-template
+[2023-06-21 03:50:06] WARNING root fetch - processPackages [WIDscript]: Skipping, unable to determine old version
+[2023-06-21 03:50:06] INFO root fetch - processPackages [WIDscript]: Start processing: pyramm
+[2023-06-21 03:50:06] INFO root fetch - main [MainThread]: End processing [WIDscript] error
+[2023-06-21 03:50:06] INFO root fetch - processPackages [nonebot-plugin-gw2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 03:50:06] INFO root fetch - processPackages [rdrobust]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-06-21 03:50:06] WARNING root fetch - processPackages [cript-graph]: Skipping, unable to determine old version
+[2023-06-21 03:50:06] INFO root fetch - processPackages [hatch-project-pypi]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 03:50:06] INFO root fetch - processPackages [element-animal]: New version: [0.1.8] Old Version: [0.1.5]
+[2023-06-21 03:50:06] INFO root fetch - main [MainThread]: End processing [cript-graph] error
+[2023-06-21 03:50:06] INFO root fetch - processPackages [uri-template]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-06-21 03:50:06] INFO root fetch - processPackages [pyramm]: New version: [1.9] Old Version: [1.8]
+[2023-06-21 03:50:06] INFO root fetch - processPackages [betfair-parser]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-21 03:50:06] WARNING root fetch - processPackages [ml-compiler-opt]: Skipping, unable to determine old version
+[2023-06-21 03:50:06] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt] error
+[2023-06-21 03:50:07] INFO root fetch - processPackages [cdk-wordpress]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-21 03:50:07] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/b8/ba/9c47b963a48809916c19b4251d8b44d307ead95f77dd919f0ffcccb627a9/hatch_project_pypi-0.0.2.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/ee/4f/4b646e22d7e0e3d5f3fec6bc444605c72ca3644b08c147397988108a9fa7/betfair_parser-0.4.2.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/82/cd/1d0c354eb8064c45f667bd48772162211e74c58e262a17c03835deeea0e1/pyramm-1.8.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [uri-template]: Downloading https://files.pythonhosted.org/packages/40/55/9318f307d3b0a70ce5812fd2b9da286b0f58a2ffbdba5fa269d0c052ae89/uri_template-1.2.0.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [nonebot-plugin-gw2]: Downloading https://files.pythonhosted.org/packages/11/a4/1d52393f8a3445b61c0445767faadaf1b907b9604e1b4e5033ce45294464/nonebot-plugin-gw2-0.0.1.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [rdrobust]: Downloading https://files.pythonhosted.org/packages/f6/15/6242803a7ac630a63beb9ab895262679db48436754c75e19b32436421334/rdrobust-1.0.9.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [element-animal]: Downloading https://files.pythonhosted.org/packages/88/8d/100c1ddebebd7f4046e5644c70b656ca8638c3299db840b21bbc184a91b8/element-animal-0.1.5.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [pyramm]: Downloading https://files.pythonhosted.org/packages/48/d2/4a266da41f00068ddb8d5ab01903309a2d8653ce863390db6972605a93c6/pyramm-1.9.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/95/5a/46730445b7c8db7cad33c0b319cbd75004ba42b6cbe2f00628d2191c5516/cdk-wordpress-0.0.98.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [pyramm]: executing diffoscope
+[2023-06-21 03:50:07] INFO root fetch - processPackages [pyramm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyramm-1.8.tar.gz tmp/pyramm-1.9.tar.gz --markdown 20230621/p/pyramm/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-21 03:50:07] INFO root fetch - processPackages [hatch-project-pypi]: Downloading https://files.pythonhosted.org/packages/b6/c8/b22586174d6a3400ae101b3c1abedfc6aaf7a271a5b1dd8d02817cdf177d/hatch_project_pypi-0.0.3.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [betfair-parser]: Downloading https://files.pythonhosted.org/packages/a1/7a/091974590d2936dbb8b35da6b58e5d3e1abe19ce5dbf48ee87779b07b89e/betfair_parser-0.4.3.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [hatch-project-pypi]: executing diffoscope
+[2023-06-21 03:50:07] INFO root fetch - processPackages [hatch-project-pypi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi-0.0.2.tar.gz tmp/hatch_project_pypi-0.0.3.tar.gz --markdown 20230621/h/hatch-project-pypi/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 03:50:07] INFO root fetch - processPackages [uri-template]: Downloading https://files.pythonhosted.org/packages/31/c7/0336f2bd0bcbada6ccef7aaa25e443c118a704f828a0620c6fa0207c1b64/uri-template-1.3.0.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [uri-template]: executing diffoscope
+[2023-06-21 03:50:07] INFO root fetch - processPackages [uri-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uri_template-1.2.0.tar.gz tmp/uri-template-1.3.0.tar.gz --markdown 20230621/u/uri-template/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-06-21 03:50:07] INFO root fetch - processPackages [betfair-parser]: executing diffoscope
+[2023-06-21 03:50:07] INFO root fetch - processPackages [betfair-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfair_parser-0.4.2.tar.gz tmp/betfair_parser-0.4.3.tar.gz --markdown 20230621/b/betfair-parser/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-21 03:50:07] INFO root fetch - processPackages [cdk-wordpress]: Downloading https://files.pythonhosted.org/packages/f5/33/8bc435266e926cea52eb7df452e54c2c0657beef07580a86eae44236d88b/cdk-wordpress-0.0.99.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [rdrobust]: Downloading https://files.pythonhosted.org/packages/cb/d3/d13fa0a06f1e9439b7d79c94f0809ae6dfbde61ae877207a9b5b4aea21d3/rdrobust-1.1.0.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [element-animal]: Downloading https://files.pythonhosted.org/packages/62/20/b4c8d321d2ce060e2410792949f3385f0e56c9dc1da8f8346caf90bbd969/element-animal-0.1.8.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [cdk-wordpress]: executing diffoscope
+[2023-06-21 03:50:07] INFO root fetch - processPackages [cdk-wordpress]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-wordpress-0.0.98.tar.gz tmp/cdk-wordpress-0.0.99.tar.gz --markdown 20230621/c/cdk-wordpress/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-21 03:50:07] INFO root fetch - processPackages [nonebot-plugin-gw2]: Downloading https://files.pythonhosted.org/packages/f6/2a/4b55468d88c7f15c38d0eb4fe76c46083618adab8f9af212409c9ced4287/nonebot_plugin_gw2-0.0.2.tar.gz
+[2023-06-21 03:50:07] INFO root fetch - processPackages [rdrobust]: executing diffoscope
+[2023-06-21 03:50:07] INFO root fetch - processPackages [rdrobust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdrobust-1.0.9.tar.gz tmp/rdrobust-1.1.0.tar.gz --markdown 20230621/r/rdrobust/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 03:50:07] INFO root fetch - processPackages [nonebot-plugin-gw2]: executing diffoscope
+[2023-06-21 03:50:07] INFO root fetch - processPackages [nonebot-plugin-gw2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-gw2-0.0.1.tar.gz tmp/nonebot_plugin_gw2-0.0.2.tar.gz --markdown 20230621/n/nonebot-plugin-gw2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 03:50:07] INFO root fetch - processPackages [element-animal]: executing diffoscope
+[2023-06-21 03:50:07] INFO root fetch - processPackages [element-animal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-animal-0.1.5.tar.gz tmp/element-animal-0.1.8.tar.gz --markdown 20230621/e/element-animal/0.1.5-0.1.8/diff.md --exclude *.pyd
+[2023-06-21 03:50:08] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.8.tar.gz]
+[2023-06-21 03:50:08] INFO root fetch - processPackages [pyramm]: Remove: archive file [/home/abi/fetcher/tmp/pyramm-1.9.tar.gz]
+[2023-06-21 03:50:08] INFO root fetch - main [MainThread]: End processing [pyramm]: success
+[2023-06-21 03:50:08] INFO root fetch - processPackages [hatch-project-pypi]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi-0.0.2.tar.gz]
+[2023-06-21 03:50:08] INFO root fetch - processPackages [hatch-project-pypi]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi-0.0.3.tar.gz]
+[2023-06-21 03:50:08] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi]: success
+[2023-06-21 03:50:08] INFO root fetch - processPackages [uri-template]: Remove: archive file [/home/abi/fetcher/tmp/uri_template-1.2.0.tar.gz]
+[2023-06-21 03:50:08] INFO root fetch - processPackages [uri-template]: Remove: archive file [/home/abi/fetcher/tmp/uri-template-1.3.0.tar.gz]
+[2023-06-21 03:50:08] INFO root fetch - main [MainThread]: End processing [uri-template]: success
+[2023-06-21 03:50:09] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.4.2.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - processPackages [betfair-parser]: Remove: archive file [/home/abi/fetcher/tmp/betfair_parser-0.4.3.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - main [MainThread]: End processing [betfair-parser]: success
+[2023-06-21 03:50:09] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.98.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - processPackages [cdk-wordpress]: Remove: archive file [/home/abi/fetcher/tmp/cdk-wordpress-0.0.99.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - main [MainThread]: End processing [cdk-wordpress]: success
+[2023-06-21 03:50:09] INFO root fetch - processPackages [nonebot-plugin-gw2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-gw2-0.0.1.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - processPackages [nonebot-plugin-gw2]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_gw2-0.0.2.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-gw2]: success
+[2023-06-21 03:50:09] INFO root fetch - processPackages [rdrobust]: Remove: archive file [/home/abi/fetcher/tmp/rdrobust-1.0.9.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - processPackages [rdrobust]: Remove: archive file [/home/abi/fetcher/tmp/rdrobust-1.1.0.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - main [MainThread]: End processing [rdrobust]: success
+[2023-06-21 03:50:09] INFO root fetch - processPackages [element-animal]: Remove: archive file [/home/abi/fetcher/tmp/element-animal-0.1.5.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - processPackages [element-animal]: Remove: archive file [/home/abi/fetcher/tmp/element-animal-0.1.8.tar.gz]
+[2023-06-21 03:50:09] INFO root fetch - main [MainThread]: End processing [element-animal]: success
+[2023-06-21 03:50:09] INFO root fetch - main [MainThread]: Store serial: [18584158]
