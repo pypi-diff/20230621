@@ -5129,3 +5129,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 02:52:58] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306200044.tar.gz]
 [2023-06-21 02:52:58] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-21 02:52:58] INFO root fetch - main [MainThread]: Store serial: [18582646]
+[2023-06-21 02:58:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18582646]
+[2023-06-21 02:58:07] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikGapps
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-slack-chatbot
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airbyte
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: komm
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-databrew-cicd
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chima
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ats-case
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fmake
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: merlin-sdk
+[2023-06-21 02:58:07] INFO root fetch - processPackages [NikGapps]: New version: [1.46] Old Version: [1.45]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [fmake]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [airbyte]: New version: [1.9.3] Old Version: [1.9.2]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [komm]: New version: [0.8.0] Old Version: [0.7.4]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [chima]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ats-case]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [merlin-sdk]: New version: [0.9.1] Old Version: [0.9.0.dev0]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-21 02:58:07] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/95/09/eea230e893ab55370e867c76f081945c8f60016ebdb0b385d9f077a4fc0c/airbyte-1.9.2.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/a6/93/1ec49bc87e9c3783e78f1047b5a8045a37c626115351da0f603c1ae6a894/merlin-sdk-0.9.0.dev0.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/1f/c5/ce238e04674d59e43975cac2f351e498d0f819df732f6fecba8a85197ecd/ats_case-0.9.1.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/ec/da/ebe1c7a9c3dc859105cc0f9f3160e774a7ee82471f77ab347202f04f7e5a/NikGapps-1.45.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [komm]: Downloading https://files.pythonhosted.org/packages/54/53/07e55f23da7cc6230f071ccbb5488a3452179a3930092bd088cff730025e/komm-0.7.4.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/9a/3d/11b770dc58d2b75c58442deb2971499f66c8a510b4b49baaddd1752beb81/chima-0.0.8.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [fmake]: Downloading https://files.pythonhosted.org/packages/59/3c/161408a94e563f507e5882afdf35ac8326651f7562995df0c84c9f788daa/fmake-0.0.8.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-06-21 02:58:07] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564251>=10485760
+[2023-06-21 02:58:07] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-21 02:58:07] INFO root fetch - processPackages [airbyte]: Downloading https://files.pythonhosted.org/packages/c8/0f/877b6add49894978bf75b52f0cac1579d618edd3403e2547fc5a23f4705e/airbyte-1.9.3.tar.gz
+[2023-06-21 02:58:07] INFO root fetch - processPackages [merlin-sdk]: Downloading https://files.pythonhosted.org/packages/48/3b/5e6b41bed4feb59823f7fa8ccbf076c977df12a20955a3c783fab418f126/merlin-sdk-0.9.1.tar.gz
+[2023-06-21 02:58:08] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/be/75/b967ee9c6c350d5c68cc158efbc258d03e7d2976ba9cc2efdd8dc80080cb/ats_case-0.9.2.tar.gz
+[2023-06-21 02:58:08] INFO root fetch - processPackages [airbyte]: executing diffoscope
+[2023-06-21 02:58:08] INFO root fetch - processPackages [airbyte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/airbyte-1.9.2.tar.gz tmp/airbyte-1.9.3.tar.gz --markdown 20230621/a/airbyte/1.9.2-1.9.3/diff.md --exclude *.pyd
+[2023-06-21 02:58:08] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-21 02:58:08] INFO root fetch - processPackages [komm]: Downloading https://files.pythonhosted.org/packages/79/98/4e320d6a072418c2938464aa0e158090e4a2938d322fcac1f44d26235d63/komm-0.8.0.tar.gz
+[2023-06-21 02:58:08] INFO root fetch - processPackages [merlin-sdk]: executing diffoscope
+[2023-06-21 02:58:08] INFO root fetch - processPackages [merlin-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/merlin-sdk-0.9.0.dev0.tar.gz tmp/merlin-sdk-0.9.1.tar.gz --markdown 20230621/m/merlin-sdk/0.9.0.dev0-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 02:58:08] INFO root fetch - processPackages [komm]: executing diffoscope
+[2023-06-21 02:58:08] INFO root fetch - processPackages [komm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/komm-0.7.4.tar.gz tmp/komm-0.8.0.tar.gz --markdown 20230621/k/komm/0.7.4-0.8.0/diff.md --exclude *.pyd
+[2023-06-21 02:58:08] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-21 02:58:08] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.1.tar.gz tmp/ats_case-0.9.2.tar.gz --markdown 20230621/a/ats-case/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-21 02:58:08] INFO root fetch - processPackages [chima]: Downloading https://files.pythonhosted.org/packages/76/50/145f581fdbaac6a541c615987d5bdf818f3aa19de5578423cd52b460e3dd/chima-0.0.9.tar.gz
+[2023-06-21 02:58:08] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-06-21 02:58:08] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-21 02:58:08] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230621/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-21 02:58:08] INFO root fetch - processPackages [fmake]: Downloading https://files.pythonhosted.org/packages/04/f5/fa43cfe6ec268677044f9fa0649aaf65c56bc09c53db01af4ba83cf9693a/fmake-0.0.9.tar.gz
+[2023-06-21 02:58:08] INFO root fetch - processPackages [chima]: executing diffoscope
+[2023-06-21 02:58:08] INFO root fetch - processPackages [chima]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chima-0.0.8.tar.gz tmp/chima-0.0.9.tar.gz --markdown 20230621/c/chima/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 02:58:08] INFO root fetch - processPackages [fmake]: executing diffoscope
+[2023-06-21 02:58:08] INFO root fetch - processPackages [fmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fmake-0.0.8.tar.gz tmp/fmake-0.0.9.tar.gz --markdown 20230621/f/fmake/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 02:58:08] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-06-21 02:58:08] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230621/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-21 02:58:09] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-21 02:58:09] INFO root fetch - processPackages [komm]: Remove: archive file [/home/abi/fetcher/tmp/komm-0.7.4.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - processPackages [komm]: Remove: archive file [/home/abi/fetcher/tmp/komm-0.8.0.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - main [MainThread]: End processing [komm]: success
+[2023-06-21 02:58:09] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.8.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - processPackages [chima]: Remove: archive file [/home/abi/fetcher/tmp/chima-0.0.9.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - main [MainThread]: End processing [chima]: success
+[2023-06-21 02:58:09] INFO root fetch - processPackages [fmake]: Remove: archive file [/home/abi/fetcher/tmp/fmake-0.0.8.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - processPackages [fmake]: Remove: archive file [/home/abi/fetcher/tmp/fmake-0.0.9.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - main [MainThread]: End processing [fmake]: success
+[2023-06-21 02:58:09] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-06-21 02:58:09] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-06-21 02:58:10] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.1.tar.gz]
+[2023-06-21 02:58:10] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.2.tar.gz]
+[2023-06-21 02:58:10] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-21 02:58:10] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.0.dev0.tar.gz]
+[2023-06-21 02:58:10] INFO root fetch - processPackages [merlin-sdk]: Remove: archive file [/home/abi/fetcher/tmp/merlin-sdk-0.9.1.tar.gz]
+[2023-06-21 02:58:10] INFO root fetch - main [MainThread]: End processing [merlin-sdk]: success
+[2023-06-21 02:58:12] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.2.tar.gz]
+[2023-06-21 02:58:12] INFO root fetch - processPackages [airbyte]: Remove: archive file [/home/abi/fetcher/tmp/airbyte-1.9.3.tar.gz]
+[2023-06-21 02:58:12] INFO root fetch - main [MainThread]: End processing [airbyte]: success
+[2023-06-21 02:58:12] INFO root fetch - main [MainThread]: Store serial: [18582675]
