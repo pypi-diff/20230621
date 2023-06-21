@@ -13881,3 +13881,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 07:59:17] INFO root fetch - processPackages [dvc-azure]: Remove: archive file [/home/abi/fetcher/tmp/dvc-azure-2.22.0.tar.gz]
 [2023-06-21 07:59:17] INFO root fetch - main [MainThread]: End processing [dvc-azure]: success
 [2023-06-21 07:59:17] INFO root fetch - main [MainThread]: Store serial: [18585864]
+[2023-06-21 08:04:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585864]
+[2023-06-21 08:04:26] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-21 08:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: WB-Custom-Logger
+[2023-06-21 08:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ast-scope
+[2023-06-21 08:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-rename
+[2023-06-21 08:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: depmanager
+[2023-06-21 08:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: breeze-strategies
+[2023-06-21 08:04:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyroFork-dev
+[2023-06-21 08:04:26] INFO root fetch - processPackages [nonebot-plugin-rename]: New version: [1.5.5] Old Version: [1.5.1]
+[2023-06-21 08:04:26] INFO root fetch - processPackages [WB-Custom-Logger]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 08:04:26] INFO root fetch - processPackages [breeze-strategies]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-06-21 08:04:26] INFO root fetch - processPackages [PyroFork-dev]: New version: [2.2.1.dev202306210603] Old Version: [2.2.0.dev202305231339]
+[2023-06-21 08:04:26] INFO root fetch - processPackages [depmanager]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-21 08:04:26] INFO root fetch - processPackages [ast-scope]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-21 08:04:26] INFO root fetch - processPackages [WB-Custom-Logger]: Downloading https://files.pythonhosted.org/packages/ce/87/db6d570c20718f11bac825cf6f2b89f937def2ea293c7aad8185ac163a6a/WB%20Custom%20Logger-0.0.2.tar.gz
+[2023-06-21 08:04:26] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/7d/f6/785e0a2257e9ab01a240745f96c8d1c88f1f3d026f3736920ec929c0df03/nonebot_plugin_rename-1.5.1.tar.gz
+[2023-06-21 08:04:26] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/43/6d/b84a40570ed665ec231cba38d020d25d7bfa3d72589ace6b2458da4a2409/PyroFork-dev-2.2.0.dev202305231339.tar.gz
+[2023-06-21 08:04:26] INFO root fetch - processPackages [ast-scope]: Downloading https://files.pythonhosted.org/packages/95/48/982dd731b73c621c7a1aed35331e25fc69ff3501394870aeb622fe728b6f/ast_scope-0.4.0.tar.gz
+[2023-06-21 08:04:26] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/74/4c/e40457a4fd0d77f506fd1da29d6dcf2b7f944c4f1883f3f529346c9e1335/breeze_strategies-6.0.2.tar.gz
+[2023-06-21 08:04:26] INFO root fetch - processPackages [depmanager]: Downloading https://files.pythonhosted.org/packages/77/f8/9a3a074d309e372bc38066561af4e36083efa1b83fdf836eff82cf4fe870/depmanager-0.1.3.tar.gz
+[2023-06-21 08:04:26] INFO root fetch - processPackages [WB-Custom-Logger]: Downloading https://files.pythonhosted.org/packages/ec/58/d3db32d7e2a32516228f57ef51ad7a697350c50ca91003113e4f42cda803/WB%20Custom%20Logger-0.0.3.tar.gz
+[2023-06-21 08:04:27] INFO root fetch - processPackages [WB-Custom-Logger]: executing diffoscope
+[2023-06-21 08:04:27] INFO root fetch - processPackages [WB-Custom-Logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/WB Custom Logger-0.0.2.tar.gz tmp/WB Custom Logger-0.0.3.tar.gz --markdown 20230621/W/WB-Custom-Logger/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 08:04:27] INFO root fetch - processPackages [breeze-strategies]: Downloading https://files.pythonhosted.org/packages/26/98/f1ec73b910b5bc1bc68562eaf7978e07a38ee9a31ddd8b3a6e2af30bcae4/breeze_strategies-6.0.3.tar.gz
+[2023-06-21 08:04:27] INFO root fetch - processPackages [depmanager]: Downloading https://files.pythonhosted.org/packages/50/93/89b09e76ec37d2579ae3e6c40555fca83963e0c24e4984da16c96974cc9e/depmanager-0.1.4.tar.gz
+[2023-06-21 08:04:27] INFO root fetch - processPackages [ast-scope]: Downloading https://files.pythonhosted.org/packages/45/a2/0f2e2593da73ac874fd84a5be9ec909951e40a9c737cdaae3d9ec52c5e40/ast_scope-0.4.1.tar.gz
+[2023-06-21 08:04:27] INFO root fetch - processPackages [ast-scope]: executing diffoscope
+[2023-06-21 08:04:27] INFO root fetch - processPackages [ast-scope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_scope-0.4.0.tar.gz tmp/ast_scope-0.4.1.tar.gz --markdown 20230621/a/ast-scope/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-21 08:04:27] INFO root fetch - processPackages [breeze-strategies]: executing diffoscope
+[2023-06-21 08:04:27] INFO root fetch - processPackages [breeze-strategies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/breeze_strategies-6.0.2.tar.gz tmp/breeze_strategies-6.0.3.tar.gz --markdown 20230621/b/breeze-strategies/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-06-21 08:04:27] INFO root fetch - processPackages [nonebot-plugin-rename]: Downloading https://files.pythonhosted.org/packages/af/b6/28be9c11a73746a2592ee0aa657efc8caf21efb0658730f6d4261c09bff6/nonebot_plugin_rename-1.5.5.tar.gz
+[2023-06-21 08:04:27] INFO root fetch - processPackages [depmanager]: executing diffoscope
+[2023-06-21 08:04:27] INFO root fetch - processPackages [depmanager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depmanager-0.1.3.tar.gz tmp/depmanager-0.1.4.tar.gz --markdown 20230621/d/depmanager/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-21 08:04:27] INFO root fetch - processPackages [nonebot-plugin-rename]: executing diffoscope
+[2023-06-21 08:04:27] INFO root fetch - processPackages [nonebot-plugin-rename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_rename-1.5.1.tar.gz tmp/nonebot_plugin_rename-1.5.5.tar.gz --markdown 20230621/n/nonebot-plugin-rename/1.5.1-1.5.5/diff.md --exclude *.pyd
+[2023-06-21 08:04:27] INFO root fetch - processPackages [PyroFork-dev]: Downloading https://files.pythonhosted.org/packages/44/01/095e721c87fe6258dc8cfa06715a00e5202ebd4ecc0e28e3d2403421b764/PyroFork-dev-2.2.1.dev202306210603.tar.gz
+[2023-06-21 08:04:28] INFO root fetch - processPackages [WB-Custom-Logger]: Remove: archive file [/home/abi/fetcher/tmp/WB Custom Logger-0.0.2.tar.gz]
+[2023-06-21 08:04:28] INFO root fetch - processPackages [WB-Custom-Logger]: Remove: archive file [/home/abi/fetcher/tmp/WB Custom Logger-0.0.3.tar.gz]
+[2023-06-21 08:04:28] INFO root fetch - main [MainThread]: End processing [WB-Custom-Logger]: success
+[2023-06-21 08:04:28] INFO root fetch - processPackages [PyroFork-dev]: executing diffoscope
+[2023-06-21 08:04:28] INFO root fetch - processPackages [PyroFork-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyroFork-dev-2.2.0.dev202305231339.tar.gz tmp/PyroFork-dev-2.2.1.dev202306210603.tar.gz --markdown 20230621/P/PyroFork-dev/2.2.0.dev202305231339-2.2.1.dev202306210603/diff.md --exclude *.pyd
+[2023-06-21 08:04:28] INFO root fetch - processPackages [ast-scope]: Remove: archive file [/home/abi/fetcher/tmp/ast_scope-0.4.0.tar.gz]
+[2023-06-21 08:04:28] INFO root fetch - processPackages [ast-scope]: Remove: archive file [/home/abi/fetcher/tmp/ast_scope-0.4.1.tar.gz]
+[2023-06-21 08:04:28] INFO root fetch - main [MainThread]: End processing [ast-scope]: success
+[2023-06-21 08:04:28] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.2.tar.gz]
+[2023-06-21 08:04:28] INFO root fetch - processPackages [breeze-strategies]: Remove: archive file [/home/abi/fetcher/tmp/breeze_strategies-6.0.3.tar.gz]
+[2023-06-21 08:04:28] INFO root fetch - main [MainThread]: End processing [breeze-strategies]: success
+[2023-06-21 08:04:32] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.5.1.tar.gz]
+[2023-06-21 08:04:32] INFO root fetch - processPackages [nonebot-plugin-rename]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_rename-1.5.5.tar.gz]
+[2023-06-21 08:04:32] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-rename]: success
+[2023-06-21 08:04:32] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.0.dev202305231339.tar.gz]
+[2023-06-21 08:04:32] INFO root fetch - processPackages [PyroFork-dev]: Remove: archive file [/home/abi/fetcher/tmp/PyroFork-dev-2.2.1.dev202306210603.tar.gz]
+[2023-06-21 08:04:32] INFO root fetch - main [MainThread]: End processing [PyroFork-dev]: success
+[2023-06-21 08:05:21] INFO root fetch - processPackages [depmanager]: Remove: archive file [/home/abi/fetcher/tmp/depmanager-0.1.3.tar.gz]
+[2023-06-21 08:05:21] INFO root fetch - processPackages [depmanager]: Remove: archive file [/home/abi/fetcher/tmp/depmanager-0.1.4.tar.gz]
+[2023-06-21 08:05:21] INFO root fetch - main [MainThread]: End processing [depmanager]: success
+[2023-06-21 08:05:21] INFO root fetch - main [MainThread]: Store serial: [18585880]
