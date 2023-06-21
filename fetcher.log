@@ -19866,3 +19866,149 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 11:47:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
 [2023-06-21 11:47:38] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
 [2023-06-21 11:47:38] INFO root fetch - main [MainThread]: Store serial: [18588350]
+[2023-06-21 11:52:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588350]
+[2023-06-21 11:52:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typedparser
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cartagen4py
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stream-zip
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-cloudwatch-metrics
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uptick-splat
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-devkit
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hestia-earth-validation
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: deciphon-snap
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dspawpy
+[2023-06-21 11:52:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: FPC
+[2023-06-21 11:52:47] INFO root fetch - processPackages [uptick-splat]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [typedparser]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [deciphon-snap]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [uptick-splat]: Downloading https://files.pythonhosted.org/packages/32/a6/8fdc59ff2f4174f4ea02f4b35dad3fe1de65394a7b0edb3128ba48815aa2/uptick_splat-0.1.5.tar.gz
+[2023-06-21 11:52:47] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/c7/d7/9d2c05af1cf5fadb2ce71a63912fbb0b20546812a3bb1eca8e57cc068fbd/typedparser-0.2.8.tar.gz
+[2023-06-21 11:52:47] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/d7/71/3a28b66d6173cefa5ec643a51af87e52e2bfe0c9423cf26ca16687f1ac56/deciphon_snap-0.1.0.tar.gz
+[2023-06-21 11:52:47] INFO root fetch - processPackages [cartagen4py]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [django-cloudwatch-metrics]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [dspawpy]: New version: [1.0.0] Old Version: [0.9.9]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [hestia-earth-validation]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-21 11:52:47] INFO root fetch - processPackages [FPC]: New version: [0.9] Old Version: [0.8]
+[2023-06-21 11:52:48] INFO root fetch - processPackages [uptick-splat]: Downloading https://files.pythonhosted.org/packages/59/25/69222e41cd9e408a977b23f1d9cb602722deb897f465539a28cbd95d77df/uptick_splat-0.1.6.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [deciphon-snap]: Downloading https://files.pythonhosted.org/packages/9a/f4/d410ad582163f4c05b87932dec792cb6e332fd7e3f7d1ec73b433e76fb75/deciphon_snap-0.1.1.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/fc/a6/e71661db192eece9f6cbc69b37384eaaeeeb5b2132e45e11afe8d5e56f59/django_cloudwatch_metrics-0.0.8.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/a6/03/037aa46c1c15ce197872a42c2494fcfb0dd6fd4c14cebaeaf6f9495b5cbf/omnata_plugin_devkit-0.1.8.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [deciphon-snap]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [deciphon-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deciphon_snap-0.1.0.tar.gz tmp/deciphon_snap-0.1.1.tar.gz --markdown 20230621/d/deciphon-snap/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 11:52:48] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/14/d8/3b4d6579ed642e37728f101a84fd51b225eb7532ac3e9dc9dfe46321de5e/cartagen4py-0.1.8.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/64/35/06b7215477cdd9c76bd4a12fc2ee01db6ca16dc7448d78f1ff0ca1ad1f9a/dspawpy-0.9.9-py3-none-any.whl
+[2023-06-21 11:52:48] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/33/b1/1105a4e61f23c309958db8eb0a5c59b945e3291d912a253970b1cdb90f73/hestia-earth-validation-0.9.2.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/21/8e/cb3fde359346e40cec7994e595614ef647675f843dea133076850fd2db07/FPC-0.8.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [uptick-splat]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [uptick-splat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptick_splat-0.1.5.tar.gz tmp/uptick_splat-0.1.6.tar.gz --markdown 20230621/u/uptick-splat/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-21 11:52:48] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/93/82/2103b6fc1c9856a51b75cb85f603ec37754041e25e2223c91fba155b6e69/typedparser-0.2.9.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.2.8.tar.gz tmp/typedparser-0.2.9.tar.gz --markdown 20230621/t/typedparser/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 11:52:48] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/e1/5b8aa743f4bbe600dde3989489613981c39b2dfcd44174b9931cf0c42452/omnata_plugin_devkit-0.1.9.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/74/4b/5f3264df30160988e74ad1d8f223469e139a6e4e42c6b3572e6795077998/django_cloudwatch_metrics-0.0.9.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [dspawpy]: Downloading https://files.pythonhosted.org/packages/f3/04/9766f64d07447d0b379718b50a7fd5b84b853fad973a640ac558f77aedb7/dspawpy-1.0.0-py3-none-any.whl
+[2023-06-21 11:52:48] INFO root fetch - processPackages [hestia-earth-validation]: Downloading https://files.pythonhosted.org/packages/b0/45/d5ba27a9ee459bf387b017277d998197192c37d8374146ae34a294f8a0af/hestia-earth-validation-0.9.3.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.8.tar.gz tmp/omnata_plugin_devkit-0.1.9.tar.gz --markdown 20230621/o/omnata-plugin-devkit/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 11:52:48] INFO root fetch - processPackages [cartagen4py]: Downloading https://files.pythonhosted.org/packages/9d/6e/4dcddc662b3416010ada7231167661388162f5439f6745719197f1802573/cartagen4py-0.1.9.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [FPC]: Downloading https://files.pythonhosted.org/packages/2e/52/6ad17c7fd21298054bcd96fc5e86fe54f07e006467ce5452d57c016d92bc/FPC-0.9.tar.gz
+[2023-06-21 11:52:48] INFO root fetch - processPackages [hestia-earth-validation]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [hestia-earth-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hestia-earth-validation-0.9.2.tar.gz tmp/hestia-earth-validation-0.9.3.tar.gz --markdown 20230621/h/hestia-earth-validation/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-21 11:52:48] INFO root fetch - processPackages [django-cloudwatch-metrics]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [django-cloudwatch-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloudwatch_metrics-0.0.8.tar.gz tmp/django_cloudwatch_metrics-0.0.9.tar.gz --markdown 20230621/d/django-cloudwatch-metrics/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:52:48] INFO root fetch - processPackages [dspawpy]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [dspawpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dspawpy-0.9.9-py3-none-any.whl.zip tmp/dspawpy-1.0.0-py3-none-any.whl.zip --markdown 20230621/d/dspawpy/0.9.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-21 11:52:48] INFO root fetch - processPackages [FPC]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [FPC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FPC-0.8.tar.gz tmp/FPC-0.9.tar.gz --markdown 20230621/F/FPC/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-21 11:52:48] INFO root fetch - processPackages [cartagen4py]: executing diffoscope
+[2023-06-21 11:52:48] INFO root fetch - processPackages [cartagen4py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartagen4py-0.1.8.tar.gz tmp/cartagen4py-0.1.9.tar.gz --markdown 20230621/c/cartagen4py/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 11:52:49] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2023-06-21 11:52:49] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20230621/s/stream-zip/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:52:49] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.1.0.tar.gz]
+[2023-06-21 11:52:49] INFO root fetch - processPackages [deciphon-snap]: Remove: archive file [/home/abi/fetcher/tmp/deciphon_snap-0.1.1.tar.gz]
+[2023-06-21 11:52:49] INFO root fetch - processPackages [deciphon-snap]: Start processing: processview
+[2023-06-21 11:52:49] INFO root fetch - main [MainThread]: End processing [deciphon-snap]: success
+[2023-06-21 11:52:49] INFO root fetch - processPackages [uptick-splat]: Remove: archive file [/home/abi/fetcher/tmp/uptick_splat-0.1.5.tar.gz]
+[2023-06-21 11:52:49] INFO root fetch - processPackages [uptick-splat]: Remove: archive file [/home/abi/fetcher/tmp/uptick_splat-0.1.6.tar.gz]
+[2023-06-21 11:52:49] INFO root fetch - processPackages [uptick-splat]: Start processing: yyperf
+[2023-06-21 11:52:49] INFO root fetch - main [MainThread]: End processing [uptick-splat]: success
+[2023-06-21 11:52:49] INFO root fetch - processPackages [yyperf]: New version: [0.6.9.dev2] Old Version: [0.6.9]
+[2023-06-21 11:52:49] INFO root fetch - processPackages [processview]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-21 11:52:49] INFO root fetch - processPackages [yyperf]: Downloading https://files.pythonhosted.org/packages/01/56/8d1cfb1ce995c585d9c70c5a9b7760fbdefdbec743e277a0d10d1c706e26/yyperf-0.6.9.tar.gz
+[2023-06-21 11:52:50] WARNING root fetch - processPackages [yyperf]: Skipping package: exceeds size limit 15809435>=10485760
+[2023-06-21 11:52:50] INFO root fetch - processPackages [yyperf]: Start processing: pglift
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [yyperf] error
+[2023-06-21 11:52:50] INFO root fetch - processPackages [processview]: Downloading https://files.pythonhosted.org/packages/15/57/7ca5a65d211fe37e2a891118dc93960c0eb29c3b9b32b4f651014338529e/processview-1.2.0.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.8.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.9.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: gs-netsuite-api
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-21 11:52:50] INFO root fetch - processPackages [gs-netsuite-api]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [pglift]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.8.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [FPC]: Remove: archive file [/home/abi/fetcher/tmp/FPC-0.9.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [FPC]: Start processing: DeepMicroClass
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [FPC]: success
+[2023-06-21 11:52:50] WARNING root fetch - processPackages [DeepMicroClass]: Skipping, unable to determine old version
+[2023-06-21 11:52:50] INFO root fetch - processPackages [DeepMicroClass]: Start processing: test-jrubics-poetry-publish
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [DeepMicroClass] error
+[2023-06-21 11:52:50] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/a1/bd/ca9772a0667619ef2e05b27ccc11b13691de216dee7a1be1384e376c128c/gs-netsuite-api-1.0.4.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.8.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [pglift]: Downloading https://files.pythonhosted.org/packages/7d/27/d1f439d5f6d33d6b8dc6c0e851cb59f4592e14f49365386c600c6af68718/pglift-0.8.0.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.8.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.9.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.9.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [typedparser]: Start processing: fx-bin
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [django-cloudwatch-metrics]: success
+[2023-06-21 11:52:50] INFO root fetch - processPackages [fx-bin]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [processview]: Downloading https://files.pythonhosted.org/packages/48/52/f2e845a832e2eb79c1a0d11081a0d4502ff5aa1d9552dbd2cc498762140b/processview-1.2.1.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [test-jrubics-poetry-publish]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [fx-bin]: Downloading https://files.pythonhosted.org/packages/b7/b9/e442135847d8a1c89a2e10ba656271a1f02fe2deb7cd8b2719d40eaaff4f/fx-bin-0.6.0.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.8.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2023-06-21 11:52:50] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-0.9.9-py3-none-any.whl.zip]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [dspawpy]: Remove: archive file [/home/abi/fetcher/tmp/dspawpy-1.0.0-py3-none-any.whl.zip]
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [dspawpy]: success
+[2023-06-21 11:52:50] INFO root fetch - processPackages [processview]: executing diffoscope
+[2023-06-21 11:52:50] INFO root fetch - processPackages [processview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/processview-1.2.0.tar.gz tmp/processview-1.2.1.tar.gz --markdown 20230621/p/processview/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-21 11:52:50] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Downloading https://files.pythonhosted.org/packages/4e/8d/411c28fd04bc92491c23a04a926cb087173ad436f381e462f436ccc5cdfc/test_jrubics_poetry_publish-0.2.3.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [fx-bin]: Downloading https://files.pythonhosted.org/packages/82/a8/fe5a92fb28f6c1cda96e568e52862e354d61fa8ab1f7fdb377e7e1275619/fx-bin-0.6.1.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [gs-netsuite-api]: Downloading https://files.pythonhosted.org/packages/7b/3c/ad9730e8be8f8846761f055e73314167096802e4cef99283ee02b8e32e5d/gs-netsuite-api-1.0.5.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [fx-bin]: executing diffoscope
+[2023-06-21 11:52:50] INFO root fetch - processPackages [fx-bin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fx-bin-0.6.0.tar.gz tmp/fx-bin-0.6.1.tar.gz --markdown 20230621/f/fx-bin/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-21 11:52:50] INFO root fetch - processPackages [pglift]: Downloading https://files.pythonhosted.org/packages/e2/f7/2e0ded87c196da325d82fbf455b25ffd39ead24ac9e7946a7782ddabfc13/pglift-0.9.0.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [gs-netsuite-api]: executing diffoscope
+[2023-06-21 11:52:50] INFO root fetch - processPackages [gs-netsuite-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs-netsuite-api-1.0.4.tar.gz tmp/gs-netsuite-api-1.0.5.tar.gz --markdown 20230621/g/gs-netsuite-api/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-21 11:52:50] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.2.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [hestia-earth-validation]: Remove: archive file [/home/abi/fetcher/tmp/hestia-earth-validation-0.9.3.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [hestia-earth-validation]: success
+[2023-06-21 11:52:50] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.1.8.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - processPackages [cartagen4py]: Remove: archive file [/home/abi/fetcher/tmp/cartagen4py-0.1.9.tar.gz]
+[2023-06-21 11:52:50] INFO root fetch - main [MainThread]: End processing [cartagen4py]: success
+[2023-06-21 11:52:50] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Downloading https://files.pythonhosted.org/packages/b5/eb/b9957aea5ca3525cb9ae27ad431bbc7b1abbb76fb023523e9f3f3bae4923/test_jrubics_poetry_publish-0.2.4.tar.gz
+[2023-06-21 11:52:50] INFO root fetch - processPackages [pglift]: executing diffoscope
+[2023-06-21 11:52:50] INFO root fetch - processPackages [pglift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglift-0.8.0.tar.gz tmp/pglift-0.9.0.tar.gz --markdown 20230621/p/pglift/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 11:52:51] INFO root fetch - processPackages [test-jrubics-poetry-publish]: executing diffoscope
+[2023-06-21 11:52:51] INFO root fetch - processPackages [test-jrubics-poetry-publish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_jrubics_poetry_publish-0.2.3.tar.gz tmp/test_jrubics_poetry_publish-0.2.4.tar.gz --markdown 20230621/t/test-jrubics-poetry-publish/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-21 11:52:51] INFO root fetch - processPackages [fx-bin]: Remove: archive file [/home/abi/fetcher/tmp/fx-bin-0.6.0.tar.gz]
+[2023-06-21 11:52:51] INFO root fetch - processPackages [fx-bin]: Remove: archive file [/home/abi/fetcher/tmp/fx-bin-0.6.1.tar.gz]
+[2023-06-21 11:52:51] INFO root fetch - main [MainThread]: End processing [fx-bin]: success
+[2023-06-21 11:52:51] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Remove: archive file [/home/abi/fetcher/tmp/test_jrubics_poetry_publish-0.2.3.tar.gz]
+[2023-06-21 11:52:51] INFO root fetch - processPackages [test-jrubics-poetry-publish]: Remove: archive file [/home/abi/fetcher/tmp/test_jrubics_poetry_publish-0.2.4.tar.gz]
+[2023-06-21 11:52:51] INFO root fetch - main [MainThread]: End processing [test-jrubics-poetry-publish]: success
+[2023-06-21 11:52:52] INFO root fetch - processPackages [processview]: Remove: archive file [/home/abi/fetcher/tmp/processview-1.2.0.tar.gz]
+[2023-06-21 11:52:52] INFO root fetch - processPackages [processview]: Remove: archive file [/home/abi/fetcher/tmp/processview-1.2.1.tar.gz]
+[2023-06-21 11:52:52] INFO root fetch - main [MainThread]: End processing [processview]: success
+[2023-06-21 11:52:52] INFO root fetch - processPackages [pglift]: Remove: archive file [/home/abi/fetcher/tmp/pglift-0.8.0.tar.gz]
+[2023-06-21 11:52:52] INFO root fetch - processPackages [pglift]: Remove: archive file [/home/abi/fetcher/tmp/pglift-0.9.0.tar.gz]
+[2023-06-21 11:52:52] INFO root fetch - main [MainThread]: End processing [pglift]: success
+[2023-06-21 11:52:53] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.0.4.tar.gz]
+[2023-06-21 11:52:53] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.0.5.tar.gz]
+[2023-06-21 11:52:53] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
+[2023-06-21 11:52:53] INFO root fetch - main [MainThread]: Store serial: [18588406]
