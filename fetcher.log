@@ -19200,3 +19200,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 11:15:39] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
 [2023-06-21 11:15:39] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
 [2023-06-21 11:15:39] INFO root fetch - main [MainThread]: Store serial: [18588053]
+[2023-06-21 11:20:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588053]
+[2023-06-21 11:20:49] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dinamis-sdk
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: evilHunter
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cg
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: strawberry-graphql
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tbp-nightly
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bridgecrew
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: social-blade-scraper
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stream-unzip
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zmeiapi
+[2023-06-21 11:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: spanishconjugator
+[2023-06-21 11:20:49] INFO root fetch - processPackages [social-blade-scraper]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [cg]: New version: [36.4.2] Old Version: [36.4.1]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [strawberry-graphql]: New version: [0.99.3] Old Version: [0.99.2]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/25/9e/0ac06727cd650b3980fca607be75aa40ed1a4221b1b520dc708cf1d345b2/social-blade-scraper-0.0.4.tar.gz
+[2023-06-21 11:20:49] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/7f/41/8ea50a5c11da09e05451c166633f5911e742267a9fb1ea874d26abe85b37/cg-36.4.1.tar.gz
+[2023-06-21 11:20:49] INFO root fetch - processPackages [evilHunter]: New version: [0.1.9.40] Old Version: [0.1.9.35]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [dinamis-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-21 11:20:49] INFO root fetch - processPackages [stream-unzip]: New version: [0.0.9] Old Version: [0.0.87]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [zmeiapi]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/dd/38/4efb20ccf1f04c0901e6d5de6eb222b8a9e74692ae34f6f4618b0f0cc8b3/strawberry-graphql-0.99.2.tar.gz
+[2023-06-21 11:20:49] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-21 11:20:49] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-21 11:20:49] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/f4/05/802fa81e5b2dc455bb7d27c463cdaec469477ffa53555ac8b685b09dfd1d/dinamis-sdk-0.0.8.tar.gz
+[2023-06-21 11:20:49] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/cf/a0/0b6563a49a9199b5c8a84ef2f47986639eabc94d7ac7d211b266ca88a1ca/evilHunter-0.1.9.35.tar.gz
+[2023-06-21 11:20:49] INFO root fetch - processPackages [stream-unzip]: Downloading https://files.pythonhosted.org/packages/06/d1/ae119b3d9d2709da1d851b680895f7a5d31175637852055586963607285e/stream-unzip-0.0.87.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [strawberry-graphql]: Downloading https://files.pythonhosted.org/packages/e8/62/3a58fe3751e9dc961f72fbe825e32f12e9cd544dafd44bc5fdddb290b881/strawberry-graphql-0.99.3.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [social-blade-scraper]: Downloading https://files.pythonhosted.org/packages/4b/48/6185651c049f4715b3dc0991192ec9656a20283a30e439bf8bd3a3a71c7b/social-blade-scraper-0.0.5.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [zmeiapi]: Downloading https://files.pythonhosted.org/packages/e6/0e/25eaaf969ad3890270c9e280a79d87a7891a2f4025c32742af97465b1870/zmeiapi-0.1.8.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [social-blade-scraper]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [social-blade-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/social-blade-scraper-0.0.4.tar.gz tmp/social-blade-scraper-0.0.5.tar.gz --markdown 20230621/s/social-blade-scraper/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [strawberry-graphql]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [strawberry-graphql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/strawberry-graphql-0.99.2.tar.gz tmp/strawberry-graphql-0.99.3.tar.gz --markdown 20230621/s/strawberry-graphql/0.99.2-0.99.3/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230621/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [cg]: Downloading https://files.pythonhosted.org/packages/53/f6/222fb9943448cbd9d6a652401b0b4def25b1595e990c62a37512916a793f/cg-36.4.2.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [evilHunter]: Downloading https://files.pythonhosted.org/packages/56/a0/a4c6075f4c61e9a5ea578bd035ce4c63a4a74fe014d500561678e615400d/evilHunter-0.1.9.40.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [dinamis-sdk]: Downloading https://files.pythonhosted.org/packages/82/c5/c0226478e0a4911853335a789765c4b0ebe2533108d4c20ca4ab6e5463a1/dinamis-sdk-0.0.9.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [cg]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [cg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cg-36.4.1.tar.gz tmp/cg-36.4.2.tar.gz --markdown 20230621/c/cg/36.4.1-36.4.2/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [evilHunter]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [evilHunter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evilHunter-0.1.9.35.tar.gz tmp/evilHunter-0.1.9.40.tar.gz --markdown 20230621/e/evilHunter/0.1.9.35-0.1.9.40/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [stream-unzip]: Downloading https://files.pythonhosted.org/packages/63/8b/f96854ff5ec2ef7fdb20cd56d8d2d7fa4aa1f29709585ead50201ed5d1f0/stream-unzip-0.0.9.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230621/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [dinamis-sdk]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [dinamis-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dinamis-sdk-0.0.8.tar.gz tmp/dinamis-sdk-0.0.9.tar.gz --markdown 20230621/d/dinamis-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [zmeiapi]: Downloading https://files.pythonhosted.org/packages/34/1c/f9dda0de1f5495b334aebca29af6d3ba6638193bf12d963c9e106f4764cc/zmeiapi-0.1.9.tar.gz
+[2023-06-21 11:20:50] INFO root fetch - processPackages [stream-unzip]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [stream-unzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-unzip-0.0.87.tar.gz tmp/stream-unzip-0.0.9.tar.gz --markdown 20230621/s/stream-unzip/0.0.87-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [zmeiapi]: executing diffoscope
+[2023-06-21 11:20:50] INFO root fetch - processPackages [zmeiapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zmeiapi-0.1.8.tar.gz tmp/zmeiapi-0.1.9.tar.gz --markdown 20230621/z/zmeiapi/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 11:20:50] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-21 11:20:51] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.0.4.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [social-blade-scraper]: Remove: archive file [/home/abi/fetcher/tmp/social-blade-scraper-0.0.5.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [social-blade-scraper]: Start processing: aorta-sirius-dev
+[2023-06-21 11:20:51] INFO root fetch - main [MainThread]: End processing [social-blade-scraper]: success
+[2023-06-21 11:20:51] INFO root fetch - processPackages [aorta-sirius-dev]: New version: [0.9] Old Version: [0.8]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [bridgecrew]: Start processing: aorta-sirius
+[2023-06-21 11:20:51] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-21 11:20:51] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.35.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [evilHunter]: Remove: archive file [/home/abi/fetcher/tmp/evilHunter-0.1.9.40.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [evilHunter]: Start processing: spanishconjugator
+[2023-06-21 11:20:51] INFO root fetch - main [MainThread]: End processing [evilHunter]: success
+[2023-06-21 11:20:51] INFO root fetch - processPackages [stream-unzip]: Remove: archive file [/home/abi/fetcher/tmp/stream-unzip-0.0.87.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [stream-unzip]: Remove: archive file [/home/abi/fetcher/tmp/stream-unzip-0.0.9.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - main [MainThread]: End processing [stream-unzip]: success
+[2023-06-21 11:20:51] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [aorta-sirius]: New version: [0.9] Old Version: [0.8]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/6c/4c/c918e6e5e63eb0d5372ac266f3937706bc885abfa445f3f76b7b86574022/aorta_sirius_dev-0.8.tar.gz
+[2023-06-21 11:20:51] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.0.8.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - processPackages [dinamis-sdk]: Remove: archive file [/home/abi/fetcher/tmp/dinamis-sdk-0.0.9.tar.gz]
+[2023-06-21 11:20:51] INFO root fetch - main [MainThread]: End processing [dinamis-sdk]: success
+[2023-06-21 11:20:51] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-21 11:20:51] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230621/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-21 11:20:52] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-21 11:20:52] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230621/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-21 11:20:52] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/b6/ee/1c422ddfa238f3fc4430ac709c757c9e907639380c24ad36a0753f153a6f/aorta_sirius-0.8.tar.gz
+[2023-06-21 11:20:52] INFO root fetch - processPackages [aorta-sirius-dev]: Downloading https://files.pythonhosted.org/packages/54/97/7f1ed0ff86adcf398afae687f938569644f9daea26539a68715f7373921f/aorta_sirius_dev-0.9.tar.gz
+[2023-06-21 11:20:52] INFO root fetch - processPackages [aorta-sirius]: Downloading https://files.pythonhosted.org/packages/f7/a9/1b1baa080588e189aafc95d9d8998b4232984f880217dba83e3f863c1286/aorta_sirius-0.9.tar.gz
+[2023-06-21 11:20:52] INFO root fetch - processPackages [aorta-sirius-dev]: executing diffoscope
+[2023-06-21 11:20:52] INFO root fetch - processPackages [aorta-sirius-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius_dev-0.8.tar.gz tmp/aorta_sirius_dev-0.9.tar.gz --markdown 20230621/a/aorta-sirius-dev/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-21 11:20:52] INFO root fetch - processPackages [zmeiapi]: Remove: archive file [/home/abi/fetcher/tmp/zmeiapi-0.1.8.tar.gz]
+[2023-06-21 11:20:52] INFO root fetch - processPackages [zmeiapi]: Remove: archive file [/home/abi/fetcher/tmp/zmeiapi-0.1.9.tar.gz]
+[2023-06-21 11:20:52] INFO root fetch - main [MainThread]: End processing [zmeiapi]: success
+[2023-06-21 11:20:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-21 11:20:52] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-21 11:20:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-21 11:20:52] INFO root fetch - processPackages [aorta-sirius]: executing diffoscope
+[2023-06-21 11:20:52] INFO root fetch - processPackages [aorta-sirius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aorta_sirius-0.8.tar.gz tmp/aorta_sirius-0.9.tar.gz --markdown 20230621/a/aorta-sirius/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-21 11:20:52] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.998.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+
+[2023-06-21 11:20:52] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-06-21 11:20:53] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.8.tar.gz]
+[2023-06-21 11:20:53] INFO root fetch - processPackages [aorta-sirius-dev]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius_dev-0.9.tar.gz]
+[2023-06-21 11:20:53] INFO root fetch - main [MainThread]: End processing [aorta-sirius-dev]: success
+[2023-06-21 11:20:53] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.8.tar.gz]
+[2023-06-21 11:20:53] INFO root fetch - processPackages [aorta-sirius]: Remove: archive file [/home/abi/fetcher/tmp/aorta_sirius-0.9.tar.gz]
+[2023-06-21 11:20:53] INFO root fetch - main [MainThread]: End processing [aorta-sirius]: success
+[2023-06-21 11:20:53] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.2.tar.gz]
+[2023-06-21 11:20:53] INFO root fetch - processPackages [strawberry-graphql]: Remove: archive file [/home/abi/fetcher/tmp/strawberry-graphql-0.99.3.tar.gz]
+[2023-06-21 11:20:53] INFO root fetch - main [MainThread]: End processing [strawberry-graphql]: success
+[2023-06-21 11:20:54] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-21 11:20:54] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-21 11:20:54] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-21 11:21:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.1.tar.gz]
+[2023-06-21 11:21:03] INFO root fetch - processPackages [cg]: Remove: archive file [/home/abi/fetcher/tmp/cg-36.4.2.tar.gz]
+[2023-06-21 11:21:03] INFO root fetch - main [MainThread]: End processing [cg]: success
+[2023-06-21 11:21:03] INFO root fetch - main [MainThread]: Store serial: [18588111]
