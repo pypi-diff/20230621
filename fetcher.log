@@ -10066,3 +10066,81 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 04:43:23] INFO root fetch - processPackages [cdk8s-plus-26]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-26-2.4.9.tar.gz]
 [2023-06-21 04:43:23] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-26]: success
 [2023-06-21 04:43:23] INFO root fetch - main [MainThread]: Store serial: [18584429]
+[2023-06-21 04:48:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584429]
+[2023-06-21 04:48:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tccli
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adversarial-test
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dfcx-scrapi
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncbi-datasets-pylib
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo13-addons-oca-account-payment
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hatch-project-pypi-2
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rdpower
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: goplus
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: element-calcium-imaging
+[2023-06-21 04:48:32] INFO root fetch - processPackages [adversarial-test]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 04:48:32] INFO root fetch - processPackages [element-calcium-imaging]: New version: [0.7.4] Old Version: [0.7.3]
+[2023-06-21 04:48:32] INFO root fetch - processPackages [hatch-project-pypi-2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 04:48:32] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: New version: [13.0.20230620.0] Old Version: [13.0.20230501.0]
+[2023-06-21 04:48:32] WARNING root fetch - processPackages [rdpower]: Skipping, unable to determine old version
+[2023-06-21 04:48:32] INFO root fetch - main [MainThread]: End processing [rdpower] error
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ncbi-datasets-pylib]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-21 04:48:32] INFO root fetch - processPackages [goplus]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 04:48:32] INFO root fetch - processPackages [dfcx-scrapi]: New version: [1.7.0] Old Version: [1.6.3]
+[2023-06-21 04:48:32] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-21 04:48:32] INFO root fetch - processPackages [element-calcium-imaging]: Downloading https://files.pythonhosted.org/packages/68/23/d3b2aaec1a802de8ae037e57bdcc7beaaa4826c591b03bf3b7c4170b9368/element-calcium-imaging-0.7.3.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/cf/79/26477bfdb7eb77cb51b8cfe004f71d1cba75c6595591b047e0acf6e45724/hatch_project_pypi_2-0.0.1.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [adversarial-test]: Downloading https://files.pythonhosted.org/packages/34/a8/ff61fff57f0910ef1db7b601f6d6d063196eb5f4681840797c79f113fd05/adversarial-test-0.1.0.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/04/16/9b52f1bf6b11713bc1aa35cdb6abffd4ee0d81b7d9a3caeebf234e06bb09/odoo13_addons_oca_account_payment-13.0.20230501.0-py3-none-any.whl
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/ff/d0/5c7c45e275e2c71c22acb9f315a1cbcd706e71659505e30a22bec4a2632b/ncbi-datasets-pylib-9.0.0.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/bf/1b/dca257a4bdda5a4f9d778073c3838de88a75e0f94259b63bcf8446b0a7a1/goplus-0.1.0.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [dfcx-scrapi]: Downloading https://files.pythonhosted.org/packages/5d/99/2b2572d7aad094c4240ba9b7fffb1ae92aaafd71dbe7dbe5d280517e4068/dfcx-scrapi-1.6.3.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [element-calcium-imaging]: Downloading https://files.pythonhosted.org/packages/3e/69/07d58d5aa41b589102293b2af231c43e06190e1cf92de1339d38acf75dd4/element-calcium-imaging-0.7.4.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [element-calcium-imaging]: executing diffoscope
+[2023-06-21 04:48:32] INFO root fetch - processPackages [element-calcium-imaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-calcium-imaging-0.7.3.tar.gz tmp/element-calcium-imaging-0.7.4.tar.gz --markdown 20230621/e/element-calcium-imaging/0.7.3-0.7.4/diff.md --exclude *.pyd
+[2023-06-21 04:48:32] INFO root fetch - processPackages [adversarial-test]: Downloading https://files.pythonhosted.org/packages/7a/46/768476263aa1ae6a1fc406a3c38d5a54a010a3284c6918d5b50fe2d46cbe/adversarial-test-0.1.1.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [hatch-project-pypi-2]: Downloading https://files.pythonhosted.org/packages/65/21/18e508b556acfb0f25eb15780b599b66c03427b88b9777981cf91b3ae7b1/hatch_project_pypi_2-0.0.2.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [adversarial-test]: executing diffoscope
+[2023-06-21 04:48:32] INFO root fetch - processPackages [adversarial-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adversarial-test-0.1.0.tar.gz tmp/adversarial-test-0.1.1.tar.gz --markdown 20230621/a/adversarial-test/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 04:48:32] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: Downloading https://files.pythonhosted.org/packages/22/39/11ebc0e0934929f2b62ebff8edceec6fe3b74c6b9c74f38ebd8bb52cb854/odoo13_addons_oca_account_payment-13.0.20230620.0-py3-none-any.whl
+[2023-06-21 04:48:32] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-06-21 04:48:32] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230621/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-21 04:48:32] INFO root fetch - processPackages [hatch-project-pypi-2]: executing diffoscope
+[2023-06-21 04:48:32] INFO root fetch - processPackages [hatch-project-pypi-2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hatch_project_pypi_2-0.0.1.tar.gz tmp/hatch_project_pypi_2-0.0.2.tar.gz --markdown 20230621/h/hatch-project-pypi-2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 04:48:32] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: executing diffoscope
+[2023-06-21 04:48:32] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addons_oca_account_payment-13.0.20230501.0-py3-none-any.whl.zip tmp/odoo13_addons_oca_account_payment-13.0.20230620.0-py3-none-any.whl.zip --markdown 20230621/o/odoo13-addons-oca-account-payment/13.0.20230501.0-13.0.20230620.0/diff.md --exclude *.pyd
+[2023-06-21 04:48:32] INFO root fetch - processPackages [goplus]: Downloading https://files.pythonhosted.org/packages/47/3f/dc5b5ea19f37df9d1dabb57e67003882f96daf36a1a71542d90414943000/goplus-0.1.1.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/77/91/854e74c2b35a5a11892b0eae72690c8d49d04f38f57cbc2a7868200881dd/ncbi-datasets-pylib-9.1.0.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [dfcx-scrapi]: Downloading https://files.pythonhosted.org/packages/5f/93/8cfa293ac1ec07640a993bb33887ef1084faffe92e522177dbed7cf2af24/dfcx-scrapi-1.7.0.tar.gz
+[2023-06-21 04:48:32] INFO root fetch - processPackages [goplus]: executing diffoscope
+[2023-06-21 04:48:32] INFO root fetch - processPackages [goplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/goplus-0.1.0.tar.gz tmp/goplus-0.1.1.tar.gz --markdown 20230621/g/goplus/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 04:48:33] INFO root fetch - processPackages [dfcx-scrapi]: executing diffoscope
+[2023-06-21 04:48:33] INFO root fetch - processPackages [dfcx-scrapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfcx-scrapi-1.6.3.tar.gz tmp/dfcx-scrapi-1.7.0.tar.gz --markdown 20230621/d/dfcx-scrapi/1.6.3-1.7.0/diff.md --exclude *.pyd
+[2023-06-21 04:48:33] INFO root fetch - processPackages [ncbi-datasets-pylib]: executing diffoscope
+[2023-06-21 04:48:33] INFO root fetch - processPackages [ncbi-datasets-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-datasets-pylib-9.0.0.tar.gz tmp/ncbi-datasets-pylib-9.1.0.tar.gz --markdown 20230621/n/ncbi-datasets-pylib/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-21 04:48:34] INFO root fetch - processPackages [adversarial-test]: Remove: archive file [/home/abi/fetcher/tmp/adversarial-test-0.1.0.tar.gz]
+[2023-06-21 04:48:34] INFO root fetch - processPackages [adversarial-test]: Remove: archive file [/home/abi/fetcher/tmp/adversarial-test-0.1.1.tar.gz]
+[2023-06-21 04:48:34] INFO root fetch - main [MainThread]: End processing [adversarial-test]: success
+[2023-06-21 04:48:34] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.1.tar.gz]
+[2023-06-21 04:48:34] INFO root fetch - processPackages [hatch-project-pypi-2]: Remove: archive file [/home/abi/fetcher/tmp/hatch_project_pypi_2-0.0.2.tar.gz]
+[2023-06-21 04:48:34] INFO root fetch - main [MainThread]: End processing [hatch-project-pypi-2]: success
+[2023-06-21 04:48:34] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_account_payment-13.0.20230501.0-py3-none-any.whl.zip]
+[2023-06-21 04:48:34] INFO root fetch - processPackages [odoo13-addons-oca-account-payment]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addons_oca_account_payment-13.0.20230620.0-py3-none-any.whl.zip]
+[2023-06-21 04:48:34] INFO root fetch - main [MainThread]: End processing [odoo13-addons-oca-account-payment]: success
+[2023-06-21 04:48:35] INFO root fetch - processPackages [dfcx-scrapi]: Remove: archive file [/home/abi/fetcher/tmp/dfcx-scrapi-1.6.3.tar.gz]
+[2023-06-21 04:48:35] INFO root fetch - processPackages [dfcx-scrapi]: Remove: archive file [/home/abi/fetcher/tmp/dfcx-scrapi-1.7.0.tar.gz]
+[2023-06-21 04:48:35] INFO root fetch - main [MainThread]: End processing [dfcx-scrapi]: success
+[2023-06-21 04:48:35] INFO root fetch - processPackages [element-calcium-imaging]: Remove: archive file [/home/abi/fetcher/tmp/element-calcium-imaging-0.7.3.tar.gz]
+[2023-06-21 04:48:35] INFO root fetch - processPackages [element-calcium-imaging]: Remove: archive file [/home/abi/fetcher/tmp/element-calcium-imaging-0.7.4.tar.gz]
+[2023-06-21 04:48:35] INFO root fetch - main [MainThread]: End processing [element-calcium-imaging]: success
+[2023-06-21 04:48:35] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.1.0.tar.gz]
+[2023-06-21 04:48:35] INFO root fetch - processPackages [goplus]: Remove: archive file [/home/abi/fetcher/tmp/goplus-0.1.1.tar.gz]
+[2023-06-21 04:48:35] INFO root fetch - main [MainThread]: End processing [goplus]: success
+[2023-06-21 04:48:36] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.0.0.tar.gz]
+[2023-06-21 04:48:36] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.1.0.tar.gz]
+[2023-06-21 04:48:36] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
+[2023-06-21 04:48:37] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-06-21 04:48:37] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-06-21 04:48:37] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-06-21 04:48:37] INFO root fetch - main [MainThread]: Store serial: [18584455]
