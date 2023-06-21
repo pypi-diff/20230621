@@ -16560,3 +16560,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 10:20:25] INFO root fetch - processPackages [nonebot-plugin-handle]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_handle-0.3.0.tar.gz]
 [2023-06-21 10:20:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-handle]: success
 [2023-06-21 10:20:25] INFO root fetch - main [MainThread]: Store serial: [18587131]
+[2023-06-21 10:25:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18587131]
+[2023-06-21 10:25:35] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: power-grid-model
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gaitalytics
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ietfdata
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fsl-sub-plugin-slurm
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odetoolbox
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: araucanaxai
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: censoredsummarystats
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ai-reader
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bs-admin-utils
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proliantutils
+[2023-06-21 10:25:35] INFO root fetch - processPackages [power-grid-model]: New version: [1.5.0rc9178701900018] Old Version: [1.5.0rc9175313495131]
+[2023-06-21 10:25:35] INFO root fetch - processPackages [araucanaxai]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-21 10:25:35] INFO root fetch - processPackages [gaitalytics]: New version: [0.0.5b0] Old Version: [0.0.4b0]
+[2023-06-21 10:25:35] INFO root fetch - processPackages [odetoolbox]: New version: [2.5.2] Old Version: [2.5.1]
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ietfdata]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-06-21 10:25:35] INFO root fetch - processPackages [bs-admin-utils]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-21 10:25:35] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: New version: [1.6.1] Old Version: [1.5.1]
+[2023-06-21 10:25:35] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.2.0] Old Version: [0.0.5]
+[2023-06-21 10:25:35] ERROR root fetch - processPackages [ai-reader]: Unable to get metadata: No such project 'ai-reader'
+[2023-06-21 10:25:35] INFO root fetch - processPackages [ai-reader]: Start processing: th2-data-services
+[2023-06-21 10:25:35] INFO root fetch - main [MainThread]: End processing [ai-reader] error
+[2023-06-21 10:25:35] INFO root fetch - processPackages [proliantutils]: New version: [2.9.5] Old Version: [2.9.4]
+[2023-06-21 10:25:35] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/09/66/1466c8a183aed2370b9de47dc0fc3c3cf5041314b524802af7a155c12872/power-grid-model-1.5.0rc9175313495131.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [th2-data-services]: New version: [2.0.0.dev5320534839] Old Version: [2.0.0.dev5320308217]
+[2023-06-21 10:25:36] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/47/72/2c4f257cee16d25a472e4b52453df4043e095d17a1cef79831c1d978f355/th2_data_services-2.0.0.dev5320308217.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/d2/07/6b1f56d608024b50079b8ec6aaba13c942c82ac370d22112a92b72be6bf1/gaitalytics-0.0.4b0.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [odetoolbox]: Downloading https://files.pythonhosted.org/packages/20/03/ddab09fc8f65201b04500c12d135830ca7dc35adf2299cb538f3d03e458f/odetoolbox-2.5.1-py3-none-any.whl
+[2023-06-21 10:25:36] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/0d/c7/0d4eba972cbf3bca5ee76d3a70019c7289ec8197ba659865c84cd1eb5110/bs_admin_utils-1.1.2.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/91/ae/83868f7adb3ac325c53b90788f3c96173c28319f05a953ca36bbf3eada0f/ietfdata-0.6.6.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [araucanaxai]: Downloading https://files.pythonhosted.org/packages/58/e1/251377c08f3133ef793a0a16e70efc65a1c9aba6a1a9678b5cfe5e254a4e/araucanaxai-0.9.3.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Downloading https://files.pythonhosted.org/packages/f7/30/3b923987c3d8efb926b931bfe3e7a2d983c377ee3a9193f390852e804525/fsl_sub_plugin_slurm-1.5.1.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/bc/ac/bf5fcb712da5606115e4296a91ea7f3472c5b30c05a6998ece3e5f5026d5/censoredsummarystats-0.0.5.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [proliantutils]: Downloading https://files.pythonhosted.org/packages/e1/41/3f189f4dc06af18a1bab09c0e9d7f37978a06fe0bf34a7dc8eb61b636cf8/proliantutils-2.9.4.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [power-grid-model]: Downloading https://files.pythonhosted.org/packages/19/7c/30dc9d55a8e1a287287d90f98da34a6ca11318d04e39a4c7647e4242f2a2/power-grid-model-1.5.0rc9178701900018.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [th2-data-services]: Downloading https://files.pythonhosted.org/packages/eb/2c/3c8ec1852333424b124772ea4b595b75d99ef76917812dabe255fde3753a/th2_data_services-2.0.0.dev5320534839.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [power-grid-model]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [power-grid-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/power-grid-model-1.5.0rc9175313495131.tar.gz tmp/power-grid-model-1.5.0rc9178701900018.tar.gz --markdown 20230621/p/power-grid-model/1.5.0rc9175313495131-1.5.0rc9178701900018/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [odetoolbox]: Downloading https://files.pythonhosted.org/packages/b5/d1/259834dc6921a8b820272fc27550b69fefd085721648819f2f7b2229f6e9/odetoolbox-2.5.2-py3-none-any.whl
+[2023-06-21 10:25:36] INFO root fetch - processPackages [th2-data-services]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [th2-data-services]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services-2.0.0.dev5320308217.tar.gz tmp/th2_data_services-2.0.0.dev5320534839.tar.gz --markdown 20230621/t/th2-data-services/2.0.0.dev5320308217-2.0.0.dev5320534839/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [ietfdata]: Downloading https://files.pythonhosted.org/packages/bd/94/df1280daf55160ee31da140a6005d9e400c1dbb02bf1edf2b861d13c4336/ietfdata-0.6.7.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [gaitalytics]: Downloading https://files.pythonhosted.org/packages/7f/6f/4dc318f99a4c13b2c07d1b403d73f2ff9d7b377b3468eda454f5db9f494a/gaitalytics-0.0.5b0.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [bs-admin-utils]: Downloading https://files.pythonhosted.org/packages/5a/07/94cd976e9bc6d511fc30d39247eba17e55ff9c09f94272707c1750244f22/bs_admin_utils-1.1.3-py3-none-any.whl
+[2023-06-21 10:25:36] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/d3/a4/4dc6b16ab0634df557f9f12880673a2304e4017ab85d186e36ee1b140d40/censoredsummarystats-0.2.0.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [araucanaxai]: Downloading https://files.pythonhosted.org/packages/14/39/201af9a2ee2e85e19bad7c89310dbbcea4cde5a07abe29cc9dd49261f856/araucanaxai-0.9.4.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Downloading https://files.pythonhosted.org/packages/b6/bb/de21cc7409e16016a32ba1c43c5b440eebe80927127e5d27f29eb4865d9b/fsl_sub_plugin_slurm-1.6.1.tar.gz
+[2023-06-21 10:25:36] INFO root fetch - processPackages [ietfdata]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [ietfdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ietfdata-0.6.6.tar.gz tmp/ietfdata-0.6.7.tar.gz --markdown 20230621/i/ietfdata/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [odetoolbox]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [gaitalytics]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [odetoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odetoolbox-2.5.1-py3-none-any.whl.zip tmp/odetoolbox-2.5.2-py3-none-any.whl.zip --markdown 20230621/o/odetoolbox/2.5.1-2.5.2/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [gaitalytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaitalytics-0.0.4b0.tar.gz tmp/gaitalytics-0.0.5b0.tar.gz --markdown 20230621/g/gaitalytics/0.0.4b0-0.0.5b0/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [bs-admin-utils]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.0.5.tar.gz tmp/censoredsummarystats-0.2.0.tar.gz --markdown 20230621/c/censoredsummarystats/0.0.5-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [bs-admin-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bs_admin_utils-1.1.2.tar.gz tmp/bs_admin_utils-1.1.3-py3-none-any.whl.zip --markdown 20230621/b/bs-admin-utils/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [araucanaxai]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [araucanaxai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/araucanaxai-0.9.3.tar.gz tmp/araucanaxai-0.9.4.tar.gz --markdown 20230621/a/araucanaxai/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: executing diffoscope
+[2023-06-21 10:25:36] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fsl_sub_plugin_slurm-1.5.1.tar.gz tmp/fsl_sub_plugin_slurm-1.6.1.tar.gz --markdown 20230621/f/fsl-sub-plugin-slurm/1.5.1-1.6.1/diff.md --exclude *.pyd
+[2023-06-21 10:25:36] INFO root fetch - processPackages [proliantutils]: Downloading https://files.pythonhosted.org/packages/97/b4/55c47fcb4b6de912e65d1ef95764f68a5d77b10f7b330926e50f10054da6/proliantutils-2.9.5.tar.gz
+[2023-06-21 10:25:37] INFO root fetch - processPackages [proliantutils]: executing diffoscope
+[2023-06-21 10:25:37] INFO root fetch - processPackages [proliantutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proliantutils-2.9.4.tar.gz tmp/proliantutils-2.9.5.tar.gz --markdown 20230621/p/proliantutils/2.9.4-2.9.5/diff.md --exclude *.pyd
+[2023-06-21 10:25:38] INFO root fetch - processPackages [odetoolbox]: Remove: archive file [/home/abi/fetcher/tmp/odetoolbox-2.5.1-py3-none-any.whl.zip]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [odetoolbox]: Remove: archive file [/home/abi/fetcher/tmp/odetoolbox-2.5.2-py3-none-any.whl.zip]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [odetoolbox]: Start processing: certora-cli-alpha-master
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [odetoolbox]: success
+[2023-06-21 10:25:38] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230620.9.27.814061] Old Version: [20230620.22.25.775410]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.0.4b0.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [gaitalytics]: Remove: archive file [/home/abi/fetcher/tmp/gaitalytics-0.0.5b0.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [gaitalytics]: Start processing: docarray
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [gaitalytics]: success
+[2023-06-21 10:25:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/9b/ad/98a5a69bc3cd3deb9350b5d68325da8c34f98b9a9586121b51cf0014c36f/certora-cli-alpha-master-20230620.22.25.775410.tar.gz
+[2023-06-21 10:25:38] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37084080>=10485760
+[2023-06-21 10:25:38] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: macrometa-target-postgres
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-21 10:25:38] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Remove: archive file [/home/abi/fetcher/tmp/fsl_sub_plugin_slurm-1.5.1.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Remove: archive file [/home/abi/fetcher/tmp/fsl_sub_plugin_slurm-1.6.1.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [fsl-sub-plugin-slurm]: Start processing: hyko-sdk
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [fsl-sub-plugin-slurm]: success
+[2023-06-21 10:25:38] INFO root fetch - processPackages [araucanaxai]: Remove: archive file [/home/abi/fetcher/tmp/araucanaxai-0.9.3.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [araucanaxai]: Remove: archive file [/home/abi/fetcher/tmp/araucanaxai-0.9.4.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [araucanaxai]: success
+[2023-06-21 10:25:38] INFO root fetch - processPackages [hyko-sdk]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-21 10:25:38] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.2.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [bs-admin-utils]: Remove: archive file [/home/abi/fetcher/tmp/bs_admin_utils-1.1.3-py3-none-any.whl.zip]
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [bs-admin-utils]: success
+[2023-06-21 10:25:38] INFO root fetch - processPackages [ietfdata]: Remove: archive file [/home/abi/fetcher/tmp/ietfdata-0.6.6.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [ietfdata]: Remove: archive file [/home/abi/fetcher/tmp/ietfdata-0.6.7.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [ietfdata]: success
+[2023-06-21 10:25:38] INFO root fetch - processPackages [macrometa-target-postgres]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.0.5.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.0.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2023-06-21 10:25:38] ERROR root fetch - processPackages [hyko-sdk]: Unable to fetch info: No such project/version 'hyko-sdk' 0.1.0
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [hyko-sdk] error
+[2023-06-21 10:25:38] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-21 10:25:38] INFO root fetch - processPackages [macrometa-target-postgres]: Downloading https://files.pythonhosted.org/packages/26/2d/fc4b31224bb1b913acec648292a678d9f7683561eb2bc6dec6d6b5d2bec5/macrometa-target-postgres-0.0.8.tar.gz
+[2023-06-21 10:25:38] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-21 10:25:38] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230621/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-21 10:25:38] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5320308217.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - processPackages [th2-data-services]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services-2.0.0.dev5320534839.tar.gz]
+[2023-06-21 10:25:38] INFO root fetch - main [MainThread]: End processing [th2-data-services]: success
+[2023-06-21 10:25:39] INFO root fetch - processPackages [macrometa-target-postgres]: Downloading https://files.pythonhosted.org/packages/2b/b6/d492597bdf160b748f1ef192c570821bcdec04e77828b16d7b7f06addb2d/macrometa-target-postgres-0.0.9.tar.gz
+[2023-06-21 10:25:39] INFO root fetch - processPackages [macrometa-target-postgres]: executing diffoscope
+[2023-06-21 10:25:39] INFO root fetch - processPackages [macrometa-target-postgres]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-postgres-0.0.8.tar.gz tmp/macrometa-target-postgres-0.0.9.tar.gz --markdown 20230621/m/macrometa-target-postgres/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 10:25:40] INFO root fetch - processPackages [proliantutils]: Remove: archive file [/home/abi/fetcher/tmp/proliantutils-2.9.4.tar.gz]
+[2023-06-21 10:25:40] INFO root fetch - processPackages [proliantutils]: Remove: archive file [/home/abi/fetcher/tmp/proliantutils-2.9.5.tar.gz]
+[2023-06-21 10:25:40] INFO root fetch - main [MainThread]: End processing [proliantutils]: success
+[2023-06-21 10:25:40] INFO root fetch - processPackages [macrometa-target-postgres]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-postgres-0.0.8.tar.gz]
+[2023-06-21 10:25:40] INFO root fetch - processPackages [macrometa-target-postgres]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-postgres-0.0.9.tar.gz]
+[2023-06-21 10:25:40] INFO root fetch - main [MainThread]: End processing [macrometa-target-postgres]: success
+[2023-06-21 10:25:40] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-21 10:25:40] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-21 10:25:40] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-21 10:25:42] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9175313495131.tar.gz]
+[2023-06-21 10:25:42] INFO root fetch - processPackages [power-grid-model]: Remove: archive file [/home/abi/fetcher/tmp/power-grid-model-1.5.0rc9178701900018.tar.gz]
+[2023-06-21 10:25:42] INFO root fetch - main [MainThread]: End processing [power-grid-model]: success
+[2023-06-21 10:25:42] INFO root fetch - main [MainThread]: Store serial: [18587188]
