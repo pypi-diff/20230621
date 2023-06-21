@@ -20042,3 +20042,111 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 11:58:05] INFO root fetch - processPackages [dmss-api]: Remove: archive file [/home/abi/fetcher/tmp/dmss-api-1.2.2.tar.gz]
 [2023-06-21 11:58:05] INFO root fetch - main [MainThread]: End processing [dmss-api]: success
 [2023-06-21 11:58:05] INFO root fetch - main [MainThread]: Store serial: [18588420]
+[2023-06-21 12:03:09] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588420]
+[2023-06-21 12:03:14] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kevbits
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: complycube
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: riotee-gateway
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steampunk-spotter
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ufomerge
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fastf1
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sjvisualizer
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: visiongraph
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jinja2-ext-path
+[2023-06-21 12:03:14] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: generalized-model-trainer
+[2023-06-21 12:03:14] INFO root fetch - processPackages [kevbits]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-06-21 12:03:14] INFO root fetch - processPackages [riotee-gateway]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 12:03:14] INFO root fetch - processPackages [jinja2-ext-path]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-21 12:03:14] INFO root fetch - processPackages [complycube]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-21 12:03:15] INFO root fetch - processPackages [kevbits]: Downloading https://files.pythonhosted.org/packages/b2/d3/825a71d8025ad2293764685628c7d800c73e82df92fb68a337887d5fe096/kevbits-0.6.0.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [steampunk-spotter]: New version: [2.0.2rc1] Old Version: [2.0.1rc1]
+[2023-06-21 12:03:15] INFO root fetch - processPackages [complycube]: Downloading https://files.pythonhosted.org/packages/bb/0d/29e3e79ad36b11797f2449142c4942a8689cdf4717398d3eef78bdbe41c2/complycube-1.1.4.tar.gz
+[2023-06-21 12:03:15] WARNING root fetch - processPackages [generalized-model-trainer]: Skipping, unable to determine old version
+[2023-06-21 12:03:15] INFO root fetch - processPackages [generalized-model-trainer]: Start processing: spectroscopy-toolbox
+[2023-06-21 12:03:15] WARNING root fetch - processPackages [sjvisualizer]: Skipping, unable to determine old version
+[2023-06-21 12:03:15] INFO root fetch - main [MainThread]: End processing [generalized-model-trainer] error
+[2023-06-21 12:03:15] INFO root fetch - processPackages [sjvisualizer]: Start processing: typedparser
+[2023-06-21 12:03:15] INFO root fetch - main [MainThread]: End processing [sjvisualizer] error
+[2023-06-21 12:03:15] INFO root fetch - processPackages [ufomerge]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-21 12:03:15] INFO root fetch - processPackages [fastf1]: New version: [3.0.5] Old Version: [3.0.4]
+[2023-06-21 12:03:15] INFO root fetch - processPackages [visiongraph]: New version: [0.1.46.1] Old Version: [0.1.45.1]
+[2023-06-21 12:03:15] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/9e/85/468062cae05e55d2284b85d91dc0e75abafac8f8cbada21eb41169971f12/riotee_gateway-0.0.8.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [typedparser]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 12:03:15] INFO root fetch - processPackages [jinja2-ext-path]: Downloading https://files.pythonhosted.org/packages/a6/61/4dc0b42412630e5bc5e50c1b28845cf39cd017bdaebf48a5d3e165a2063b/jinja2_ext_path-0.1.0.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [spectroscopy-toolbox]: New version: [0.0.2a0] Old Version: [0.0.1]
+[2023-06-21 12:03:15] INFO root fetch - processPackages [complycube]: Downloading https://files.pythonhosted.org/packages/e2/ae/731e93cdbf840e7fe5c4b52c52cf13ea44fc8efc508b5bd3930ae99b8895/complycube-1.1.5.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/c7/d7/9d2c05af1cf5fadb2ce71a63912fbb0b20546812a3bb1eca8e57cc068fbd/typedparser-0.2.8.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/64/f1/3f9d009b334f38baaef2bda4cc2ed5d327116e162d06d388f2af6b969f33/riotee_gateway-0.0.9.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/ce/03/e652999f3123a57dc5635edb28dcdb65866d47bccd6114bddaea91ccb934/fastf1-3.0.4.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/00/4a/d6d0f5f644342436084c5f07465f12659a65cc9a3d8c655dc6fa47000e0a/steampunk_spotter-2.0.1rc1-py3-none-any.whl
+[2023-06-21 12:03:15] INFO root fetch - processPackages [complycube]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/29/43/75042901dd762231f23fbde06dd2fbadebe844800daab8d2af5dfcdba3d3/visiongraph-0.1.45.1-py3-none-any.whl
+[2023-06-21 12:03:15] INFO root fetch - processPackages [complycube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/complycube-1.1.4.tar.gz tmp/complycube-1.1.5.tar.gz --markdown 20230621/c/complycube/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-21 12:03:15] INFO root fetch - processPackages [riotee-gateway]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [riotee-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotee_gateway-0.0.8.tar.gz tmp/riotee_gateway-0.0.9.tar.gz --markdown 20230621/r/riotee-gateway/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 12:03:15] INFO root fetch - processPackages [ufomerge]: Downloading https://files.pythonhosted.org/packages/46/bd/d0b50eb137e8a13297e6a4323a1808ae4d34eedf65b973a4a9d88f2c6574/ufomerge-1.1.0.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [kevbits]: Downloading https://files.pythonhosted.org/packages/6b/1d/45776e59bb765065631106b55b1bb7b6618cdb5f13c26d5c320c25306e8a/kevbits-0.7.0.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [spectroscopy-toolbox]: Downloading https://files.pythonhosted.org/packages/52/0a/b77f89bd855029b6ba76a7e4c8e23837d1f4ac6c7bfa31887c69759f3d9b/spectroscopy-toolbox-0.0.1.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/93/82/2103b6fc1c9856a51b75cb85f603ec37754041e25e2223c91fba155b6e69/typedparser-0.2.9.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [kevbits]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [kevbits]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kevbits-0.6.0.tar.gz tmp/kevbits-0.7.0.tar.gz --markdown 20230621/k/kevbits/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-06-21 12:03:15] INFO root fetch - processPackages [jinja2-ext-path]: Downloading https://files.pythonhosted.org/packages/48/97/6342747f35930dd1619e921ad8e2d64174dd835f055af0e4c2d689303633/jinja2_ext_path-0.1.1.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.2.8.tar.gz tmp/typedparser-0.2.9.tar.gz --markdown 20230621/t/typedparser/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 12:03:15] INFO root fetch - processPackages [fastf1]: Downloading https://files.pythonhosted.org/packages/54/7f/bd92b2bc5b6d5afd18cdd0fcce2e630f48f2d5106ff59410683a272991bb/fastf1-3.0.5.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [visiongraph]: Downloading https://files.pythonhosted.org/packages/07/b1/7b33fab60f878e556b1effb15fb90ec3c94c2ffb8fccef9fbc215165b1a4/visiongraph-0.1.46.1-py3-none-any.whl
+[2023-06-21 12:03:15] INFO root fetch - processPackages [steampunk-spotter]: Downloading https://files.pythonhosted.org/packages/9e/6f/efedfd98c5b955b486b3787d312d3f3559dfc0795358c0f8e73e92c5b590/steampunk_spotter-2.0.2rc1-py3-none-any.whl
+[2023-06-21 12:03:15] INFO root fetch - processPackages [spectroscopy-toolbox]: Downloading https://files.pythonhosted.org/packages/b1/39/22398597a035dffe1fe0587c38d79566926ad30d8495515014793ff66f19/spectroscopy-toolbox-0.0.2a0.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [ufomerge]: Downloading https://files.pythonhosted.org/packages/35/da/21188f23f32f0dedb528fdbda834afd5fcfa097625d0fd32ae0c63db37d0/ufomerge-1.2.0.tar.gz
+[2023-06-21 12:03:15] INFO root fetch - processPackages [jinja2-ext-path]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [jinja2-ext-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jinja2_ext_path-0.1.0.tar.gz tmp/jinja2_ext_path-0.1.1.tar.gz --markdown 20230621/j/jinja2-ext-path/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-21 12:03:15] INFO root fetch - processPackages [visiongraph]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [visiongraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/visiongraph-0.1.45.1-py3-none-any.whl.zip tmp/visiongraph-0.1.46.1-py3-none-any.whl.zip --markdown 20230621/v/visiongraph/0.1.45.1-0.1.46.1/diff.md --exclude *.pyd
+[2023-06-21 12:03:15] INFO root fetch - processPackages [spectroscopy-toolbox]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [spectroscopy-toolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectroscopy-toolbox-0.0.1.tar.gz tmp/spectroscopy-toolbox-0.0.2a0.tar.gz --markdown 20230621/s/spectroscopy-toolbox/0.0.1-0.0.2a0/diff.md --exclude *.pyd
+[2023-06-21 12:03:15] INFO root fetch - processPackages [steampunk-spotter]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [steampunk-spotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steampunk_spotter-2.0.1rc1-py3-none-any.whl.zip tmp/steampunk_spotter-2.0.2rc1-py3-none-any.whl.zip --markdown 20230621/s/steampunk-spotter/2.0.1rc1-2.0.2rc1/diff.md --exclude *.pyd
+[2023-06-21 12:03:15] INFO root fetch - processPackages [ufomerge]: executing diffoscope
+[2023-06-21 12:03:15] INFO root fetch - processPackages [ufomerge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ufomerge-1.1.0.tar.gz tmp/ufomerge-1.2.0.tar.gz --markdown 20230621/u/ufomerge/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-21 12:03:16] INFO root fetch - processPackages [fastf1]: executing diffoscope
+[2023-06-21 12:03:16] INFO root fetch - processPackages [fastf1]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastf1-3.0.4.tar.gz tmp/fastf1-3.0.5.tar.gz --markdown 20230621/f/fastf1/3.0.4-3.0.5/diff.md --exclude *.pyd
+[2023-06-21 12:03:16] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.8.tar.gz]
+[2023-06-21 12:03:16] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.9.tar.gz]
+[2023-06-21 12:03:16] INFO root fetch - processPackages [riotee-gateway]: Start processing: satosa-oidcop
+[2023-06-21 12:03:16] INFO root fetch - main [MainThread]: End processing [riotee-gateway]: success
+[2023-06-21 12:03:16] INFO root fetch - processPackages [satosa-oidcop]: New version: [2.0.1] Old Version: [1.1.3]
+[2023-06-21 12:03:16] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/cf/ca/d002c8e765e5e56cc311706735232b99bc76b64df150c685d03c361b8030/satosa_oidcop-1.1.3.tar.gz
+[2023-06-21 12:03:16] INFO root fetch - processPackages [kevbits]: Remove: archive file [/home/abi/fetcher/tmp/kevbits-0.6.0.tar.gz]
+[2023-06-21 12:03:16] INFO root fetch - processPackages [kevbits]: Remove: archive file [/home/abi/fetcher/tmp/kevbits-0.7.0.tar.gz]
+[2023-06-21 12:03:16] INFO root fetch - main [MainThread]: End processing [kevbits]: success
+[2023-06-21 12:03:17] INFO root fetch - processPackages [satosa-oidcop]: Downloading https://files.pythonhosted.org/packages/ee/e6/6b04c9efc474fb8e15f18e705ca81f881b77246f92bcd253ea85147cd564/satosa_oidcop-2.0.1.tar.gz
+[2023-06-21 12:03:17] INFO root fetch - processPackages [jinja2-ext-path]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_ext_path-0.1.0.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - processPackages [jinja2-ext-path]: Remove: archive file [/home/abi/fetcher/tmp/jinja2_ext_path-0.1.1.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - main [MainThread]: End processing [jinja2-ext-path]: success
+[2023-06-21 12:03:17] INFO root fetch - processPackages [satosa-oidcop]: executing diffoscope
+[2023-06-21 12:03:17] INFO root fetch - processPackages [satosa-oidcop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satosa_oidcop-1.1.3.tar.gz tmp/satosa_oidcop-2.0.1.tar.gz --markdown 20230621/s/satosa-oidcop/1.1.3-2.0.1/diff.md --exclude *.pyd
+[2023-06-21 12:03:17] INFO root fetch - processPackages [complycube]: Remove: archive file [/home/abi/fetcher/tmp/complycube-1.1.4.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - processPackages [complycube]: Remove: archive file [/home/abi/fetcher/tmp/complycube-1.1.5.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - main [MainThread]: End processing [complycube]: success
+[2023-06-21 12:03:17] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.8.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.9.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2023-06-21 12:03:17] INFO root fetch - processPackages [spectroscopy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/spectroscopy-toolbox-0.0.1.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - processPackages [spectroscopy-toolbox]: Remove: archive file [/home/abi/fetcher/tmp/spectroscopy-toolbox-0.0.2a0.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - main [MainThread]: End processing [spectroscopy-toolbox]: success
+[2023-06-21 12:03:17] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.1rc1-py3-none-any.whl.zip]
+[2023-06-21 12:03:17] INFO root fetch - processPackages [steampunk-spotter]: Remove: archive file [/home/abi/fetcher/tmp/steampunk_spotter-2.0.2rc1-py3-none-any.whl.zip]
+[2023-06-21 12:03:17] INFO root fetch - main [MainThread]: End processing [steampunk-spotter]: success
+[2023-06-21 12:03:17] INFO root fetch - processPackages [ufomerge]: Remove: archive file [/home/abi/fetcher/tmp/ufomerge-1.1.0.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - processPackages [ufomerge]: Remove: archive file [/home/abi/fetcher/tmp/ufomerge-1.2.0.tar.gz]
+[2023-06-21 12:03:17] INFO root fetch - main [MainThread]: End processing [ufomerge]: success
+[2023-06-21 12:03:18] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-1.1.3.tar.gz]
+[2023-06-21 12:03:18] INFO root fetch - processPackages [satosa-oidcop]: Remove: archive file [/home/abi/fetcher/tmp/satosa_oidcop-2.0.1.tar.gz]
+[2023-06-21 12:03:18] INFO root fetch - main [MainThread]: End processing [satosa-oidcop]: success
+[2023-06-21 12:03:19] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.45.1-py3-none-any.whl.zip]
+[2023-06-21 12:03:19] INFO root fetch - processPackages [visiongraph]: Remove: archive file [/home/abi/fetcher/tmp/visiongraph-0.1.46.1-py3-none-any.whl.zip]
+[2023-06-21 12:03:19] INFO root fetch - main [MainThread]: End processing [visiongraph]: success
+[2023-06-21 12:03:20] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.0.4.tar.gz]
+[2023-06-21 12:03:20] INFO root fetch - processPackages [fastf1]: Remove: archive file [/home/abi/fetcher/tmp/fastf1-3.0.5.tar.gz]
+[2023-06-21 12:03:20] INFO root fetch - main [MainThread]: End processing [fastf1]: success
+[2023-06-21 12:03:20] INFO root fetch - main [MainThread]: Store serial: [18588462]
