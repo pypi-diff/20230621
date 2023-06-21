@@ -11160,3 +11160,140 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 05:41:02] INFO root fetch - processPackages [azure-mgmt-dataprotection]: Remove: archive file [/home/abi/fetcher/tmp/azure-mgmt-dataprotection-1.1.0.zip]
 [2023-06-21 05:41:02] INFO root fetch - main [MainThread]: End processing [azure-mgmt-dataprotection]: success
 [2023-06-21 05:41:02] INFO root fetch - main [MainThread]: Store serial: [18584869]
+[2023-06-21 05:46:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584869]
+[2023-06-21 05:46:11] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hidet
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sourcery-nightly
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-l10n-fr-ecotaxe
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sysml2py
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BaseDT
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abl-quantconnect-stubs
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meta-vino
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-fr-ecotaxe
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nonebot-plugin-bam
+[2023-06-21 05:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: udl-vis
+[2023-06-21 05:46:11] INFO root fetch - processPackages [sysml2py]: New version: [0.2.5] Old Version: [0.2.3]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [nonebot-plugin-bam]: New version: [0.2.0a2] Old Version: [0.2.0a1]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: New version: [15.0.1.0.0.9] Old Version: [15.0.1.0.0.8]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [BaseDT]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [udl-vis]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [abl-quantconnect-stubs]: New version: [13987.3] Old Version: [13987.2]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [hidet]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [meta-vino]: New version: [3.6.21] Old Version: [3.6.20]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/b6/7f/e3d83aa65dd752f7c51b8c306f66e94b34e646ef879397bad59fd55595b1/sysml2py-0.2.3.tar.gz
+[2023-06-21 05:46:11] INFO root fetch - processPackages [sourcery-nightly]: New version: [1.4.1b37] Old Version: [1.4.1b36]
+[2023-06-21 05:46:11] INFO root fetch - processPackages [meta-vino]: Downloading https://files.pythonhosted.org/packages/5c/ba/e65706cb23f049c3e31cf6b6fdc62efd306c57c0dc8890d0687bb0d99201/meta-vino-3.6.20.tar.gz
+[2023-06-21 05:46:11] INFO root fetch - processPackages [udl-vis]: Downloading https://files.pythonhosted.org/packages/7d/a1/4a42214a9d0e60cbbc2ea164a235e19200a4e8c53a88e6ec22f0078f161c/udl_vis-0.3.2-py3-none-any.whl
+[2023-06-21 05:46:11] INFO root fetch - processPackages [nonebot-plugin-bam]: Downloading https://files.pythonhosted.org/packages/86/62/702123aaa78c83ec3d2f22c220f0bc70da18b507fad736342367812eb632/nonebot_plugin_bam-0.2.0a1.tar.gz
+[2023-06-21 05:46:11] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/b1/0a/46837fa1fe2a0547045430f43669d5f65b452868630ff3f0643d7eda6d43/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.8-py3-none-any.whl
+[2023-06-21 05:46:11] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/36/7a/4a8f0f45b806688f9d74df3d829a47b9d3f5ea0468260a41c1ceffdabbf6/BaseDT-0.0.9.tar.gz
+[2023-06-21 05:46:11] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/17/23/e8e04b31f95fcbfc5dff1b0856ed815fc133a84d13c679042dec20523a7e/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-06-21 05:46:11] INFO root fetch - processPackages [hidet]: Downloading https://files.pythonhosted.org/packages/08/8f/529115c3806ee0ea4500dd1f40e46d8eae30f53e628dd866d0e68dac225b/hidet-0.2.3-py3-none-any.whl
+[2023-06-21 05:46:11] INFO root fetch - processPackages [abl-quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/da/12/a8c4ec7516ad8971b599dcd6f47575d83f1b51653636b6e7e47af20901c0/abl-quantconnect-stubs-13987.2.tar.gz
+[2023-06-21 05:46:11] INFO root fetch - processPackages [meta-vino]: Downloading https://files.pythonhosted.org/packages/6a/c7/3048cdd0ae61cd9432ad5f3754594856f4f1dc403a2db8a1e2020a237dd7/meta-vino-3.6.21.tar.gz
+[2023-06-21 05:46:11] INFO root fetch - processPackages [sourcery-nightly]: Downloading https://files.pythonhosted.org/packages/4a/13/34876028a2b1c6753476880132f0ac9346baf532594a44930e4fac94737b/sourcery_nightly-1.4.1b36-py2.py3-none-win_amd64.whl
+[2023-06-21 05:46:11] WARNING root fetch - processPackages [sourcery-nightly]: Skipping package: exceeds size limit 59935374>=10485760
+[2023-06-21 05:46:11] INFO root fetch - processPackages [sourcery-nightly]: Start processing: odoo-addon-l10n-fr-siret
+[2023-06-21 05:46:11] INFO root fetch - main [MainThread]: End processing [sourcery-nightly] error
+[2023-06-21 05:46:11] INFO root fetch - processPackages [meta-vino]: executing diffoscope
+[2023-06-21 05:46:11] INFO root fetch - processPackages [meta-vino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meta-vino-3.6.20.tar.gz tmp/meta-vino-3.6.21.tar.gz --markdown 20230621/m/meta-vino/3.6.20-3.6.21/diff.md --exclude *.pyd
+[2023-06-21 05:46:11] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-21 05:46:12] INFO root fetch - processPackages [sysml2py]: Downloading https://files.pythonhosted.org/packages/c6/15/f1140f9fdac275d017eb7ef148b2a68c612f347554d4f1bc5a93b912af2e/sysml2py-0.2.5.tar.gz
+[2023-06-21 05:46:12] INFO root fetch - processPackages [BaseDT]: Downloading https://files.pythonhosted.org/packages/b5/9e/3fe5f6548933a208ce7b20d9f9e32084c0cff9b3b79bf83ff49264824afc/BaseDT-0.1.0.tar.gz
+[2023-06-21 05:46:12] INFO root fetch - processPackages [sysml2py]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [sysml2py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sysml2py-0.2.3.tar.gz tmp/sysml2py-0.2.5.tar.gz --markdown 20230621/s/sysml2py/0.2.3-0.2.5/diff.md --exclude *.pyd
+[2023-06-21 05:46:12] INFO root fetch - processPackages [BaseDT]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [BaseDT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BaseDT-0.0.9.tar.gz tmp/BaseDT-0.1.0.tar.gz --markdown 20230621/B/BaseDT/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-21 05:46:12] INFO root fetch - processPackages [abl-quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/66/44/a9073bd00718494271cbfef2a7c04d8e627ad65cdc5e412fa4c4f464c657/abl-quantconnect-stubs-13987.3.tar.gz
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Downloading https://files.pythonhosted.org/packages/bd/21/64e481b758c8bb8e76982ef62fcc44ab6d8e2e9167a57f3d8b16d3dd00e4/odoo_addon_l10n_fr_siret-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-21 05:46:12] INFO root fetch - processPackages [hidet]: Downloading https://files.pythonhosted.org/packages/b3/41/ca756151dc5b3e7d9930364812e54191f2d477b4beb30e647d782ff3b7f7/hidet-0.2.4-py3-none-any.whl
+[2023-06-21 05:46:12] INFO root fetch - processPackages [abl-quantconnect-stubs]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [abl-quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abl-quantconnect-stubs-13987.2.tar.gz tmp/abl-quantconnect-stubs-13987.3.tar.gz --markdown 20230621/a/abl-quantconnect-stubs/13987.2-13987.3/diff.md --exclude *.pyd
+[2023-06-21 05:46:12] INFO root fetch - processPackages [nonebot-plugin-bam]: Downloading https://files.pythonhosted.org/packages/42/7b/6e65e89f843c98d5b325794296a1abb08105a9112fb49aeab71be77dd929/nonebot_plugin_bam-0.2.0a2.tar.gz
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/26/fa/a2676a3f8337adec55f347482564885afb6b38e6c8ece3f51c72027b49c9/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Downloading https://files.pythonhosted.org/packages/0b/e4/5f522e94c6f51960cdeaa6255c79bc12db3f6893b1d47c58a82186e4b5d6/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.9-py3-none-any.whl
+[2023-06-21 05:46:12] INFO root fetch - processPackages [udl-vis]: Downloading https://files.pythonhosted.org/packages/11/a8/cc9facc8852e9de74ae057723b5c08b3a89bfe34fd64eefe1596d0e1640e/udl_vis-0.3.3-py3-none-any.whl
+[2023-06-21 05:46:12] INFO root fetch - processPackages [nonebot-plugin-bam]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [nonebot-plugin-bam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bam-0.2.0a1.tar.gz tmp/nonebot_plugin_bam-0.2.0a2.tar.gz --markdown 20230621/n/nonebot-plugin-bam/0.2.0a1-0.2.0a2/diff.md --exclude *.pyd
+[2023-06-21 05:46:12] INFO root fetch - processPackages [udl-vis]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [udl-vis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udl_vis-0.3.2-py3-none-any.whl.zip tmp/udl_vis-0.3.3-py3-none-any.whl.zip --markdown 20230621/u/udl-vis/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-21 05:46:12] INFO root fetch - processPackages [hidet]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [hidet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hidet-0.2.3-py3-none-any.whl.zip tmp/hidet-0.2.4-py3-none-any.whl.zip --markdown 20230621/h/hidet/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230621/o/odoo8-addon-l10n-fr-ecotaxe/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.8-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.9-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-l10n-fr-ecotaxe/15.0.1.0.0.8-15.0.1.0.0.9/diff.md --exclude *.pyd
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Downloading https://files.pythonhosted.org/packages/f2/95/75a28a7b6375d03d13a07f2e547a2769ebd70a6ee2a20c371ca19688ec49/odoo_addon_l10n_fr_siret-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: executing diffoscope
+[2023-06-21 05:46:12] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_siret-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_siret-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-l10n-fr-siret/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-21 05:46:13] INFO root fetch - processPackages [meta-vino]: Remove: archive file [/home/abi/fetcher/tmp/meta-vino-3.6.20.tar.gz]
+[2023-06-21 05:46:13] INFO root fetch - processPackages [meta-vino]: Remove: archive file [/home/abi/fetcher/tmp/meta-vino-3.6.21.tar.gz]
+[2023-06-21 05:46:13] INFO root fetch - processPackages [meta-vino]: Start processing: odoo-addon-l10n-fr-hr-check-ssnid
+[2023-06-21 05:46:13] INFO root fetch - main [MainThread]: End processing [meta-vino]: success
+[2023-06-21 05:46:13] INFO root fetch - processPackages [odoo-addon-l10n-fr-hr-check-ssnid]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-06-21 05:46:13] INFO root fetch - processPackages [odoo-addon-l10n-fr-hr-check-ssnid]: Downloading https://files.pythonhosted.org/packages/1e/24/f634c3a96e3b92fd2f2cf723e6112710472bc854b25a407e31c856eab7b1/odoo_addon_l10n_fr_hr_check_ssnid-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-21 05:46:13] INFO root fetch - processPackages [odoo-addon-l10n-fr-hr-check-ssnid]: Downloading https://files.pythonhosted.org/packages/26/49/d4ea9cda011362c7ea1ded7047e4f3af8ebe512e94a80a63f814d17e0972/odoo_addon_l10n_fr_hr_check_ssnid-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-21 05:46:13] INFO root fetch - processPackages [odoo-addon-l10n-fr-hr-check-ssnid]: executing diffoscope
+[2023-06-21 05:46:13] INFO root fetch - processPackages [odoo-addon-l10n-fr-hr-check-ssnid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_hr_check_ssnid-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_hr_check_ssnid-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-l10n-fr-hr-check-ssnid/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-21 05:46:13] INFO root fetch - processPackages [sysml2py]: Remove: archive file [/home/abi/fetcher/tmp/sysml2py-0.2.3.tar.gz]
+[2023-06-21 05:46:13] INFO root fetch - processPackages [sysml2py]: Remove: archive file [/home/abi/fetcher/tmp/sysml2py-0.2.5.tar.gz]
+[2023-06-21 05:46:13] INFO root fetch - processPackages [sysml2py]: Start processing: odoo-addon-l10n-fr-department
+[2023-06-21 05:46:13] INFO root fetch - main [MainThread]: End processing [sysml2py]: success
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-department]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [nonebot-plugin-bam]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bam-0.2.0a1.tar.gz]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [nonebot-plugin-bam]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bam-0.2.0a2.tar.gz]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [nonebot-plugin-bam]: Start processing: odoo-addon-l10n-fr-intrastat-product
+[2023-06-21 05:46:14] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bam]: success
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: New version: [16.0.1.2.0.2] Old Version: [16.0.1.2.0]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [BaseDT]: Remove: archive file [/home/abi/fetcher/tmp/BaseDT-0.0.9.tar.gz]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [BaseDT]: Remove: archive file [/home/abi/fetcher/tmp/BaseDT-0.1.0.tar.gz]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [BaseDT]: Start processing: taskhub
+[2023-06-21 05:46:14] INFO root fetch - main [MainThread]: End processing [BaseDT]: success
+[2023-06-21 05:46:14] INFO root fetch - processPackages [taskhub]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-department]: Downloading https://files.pythonhosted.org/packages/5f/d4/585bcf55e7f21e580f9031d397d22f4855392755755d3ff792829cfd9c07/odoo_addon_l10n_fr_department-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/eb/b7/822341ecbe31f19cf9acb6a6640cd9e25a3b75d5a87a87ece4b38ba5d3b9/odoo_addon_l10n_fr_intrastat_product-16.0.1.2.0-py3-none-any.whl
+[2023-06-21 05:46:14] INFO root fetch - processPackages [taskhub]: Downloading https://files.pythonhosted.org/packages/50/10/913365b2c3896a4d44be36716b0739bee82387a8dd599491ba0f63c14649/taskhub-0.7.1.tar.gz
+[2023-06-21 05:46:14] INFO root fetch - processPackages [taskhub]: Downloading https://files.pythonhosted.org/packages/6f/b7/ed6c1e3f2791968677aec61610eb33cf851b51c4cf470c284abfe2c70505/taskhub-0.7.2.tar.gz
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Downloading https://files.pythonhosted.org/packages/7b/77/b5943f659ab3d2e1c910f7ac2b2e51b08ab5559878aa44f71d16343556d4/odoo_addon_l10n_fr_intrastat_product-16.0.1.2.0.2-py3-none-any.whl
+[2023-06-21 05:46:14] INFO root fetch - processPackages [taskhub]: executing diffoscope
+[2023-06-21 05:46:14] INFO root fetch - processPackages [taskhub]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taskhub-0.7.1.tar.gz tmp/taskhub-0.7.2.tar.gz --markdown 20230621/t/taskhub/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: executing diffoscope
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_intrastat_product-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_intrastat_product-16.0.1.2.0.2-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-l10n-fr-intrastat-product/16.0.1.2.0-16.0.1.2.0.2/diff.md --exclude *.pyd
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-department]: Downloading https://files.pythonhosted.org/packages/6a/30/795943589693bc3f3978412a0cda2917805500c6d40930b0110b0f4045af/odoo_addon_l10n_fr_department-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-department]: executing diffoscope
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-department]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_fr_department-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_l10n_fr_department-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-l10n-fr-department/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_siret-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_siret-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-21 05:46:14] INFO root fetch - processPackages [odoo-addon-l10n-fr-siret]: Start processing: subwhisper
+[2023-06-21 05:46:14] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-siret]: success
+[2023-06-21 05:46:14] WARNING root fetch - processPackages [subwhisper]: Skipping, unable to determine old version
+[2023-06-21 05:46:14] INFO root fetch - main [MainThread]: End processing [subwhisper] error
+[2023-06-21 05:46:15] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-21 05:46:15] INFO root fetch - processPackages [odoo8-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_l10n_fr_ecotaxe-8.0.0.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-21 05:46:15] INFO root fetch - main [MainThread]: End processing [odoo8-addon-l10n-fr-ecotaxe]: success
+[2023-06-21 05:46:15] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-21 05:46:15] INFO root fetch - processPackages [odoo-addon-l10n-fr-ecotaxe]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_ecotaxe-15.0.1.0.0.9-py3-none-any.whl.zip]
+[2023-06-21 05:46:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-ecotaxe]: success
+[2023-06-21 05:46:15] INFO root fetch - processPackages [odoo-addon-l10n-fr-hr-check-ssnid]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_hr_check_ssnid-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-21 05:46:15] INFO root fetch - processPackages [odoo-addon-l10n-fr-hr-check-ssnid]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_hr_check_ssnid-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-21 05:46:15] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-hr-check-ssnid]: success
+[2023-06-21 05:46:15] INFO root fetch - processPackages [taskhub]: Remove: archive file [/home/abi/fetcher/tmp/taskhub-0.7.1.tar.gz]
+[2023-06-21 05:46:15] INFO root fetch - processPackages [taskhub]: Remove: archive file [/home/abi/fetcher/tmp/taskhub-0.7.2.tar.gz]
+[2023-06-21 05:46:15] INFO root fetch - main [MainThread]: End processing [taskhub]: success
+[2023-06-21 05:46:15] INFO root fetch - processPackages [udl-vis]: Remove: archive file [/home/abi/fetcher/tmp/udl_vis-0.3.2-py3-none-any.whl.zip]
+[2023-06-21 05:46:15] INFO root fetch - processPackages [udl-vis]: Remove: archive file [/home/abi/fetcher/tmp/udl_vis-0.3.3-py3-none-any.whl.zip]
+[2023-06-21 05:46:15] INFO root fetch - main [MainThread]: End processing [udl-vis]: success
+[2023-06-21 05:46:16] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_intrastat_product-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-21 05:46:16] INFO root fetch - processPackages [odoo-addon-l10n-fr-intrastat-product]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_intrastat_product-16.0.1.2.0.2-py3-none-any.whl.zip]
+[2023-06-21 05:46:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-intrastat-product]: success
+[2023-06-21 05:46:16] INFO root fetch - processPackages [odoo-addon-l10n-fr-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_department-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-21 05:46:16] INFO root fetch - processPackages [odoo-addon-l10n-fr-department]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_fr_department-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-21 05:46:16] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-fr-department]: success
+[2023-06-21 05:46:17] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.2.tar.gz]
+[2023-06-21 05:46:17] INFO root fetch - processPackages [abl-quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/abl-quantconnect-stubs-13987.3.tar.gz]
+[2023-06-21 05:46:17] INFO root fetch - main [MainThread]: End processing [abl-quantconnect-stubs]: success
+[2023-06-21 05:46:22] INFO root fetch - processPackages [hidet]: Remove: archive file [/home/abi/fetcher/tmp/hidet-0.2.3-py3-none-any.whl.zip]
+[2023-06-21 05:46:22] INFO root fetch - processPackages [hidet]: Remove: archive file [/home/abi/fetcher/tmp/hidet-0.2.4-py3-none-any.whl.zip]
+[2023-06-21 05:46:22] INFO root fetch - main [MainThread]: End processing [hidet]: success
+[2023-06-21 05:46:22] INFO root fetch - main [MainThread]: Store serial: [18584923]
