@@ -14698,3 +14698,70 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 08:53:27] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.0.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-06-21 08:53:27] INFO root fetch - main [MainThread]: End processing [ert]: success
 [2023-06-21 08:53:27] INFO root fetch - main [MainThread]: Store serial: [18586214]
+[2023-06-21 08:58:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586214]
+[2023-06-21 08:58:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fluidCube
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizata-dsapi
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: whiffle-client
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gaitalytics
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: muffin
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: paddlepaddle-gpu
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m000.000.00m12
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: iolsmp
+[2023-06-21 08:58:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quanturf
+[2023-06-21 08:58:37] INFO root fetch - processPackages [whiffle-client]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 08:58:37] INFO root fetch - processPackages [muffin]: New version: [0.98.7] Old Version: [0.98.6]
+[2023-06-21 08:58:37] INFO root fetch - processPackages [fluidCube]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-21 08:58:37] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-21 08:58:37] INFO root fetch - processPackages [gaitalytics]: New version: [0.0.2b0] Old Version: [0.0.1b0]
+[2023-06-21 08:58:37] INFO root fetch - processPackages [paddlepaddle-gpu]: New version: [2.5.0rc1] Old Version: [2.5.0rc0]
+[2023-06-21 08:58:37] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/ec/ae/da2ecb587d344654c5ecb7e72de930e32acb4e95b14de0efd505b4cffed7/whiffle_client-0.1.2.tar.gz
+[2023-06-21 08:58:37] WARNING root fetch - processPackages [m000.000.00m12]: Skipping, unable to determine old version
+[2023-06-21 08:58:37] INFO root fetch - main [MainThread]: End processing [m000.000.00m12] error
+[2023-06-21 08:58:37] WARNING root fetch - processPackages [iolsmp]: Skipping, unable to determine old version
+[2023-06-21 08:58:37] INFO root fetch - main [MainThread]: End processing [iolsmp] error
+[2023-06-21 08:58:37] INFO root fetch - processPackages [quanturf]: New version: [8.6.6] Old Version: [8.6.5]
+[2023-06-21 08:58:37] WARNING root fetch - processPackages [gaitalytics]: fallback to get urls: [0.0.1b0]
+[2023-06-21 08:58:37] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/bf/72/07d4b562c887c1dead1aae64c72bc4ebd4cffefae8f73a40f2b666d7dc12/muffin-0.98.6.tar.gz
+[2023-06-21 08:58:37] WARNING root fetch - processPackages [gaitalytics]: None
+[2023-06-21 08:58:37] INFO root fetch - processPackages [fluidCube]: Downloading https://files.pythonhosted.org/packages/a2/ad/a7f64d5594922a265d8afaeb094f1e1a0cab0d2da1940945df517fa7683b/fluidCube-0.1.2.tar.gz
+[2023-06-21 08:58:37] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/d0/ba/f0bdd16f95ee52fb25901409f31bde594458ef362c86f31c8d307c8987d5/wizata-dsapi-0.1.98.tar.gz
+[2023-06-21 08:58:37] INFO root fetch - processPackages [paddlepaddle-gpu]: Downloading https://files.pythonhosted.org/packages/09/29/e5edf7577f2ce3ce4edc9c832fc8d5b688eeed0116e839556ee7efa6ef88/paddlepaddle_gpu-2.5.0rc0-cp39-cp39-win_amd64.whl
+[2023-06-21 08:58:37] WARNING root fetch - processPackages [gaitalytics]: None
+[2023-06-21 08:58:37] WARNING root fetch - processPackages [gaitalytics]: unable to get url for both version [0.0.1b0]
+[2023-06-21 08:58:37] INFO root fetch - processPackages [quanturf]: Downloading https://files.pythonhosted.org/packages/c0/83/40c2d2c515d0e450c1e69bc4c57ac85cf33e7637499a0cfa91049e96f4da/quanturf-8.6.5.tar.gz
+[2023-06-21 08:58:37] WARNING root fetch - processPackages [gaitalytics]: None
+[2023-06-21 08:58:37] INFO root fetch - main [MainThread]: End processing [gaitalytics] error
+[2023-06-21 08:58:37] INFO root fetch - processPackages [whiffle-client]: Downloading https://files.pythonhosted.org/packages/5d/e3/5636495715628e36e0b28080b7aec89d336ed8a08434519c88df97ad5f65/whiffle_client-0.1.3.tar.gz
+[2023-06-21 08:58:37] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/0d/a8/296a9674515285e8e12c189ea12d359fa4a4586dda8d943e9499730c3cdc/muffin-0.98.7.tar.gz
+[2023-06-21 08:58:37] INFO root fetch - processPackages [fluidCube]: Downloading https://files.pythonhosted.org/packages/c1/92/654afe3c6e6cf76415d867a49968b80ea528cd66c95f61dd9f6f63e7c5d8/fluidCube-0.1.3.tar.gz
+[2023-06-21 08:58:37] INFO root fetch - processPackages [whiffle-client]: executing diffoscope
+[2023-06-21 08:58:37] INFO root fetch - processPackages [whiffle-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whiffle_client-0.1.2.tar.gz tmp/whiffle_client-0.1.3.tar.gz --markdown 20230621/w/whiffle-client/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 08:58:37] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/3f/a2/8e1949f8e59bf78c31c3953b9c48fc81a94bb23b209d76f41dbd3f8b510f/wizata-dsapi-0.1.99.tar.gz
+[2023-06-21 08:58:37] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2023-06-21 08:58:37] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.98.6.tar.gz tmp/muffin-0.98.7.tar.gz --markdown 20230621/m/muffin/0.98.6-0.98.7/diff.md --exclude *.pyd
+[2023-06-21 08:58:37] INFO root fetch - processPackages [fluidCube]: executing diffoscope
+[2023-06-21 08:58:37] INFO root fetch - processPackages [fluidCube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluidCube-0.1.2.tar.gz tmp/fluidCube-0.1.3.tar.gz --markdown 20230621/f/fluidCube/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 08:58:37] WARNING root fetch - processPackages [paddlepaddle-gpu]: Skipping package: exceeds size limit 452434513>=10485760
+[2023-06-21 08:58:37] INFO root fetch - main [MainThread]: End processing [paddlepaddle-gpu] error
+[2023-06-21 08:58:37] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-06-21 08:58:37] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.1.98.tar.gz tmp/wizata-dsapi-0.1.99.tar.gz --markdown 20230621/w/wizata-dsapi/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-21 08:58:38] INFO root fetch - processPackages [quanturf]: Downloading https://files.pythonhosted.org/packages/b9/d0/1e7b3b4ba17632a25818803df4b2a0031a4d567a5a830639c7e4f140c83f/quanturf-8.6.6.tar.gz
+[2023-06-21 08:58:38] INFO root fetch - processPackages [quanturf]: executing diffoscope
+[2023-06-21 08:58:38] INFO root fetch - processPackages [quanturf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quanturf-8.6.5.tar.gz tmp/quanturf-8.6.6.tar.gz --markdown 20230621/q/quanturf/8.6.5-8.6.6/diff.md --exclude *.pyd
+[2023-06-21 08:58:39] INFO root fetch - processPackages [fluidCube]: Remove: archive file [/home/abi/fetcher/tmp/fluidCube-0.1.2.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - processPackages [fluidCube]: Remove: archive file [/home/abi/fetcher/tmp/fluidCube-0.1.3.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - main [MainThread]: End processing [fluidCube]: success
+[2023-06-21 08:58:39] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.98.6.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.98.7.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2023-06-21 08:58:39] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.1.2.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - processPackages [whiffle-client]: Remove: archive file [/home/abi/fetcher/tmp/whiffle_client-0.1.3.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - main [MainThread]: End processing [whiffle-client]: success
+[2023-06-21 08:58:39] INFO root fetch - processPackages [quanturf]: Remove: archive file [/home/abi/fetcher/tmp/quanturf-8.6.5.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - processPackages [quanturf]: Remove: archive file [/home/abi/fetcher/tmp/quanturf-8.6.6.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - main [MainThread]: End processing [quanturf]: success
+[2023-06-21 08:58:39] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.98.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.1.99.tar.gz]
+[2023-06-21 08:58:39] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-06-21 08:58:39] INFO root fetch - main [MainThread]: Store serial: [18586245]
