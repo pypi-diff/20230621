@@ -16389,3 +16389,84 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 10:09:49] INFO root fetch - processPackages [qtl-xtp-api]: Remove: archive file [/home/abi/fetcher/tmp/qtl-xtp-api-2.2.35.1.tar.gz]
 [2023-06-21 10:09:49] INFO root fetch - main [MainThread]: End processing [qtl-xtp-api]: success
 [2023-06-21 10:09:49] INFO root fetch - main [MainThread]: Store serial: [18587024]
+[2023-06-21 10:14:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18587024]
+[2023-06-21 10:15:03] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ReprTraceback
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xrdPlanner
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: acconeer-exptool
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Alpha-Rabbit
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tailwiz
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opg-sirius-service
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hyko-sdk
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: triplex
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ecoscope
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nestedaccess
+[2023-06-21 10:15:03] INFO root fetch - processPackages [Alpha-Rabbit]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-21 10:15:03] INFO root fetch - processPackages [opg-sirius-service]: New version: [2.1.0] Old Version: [2.0.1]
+[2023-06-21 10:15:03] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/3d/1b/12a9cfb72d2e0b58b100277142228290fcfd17991e1696565c08384c0083/Alpha_Rabbit-1.3.8.tar.gz
+[2023-06-21 10:15:03] WARNING root fetch - processPackages [xrdPlanner]: Skipping, unable to determine old version
+[2023-06-21 10:15:03] INFO root fetch - main [MainThread]: End processing [xrdPlanner] error
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ReprTraceback]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-21 10:15:03] INFO root fetch - processPackages [ecoscope]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-21 10:15:03] INFO root fetch - processPackages [opg-sirius-service]: Downloading https://files.pythonhosted.org/packages/81/14/573bd46c4cc54feaea913ec6618fd4a95d023a8368586164c3977017b703/opg_sirius_service-2.0.1.tar.gz
+[2023-06-21 10:15:03] INFO root fetch - processPackages [triplex]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-06-21 10:15:03] INFO root fetch - processPackages [tailwiz]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 10:15:03] WARNING root fetch - processPackages [hyko-sdk]: Skipping, unable to determine old version
+[2023-06-21 10:15:03] INFO root fetch - processPackages [nestedaccess]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-21 10:15:03] INFO root fetch - processPackages [acconeer-exptool]: New version: [7.1.0] Old Version: [7.0.2]
+[2023-06-21 10:15:03] INFO root fetch - main [MainThread]: End processing [hyko-sdk] error
+[2023-06-21 10:15:04] INFO root fetch - processPackages [Alpha-Rabbit]: Downloading https://files.pythonhosted.org/packages/c7/30/20ab4f6fdabed9a21eca8d84e779696632671c7e0019129ab392d5e4bf62/Alpha_Rabbit-1.3.9.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [opg-sirius-service]: Downloading https://files.pythonhosted.org/packages/00/6f/8017dafec4cadecf324e5eb4c43c448133ed545fc5bda3188c9adf0ecab1/opg_sirius_service-2.1.0.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [triplex]: Downloading https://files.pythonhosted.org/packages/d6/4f/9e330d6b3245d820dc2366ce8d2a8f5d23850409d9dcd38f77a227411c59/triplex-0.0.11.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [ReprTraceback]: Downloading https://files.pythonhosted.org/packages/c1/05/8d70c37c9afe4e8d95de6207d09536d16933eab16c3f20b80103058cad16/ReprTraceback-1.0.2.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/90/a8/e6a4fdce284430ee1b54744c90e5160a2ebc303248e4e9564c3c2dd4962a/nestedaccess-1.0.0.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [Alpha-Rabbit]: executing diffoscope
+[2023-06-21 10:15:04] INFO root fetch - processPackages [Alpha-Rabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Alpha_Rabbit-1.3.8.tar.gz tmp/Alpha_Rabbit-1.3.9.tar.gz --markdown 20230621/A/Alpha-Rabbit/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-21 10:15:04] INFO root fetch - processPackages [tailwiz]: Downloading https://files.pythonhosted.org/packages/ac/dc/2e6a871453ee7c587644ad49b147c08bd2abc26e415cecda218d7e5bd52a/tailwiz-0.0.8.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [acconeer-exptool]: Downloading https://files.pythonhosted.org/packages/c4/d0/b075724e9f20cddddf0a5ced27b57e47321e44b97d4fd500e055fb071ec3/acconeer-exptool-7.0.2.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/30/63/82f9ed43f8278d208b4423d13bcd7d12b56e61dce916ed95fcf74c71955d/ecoscope-1.3.2.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [opg-sirius-service]: executing diffoscope
+[2023-06-21 10:15:04] INFO root fetch - processPackages [opg-sirius-service]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opg_sirius_service-2.0.1.tar.gz tmp/opg_sirius_service-2.1.0.tar.gz --markdown 20230621/o/opg-sirius-service/2.0.1-2.1.0/diff.md --exclude *.pyd
+[2023-06-21 10:15:04] INFO root fetch - processPackages [triplex]: Downloading https://files.pythonhosted.org/packages/34/bb/4218796df2f07d8256fd34bcf0a27e3d2adf3d8d0d159ba46b6ad14bdded/triplex-0.0.12.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [ReprTraceback]: Downloading https://files.pythonhosted.org/packages/5d/ce/b070a1cc53ec91ecbf89c8139f6d3c35b0913fad8651435cc5314f2dda6b/ReprTraceback-1.0.3.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [ecoscope]: Downloading https://files.pythonhosted.org/packages/73/63/2ff6364e9671e684284d9b5dfceb4a093051e71173b3de20e56d9358dc63/ecoscope-1.3.3.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [acconeer-exptool]: Downloading https://files.pythonhosted.org/packages/92/29/074c3d2dd2197a7d9d3fb5d9d1be60d6336f5cf41b15af726aedcc172f9a/acconeer-exptool-7.1.0.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [nestedaccess]: Downloading https://files.pythonhosted.org/packages/e5/85/257a242025ed220f8ab30afb342f6cfb4cca87f19c7babab2acbbf0743ca/nestedaccess-1.1.0.tar.gz
+[2023-06-21 10:15:04] INFO root fetch - processPackages [triplex]: executing diffoscope
+[2023-06-21 10:15:04] INFO root fetch - processPackages [triplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triplex-0.0.11.tar.gz tmp/triplex-0.0.12.tar.gz --markdown 20230621/t/triplex/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-06-21 10:15:04] INFO root fetch - processPackages [ReprTraceback]: executing diffoscope
+[2023-06-21 10:15:04] INFO root fetch - processPackages [ReprTraceback]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ReprTraceback-1.0.2.tar.gz tmp/ReprTraceback-1.0.3.tar.gz --markdown 20230621/R/ReprTraceback/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-06-21 10:15:04] INFO root fetch - processPackages [ecoscope]: executing diffoscope
+[2023-06-21 10:15:04] INFO root fetch - processPackages [ecoscope]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecoscope-1.3.2.tar.gz tmp/ecoscope-1.3.3.tar.gz --markdown 20230621/e/ecoscope/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-21 10:15:04] INFO root fetch - processPackages [nestedaccess]: executing diffoscope
+[2023-06-21 10:15:04] INFO root fetch - processPackages [nestedaccess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nestedaccess-1.0.0.tar.gz tmp/nestedaccess-1.1.0.tar.gz --markdown 20230621/n/nestedaccess/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 10:15:05] INFO root fetch - processPackages [acconeer-exptool]: executing diffoscope
+[2023-06-21 10:15:05] INFO root fetch - processPackages [acconeer-exptool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/acconeer-exptool-7.0.2.tar.gz tmp/acconeer-exptool-7.1.0.tar.gz --markdown 20230621/a/acconeer-exptool/7.0.2-7.1.0/diff.md --exclude *.pyd
+[2023-06-21 10:15:05] INFO root fetch - processPackages [tailwiz]: Downloading https://files.pythonhosted.org/packages/06/dd/d25827e45a9c717878ed3f28d86154b413b944f7467ca259e67975b6210b/tailwiz-0.0.9.tar.gz
+[2023-06-21 10:15:05] INFO root fetch - processPackages [tailwiz]: executing diffoscope
+[2023-06-21 10:15:05] INFO root fetch - processPackages [tailwiz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tailwiz-0.0.8.tar.gz tmp/tailwiz-0.0.9.tar.gz --markdown 20230621/t/tailwiz/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 10:15:05] INFO root fetch - processPackages [opg-sirius-service]: Remove: archive file [/home/abi/fetcher/tmp/opg_sirius_service-2.0.1.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - processPackages [opg-sirius-service]: Remove: archive file [/home/abi/fetcher/tmp/opg_sirius_service-2.1.0.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - main [MainThread]: End processing [opg-sirius-service]: success
+[2023-06-21 10:15:05] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.8.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - processPackages [Alpha-Rabbit]: Remove: archive file [/home/abi/fetcher/tmp/Alpha_Rabbit-1.3.9.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - main [MainThread]: End processing [Alpha-Rabbit]: success
+[2023-06-21 10:15:05] INFO root fetch - processPackages [triplex]: Remove: archive file [/home/abi/fetcher/tmp/triplex-0.0.11.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - processPackages [triplex]: Remove: archive file [/home/abi/fetcher/tmp/triplex-0.0.12.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - main [MainThread]: End processing [triplex]: success
+[2023-06-21 10:15:05] INFO root fetch - processPackages [ReprTraceback]: Remove: archive file [/home/abi/fetcher/tmp/ReprTraceback-1.0.2.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - processPackages [ReprTraceback]: Remove: archive file [/home/abi/fetcher/tmp/ReprTraceback-1.0.3.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - main [MainThread]: End processing [ReprTraceback]: success
+[2023-06-21 10:15:05] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-1.0.0.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - processPackages [nestedaccess]: Remove: archive file [/home/abi/fetcher/tmp/nestedaccess-1.1.0.tar.gz]
+[2023-06-21 10:15:05] INFO root fetch - main [MainThread]: End processing [nestedaccess]: success
+[2023-06-21 10:15:06] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.3.2.tar.gz]
+[2023-06-21 10:15:06] INFO root fetch - processPackages [ecoscope]: Remove: archive file [/home/abi/fetcher/tmp/ecoscope-1.3.3.tar.gz]
+[2023-06-21 10:15:06] INFO root fetch - main [MainThread]: End processing [ecoscope]: success
+[2023-06-21 10:15:06] INFO root fetch - processPackages [tailwiz]: Remove: archive file [/home/abi/fetcher/tmp/tailwiz-0.0.8.tar.gz]
+[2023-06-21 10:15:06] INFO root fetch - processPackages [tailwiz]: Remove: archive file [/home/abi/fetcher/tmp/tailwiz-0.0.9.tar.gz]
+[2023-06-21 10:15:06] INFO root fetch - main [MainThread]: End processing [tailwiz]: success
+[2023-06-21 10:15:10] INFO root fetch - processPackages [acconeer-exptool]: Remove: archive file [/home/abi/fetcher/tmp/acconeer-exptool-7.0.2.tar.gz]
+[2023-06-21 10:15:10] INFO root fetch - processPackages [acconeer-exptool]: Remove: archive file [/home/abi/fetcher/tmp/acconeer-exptool-7.1.0.tar.gz]
+[2023-06-21 10:15:10] INFO root fetch - main [MainThread]: End processing [acconeer-exptool]: success
+[2023-06-21 10:15:10] INFO root fetch - main [MainThread]: Store serial: [18587075]
