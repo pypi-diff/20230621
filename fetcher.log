@@ -19062,3 +19062,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 11:09:17] INFO root fetch - processPackages [huaweicloudsdkroma]: Remove: archive file [/home/abi/fetcher/tmp/huaweicloudsdkroma-3.1.9-py2.py3-none-any.whl.zip]
 [2023-06-21 11:09:17] INFO root fetch - main [MainThread]: End processing [huaweicloudsdkroma]: success
 [2023-06-21 11:09:17] INFO root fetch - main [MainThread]: Store serial: [18588003]
+[2023-06-21 11:14:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588003]
+[2023-06-21 11:14:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: checkov
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ats-case
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: otpme
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aheadworks-deploy-manager
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: blackboardsync
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: st-ant-menu
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: triplex
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: SpatialCluster
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ogms
+[2023-06-21 11:14:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clld-morphology-plugin
+[2023-06-21 11:14:27] INFO root fetch - processPackages [checkov]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [triplex]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ats-case]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [st-ant-menu]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [clld-morphology-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [blackboardsync]: New version: [0.9.0a1] Old Version: [0.8.5rc4]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ogms]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [SpatialCluster]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-21 11:14:28] INFO root fetch - processPackages [triplex]: Downloading https://files.pythonhosted.org/packages/39/7f/119904cea8053d0de97529e0aaaeafb2fdb9ad2ce869147ceed7e1caa851/triplex-0.0.13.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/4a/ff/ff4773cb87c54d1e388a2b8447ac801f2517087b479e753bd9fd17ac31ac/ats_case-0.9.5.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [clld-morphology-plugin]: Downloading https://files.pythonhosted.org/packages/b4/7a/afe5d920ad1e82ee9f740ded669a7bc165471783ca58645adadecea5acf3/clld_morphology_plugin-0.0.8.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/a8/12/71f81e88013c286d993248a3e8753667bc491c5fb22fa884278b068c5303/aheadworks_deploy_manager-1.4.8.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/00/5e/3df1dc090c5df6e89406368e969852a9521de210ab6049a9cd41d3d29d91/st_ant_menu-0.0.8-py3-none-any.whl
+[2023-06-21 11:14:28] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/23/2b/1b4b6bdbafe594ea1c7b4d6807d120d7a05332f917db4a0c6b1e7e50e462/blackboardsync-0.8.5rc4.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ogms]: Downloading https://files.pythonhosted.org/packages/59/f4/dea80456c62cf64662e0d983b60e5f06126d3f943af9065cd281887a302d/ogms-0.1.1.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/98/1d/f05f73ea1e959973ab56f0abb892009528faf4a7f0da031af39371307de8/otpme-0.3.0a8.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/d9/d7/a51c7bdf1e3bb01f187eb04b6f229c6cb047c3139e20ee8d06cb1de548c1/SpatialCluster-0.0.8.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [checkov]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [checkov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkov-2.3.98.tar.gz tmp/checkov-2.3.99.tar.gz --markdown 20230621/c/checkov/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-21 11:14:28] INFO root fetch - processPackages [clld-morphology-plugin]: Downloading https://files.pythonhosted.org/packages/75/84/3613bf0f3a6fa87db3ab57a84992775111c0fe0fa84fcbec87aa66af80eb/clld_morphology_plugin-0.0.9.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ats-case]: Downloading https://files.pythonhosted.org/packages/f5/54/4bd2bee070aab8e993a26056e3e3097b2b6df38366f1b9349cbe11326986/ats_case-0.9.6.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [triplex]: Downloading https://files.pythonhosted.org/packages/17/6f/2da880d4e6b71a93638c401b8f875f29908052e81f6c11f60d65685ed8c6/triplex-0.0.14.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/b8/01/5da57b9f1dbd79a13b113866cf9afb24012c894a5971947bf7d29ae2ad18/aheadworks_deploy_manager-1.4.9.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [SpatialCluster]: Downloading https://files.pythonhosted.org/packages/9a/12/7d550441bb0b8a09aa8b4ed03f2557ac00593b9de40598dc0797cdacced9/SpatialCluster-0.0.9.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [blackboardsync]: Downloading https://files.pythonhosted.org/packages/30/ce/4e5a24ab32927f90c799411a2d5acff1a01ffb24cfbf2957d8afd0cbf2c3/blackboardsync-0.9.0a1.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230621/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-21 11:14:28] INFO root fetch - processPackages [otpme]: Downloading https://files.pythonhosted.org/packages/ec/d4/c2021c5284dad482e118317f65e7a59ea168655179a76dfae7cc25e67961/otpme-0.3.0a9.tar.gz
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ogms]: Downloading https://files.pythonhosted.org/packages/f0/96/b7c7c56ad1a912b253bb9525abc3cda906be7499d15f4728574a0f6ede2a/ogms-0.1.2-py3.7.egg
+[2023-06-21 11:14:28] INFO root fetch - processPackages [clld-morphology-plugin]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [clld-morphology-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clld_morphology_plugin-0.0.8.tar.gz tmp/clld_morphology_plugin-0.0.9.tar.gz --markdown 20230621/c/clld-morphology-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ats-case]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [SpatialCluster]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [SpatialCluster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SpatialCluster-0.0.8.tar.gz tmp/SpatialCluster-0.0.9.tar.gz --markdown 20230621/S/SpatialCluster/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ats-case]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ats_case-0.9.5.tar.gz tmp/ats_case-0.9.6.tar.gz --markdown 20230621/a/ats-case/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-21 11:14:28] INFO root fetch - processPackages [triplex]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [triplex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/triplex-0.0.13.tar.gz tmp/triplex-0.0.14.tar.gz --markdown 20230621/t/triplex/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-06-21 11:14:28] INFO root fetch - processPackages [blackboardsync]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [blackboardsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboardsync-0.8.5rc4.tar.gz tmp/blackboardsync-0.9.0a1.tar.gz --markdown 20230621/b/blackboardsync/0.8.5rc4-0.9.0a1/diff.md --exclude *.pyd
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ogms]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [ogms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ogms-0.1.1.tar.gz tmp/ogms-0.1.2-py3.7.egg --markdown 20230621/o/ogms/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 11:14:28] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-21 11:14:28] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230621/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-21 11:14:29] INFO root fetch - processPackages [st-ant-menu]: Downloading https://files.pythonhosted.org/packages/8d/b8/05b9140865f38d5b42db920bf8ece71bdc9acfc0d6b4b3a6367b72e3c541/st_ant_menu-0.0.9-py3-none-any.whl
+[2023-06-21 11:14:29] INFO root fetch - processPackages [st-ant-menu]: executing diffoscope
+[2023-06-21 11:14:29] INFO root fetch - processPackages [st-ant-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip --markdown 20230621/s/st-ant-menu/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:14:30] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.8.tar.gz]
+[2023-06-21 11:14:30] INFO root fetch - processPackages [SpatialCluster]: Remove: archive file [/home/abi/fetcher/tmp/SpatialCluster-0.0.9.tar.gz]
+[2023-06-21 11:14:30] INFO root fetch - processPackages [SpatialCluster]: Start processing: pyexplorers
+[2023-06-21 11:14:30] INFO root fetch - main [MainThread]: End processing [SpatialCluster]: success
+[2023-06-21 11:14:30] WARNING root fetch - processPackages [pyexplorers]: Skipping, unable to determine old version
+[2023-06-21 11:14:30] INFO root fetch - processPackages [pyexplorers]: Start processing: otpme
+[2023-06-21 11:14:30] INFO root fetch - main [MainThread]: End processing [pyexplorers] error
+[2023-06-21 11:14:30] INFO root fetch - processPackages [otpme]: New version: [0.3.0a9] Old Version: [0.3.0a8]
+[2023-06-21 11:14:30] INFO root fetch - processPackages [otpme]: executing diffoscope
+[2023-06-21 11:14:30] INFO root fetch - processPackages [otpme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otpme-0.3.0a8.tar.gz tmp/otpme-0.3.0a9.tar.gz --markdown 20230621/o/otpme/0.3.0a8-0.3.0a9/diff.md --exclude *.pyd
+[2023-06-21 11:14:30] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.5.tar.gz]
+[2023-06-21 11:14:30] INFO root fetch - processPackages [ats-case]: Remove: archive file [/home/abi/fetcher/tmp/ats_case-0.9.6.tar.gz]
+[2023-06-21 11:14:30] INFO root fetch - processPackages [ats-case]: Start processing: pluggy
+[2023-06-21 11:14:30] INFO root fetch - main [MainThread]: End processing [ats-case]: success
+[2023-06-21 11:14:30] INFO root fetch - processPackages [pluggy]: New version: [1.1.0] Old Version: [1.0.0.dev0]
+[2023-06-21 11:14:30] INFO root fetch - processPackages [pluggy]: Downloading https://files.pythonhosted.org/packages/84/e4/1e31efbf4df237973eda266978713611299efd585fd72b7edc1513e5f208/pluggy-1.0.0.dev0.tar.gz
+[2023-06-21 11:14:30] INFO root fetch - processPackages [pluggy]: Downloading https://files.pythonhosted.org/packages/02/aa/218b70027ff08035df09ac7ea7f230437a5bde09a4b76a1d72a60bf353ff/pluggy-1.1.0.tar.gz
+[2023-06-21 11:14:30] INFO root fetch - processPackages [triplex]: Remove: archive file [/home/abi/fetcher/tmp/triplex-0.0.13.tar.gz]
+[2023-06-21 11:14:30] INFO root fetch - processPackages [triplex]: Remove: archive file [/home/abi/fetcher/tmp/triplex-0.0.14.tar.gz]
+[2023-06-21 11:14:30] INFO root fetch - processPackages [triplex]: Start processing: Auto-Vermietung
+[2023-06-21 11:14:30] INFO root fetch - main [MainThread]: End processing [triplex]: success
+[2023-06-21 11:14:31] INFO root fetch - processPackages [ogms]: Remove: archive file [/home/abi/fetcher/tmp/ogms-0.1.1.tar.gz]
+[2023-06-21 11:14:31] INFO root fetch - processPackages [ogms]: Remove: archive file [/home/abi/fetcher/tmp/ogms-0.1.2-py3.7.egg]
+[2023-06-21 11:14:31] INFO root fetch - processPackages [ogms]: Start processing: ariadne
+[2023-06-21 11:14:31] INFO root fetch - main [MainThread]: End processing [ogms]: success
+[2023-06-21 11:14:31] INFO root fetch - processPackages [pluggy]: executing diffoscope
+[2023-06-21 11:14:31] INFO root fetch - processPackages [pluggy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pluggy-1.0.0.dev0.tar.gz tmp/pluggy-1.1.0.tar.gz --markdown 20230621/p/pluggy/1.0.0.dev0-1.1.0/diff.md --exclude *.pyd
+[2023-06-21 11:14:31] WARNING root fetch - processPackages [Auto-Vermietung]: Skipping, unable to determine old version
+[2023-06-21 11:14:31] INFO root fetch - processPackages [Auto-Vermietung]: Start processing: clld-corpus-plugin
+[2023-06-21 11:14:31] INFO root fetch - main [MainThread]: End processing [Auto-Vermietung] error
+[2023-06-21 11:14:31] INFO root fetch - processPackages [ariadne]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-21 11:14:31] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.8.tar.gz]
+[2023-06-21 11:14:31] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.9.tar.gz]
+[2023-06-21 11:14:31] INFO root fetch - processPackages [aheadworks-deploy-manager]: Start processing: nifpga-fast-fifo-recv
+[2023-06-21 11:14:31] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-21 11:14:31] INFO root fetch - processPackages [clld-corpus-plugin]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-21 11:14:31] INFO root fetch - processPackages [clld-morphology-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld_morphology_plugin-0.0.8.tar.gz]
+[2023-06-21 11:14:31] INFO root fetch - processPackages [clld-morphology-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld_morphology_plugin-0.0.9.tar.gz]
+[2023-06-21 11:14:31] INFO root fetch - main [MainThread]: End processing [clld-morphology-plugin]: success
+[2023-06-21 11:14:31] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-21 11:14:31] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/7f/15/6ee9b2a0748fcd72d9c3bf879e6b110ddaa84a5ba81a5ccd3e521b7d323e/nifpga_fast_fifo_recv-0.1.1-cp39-none-win_amd64.whl
+[2023-06-21 11:14:31] INFO root fetch - processPackages [ariadne]: Downloading https://files.pythonhosted.org/packages/7f/be/e8866956a430666d672286c0614b3074c858fa9a69165d9fce8e63c508a8/ariadne-0.8.0.tar.gz
+[2023-06-21 11:14:31] INFO root fetch - processPackages [clld-corpus-plugin]: Downloading https://files.pythonhosted.org/packages/cf/d0/92b5779fb9cee5682f5a3b2946cd7162514450790464e6f431d65ec2b8b7/clld_corpus_plugin-0.0.7.tar.gz
+[2023-06-21 11:14:31] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Downloading https://files.pythonhosted.org/packages/73/0a/c748ecdf2e0e631d9afc350a97c3c5c90de4956a3880e5d7ce6c18658aed/nifpga_fast_fifo_recv-0.1.2-cp39-none-win_amd64.whl
+[2023-06-21 11:14:31] INFO root fetch - processPackages [clld-corpus-plugin]: Downloading https://files.pythonhosted.org/packages/cf/45/451c71985b4cb5a81cd9de39563e5dce539fab584d8d0437cb2e9b146d09/clld_corpus_plugin-0.0.8.tar.gz
+[2023-06-21 11:14:31] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: executing diffoscope
+[2023-06-21 11:14:31] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nifpga_fast_fifo_recv-0.1.1-cp39-none-win_amd64.whl.zip tmp/nifpga_fast_fifo_recv-0.1.2-cp39-none-win_amd64.whl.zip --markdown 20230621/n/nifpga-fast-fifo-recv/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 11:14:31] INFO root fetch - processPackages [clld-corpus-plugin]: executing diffoscope
+[2023-06-21 11:14:31] INFO root fetch - processPackages [clld-corpus-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clld_corpus_plugin-0.0.7.tar.gz tmp/clld_corpus_plugin-0.0.8.tar.gz --markdown 20230621/c/clld-corpus-plugin/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-21 11:14:32] INFO root fetch - processPackages [ariadne]: Downloading https://files.pythonhosted.org/packages/7f/ab/e1b62a01c75eec6f772136062e3ad47badbf143f50e461a9f2e323808d31/ariadne-0.9.0.tar.gz
+[2023-06-21 11:14:32] INFO root fetch - processPackages [ariadne]: executing diffoscope
+[2023-06-21 11:14:32] INFO root fetch - processPackages [ariadne]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariadne-0.8.0.tar.gz tmp/ariadne-0.9.0.tar.gz --markdown 20230621/a/ariadne/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 11:14:32] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.8.5rc4.tar.gz]
+[2023-06-21 11:14:32] INFO root fetch - processPackages [blackboardsync]: Remove: archive file [/home/abi/fetcher/tmp/blackboardsync-0.9.0a1.tar.gz]
+[2023-06-21 11:14:32] INFO root fetch - main [MainThread]: End processing [blackboardsync]: success
+[2023-06-21 11:14:32] INFO root fetch - processPackages [pluggy]: Remove: archive file [/home/abi/fetcher/tmp/pluggy-1.0.0.dev0.tar.gz]
+[2023-06-21 11:14:32] INFO root fetch - processPackages [pluggy]: Remove: archive file [/home/abi/fetcher/tmp/pluggy-1.1.0.tar.gz]
+[2023-06-21 11:14:32] INFO root fetch - main [MainThread]: End processing [pluggy]: success
+[2023-06-21 11:14:33] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.1.1-cp39-none-win_amd64.whl.zip]
+[2023-06-21 11:14:33] INFO root fetch - processPackages [nifpga-fast-fifo-recv]: Remove: archive file [/home/abi/fetcher/tmp/nifpga_fast_fifo_recv-0.1.2-cp39-none-win_amd64.whl.zip]
+[2023-06-21 11:14:33] INFO root fetch - main [MainThread]: End processing [nifpga-fast-fifo-recv]: success
+[2023-06-21 11:14:33] INFO root fetch - processPackages [ariadne]: Remove: archive file [/home/abi/fetcher/tmp/ariadne-0.8.0.tar.gz]
+[2023-06-21 11:14:33] INFO root fetch - processPackages [ariadne]: Remove: archive file [/home/abi/fetcher/tmp/ariadne-0.9.0.tar.gz]
+[2023-06-21 11:14:33] INFO root fetch - main [MainThread]: End processing [ariadne]: success
+[2023-06-21 11:14:33] INFO root fetch - processPackages [clld-corpus-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld_corpus_plugin-0.0.7.tar.gz]
+[2023-06-21 11:14:33] INFO root fetch - processPackages [clld-corpus-plugin]: Remove: archive file [/home/abi/fetcher/tmp/clld_corpus_plugin-0.0.8.tar.gz]
+[2023-06-21 11:14:33] INFO root fetch - main [MainThread]: End processing [clld-corpus-plugin]: success
+[2023-06-21 11:14:34] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a8.tar.gz]
+[2023-06-21 11:14:34] INFO root fetch - processPackages [otpme]: Remove: archive file [/home/abi/fetcher/tmp/otpme-0.3.0a9.tar.gz]
+[2023-06-21 11:14:34] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-21 11:14:37] INFO root fetch - main [MainThread]: End processing [otpme]: success
+[2023-06-21 11:15:10] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.98.tar.gz]
+[2023-06-21 11:15:10] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
+[2023-06-21 11:15:10] INFO root fetch - main [MainThread]: End processing [checkov]: success
+[2023-06-21 11:15:39] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.8-py3-none-any.whl.zip]
+[2023-06-21 11:15:39] INFO root fetch - processPackages [st-ant-menu]: Remove: archive file [/home/abi/fetcher/tmp/st_ant_menu-0.0.9-py3-none-any.whl.zip]
+[2023-06-21 11:15:39] INFO root fetch - main [MainThread]: End processing [st-ant-menu]: success
+[2023-06-21 11:15:39] INFO root fetch - main [MainThread]: Store serial: [18588053]
