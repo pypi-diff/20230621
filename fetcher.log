@@ -13472,3 +13472,60 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 07:32:38] INFO root fetch - processPackages [odoo-addons-oca-stock-logistics-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_stock_logistics_workflow-16.0.20230619.0-py3-none-any.whl.zip]
 [2023-06-21 07:32:38] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-stock-logistics-workflow]: success
 [2023-06-21 07:32:38] INFO root fetch - main [MainThread]: Store serial: [18585702]
+[2023-06-21 07:37:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585702]
+[2023-06-21 07:37:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-21 07:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reliableGPT
+[2023-06-21 07:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo13-addon-survey-crm-generation
+[2023-06-21 07:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo13-addon-survey-sale-generation
+[2023-06-21 07:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jiggybase
+[2023-06-21 07:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lm-datahandler
+[2023-06-21 07:37:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: inhandtest
+[2023-06-21 07:37:49] INFO root fetch - processPackages [jiggybase]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-21 07:37:49] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 07:37:49] INFO root fetch - processPackages [odoo13-addon-survey-crm-generation]: New version: [13.0.1.0.1.dev4] Old Version: [13.0.1.0.1.dev2]
+[2023-06-21 07:37:49] INFO root fetch - processPackages [reliableGPT]: New version: [0.2.5] Old Version: [0.2.2]
+[2023-06-21 07:37:49] INFO root fetch - processPackages [odoo13-addon-survey-sale-generation]: New version: [13.0.1.1.1.dev2] Old Version: [13.0.1.1.0]
+[2023-06-21 07:37:49] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-06-21 07:37:49] INFO root fetch - processPackages [inhandtest]: New version: [0.0.57] Old Version: [0.0.56]
+[2023-06-21 07:37:49] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/88/64/a293cfb73f79bfa290d500eeee9cd76196b3100de87e119cd084280db2d6/jiggybase-0.1.0.tar.gz
+[2023-06-21 07:37:49] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/d5/45/22b67ed29e37a10c64c6918717f2f6b6cc7dbaea61a6b7a828814955ed5b/reliableGPT-0.2.2.tar.gz
+[2023-06-21 07:37:49] INFO root fetch - processPackages [odoo13-addon-survey-sale-generation]: Downloading https://files.pythonhosted.org/packages/f3/f9/9b54a697143d30a35d53178d58ed6b32eda2e14ca2162c6892bcb139b7b5/odoo13_addon_survey_sale_generation-13.0.1.1.0-py3-none-any.whl
+[2023-06-21 07:37:49] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-06-21 07:37:49] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/18/f9/badbe6cf5dbcf2b32193d31d0fe242bc4bd08810a36ae1a98c0c627ba782/inhandtest-0.0.56.tar.gz
+[2023-06-21 07:37:49] INFO root fetch - processPackages [odoo13-addon-survey-crm-generation]: Downloading https://files.pythonhosted.org/packages/9d/29/ad8c37f98b753659680a364f1fbebb892123ef78a651b31d4a3d3fae022b/odoo13_addon_survey_crm_generation-13.0.1.0.1.dev2-py3-none-any.whl
+[2023-06-21 07:37:49] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-21 07:37:49] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230621/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 07:37:50] INFO root fetch - processPackages [reliableGPT]: Downloading https://files.pythonhosted.org/packages/ee/55/d71367d5ed9bb6c8d0d1ed4355159f3f08b8ffec8e60bc1efc351868d00a/reliableGPT-0.2.5.tar.gz
+[2023-06-21 07:37:50] INFO root fetch - processPackages [jiggybase]: Downloading https://files.pythonhosted.org/packages/32/c7/cae8866cca2bc5f631e1a062f6d31bd5efab9ef9c6a5ebd796c351a8a8ba/jiggybase-0.1.2.tar.gz
+[2023-06-21 07:37:50] INFO root fetch - processPackages [odoo13-addon-survey-sale-generation]: Downloading https://files.pythonhosted.org/packages/c0/5d/4f5ed4199b06674348e9aeea34a06cf5c72c1627c6282de840741cb2b343/odoo13_addon_survey_sale_generation-13.0.1.1.1.dev2-py3-none-any.whl
+[2023-06-21 07:37:50] INFO root fetch - processPackages [reliableGPT]: executing diffoscope
+[2023-06-21 07:37:50] INFO root fetch - processPackages [reliableGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reliableGPT-0.2.2.tar.gz tmp/reliableGPT-0.2.5.tar.gz --markdown 20230621/r/reliableGPT/0.2.2-0.2.5/diff.md --exclude *.pyd
+[2023-06-21 07:37:50] INFO root fetch - processPackages [jiggybase]: executing diffoscope
+[2023-06-21 07:37:50] INFO root fetch - processPackages [jiggybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jiggybase-0.1.0.tar.gz tmp/jiggybase-0.1.2.tar.gz --markdown 20230621/j/jiggybase/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 07:37:50] INFO root fetch - processPackages [odoo13-addon-survey-sale-generation]: executing diffoscope
+[2023-06-21 07:37:50] INFO root fetch - processPackages [odoo13-addon-survey-sale-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_survey_sale_generation-13.0.1.1.0-py3-none-any.whl.zip tmp/odoo13_addon_survey_sale_generation-13.0.1.1.1.dev2-py3-none-any.whl.zip --markdown 20230621/o/odoo13-addon-survey-sale-generation/13.0.1.1.0-13.0.1.1.1.dev2/diff.md --exclude *.pyd
+[2023-06-21 07:37:50] INFO root fetch - processPackages [odoo13-addon-survey-crm-generation]: Downloading https://files.pythonhosted.org/packages/7a/8b/55bfebff64f48d9719bc743a161ace01cf739a46dd32d7d60a0dad634c0f/odoo13_addon_survey_crm_generation-13.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-21 07:37:50] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/0a/e5/17346dc58b118dc3ab599167009d4dad6d5f13ceae8d802df652d6feb1e8/inhandtest-0.0.57.tar.gz
+[2023-06-21 07:37:50] INFO root fetch - processPackages [odoo13-addon-survey-crm-generation]: executing diffoscope
+[2023-06-21 07:37:50] INFO root fetch - processPackages [odoo13-addon-survey-crm-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo13_addon_survey_crm_generation-13.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo13_addon_survey_crm_generation-13.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230621/o/odoo13-addon-survey-crm-generation/13.0.1.0.1.dev2-13.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-06-21 07:37:50] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-06-21 07:37:50] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.56.tar.gz tmp/inhandtest-0.0.57.tar.gz --markdown 20230621/i/inhandtest/0.0.56-0.0.57/diff.md --exclude *.pyd
+[2023-06-21 07:37:51] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-06-21 07:37:51] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-06-21 07:37:51] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-21 07:37:51] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.2.tar.gz]
+[2023-06-21 07:37:51] INFO root fetch - processPackages [reliableGPT]: Remove: archive file [/home/abi/fetcher/tmp/reliableGPT-0.2.5.tar.gz]
+[2023-06-21 07:37:51] INFO root fetch - main [MainThread]: End processing [reliableGPT]: success
+[2023-06-21 07:37:51] INFO root fetch - processPackages [odoo13-addon-survey-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_survey_sale_generation-13.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-21 07:37:51] INFO root fetch - processPackages [odoo13-addon-survey-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_survey_sale_generation-13.0.1.1.1.dev2-py3-none-any.whl.zip]
+[2023-06-21 07:37:51] INFO root fetch - main [MainThread]: End processing [odoo13-addon-survey-sale-generation]: success
+[2023-06-21 07:37:51] INFO root fetch - processPackages [jiggybase]: Remove: archive file [/home/abi/fetcher/tmp/jiggybase-0.1.0.tar.gz]
+[2023-06-21 07:37:51] INFO root fetch - processPackages [jiggybase]: Remove: archive file [/home/abi/fetcher/tmp/jiggybase-0.1.2.tar.gz]
+[2023-06-21 07:37:51] INFO root fetch - main [MainThread]: End processing [jiggybase]: success
+[2023-06-21 07:37:51] INFO root fetch - processPackages [odoo13-addon-survey-crm-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_survey_crm_generation-13.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-06-21 07:37:51] INFO root fetch - processPackages [odoo13-addon-survey-crm-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo13_addon_survey_crm_generation-13.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-21 07:37:51] INFO root fetch - main [MainThread]: End processing [odoo13-addon-survey-crm-generation]: success
+[2023-06-21 07:37:51] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.56.tar.gz]
+[2023-06-21 07:37:51] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.57.tar.gz]
+[2023-06-21 07:37:51] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-06-21 07:37:51] INFO root fetch - main [MainThread]: Store serial: [18585717]
