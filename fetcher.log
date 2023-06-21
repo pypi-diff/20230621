@@ -19747,3 +19747,122 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 11:42:22] INFO root fetch - processPackages [junifer]: Remove: archive file [/home/abi/fetcher/tmp/junifer-0.0.3.dev75.tar.gz]
 [2023-06-21 11:42:22] INFO root fetch - main [MainThread]: End processing [junifer]: success
 [2023-06-21 11:42:22] INFO root fetch - main [MainThread]: Store serial: [18588309]
+[2023-06-21 11:47:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588309]
+[2023-06-21 11:47:32] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: coconut-develop
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: quartic-sdk
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Marl-Factory-Grid
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mec-jun2023
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bk-iam
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: HawaData
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qps-limit
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: space-stream
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: censoredsummarystats
+[2023-06-21 11:47:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cloudi
+[2023-06-21 11:47:32] INFO root fetch - processPackages [coconut-develop]: New version: [3.0.2.post0.dev9] Old Version: [3.0.2.post0.dev8]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [Marl-Factory-Grid]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [qps-limit]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [censoredsummarystats]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [Marl-Factory-Grid]: Downloading https://files.pythonhosted.org/packages/98/a6/7302cbfd9e31776a51efdc11975f013ee32735dfb84a7ff26dd64e53632d/Marl-Factory-Grid-0.0.8.tar.gz
+[2023-06-21 11:47:32] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/76/ba/83f4a7e45967086c125a6525e086526f469362e3a1327a44f8df15d67400/coconut-develop-3.0.2.post0.dev8.tar.gz
+[2023-06-21 11:47:32] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/d3/a4/4dc6b16ab0634df557f9f12880673a2304e4017ab85d186e36ee1b140d40/censoredsummarystats-0.2.0.tar.gz
+[2023-06-21 11:47:32] WARNING root fetch - processPackages [mec-jun2023]: Skipping, unable to determine old version
+[2023-06-21 11:47:32] INFO root fetch - processPackages [mec-jun2023]: Start processing: apache-tvm
+[2023-06-21 11:47:32] INFO root fetch - main [MainThread]: End processing [mec-jun2023] error
+[2023-06-21 11:47:32] INFO root fetch - processPackages [cloudi]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [bk-iam]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [space-stream]: New version: [0.1.6.1] Old Version: [0.1.6]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [quartic-sdk]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [HawaData]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-21 11:47:32] INFO root fetch - processPackages [apache-tvm]: New version: [0.9.0] Old Version: [0.13.dev74]
+[2023-06-21 11:47:33] INFO root fetch - processPackages [apache-tvm]: Downloading https://files.pythonhosted.org/packages/57/7a/0e255cdf4cdfcca6b5e06c1ebe9b4c9178b3919cfeb0251f35b0977d59c3/apache_tvm-0.13.dev74-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 11:47:33] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/e8/a8/8ba4747764a348aab711667542e45f4cf96d72d8d1d501df79562b1442ee/qps_limit-0.1.0-py3-none-any.whl
+[2023-06-21 11:47:33] INFO root fetch - processPackages [coconut-develop]: Downloading https://files.pythonhosted.org/packages/d7/8d/949a59bb813ee853bbb1d03d15a3f5a3de89562602ada8e1a9cca581a8d5/coconut-develop-3.0.2.post0.dev9.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [coconut-develop]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [coconut-develop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coconut-develop-3.0.2.post0.dev8.tar.gz tmp/coconut-develop-3.0.2.post0.dev9.tar.gz --markdown 20230621/c/coconut-develop/3.0.2.post0.dev8-3.0.2.post0.dev9/diff.md --exclude *.pyd
+[2023-06-21 11:47:33] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/41/bc/55d6cfaf82b1aa6c2d0e2300a5df347eb57a166f818c8cdd14ef0c79ad75/bk-iam-1.3.2.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [space-stream]: Downloading https://files.pythonhosted.org/packages/fc/73/2c1de4cb763dc92a3301ed0de50f32734751c061813afe9097a5936b3b06/space_stream-0.1.6-py3-none-any.whl
+[2023-06-21 11:47:33] INFO root fetch - processPackages [quartic-sdk]: Downloading https://files.pythonhosted.org/packages/e1/84/0897828c4f90e1b59f0f40235112332cf3a62bca16d7424e04dcd1d08a20/quartic-sdk-2.8.0.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [censoredsummarystats]: Downloading https://files.pythonhosted.org/packages/ae/1a/25888485a520a91bb1670a6e9afbda0b1187817db0f47e74747798ce27d7/censoredsummarystats-0.2.1.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [cloudi]: Downloading https://files.pythonhosted.org/packages/45/0f/14f7da50308670593ad0c30d322542cd2b81120d37bfcd39b544cb6f5846/cloudi-2.0.5.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/38/e6/e606f614d590fe003ffff3b18ffa74ce74f8cc4be5019e94552c6d94ea12/HawaData-0.7.0.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [Marl-Factory-Grid]: Downloading https://files.pythonhosted.org/packages/a1/fc/b6b99214a7de4fe45ee2d26b6113a7e71a9a7c69e984a0f49510374639ed/Marl-Factory-Grid-0.0.9.tar.gz
+[2023-06-21 11:47:33] WARNING root fetch - processPackages [apache-tvm]: Skipping package: exceeds size limit 48354866>=10485760
+[2023-06-21 11:47:33] INFO root fetch - processPackages [apache-tvm]: Start processing: eurofiber-package
+[2023-06-21 11:47:33] INFO root fetch - main [MainThread]: End processing [apache-tvm] error
+[2023-06-21 11:47:33] INFO root fetch - processPackages [Marl-Factory-Grid]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [Marl-Factory-Grid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Marl-Factory-Grid-0.0.8.tar.gz tmp/Marl-Factory-Grid-0.0.9.tar.gz --markdown 20230621/M/Marl-Factory-Grid/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 11:47:33] INFO root fetch - processPackages [censoredsummarystats]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [censoredsummarystats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/censoredsummarystats-0.2.0.tar.gz tmp/censoredsummarystats-0.2.1.tar.gz --markdown 20230621/c/censoredsummarystats/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-21 11:47:33] INFO root fetch - processPackages [eurofiber-package]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 11:47:33] INFO root fetch - processPackages [HawaData]: Downloading https://files.pythonhosted.org/packages/ba/1a/5634c8d06e34000c213690f55c4f871684061427559f18184983358404ce/HawaData-0.7.1.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [qps-limit]: Downloading https://files.pythonhosted.org/packages/af/e3/292f2c9424d64a7c530e216eea9e5090e72e0ae2867527b76bab39f2dd86/qps_limit-0.1.3-py3-none-any.whl
+[2023-06-21 11:47:33] INFO root fetch - processPackages [qps-limit]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [qps-limit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qps_limit-0.1.0-py3-none-any.whl.zip tmp/qps_limit-0.1.3-py3-none-any.whl.zip --markdown 20230621/q/qps-limit/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-06-21 11:47:33] INFO root fetch - processPackages [space-stream]: Downloading https://files.pythonhosted.org/packages/f1/f5/6f92132ef1b2664478c05a50cc3d5c30012e16d7d9a171612f1be99dc4ca/space_stream-0.1.6.1-py3-none-any.whl
+[2023-06-21 11:47:33] INFO root fetch - processPackages [cloudi]: Downloading https://files.pythonhosted.org/packages/83/cd/597ae355765ccbe2f1676ee6b74f94b27492800a6a384825d7f9220eab0d/cloudi-2.0.6.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [HawaData]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [HawaData]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HawaData-0.7.0.tar.gz tmp/HawaData-0.7.1.tar.gz --markdown 20230621/H/HawaData/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-21 11:47:33] INFO root fetch - processPackages [quartic-sdk]: Downloading https://files.pythonhosted.org/packages/17/19/ccb9adcc99c8c271bdd321719d094d77b47148c98fab4d457b3bd3b86b6c/quartic-sdk-2.9.0.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [eurofiber-package]: Downloading https://files.pythonhosted.org/packages/77/13/611fd2492ec8dfdb77bb43ab0a0d090b003d42a0836af23e34529edc2580/eurofiber_package-0.1.8.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [space-stream]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [space-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/space_stream-0.1.6-py3-none-any.whl.zip tmp/space_stream-0.1.6.1-py3-none-any.whl.zip --markdown 20230621/s/space-stream/0.1.6-0.1.6.1/diff.md --exclude *.pyd
+[2023-06-21 11:47:33] INFO root fetch - processPackages [cloudi]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [cloudi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudi-2.0.5.tar.gz tmp/cloudi-2.0.6.tar.gz --markdown 20230621/c/cloudi/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-21 11:47:33] INFO root fetch - processPackages [bk-iam]: Downloading https://files.pythonhosted.org/packages/49/dc/6600aec1fcadd141f22429aaebfb3e3547302f7e915f4ad28512cd2fac66/bk-iam-1.3.3.tar.gz
+[2023-06-21 11:47:33] INFO root fetch - processPackages [quartic-sdk]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [quartic-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quartic-sdk-2.8.0.tar.gz tmp/quartic-sdk-2.9.0.tar.gz --markdown 20230621/q/quartic-sdk/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-06-21 11:47:33] INFO root fetch - processPackages [bk-iam]: executing diffoscope
+[2023-06-21 11:47:33] INFO root fetch - processPackages [bk-iam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bk-iam-1.3.2.tar.gz tmp/bk-iam-1.3.3.tar.gz --markdown 20230621/b/bk-iam/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-06-21 11:47:34] INFO root fetch - processPackages [eurofiber-package]: Downloading https://files.pythonhosted.org/packages/1e/c5/eb4e3e1ca73d2d48e8fc7b256e17434277ffedcebed0aeec21dda6954eea/eurofiber_package-0.1.9.tar.gz
+[2023-06-21 11:47:34] INFO root fetch - processPackages [eurofiber-package]: executing diffoscope
+[2023-06-21 11:47:34] INFO root fetch - processPackages [eurofiber-package]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eurofiber_package-0.1.8.tar.gz tmp/eurofiber_package-0.1.9.tar.gz --markdown 20230621/e/eurofiber-package/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 11:47:35] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-0.1.0-py3-none-any.whl.zip]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [qps-limit]: Remove: archive file [/home/abi/fetcher/tmp/qps_limit-0.1.3-py3-none-any.whl.zip]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [qps-limit]: Start processing: lb-telemetry
+[2023-06-21 11:47:35] INFO root fetch - main [MainThread]: End processing [qps-limit]: success
+[2023-06-21 11:47:35] INFO root fetch - processPackages [lb-telemetry]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.0.tar.gz]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [censoredsummarystats]: Remove: archive file [/home/abi/fetcher/tmp/censoredsummarystats-0.2.1.tar.gz]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [censoredsummarystats]: Start processing: typedparser
+[2023-06-21 11:47:35] INFO root fetch - main [MainThread]: End processing [censoredsummarystats]: success
+[2023-06-21 11:47:35] INFO root fetch - processPackages [typedparser]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/28/0f/fedb6026710b3b68be573ca2233c7820a31acb76c77a871deee67049c6ac/lb-telemetry-0.0.2.tar.gz
+[2023-06-21 11:47:35] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/94/c4/6b5ad59a6c56df8087fbba96a29cd09de019fbac3fd2916d7949ae32b434/typedparser-0.2.7.tar.gz
+[2023-06-21 11:47:35] INFO root fetch - processPackages [space-stream]: Remove: archive file [/home/abi/fetcher/tmp/space_stream-0.1.6-py3-none-any.whl.zip]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [space-stream]: Remove: archive file [/home/abi/fetcher/tmp/space_stream-0.1.6.1-py3-none-any.whl.zip]
+[2023-06-21 11:47:35] INFO root fetch - main [MainThread]: End processing [space-stream]: success
+[2023-06-21 11:47:35] INFO root fetch - processPackages [typedparser]: Downloading https://files.pythonhosted.org/packages/c7/d7/9d2c05af1cf5fadb2ce71a63912fbb0b20546812a3bb1eca8e57cc068fbd/typedparser-0.2.8.tar.gz
+[2023-06-21 11:47:35] INFO root fetch - processPackages [typedparser]: executing diffoscope
+[2023-06-21 11:47:35] INFO root fetch - processPackages [typedparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedparser-0.2.7.tar.gz tmp/typedparser-0.2.8.tar.gz --markdown 20230621/t/typedparser/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-21 11:47:35] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.0.tar.gz]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [HawaData]: Remove: archive file [/home/abi/fetcher/tmp/HawaData-0.7.1.tar.gz]
+[2023-06-21 11:47:35] INFO root fetch - main [MainThread]: End processing [HawaData]: success
+[2023-06-21 11:47:35] INFO root fetch - processPackages [lb-telemetry]: Downloading https://files.pythonhosted.org/packages/8a/42/d16e07c5ef92419f2db8496636e0dd4e80fee482f06e4f66f13b767a8537/lb-telemetry-0.0.3.tar.gz
+[2023-06-21 11:47:35] INFO root fetch - processPackages [lb-telemetry]: executing diffoscope
+[2023-06-21 11:47:35] INFO root fetch - processPackages [lb-telemetry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lb-telemetry-0.0.2.tar.gz tmp/lb-telemetry-0.0.3.tar.gz --markdown 20230621/l/lb-telemetry/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-21 11:47:35] INFO root fetch - processPackages [quartic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quartic-sdk-2.8.0.tar.gz]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [quartic-sdk]: Remove: archive file [/home/abi/fetcher/tmp/quartic-sdk-2.9.0.tar.gz]
+[2023-06-21 11:47:35] INFO root fetch - main [MainThread]: End processing [quartic-sdk]: success
+[2023-06-21 11:47:35] INFO root fetch - processPackages [eurofiber-package]: Remove: archive file [/home/abi/fetcher/tmp/eurofiber_package-0.1.8.tar.gz]
+[2023-06-21 11:47:35] INFO root fetch - processPackages [eurofiber-package]: Remove: archive file [/home/abi/fetcher/tmp/eurofiber_package-0.1.9.tar.gz]
+[2023-06-21 11:47:35] INFO root fetch - main [MainThread]: End processing [eurofiber-package]: success
+[2023-06-21 11:47:36] INFO root fetch - processPackages [cloudi]: Remove: archive file [/home/abi/fetcher/tmp/cloudi-2.0.5.tar.gz]
+[2023-06-21 11:47:36] INFO root fetch - processPackages [cloudi]: Remove: archive file [/home/abi/fetcher/tmp/cloudi-2.0.6.tar.gz]
+[2023-06-21 11:47:36] INFO root fetch - main [MainThread]: End processing [cloudi]: success
+[2023-06-21 11:47:36] INFO root fetch - processPackages [bk-iam]: Remove: archive file [/home/abi/fetcher/tmp/bk-iam-1.3.2.tar.gz]
+[2023-06-21 11:47:36] INFO root fetch - processPackages [bk-iam]: Remove: archive file [/home/abi/fetcher/tmp/bk-iam-1.3.3.tar.gz]
+[2023-06-21 11:47:36] INFO root fetch - main [MainThread]: End processing [bk-iam]: success
+[2023-06-21 11:47:36] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.0.2.tar.gz]
+[2023-06-21 11:47:36] INFO root fetch - processPackages [lb-telemetry]: Remove: archive file [/home/abi/fetcher/tmp/lb-telemetry-0.0.3.tar.gz]
+[2023-06-21 11:47:36] INFO root fetch - main [MainThread]: End processing [lb-telemetry]: success
+[2023-06-21 11:47:36] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.7.tar.gz]
+[2023-06-21 11:47:36] INFO root fetch - processPackages [typedparser]: Remove: archive file [/home/abi/fetcher/tmp/typedparser-0.2.8.tar.gz]
+[2023-06-21 11:47:36] INFO root fetch - main [MainThread]: End processing [typedparser]: success
+[2023-06-21 11:47:37] INFO root fetch - processPackages [Marl-Factory-Grid]: Remove: archive file [/home/abi/fetcher/tmp/Marl-Factory-Grid-0.0.8.tar.gz]
+[2023-06-21 11:47:37] INFO root fetch - processPackages [Marl-Factory-Grid]: Remove: archive file [/home/abi/fetcher/tmp/Marl-Factory-Grid-0.0.9.tar.gz]
+[2023-06-21 11:47:37] INFO root fetch - main [MainThread]: End processing [Marl-Factory-Grid]: success
+[2023-06-21 11:47:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev8.tar.gz]
+[2023-06-21 11:47:38] INFO root fetch - processPackages [coconut-develop]: Remove: archive file [/home/abi/fetcher/tmp/coconut-develop-3.0.2.post0.dev9.tar.gz]
+[2023-06-21 11:47:38] INFO root fetch - main [MainThread]: End processing [coconut-develop]: success
+[2023-06-21 11:47:38] INFO root fetch - main [MainThread]: Store serial: [18588350]
