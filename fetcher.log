@@ -22367,3 +22367,89 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 13:34:26] INFO root fetch - processPackages [cosmicfrog]: Remove: archive file [/home/abi/fetcher/tmp/cosmicfrog-0.3.tar.gz]
 [2023-06-21 13:34:26] INFO root fetch - main [MainThread]: End processing [cosmicfrog]: success
 [2023-06-21 13:34:26] INFO root fetch - main [MainThread]: Store serial: [18589480]
+[2023-06-21 13:39:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18589480]
+[2023-06-21 13:39:36] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-admin-atlantis
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: CTkTable
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: genopyc
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: oslo.db
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eodc
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: openturns
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cf-plot
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-nano
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ztfimg
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: krx-rigger
+[2023-06-21 13:39:36] INFO root fetch - processPackages [django-admin-atlantis]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-21 13:39:36] INFO root fetch - processPackages [krx-rigger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 13:39:36] INFO root fetch - processPackages [eodc]: New version: [2023.6.3] Old Version: [2023.6.2]
+[2023-06-21 13:39:36] INFO root fetch - processPackages [oslo.db]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-21 13:39:36] WARNING root fetch - processPackages [CTkTable]: Skipping, unable to determine old version
+[2023-06-21 13:39:36] INFO root fetch - processPackages [CTkTable]: Start processing: genopyc
+[2023-06-21 13:39:36] INFO root fetch - processPackages [ztfimg]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-21 13:39:36] INFO root fetch - processPackages [genopyc]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-06-21 13:39:36] INFO root fetch - main [MainThread]: End processing [CTkTable] error
+[2023-06-21 13:39:36] INFO root fetch - processPackages [openturns]: New version: [1.21] Old Version: [1.20.post3]
+[2023-06-21 13:39:36] INFO root fetch - processPackages [cf-plot]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: New version: [1.0.4] Old Version: [1.0.2]
+[2023-06-21 13:39:37] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230621] Old Version: [2.4.0b20230620]
+[2023-06-21 13:39:37] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/f5/db/3e1e60a78dac55ea1c8f6e91278d097da33c504123772800e605a8ad0d16/krx_rigger-0.0.8.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/58/78/e08be979890f388139b19a59a343fe510783d294dc575b096a32ca3dc711/eodc-2023.6.2.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [django-admin-atlantis]: Downloading https://files.pythonhosted.org/packages/eb/2d/e9f0fa1ea9e8cba8014e25049d67934155a9797a02c8ed23c35838e19657/django-admin-atlantis-1.0.2.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/1f/ee/c1a3cf4b101acc287a6a3b9ef2d63ff34b7d5c48e720d65d8ef17cd06564/genopyc-1.0.2-py3-none-any.whl
+[2023-06-21 13:39:37] WARNING root fetch - processPackages [django-admin-atlantis]: Skipping package: exceeds size limit 11279059>=10485760
+[2023-06-21 13:39:37] INFO root fetch - main [MainThread]: End processing [django-admin-atlantis] error
+[2023-06-21 13:39:37] INFO root fetch - processPackages [krx-rigger]: Downloading https://files.pythonhosted.org/packages/59/05/8106984d0c358e894bf27eb839baf0d02ad718ef80496d507d7e3149ab83/krx_rigger-0.0.9.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/11/59/1715a098f5098c5d664cb57ab4ea805314596ef0c1e0bfee67d3dc408949/oslo.db-9.0.0.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/1f/ee/c1a3cf4b101acc287a6a3b9ef2d63ff34b7d5c48e720d65d8ef17cd06564/genopyc-1.0.2-py3-none-any.whl
+[2023-06-21 13:39:37] INFO root fetch - processPackages [cf-plot]: Downloading https://files.pythonhosted.org/packages/ce/4d/46e8ef367ffbca7ec4bb6deeef567e6abf21c3b31a63a44dba97bf3fbfe5/cf-plot-3.2.6.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [openturns]: Downloading https://files.pythonhosted.org/packages/40/ab/283e17c6e5af903ca0e5af274fb5183abe6b9ace064d6e5b72671d4db0be/openturns-1.20.post3-cp39-cp39-win_amd64.whl
+[2023-06-21 13:39:37] INFO root fetch - processPackages [ztfimg]: Downloading https://files.pythonhosted.org/packages/48/af/c60694f29ce2a2fae15d5ebed0961deb44dffb7f34a51e7b7827c4d405f9/ztfimg-0.7.0.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [krx-rigger]: executing diffoscope
+[2023-06-21 13:39:37] INFO root fetch - processPackages [krx-rigger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/krx_rigger-0.0.8.tar.gz tmp/krx_rigger-0.0.9.tar.gz --markdown 20230621/k/krx-rigger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 13:39:37] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/c9/3d/de0227df03e8fcc9467124c0bf13ea1b6891d5321217b4f7284e86b345d8/bigdl_nano-2.4.0b20230620-py3-none-win_amd64.whl
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/c4/3a/3ca83dec6ec2b538cfa5a7b65298c9d4b08f9e97cd8b32210210ecd90172/genopyc-1.0.4-py3-none-any.whl
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/c4/3a/3ca83dec6ec2b538cfa5a7b65298c9d4b08f9e97cd8b32210210ecd90172/genopyc-1.0.4-py3-none-any.whl
+[2023-06-21 13:39:37] INFO root fetch - processPackages [eodc]: Downloading https://files.pythonhosted.org/packages/50/75/20fd2cf4a7e2e0c1713780a736f78e79cdf0acc141190bf95050f80872d2/eodc-2023.6.3.tar.gz
+[2023-06-21 13:39:37] WARNING root fetch - processPackages [openturns]: Skipping package: exceeds size limit 57709222>=10485760
+[2023-06-21 13:39:37] INFO root fetch - main [MainThread]: End processing [openturns] error
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-1.0.2-py3-none-any.whl.zip tmp/genopyc-1.0.4-py3-none-any.whl.zip --markdown 20230621/g/genopyc/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-06-21 13:39:37] INFO root fetch - processPackages [cf-plot]: Downloading https://files.pythonhosted.org/packages/2c/25/af6ae9580ed44ad918cc4dc4c99c98268cda6c4239d64618ec2f95585630/cf-plot-3.2.7.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [eodc]: executing diffoscope
+[2023-06-21 13:39:37] INFO root fetch - processPackages [eodc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc-2023.6.2.tar.gz tmp/eodc-2023.6.3.tar.gz --markdown 20230621/e/eodc/2023.6.2-2023.6.3/diff.md --exclude *.pyd
+[2023-06-21 13:39:37] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/cc/8c/994cbab5632e215205cc6d3af707ce227cc833b4feea61ed32afb04b5f17/bigdl_nano-2.4.0b20230621-py3-none-win_amd64.whl
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-06-21 13:39:37] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-1.0.2-py3-none-any.whl.zip tmp/genopyc-1.0.4-py3-none-any.whl.zip --markdown 20230621/g/genopyc/1.0.2-1.0.4/diff.md --exclude *.pyd
+[2023-06-21 13:39:37] INFO root fetch - processPackages [ztfimg]: Downloading https://files.pythonhosted.org/packages/fc/65/f25728ef732173e5055ac05b19aecbf67fa84195649cab94dab4c04e6453/ztfimg-0.8.0.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [oslo.db]: Downloading https://files.pythonhosted.org/packages/4c/8a/43b149809cdc1911c0c032e9c5dbe946c25c5ac5352c0631114758f9718e/oslo.db-9.1.0.tar.gz
+[2023-06-21 13:39:37] INFO root fetch - processPackages [cf-plot]: executing diffoscope
+[2023-06-21 13:39:37] INFO root fetch - processPackages [cf-plot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cf-plot-3.2.6.tar.gz tmp/cf-plot-3.2.7.tar.gz --markdown 20230621/c/cf-plot/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-06-21 13:39:37] INFO root fetch - processPackages [ztfimg]: executing diffoscope
+[2023-06-21 13:39:37] INFO root fetch - processPackages [ztfimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ztfimg-0.7.0.tar.gz tmp/ztfimg-0.8.0.tar.gz --markdown 20230621/z/ztfimg/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-21 13:39:37] INFO root fetch - processPackages [oslo.db]: executing diffoscope
+[2023-06-21 13:39:37] INFO root fetch - processPackages [oslo.db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oslo.db-9.0.0.tar.gz tmp/oslo.db-9.1.0.tar.gz --markdown 20230621/o/oslo.db/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-21 13:39:38] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-21 13:39:38] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230620-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230621-py3-none-win_amd64.whl.zip --markdown 20230621/b/bigdl-nano/2.4.0b20230620-2.4.0b20230621/diff.md --exclude *.pyd
+[2023-06-21 13:39:39] INFO root fetch - processPackages [krx-rigger]: Remove: archive file [/home/abi/fetcher/tmp/krx_rigger-0.0.8.tar.gz]
+[2023-06-21 13:39:39] INFO root fetch - processPackages [krx-rigger]: Remove: archive file [/home/abi/fetcher/tmp/krx_rigger-0.0.9.tar.gz]
+[2023-06-21 13:39:39] INFO root fetch - main [MainThread]: End processing [krx-rigger]: success
+[2023-06-21 13:39:39] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.2.tar.gz]
+[2023-06-21 13:39:39] INFO root fetch - processPackages [eodc]: Remove: archive file [/home/abi/fetcher/tmp/eodc-2023.6.3.tar.gz]
+[2023-06-21 13:39:39] INFO root fetch - main [MainThread]: End processing [eodc]: success
+[2023-06-21 13:39:39] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.0.2-py3-none-any.whl.zip]
+[2023-06-21 13:39:39] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-1.0.4-py3-none-any.whl.zip]
+[2023-06-21 13:39:39] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-06-21 13:39:39] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-06-21 13:39:40] INFO root fetch - processPackages [ztfimg]: Remove: archive file [/home/abi/fetcher/tmp/ztfimg-0.7.0.tar.gz]
+[2023-06-21 13:39:40] INFO root fetch - processPackages [ztfimg]: Remove: archive file [/home/abi/fetcher/tmp/ztfimg-0.8.0.tar.gz]
+[2023-06-21 13:39:40] INFO root fetch - main [MainThread]: End processing [ztfimg]: success
+[2023-06-21 13:39:41] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230620-py3-none-win_amd64.whl.zip]
+[2023-06-21 13:39:41] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230621-py3-none-win_amd64.whl.zip]
+[2023-06-21 13:39:41] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-21 13:39:41] INFO root fetch - processPackages [oslo.db]: Remove: archive file [/home/abi/fetcher/tmp/oslo.db-9.0.0.tar.gz]
+[2023-06-21 13:39:41] INFO root fetch - processPackages [oslo.db]: Remove: archive file [/home/abi/fetcher/tmp/oslo.db-9.1.0.tar.gz]
+[2023-06-21 13:39:41] INFO root fetch - main [MainThread]: End processing [oslo.db]: success
+[2023-06-21 13:39:43] INFO root fetch - processPackages [cf-plot]: Remove: archive file [/home/abi/fetcher/tmp/cf-plot-3.2.6.tar.gz]
+[2023-06-21 13:39:43] INFO root fetch - processPackages [cf-plot]: Remove: archive file [/home/abi/fetcher/tmp/cf-plot-3.2.7.tar.gz]
+[2023-06-21 13:39:43] INFO root fetch - main [MainThread]: End processing [cf-plot]: success
+[2023-06-21 13:39:43] INFO root fetch - main [MainThread]: Store serial: [18589518]
