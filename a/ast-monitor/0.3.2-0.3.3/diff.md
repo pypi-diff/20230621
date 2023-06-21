@@ -1,0 +1,3437 @@
+# Comparing `tmp/ast_monitor-0.3.2.tar.gz` & `tmp/ast_monitor-0.3.3.tar.gz`
+
+## filetype from file(1)
+
+```diff
+@@ -1 +1 @@
+-gzip compressed data, was "ast_monitor-0.3.2.tar", max compression
++gzip compressed data, was "ast_monitor-0.3.3.tar", max compression
+```
+
+## Comparing `ast_monitor-0.3.2.tar` & `ast_monitor-0.3.3.tar`
+
+### file list
+
+```diff
+@@ -1,35 +1,35 @@
+--rw-r--r--   0        0        0     5245 2023-01-28 09:43:59.265942 ast_monitor-0.3.2/CHANGELOG.md
+--rw-r--r--   0        0        0      782 2023-01-28 09:43:59.265942 ast_monitor-0.3.2/CITATION.cff
+--rw-r--r--   0        0        0     1078 2023-01-28 09:43:59.265942 ast_monitor-0.3.2/LICENSE
+--rw-r--r--   0        0        0    11099 2023-01-28 09:43:59.266942 ast_monitor-0.3.2/README.md
+--rw-r--r--   0        0        0      698 2023-01-28 09:43:59.266942 ast_monitor-0.3.2/ast_monitor/__init__.py
+--rw-r--r--   0        0        0     3749 2023-01-28 09:43:59.266942 ast_monitor-0.3.2/ast_monitor/basic_data.py
+--rw-r--r--   0        0        0     5276 2023-01-28 09:43:59.266942 ast_monitor-0.3.2/ast_monitor/digital_twin.py
+--rw-r--r--   0        0        0     2395 2023-01-28 09:43:59.266942 ast_monitor-0.3.2/ast_monitor/gps_sensor.py
+--rw-r--r--   0        0        0     1967 2023-01-28 09:43:59.266942 ast_monitor-0.3.2/ast_monitor/hr_sensor.py
+--rw-r--r--   0        0        0     2193 2023-01-28 09:43:59.267942 ast_monitor-0.3.2/ast_monitor/icons/arrow_down.svg
+--rw-r--r--   0        0        0     1980 2023-01-28 09:43:59.267942 ast_monitor-0.3.2/ast_monitor/icons/arrow_left.svg
+--rw-r--r--   0        0        0     1991 2023-01-28 09:43:59.267942 ast_monitor-0.3.2/ast_monitor/icons/arrow_right.svg
+--rw-r--r--   0        0        0     2192 2023-01-28 09:43:59.267942 ast_monitor-0.3.2/ast_monitor/icons/arrow_up.svg
+--rw-r--r--   0        0        0     6101 2023-01-28 09:43:59.267942 ast_monitor-0.3.2/ast_monitor/icons/ascent.svg
+--rw-r--r--   0        0        0     6514 2023-01-28 09:43:59.267942 ast_monitor-0.3.2/ast_monitor/icons/bicycle.svg
+--rw-r--r--   0        0        0     7083 2023-01-28 09:43:59.267942 ast_monitor-0.3.2/ast_monitor/icons/clock.svg
+--rw-r--r--   0        0        0     5676 2023-01-28 09:43:59.268942 ast_monitor-0.3.2/ast_monitor/icons/distance.svg
+--rw-r--r--   0        0        0     2750 2023-01-28 09:43:59.268942 ast_monitor-0.3.2/ast_monitor/icons/heart.svg
+--rw-r--r--   0        0        0       62 2023-01-28 09:43:59.268942 ast_monitor-0.3.2/ast_monitor/icons/licence.txt
+--rw-r--r--   0        0        0     2310 2023-01-28 09:43:59.268942 ast_monitor-0.3.2/ast_monitor/icons/play.svg
+--rw-r--r--   0        0        0     2596 2023-01-28 09:43:59.268942 ast_monitor-0.3.2/ast_monitor/icons/shutdown.svg
+--rw-r--r--   0        0        0     4639 2023-01-28 09:43:59.268942 ast_monitor-0.3.2/ast_monitor/icons/speed.svg
+--rw-r--r--   0        0        0     1858 2023-01-28 09:43:59.268942 ast_monitor-0.3.2/ast_monitor/icons/stop.svg
+--rw-r--r--   0        0        0     5329 2023-01-28 09:43:59.269942 ast_monitor-0.3.2/ast_monitor/interval_training.py
+--rw-r--r--   0        0        0    68335 2023-01-28 09:43:59.269942 ast_monitor-0.3.2/ast_monitor/mainwindow.py
+--rw-r--r--   0        0        0       79 2023-01-28 09:43:59.269942 ast_monitor-0.3.2/ast_monitor/map/map.css
+--rw-r--r--   0        0        0      441 2023-01-28 09:43:59.270942 ast_monitor-0.3.2/ast_monitor/map/map.html
+--rw-r--r--   0        0        0      246 2023-01-28 09:43:59.270942 ast_monitor-0.3.2/ast_monitor/map/map.js
+--rw-r--r--   0        0        0    14551 2023-01-28 09:43:59.270942 ast_monitor-0.3.2/ast_monitor/model.py
+--rw-r--r--   0        0        0     3378 2023-01-28 09:43:59.270942 ast_monitor-0.3.2/ast_monitor/simulation.py
+--rw-r--r--   0        0        0     1190 2023-01-28 09:43:59.270942 ast_monitor-0.3.2/ast_monitor/training_session.py
+--rw-r--r--   0        0        0     1576 2023-01-28 09:43:59.270942 ast_monitor-0.3.2/ast_monitor/write_log.py
+--rw-r--r--   0        0        0     1041 2023-01-28 09:43:59.300943 ast_monitor-0.3.2/pyproject.toml
+--rw-r--r--   0        0        0    12234 2023-01-28 09:44:10.440671 ast_monitor-0.3.2/setup.py
+--rw-r--r--   0        0        0    12133 2023-01-28 09:44:10.442472 ast_monitor-0.3.2/PKG-INFO
++-rw-r--r--   0        0        0     5245 2023-06-21 19:21:55.981004 ast_monitor-0.3.3/CHANGELOG.md
++-rw-r--r--   0        0        0      782 2023-06-21 19:21:55.981004 ast_monitor-0.3.3/CITATION.cff
++-rw-r--r--   0        0        0     1086 2023-06-21 19:21:55.981004 ast_monitor-0.3.3/LICENSE
++-rw-r--r--   0        0        0    11544 2023-06-21 19:21:55.981004 ast_monitor-0.3.3/README.md
++-rw-r--r--   0        0        0      698 2023-06-21 19:21:55.981004 ast_monitor-0.3.3/ast_monitor/__init__.py
++-rw-r--r--   0        0        0     3749 2023-06-21 19:21:55.981004 ast_monitor-0.3.3/ast_monitor/basic_data.py
++-rw-r--r--   0        0        0     5276 2023-06-21 19:21:55.981004 ast_monitor-0.3.3/ast_monitor/digital_twin.py
++-rw-r--r--   0        0        0     2395 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/gps_sensor.py
++-rw-r--r--   0        0        0     1967 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/hr_sensor.py
++-rw-r--r--   0        0        0     2193 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/arrow_down.svg
++-rw-r--r--   0        0        0     1980 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/arrow_left.svg
++-rw-r--r--   0        0        0     1991 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/arrow_right.svg
++-rw-r--r--   0        0        0     2192 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/arrow_up.svg
++-rw-r--r--   0        0        0     6101 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/ascent.svg
++-rw-r--r--   0        0        0     6514 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/bicycle.svg
++-rw-r--r--   0        0        0     7083 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/clock.svg
++-rw-r--r--   0        0        0     5676 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/distance.svg
++-rw-r--r--   0        0        0     2750 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/heart.svg
++-rw-r--r--   0        0        0       62 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/licence.txt
++-rw-r--r--   0        0        0     2310 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/play.svg
++-rw-r--r--   0        0        0     2596 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/shutdown.svg
++-rw-r--r--   0        0        0     4639 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/speed.svg
++-rw-r--r--   0        0        0     1858 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/icons/stop.svg
++-rw-r--r--   0        0        0     5582 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/interval_training.py
++-rw-r--r--   0        0        0    68335 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/mainwindow.py
++-rw-r--r--   0        0        0       79 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/map/map.css
++-rw-r--r--   0        0        0      441 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/map/map.html
++-rw-r--r--   0        0        0      246 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/map/map.js
++-rw-r--r--   0        0        0    14551 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/model.py
++-rw-r--r--   0        0        0     3378 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/simulation.py
++-rw-r--r--   0        0        0     1190 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/training_session.py
++-rw-r--r--   0        0        0     1576 2023-06-21 19:21:55.982004 ast_monitor-0.3.3/ast_monitor/write_log.py
++-rw-r--r--   0        0        0     1040 2023-06-21 19:21:55.997005 ast_monitor-0.3.3/pyproject.toml
++-rw-r--r--   0        0        0    12672 2023-06-21 19:22:03.707448 ast_monitor-0.3.3/setup.py
++-rw-r--r--   0        0        0    12575 2023-06-21 19:22:03.708131 ast_monitor-0.3.3/PKG-INFO
+```
+
+### Comparing `ast_monitor-0.3.2/CHANGELOG.md` & `ast_monitor-0.3.3/CHANGELOG.md`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/CITATION.cff` & `ast_monitor-0.3.3/CITATION.cff`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/LICENSE` & `ast_monitor-0.3.3/LICENSE`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ MIT License
+ 
+-Copyright (c) 2021-2022 Iztok Fister Jr.
++Copyright (c) 2021-2023 Iztok Fister Jr., et al.
+ 
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+```
+
+### Comparing `ast_monitor-0.3.2/README.md` & `ast_monitor-0.3.3/PKG-INFO`
+
+ * *Files 7% similar despite different names*
+
+```diff
+@@ -1,694 +1,786 @@
+-00000000: 2320 4153 542d 4d6f 6e69 746f 7220 2d2d  # AST-Monitor --
+-00000010: 2d20 4120 7765 6172 6162 6c65 2052 6173  - A wearable Ras
+-00000020: 7062 6572 7279 2050 6920 636f 6d70 7574  pberry Pi comput
+-00000030: 6572 2066 6f72 2063 7963 6c69 7374 730a  er for cyclists.
+-00000040: 3c21 2d2d 2041 4c4c 2d43 4f4e 5452 4942  <!-- ALL-CONTRIB
+-00000050: 5554 4f52 532d 4241 4447 453a 5354 4152  UTORS-BADGE:STAR
+-00000060: 5420 2d20 446f 206e 6f74 2072 656d 6f76  T - Do not remov
+-00000070: 6520 6f72 206d 6f64 6966 7920 7468 6973  e or modify this
+-00000080: 2073 6563 7469 6f6e 202d 2d3e 0a5b 215b   section -->.[![
+-00000090: 416c 6c20 436f 6e74 7269 6275 746f 7273  All Contributors
+-000000a0: 5d28 6874 7470 733a 2f2f 696d 672e 7368  ](https://img.sh
+-000000b0: 6965 6c64 732e 696f 2f62 6164 6765 2f61  ields.io/badge/a
+-000000c0: 6c6c 5f63 6f6e 7472 6962 7574 6f72 732d  ll_contributors-
+-000000d0: 342d 6f72 616e 6765 2e73 7667 3f73 7479  4-orange.svg?sty
+-000000e0: 6c65 3d66 6c61 742d 7371 7561 7265 295d  le=flat-square)]
+-000000f0: 2823 636f 6e74 7269 6275 746f 7273 2d29  (#contributors-)
+-00000100: 0a3c 212d 2d20 414c 4c2d 434f 4e54 5249  .<!-- ALL-CONTRI
+-00000110: 4255 544f 5253 2d42 4144 4745 3a45 4e44  BUTORS-BADGE:END
+-00000120: 202d 2d3e 0a5b 215b 5079 5049 2056 6572   -->.[![PyPI Ver
+-00000130: 7369 6f6e 5d28 6874 7470 733a 2f2f 696d  sion](https://im
+-00000140: 672e 7368 6965 6c64 732e 696f 2f70 7970  g.shields.io/pyp
+-00000150: 692f 762f 6173 742d 6d6f 6e69 746f 722e  i/v/ast-monitor.
+-00000160: 7376 6729 5d28 6874 7470 733a 2f2f 7079  svg)](https://py
+-00000170: 7069 2e70 7974 686f 6e2e 6f72 672f 7079  pi.python.org/py
+-00000180: 7069 2f61 7374 2d6d 6f6e 6974 6f72 290a  pi/ast-monitor).
+-00000190: 215b 5079 5049 202d 2050 7974 686f 6e20  ![PyPI - Python 
+-000001a0: 5665 7273 696f 6e5d 2868 7474 7073 3a2f  Version](https:/
+-000001b0: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
+-000001c0: 7079 7069 2f70 7976 6572 7369 6f6e 732f  pypi/pyversions/
+-000001d0: 6173 742d 6d6f 6e69 746f 722e 7376 6729  ast-monitor.svg)
+-000001e0: 0a21 5b50 7950 4920 2d20 446f 776e 6c6f  .![PyPI - Downlo
+-000001f0: 6164 735d 2868 7474 7073 3a2f 2f69 6d67  ads](https://img
+-00000200: 2e73 6869 656c 6473 2e69 6f2f 7079 7069  .shields.io/pypi
+-00000210: 2f64 6d2f 6173 742d 6d6f 6e69 746f 722e  /dm/ast-monitor.
+-00000220: 7376 6729 0a5b 215b 446f 776e 6c6f 6164  svg).[![Download
+-00000230: 735d 2868 7474 7073 3a2f 2f70 6570 792e  s](https://pepy.
+-00000240: 7465 6368 2f62 6164 6765 2f61 7374 2d6d  tech/badge/ast-m
+-00000250: 6f6e 6974 6f72 295d 2868 7474 7073 3a2f  onitor)](https:/
+-00000260: 2f70 6570 792e 7465 6368 2f70 726f 6a65  /pepy.tech/proje
+-00000270: 6374 2f61 7374 2d6d 6f6e 6974 6f72 290a  ct/ast-monitor).
+-00000280: 215b 4769 7448 7562 2072 6570 6f20 7369  ![GitHub repo si
+-00000290: 7a65 5d28 6874 7470 733a 2f2f 696d 672e  ze](https://img.
+-000002a0: 7368 6965 6c64 732e 696f 2f67 6974 6875  shields.io/githu
+-000002b0: 622f 7265 706f 2d73 697a 652f 6669 7265  b/repo-size/fire
+-000002c0: 666c 792d 6370 702f 6173 742d 6d6f 6e69  fly-cpp/ast-moni
+-000002d0: 746f 723f 7374 796c 653d 666c 6174 2d73  tor?style=flat-s
+-000002e0: 7175 6172 6529 0a5b 215b 4769 7448 7562  quare).[![GitHub
+-000002f0: 206c 6963 656e 7365 5d28 6874 7470 733a   license](https:
+-00000300: 2f2f 696d 672e 7368 6965 6c64 732e 696f  //img.shields.io
+-00000310: 2f67 6974 6875 622f 6c69 6365 6e73 652f  /github/license/
+-00000320: 6669 7265 666c 792d 6370 702f 6173 742d  firefly-cpp/ast-
+-00000330: 6d6f 6e69 746f 722e 7376 6729 5d28 6874  monitor.svg)](ht
+-00000340: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-00000350: 2f66 6972 6566 6c79 2d63 7070 2f41 5354  /firefly-cpp/AST
+-00000360: 2d4d 6f6e 6974 6f72 2f62 6c6f 622f 6d61  -Monitor/blob/ma
+-00000370: 7374 6572 2f4c 4943 454e 5345 290a 215b  ster/LICENSE).![
+-00000380: 4769 7448 7562 2063 6f6d 6d69 7420 6163  GitHub commit ac
+-00000390: 7469 7669 7479 5d28 6874 7470 733a 2f2f  tivity](https://
+-000003a0: 696d 672e 7368 6965 6c64 732e 696f 2f67  img.shields.io/g
+-000003b0: 6974 6875 622f 636f 6d6d 6974 2d61 6374  ithub/commit-act
+-000003c0: 6976 6974 792f 772f 6669 7265 666c 792d  ivity/w/firefly-
+-000003d0: 6370 702f 6173 742d 6d6f 6e69 746f 722e  cpp/ast-monitor.
+-000003e0: 7376 6729 0a21 5b47 6974 4875 6220 636f  svg).![GitHub co
+-000003f0: 6e74 7269 6275 746f 7273 5d28 6874 7470  ntributors](http
+-00000400: 733a 2f2f 696d 672e 7368 6965 6c64 732e  s://img.shields.
+-00000410: 696f 2f67 6974 6875 622f 636f 6e74 7269  io/github/contri
+-00000420: 6275 746f 7273 2f66 6972 6566 6c79 2d63  butors/firefly-c
+-00000430: 7070 2f61 7374 2d6d 6f6e 6974 6f72 2e73  pp/ast-monitor.s
+-00000440: 7667 290a 0a5b 215b 444f 495d 2868 7474  vg)..[![DOI](htt
+-00000450: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
+-00000460: 2e69 6f2f 6261 6467 652f 444f 492d 3130  .io/badge/DOI-10
+-00000470: 2e31 3130 392f 4953 434d 4935 3338 3430  .1109/ISCMI53840
+-00000480: 2e32 3032 312e 3936 3534 3831 372d 626c  .2021.9654817-bl
+-00000490: 7565 295d 2868 7474 7073 3a2f 2f64 6f69  ue)](https://doi
+-000004a0: 2e6f 7267 2f31 302e 3131 3039 2f49 5343  .org/10.1109/ISC
+-000004b0: 4d49 3533 3834 302e 3230 3231 2e39 3635  MI53840.2021.965
+-000004c0: 3438 3137 290a 5b21 5b44 4f49 5d28 6874  4817).[![DOI](ht
+-000004d0: 7470 733a 2f2f 696d 672e 7368 6965 6c64  tps://img.shield
+-000004e0: 732e 696f 2f62 6164 6765 2f44 4f49 2d31  s.io/badge/DOI-1
+-000004f0: 302e 3333 3930 2f61 7070 3132 3234 3132  0.3390/app122412
+-00000500: 3734 312d 626c 7565 295d 2868 7474 7073  741-blue)](https
+-00000510: 3a2f 2f64 6f69 2e6f 7267 2f31 302e 3333  ://doi.org/10.33
+-00000520: 3930 2f61 7070 3132 3234 3132 3734 3129  90/app122412741)
+-00000530: 0a5b 215b 4665 646f 7261 2070 6163 6b61  .[![Fedora packa
+-00000540: 6765 5d28 6874 7470 733a 2f2f 696d 672e  ge](https://img.
+-00000550: 7368 6965 6c64 732e 696f 2f66 6564 6f72  shields.io/fedor
+-00000560: 612f 762f 7079 7468 6f6e 332d 6173 742d  a/v/python3-ast-
+-00000570: 6d6f 6e69 746f 723f 636f 6c6f 723d 626c  monitor?color=bl
+-00000580: 7565 266c 6162 656c 3d46 6564 6f72 6125  ue&label=Fedora%
+-00000590: 3230 4c69 6e75 7826 6c6f 676f 3d66 6564  20Linux&logo=fed
+-000005a0: 6f72 6129 5d28 6874 7470 733a 2f2f 7372  ora)](https://sr
+-000005b0: 632e 6665 646f 7261 7072 6f6a 6563 742e  c.fedoraproject.
+-000005c0: 6f72 672f 7270 6d73 2f70 7974 686f 6e2d  org/rpms/python-
+-000005d0: 6173 742d 6d6f 6e69 746f 7229 0a5b 215b  ast-monitor).[![
+-000005e0: 4155 5220 7061 636b 6167 655d 2868 7474  AUR package](htt
+-000005f0: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
+-00000600: 2e69 6f2f 6175 722f 7665 7273 696f 6e2f  .io/aur/version/
+-00000610: 7079 7468 6f6e 2d61 7374 2d6d 6f6e 6974  python-ast-monit
+-00000620: 6f72 3f63 6f6c 6f72 3d62 6c75 6526 6c61  or?color=blue&la
+-00000630: 6265 6c3d 4172 6368 2532 304c 696e 7578  bel=Arch%20Linux
+-00000640: 266c 6f67 6f3d 6172 6368 2d6c 696e 7578  &logo=arch-linux
+-00000650: 295d 2868 7474 7073 3a2f 2f61 7572 2e61  )](https://aur.a
+-00000660: 7263 686c 696e 7578 2e6f 7267 2f70 6163  rchlinux.org/pac
+-00000670: 6b61 6765 732f 7079 7468 6f6e 2d61 7374  kages/python-ast
+-00000680: 2d6d 6f6e 6974 6f72 290a 0a23 2320 5368  -monitor)..## Sh
+-00000690: 6f72 7420 6465 7363 7269 7074 696f 6e0a  ort description.
+-000006a0: 5468 6973 2072 6570 6f73 6974 6f72 7920  This repository 
+-000006b0: 6973 2064 6576 6f74 6564 2074 6f20 4153  is devoted to AS
+-000006c0: 542d 4d6f 6e69 746f 722c 2069 2e65 2e2c  T-Monitor, i.e.,
+-000006d0: 2061 206c 6f77 2d63 6f73 7420 616e 6420   a low-cost and 
+-000006e0: 6566 6669 6369 656e 7420 656d 6265 6464  efficient embedd
+-000006f0: 6564 2064 6576 6963 6520 666f 7220 6d6f  ed device for mo
+-00000700: 6e69 746f 7269 6e67 2074 6865 2072 6561  nitoring the rea
+-00000710: 6c69 7a61 7469 6f6e 206f 6620 7370 6f72  lization of spor
+-00000720: 7420 7472 6169 6e69 6e67 2073 6573 7369  t training sessi
+-00000730: 6f6e 7320 7468 6174 2061 7265 2064 6564  ons that are ded
+-00000740: 6963 6174 6564 2074 6f20 6d6f 6e69 746f  icated to monito
+-00000750: 7269 6e67 2063 7963 6c69 6e67 2074 7261  ring cycling tra
+-00000760: 696e 696e 6720 7365 7373 696f 6e73 2e0a  ining sessions..
+-00000770: 4153 542d 4d6f 6e69 746f 7220 6973 2061  AST-Monitor is a
+-00000780: 2070 6172 7420 6f66 2074 6865 2041 7274   part of the Art
+-00000790: 6966 6963 6961 6c20 5370 6f72 7420 5472  ificial Sport Tr
+-000007a0: 6169 6e65 7220 2841 5354 2920 7379 7374  ainer (AST) syst
+-000007b0: 656d 2e20 5468 6520 6669 7273 7420 6269  em. The first bi
+-000007c0: 7473 206f 6620 4153 542d 4d6f 6e69 746f  ts of AST-Monito
+-000007d0: 7220 7765 7265 2070 7265 7365 6e74 6564  r were presented
+-000007e0: 2069 6e20 7468 6520 666f 6c6c 6f77 696e   in the followin
+-000007f0: 6720 5b70 6170 6572 5d28 6874 7470 733a  g [paper](https:
+-00000800: 2f2f 6172 7869 762e 6f72 672f 6162 732f  //arxiv.org/abs/
+-00000810: 3231 3039 2e31 3333 3334 292e 0a0a 0a23  2109.13334)....#
+-00000820: 2320 4772 6170 6869 6361 6c20 5573 6572  # Graphical User
+-00000830: 2049 6e74 6572 6661 6365 206f 6620 7468   Interface of th
+-00000840: 6520 6170 706c 6963 6174 696f 6e0a 2323  e application.##
+-00000850: 2320 4261 7369 6320 6461 7461 0a3c 7020  # Basic data.<p 
+-00000860: 616c 6967 6e3d 2263 656e 7465 7222 3e0a  align="center">.
+-00000870: 2020 3c69 6d67 2077 6964 7468 3d22 3630    <img width="60
+-00000880: 3022 2073 7263 3d22 6874 7470 733a 2f2f  0" src="https://
+-00000890: 7573 6572 2d69 6d61 6765 732e 6769 7468  user-images.gith
+-000008a0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
+-000008b0: 6d2f 3733 3132 3638 3230 2f31 3739 3230  m/73126820/17920
+-000008c0: 3530 3634 2d31 3630 6264 6434 342d 6664  5064-160bdd44-fd
+-000008d0: 3637 2d34 6438 642d 3835 6464 2d62 6164  67-4d8d-85dd-bad
+-000008e0: 6561 3939 3938 3835 632e 706e 6722 2061  ea999885c.png" a
+-000008f0: 6c74 3d22 4153 542d 4755 4922 3e0a 3c2f  lt="AST-GUI">.</
+-00000900: 703e 0a54 6865 2069 6e69 7469 616c 2070  p>.The initial p
+-00000910: 6167 6520 6f66 2074 6865 2061 7070 6c69  age of the appli
+-00000920: 6361 7469 6f6e 2064 6570 6963 7473 2062  cation depicts b
+-00000930: 6173 6963 2070 6172 616d 6574 6572 7320  asic parameters 
+-00000940: 6f66 2061 6e20 6174 686c 6574 6527 7320  of an athlete's 
+-00000950: 6163 7469 7669 7479 3a20 6375 7272 656e  activity: curren
+-00000960: 7420 7370 6565 6420 616e 6420 6375 7272  t speed and curr
+-00000970: 656e 7420 6865 6172 7420 7261 7465 2e20  ent heart rate. 
+-00000980: 4966 2061 2074 7261 696e 696e 6720 7365  If a training se
+-00000990: 7373 696f 6e20 6973 2063 6f6e 6475 6374  ssion is conduct
+-000009a0: 6564 2c20 746f 7461 6c20 6469 7374 616e  ed, total distan
+-000009b0: 6365 2c20 746f 7461 6c20 7469 6d65 206f  ce, total time o
+-000009c0: 6620 7468 6520 7365 7373 696f 6e20 616e  f the session an
+-000009d0: 6420 746f 7461 6c20 6173 6365 6e74 2061  d total ascent a
+-000009e0: 7265 2064 6973 706c 6179 6564 2061 7320  re displayed as 
+-000009f0: 7765 6c6c 2e0a 0a2d 2d2d 0a23 2323 2049  well...---.### I
+-00000a00: 6e74 6572 6163 7469 7665 206d 6170 0a3c  nteractive map.<
+-00000a10: 7020 616c 6967 6e3d 2263 656e 7465 7222  p align="center"
+-00000a20: 3e0a 2020 3c69 6d67 2077 6964 7468 3d22  >.  <img width="
+-00000a30: 3630 3022 2073 7263 3d22 6874 7470 733a  600" src="https:
+-00000a40: 2f2f 7573 6572 2d69 6d61 6765 732e 6769  //user-images.gi
+-00000a50: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-00000a60: 636f 6d2f 3733 3132 3638 3230 2f31 3739  com/73126820/179
+-00000a70: 3230 3531 3138 2d31 3963 6262 3665 322d  205118-19cbb6e2-
+-00000a80: 6634 3130 2d34 3337 312d 6137 3632 2d63  f410-4371-a762-c
+-00000a90: 3463 3737 3334 3461 6232 342e 706e 6722  4c77344ab24.png"
+-00000aa0: 2061 6c74 3d22 4153 542d 4d61 7022 3e0a   alt="AST-Map">.
+-00000ab0: 3c2f 703e 0a54 6865 2073 6563 6f6e 6420  </p>.The second 
+-00000ac0: 7061 6765 206f 6620 7468 6520 6170 706c  page of the appl
+-00000ad0: 6963 6174 696f 6e20 6973 2064 6576 6f74  ication is devot
+-00000ae0: 6564 2074 6f20 616e 2069 6e74 6572 6163  ed to an interac
+-00000af0: 7469 7665 206d 6170 2c20 7768 6963 6820  tive map, which 
+-00000b00: 6465 7069 6374 7320 6174 686c 6574 6527  depicts athlete'
+-00000b10: 7320 6375 7272 656e 7420 706f 7369 7469  s current positi
+-00000b20: 6f6e 2e0a 0a4e 6f74 653a 2074 6865 2070  on...Note: the p
+-00000b30: 6f73 6974 696f 6e20 6973 2063 7572 7265  osition is curre
+-00000b40: 6e74 6c79 2068 6172 6463 6f64 6564 2061  ntly hardcoded a
+-00000b50: 6e64 2064 6f65 7320 6e6f 7420 7265 7370  nd does not resp
+-00000b60: 6f6e 6420 6163 636f 7264 696e 6720 746f  ond according to
+-00000b70: 2047 5053 2064 6174 612e 0a0a 2d2d 2d0a   GPS data...---.
+-00000b80: 2323 2320 496e 7465 7276 616c 2074 7261  ### Interval tra
+-00000b90: 696e 696e 6720 6461 7461 0a3c 7020 616c  ining data.<p al
+-00000ba0: 6967 6e3d 2263 656e 7465 7222 3e0a 2020  ign="center">.  
+-00000bb0: 3c69 6d67 2077 6964 7468 3d22 3630 3022  <img width="600"
+-00000bc0: 2073 7263 3d22 6874 7470 733a 2f2f 7573   src="https://us
+-00000bd0: 6572 2d69 6d61 6765 732e 6769 7468 7562  er-images.github
+-00000be0: 7573 6572 636f 6e74 656e 742e 636f 6d2f  usercontent.com/
+-00000bf0: 3733 3132 3638 3230 2f31 3739 3230 3531  73126820/1792051
+-00000c00: 3630 2d65 6463 6535 3831 632d 3165 6138  60-edce581c-1ea8
+-00000c10: 2d34 3238 372d 6137 3935 2d37 6430 3566  -4287-a795-7d05f
+-00000c20: 6237 6338 6464 632e 706e 6722 2061 6c74  b7c8ddc.png" alt
+-00000c30: 3d22 4153 542d 496e 7465 7276 616c 7322  ="AST-Intervals"
+-00000c40: 3e0a 3c2f 703e 0a54 6865 2074 6869 7264  >.</p>.The third
+-00000c50: 2070 6167 6520 6f66 2074 6865 2061 7070   page of the app
+-00000c60: 6c69 6361 7469 6f6e 2064 6570 6963 7473  lication depicts
+-00000c70: 2069 6e74 6572 7661 6c20 7472 6169 6e69   interval traini
+-00000c80: 6e67 2064 6174 612e 2044 7572 696e 6720  ng data. During 
+-00000c90: 616e 2069 6e74 6572 7661 6c20 7472 6169  an interval trai
+-00000ca0: 6e69 6e67 2c20 746f 7461 6c20 6475 7261  ning, total dura
+-00000cb0: 7469 6f6e 206f 6620 7468 6520 6375 7272  tion of the curr
+-00000cc0: 656e 7420 7068 6173 6520 6973 2064 6973  ent phase is dis
+-00000cd0: 706c 6179 6564 2061 6c6f 6e67 2077 6974  played along wit
+-00000ce0: 6820 6375 7272 656e 7420 6865 6172 7420  h current heart 
+-00000cf0: 7261 7465 2c20 6176 6572 6167 6520 6865  rate, average he
+-00000d00: 6172 7420 7261 7465 2c20 4469 6769 7461  art rate, Digita
+-00000d10: 6c20 5477 696e 2070 726f 706f 7365 6420  l Twin proposed 
+-00000d20: 6865 6172 7420 7261 7465 2061 6e64 2074  heart rate and t
+-00000d30: 6865 2064 6966 6665 7265 6e63 6520 6265  he difference be
+-00000d40: 7477 6565 6e20 7468 6520 6375 7272 656e  tween the curren
+-00000d50: 7420 616e 6420 7468 6520 7072 6f70 6f73  t and the propos
+-00000d60: 6564 2068 6561 7274 2072 6174 652e 0a0a  ed heart rate...
+-00000d70: 2d2d 2d0a 2323 2320 496e 7465 7276 616c  ---.### Interval
+-00000d80: 2074 7261 696e 696e 6720 706c 616e 0a3c   training plan.<
+-00000d90: 7020 616c 6967 6e3d 2263 656e 7465 7222  p align="center"
+-00000da0: 3e0a 2020 3c69 6d67 2077 6964 7468 3d22  >.  <img width="
+-00000db0: 3630 3022 2073 7263 3d22 6874 7470 733a  600" src="https:
+-00000dc0: 2f2f 7573 6572 2d69 6d61 6765 732e 6769  //user-images.gi
+-00000dd0: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-00000de0: 636f 6d2f 3733 3132 3638 3230 2f31 3839  com/73126820/189
+-00000df0: 3932 3631 3033 2d65 3038 3935 3133 322d  926103-e0895132-
+-00000e00: 3962 6263 2d34 3162 662d 3838 3638 2d35  9bbc-41bf-8868-5
+-00000e10: 3165 3365 3663 3233 6638 612e 706e 6722  1e3e6c23f8a.png"
+-00000e20: 2061 6c74 3d22 4153 542d 5472 6169 6e69   alt="AST-Traini
+-00000e30: 6e67 7322 3e0a 3c2f 703e 0a54 6865 2066  ngs">.</p>.The f
+-00000e40: 6f75 7274 6820 616e 6420 6669 6e61 6c20  ourth and final 
+-00000e50: 7061 6765 206f 6620 7468 6520 6170 706c  page of the appl
+-00000e60: 6963 6174 696f 6e20 6973 2069 6e74 656e  ication is inten
+-00000e70: 6465 6420 666f 7220 6c6f 6164 696e 6720  ded for loading 
+-00000e80: 616e 6420 7374 6172 7469 6e67 2069 6e74  and starting int
+-00000e90: 6572 7661 6c20 7472 6169 6e69 6e67 7320  erval trainings 
+-00000ea0: 6c6f 6361 7465 6420 696e 2074 6865 2066  located in the f
+-00000eb0: 6f6c 6465 7220 2241 5354 2d4d 6f6e 6974  older "AST-Monit
+-00000ec0: 6f72 2f64 6576 656c 6f70 6d65 6e74 2f74  or/development/t
+-00000ed0: 7261 696e 696e 6773 222e 2049 6e20 6f72  rainings". In or
+-00000ee0: 6465 7220 746f 2062 6520 7061 7273 6564  der to be parsed
+-00000ef0: 2063 6f72 7265 6374 6c79 2c20 7472 6169   correctly, trai
+-00000f00: 6e69 6e67 7320 6d75 7374 2062 6520 7772  nings must be wr
+-00000f10: 6974 7465 6e20 696e 2064 6f6d 6169 6e2d  itten in domain-
+-00000f20: 7370 6563 6966 6963 206c 616e 6775 6167  specific languag
+-00000f30: 6520 3c61 2068 7265 663d 2268 7474 7073  e <a href="https
+-00000f40: 3a2f 2f67 6974 6875 622e 636f 6d2f 6669  ://github.com/fi
+-00000f50: 7265 666c 792d 6370 702f 6173 742d 7464  refly-cpp/ast-td
+-00000f60: 6c22 3e41 5354 2d54 444c 3c2f 613e 2061  l">AST-TDL</a> a
+-00000f70: 6e64 2063 6f6e 7665 7274 6564 2074 6f20  nd converted to 
+-00000f80: 4a61 7661 5363 7269 7074 204f 626a 6563  JavaScript Objec
+-00000f90: 7420 4e6f 7461 7469 6f6e 2028 4a53 4f4e  t Notation (JSON
+-00000fa0: 292e 2041 6674 6572 2073 7563 6365 7373  ). After success
+-00000fb0: 6675 6c20 6c6f 6164 696e 6720 6f66 2061  ful loading of a
+-00000fc0: 6e20 696e 7465 7276 616c 2074 7261 696e  n interval train
+-00000fd0: 696e 672c 2074 6865 2074 7261 696e 696e  ing, the trainin
+-00000fe0: 6720 706c 616e 2069 7320 6469 7370 6c61  g plan is displa
+-00000ff0: 7965 6420 6f6e 2074 6869 7320 7061 6765  yed on this page
+-00001000: 2e0a 0a0a 2323 2048 6172 6477 6172 6520  ....## Hardware 
+-00001010: 6f75 746c 696e 650a 5468 6520 636f 6d70  outline.The comp
+-00001020: 6c65 7465 2068 6172 6477 6172 6520 7061  lete hardware pa
+-00001030: 7274 2069 7320 7368 6f77 6e20 696e 2074  rt is shown in t
+-00001040: 6865 2066 6967 7572 6520 6672 6f6d 2077  he figure from w
+-00001050: 6869 6368 2069 7420 6361 6e20 6265 2073  hich it can be s
+-00001060: 6565 6e20 7468 6174 2074 6865 2041 5354  een that the AST
+-00001070: 2d63 6f6d 7075 7465 7220 6973 2073 706c  -computer is spl
+-00001080: 6974 2069 6e74 6f20 7468 6520 666f 6c6c  it into the foll
+-00001090: 6f77 696e 6720 7069 6563 6573 3a0a 0a2a  owing pieces:..*
+-000010a0: 2061 2070 6c61 7466 6f72 6d20 7769 7468   a platform with
+-000010b0: 2066 6978 696e 6720 7374 7261 7073 2074   fixing straps t
+-000010c0: 6861 7420 6174 7461 6368 2074 6f20 6120  hat attach to a 
+-000010d0: 6269 6379 636c 652c 0a2a 2074 6865 2052  bicycle,.* the R
+-000010e0: 6173 7062 6572 7279 2050 6920 3420 4d6f  aspberry Pi 4 Mo
+-000010f0: 6465 6c20 4220 6d69 6372 6f2d 636f 6e74  del B micro-cont
+-00001100: 726f 6c6c 6572 2077 6974 6820 5261 7370  roller with Rasp
+-00001110: 6269 616e 204f 5320 696e 7374 616c 6c65  bian OS installe
+-00001120: 642c 0a2a 2061 2066 6976 652d 696e 6368  d,.* a five-inch
+-00001130: 204c 4344 2074 6f75 6368 2073 6372 6565   LCD touch scree
+-00001140: 6e20 6469 7370 6c61 792c 0a2a 2061 2055  n display,.* a U
+-00001150: 5342 2041 4e54 2b20 7374 6963 6b2c 0a2a  SB ANT+ stick,.*
+-00001160: 2041 6461 6672 7569 7427 7320 556c 7469   Adafruit's Ulti
+-00001170: 6d61 7465 2047 5053 2048 4154 206d 6f64  mate GPS HAT mod
+-00001180: 756c 652e 0a0a 3c70 2061 6c69 676e 3d22  ule...<p align="
+-00001190: 6365 6e74 6572 223e 0a20 203c 696d 6720  center">.  <img 
+-000011a0: 7769 6474 683d 2236 3030 2220 7372 633d  width="600" src=
+-000011b0: 2268 7474 7073 3a2f 2f72 6177 2e67 6974  "https://raw.git
+-000011c0: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
+-000011d0: 6f6d 2f66 6972 6566 6c79 2d63 7070 2f41  om/firefly-cpp/A
+-000011e0: 5354 2d4d 6f6e 6974 6f72 2f6d 6169 6e2f  ST-Monitor/main/
+-000011f0: 2e67 6974 6875 622f 696d 672f 636f 6d70  .github/img/comp
+-00001200: 6c65 7465 5f73 6d61 6c6c 2e4a 5047 2220  lete_small.JPG" 
+-00001210: 616c 743d 2241 5354 2d4d 6f6e 6974 6f72  alt="AST-Monitor
+-00001220: 223e 0a3c 2f70 3e0a 0a41 2053 6572 6961  ">.</p>..A Seria
+-00001230: 6c20 5065 7269 7068 6572 616c 2049 6e74  l Peripheral Int
+-00001240: 6572 6661 6365 2028 5350 4929 2070 726f  erface (SPI) pro
+-00001250: 746f 636f 6c20 7761 7320 6465 6469 6361  tocol was dedica
+-00001260: 7465 6420 746f 2063 6f6d 6d75 6e69 6361  ted to communica
+-00001270: 7469 6f6e 2062 6574 7765 656e 2074 6865  tion between the
+-00001280: 2052 6173 7062 6572 7279 2050 6920 616e   Raspberry Pi an
+-00001290: 6420 7468 6520 4750 5320 7065 7269 7068  d the GPS periph
+-000012a0: 6572 616c 2e20 4120 7370 6563 6961 6c69  eral. A speciali
+-000012b0: 7a65 6420 5553 4220 414e 542b 2073 7469  zed USB ANT+ sti
+-000012c0: 636b 2077 6173 2075 7365 6420 746f 2063  ck was used to c
+-000012d0: 6170 7475 7265 2074 6865 2048 5220 7369  apture the HR si
+-000012e0: 676e 616c 2e20 5468 6520 7363 7265 656e  gnal. The screen
+-000012f0: 2064 6973 706c 6179 2077 6173 2063 6f6e   display was con
+-00001300: 6e65 6374 6564 2075 7369 6e67 2061 206d  nected using a m
+-00001310: 6f64 6966 6965 6420 2870 6879 7369 6361  odified (physica
+-00001320: 6c6c 7920 7368 6f72 7465 6e65 6429 2048  lly shortened) H
+-00001330: 444d 4920 6361 626c 652c 2077 6869 6c65  DMI cable, while
+-00001340: 2074 6865 2074 6f75 6368 2066 6565 6462   the touch feedb
+-00001350: 6163 6b20 7761 7320 696d 706c 656d 656e  ack was implemen
+-00001360: 7465 6420 7573 696e 6720 7068 7973 6963  ted using physic
+-00001370: 616c 2077 6972 6573 2e20 5468 6520 636f  al wires. The co
+-00001380: 6d70 7574 6572 2077 6173 2070 6f77 6572  mputer was power
+-00001390: 6564 2064 7572 696e 6720 7468 6520 7465  ed during the te
+-000013a0: 7374 696e 6720 7068 6173 6520 7573 696e  sting phase usin
+-000013b0: 6720 7468 6520 5472 7573 7427 7320 2835  g the Trust's (5
+-000013c0: 2056 4443 2920 706f 7765 7220 6261 6e6b   VDC) power bank
+-000013d0: 2e20 5468 6520 4153 542d 4d6f 6e69 746f  . The AST-Monito
+-000013e0: 7220 7072 6f74 6f74 7970 6520 6973 2073  r prototype is s
+-000013f0: 7469 6c6c 2061 206c 6974 746c 6520 6275  till a little bu
+-00001400: 6c6b 792c 2062 7574 2061 206d 6f72 6520  lky, but a more 
+-00001410: 6469 7363 7265 7465 2073 6f6c 7574 696f  discrete solutio
+-00001420: 6e20 6973 2062 6569 6e67 2073 6561 7263  n is being searc
+-00001430: 6865 6420 666f 722c 2069 6e63 6c75 6469  hed for, includi
+-00001440: 6e67 2074 6865 2073 7765 6174 2064 7261  ng the sweat dra
+-00001450: 696e 6572 206f 6620 7468 6520 4153 542e  iner of the AST.
+-00001460: 2049 6e74 6572 6e61 6c20 636f 6d70 6f6e   Internal compon
+-00001470: 656e 7473 206f 6620 4153 542d 4d6f 6e69  ents of AST-Moni
+-00001480: 746f 7220 6172 6520 6465 7069 6374 6564  tor are depicted
+-00001490: 2069 6e20 7468 6520 666f 6c6c 6f77 696e   in the followin
+-000014a0: 6720 7363 6865 6d65 2e0a 0a3c 7020 616c  g scheme...<p al
+-000014b0: 6967 6e3d 2263 656e 7465 7222 3e0a 2020  ign="center">.  
+-000014c0: 3c69 6d67 2077 6964 7468 3d22 3630 3022  <img width="600"
+-000014d0: 2073 7263 3d22 6874 7470 733a 2f2f 7573   src="https://us
+-000014e0: 6572 2d69 6d61 6765 732e 6769 7468 7562  er-images.github
+-000014f0: 7573 6572 636f 6e74 656e 742e 636f 6d2f  usercontent.com/
+-00001500: 3733 3132 3638 3230 2f31 3839 3932 3031  73126820/1899201
+-00001510: 3731 2d61 6339 3436 6139 332d 6164 3738  71-ac946a93-ad78
+-00001520: 2d34 6534 622d 6266 3039 2d35 6465 3562  -4e4b-bf09-5de5b
+-00001530: 6636 3962 6566 392e 706e 6722 2061 6c74  f69bef9.png" alt
+-00001540: 3d22 4153 542d 4d6f 6e69 746f 7222 3e0a  ="AST-Monitor">.
+-00001550: 3c2f 703e 0a0a 2323 2053 6f66 7477 6172  </p>..## Softwar
+-00001560: 6520 6f75 746c 696e 650a 2323 2320 4465  e outline.### De
+-00001570: 7065 6e64 656e 6369 6573 0a4c 6973 7420  pendencies.List 
+-00001580: 6f66 2064 6570 656e 6465 6e63 6965 733a  of dependencies:
+-00001590: 0a0a 7c20 5061 636b 6167 6520 2020 2020  ..| Package     
+-000015a0: 207c 2056 6572 7369 6f6e 2020 2020 7c20   | Version    | 
+-000015b0: 506c 6174 666f 726d 207c 0a7c 202d 2d2d  Platform |.| ---
+-000015c0: 2d2d 2d2d 2d2d 2d2d 2d20 7c3a 2d2d 2d2d  --------- |:----
+-000015d0: 2d2d 2d2d 2d2d 3a7c 3a2d 2d2d 2d2d 2d2d  ------:|:-------
+-000015e0: 2d3a 7c0a 7c20 5079 5174 3520 2020 2020  -:|.| PyQt5     
+-000015f0: 2020 207c 205e 352e 3135 2e36 2020 2020     | ^5.15.6    
+-00001600: 7c20 416c 6c20 2020 2020 207c 0a7c 206d  | All      |.| m
+-00001610: 6174 706c 6f74 6c69 6220 2020 7c20 5e33  atplotlib   | ^3
+-00001620: 2e35 2e31 2020 2020 207c 2041 6c6c 2020  .5.1     | All  
+-00001630: 2020 2020 7c0a 7c20 6765 6f70 7920 2020      |.| geopy   
+-00001640: 2020 2020 207c 205e 322e 322e 3020 2020       | ^2.2.0   
+-00001650: 2020 7c20 416c 6c20 2020 2020 207c 0a7c    | All      |.|
+-00001660: 206f 7065 6e61 6e74 2020 2020 2020 2020   openant        
+-00001670: 7c20 7630 2e34 2020 2020 207c 2041 6c6c  | v0.4     | All
+-00001680: 2020 2020 2020 7c0a 7c20 7079 7174 2d66        |.| pyqt-f
+-00001690: 6565 6462 6163 6b2d 666c 6f77 2020 2020  eedback-flow    
+-000016a0: 2020 207c 205e 302e 312e 3020 2020 2020     | ^0.1.0     
+-000016b0: 7c20 416c 6c20 2020 2020 207c 0a7c 2074  | All      |.| t
+-000016c0: 6378 7265 6164 6572 2020 2020 2020 207c  cxreader       |
+-000016d0: 205e 302e 342e 3120 2020 2020 7c20 416c   ^0.4.1     | Al
+-000016e0: 6c20 2020 2020 207c 0a7c 2073 706f 7274  l      |.| sport
+-000016f0: 2d61 6374 6976 6974 6965 732d 6665 6174  -activities-feat
+-00001700: 7572 6573 2020 2020 2020 207c 205e 302e  ures       | ^0.
+-00001710: 332e 3620 2020 2020 7c20 416c 6c20 2020  3.6     | All   
+-00001720: 2020 207c 0a0a 4e6f 7465 3a20 6f70 656e     |..Note: open
+-00001730: 616e 7420 7061 636b 6167 6520 7368 6f75  ant package shou
+-00001740: 6c64 2062 6520 696e 7374 616c 6c65 6420  ld be installed 
+-00001750: 6d61 6e75 616c 6c79 2e20 506c 6561 7365  manually. Please
+-00001760: 2066 6f6c 6c6f 7720 7468 6520 5b6f 6666   follow the [off
+-00001770: 6963 6961 6c20 696e 7374 7275 6374 696f  icial instructio
+-00001780: 6e73 5d28 6874 7470 733a 2f2f 6769 7468  ns](https://gith
+-00001790: 7562 2e63 6f6d 2f54 6967 6765 2f6f 7065  ub.com/Tigge/ope
+-000017a0: 6e61 6e74 292e 2049 6620 796f 7520 7573  nant). If you us
+-000017b0: 6520 4665 646f 7261 204f 532c 2079 6f75  e Fedora OS, you
+-000017c0: 2063 616e 2069 6e73 7461 6c6c 206f 7065   can install ope
+-000017d0: 6e61 6e74 2070 6163 6b61 6765 2075 7369  nant package usi
+-000017e0: 6e67 2074 6865 2064 6e66 2070 6163 6b61  ng the dnf packa
+-000017f0: 6765 206d 616e 6167 6572 3a0a 0a60 6060  ge manager:..```
+-00001800: 7368 0a24 2064 6e66 2069 6e73 7461 6c6c  sh.$ dnf install
+-00001810: 2070 7974 686f 6e2d 6f70 656e 616e 740a   python-openant.
+-00001820: 6060 600a 0a41 6464 6974 696f 6e61 6c20  ```..Additional 
+-00001830: 6e6f 7465 3a20 6164 6166 7275 6974 2d63  note: adafruit-c
+-00001840: 6972 6375 6974 7079 7468 6f6e 2d67 7073  ircuitpython-gps
+-00001850: 2070 6163 6b61 6765 206d 7573 7420 6265   package must be
+-00001860: 2069 6e73 7461 6c6c 6564 2069 6e20 6f72   installed in or
+-00001870: 6465 7220 746f 2077 6f72 6b20 7769 7468  der to work with
+-00001880: 2074 6865 2047 5053 2073 656e 736f 723a   the GPS sensor:
+-00001890: 0a0a 6060 6073 680a 2420 7069 7020 696e  ..```sh.$ pip in
+-000018a0: 7374 616c 6c20 6164 6166 7275 6974 2d63  stall adafruit-c
+-000018b0: 6972 6375 6974 7079 7468 6f6e 2d67 7073  ircuitpython-gps
+-000018c0: 0a60 6060 0a0a 2323 2049 6e73 7461 6c6c  .```..## Install
+-000018d0: 6174 696f 6e0a 496e 7374 616c 6c20 4153  ation.Install AS
+-000018e0: 542d 4d6f 6e69 746f 7220 7769 7468 2070  T-Monitor with p
+-000018f0: 6970 3a0a 0a60 6060 7368 0a24 2070 6970  ip:..```sh.$ pip
+-00001900: 2069 6e73 7461 6c6c 2061 7374 2d6d 6f6e   install ast-mon
+-00001910: 6974 6f72 0a60 6060 0a49 6e20 6361 7365  itor.```.In case
+-00001920: 2079 6f75 2077 616e 7420 746f 2069 6e73   you want to ins
+-00001930: 7461 6c6c 2064 6972 6563 746c 7920 6672  tall directly fr
+-00001940: 6f6d 2074 6865 2073 6f75 7263 6520 636f  om the source co
+-00001950: 6465 2c20 7573 653a 0a0a 6060 6073 680a  de, use:..```sh.
+-00001960: 2420 6769 7420 636c 6f6e 6520 6874 7470  $ git clone http
+-00001970: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f66  s://github.com/f
+-00001980: 6972 6566 6c79 2d63 7070 2f41 5354 2d4d  irefly-cpp/AST-M
+-00001990: 6f6e 6974 6f72 2e67 6974 0a24 2063 6420  onitor.git.$ cd 
+-000019a0: 4153 542d 4d6f 6e69 746f 720a 2420 706f  AST-Monitor.$ po
+-000019b0: 6574 7279 2062 7569 6c64 0a24 2070 7974  etry build.$ pyt
+-000019c0: 686f 6e20 7365 7475 702e 7079 2069 6e73  hon setup.py ins
+-000019d0: 7461 6c6c 0a60 6060 0a0a 546f 2069 6e73  tall.```..To ins
+-000019e0: 7461 6c6c 2041 5354 2d4d 6f6e 6974 6f72  tall AST-Monitor
+-000019f0: 206f 6e20 4665 646f 7261 204c 696e 7578   on Fedora Linux
+-00001a00: 2c20 706c 6561 7365 2075 7365 3a0a 0a60  , please use:..`
+-00001a10: 6060 7368 0a24 2064 6e66 2069 6e73 7461  ``sh.$ dnf insta
+-00001a20: 6c6c 2070 7974 686f 6e33 2d61 7374 2d6d  ll python3-ast-m
+-00001a30: 6f6e 6974 6f72 0a60 6060 0a0a 546f 2069  onitor.```..To i
+-00001a40: 6e73 7461 6c6c 2041 5354 2d4d 6f6e 6974  nstall AST-Monit
+-00001a50: 6f72 206f 6e20 416c 7069 6e65 204c 696e  or on Alpine Lin
+-00001a60: 7578 2c20 706c 6561 7365 2075 7365 3a0a  ux, please use:.
+-00001a70: 0a60 6060 7368 0a24 2061 706b 2061 6464  .```sh.$ apk add
+-00001a80: 2070 7933 2d61 7374 2d6d 6f6e 6974 6f72   py3-ast-monitor
+-00001a90: 0a60 6060 0a0a 546f 2069 6e73 7461 6c6c  .```..To install
+-00001aa0: 2041 5354 2d4d 6f6e 6974 6f72 206f 6e20   AST-Monitor on 
+-00001ab0: 4172 6368 204c 696e 7578 2c20 706c 6561  Arch Linux, plea
+-00001ac0: 7365 2075 7365 2061 6e20 5b41 5552 2068  se use an [AUR h
+-00001ad0: 656c 7065 725d 2868 7474 7073 3a2f 2f77  elper](https://w
+-00001ae0: 696b 692e 6172 6368 6c69 6e75 782e 6f72  iki.archlinux.or
+-00001af0: 672f 7469 746c 652f 4155 525f 6865 6c70  g/title/AUR_help
+-00001b00: 6572 7329 3a0a 0a60 6060 7368 0a24 2079  ers):..```sh.$ y
+-00001b10: 6179 202d 5379 7975 2070 7974 686f 6e2d  ay -Syyu python-
+-00001b20: 6173 742d 6d6f 6e69 746f 720a 6060 600a  ast-monitor.```.
+-00001b30: 0a23 2320 4465 706c 6f79 6d65 6e74 0a4f  .## Deployment.O
+-00001b40: 7572 2070 726f 6a65 6374 2077 6173 2064  ur project was d
+-00001b50: 6570 6c6f 7965 6420 6f6e 2061 2052 6173  eployed on a Ras
+-00001b60: 7062 6572 7279 2050 6920 6465 7669 6365  pberry Pi device
+-00001b70: 2075 7369 6e67 2052 6173 7062 6572 7279   using Raspberry
+-00001b80: 2050 6920 4f53 2e0a 0a54 6865 2068 6172   Pi OS...The har
+-00001b90: 6477 6172 6520 636f 6e66 6967 7572 6174  dware configurat
+-00001ba0: 696f 6e20 6f66 2041 5354 2d4d 6f6e 6974  ion of AST-Monit
+-00001bb0: 6f72 2075 7369 6e67 2052 6173 7062 6572  or using Raspber
+-00001bc0: 7279 2050 6920 4f53 2069 7320 6465 7363  ry Pi OS is desc
+-00001bd0: 7269 6265 6420 696e 203c 6120 6872 6566  ribed in <a href
+-00001be0: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00001bf0: 2e63 6f6d 2f66 6972 6566 6c79 2d63 7070  .com/firefly-cpp
+-00001c00: 2f41 5354 2d4d 6f6e 6974 6f72 2f62 6c6f  /AST-Monitor/blo
+-00001c10: 622f 6d61 696e 2f48 4152 4457 4152 455f  b/main/HARDWARE_
+-00001c20: 434f 4e46 4947 5552 4154 494f 4e2e 6d64  CONFIGURATION.md
+-00001c30: 223e 4841 5244 5741 5245 5f43 4f4e 4649  ">HARDWARE_CONFI
+-00001c40: 4755 5241 5449 4f4e 2e6d 643c 2f61 3e2e  GURATION.md</a>.
+-00001c50: 0a0a 2323 2045 7861 6d70 6c65 730a 0a23  ..## Examples..#
+-00001c60: 2323 2042 6173 6963 2072 756e 0a60 6060  ## Basic run.```
+-00001c70: 7079 7468 6f6e 0a66 726f 6d20 5079 5174  python.from PyQt
+-00001c80: 3520 696d 706f 7274 2051 7457 6964 6765  5 import QtWidge
+-00001c90: 7473 0a69 6d70 6f72 7420 7379 730a 0a74  ts.import sys..t
+-00001ca0: 7279 3a0a 2020 2020 6672 6f6d 2061 7374  ry:.    from ast
+-00001cb0: 5f6d 6f6e 6974 6f72 2e6d 6f64 656c 2069  _monitor.model i
+-00001cc0: 6d70 6f72 7420 4153 540a 6578 6365 7074  mport AST.except
+-00001cd0: 204d 6f64 756c 654e 6f74 466f 756e 6445   ModuleNotFoundE
+-00001ce0: 7272 6f72 3a0a 2020 2020 7379 732e 7061  rror:.    sys.pa
+-00001cf0: 7468 2e61 7070 656e 6428 272e 2e2f 2729  th.append('../')
+-00001d00: 0a20 2020 2066 726f 6d20 6173 745f 6d6f  .    from ast_mo
+-00001d10: 6e69 746f 722e 6d6f 6465 6c20 696d 706f  nitor.model impo
+-00001d20: 7274 2041 5354 0a0a 0a23 2050 6174 6873  rt AST...# Paths
+-00001d30: 2074 6f20 7468 6520 6669 6c65 7320 7769   to the files wi
+-00001d40: 7468 2068 6561 7274 2072 6174 6573 2061  th heart rates a
+-00001d50: 6e64 2047 5053 2064 6174 612e 0a68 725f  nd GPS data..hr_
+-00001d60: 6461 7461 203d 2027 2e2e 2f73 656e 736f  data = '../senso
+-00001d70: 725f 6461 7461 2f68 722e 7478 7427 0a67  r_data/hr.txt'.g
+-00001d80: 7073 5f64 6174 6120 3d20 272e 2e2f 7365  ps_data = '../se
+-00001d90: 6e73 6f72 5f64 6174 612f 6770 732e 7478  nsor_data/gps.tx
+-00001da0: 7427 0a0a 6966 205f 5f6e 616d 655f 5f20  t'..if __name__ 
+-00001db0: 3d3d 2027 5f5f 6d61 696e 5f5f 273a 0a20  == '__main__':. 
+-00001dc0: 2020 2061 7070 203d 2051 7457 6964 6765     app = QtWidge
+-00001dd0: 7473 2e51 4170 706c 6963 6174 696f 6e28  ts.QApplication(
+-00001de0: 7379 732e 6172 6776 290a 2020 2020 7769  sys.argv).    wi
+-00001df0: 6e64 6f77 203d 2041 5354 2868 725f 6461  ndow = AST(hr_da
+-00001e00: 7461 2c20 6770 735f 6461 7461 290a 2020  ta, gps_data).  
+-00001e10: 2020 7769 6e64 6f77 2e73 686f 7728 290a    window.show().
+-00001e20: 2020 2020 7379 732e 6578 6974 2861 7070      sys.exit(app
+-00001e30: 2e65 7865 635f 2829 290a 6060 600a 0a23  .exec_()).```..#
+-00001e40: 2320 4c69 6365 6e73 650a 5468 6973 2070  # License.This p
+-00001e50: 6163 6b61 6765 2069 7320 6469 7374 7269  ackage is distri
+-00001e60: 6275 7465 6420 756e 6465 7220 7468 6520  buted under the 
+-00001e70: 4d49 5420 4c69 6365 6e73 652e 2054 6869  MIT License. Thi
+-00001e80: 7320 6c69 6365 6e73 6520 6361 6e20 6265  s license can be
+-00001e90: 2066 6f75 6e64 206f 6e6c 696e 6520 6174   found online at
+-00001ea0: 203c 6874 7470 3a2f 2f77 7777 2e6f 7065   <http://www.ope
+-00001eb0: 6e73 6f75 7263 652e 6f72 672f 6c69 6365  nsource.org/lice
+-00001ec0: 6e73 6573 2f4d 4954 3e2e 0a0a 2323 2044  nses/MIT>...## D
+-00001ed0: 6973 636c 6169 6d65 720a 5468 6973 2066  isclaimer.This f
+-00001ee0: 7261 6d65 776f 726b 2069 7320 7072 6f76  ramework is prov
+-00001ef0: 6964 6564 2061 732d 6973 2c20 616e 6420  ided as-is, and 
+-00001f00: 7468 6572 6520 6172 6520 6e6f 2067 7561  there are no gua
+-00001f10: 7261 6e74 6565 7320 7468 6174 2069 7420  rantees that it 
+-00001f20: 6669 7473 2079 6f75 7220 7075 7270 6f73  fits your purpos
+-00001f30: 6573 206f 7220 7468 6174 2069 7420 6973  es or that it is
+-00001f40: 2062 7567 2d66 7265 652e 2055 7365 2069   bug-free. Use i
+-00001f50: 7420 6174 2079 6f75 7220 6f77 6e20 7269  t at your own ri
+-00001f60: 736b 210a 0a23 2320 4369 7465 2075 730a  sk!..## Cite us.
+-00001f70: 4c75 6b61 c48d 2c20 4c2e 2c20 4669 7374  Luka.., L., Fist
+-00001f80: 6572 204a 722e 2c20 492e 2c20 4669 7374  er Jr., I., Fist
+-00001f90: 6572 2c20 492e 2022 5b44 6967 6974 616c  er, I. "[Digital
+-00001fa0: 2054 7769 6e20 696e 2053 706f 7274 3a20   Twin in Sport: 
+-00001fb0: 4672 6f6d 2061 6e20 4964 6561 2074 6f20  From an Idea to 
+-00001fc0: 5265 616c 697a 6174 696f 6e5d 2868 7474  Realization](htt
+-00001fd0: 7073 3a2f 2f77 7777 2e6d 6470 692e 636f  ps://www.mdpi.co
+-00001fe0: 6d2f 3230 3736 2d33 3431 372f 3132 2f32  m/2076-3417/12/2
+-00001ff0: 342f 3132 3734 3129 2e22 2041 7070 6c69  4/12741)." Appli
+-00002000: 6564 2053 6369 656e 6365 7320 3132 2e32  ed Sciences 12.2
+-00002010: 3420 2832 3032 3229 3a20 3132 3734 312e  4 (2022): 12741.
+-00002020: 0a0a 2323 2052 6566 6572 656e 6365 730a  ..## References.
+-00002030: 4669 7374 6572 204a 722c 2049 2e2c 2046  Fister Jr, I., F
+-00002040: 6973 7465 722c 2049 2e2c 2049 676c 6573  ister, I., Igles
+-00002050: 6961 732c 2041 2e2c 2047 616c 7665 7a2c  ias, A., Galvez,
+-00002060: 2041 2e2c 2044 6562 2c20 532e 2c20 2620   A., Deb, S., & 
+-00002070: 4669 7374 6572 2c20 442e 2028 3230 3231  Fister, D. (2021
+-00002080: 292e 204f 6e20 6465 706c 6f79 696e 6720  ). On deploying 
+-00002090: 7468 6520 4172 7469 6669 6369 616c 2053  the Artificial S
+-000020a0: 706f 7274 2054 7261 696e 6572 2069 6e74  port Trainer int
+-000020b0: 6f20 7072 6163 7469 6365 2e20 6172 5869  o practice. arXi
+-000020c0: 7620 7072 6570 7269 6e74 205b 6172 5869  v preprint [arXi
+-000020d0: 763a 3231 3039 2e31 3333 3334 5d28 6874  v:2109.13334](ht
+-000020e0: 7470 733a 2f2f 6172 7869 762e 6f72 672f  tps://arxiv.org/
+-000020f0: 6162 732f 3231 3039 2e31 3333 3334 292e  abs/2109.13334).
+-00002100: 0a0a 4669 7374 6572 204a 722c 2049 2e2c  ..Fister Jr, I.,
+-00002110: 2053 616c 6365 646f 2d53 616e 7a2c 2053   Salcedo-Sanz, S
+-00002120: 2e2c 2049 676c 6573 6961 732c 2041 2e2c  ., Iglesias, A.,
+-00002130: 2046 6973 7465 722c 2044 2e2c 2047 c3a1   Fister, D., G..
+-00002140: 6c76 657a 2c20 412e 2c20 2620 4669 7374  lvez, A., & Fist
+-00002150: 6572 2c20 492e 2028 3230 3231 292e 204e  er, I. (2021). N
+-00002160: 6577 2050 6572 7370 6563 7469 7665 7320  ew Perspectives 
+-00002170: 696e 2074 6865 2044 6576 656c 6f70 6d65  in the Developme
+-00002180: 6e74 206f 6620 7468 6520 4172 7469 6669  nt of the Artifi
+-00002190: 6369 616c 2053 706f 7274 2054 7261 696e  cial Sport Train
+-000021a0: 6572 2e20 4170 706c 6965 6420 5363 6965  er. Applied Scie
+-000021b0: 6e63 6573 2c20 3131 2832 3329 2c20 3131  nces, 11(23), 11
+-000021c0: 3435 322e 2044 4f49 3a20 5b31 302e 3333  452. DOI: [10.33
+-000021d0: 3930 2f61 7070 3131 3233 3131 3435 325d  90/app112311452]
+-000021e0: 2868 7474 7073 3a2f 2f64 6f69 2e6f 7267  (https://doi.org
+-000021f0: 2f31 302e 3333 3930 2f61 7070 3131 3233  /10.3390/app1123
+-00002200: 3131 3435 3229 0a0a 2323 2043 6f6e 7472  11452)..## Contr
+-00002210: 6962 7574 6f72 730a 0a3c 212d 2d20 414c  ibutors..<!-- AL
+-00002220: 4c2d 434f 4e54 5249 4255 544f 5253 2d4c  L-CONTRIBUTORS-L
+-00002230: 4953 543a 5354 4152 5420 2d20 446f 206e  IST:START - Do n
+-00002240: 6f74 2072 656d 6f76 6520 6f72 206d 6f64  ot remove or mod
+-00002250: 6966 7920 7468 6973 2073 6563 7469 6f6e  ify this section
+-00002260: 202d 2d3e 0a3c 212d 2d20 7072 6574 7469   -->.<!-- pretti
+-00002270: 6572 2d69 676e 6f72 652d 7374 6172 7420  er-ignore-start 
+-00002280: 2d2d 3e0a 3c21 2d2d 206d 6172 6b64 6f77  -->.<!-- markdow
+-00002290: 6e6c 696e 742d 6469 7361 626c 6520 2d2d  nlint-disable --
+-000022a0: 3e0a 3c74 6162 6c65 3e0a 2020 3c74 626f  >.<table>.  <tbo
+-000022b0: 6479 3e0a 2020 2020 3c74 723e 0a20 2020  dy>.    <tr>.   
+-000022c0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-000022d0: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-000022e0: 7474 703a 2f2f 7777 772e 697a 746f 6b2d  ttp://www.iztok-
+-000022f0: 6a72 2d66 6973 7465 722e 6575 2f22 3e3c  jr-fister.eu/"><
+-00002300: 696d 6720 7372 633d 2268 7474 7073 3a2f  img src="https:/
+-00002310: 2f61 7661 7461 7273 2e67 6974 6875 6275  /avatars.githubu
+-00002320: 7365 7263 6f6e 7465 6e74 2e63 6f6d 2f75  sercontent.com/u
+-00002330: 2f31 3633 3333 3631 3f76 3d34 3f73 3d31  /1633361?v=4?s=1
+-00002340: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00002350: 3b22 2061 6c74 3d22 497a 746f 6b20 4669  ;" alt="Iztok Fi
+-00002360: 7374 6572 204a 722e 222f 3e3c 6272 202f  ster Jr."/><br /
+-00002370: 3e3c 7375 623e 3c62 3e49 7a74 6f6b 2046  ><sub><b>Iztok F
+-00002380: 6973 7465 7220 4a72 2e3c 2f62 3e3c 2f73  ister Jr.</b></s
+-00002390: 7562 3e3c 2f61 3e3c 6272 202f 3e3c 6120  ub></a><br /><a 
+-000023a0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-000023b0: 7468 7562 2e63 6f6d 2f66 6972 6566 6c79  thub.com/firefly
+-000023c0: 2d63 7070 2f41 5354 2d4d 6f6e 6974 6f72  -cpp/AST-Monitor
+-000023d0: 2f69 7373 7565 733f 713d 6175 7468 6f72  /issues?q=author
+-000023e0: 2533 4166 6972 6566 6c79 2d63 7070 2220  %3Afirefly-cpp" 
+-000023f0: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
+-00002400: 7473 223e f09f 909b 3c2f 613e 203c 6120  ts">....</a> <a 
+-00002410: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00002420: 7468 7562 2e63 6f6d 2f66 6972 6566 6c79  thub.com/firefly
+-00002430: 2d63 7070 2f41 5354 2d4d 6f6e 6974 6f72  -cpp/AST-Monitor
+-00002440: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
+-00002450: 6669 7265 666c 792d 6370 7022 2074 6974  firefly-cpp" tit
+-00002460: 6c65 3d22 446f 6375 6d65 6e74 6174 696f  le="Documentatio
+-00002470: 6e22 3ef0 9f93 963c 2f61 3e20 3c61 2068  n">....</a> <a h
+-00002480: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
+-00002490: 6875 622e 636f 6d2f 6669 7265 666c 792d  hub.com/firefly-
+-000024a0: 6370 702f 4153 542d 4d6f 6e69 746f 722f  cpp/AST-Monitor/
+-000024b0: 636f 6d6d 6974 733f 6175 7468 6f72 3d66  commits?author=f
+-000024c0: 6972 6566 6c79 2d63 7070 2220 7469 746c  irefly-cpp" titl
+-000024d0: 653d 2243 6f64 6522 3ef0 9f92 bb3c 2f61  e="Code">....</a
+-000024e0: 3e20 3c61 2068 7265 663d 2223 6d61 696e  > <a href="#main
+-000024f0: 7465 6e61 6e63 652d 6669 7265 666c 792d  tenance-firefly-
+-00002500: 6370 7022 2074 6974 6c65 3d22 4d61 696e  cpp" title="Main
+-00002510: 7465 6e61 6e63 6522 3ef0 9f9a a73c 2f61  tenance">....</a
+-00002520: 3e20 3c61 2068 7265 663d 2223 6d65 6e74  > <a href="#ment
+-00002530: 6f72 696e 672d 6669 7265 666c 792d 6370  oring-firefly-cp
+-00002540: 7022 2074 6974 6c65 3d22 4d65 6e74 6f72  p" title="Mentor
+-00002550: 696e 6722 3ef0 9fa7 91e2 808d f09f 8fab  ing">...........
+-00002560: 3c2f 613e 203c 6120 6872 6566 3d22 2370  </a> <a href="#p
+-00002570: 6c61 7466 6f72 6d2d 6669 7265 666c 792d  latform-firefly-
+-00002580: 6370 7022 2074 6974 6c65 3d22 5061 636b  cpp" title="Pack
+-00002590: 6167 696e 672f 706f 7274 696e 6720 746f  aging/porting to
+-000025a0: 206e 6577 2070 6c61 7466 6f72 6d22 3ef0   new platform">.
+-000025b0: 9f93 a63c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-000025c0: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-000025d0: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-000025e0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-000025f0: 6d2f 6c75 636b 794c 756b 6163 223e 3c69  m/luckyLukac"><i
+-00002600: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-00002610: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
+-00002620: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
+-00002630: 3733 3132 3638 3230 3f76 3d34 3f73 3d31  73126820?v=4?s=1
+-00002640: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-00002650: 3b22 2061 6c74 3d22 6c75 636b 794c 756b  ;" alt="luckyLuk
+-00002660: 6163 222f 3e3c 6272 202f 3e3c 7375 623e  ac"/><br /><sub>
+-00002670: 3c62 3e6c 7563 6b79 4c75 6b61 633c 2f62  <b>luckyLukac</b
+-00002680: 3e3c 2f73 7562 3e3c 2f61 3e3c 6272 202f  ></sub></a><br /
+-00002690: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
+-000026a0: 2f2f 6769 7468 7562 2e63 6f6d 2f66 6972  //github.com/fir
+-000026b0: 6566 6c79 2d63 7070 2f41 5354 2d4d 6f6e  efly-cpp/AST-Mon
+-000026c0: 6974 6f72 2f69 7373 7565 733f 713d 6175  itor/issues?q=au
+-000026d0: 7468 6f72 2533 416c 7563 6b79 4c75 6b61  thor%3AluckyLuka
+-000026e0: 6322 2074 6974 6c65 3d22 4275 6720 7265  c" title="Bug re
+-000026f0: 706f 7274 7322 3ef0 9f90 9b3c 2f61 3e20  ports">....</a> 
+-00002700: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
+-00002710: 2f67 6974 6875 622e 636f 6d2f 6669 7265  /github.com/fire
+-00002720: 666c 792d 6370 702f 4153 542d 4d6f 6e69  fly-cpp/AST-Moni
+-00002730: 746f 722f 636f 6d6d 6974 733f 6175 7468  tor/commits?auth
+-00002740: 6f72 3d6c 7563 6b79 4c75 6b61 6322 2074  or=luckyLukac" t
+-00002750: 6974 6c65 3d22 446f 6375 6d65 6e74 6174  itle="Documentat
+-00002760: 696f 6e22 3ef0 9f93 963c 2f61 3e20 3c61  ion">....</a> <a
+-00002770: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
+-00002780: 6974 6875 622e 636f 6d2f 6669 7265 666c  ithub.com/firefl
+-00002790: 792d 6370 702f 4153 542d 4d6f 6e69 746f  y-cpp/AST-Monito
+-000027a0: 722f 636f 6d6d 6974 733f 6175 7468 6f72  r/commits?author
+-000027b0: 3d6c 7563 6b79 4c75 6b61 6322 2074 6974  =luckyLukac" tit
+-000027c0: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
+-000027d0: 613e 203c 6120 6872 6566 3d22 2364 6573  a> <a href="#des
+-000027e0: 6967 6e2d 6c75 636b 794c 756b 6163 2220  ign-luckyLukac" 
+-000027f0: 7469 746c 653d 2244 6573 6967 6e22 3ef0  title="Design">.
+-00002800: 9f8e a83c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-00002810: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00002820: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-00002830: 7474 703a 2f2f 6361 726c 6f73 616c 3130  ttp://carlosal10
+-00002840: 3135 2e67 6974 6875 622e 696f 223e 3c69  15.github.io"><i
+-00002850: 6d67 2073 7263 3d22 6874 7470 733a 2f2f  mg src="https://
+-00002860: 6176 6174 6172 732e 6769 7468 7562 7573  avatars.githubus
+-00002870: 6572 636f 6e74 656e 742e 636f 6d2f 752f  ercontent.com/u/
+-00002880: 3231 3238 3330 3134 3f76 3d34 3f73 3d31  21283014?v=4?s=1
+-00002890: 3030 2220 7769 6474 683d 2231 3030 7078  00" width="100px
+-000028a0: 3b22 2061 6c74 3d22 4f72 6f6d 696f 6e22  ;" alt="Oromion"
+-000028b0: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
+-000028c0: 4f72 6f6d 696f 6e3c 2f62 3e3c 2f73 7562  Oromion</b></sub
+-000028d0: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
+-000028e0: 6566 3d22 2370 6c61 7466 6f72 6d2d 6361  ef="#platform-ca
+-000028f0: 726c 6f73 616c 3130 3135 2220 7469 746c  rlosal1015" titl
+-00002900: 653d 2250 6163 6b61 6769 6e67 2f70 6f72  e="Packaging/por
+-00002910: 7469 6e67 2074 6f20 6e65 7720 706c 6174  ting to new plat
+-00002920: 666f 726d 223e f09f 93a6 3c2f 613e 3c2f  form">....</a></
+-00002930: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
+-00002940: 6967 6e3d 2263 656e 7465 7222 3e3c 6120  ign="center"><a 
+-00002950: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
+-00002960: 7468 7562 2e63 6f6d 2f61 6c65 6e72 616a  thub.com/alenraj
+-00002970: 7370 223e 3c69 6d67 2073 7263 3d22 6874  sp"><img src="ht
+-00002980: 7470 733a 2f2f 6176 6174 6172 732e 6769  tps://avatars.gi
+-00002990: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
+-000029a0: 636f 6d2f 752f 3237 3732 3137 3134 3f76  com/u/27721714?v
+-000029b0: 3d34 3f73 3d31 3030 2220 7769 6474 683d  =4?s=100" width=
+-000029c0: 2231 3030 7078 3b22 2061 6c74 3d22 616c  "100px;" alt="al
+-000029d0: 656e 7261 6a73 7022 2f3e 3c62 7220 2f3e  enrajsp"/><br />
+-000029e0: 3c73 7562 3e3c 623e 616c 656e 7261 6a73  <sub><b>alenrajs
+-000029f0: 703c 2f62 3e3c 2f73 7562 3e3c 2f61 3e3c  p</b></sub></a><
+-00002a00: 6272 202f 3e3c 6120 6872 6566 3d22 2363  br /><a href="#c
+-00002a10: 6f6e 7465 6e74 2d61 6c65 6e72 616a 7370  ontent-alenrajsp
+-00002a20: 2220 7469 746c 653d 2243 6f6e 7465 6e74  " title="Content
+-00002a30: 223e f09f 968b 3c2f 613e 3c2f 7464 3e0a  ">....</a></td>.
+-00002a40: 2020 2020 3c2f 7472 3e0a 2020 3c2f 7462      </tr>.  </tb
+-00002a50: 6f64 793e 0a3c 2f74 6162 6c65 3e0a 0a3c  ody>.</table>..<
+-00002a60: 212d 2d20 6d61 726b 646f 776e 6c69 6e74  !-- markdownlint
+-00002a70: 2d72 6573 746f 7265 202d 2d3e 0a3c 212d  -restore -->.<!-
+-00002a80: 2d20 7072 6574 7469 6572 2d69 676e 6f72  - prettier-ignor
+-00002a90: 652d 656e 6420 2d2d 3e0a 0a3c 212d 2d20  e-end -->..<!-- 
+-00002aa0: 414c 4c2d 434f 4e54 5249 4255 544f 5253  ALL-CONTRIBUTORS
+-00002ab0: 2d4c 4953 543a 454e 4420 2d2d 3e0a 3c21  -LIST:END -->.<!
+-00002ac0: 2d2d 2070 7265 7474 6965 722d 6967 6e6f  -- prettier-igno
+-00002ad0: 7265 2d73 7461 7274 202d 2d3e 0a3c 212d  re-start -->.<!-
+-00002ae0: 2d20 6d61 726b 646f 776e 6c69 6e74 2d64  - markdownlint-d
+-00002af0: 6973 6162 6c65 202d 2d3e 0a0a 3c21 2d2d  isable -->..<!--
+-00002b00: 206d 6172 6b64 6f77 6e6c 696e 742d 7265   markdownlint-re
+-00002b10: 7374 6f72 6520 2d2d 3e0a 3c21 2d2d 2070  store -->.<!-- p
+-00002b20: 7265 7474 6965 722d 6967 6e6f 7265 2d65  rettier-ignore-e
+-00002b30: 6e64 202d 2d3e 0a0a 3c21 2d2d 2041 4c4c  nd -->..<!-- ALL
+-00002b40: 2d43 4f4e 5452 4942 5554 4f52 532d 4c49  -CONTRIBUTORS-LI
+-00002b50: 5354 3a45 4e44 202d 2d3e 0a              ST:END -->.
++00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
++00000010: 3a20 322e 310a 4e61 6d65 3a20 6173 742d  : 2.1.Name: ast-
++00000020: 6d6f 6e69 746f 720a 5665 7273 696f 6e3a  monitor.Version:
++00000030: 2030 2e33 2e33 0a53 756d 6d61 7279 3a20   0.3.3.Summary: 
++00000040: 4153 542d 4d6f 6e69 746f 7220 6973 2061  AST-Monitor is a
++00000050: 2077 6561 7261 626c 6520 5261 7370 6265   wearable Raspbe
++00000060: 7272 7920 5069 2063 6f6d 7075 7465 7220  rry Pi computer 
++00000070: 666f 7220 6379 636c 6973 7473 0a48 6f6d  for cyclists.Hom
++00000080: 652d 7061 6765 3a20 6874 7470 733a 2f2f  e-page: https://
++00000090: 6769 7468 7562 2e63 6f6d 2f66 6972 6566  github.com/firef
++000000a0: 6c79 2d63 7070 2f41 5354 2d4d 6f6e 6974  ly-cpp/AST-Monit
++000000b0: 6f72 0a4c 6963 656e 7365 3a20 4d49 540a  or.License: MIT.
++000000c0: 4b65 7977 6f72 6473 3a20 6172 7469 6669  Keywords: artifi
++000000d0: 6369 616c 2073 706f 7274 2074 7261 696e  cial sport train
++000000e0: 6572 2c63 6f6d 7075 7461 7469 6f6e 616c  er,computational
++000000f0: 2069 6e74 656c 6c69 6765 6e63 652c 6461   intelligence,da
++00000100: 7461 206d 696e 696e 672c 6461 7461 7365  ta mining,datase
++00000110: 7473 2c64 6967 6974 616c 2074 7769 6e2c  ts,digital twin,
++00000120: 6f70 7469 6d69 7a61 7469 6f6e 2c73 706f  optimization,spo
++00000130: 7274 2061 6374 6976 6974 6965 732c 7463  rt activities,tc
++00000140: 780a 4175 7468 6f72 3a20 497a 746f 6b20  x.Author: Iztok 
++00000150: 4669 7374 6572 204a 722e 0a41 7574 686f  Fister Jr..Autho
++00000160: 722d 656d 6169 6c3a 2069 7a74 6f6b 4069  r-email: iztok@i
++00000170: 7a74 6f6b 2d6a 722d 6669 7374 6572 2e65  ztok-jr-fister.e
++00000180: 750a 5265 7175 6972 6573 2d50 7974 686f  u.Requires-Pytho
++00000190: 6e3a 203e 3d33 2e39 2c3c 342e 300a 436c  n: >=3.9,<4.0.Cl
++000001a0: 6173 7369 6669 6572 3a20 4c69 6365 6e73  assifier: Licens
++000001b0: 6520 3a3a 204f 5349 2041 7070 726f 7665  e :: OSI Approve
++000001c0: 6420 3a3a 204d 4954 204c 6963 656e 7365  d :: MIT License
++000001d0: 0a43 6c61 7373 6966 6965 723a 2050 726f  .Classifier: Pro
++000001e0: 6772 616d 6d69 6e67 204c 616e 6775 6167  gramming Languag
++000001f0: 6520 3a3a 2050 7974 686f 6e20 3a3a 2033  e :: Python :: 3
++00000200: 0a43 6c61 7373 6966 6965 723a 2050 726f  .Classifier: Pro
++00000210: 6772 616d 6d69 6e67 204c 616e 6775 6167  gramming Languag
++00000220: 6520 3a3a 2050 7974 686f 6e20 3a3a 2033  e :: Python :: 3
++00000230: 2e31 300a 436c 6173 7369 6669 6572 3a20  .10.Classifier: 
++00000240: 5072 6f67 7261 6d6d 696e 6720 4c61 6e67  Programming Lang
++00000250: 7561 6765 203a 3a20 5079 7468 6f6e 203a  uage :: Python :
++00000260: 3a20 332e 390a 5265 7175 6972 6573 2d44  : 3.9.Requires-D
++00000270: 6973 743a 2050 7951 7435 0a52 6571 7569  ist: PyQt5.Requi
++00000280: 7265 732d 4469 7374 3a20 5079 5174 5765  res-Dist: PyQtWe
++00000290: 6245 6e67 696e 6520 283e 3d35 2e31 352e  bEngine (>=5.15.
++000002a0: 352c 3c36 2e30 2e30 290a 5265 7175 6972  5,<6.0.0).Requir
++000002b0: 6573 2d44 6973 743a 2067 656f 7079 0a52  es-Dist: geopy.R
++000002c0: 6571 7569 7265 732d 4469 7374 3a20 6d61  equires-Dist: ma
++000002d0: 7470 6c6f 746c 6962 0a52 6571 7569 7265  tplotlib.Require
++000002e0: 732d 4469 7374 3a20 6f70 656e 616e 7420  s-Dist: openant 
++000002f0: 283e 3d31 2e32 2e30 2c3c 322e 302e 3029  (>=1.2.0,<2.0.0)
++00000300: 0a52 6571 7569 7265 732d 4469 7374 3a20  .Requires-Dist: 
++00000310: 7079 7174 2d66 6565 6462 6163 6b2d 666c  pyqt-feedback-fl
++00000320: 6f77 2028 3e3d 302e 312e 362c 3c30 2e32  ow (>=0.1.6,<0.2
++00000330: 2e30 290a 5265 7175 6972 6573 2d44 6973  .0).Requires-Dis
++00000340: 743a 2073 706f 7274 2d61 6374 6976 6974  t: sport-activit
++00000350: 6965 732d 6665 6174 7572 6573 2028 3e3d  ies-features (>=
++00000360: 302e 332e 3132 2c3c 302e 342e 3029 0a52  0.3.12,<0.4.0).R
++00000370: 6571 7569 7265 732d 4469 7374 3a20 7463  equires-Dist: tc
++00000380: 7872 6561 6465 7220 283e 3d30 2e34 2e32  xreader (>=0.4.2
++00000390: 2c3c 302e 352e 3029 0a50 726f 6a65 6374  ,<0.5.0).Project
++000003a0: 2d55 524c 3a20 5265 706f 7369 746f 7279  -URL: Repository
++000003b0: 2c20 6874 7470 733a 2f2f 6769 7468 7562  , https://github
++000003c0: 2e63 6f6d 2f66 6972 6566 6c79 2d63 7070  .com/firefly-cpp
++000003d0: 2f41 5354 2d4d 6f6e 6974 6f72 0a44 6573  /AST-Monitor.Des
++000003e0: 6372 6970 7469 6f6e 2d43 6f6e 7465 6e74  cription-Content
++000003f0: 2d54 7970 653a 2074 6578 742f 6d61 726b  -Type: text/mark
++00000400: 646f 776e 0a0a 2320 4153 542d 4d6f 6e69  down..# AST-Moni
++00000410: 746f 7220 2d2d 2d20 4120 7765 6172 6162  tor --- A wearab
++00000420: 6c65 2052 6173 7062 6572 7279 2050 6920  le Raspberry Pi 
++00000430: 636f 6d70 7574 6572 2066 6f72 2063 7963  computer for cyc
++00000440: 6c69 7374 730a 5b21 5b50 7950 4920 5665  lists.[![PyPI Ve
++00000450: 7273 696f 6e5d 2868 7474 7073 3a2f 2f69  rsion](https://i
++00000460: 6d67 2e73 6869 656c 6473 2e69 6f2f 7079  mg.shields.io/py
++00000470: 7069 2f76 2f61 7374 2d6d 6f6e 6974 6f72  pi/v/ast-monitor
++00000480: 2e73 7667 295d 2868 7474 7073 3a2f 2f70  .svg)](https://p
++00000490: 7970 692e 7079 7468 6f6e 2e6f 7267 2f70  ypi.python.org/p
++000004a0: 7970 692f 6173 742d 6d6f 6e69 746f 7229  ypi/ast-monitor)
++000004b0: 0a21 5b50 7950 4920 2d20 5079 7468 6f6e  .![PyPI - Python
++000004c0: 2056 6572 7369 6f6e 5d28 6874 7470 733a   Version](https:
++000004d0: 2f2f 696d 672e 7368 6965 6c64 732e 696f  //img.shields.io
++000004e0: 2f70 7970 692f 7079 7665 7273 696f 6e73  /pypi/pyversions
++000004f0: 2f61 7374 2d6d 6f6e 6974 6f72 2e73 7667  /ast-monitor.svg
++00000500: 290a 215b 5079 5049 202d 2044 6f77 6e6c  ).![PyPI - Downl
++00000510: 6f61 6473 5d28 6874 7470 733a 2f2f 696d  oads](https://im
++00000520: 672e 7368 6965 6c64 732e 696f 2f70 7970  g.shields.io/pyp
++00000530: 692f 646d 2f61 7374 2d6d 6f6e 6974 6f72  i/dm/ast-monitor
++00000540: 2e73 7667 290a 5b21 5b44 6f77 6e6c 6f61  .svg).[![Downloa
++00000550: 6473 5d28 6874 7470 733a 2f2f 7065 7079  ds](https://pepy
++00000560: 2e74 6563 682f 6261 6467 652f 6173 742d  .tech/badge/ast-
++00000570: 6d6f 6e69 746f 7229 5d28 6874 7470 733a  monitor)](https:
++00000580: 2f2f 7065 7079 2e74 6563 682f 7072 6f6a  //pepy.tech/proj
++00000590: 6563 742f 6173 742d 6d6f 6e69 746f 7229  ect/ast-monitor)
++000005a0: 0a21 5b47 6974 4875 6220 7265 706f 2073  .![GitHub repo s
++000005b0: 697a 655d 2868 7474 7073 3a2f 2f69 6d67  ize](https://img
++000005c0: 2e73 6869 656c 6473 2e69 6f2f 6769 7468  .shields.io/gith
++000005d0: 7562 2f72 6570 6f2d 7369 7a65 2f66 6972  ub/repo-size/fir
++000005e0: 6566 6c79 2d63 7070 2f61 7374 2d6d 6f6e  efly-cpp/ast-mon
++000005f0: 6974 6f72 3f73 7479 6c65 3d66 6c61 742d  itor?style=flat-
++00000600: 7371 7561 7265 290a 5b21 5b47 6974 4875  square).[![GitHu
++00000610: 6220 6c69 6365 6e73 655d 2868 7474 7073  b license](https
++00000620: 3a2f 2f69 6d67 2e73 6869 656c 6473 2e69  ://img.shields.i
++00000630: 6f2f 6769 7468 7562 2f6c 6963 656e 7365  o/github/license
++00000640: 2f66 6972 6566 6c79 2d63 7070 2f61 7374  /firefly-cpp/ast
++00000650: 2d6d 6f6e 6974 6f72 2e73 7667 295d 2868  -monitor.svg)](h
++00000660: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++00000670: 6d2f 6669 7265 666c 792d 6370 702f 4153  m/firefly-cpp/AS
++00000680: 542d 4d6f 6e69 746f 722f 626c 6f62 2f6d  T-Monitor/blob/m
++00000690: 6173 7465 722f 4c49 4345 4e53 4529 0a21  aster/LICENSE).!
++000006a0: 5b47 6974 4875 6220 636f 6d6d 6974 2061  [GitHub commit a
++000006b0: 6374 6976 6974 795d 2868 7474 7073 3a2f  ctivity](https:/
++000006c0: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
++000006d0: 6769 7468 7562 2f63 6f6d 6d69 742d 6163  github/commit-ac
++000006e0: 7469 7669 7479 2f77 2f66 6972 6566 6c79  tivity/w/firefly
++000006f0: 2d63 7070 2f61 7374 2d6d 6f6e 6974 6f72  -cpp/ast-monitor
++00000700: 2e73 7667 290a 215b 4769 7448 7562 2063  .svg).![GitHub c
++00000710: 6f6e 7472 6962 7574 6f72 735d 2868 7474  ontributors](htt
++00000720: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
++00000730: 2e69 6f2f 6769 7468 7562 2f63 6f6e 7472  .io/github/contr
++00000740: 6962 7574 6f72 732f 6669 7265 666c 792d  ibutors/firefly-
++00000750: 6370 702f 6173 742d 6d6f 6e69 746f 722e  cpp/ast-monitor.
++00000760: 7376 6729 0a5b 215b 416c 6c20 436f 6e74  svg).[![All Cont
++00000770: 7269 6275 746f 7273 5d28 6874 7470 733a  ributors](https:
++00000780: 2f2f 696d 672e 7368 6965 6c64 732e 696f  //img.shields.io
++00000790: 2f62 6164 6765 2f61 6c6c 5f63 6f6e 7472  /badge/all_contr
++000007a0: 6962 7574 6f72 732d 342d 6f72 616e 6765  ibutors-4-orange
++000007b0: 2e73 7667 3f73 7479 6c65 3d66 6c61 742d  .svg?style=flat-
++000007c0: 7371 7561 7265 295d 2823 636f 6e74 7269  square)](#contri
++000007d0: 6275 746f 7273 2d29 0a0a 5b21 5b44 4f49  butors-)..[![DOI
++000007e0: 5d28 6874 7470 733a 2f2f 696d 672e 7368  ](https://img.sh
++000007f0: 6965 6c64 732e 696f 2f62 6164 6765 2f44  ields.io/badge/D
++00000800: 4f49 2d31 302e 3131 3039 2f49 5343 4d49  OI-10.1109/ISCMI
++00000810: 3533 3834 302e 3230 3231 2e39 3635 3438  53840.2021.96548
++00000820: 3137 2d62 6c75 6529 5d28 6874 7470 733a  17-blue)](https:
++00000830: 2f2f 646f 692e 6f72 672f 3130 2e31 3130  //doi.org/10.110
++00000840: 392f 4953 434d 4935 3338 3430 2e32 3032  9/ISCMI53840.202
++00000850: 312e 3936 3534 3831 3729 0a5b 215b 444f  1.9654817).[![DO
++00000860: 495d 2868 7474 7073 3a2f 2f69 6d67 2e73  I](https://img.s
++00000870: 6869 656c 6473 2e69 6f2f 6261 6467 652f  hields.io/badge/
++00000880: 444f 492d 3130 2e33 3339 302f 6170 7031  DOI-10.3390/app1
++00000890: 3232 3431 3237 3431 2d62 6c75 6529 5d28  22412741-blue)](
++000008a0: 6874 7470 733a 2f2f 646f 692e 6f72 672f  https://doi.org/
++000008b0: 3130 2e33 3339 302f 6170 7031 3232 3431  10.3390/app12241
++000008c0: 3237 3431 290a 5b21 5b46 6564 6f72 6120  2741).[![Fedora 
++000008d0: 7061 636b 6167 655d 2868 7474 7073 3a2f  package](https:/
++000008e0: 2f69 6d67 2e73 6869 656c 6473 2e69 6f2f  /img.shields.io/
++000008f0: 6665 646f 7261 2f76 2f70 7974 686f 6e33  fedora/v/python3
++00000900: 2d61 7374 2d6d 6f6e 6974 6f72 3f63 6f6c  -ast-monitor?col
++00000910: 6f72 3d62 6c75 6526 6c61 6265 6c3d 4665  or=blue&label=Fe
++00000920: 646f 7261 2532 304c 696e 7578 266c 6f67  dora%20Linux&log
++00000930: 6f3d 6665 646f 7261 295d 2868 7474 7073  o=fedora)](https
++00000940: 3a2f 2f73 7263 2e66 6564 6f72 6170 726f  ://src.fedorapro
++00000950: 6a65 6374 2e6f 7267 2f72 706d 732f 7079  ject.org/rpms/py
++00000960: 7468 6f6e 2d61 7374 2d6d 6f6e 6974 6f72  thon-ast-monitor
++00000970: 290a 5b21 5b41 5552 2070 6163 6b61 6765  ).[![AUR package
++00000980: 5d28 6874 7470 733a 2f2f 696d 672e 7368  ](https://img.sh
++00000990: 6965 6c64 732e 696f 2f61 7572 2f76 6572  ields.io/aur/ver
++000009a0: 7369 6f6e 2f70 7974 686f 6e2d 6173 742d  sion/python-ast-
++000009b0: 6d6f 6e69 746f 723f 636f 6c6f 723d 626c  monitor?color=bl
++000009c0: 7565 266c 6162 656c 3d41 7263 6825 3230  ue&label=Arch%20
++000009d0: 4c69 6e75 7826 6c6f 676f 3d61 7263 682d  Linux&logo=arch-
++000009e0: 6c69 6e75 7829 5d28 6874 7470 733a 2f2f  linux)](https://
++000009f0: 6175 722e 6172 6368 6c69 6e75 782e 6f72  aur.archlinux.or
++00000a00: 672f 7061 636b 6167 6573 2f70 7974 686f  g/packages/pytho
++00000a10: 6e2d 6173 742d 6d6f 6e69 746f 7229 0a0a  n-ast-monitor)..
++00000a20: 2a20 2a2a 446f 6375 6d65 6e74 6174 696f  * **Documentatio
++00000a30: 6e3a 2a2a 205b 6874 7470 733a 2f2f 6173  n:** [https://as
++00000a40: 742d 6d6f 6e69 746f 722e 7265 6164 7468  t-monitor.readth
++00000a50: 6564 6f63 732e 696f 2f65 6e2f 6c61 7465  edocs.io/en/late
++00000a60: 7374 5d28 6874 7470 733a 2f2f 6173 742d  st](https://ast-
++00000a70: 6d6f 6e69 746f 722e 7265 6164 7468 6564  monitor.readthed
++00000a80: 6f63 732e 696f 2f65 6e2f 6c61 7465 7374  ocs.io/en/latest
++00000a90: 290a 2a20 2a2a 5465 7374 6564 204f 533a  ).* **Tested OS:
++00000aa0: 2a2a 2057 696e 646f 7773 2c20 5562 756e  ** Windows, Ubun
++00000ab0: 7475 2c20 4665 646f 7261 2c20 416c 7069  tu, Fedora, Alpi
++00000ac0: 6e65 2c20 4172 6368 2c20 6d61 634f 532e  ne, Arch, macOS.
++00000ad0: 202a 2a48 6f77 6576 6572 2c20 7468 6174   **However, that
++00000ae0: 2064 6f65 7320 6e6f 7420 6d65 616e 2069   does not mean i
++00000af0: 7420 646f 6573 206e 6f74 2077 6f72 6b20  t does not work 
++00000b00: 6f6e 206f 7468 6572 732a 2a0a 2020 0a23  on others**.  .#
++00000b10: 2320 5368 6f72 7420 6465 7363 7269 7074  # Short descript
++00000b20: 696f 6e0a 5468 6973 2072 6570 6f73 6974  ion.This reposit
++00000b30: 6f72 7920 6973 2064 6576 6f74 6564 2074  ory is devoted t
++00000b40: 6f20 4153 542d 4d6f 6e69 746f 722c 2069  o AST-Monitor, i
++00000b50: 2e65 2e2c 2061 206c 6f77 2d63 6f73 7420  .e., a low-cost 
++00000b60: 616e 6420 6566 6669 6369 656e 7420 656d  and efficient em
++00000b70: 6265 6464 6564 2064 6576 6963 6520 666f  bedded device fo
++00000b80: 7220 6d6f 6e69 746f 7269 6e67 2074 6865  r monitoring the
++00000b90: 2072 6561 6c69 7a61 7469 6f6e 206f 6620   realization of 
++00000ba0: 7370 6f72 7420 7472 6169 6e69 6e67 2073  sport training s
++00000bb0: 6573 7369 6f6e 7320 7468 6174 2061 7265  essions that are
++00000bc0: 2064 6564 6963 6174 6564 2074 6f20 6d6f   dedicated to mo
++00000bd0: 6e69 746f 7269 6e67 2063 7963 6c69 6e67  nitoring cycling
++00000be0: 2074 7261 696e 696e 6720 7365 7373 696f   training sessio
++00000bf0: 6e73 2e0a 4153 542d 4d6f 6e69 746f 7220  ns..AST-Monitor 
++00000c00: 6973 2061 2070 6172 7420 6f66 2074 6865  is a part of the
++00000c10: 2041 7274 6966 6963 6961 6c20 5370 6f72   Artificial Spor
++00000c20: 7420 5472 6169 6e65 7220 2841 5354 2920  t Trainer (AST) 
++00000c30: 7379 7374 656d 2e20 5468 6520 6669 7273  system. The firs
++00000c40: 7420 6269 7473 206f 6620 4153 542d 4d6f  t bits of AST-Mo
++00000c50: 6e69 746f 7220 7765 7265 2070 7265 7365  nitor were prese
++00000c60: 6e74 6564 2069 6e20 7468 6520 666f 6c6c  nted in the foll
++00000c70: 6f77 696e 6720 5b70 6170 6572 5d28 6874  owing [paper](ht
++00000c80: 7470 733a 2f2f 6172 7869 762e 6f72 672f  tps://arxiv.org/
++00000c90: 6162 732f 3231 3039 2e31 3333 3334 292e  abs/2109.13334).
++00000ca0: 0a0a 0a23 2320 4772 6170 6869 6361 6c20  ...## Graphical 
++00000cb0: 5573 6572 2049 6e74 6572 6661 6365 206f  User Interface o
++00000cc0: 6620 7468 6520 6170 706c 6963 6174 696f  f the applicatio
++00000cd0: 6e0a 2323 2320 4261 7369 6320 6461 7461  n.### Basic data
++00000ce0: 0a3c 7020 616c 6967 6e3d 2263 656e 7465  .<p align="cente
++00000cf0: 7222 3e0a 2020 3c69 6d67 2077 6964 7468  r">.  <img width
++00000d00: 3d22 3630 3022 2073 7263 3d22 6874 7470  ="600" src="http
++00000d10: 733a 2f2f 7573 6572 2d69 6d61 6765 732e  s://user-images.
++00000d20: 6769 7468 7562 7573 6572 636f 6e74 656e  githubuserconten
++00000d30: 742e 636f 6d2f 3733 3132 3638 3230 2f31  t.com/73126820/1
++00000d40: 3739 3230 3530 3634 2d31 3630 6264 6434  79205064-160bdd4
++00000d50: 342d 6664 3637 2d34 6438 642d 3835 6464  4-fd67-4d8d-85dd
++00000d60: 2d62 6164 6561 3939 3938 3835 632e 706e  -badea999885c.pn
++00000d70: 6722 2061 6c74 3d22 4153 542d 4755 4922  g" alt="AST-GUI"
++00000d80: 3e0a 3c2f 703e 0a54 6865 2069 6e69 7469  >.</p>.The initi
++00000d90: 616c 2070 6167 6520 6f66 2074 6865 2061  al page of the a
++00000da0: 7070 6c69 6361 7469 6f6e 2064 6570 6963  pplication depic
++00000db0: 7473 2062 6173 6963 2070 6172 616d 6574  ts basic paramet
++00000dc0: 6572 7320 6f66 2061 6e20 6174 686c 6574  ers of an athlet
++00000dd0: 6527 7320 6163 7469 7669 7479 3a20 6375  e's activity: cu
++00000de0: 7272 656e 7420 7370 6565 6420 616e 6420  rrent speed and 
++00000df0: 6375 7272 656e 7420 6865 6172 7420 7261  current heart ra
++00000e00: 7465 2e20 4966 2061 2074 7261 696e 696e  te. If a trainin
++00000e10: 6720 7365 7373 696f 6e20 6973 2063 6f6e  g session is con
++00000e20: 6475 6374 6564 2c20 746f 7461 6c20 6469  ducted, total di
++00000e30: 7374 616e 6365 2c20 746f 7461 6c20 7469  stance, total ti
++00000e40: 6d65 206f 6620 7468 6520 7365 7373 696f  me of the sessio
++00000e50: 6e20 616e 6420 746f 7461 6c20 6173 6365  n and total asce
++00000e60: 6e74 2061 7265 2064 6973 706c 6179 6564  nt are displayed
++00000e70: 2061 7320 7765 6c6c 2e0a 0a2d 2d2d 0a23   as well...---.#
++00000e80: 2323 2049 6e74 6572 6163 7469 7665 206d  ## Interactive m
++00000e90: 6170 0a3c 7020 616c 6967 6e3d 2263 656e  ap.<p align="cen
++00000ea0: 7465 7222 3e0a 2020 3c69 6d67 2077 6964  ter">.  <img wid
++00000eb0: 7468 3d22 3630 3022 2073 7263 3d22 6874  th="600" src="ht
++00000ec0: 7470 733a 2f2f 7573 6572 2d69 6d61 6765  tps://user-image
++00000ed0: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
++00000ee0: 656e 742e 636f 6d2f 3733 3132 3638 3230  ent.com/73126820
++00000ef0: 2f31 3739 3230 3531 3138 2d31 3963 6262  /179205118-19cbb
++00000f00: 3665 322d 6634 3130 2d34 3337 312d 6137  6e2-f410-4371-a7
++00000f10: 3632 2d63 3463 3737 3334 3461 6232 342e  62-c4c77344ab24.
++00000f20: 706e 6722 2061 6c74 3d22 4153 542d 4d61  png" alt="AST-Ma
++00000f30: 7022 3e0a 3c2f 703e 0a54 6865 2073 6563  p">.</p>.The sec
++00000f40: 6f6e 6420 7061 6765 206f 6620 7468 6520  ond page of the 
++00000f50: 6170 706c 6963 6174 696f 6e20 6973 2064  application is d
++00000f60: 6576 6f74 6564 2074 6f20 616e 2069 6e74  evoted to an int
++00000f70: 6572 6163 7469 7665 206d 6170 2c20 7768  eractive map, wh
++00000f80: 6963 6820 6465 7069 6374 7320 6174 686c  ich depicts athl
++00000f90: 6574 6527 7320 6375 7272 656e 7420 706f  ete's current po
++00000fa0: 7369 7469 6f6e 2e0a 0a4e 6f74 653a 2074  sition...Note: t
++00000fb0: 6865 2070 6f73 6974 696f 6e20 6973 2063  he position is c
++00000fc0: 7572 7265 6e74 6c79 2068 6172 6463 6f64  urrently hardcod
++00000fd0: 6564 2061 6e64 2064 6f65 7320 6e6f 7420  ed and does not 
++00000fe0: 7265 7370 6f6e 6420 6163 636f 7264 696e  respond accordin
++00000ff0: 6720 746f 2047 5053 2064 6174 612e 0a0a  g to GPS data...
++00001000: 2d2d 2d0a 2323 2320 496e 7465 7276 616c  ---.### Interval
++00001010: 2074 7261 696e 696e 6720 6461 7461 0a3c   training data.<
++00001020: 7020 616c 6967 6e3d 2263 656e 7465 7222  p align="center"
++00001030: 3e0a 2020 3c69 6d67 2077 6964 7468 3d22  >.  <img width="
++00001040: 3630 3022 2073 7263 3d22 6874 7470 733a  600" src="https:
++00001050: 2f2f 7573 6572 2d69 6d61 6765 732e 6769  //user-images.gi
++00001060: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
++00001070: 636f 6d2f 3733 3132 3638 3230 2f31 3739  com/73126820/179
++00001080: 3230 3531 3630 2d65 6463 6535 3831 632d  205160-edce581c-
++00001090: 3165 6138 2d34 3238 372d 6137 3935 2d37  1ea8-4287-a795-7
++000010a0: 6430 3566 6237 6338 6464 632e 706e 6722  d05fb7c8ddc.png"
++000010b0: 2061 6c74 3d22 4153 542d 496e 7465 7276   alt="AST-Interv
++000010c0: 616c 7322 3e0a 3c2f 703e 0a54 6865 2074  als">.</p>.The t
++000010d0: 6869 7264 2070 6167 6520 6f66 2074 6865  hird page of the
++000010e0: 2061 7070 6c69 6361 7469 6f6e 2064 6570   application dep
++000010f0: 6963 7473 2069 6e74 6572 7661 6c20 7472  icts interval tr
++00001100: 6169 6e69 6e67 2064 6174 612e 2044 7572  aining data. Dur
++00001110: 696e 6720 616e 2069 6e74 6572 7661 6c20  ing an interval 
++00001120: 7472 6169 6e69 6e67 2c20 746f 7461 6c20  training, total 
++00001130: 6475 7261 7469 6f6e 206f 6620 7468 6520  duration of the 
++00001140: 6375 7272 656e 7420 7068 6173 6520 6973  current phase is
++00001150: 2064 6973 706c 6179 6564 2061 6c6f 6e67   displayed along
++00001160: 2077 6974 6820 6375 7272 656e 7420 6865   with current he
++00001170: 6172 7420 7261 7465 2c20 6176 6572 6167  art rate, averag
++00001180: 6520 6865 6172 7420 7261 7465 2c20 4469  e heart rate, Di
++00001190: 6769 7461 6c20 5477 696e 2070 726f 706f  gital Twin propo
++000011a0: 7365 6420 6865 6172 7420 7261 7465 2061  sed heart rate a
++000011b0: 6e64 2074 6865 2064 6966 6665 7265 6e63  nd the differenc
++000011c0: 6520 6265 7477 6565 6e20 7468 6520 6375  e between the cu
++000011d0: 7272 656e 7420 616e 6420 7468 6520 7072  rrent and the pr
++000011e0: 6f70 6f73 6564 2068 6561 7274 2072 6174  oposed heart rat
++000011f0: 652e 0a0a 2d2d 2d0a 2323 2320 496e 7465  e...---.### Inte
++00001200: 7276 616c 2074 7261 696e 696e 6720 706c  rval training pl
++00001210: 616e 0a3c 7020 616c 6967 6e3d 2263 656e  an.<p align="cen
++00001220: 7465 7222 3e0a 2020 3c69 6d67 2077 6964  ter">.  <img wid
++00001230: 7468 3d22 3630 3022 2073 7263 3d22 6874  th="600" src="ht
++00001240: 7470 733a 2f2f 7573 6572 2d69 6d61 6765  tps://user-image
++00001250: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
++00001260: 656e 742e 636f 6d2f 3733 3132 3638 3230  ent.com/73126820
++00001270: 2f31 3839 3932 3631 3033 2d65 3038 3935  /189926103-e0895
++00001280: 3133 322d 3962 6263 2d34 3162 662d 3838  132-9bbc-41bf-88
++00001290: 3638 2d35 3165 3365 3663 3233 6638 612e  68-51e3e6c23f8a.
++000012a0: 706e 6722 2061 6c74 3d22 4153 542d 5472  png" alt="AST-Tr
++000012b0: 6169 6e69 6e67 7322 3e0a 3c2f 703e 0a54  ainings">.</p>.T
++000012c0: 6865 2066 6f75 7274 6820 616e 6420 6669  he fourth and fi
++000012d0: 6e61 6c20 7061 6765 206f 6620 7468 6520  nal page of the 
++000012e0: 6170 706c 6963 6174 696f 6e20 6973 2069  application is i
++000012f0: 6e74 656e 6465 6420 666f 7220 6c6f 6164  ntended for load
++00001300: 696e 6720 616e 6420 7374 6172 7469 6e67  ing and starting
++00001310: 2069 6e74 6572 7661 6c20 7472 6169 6e69   interval traini
++00001320: 6e67 7320 6c6f 6361 7465 6420 696e 2074  ngs located in t
++00001330: 6865 2066 6f6c 6465 7220 2241 5354 2d4d  he folder "AST-M
++00001340: 6f6e 6974 6f72 2f64 6576 656c 6f70 6d65  onitor/developme
++00001350: 6e74 2f74 7261 696e 696e 6773 222e 2049  nt/trainings". I
++00001360: 6e20 6f72 6465 7220 746f 2062 6520 7061  n order to be pa
++00001370: 7273 6564 2063 6f72 7265 6374 6c79 2c20  rsed correctly, 
++00001380: 7472 6169 6e69 6e67 7320 6d75 7374 2062  trainings must b
++00001390: 6520 7772 6974 7465 6e20 696e 2064 6f6d  e written in dom
++000013a0: 6169 6e2d 7370 6563 6966 6963 206c 616e  ain-specific lan
++000013b0: 6775 6167 6520 3c61 2068 7265 663d 2268  guage <a href="h
++000013c0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
++000013d0: 6d2f 6669 7265 666c 792d 6370 702f 6173  m/firefly-cpp/as
++000013e0: 742d 7464 6c22 3e41 5354 2d54 444c 3c2f  t-tdl">AST-TDL</
++000013f0: 613e 2061 6e64 2063 6f6e 7665 7274 6564  a> and converted
++00001400: 2074 6f20 4a61 7661 5363 7269 7074 204f   to JavaScript O
++00001410: 626a 6563 7420 4e6f 7461 7469 6f6e 2028  bject Notation (
++00001420: 4a53 4f4e 292e 2041 6674 6572 2073 7563  JSON). After suc
++00001430: 6365 7373 6675 6c20 6c6f 6164 696e 6720  cessful loading 
++00001440: 6f66 2061 6e20 696e 7465 7276 616c 2074  of an interval t
++00001450: 7261 696e 696e 672c 2074 6865 2074 7261  raining, the tra
++00001460: 696e 696e 6720 706c 616e 2069 7320 6469  ining plan is di
++00001470: 7370 6c61 7965 6420 6f6e 2074 6869 7320  splayed on this 
++00001480: 7061 6765 2e0a 0a0a 2323 2048 6172 6477  page....## Hardw
++00001490: 6172 6520 6f75 746c 696e 650a 5468 6520  are outline.The 
++000014a0: 636f 6d70 6c65 7465 2068 6172 6477 6172  complete hardwar
++000014b0: 6520 7061 7274 2069 7320 7368 6f77 6e20  e part is shown 
++000014c0: 696e 2074 6865 2066 6967 7572 6520 6672  in the figure fr
++000014d0: 6f6d 2077 6869 6368 2069 7420 6361 6e20  om which it can 
++000014e0: 6265 2073 6565 6e20 7468 6174 2074 6865  be seen that the
++000014f0: 2041 5354 2d63 6f6d 7075 7465 7220 6973   AST-computer is
++00001500: 2073 706c 6974 2069 6e74 6f20 7468 6520   split into the 
++00001510: 666f 6c6c 6f77 696e 6720 7069 6563 6573  following pieces
++00001520: 3a0a 0a2a 2061 2070 6c61 7466 6f72 6d20  :..* a platform 
++00001530: 7769 7468 2066 6978 696e 6720 7374 7261  with fixing stra
++00001540: 7073 2074 6861 7420 6174 7461 6368 2074  ps that attach t
++00001550: 6f20 6120 6269 6379 636c 652c 0a2a 2074  o a bicycle,.* t
++00001560: 6865 2052 6173 7062 6572 7279 2050 6920  he Raspberry Pi 
++00001570: 3420 4d6f 6465 6c20 4220 6d69 6372 6f2d  4 Model B micro-
++00001580: 636f 6e74 726f 6c6c 6572 2077 6974 6820  controller with 
++00001590: 5261 7370 6269 616e 204f 5320 696e 7374  Raspbian OS inst
++000015a0: 616c 6c65 642c 0a2a 2061 2066 6976 652d  alled,.* a five-
++000015b0: 696e 6368 204c 4344 2074 6f75 6368 2073  inch LCD touch s
++000015c0: 6372 6565 6e20 6469 7370 6c61 792c 0a2a  creen display,.*
++000015d0: 2061 2055 5342 2041 4e54 2b20 7374 6963   a USB ANT+ stic
++000015e0: 6b2c 0a2a 2041 6461 6672 7569 7427 7320  k,.* Adafruit's 
++000015f0: 556c 7469 6d61 7465 2047 5053 2048 4154  Ultimate GPS HAT
++00001600: 206d 6f64 756c 652e 0a0a 3c70 2061 6c69   module...<p ali
++00001610: 676e 3d22 6365 6e74 6572 223e 0a20 203c  gn="center">.  <
++00001620: 696d 6720 7769 6474 683d 2236 3030 2220  img width="600" 
++00001630: 7372 633d 2268 7474 7073 3a2f 2f72 6177  src="https://raw
++00001640: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++00001650: 6e74 2e63 6f6d 2f66 6972 6566 6c79 2d63  nt.com/firefly-c
++00001660: 7070 2f41 5354 2d4d 6f6e 6974 6f72 2f6d  pp/AST-Monitor/m
++00001670: 6169 6e2f 2e67 6974 6875 622f 696d 672f  ain/.github/img/
++00001680: 636f 6d70 6c65 7465 5f73 6d61 6c6c 2e4a  complete_small.J
++00001690: 5047 2220 616c 743d 2241 5354 2d4d 6f6e  PG" alt="AST-Mon
++000016a0: 6974 6f72 223e 0a3c 2f70 3e0a 0a41 2053  itor">.</p>..A S
++000016b0: 6572 6961 6c20 5065 7269 7068 6572 616c  erial Peripheral
++000016c0: 2049 6e74 6572 6661 6365 2028 5350 4929   Interface (SPI)
++000016d0: 2070 726f 746f 636f 6c20 7761 7320 6465   protocol was de
++000016e0: 6469 6361 7465 6420 746f 2063 6f6d 6d75  dicated to commu
++000016f0: 6e69 6361 7469 6f6e 2062 6574 7765 656e  nication between
++00001700: 2074 6865 2052 6173 7062 6572 7279 2050   the Raspberry P
++00001710: 6920 616e 6420 7468 6520 4750 5320 7065  i and the GPS pe
++00001720: 7269 7068 6572 616c 2e20 4120 7370 6563  ripheral. A spec
++00001730: 6961 6c69 7a65 6420 5553 4220 414e 542b  ialized USB ANT+
++00001740: 2073 7469 636b 2077 6173 2075 7365 6420   stick was used 
++00001750: 746f 2063 6170 7475 7265 2074 6865 2048  to capture the H
++00001760: 5220 7369 676e 616c 2e20 5468 6520 7363  R signal. The sc
++00001770: 7265 656e 2064 6973 706c 6179 2077 6173  reen display was
++00001780: 2063 6f6e 6e65 6374 6564 2075 7369 6e67   connected using
++00001790: 2061 206d 6f64 6966 6965 6420 2870 6879   a modified (phy
++000017a0: 7369 6361 6c6c 7920 7368 6f72 7465 6e65  sically shortene
++000017b0: 6429 2048 444d 4920 6361 626c 652c 2077  d) HDMI cable, w
++000017c0: 6869 6c65 2074 6865 2074 6f75 6368 2066  hile the touch f
++000017d0: 6565 6462 6163 6b20 7761 7320 696d 706c  eedback was impl
++000017e0: 656d 656e 7465 6420 7573 696e 6720 7068  emented using ph
++000017f0: 7973 6963 616c 2077 6972 6573 2e20 5468  ysical wires. Th
++00001800: 6520 636f 6d70 7574 6572 2077 6173 2070  e computer was p
++00001810: 6f77 6572 6564 2064 7572 696e 6720 7468  owered during th
++00001820: 6520 7465 7374 696e 6720 7068 6173 6520  e testing phase 
++00001830: 7573 696e 6720 7468 6520 5472 7573 7427  using the Trust'
++00001840: 7320 2835 2056 4443 2920 706f 7765 7220  s (5 VDC) power 
++00001850: 6261 6e6b 2e20 5468 6520 4153 542d 4d6f  bank. The AST-Mo
++00001860: 6e69 746f 7220 7072 6f74 6f74 7970 6520  nitor prototype 
++00001870: 6973 2073 7469 6c6c 2061 206c 6974 746c  is still a littl
++00001880: 6520 6275 6c6b 792c 2062 7574 2061 206d  e bulky, but a m
++00001890: 6f72 6520 6469 7363 7265 7465 2073 6f6c  ore discrete sol
++000018a0: 7574 696f 6e20 6973 2062 6569 6e67 2073  ution is being s
++000018b0: 6561 7263 6865 6420 666f 722c 2069 6e63  earched for, inc
++000018c0: 6c75 6469 6e67 2074 6865 2073 7765 6174  luding the sweat
++000018d0: 2064 7261 696e 6572 206f 6620 7468 6520   drainer of the 
++000018e0: 4153 542e 2049 6e74 6572 6e61 6c20 636f  AST. Internal co
++000018f0: 6d70 6f6e 656e 7473 206f 6620 4153 542d  mponents of AST-
++00001900: 4d6f 6e69 746f 7220 6172 6520 6465 7069  Monitor are depi
++00001910: 6374 6564 2069 6e20 7468 6520 666f 6c6c  cted in the foll
++00001920: 6f77 696e 6720 7363 6865 6d65 2e0a 0a3c  owing scheme...<
++00001930: 7020 616c 6967 6e3d 2263 656e 7465 7222  p align="center"
++00001940: 3e0a 2020 3c69 6d67 2077 6964 7468 3d22  >.  <img width="
++00001950: 3630 3022 2073 7263 3d22 6874 7470 733a  600" src="https:
++00001960: 2f2f 7573 6572 2d69 6d61 6765 732e 6769  //user-images.gi
++00001970: 7468 7562 7573 6572 636f 6e74 656e 742e  thubusercontent.
++00001980: 636f 6d2f 3733 3132 3638 3230 2f31 3839  com/73126820/189
++00001990: 3932 3031 3731 2d61 6339 3436 6139 332d  920171-ac946a93-
++000019a0: 6164 3738 2d34 6534 622d 6266 3039 2d35  ad78-4e4b-bf09-5
++000019b0: 6465 3562 6636 3962 6566 392e 706e 6722  de5bf69bef9.png"
++000019c0: 2061 6c74 3d22 4153 542d 4d6f 6e69 746f   alt="AST-Monito
++000019d0: 7222 3e0a 3c2f 703e 0a0a 2323 2053 6f66  r">.</p>..## Sof
++000019e0: 7477 6172 6520 6f75 746c 696e 650a 2323  tware outline.##
++000019f0: 2320 4465 7065 6e64 656e 6369 6573 0a4c  # Dependencies.L
++00001a00: 6973 7420 6f66 2064 6570 656e 6465 6e63  ist of dependenc
++00001a10: 6965 733a 0a0a 7c20 5061 636b 6167 6520  ies:..| Package 
++00001a20: 2020 2020 207c 2056 6572 7369 6f6e 2020       | Version  
++00001a30: 2020 7c20 506c 6174 666f 726d 207c 0a7c    | Platform |.|
++00001a40: 202d 2d2d 2d2d 2d2d 2d2d 2d2d 2d20 7c3a   ------------ |:
++00001a50: 2d2d 2d2d 2d2d 2d2d 2d2d 3a7c 3a2d 2d2d  ----------:|:---
++00001a60: 2d2d 2d2d 2d3a 7c0a 7c20 5079 5174 3520  -----:|.| PyQt5 
++00001a70: 2020 2020 2020 207c 205e 352e 3135 2e36         | ^5.15.6
++00001a80: 2020 2020 7c20 416c 6c20 2020 2020 207c      | All      |
++00001a90: 0a7c 206d 6174 706c 6f74 6c69 6220 2020  .| matplotlib   
++00001aa0: 7c20 5e33 2e35 2e31 2020 2020 207c 2041  | ^3.5.1     | A
++00001ab0: 6c6c 2020 2020 2020 7c0a 7c20 6765 6f70  ll      |.| geop
++00001ac0: 7920 2020 2020 2020 207c 205e 322e 322e  y        | ^2.2.
++00001ad0: 3020 2020 2020 7c20 416c 6c20 2020 2020  0     | All     
++00001ae0: 207c 0a7c 206f 7065 6e61 6e74 2020 2020   |.| openant    
++00001af0: 2020 7c20 5e31 2e32 2e30 2020 2020 207c    | ^1.2.0     |
++00001b00: 2041 6c6c 2020 2020 2020 7c0a 7c20 7079   All      |.| py
++00001b10: 7174 2d66 6565 6462 6163 6b2d 666c 6f77  qt-feedback-flow
++00001b20: 2020 2020 2020 207c 205e 302e 312e 3020         | ^0.1.0 
++00001b30: 2020 2020 7c20 416c 6c20 2020 2020 207c      | All      |
++00001b40: 0a7c 2074 6378 7265 6164 6572 2020 2020  .| tcxreader    
++00001b50: 2020 207c 205e 302e 342e 3120 2020 2020     | ^0.4.1     
++00001b60: 7c20 416c 6c20 2020 2020 207c 0a7c 2073  | All      |.| s
++00001b70: 706f 7274 2d61 6374 6976 6974 6965 732d  port-activities-
++00001b80: 6665 6174 7572 6573 2020 2020 2020 207c  features       |
++00001b90: 205e 302e 332e 3620 2020 2020 7c20 416c   ^0.3.6     | Al
++00001ba0: 6c20 2020 2020 207c 0a0a 4164 6469 7469  l      |..Additi
++00001bb0: 6f6e 616c 206e 6f74 653a 2061 6461 6672  onal note: adafr
++00001bc0: 7569 742d 6369 7263 7569 7470 7974 686f  uit-circuitpytho
++00001bd0: 6e2d 6770 7320 7061 636b 6167 6520 6d75  n-gps package mu
++00001be0: 7374 2062 6520 696e 7374 616c 6c65 6420  st be installed 
++00001bf0: 696e 206f 7264 6572 2074 6f20 776f 726b  in order to work
++00001c00: 2077 6974 6820 7468 6520 4750 5320 7365   with the GPS se
++00001c10: 6e73 6f72 3a0a 0a60 6060 7368 0a24 2070  nsor:..```sh.$ p
++00001c20: 6970 2069 6e73 7461 6c6c 2061 6461 6672  ip install adafr
++00001c30: 7569 742d 6369 7263 7569 7470 7974 686f  uit-circuitpytho
++00001c40: 6e2d 6770 730a 6060 600a 0a23 2320 496e  n-gps.```..## In
++00001c50: 7374 616c 6c61 7469 6f6e 0a49 6e73 7461  stallation.Insta
++00001c60: 6c6c 2041 5354 2d4d 6f6e 6974 6f72 2077  ll AST-Monitor w
++00001c70: 6974 6820 7069 703a 0a0a 6060 6073 680a  ith pip:..```sh.
++00001c80: 2420 7069 7020 696e 7374 616c 6c20 6173  $ pip install as
++00001c90: 742d 6d6f 6e69 746f 720a 6060 600a 496e  t-monitor.```.In
++00001ca0: 2063 6173 6520 796f 7520 7761 6e74 2074   case you want t
++00001cb0: 6f20 696e 7374 616c 6c20 6469 7265 6374  o install direct
++00001cc0: 6c79 2066 726f 6d20 7468 6520 736f 7572  ly from the sour
++00001cd0: 6365 2063 6f64 652c 2075 7365 3a0a 0a60  ce code, use:..`
++00001ce0: 6060 7368 0a24 2067 6974 2063 6c6f 6e65  ``sh.$ git clone
++00001cf0: 2068 7474 7073 3a2f 2f67 6974 6875 622e   https://github.
++00001d00: 636f 6d2f 6669 7265 666c 792d 6370 702f  com/firefly-cpp/
++00001d10: 4153 542d 4d6f 6e69 746f 722e 6769 740a  AST-Monitor.git.
++00001d20: 2420 6364 2041 5354 2d4d 6f6e 6974 6f72  $ cd AST-Monitor
++00001d30: 0a24 2070 6f65 7472 7920 6275 696c 640a  .$ poetry build.
++00001d40: 2420 7079 7468 6f6e 2073 6574 7570 2e70  $ python setup.p
++00001d50: 7920 696e 7374 616c 6c0a 6060 600a 0a54  y install.```..T
++00001d60: 6f20 696e 7374 616c 6c20 4153 542d 4d6f  o install AST-Mo
++00001d70: 6e69 746f 7220 6f6e 2046 6564 6f72 6120  nitor on Fedora 
++00001d80: 4c69 6e75 782c 2070 6c65 6173 6520 7573  Linux, please us
++00001d90: 653a 0a0a 6060 6073 680a 2420 646e 6620  e:..```sh.$ dnf 
++00001da0: 696e 7374 616c 6c20 7079 7468 6f6e 332d  install python3-
++00001db0: 6173 742d 6d6f 6e69 746f 720a 6060 600a  ast-monitor.```.
++00001dc0: 0a54 6f20 696e 7374 616c 6c20 4153 542d  .To install AST-
++00001dd0: 4d6f 6e69 746f 7220 6f6e 2041 6c70 696e  Monitor on Alpin
++00001de0: 6520 4c69 6e75 782c 2070 6c65 6173 6520  e Linux, please 
++00001df0: 7573 653a 0a0a 6060 6073 680a 2420 6170  use:..```sh.$ ap
++00001e00: 6b20 6164 6420 7079 332d 6173 742d 6d6f  k add py3-ast-mo
++00001e10: 6e69 746f 720a 6060 600a 0a54 6f20 696e  nitor.```..To in
++00001e20: 7374 616c 6c20 4153 542d 4d6f 6e69 746f  stall AST-Monito
++00001e30: 7220 6f6e 2041 7263 6820 4c69 6e75 782c  r on Arch Linux,
++00001e40: 2070 6c65 6173 6520 7573 6520 616e 205b   please use an [
++00001e50: 4155 5220 6865 6c70 6572 5d28 6874 7470  AUR helper](http
++00001e60: 733a 2f2f 7769 6b69 2e61 7263 686c 696e  s://wiki.archlin
++00001e70: 7578 2e6f 7267 2f74 6974 6c65 2f41 5552  ux.org/title/AUR
++00001e80: 5f68 656c 7065 7273 293a 0a0a 6060 6073  _helpers):..```s
++00001e90: 680a 2420 7961 7920 2d53 7979 7520 7079  h.$ yay -Syyu py
++00001ea0: 7468 6f6e 2d61 7374 2d6d 6f6e 6974 6f72  thon-ast-monitor
++00001eb0: 0a60 6060 0a0a 2323 2044 6570 6c6f 796d  .```..## Deploym
++00001ec0: 656e 740a 4f75 7220 7072 6f6a 6563 7420  ent.Our project 
++00001ed0: 7761 7320 6465 706c 6f79 6564 206f 6e20  was deployed on 
++00001ee0: 6120 5261 7370 6265 7272 7920 5069 2064  a Raspberry Pi d
++00001ef0: 6576 6963 6520 7573 696e 6720 5261 7370  evice using Rasp
++00001f00: 6265 7272 7920 5069 204f 532e 0a0a 5468  berry Pi OS...Th
++00001f10: 6520 6861 7264 7761 7265 2063 6f6e 6669  e hardware confi
++00001f20: 6775 7261 7469 6f6e 206f 6620 4153 542d  guration of AST-
++00001f30: 4d6f 6e69 746f 7220 7573 696e 6720 5261  Monitor using Ra
++00001f40: 7370 6265 7272 7920 5069 204f 5320 6973  spberry Pi OS is
++00001f50: 2064 6573 6372 6962 6564 2069 6e20 3c61   described in <a
++00001f60: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00001f70: 6974 6875 622e 636f 6d2f 6669 7265 666c  ithub.com/firefl
++00001f80: 792d 6370 702f 4153 542d 4d6f 6e69 746f  y-cpp/AST-Monito
++00001f90: 722f 626c 6f62 2f6d 6169 6e2f 4841 5244  r/blob/main/HARD
++00001fa0: 5741 5245 5f43 4f4e 4649 4755 5241 5449  WARE_CONFIGURATI
++00001fb0: 4f4e 2e6d 6422 3e48 4152 4457 4152 455f  ON.md">HARDWARE_
++00001fc0: 434f 4e46 4947 5552 4154 494f 4e2e 6d64  CONFIGURATION.md
++00001fd0: 3c2f 613e 2e0a 0a23 2320 4578 616d 706c  </a>...## Exampl
++00001fe0: 6573 0a0a 2323 2320 4261 7369 6320 7275  es..### Basic ru
++00001ff0: 6e0a 6060 6070 7974 686f 6e0a 6672 6f6d  n.```python.from
++00002000: 2050 7951 7435 2069 6d70 6f72 7420 5174   PyQt5 import Qt
++00002010: 5769 6467 6574 730a 696d 706f 7274 2073  Widgets.import s
++00002020: 7973 0a0a 7472 793a 0a20 2020 2066 726f  ys..try:.    fro
++00002030: 6d20 6173 745f 6d6f 6e69 746f 722e 6d6f  m ast_monitor.mo
++00002040: 6465 6c20 696d 706f 7274 2041 5354 0a65  del import AST.e
++00002050: 7863 6570 7420 4d6f 6475 6c65 4e6f 7446  xcept ModuleNotF
++00002060: 6f75 6e64 4572 726f 723a 0a20 2020 2073  oundError:.    s
++00002070: 7973 2e70 6174 682e 6170 7065 6e64 2827  ys.path.append('
++00002080: 2e2e 2f27 290a 2020 2020 6672 6f6d 2061  ../').    from a
++00002090: 7374 5f6d 6f6e 6974 6f72 2e6d 6f64 656c  st_monitor.model
++000020a0: 2069 6d70 6f72 7420 4153 540a 0a0a 2320   import AST...# 
++000020b0: 5061 7468 7320 746f 2074 6865 2066 696c  Paths to the fil
++000020c0: 6573 2077 6974 6820 6865 6172 7420 7261  es with heart ra
++000020d0: 7465 7320 616e 6420 4750 5320 6461 7461  tes and GPS data
++000020e0: 2e0a 6872 5f64 6174 6120 3d20 272e 2e2f  ..hr_data = '../
++000020f0: 7365 6e73 6f72 5f64 6174 612f 6872 2e74  sensor_data/hr.t
++00002100: 7874 270a 6770 735f 6461 7461 203d 2027  xt'.gps_data = '
++00002110: 2e2e 2f73 656e 736f 725f 6461 7461 2f67  ../sensor_data/g
++00002120: 7073 2e74 7874 270a 0a69 6620 5f5f 6e61  ps.txt'..if __na
++00002130: 6d65 5f5f 203d 3d20 275f 5f6d 6169 6e5f  me__ == '__main_
++00002140: 5f27 3a0a 2020 2020 6170 7020 3d20 5174  _':.    app = Qt
++00002150: 5769 6467 6574 732e 5141 7070 6c69 6361  Widgets.QApplica
++00002160: 7469 6f6e 2873 7973 2e61 7267 7629 0a20  tion(sys.argv). 
++00002170: 2020 2077 696e 646f 7720 3d20 4153 5428     window = AST(
++00002180: 6872 5f64 6174 612c 2067 7073 5f64 6174  hr_data, gps_dat
++00002190: 6129 0a20 2020 2077 696e 646f 772e 7368  a).    window.sh
++000021a0: 6f77 2829 0a20 2020 2073 7973 2e65 7869  ow().    sys.exi
++000021b0: 7428 6170 702e 6578 6563 5f28 2929 0a60  t(app.exec_()).`
++000021c0: 6060 0a0a 2323 204c 6963 656e 7365 0a54  ``..## License.T
++000021d0: 6869 7320 7061 636b 6167 6520 6973 2064  his package is d
++000021e0: 6973 7472 6962 7574 6564 2075 6e64 6572  istributed under
++000021f0: 2074 6865 204d 4954 204c 6963 656e 7365   the MIT License
++00002200: 2e20 5468 6973 206c 6963 656e 7365 2063  . This license c
++00002210: 616e 2062 6520 666f 756e 6420 6f6e 6c69  an be found onli
++00002220: 6e65 2061 7420 3c68 7474 703a 2f2f 7777  ne at <http://ww
++00002230: 772e 6f70 656e 736f 7572 6365 2e6f 7267  w.opensource.org
++00002240: 2f6c 6963 656e 7365 732f 4d49 543e 2e0a  /licenses/MIT>..
++00002250: 0a23 2320 4469 7363 6c61 696d 6572 0a54  .## Disclaimer.T
++00002260: 6869 7320 6672 616d 6577 6f72 6b20 6973  his framework is
++00002270: 2070 726f 7669 6465 6420 6173 2d69 732c   provided as-is,
++00002280: 2061 6e64 2074 6865 7265 2061 7265 206e   and there are n
++00002290: 6f20 6775 6172 616e 7465 6573 2074 6861  o guarantees tha
++000022a0: 7420 6974 2066 6974 7320 796f 7572 2070  t it fits your p
++000022b0: 7572 706f 7365 7320 6f72 2074 6861 7420  urposes or that 
++000022c0: 6974 2069 7320 6275 672d 6672 6565 2e20  it is bug-free. 
++000022d0: 5573 6520 6974 2061 7420 796f 7572 206f  Use it at your o
++000022e0: 776e 2072 6973 6b21 0a0a 2323 2043 6974  wn risk!..## Cit
++000022f0: 6520 7573 0a4c 756b 61c4 8d2c 204c 2e2c  e us.Luka.., L.,
++00002300: 2046 6973 7465 7220 4a72 2e2c 2049 2e2c   Fister Jr., I.,
++00002310: 2046 6973 7465 722c 2049 2e20 225b 4469   Fister, I. "[Di
++00002320: 6769 7461 6c20 5477 696e 2069 6e20 5370  gital Twin in Sp
++00002330: 6f72 743a 2046 726f 6d20 616e 2049 6465  ort: From an Ide
++00002340: 6120 746f 2052 6561 6c69 7a61 7469 6f6e  a to Realization
++00002350: 5d28 6874 7470 733a 2f2f 7777 772e 6d64  ](https://www.md
++00002360: 7069 2e63 6f6d 2f32 3037 362d 3334 3137  pi.com/2076-3417
++00002370: 2f31 322f 3234 2f31 3237 3431 292e 2220  /12/24/12741)." 
++00002380: 4170 706c 6965 6420 5363 6965 6e63 6573  Applied Sciences
++00002390: 2031 322e 3234 2028 3230 3232 293a 2031   12.24 (2022): 1
++000023a0: 3237 3431 2e0a 0a23 2320 5265 6665 7265  2741...## Refere
++000023b0: 6e63 6573 0a46 6973 7465 7220 4a72 2c20  nces.Fister Jr, 
++000023c0: 492e 2c20 4669 7374 6572 2c20 492e 2c20  I., Fister, I., 
++000023d0: 4967 6c65 7369 6173 2c20 412e 2c20 4761  Iglesias, A., Ga
++000023e0: 6c76 657a 2c20 412e 2c20 4465 622c 2053  lvez, A., Deb, S
++000023f0: 2e2c 2026 2046 6973 7465 722c 2044 2e20  ., & Fister, D. 
++00002400: 2832 3032 3129 2e20 4f6e 2064 6570 6c6f  (2021). On deplo
++00002410: 7969 6e67 2074 6865 2041 7274 6966 6963  ying the Artific
++00002420: 6961 6c20 5370 6f72 7420 5472 6169 6e65  ial Sport Traine
++00002430: 7220 696e 746f 2070 7261 6374 6963 652e  r into practice.
++00002440: 2061 7258 6976 2070 7265 7072 696e 7420   arXiv preprint 
++00002450: 5b61 7258 6976 3a32 3130 392e 3133 3333  [arXiv:2109.1333
++00002460: 345d 2868 7474 7073 3a2f 2f61 7278 6976  4](https://arxiv
++00002470: 2e6f 7267 2f61 6273 2f32 3130 392e 3133  .org/abs/2109.13
++00002480: 3333 3429 2e0a 0a46 6973 7465 7220 4a72  334)...Fister Jr
++00002490: 2c20 492e 2c20 5361 6c63 6564 6f2d 5361  , I., Salcedo-Sa
++000024a0: 6e7a 2c20 532e 2c20 4967 6c65 7369 6173  nz, S., Iglesias
++000024b0: 2c20 412e 2c20 4669 7374 6572 2c20 442e  , A., Fister, D.
++000024c0: 2c20 47c3 a16c 7665 7a2c 2041 2e2c 2026  , G..lvez, A., &
++000024d0: 2046 6973 7465 722c 2049 2e20 2832 3032   Fister, I. (202
++000024e0: 3129 2e20 4e65 7720 5065 7273 7065 6374  1). New Perspect
++000024f0: 6976 6573 2069 6e20 7468 6520 4465 7665  ives in the Deve
++00002500: 6c6f 706d 656e 7420 6f66 2074 6865 2041  lopment of the A
++00002510: 7274 6966 6963 6961 6c20 5370 6f72 7420  rtificial Sport 
++00002520: 5472 6169 6e65 722e 2041 7070 6c69 6564  Trainer. Applied
++00002530: 2053 6369 656e 6365 732c 2031 3128 3233   Sciences, 11(23
++00002540: 292c 2031 3134 3532 2e20 444f 493a 205b  ), 11452. DOI: [
++00002550: 3130 2e33 3339 302f 6170 7031 3132 3331  10.3390/app11231
++00002560: 3134 3532 5d28 6874 7470 733a 2f2f 646f  1452](https://do
++00002570: 692e 6f72 672f 3130 2e33 3339 302f 6170  i.org/10.3390/ap
++00002580: 7031 3132 3331 3134 3532 290a 0a23 2320  p112311452)..## 
++00002590: 436f 6e74 7269 6275 746f 7273 0a0a 3c21  Contributors..<!
++000025a0: 2d2d 2041 4c4c 2d43 4f4e 5452 4942 5554  -- ALL-CONTRIBUT
++000025b0: 4f52 532d 4c49 5354 3a53 5441 5254 202d  ORS-LIST:START -
++000025c0: 2044 6f20 6e6f 7420 7265 6d6f 7665 206f   Do not remove o
++000025d0: 7220 6d6f 6469 6679 2074 6869 7320 7365  r modify this se
++000025e0: 6374 696f 6e20 2d2d 3e0a 3c21 2d2d 2070  ction -->.<!-- p
++000025f0: 7265 7474 6965 722d 6967 6e6f 7265 2d73  rettier-ignore-s
++00002600: 7461 7274 202d 2d3e 0a3c 212d 2d20 6d61  tart -->.<!-- ma
++00002610: 726b 646f 776e 6c69 6e74 2d64 6973 6162  rkdownlint-disab
++00002620: 6c65 202d 2d3e 0a3c 7461 626c 653e 0a20  le -->.<table>. 
++00002630: 203c 7462 6f64 793e 0a20 2020 203c 7472   <tbody>.    <tr
++00002640: 3e0a 2020 2020 2020 3c74 6420 616c 6967  >.      <td alig
++00002650: 6e3d 2263 656e 7465 7222 2076 616c 6967  n="center" valig
++00002660: 6e3d 2274 6f70 2220 7769 6474 683d 2231  n="top" width="1
++00002670: 342e 3238 2522 3e3c 6120 6872 6566 3d22  4.28%"><a href="
++00002680: 6874 7470 3a2f 2f77 7777 2e69 7a74 6f6b  http://www.iztok
++00002690: 2d6a 722d 6669 7374 6572 2e65 752f 223e  -jr-fister.eu/">
++000026a0: 3c69 6d67 2073 7263 3d22 6874 7470 733a  <img src="https:
++000026b0: 2f2f 6176 6174 6172 732e 6769 7468 7562  //avatars.github
++000026c0: 7573 6572 636f 6e74 656e 742e 636f 6d2f  usercontent.com/
++000026d0: 752f 3136 3333 3336 313f 763d 343f 733d  u/1633361?v=4?s=
++000026e0: 3130 3022 2077 6964 7468 3d22 3130 3070  100" width="100p
++000026f0: 783b 2220 616c 743d 2249 7a74 6f6b 2046  x;" alt="Iztok F
++00002700: 6973 7465 7220 4a72 2e22 2f3e 3c62 7220  ister Jr."/><br 
++00002710: 2f3e 3c73 7562 3e3c 623e 497a 746f 6b20  /><sub><b>Iztok 
++00002720: 4669 7374 6572 204a 722e 3c2f 623e 3c2f  Fister Jr.</b></
++00002730: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00002740: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00002750: 6974 6875 622e 636f 6d2f 6669 7265 666c  ithub.com/firefl
++00002760: 792d 6370 702f 4153 542d 4d6f 6e69 746f  y-cpp/AST-Monito
++00002770: 722f 6973 7375 6573 3f71 3d61 7574 686f  r/issues?q=autho
++00002780: 7225 3341 6669 7265 666c 792d 6370 7022  r%3Afirefly-cpp"
++00002790: 2074 6974 6c65 3d22 4275 6720 7265 706f   title="Bug repo
++000027a0: 7274 7322 3ef0 9f90 9b3c 2f61 3e20 3c61  rts">....</a> <a
++000027b0: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++000027c0: 6974 6875 622e 636f 6d2f 6669 7265 666c  ithub.com/firefl
++000027d0: 792d 6370 702f 4153 542d 4d6f 6e69 746f  y-cpp/AST-Monito
++000027e0: 722f 636f 6d6d 6974 733f 6175 7468 6f72  r/commits?author
++000027f0: 3d66 6972 6566 6c79 2d63 7070 2220 7469  =firefly-cpp" ti
++00002800: 746c 653d 2244 6f63 756d 656e 7461 7469  tle="Documentati
++00002810: 6f6e 223e f09f 9396 3c2f 613e 203c 6120  on">....</a> <a 
++00002820: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00002830: 7468 7562 2e63 6f6d 2f66 6972 6566 6c79  thub.com/firefly
++00002840: 2d63 7070 2f41 5354 2d4d 6f6e 6974 6f72  -cpp/AST-Monitor
++00002850: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
++00002860: 6669 7265 666c 792d 6370 7022 2074 6974  firefly-cpp" tit
++00002870: 6c65 3d22 436f 6465 223e f09f 92bb 3c2f  le="Code">....</
++00002880: 613e 203c 6120 6872 6566 3d22 236d 6169  a> <a href="#mai
++00002890: 6e74 656e 616e 6365 2d66 6972 6566 6c79  ntenance-firefly
++000028a0: 2d63 7070 2220 7469 746c 653d 224d 6169  -cpp" title="Mai
++000028b0: 6e74 656e 616e 6365 223e f09f 9aa7 3c2f  ntenance">....</
++000028c0: 613e 203c 6120 6872 6566 3d22 236d 656e  a> <a href="#men
++000028d0: 746f 7269 6e67 2d66 6972 6566 6c79 2d63  toring-firefly-c
++000028e0: 7070 2220 7469 746c 653d 224d 656e 746f  pp" title="Mento
++000028f0: 7269 6e67 223e f09f a791 e280 8df0 9f8f  ring">..........
++00002900: ab3c 2f61 3e20 3c61 2068 7265 663d 2223  .</a> <a href="#
++00002910: 706c 6174 666f 726d 2d66 6972 6566 6c79  platform-firefly
++00002920: 2d63 7070 2220 7469 746c 653d 2250 6163  -cpp" title="Pac
++00002930: 6b61 6769 6e67 2f70 6f72 7469 6e67 2074  kaging/porting t
++00002940: 6f20 6e65 7720 706c 6174 666f 726d 223e  o new platform">
++00002950: f09f 93a6 3c2f 613e 3c2f 7464 3e0a 2020  ....</a></td>.  
++00002960: 2020 2020 3c74 6420 616c 6967 6e3d 2263      <td align="c
++00002970: 656e 7465 7222 2076 616c 6967 6e3d 2274  enter" valign="t
++00002980: 6f70 2220 7769 6474 683d 2231 342e 3238  op" width="14.28
++00002990: 2522 3e3c 6120 6872 6566 3d22 6874 7470  %"><a href="http
++000029a0: 733a 2f2f 6769 7468 7562 2e63 6f6d 2f6c  s://github.com/l
++000029b0: 7563 6b79 4c75 6b61 6322 3e3c 696d 6720  uckyLukac"><img 
++000029c0: 7372 633d 2268 7474 7073 3a2f 2f61 7661  src="https://ava
++000029d0: 7461 7273 2e67 6974 6875 6275 7365 7263  tars.githubuserc
++000029e0: 6f6e 7465 6e74 2e63 6f6d 2f75 2f37 3331  ontent.com/u/731
++000029f0: 3236 3832 303f 763d 343f 733d 3130 3022  26820?v=4?s=100"
++00002a00: 2077 6964 7468 3d22 3130 3070 783b 2220   width="100px;" 
++00002a10: 616c 743d 226c 7563 6b79 4c75 6b61 6322  alt="luckyLukac"
++00002a20: 2f3e 3c62 7220 2f3e 3c73 7562 3e3c 623e  /><br /><sub><b>
++00002a30: 6c75 636b 794c 756b 6163 3c2f 623e 3c2f  luckyLukac</b></
++00002a40: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++00002a50: 2068 7265 663d 2268 7474 7073 3a2f 2f67   href="https://g
++00002a60: 6974 6875 622e 636f 6d2f 6669 7265 666c  ithub.com/firefl
++00002a70: 792d 6370 702f 4153 542d 4d6f 6e69 746f  y-cpp/AST-Monito
++00002a80: 722f 6973 7375 6573 3f71 3d61 7574 686f  r/issues?q=autho
++00002a90: 7225 3341 6c75 636b 794c 756b 6163 2220  r%3AluckyLukac" 
++00002aa0: 7469 746c 653d 2242 7567 2072 6570 6f72  title="Bug repor
++00002ab0: 7473 223e f09f 909b 3c2f 613e 203c 6120  ts">....</a> <a 
++00002ac0: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++00002ad0: 7468 7562 2e63 6f6d 2f66 6972 6566 6c79  thub.com/firefly
++00002ae0: 2d63 7070 2f41 5354 2d4d 6f6e 6974 6f72  -cpp/AST-Monitor
++00002af0: 2f63 6f6d 6d69 7473 3f61 7574 686f 723d  /commits?author=
++00002b00: 6c75 636b 794c 756b 6163 2220 7469 746c  luckyLukac" titl
++00002b10: 653d 2244 6f63 756d 656e 7461 7469 6f6e  e="Documentation
++00002b20: 223e f09f 9396 3c2f 613e 203c 6120 6872  ">....</a> <a hr
++00002b30: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++00002b40: 7562 2e63 6f6d 2f66 6972 6566 6c79 2d63  ub.com/firefly-c
++00002b50: 7070 2f41 5354 2d4d 6f6e 6974 6f72 2f63  pp/AST-Monitor/c
++00002b60: 6f6d 6d69 7473 3f61 7574 686f 723d 6c75  ommits?author=lu
++00002b70: 636b 794c 756b 6163 2220 7469 746c 653d  ckyLukac" title=
++00002b80: 2243 6f64 6522 3ef0 9f92 bb3c 2f61 3e20  "Code">....</a> 
++00002b90: 3c61 2068 7265 663d 2223 6465 7369 676e  <a href="#design
++00002ba0: 2d6c 7563 6b79 4c75 6b61 6322 2074 6974  -luckyLukac" tit
++00002bb0: 6c65 3d22 4465 7369 676e 223e f09f 8ea8  le="Design">....
++00002bc0: 3c2f 613e 3c2f 7464 3e0a 2020 2020 2020  </a></td>.      
++00002bd0: 3c74 6420 616c 6967 6e3d 2263 656e 7465  <td align="cente
++00002be0: 7222 2076 616c 6967 6e3d 2274 6f70 2220  r" valign="top" 
++00002bf0: 7769 6474 683d 2231 342e 3238 2522 3e3c  width="14.28%"><
++00002c00: 6120 6872 6566 3d22 6874 7470 3a2f 2f63  a href="http://c
++00002c10: 6172 6c6f 7361 6c31 3031 352e 6769 7468  arlosal1015.gith
++00002c20: 7562 2e69 6f22 3e3c 696d 6720 7372 633d  ub.io"><img src=
++00002c30: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
++00002c40: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
++00002c50: 6e74 2e63 6f6d 2f75 2f32 3132 3833 3031  nt.com/u/2128301
++00002c60: 343f 763d 343f 733d 3130 3022 2077 6964  4?v=4?s=100" wid
++00002c70: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
++00002c80: 224f 726f 6d69 6f6e 222f 3e3c 6272 202f  "Oromion"/><br /
++00002c90: 3e3c 7375 623e 3c62 3e4f 726f 6d69 6f6e  ><sub><b>Oromion
++00002ca0: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++00002cb0: 7220 2f3e 3c61 2068 7265 663d 2223 706c  r /><a href="#pl
++00002cc0: 6174 666f 726d 2d63 6172 6c6f 7361 6c31  atform-carlosal1
++00002cd0: 3031 3522 2074 6974 6c65 3d22 5061 636b  015" title="Pack
++00002ce0: 6167 696e 672f 706f 7274 696e 6720 746f  aging/porting to
++00002cf0: 206e 6577 2070 6c61 7466 6f72 6d22 3ef0   new platform">.
++00002d00: 9f93 a63c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00002d10: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
++00002d20: 6e74 6572 2220 7661 6c69 676e 3d22 746f  nter" valign="to
++00002d30: 7022 2077 6964 7468 3d22 3134 2e32 3825  p" width="14.28%
++00002d40: 223e 3c61 2068 7265 663d 2268 7474 7073  "><a href="https
++00002d50: 3a2f 2f67 6974 6875 622e 636f 6d2f 616c  ://github.com/al
++00002d60: 656e 7261 6a73 7022 3e3c 696d 6720 7372  enrajsp"><img sr
++00002d70: 633d 2268 7474 7073 3a2f 2f61 7661 7461  c="https://avata
++00002d80: 7273 2e67 6974 6875 6275 7365 7263 6f6e  rs.githubusercon
++00002d90: 7465 6e74 2e63 6f6d 2f75 2f32 3737 3231  tent.com/u/27721
++00002da0: 3731 343f 763d 343f 733d 3130 3022 2077  714?v=4?s=100" w
++00002db0: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++00002dc0: 743d 2261 6c65 6e72 616a 7370 222f 3e3c  t="alenrajsp"/><
++00002dd0: 6272 202f 3e3c 7375 623e 3c62 3e61 6c65  br /><sub><b>ale
++00002de0: 6e72 616a 7370 3c2f 623e 3c2f 7375 623e  nrajsp</b></sub>
++00002df0: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
++00002e00: 663d 2223 636f 6e74 656e 742d 616c 656e  f="#content-alen
++00002e10: 7261 6a73 7022 2074 6974 6c65 3d22 436f  rajsp" title="Co
++00002e20: 6e74 656e 7422 3ef0 9f96 8b3c 2f61 3e3c  ntent">....</a><
++00002e30: 2f74 643e 0a20 2020 2020 203c 7464 2061  /td>.      <td a
++00002e40: 6c69 676e 3d22 6365 6e74 6572 2220 7661  lign="center" va
++00002e50: 6c69 676e 3d22 746f 7022 2077 6964 7468  lign="top" width
++00002e60: 3d22 3134 2e32 3825 223e 3c61 2068 7265  ="14.28%"><a hre
++00002e70: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
++00002e80: 622e 636f 6d2f 4b75 6b6f 7665 6352 6f6b  b.com/KukovecRok
++00002e90: 223e 3c69 6d67 2073 7263 3d22 6874 7470  "><img src="http
++00002ea0: 733a 2f2f 6176 6174 6172 732e 6769 7468  s://avatars.gith
++00002eb0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00002ec0: 6d2f 752f 3333 3838 3030 3434 3f76 3d34  m/u/33880044?v=4
++00002ed0: 3f73 3d31 3030 2220 7769 6474 683d 2231  ?s=100" width="1
++00002ee0: 3030 7078 3b22 2061 6c74 3d22 5461 746f  00px;" alt="Tato
++00002ef0: 6f6b 6965 222f 3e3c 6272 202f 3e3c 7375  okie"/><br /><su
++00002f00: 623e 3c62 3e54 6174 6f6f 6b69 653c 2f62  b><b>Tatookie</b
++00002f10: 3e3c 2f73 7562 3e3c 2f61 3e3c 6272 202f  ></sub></a><br /
++00002f20: 3e3c 6120 6872 6566 3d22 6874 7470 733a  ><a href="https:
++00002f30: 2f2f 6769 7468 7562 2e63 6f6d 2f66 6972  //github.com/fir
++00002f40: 6566 6c79 2d63 7070 2f41 5354 2d4d 6f6e  efly-cpp/AST-Mon
++00002f50: 6974 6f72 2f63 6f6d 6d69 7473 3f61 7574  itor/commits?aut
++00002f60: 686f 723d 4b75 6b6f 7665 6352 6f6b 2220  hor=KukovecRok" 
++00002f70: 7469 746c 653d 2244 6f63 756d 656e 7461  title="Documenta
++00002f80: 7469 6f6e 223e f09f 9396 3c2f 613e 203c  tion">....</a> <
++00002f90: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
++00002fa0: 6769 7468 7562 2e63 6f6d 2f66 6972 6566  github.com/firef
++00002fb0: 6c79 2d63 7070 2f41 5354 2d4d 6f6e 6974  ly-cpp/AST-Monit
++00002fc0: 6f72 2f69 7373 7565 733f 713d 6175 7468  or/issues?q=auth
++00002fd0: 6f72 2533 414b 756b 6f76 6563 526f 6b22  or%3AKukovecRok"
++00002fe0: 2074 6974 6c65 3d22 4275 6720 7265 706f   title="Bug repo
++00002ff0: 7274 7322 3ef0 9f90 9b3c 2f61 3e3c 2f74  rts">....</a></t
++00003000: 643e 0a20 2020 203c 2f74 723e 0a20 203c  d>.    </tr>.  <
++00003010: 2f74 626f 6479 3e0a 3c2f 7461 626c 653e  /tbody>.</table>
++00003020: 0a0a 3c21 2d2d 206d 6172 6b64 6f77 6e6c  ..<!-- markdownl
++00003030: 696e 742d 7265 7374 6f72 6520 2d2d 3e0a  int-restore -->.
++00003040: 3c21 2d2d 2070 7265 7474 6965 722d 6967  <!-- prettier-ig
++00003050: 6e6f 7265 2d65 6e64 202d 2d3e 0a0a 3c21  nore-end -->..<!
++00003060: 2d2d 2041 4c4c 2d43 4f4e 5452 4942 5554  -- ALL-CONTRIBUT
++00003070: 4f52 532d 4c49 5354 3a45 4e44 202d 2d3e  ORS-LIST:END -->
++00003080: 0a3c 212d 2d20 7072 6574 7469 6572 2d69  .<!-- prettier-i
++00003090: 676e 6f72 652d 7374 6172 7420 2d2d 3e0a  gnore-start -->.
++000030a0: 3c21 2d2d 206d 6172 6b64 6f77 6e6c 696e  <!-- markdownlin
++000030b0: 742d 6469 7361 626c 6520 2d2d 3e0a 0a3c  t-disable -->..<
++000030c0: 212d 2d20 6d61 726b 646f 776e 6c69 6e74  !-- markdownlint
++000030d0: 2d72 6573 746f 7265 202d 2d3e 0a3c 212d  -restore -->.<!-
++000030e0: 2d20 7072 6574 7469 6572 2d69 676e 6f72  - prettier-ignor
++000030f0: 652d 656e 6420 2d2d 3e0a 0a3c 212d 2d20  e-end -->..<!-- 
++00003100: 414c 4c2d 434f 4e54 5249 4255 544f 5253  ALL-CONTRIBUTORS
++00003110: 2d4c 4953 543a 454e 4420 2d2d 3e0a 0a    -LIST:END -->..
+```
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/__init__.py` & `ast_monitor-0.3.3/ast_monitor/__init__.py`
+
+ * *Files 1% similar despite different names*
+
+```diff
+@@ -20,8 +20,8 @@
+     AST,
+     Simulation,
+     TrainingSession,
+     WriteLog
+ ]
+ 
+ __project__ = 'ast_monitor'
+-__version__ = '0.3.2'
++__version__ = '0.3.3'
+```
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/basic_data.py` & `ast_monitor-0.3.3/ast_monitor/basic_data.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/digital_twin.py` & `ast_monitor-0.3.3/ast_monitor/digital_twin.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/gps_sensor.py` & `ast_monitor-0.3.3/ast_monitor/gps_sensor.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/hr_sensor.py` & `ast_monitor-0.3.3/ast_monitor/hr_sensor.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/arrow_down.svg` & `ast_monitor-0.3.3/ast_monitor/icons/arrow_down.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/arrow_left.svg` & `ast_monitor-0.3.3/ast_monitor/icons/arrow_left.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/arrow_right.svg` & `ast_monitor-0.3.3/ast_monitor/icons/arrow_right.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/arrow_up.svg` & `ast_monitor-0.3.3/ast_monitor/icons/arrow_up.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/ascent.svg` & `ast_monitor-0.3.3/ast_monitor/icons/ascent.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/bicycle.svg` & `ast_monitor-0.3.3/ast_monitor/icons/bicycle.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/clock.svg` & `ast_monitor-0.3.3/ast_monitor/icons/clock.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/distance.svg` & `ast_monitor-0.3.3/ast_monitor/icons/distance.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/heart.svg` & `ast_monitor-0.3.3/ast_monitor/icons/heart.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/play.svg` & `ast_monitor-0.3.3/ast_monitor/icons/play.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/shutdown.svg` & `ast_monitor-0.3.3/ast_monitor/icons/shutdown.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/speed.svg` & `ast_monitor-0.3.3/ast_monitor/icons/speed.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/icons/stop.svg` & `ast_monitor-0.3.3/ast_monitor/icons/stop.svg`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/interval_training.py` & `ast_monitor-0.3.3/ast_monitor/interval_training.py`
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -4,28 +4,40 @@
+ from ast_monitor.digital_twin import DigitalTwin
+ from ast_monitor.write_log import WriteLog
+ 
+ 
+ class IntervalTraining:
+     """
+     Initialization method of the IntervalTraining class.\n
++
+     Args:
+-        training: dict
+-            an interval training
+-        tick_time: int
+-            tick time in milliseconds
++    ----
++    training: dict
++        an interval training
++    tick_time: int
++        tick time in milliseconds
++
++    Returns:
++    -------
++    None
+     """
+     def __init__(self, training: dict, basic_data) -> None:
+         """
+         Initialization method of the IntervalTraining class.\n
++
+         Args:
+-            training: dict
+-                an interval training
+-            tick_time: int
+-                tick time in milliseconds
++        ----
++        training: dict
++            an interval training
++        tick_time: int
++            tick time in milliseconds
++
++        Returns:
++        -------
++        None
+         """
+         self.file = training['file']
+         self.name = training['interval'][0]['name']
+         self.sport = training['interval'][0]['sport']
+         self.info = training['interval'][0]['info']
+         self.speed_duration = training['interval'][0]['speed_duration']
+         self.recovery_duration = training['interval'][0]['recovery_duration']
+@@ -42,17 +54,23 @@
+         self.basic_data = basic_data
+         name = self.file.split('.')[0]
+         self.log = f'../logs/{name}.log'
+ 
+     def __eq__(self, __o: object) -> bool:
+         """
+         Method for comparing two IntervalTraining objects.\n
++
+         Args:
+-            __o: IntervalTraining
+-                an interval training to be compared to
++        ----
++        __o: IntervalTraining
++            an interval training to be compared to
++
++        Returns:
++        -------
++        bool
+         """
+         return (
+             self.name == __o.name and
+             self.sport == __o.sport and
+             self.info == __o.info and
+             self.speed_duration == __o.speed_duration and
+             self.recovery_duration == __o.recovery_duration and
+@@ -61,39 +79,51 @@
+             self.repetitions == __o.repetitions and
+             self.type == __o.type
+         )
+ 
+     def start(self, write_log: bool = False) -> None:
+         """
+         Starting an interval training.\n
++
+         Args:
+-            write_log: bool
+-                writing log if True
++        ----
++        write_log: bool
++            writing log if True
++
++        Returns:
++        -------
++        None
+         """
+         # Writing the header of the training.
+         if write_log:
+             WriteLog.write_interval_training_header(self.log)
+ 
+         for i in range(self.repetitions):
+             self.start_speed_phase(i, write_log=True)
+             if self.abort_training:
+                 break
+             self.start_recovery_phase(i, write_log=True)
+             if self.abort_training:
+                 break
+         self.abort_training = True
+ 
+-    def start_speed_phase(self, interval: int, write_log: bool) -> None:
++    def start_speed_phase(self, interval: int) -> None:
+         """
+         Starting a speed phase of an interval.\n
++
+         Args:
+-            interval: int
+-                index of the interval
+-            write_log: bool
+-                writing log if True
++        ----
++        interval: int
++            index of the interval
++        write_log: bool
++            writing log if True
++
++        Returns:
++        -------
++        None
+         """
+         self.current_interval = interval, 'speed'
+         self.speed_notification = True
+         self.phase_start = time.time()
+         self.time = time.time() - self.phase_start
+ 
+         self.digital_twin = DigitalTwin(
+@@ -118,19 +148,25 @@
+                 self.digital_twin
+             )
+             time.sleep(0.5)
+ 
+     def start_recovery_phase(self, interval: int, write_log: bool) -> None:
+         """
+         Starting a recovery phase of an interval.\n
++
+         Args:
+-            interval: int
+-                index of the interval
+-            write_log: bool
+-                writing log if True
++        ----
++        interval: int
++            index of the interval
++        write_log: bool
++            writing log if True
++
++        Returns:
++        -------
++        None
+         """
+         self.current_interval = interval, 'recovery'
+         self.recovery_notification = True
+         self.phase_start = time.time()
+         self.time = time.time() - self.phase_start
+ 
+         self.digital_twin = DigitalTwin(
+```
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/mainwindow.py` & `ast_monitor-0.3.3/ast_monitor/mainwindow.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/model.py` & `ast_monitor-0.3.3/ast_monitor/model.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/simulation.py` & `ast_monitor-0.3.3/ast_monitor/simulation.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/training_session.py` & `ast_monitor-0.3.3/ast_monitor/training_session.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/ast_monitor/write_log.py` & `ast_monitor-0.3.3/ast_monitor/write_log.py`
+
+ * *Files identical despite different names*
+
+### Comparing `ast_monitor-0.3.2/pyproject.toml` & `ast_monitor-0.3.3/pyproject.toml`
+
+ * *Files 10% similar despite different names*
+
+```diff
+@@ -1,10 +1,10 @@
+ [tool.poetry]
+ name = "ast_monitor"
+-version = "0.3.2"
++version = "0.3.3"
+ description = "AST-Monitor is a wearable Raspberry Pi computer for cyclists"
+ license = "MIT"
+ authors = ["Iztok Fister Jr. <iztok@iztok-jr-fister.eu>", "Luka Lukač <luka.lukac@student.um.si>"]
+ keywords = ['artificial sport trainer', 'computational intelligence', 'data mining', 'datasets', 'digital twin', 'optimization', 'sport activities', 'tcx']
+ homepage = "https://github.com/firefly-cpp/AST-Monitor"
+ repository = "https://github.com/firefly-cpp/AST-Monitor"
+ readme = "README.md"
+@@ -18,15 +18,15 @@
+ [tool.poetry.dependencies]
+ python = "^3.9"
+ PyQt5 = "*"
+ matplotlib = "*"
+ geopy = "*"
+ pyqt-feedback-flow = "^0.1.6"
+ tcxreader = "^0.4.2"
+-sport-activities-features = "^0.3.7.1"
++sport-activities-features = "^0.3.12"
+ PyQtWebEngine = "^5.15.5"
+ openant = "^1.2.0"
+ 
+ [tool.poetry.dev-dependencies]
+ pytest = "^5.2"
+ 
+ [build-system]
+```
+
+### Comparing `ast_monitor-0.3.2/setup.py` & `ast_monitor-0.3.3/setup.py`
+
+ * *Files 3% similar despite different names*
+
+```diff
+@@ -10,22 +10,22 @@
+ install_requires = \
+ ['PyQt5',
+  'PyQtWebEngine>=5.15.5,<6.0.0',
+  'geopy',
+  'matplotlib',
+  'openant>=1.2.0,<2.0.0',
+  'pyqt-feedback-flow>=0.1.6,<0.2.0',
+- 'sport-activities-features>=0.3.7.1,<0.4.0.0',
++ 'sport-activities-features>=0.3.12,<0.4.0',
+  'tcxreader>=0.4.2,<0.5.0']
+ 
+ setup_kwargs = {
+     'name': 'ast-monitor',
+-    'version': '0.3.2',
++    'version': '0.3.3',
+     'description': 'AST-Monitor is a wearable Raspberry Pi computer for cyclists',
+-    'long_description': '# AST-Monitor --- A wearable Raspberry Pi computer for cyclists\n<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->\n[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)\n<!-- ALL-CONTRIBUTORS-BADGE:END -->\n[![PyPI Version](https://img.shields.io/pypi/v/ast-monitor.svg)](https://pypi.python.org/pypi/ast-monitor)\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ast-monitor.svg)\n![PyPI - Downloads](https://img.shields.io/pypi/dm/ast-monitor.svg)\n[![Downloads](https://pepy.tech/badge/ast-monitor)](https://pepy.tech/project/ast-monitor)\n![GitHub repo size](https://img.shields.io/github/repo-size/firefly-cpp/ast-monitor?style=flat-square)\n[![GitHub license](https://img.shields.io/github/license/firefly-cpp/ast-monitor.svg)](https://github.com/firefly-cpp/AST-Monitor/blob/master/LICENSE)\n![GitHub commit activity](https://img.shields.io/github/commit-activity/w/firefly-cpp/ast-monitor.svg)\n![GitHub contributors](https://img.shields.io/github/contributors/firefly-cpp/ast-monitor.svg)\n\n[![DOI](https://img.shields.io/badge/DOI-10.1109/ISCMI53840.2021.9654817-blue)](https://doi.org/10.1109/ISCMI53840.2021.9654817)\n[![DOI](https://img.shields.io/badge/DOI-10.3390/app122412741-blue)](https://doi.org/10.3390/app122412741)\n[![Fedora package](https://img.shields.io/fedora/v/python3-ast-monitor?color=blue&label=Fedora%20Linux&logo=fedora)](https://src.fedoraproject.org/rpms/python-ast-monitor)\n[![AUR package](https://img.shields.io/aur/version/python-ast-monitor?color=blue&label=Arch%20Linux&logo=arch-linux)](https://aur.archlinux.org/packages/python-ast-monitor)\n\n## Short description\nThis repository is devoted to AST-Monitor, i.e., a low-cost and efficient embedded device for monitoring the realization of sport training sessions that are dedicated to monitoring cycling training sessions.\nAST-Monitor is a part of the Artificial Sport Trainer (AST) system. The first bits of AST-Monitor were presented in the following [paper](https://arxiv.org/abs/2109.13334).\n\n\n## Graphical User Interface of the application\n### Basic data\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/179205064-160bdd44-fd67-4d8d-85dd-badea999885c.png" alt="AST-GUI">\n</p>\nThe initial page of the application depicts basic parameters of an athlete\'s activity: current speed and current heart rate. If a training session is conducted, total distance, total time of the session and total ascent are displayed as well.\n\n---\n### Interactive map\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/179205118-19cbb6e2-f410-4371-a762-c4c77344ab24.png" alt="AST-Map">\n</p>\nThe second page of the application is devoted to an interactive map, which depicts athlete\'s current position.\n\nNote: the position is currently hardcoded and does not respond according to GPS data.\n\n---\n### Interval training data\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/179205160-edce581c-1ea8-4287-a795-7d05fb7c8ddc.png" alt="AST-Intervals">\n</p>\nThe third page of the application depicts interval training data. During an interval training, total duration of the current phase is displayed along with current heart rate, average heart rate, Digital Twin proposed heart rate and the difference between the current and the proposed heart rate.\n\n---\n### Interval training plan\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/189926103-e0895132-9bbc-41bf-8868-51e3e6c23f8a.png" alt="AST-Trainings">\n</p>\nThe fourth and final page of the application is intended for loading and starting interval trainings located in the folder "AST-Monitor/development/trainings". In order to be parsed correctly, trainings must be written in domain-specific language <a href="https://github.com/firefly-cpp/ast-tdl">AST-TDL</a> and converted to JavaScript Object Notation (JSON). After successful loading of an interval training, the training plan is displayed on this page.\n\n\n## Hardware outline\nThe complete hardware part is shown in the figure from which it can be seen that the AST-computer is split into the following pieces:\n\n* a platform with fixing straps that attach to a bicycle,\n* the Raspberry Pi 4 Model B micro-controller with Raspbian OS installed,\n* a five-inch LCD touch screen display,\n* a USB ANT+ stick,\n* Adafruit\'s Ultimate GPS HAT module.\n\n<p align="center">\n  <img width="600" src="https://raw.githubusercontent.com/firefly-cpp/AST-Monitor/main/.github/img/complete_small.JPG" alt="AST-Monitor">\n</p>\n\nA Serial Peripheral Interface (SPI) protocol was dedicated to communication between the Raspberry Pi and the GPS peripheral. A specialized USB ANT+ stick was used to capture the HR signal. The screen display was connected using a modified (physically shortened) HDMI cable, while the touch feedback was implemented using physical wires. The computer was powered during the testing phase using the Trust\'s (5 VDC) power bank. The AST-Monitor prototype is still a little bulky, but a more discrete solution is being searched for, including the sweat drainer of the AST. Internal components of AST-Monitor are depicted in the following scheme.\n\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/189920171-ac946a93-ad78-4e4b-bf09-5de5bf69bef9.png" alt="AST-Monitor">\n</p>\n\n## Software outline\n### Dependencies\nList of dependencies:\n\n| Package      | Version    | Platform |\n| ------------ |:----------:|:--------:|\n| PyQt5        | ^5.15.6    | All      |\n| matplotlib   | ^3.5.1     | All      |\n| geopy        | ^2.2.0     | All      |\n| openant        | v0.4     | All      |\n| pyqt-feedback-flow       | ^0.1.0     | All      |\n| tcxreader       | ^0.4.1     | All      |\n| sport-activities-features       | ^0.3.6     | All      |\n\nNote: openant package should be installed manually. Please follow the [official instructions](https://github.com/Tigge/openant). If you use Fedora OS, you can install openant package using the dnf package manager:\n\n```sh\n$ dnf install python-openant\n```\n\nAdditional note: adafruit-circuitpython-gps package must be installed in order to work with the GPS sensor:\n\n```sh\n$ pip install adafruit-circuitpython-gps\n```\n\n## Installation\nInstall AST-Monitor with pip:\n\n```sh\n$ pip install ast-monitor\n```\nIn case you want to install directly from the source code, use:\n\n```sh\n$ git clone https://github.com/firefly-cpp/AST-Monitor.git\n$ cd AST-Monitor\n$ poetry build\n$ python setup.py install\n```\n\nTo install AST-Monitor on Fedora Linux, please use:\n\n```sh\n$ dnf install python3-ast-monitor\n```\n\nTo install AST-Monitor on Alpine Linux, please use:\n\n```sh\n$ apk add py3-ast-monitor\n```\n\nTo install AST-Monitor on Arch Linux, please use an [AUR helper](https://wiki.archlinux.org/title/AUR_helpers):\n\n```sh\n$ yay -Syyu python-ast-monitor\n```\n\n## Deployment\nOur project was deployed on a Raspberry Pi device using Raspberry Pi OS.\n\nThe hardware configuration of AST-Monitor using Raspberry Pi OS is described in <a href="https://github.com/firefly-cpp/AST-Monitor/blob/main/HARDWARE_CONFIGURATION.md">HARDWARE_CONFIGURATION.md</a>.\n\n## Examples\n\n### Basic run\n```python\nfrom PyQt5 import QtWidgets\nimport sys\n\ntry:\n    from ast_monitor.model import AST\nexcept ModuleNotFoundError:\n    sys.path.append(\'../\')\n    from ast_monitor.model import AST\n\n\n# Paths to the files with heart rates and GPS data.\nhr_data = \'../sensor_data/hr.txt\'\ngps_data = \'../sensor_data/gps.txt\'\n\nif __name__ == \'__main__\':\n    app = QtWidgets.QApplication(sys.argv)\n    window = AST(hr_data, gps_data)\n    window.show()\n    sys.exit(app.exec_())\n```\n\n## License\nThis package is distributed under the MIT License. This license can be found online at <http://www.opensource.org/licenses/MIT>.\n\n## Disclaimer\nThis framework is provided as-is, and there are no guarantees that it fits your purposes or that it is bug-free. Use it at your own risk!\n\n## Cite us\nLukač, L., Fister Jr., I., Fister, I. "[Digital Twin in Sport: From an Idea to Realization](https://www.mdpi.com/2076-3417/12/24/12741)." Applied Sciences 12.24 (2022): 12741.\n\n## References\nFister Jr, I., Fister, I., Iglesias, A., Galvez, A., Deb, S., & Fister, D. (2021). On deploying the Artificial Sport Trainer into practice. arXiv preprint [arXiv:2109.13334](https://arxiv.org/abs/2109.13334).\n\nFister Jr, I., Salcedo-Sanz, S., Iglesias, A., Fister, D., Gálvez, A., & Fister, I. (2021). New Perspectives in the Development of the Artificial Sport Trainer. Applied Sciences, 11(23), 11452. DOI: [10.3390/app112311452](https://doi.org/10.3390/app112311452)\n\n## Contributors\n\n<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tbody>\n    <tr>\n      <td align="center"><a href="http://www.iztok-jr-fister.eu/"><img src="https://avatars.githubusercontent.com/u/1633361?v=4?s=100" width="100px;" alt="Iztok Fister Jr."/><br /><sub><b>Iztok Fister Jr.</b></sub></a><br /><a href="https://github.com/firefly-cpp/AST-Monitor/issues?q=author%3Afirefly-cpp" title="Bug reports">🐛</a> <a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=firefly-cpp" title="Documentation">📖</a> <a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=firefly-cpp" title="Code">💻</a> <a href="#maintenance-firefly-cpp" title="Maintenance">🚧</a> <a href="#mentoring-firefly-cpp" title="Mentoring">🧑\u200d🏫</a> <a href="#platform-firefly-cpp" title="Packaging/porting to new platform">📦</a></td>\n      <td align="center"><a href="https://github.com/luckyLukac"><img src="https://avatars.githubusercontent.com/u/73126820?v=4?s=100" width="100px;" alt="luckyLukac"/><br /><sub><b>luckyLukac</b></sub></a><br /><a href="https://github.com/firefly-cpp/AST-Monitor/issues?q=author%3AluckyLukac" title="Bug reports">🐛</a> <a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=luckyLukac" title="Documentation">📖</a> <a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=luckyLukac" title="Code">💻</a> <a href="#design-luckyLukac" title="Design">🎨</a></td>\n      <td align="center"><a href="http://carlosal1015.github.io"><img src="https://avatars.githubusercontent.com/u/21283014?v=4?s=100" width="100px;" alt="Oromion"/><br /><sub><b>Oromion</b></sub></a><br /><a href="#platform-carlosal1015" title="Packaging/porting to new platform">📦</a></td>\n      <td align="center"><a href="https://github.com/alenrajsp"><img src="https://avatars.githubusercontent.com/u/27721714?v=4?s=100" width="100px;" alt="alenrajsp"/><br /><sub><b>alenrajsp</b></sub></a><br /><a href="#content-alenrajsp" title="Content">🖋</a></td>\n    </tr>\n  </tbody>\n</table>\n\n<!-- markdownlint-restore -->\n<!-- prettier-ignore-end -->\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n\n<!-- markdownlint-restore -->\n<!-- prettier-ignore-end -->\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n',
++    'long_description': '# AST-Monitor --- A wearable Raspberry Pi computer for cyclists\n[![PyPI Version](https://img.shields.io/pypi/v/ast-monitor.svg)](https://pypi.python.org/pypi/ast-monitor)\n![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ast-monitor.svg)\n![PyPI - Downloads](https://img.shields.io/pypi/dm/ast-monitor.svg)\n[![Downloads](https://pepy.tech/badge/ast-monitor)](https://pepy.tech/project/ast-monitor)\n![GitHub repo size](https://img.shields.io/github/repo-size/firefly-cpp/ast-monitor?style=flat-square)\n[![GitHub license](https://img.shields.io/github/license/firefly-cpp/ast-monitor.svg)](https://github.com/firefly-cpp/AST-Monitor/blob/master/LICENSE)\n![GitHub commit activity](https://img.shields.io/github/commit-activity/w/firefly-cpp/ast-monitor.svg)\n![GitHub contributors](https://img.shields.io/github/contributors/firefly-cpp/ast-monitor.svg)\n[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors-)\n\n[![DOI](https://img.shields.io/badge/DOI-10.1109/ISCMI53840.2021.9654817-blue)](https://doi.org/10.1109/ISCMI53840.2021.9654817)\n[![DOI](https://img.shields.io/badge/DOI-10.3390/app122412741-blue)](https://doi.org/10.3390/app122412741)\n[![Fedora package](https://img.shields.io/fedora/v/python3-ast-monitor?color=blue&label=Fedora%20Linux&logo=fedora)](https://src.fedoraproject.org/rpms/python-ast-monitor)\n[![AUR package](https://img.shields.io/aur/version/python-ast-monitor?color=blue&label=Arch%20Linux&logo=arch-linux)](https://aur.archlinux.org/packages/python-ast-monitor)\n\n* **Documentation:** [https://ast-monitor.readthedocs.io/en/latest](https://ast-monitor.readthedocs.io/en/latest)\n* **Tested OS:** Windows, Ubuntu, Fedora, Alpine, Arch, macOS. **However, that does not mean it does not work on others**\n  \n## Short description\nThis repository is devoted to AST-Monitor, i.e., a low-cost and efficient embedded device for monitoring the realization of sport training sessions that are dedicated to monitoring cycling training sessions.\nAST-Monitor is a part of the Artificial Sport Trainer (AST) system. The first bits of AST-Monitor were presented in the following [paper](https://arxiv.org/abs/2109.13334).\n\n\n## Graphical User Interface of the application\n### Basic data\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/179205064-160bdd44-fd67-4d8d-85dd-badea999885c.png" alt="AST-GUI">\n</p>\nThe initial page of the application depicts basic parameters of an athlete\'s activity: current speed and current heart rate. If a training session is conducted, total distance, total time of the session and total ascent are displayed as well.\n\n---\n### Interactive map\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/179205118-19cbb6e2-f410-4371-a762-c4c77344ab24.png" alt="AST-Map">\n</p>\nThe second page of the application is devoted to an interactive map, which depicts athlete\'s current position.\n\nNote: the position is currently hardcoded and does not respond according to GPS data.\n\n---\n### Interval training data\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/179205160-edce581c-1ea8-4287-a795-7d05fb7c8ddc.png" alt="AST-Intervals">\n</p>\nThe third page of the application depicts interval training data. During an interval training, total duration of the current phase is displayed along with current heart rate, average heart rate, Digital Twin proposed heart rate and the difference between the current and the proposed heart rate.\n\n---\n### Interval training plan\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/189926103-e0895132-9bbc-41bf-8868-51e3e6c23f8a.png" alt="AST-Trainings">\n</p>\nThe fourth and final page of the application is intended for loading and starting interval trainings located in the folder "AST-Monitor/development/trainings". In order to be parsed correctly, trainings must be written in domain-specific language <a href="https://github.com/firefly-cpp/ast-tdl">AST-TDL</a> and converted to JavaScript Object Notation (JSON). After successful loading of an interval training, the training plan is displayed on this page.\n\n\n## Hardware outline\nThe complete hardware part is shown in the figure from which it can be seen that the AST-computer is split into the following pieces:\n\n* a platform with fixing straps that attach to a bicycle,\n* the Raspberry Pi 4 Model B micro-controller with Raspbian OS installed,\n* a five-inch LCD touch screen display,\n* a USB ANT+ stick,\n* Adafruit\'s Ultimate GPS HAT module.\n\n<p align="center">\n  <img width="600" src="https://raw.githubusercontent.com/firefly-cpp/AST-Monitor/main/.github/img/complete_small.JPG" alt="AST-Monitor">\n</p>\n\nA Serial Peripheral Interface (SPI) protocol was dedicated to communication between the Raspberry Pi and the GPS peripheral. A specialized USB ANT+ stick was used to capture the HR signal. The screen display was connected using a modified (physically shortened) HDMI cable, while the touch feedback was implemented using physical wires. The computer was powered during the testing phase using the Trust\'s (5 VDC) power bank. The AST-Monitor prototype is still a little bulky, but a more discrete solution is being searched for, including the sweat drainer of the AST. Internal components of AST-Monitor are depicted in the following scheme.\n\n<p align="center">\n  <img width="600" src="https://user-images.githubusercontent.com/73126820/189920171-ac946a93-ad78-4e4b-bf09-5de5bf69bef9.png" alt="AST-Monitor">\n</p>\n\n## Software outline\n### Dependencies\nList of dependencies:\n\n| Package      | Version    | Platform |\n| ------------ |:----------:|:--------:|\n| PyQt5        | ^5.15.6    | All      |\n| matplotlib   | ^3.5.1     | All      |\n| geopy        | ^2.2.0     | All      |\n| openant      | ^1.2.0     | All      |\n| pyqt-feedback-flow       | ^0.1.0     | All      |\n| tcxreader       | ^0.4.1     | All      |\n| sport-activities-features       | ^0.3.6     | All      |\n\nAdditional note: adafruit-circuitpython-gps package must be installed in order to work with the GPS sensor:\n\n```sh\n$ pip install adafruit-circuitpython-gps\n```\n\n## Installation\nInstall AST-Monitor with pip:\n\n```sh\n$ pip install ast-monitor\n```\nIn case you want to install directly from the source code, use:\n\n```sh\n$ git clone https://github.com/firefly-cpp/AST-Monitor.git\n$ cd AST-Monitor\n$ poetry build\n$ python setup.py install\n```\n\nTo install AST-Monitor on Fedora Linux, please use:\n\n```sh\n$ dnf install python3-ast-monitor\n```\n\nTo install AST-Monitor on Alpine Linux, please use:\n\n```sh\n$ apk add py3-ast-monitor\n```\n\nTo install AST-Monitor on Arch Linux, please use an [AUR helper](https://wiki.archlinux.org/title/AUR_helpers):\n\n```sh\n$ yay -Syyu python-ast-monitor\n```\n\n## Deployment\nOur project was deployed on a Raspberry Pi device using Raspberry Pi OS.\n\nThe hardware configuration of AST-Monitor using Raspberry Pi OS is described in <a href="https://github.com/firefly-cpp/AST-Monitor/blob/main/HARDWARE_CONFIGURATION.md">HARDWARE_CONFIGURATION.md</a>.\n\n## Examples\n\n### Basic run\n```python\nfrom PyQt5 import QtWidgets\nimport sys\n\ntry:\n    from ast_monitor.model import AST\nexcept ModuleNotFoundError:\n    sys.path.append(\'../\')\n    from ast_monitor.model import AST\n\n\n# Paths to the files with heart rates and GPS data.\nhr_data = \'../sensor_data/hr.txt\'\ngps_data = \'../sensor_data/gps.txt\'\n\nif __name__ == \'__main__\':\n    app = QtWidgets.QApplication(sys.argv)\n    window = AST(hr_data, gps_data)\n    window.show()\n    sys.exit(app.exec_())\n```\n\n## License\nThis package is distributed under the MIT License. This license can be found online at <http://www.opensource.org/licenses/MIT>.\n\n## Disclaimer\nThis framework is provided as-is, and there are no guarantees that it fits your purposes or that it is bug-free. Use it at your own risk!\n\n## Cite us\nLukač, L., Fister Jr., I., Fister, I. "[Digital Twin in Sport: From an Idea to Realization](https://www.mdpi.com/2076-3417/12/24/12741)." Applied Sciences 12.24 (2022): 12741.\n\n## References\nFister Jr, I., Fister, I., Iglesias, A., Galvez, A., Deb, S., & Fister, D. (2021). On deploying the Artificial Sport Trainer into practice. arXiv preprint [arXiv:2109.13334](https://arxiv.org/abs/2109.13334).\n\nFister Jr, I., Salcedo-Sanz, S., Iglesias, A., Fister, D., Gálvez, A., & Fister, I. (2021). New Perspectives in the Development of the Artificial Sport Trainer. Applied Sciences, 11(23), 11452. DOI: [10.3390/app112311452](https://doi.org/10.3390/app112311452)\n\n## Contributors\n\n<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n<table>\n  <tbody>\n    <tr>\n      <td align="center" valign="top" width="14.28%"><a href="http://www.iztok-jr-fister.eu/"><img src="https://avatars.githubusercontent.com/u/1633361?v=4?s=100" width="100px;" alt="Iztok Fister Jr."/><br /><sub><b>Iztok Fister Jr.</b></sub></a><br /><a href="https://github.com/firefly-cpp/AST-Monitor/issues?q=author%3Afirefly-cpp" title="Bug reports">🐛</a> <a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=firefly-cpp" title="Documentation">📖</a> <a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=firefly-cpp" title="Code">💻</a> <a href="#maintenance-firefly-cpp" title="Maintenance">🚧</a> <a href="#mentoring-firefly-cpp" title="Mentoring">🧑\u200d🏫</a> <a href="#platform-firefly-cpp" title="Packaging/porting to new platform">📦</a></td>\n      <td align="center" valign="top" width="14.28%"><a href="https://github.com/luckyLukac"><img src="https://avatars.githubusercontent.com/u/73126820?v=4?s=100" width="100px;" alt="luckyLukac"/><br /><sub><b>luckyLukac</b></sub></a><br /><a href="https://github.com/firefly-cpp/AST-Monitor/issues?q=author%3AluckyLukac" title="Bug reports">🐛</a> <a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=luckyLukac" title="Documentation">📖</a> <a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=luckyLukac" title="Code">💻</a> <a href="#design-luckyLukac" title="Design">🎨</a></td>\n      <td align="center" valign="top" width="14.28%"><a href="http://carlosal1015.github.io"><img src="https://avatars.githubusercontent.com/u/21283014?v=4?s=100" width="100px;" alt="Oromion"/><br /><sub><b>Oromion</b></sub></a><br /><a href="#platform-carlosal1015" title="Packaging/porting to new platform">📦</a></td>\n      <td align="center" valign="top" width="14.28%"><a href="https://github.com/alenrajsp"><img src="https://avatars.githubusercontent.com/u/27721714?v=4?s=100" width="100px;" alt="alenrajsp"/><br /><sub><b>alenrajsp</b></sub></a><br /><a href="#content-alenrajsp" title="Content">🖋</a></td>\n      <td align="center" valign="top" width="14.28%"><a href="https://github.com/KukovecRok"><img src="https://avatars.githubusercontent.com/u/33880044?v=4?s=100" width="100px;" alt="Tatookie"/><br /><sub><b>Tatookie</b></sub></a><br /><a href="https://github.com/firefly-cpp/AST-Monitor/commits?author=KukovecRok" title="Documentation">📖</a> <a href="https://github.com/firefly-cpp/AST-Monitor/issues?q=author%3AKukovecRok" title="Bug reports">🐛</a></td>\n    </tr>\n  </tbody>\n</table>\n\n<!-- markdownlint-restore -->\n<!-- prettier-ignore-end -->\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n<!-- prettier-ignore-start -->\n<!-- markdownlint-disable -->\n\n<!-- markdownlint-restore -->\n<!-- prettier-ignore-end -->\n\n<!-- ALL-CONTRIBUTORS-LIST:END -->\n',
+     'author': 'Iztok Fister Jr.',
+     'author_email': 'iztok@iztok-jr-fister.eu',
+     'maintainer': None,
+     'maintainer_email': None,
+     'url': 'https://github.com/firefly-cpp/AST-Monitor',
+     'packages': packages,
+     'package_data': package_data,
+```
+
+### Comparing `ast_monitor-0.3.2/PKG-INFO` & `ast_monitor-0.3.3/README.md`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,759 +1,722 @@
+-00000000: 4d65 7461 6461 7461 2d56 6572 7369 6f6e  Metadata-Version
+-00000010: 3a20 322e 310a 4e61 6d65 3a20 6173 742d  : 2.1.Name: ast-
+-00000020: 6d6f 6e69 746f 720a 5665 7273 696f 6e3a  monitor.Version:
+-00000030: 2030 2e33 2e32 0a53 756d 6d61 7279 3a20   0.3.2.Summary: 
+-00000040: 4153 542d 4d6f 6e69 746f 7220 6973 2061  AST-Monitor is a
+-00000050: 2077 6561 7261 626c 6520 5261 7370 6265   wearable Raspbe
+-00000060: 7272 7920 5069 2063 6f6d 7075 7465 7220  rry Pi computer 
+-00000070: 666f 7220 6379 636c 6973 7473 0a48 6f6d  for cyclists.Hom
+-00000080: 652d 7061 6765 3a20 6874 7470 733a 2f2f  e-page: https://
+-00000090: 6769 7468 7562 2e63 6f6d 2f66 6972 6566  github.com/firef
+-000000a0: 6c79 2d63 7070 2f41 5354 2d4d 6f6e 6974  ly-cpp/AST-Monit
+-000000b0: 6f72 0a4c 6963 656e 7365 3a20 4d49 540a  or.License: MIT.
+-000000c0: 4b65 7977 6f72 6473 3a20 6172 7469 6669  Keywords: artifi
+-000000d0: 6369 616c 2073 706f 7274 2074 7261 696e  cial sport train
+-000000e0: 6572 2c63 6f6d 7075 7461 7469 6f6e 616c  er,computational
+-000000f0: 2069 6e74 656c 6c69 6765 6e63 652c 6461   intelligence,da
+-00000100: 7461 206d 696e 696e 672c 6461 7461 7365  ta mining,datase
+-00000110: 7473 2c64 6967 6974 616c 2074 7769 6e2c  ts,digital twin,
+-00000120: 6f70 7469 6d69 7a61 7469 6f6e 2c73 706f  optimization,spo
+-00000130: 7274 2061 6374 6976 6974 6965 732c 7463  rt activities,tc
+-00000140: 780a 4175 7468 6f72 3a20 497a 746f 6b20  x.Author: Iztok 
+-00000150: 4669 7374 6572 204a 722e 0a41 7574 686f  Fister Jr..Autho
+-00000160: 722d 656d 6169 6c3a 2069 7a74 6f6b 4069  r-email: iztok@i
+-00000170: 7a74 6f6b 2d6a 722d 6669 7374 6572 2e65  ztok-jr-fister.e
+-00000180: 750a 5265 7175 6972 6573 2d50 7974 686f  u.Requires-Pytho
+-00000190: 6e3a 203e 3d33 2e39 2c3c 342e 300a 436c  n: >=3.9,<4.0.Cl
+-000001a0: 6173 7369 6669 6572 3a20 4c69 6365 6e73  assifier: Licens
+-000001b0: 6520 3a3a 204f 5349 2041 7070 726f 7665  e :: OSI Approve
+-000001c0: 6420 3a3a 204d 4954 204c 6963 656e 7365  d :: MIT License
+-000001d0: 0a43 6c61 7373 6966 6965 723a 2050 726f  .Classifier: Pro
+-000001e0: 6772 616d 6d69 6e67 204c 616e 6775 6167  gramming Languag
+-000001f0: 6520 3a3a 2050 7974 686f 6e20 3a3a 2033  e :: Python :: 3
+-00000200: 0a43 6c61 7373 6966 6965 723a 2050 726f  .Classifier: Pro
+-00000210: 6772 616d 6d69 6e67 204c 616e 6775 6167  gramming Languag
+-00000220: 6520 3a3a 2050 7974 686f 6e20 3a3a 2033  e :: Python :: 3
+-00000230: 2e31 300a 436c 6173 7369 6669 6572 3a20  .10.Classifier: 
+-00000240: 5072 6f67 7261 6d6d 696e 6720 4c61 6e67  Programming Lang
+-00000250: 7561 6765 203a 3a20 5079 7468 6f6e 203a  uage :: Python :
+-00000260: 3a20 332e 390a 5265 7175 6972 6573 2d44  : 3.9.Requires-D
+-00000270: 6973 743a 2050 7951 7435 0a52 6571 7569  ist: PyQt5.Requi
+-00000280: 7265 732d 4469 7374 3a20 5079 5174 5765  res-Dist: PyQtWe
+-00000290: 6245 6e67 696e 6520 283e 3d35 2e31 352e  bEngine (>=5.15.
+-000002a0: 352c 3c36 2e30 2e30 290a 5265 7175 6972  5,<6.0.0).Requir
+-000002b0: 6573 2d44 6973 743a 2067 656f 7079 0a52  es-Dist: geopy.R
+-000002c0: 6571 7569 7265 732d 4469 7374 3a20 6d61  equires-Dist: ma
+-000002d0: 7470 6c6f 746c 6962 0a52 6571 7569 7265  tplotlib.Require
+-000002e0: 732d 4469 7374 3a20 6f70 656e 616e 7420  s-Dist: openant 
+-000002f0: 283e 3d31 2e32 2e30 2c3c 322e 302e 3029  (>=1.2.0,<2.0.0)
+-00000300: 0a52 6571 7569 7265 732d 4469 7374 3a20  .Requires-Dist: 
+-00000310: 7079 7174 2d66 6565 6462 6163 6b2d 666c  pyqt-feedback-fl
+-00000320: 6f77 2028 3e3d 302e 312e 362c 3c30 2e32  ow (>=0.1.6,<0.2
+-00000330: 2e30 290a 5265 7175 6972 6573 2d44 6973  .0).Requires-Dis
+-00000340: 743a 2073 706f 7274 2d61 6374 6976 6974  t: sport-activit
+-00000350: 6965 732d 6665 6174 7572 6573 2028 3e3d  ies-features (>=
+-00000360: 302e 332e 372e 312c 3c30 2e34 2e30 2e30  0.3.7.1,<0.4.0.0
+-00000370: 290a 5265 7175 6972 6573 2d44 6973 743a  ).Requires-Dist:
+-00000380: 2074 6378 7265 6164 6572 2028 3e3d 302e   tcxreader (>=0.
+-00000390: 342e 322c 3c30 2e35 2e30 290a 5072 6f6a  4.2,<0.5.0).Proj
+-000003a0: 6563 742d 5552 4c3a 2052 6570 6f73 6974  ect-URL: Reposit
+-000003b0: 6f72 792c 2068 7474 7073 3a2f 2f67 6974  ory, https://git
+-000003c0: 6875 622e 636f 6d2f 6669 7265 666c 792d  hub.com/firefly-
+-000003d0: 6370 702f 4153 542d 4d6f 6e69 746f 720a  cpp/AST-Monitor.
+-000003e0: 4465 7363 7269 7074 696f 6e2d 436f 6e74  Description-Cont
+-000003f0: 656e 742d 5479 7065 3a20 7465 7874 2f6d  ent-Type: text/m
+-00000400: 6172 6b64 6f77 6e0a 0a23 2041 5354 2d4d  arkdown..# AST-M
+-00000410: 6f6e 6974 6f72 202d 2d2d 2041 2077 6561  onitor --- A wea
+-00000420: 7261 626c 6520 5261 7370 6265 7272 7920  rable Raspberry 
+-00000430: 5069 2063 6f6d 7075 7465 7220 666f 7220  Pi computer for 
+-00000440: 6379 636c 6973 7473 0a3c 212d 2d20 414c  cyclists.<!-- AL
+-00000450: 4c2d 434f 4e54 5249 4255 544f 5253 2d42  L-CONTRIBUTORS-B
+-00000460: 4144 4745 3a53 5441 5254 202d 2044 6f20  ADGE:START - Do 
+-00000470: 6e6f 7420 7265 6d6f 7665 206f 7220 6d6f  not remove or mo
+-00000480: 6469 6679 2074 6869 7320 7365 6374 696f  dify this sectio
+-00000490: 6e20 2d2d 3e0a 5b21 5b41 6c6c 2043 6f6e  n -->.[![All Con
+-000004a0: 7472 6962 7574 6f72 735d 2868 7474 7073  tributors](https
+-000004b0: 3a2f 2f69 6d67 2e73 6869 656c 6473 2e69  ://img.shields.i
+-000004c0: 6f2f 6261 6467 652f 616c 6c5f 636f 6e74  o/badge/all_cont
+-000004d0: 7269 6275 746f 7273 2d34 2d6f 7261 6e67  ributors-4-orang
+-000004e0: 652e 7376 673f 7374 796c 653d 666c 6174  e.svg?style=flat
+-000004f0: 2d73 7175 6172 6529 5d28 2363 6f6e 7472  -square)](#contr
+-00000500: 6962 7574 6f72 732d 290a 3c21 2d2d 2041  ibutors-).<!-- A
+-00000510: 4c4c 2d43 4f4e 5452 4942 5554 4f52 532d  LL-CONTRIBUTORS-
+-00000520: 4241 4447 453a 454e 4420 2d2d 3e0a 5b21  BADGE:END -->.[!
+-00000530: 5b50 7950 4920 5665 7273 696f 6e5d 2868  [PyPI Version](h
+-00000540: 7474 7073 3a2f 2f69 6d67 2e73 6869 656c  ttps://img.shiel
+-00000550: 6473 2e69 6f2f 7079 7069 2f76 2f61 7374  ds.io/pypi/v/ast
+-00000560: 2d6d 6f6e 6974 6f72 2e73 7667 295d 2868  -monitor.svg)](h
+-00000570: 7474 7073 3a2f 2f70 7970 692e 7079 7468  ttps://pypi.pyth
+-00000580: 6f6e 2e6f 7267 2f70 7970 692f 6173 742d  on.org/pypi/ast-
+-00000590: 6d6f 6e69 746f 7229 0a21 5b50 7950 4920  monitor).![PyPI 
+-000005a0: 2d20 5079 7468 6f6e 2056 6572 7369 6f6e  - Python Version
+-000005b0: 5d28 6874 7470 733a 2f2f 696d 672e 7368  ](https://img.sh
+-000005c0: 6965 6c64 732e 696f 2f70 7970 692f 7079  ields.io/pypi/py
+-000005d0: 7665 7273 696f 6e73 2f61 7374 2d6d 6f6e  versions/ast-mon
+-000005e0: 6974 6f72 2e73 7667 290a 215b 5079 5049  itor.svg).![PyPI
+-000005f0: 202d 2044 6f77 6e6c 6f61 6473 5d28 6874   - Downloads](ht
+-00000600: 7470 733a 2f2f 696d 672e 7368 6965 6c64  tps://img.shield
+-00000610: 732e 696f 2f70 7970 692f 646d 2f61 7374  s.io/pypi/dm/ast
+-00000620: 2d6d 6f6e 6974 6f72 2e73 7667 290a 5b21  -monitor.svg).[!
+-00000630: 5b44 6f77 6e6c 6f61 6473 5d28 6874 7470  [Downloads](http
+-00000640: 733a 2f2f 7065 7079 2e74 6563 682f 6261  s://pepy.tech/ba
+-00000650: 6467 652f 6173 742d 6d6f 6e69 746f 7229  dge/ast-monitor)
+-00000660: 5d28 6874 7470 733a 2f2f 7065 7079 2e74  ](https://pepy.t
+-00000670: 6563 682f 7072 6f6a 6563 742f 6173 742d  ech/project/ast-
+-00000680: 6d6f 6e69 746f 7229 0a21 5b47 6974 4875  monitor).![GitHu
+-00000690: 6220 7265 706f 2073 697a 655d 2868 7474  b repo size](htt
+-000006a0: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
+-000006b0: 2e69 6f2f 6769 7468 7562 2f72 6570 6f2d  .io/github/repo-
+-000006c0: 7369 7a65 2f66 6972 6566 6c79 2d63 7070  size/firefly-cpp
+-000006d0: 2f61 7374 2d6d 6f6e 6974 6f72 3f73 7479  /ast-monitor?sty
+-000006e0: 6c65 3d66 6c61 742d 7371 7561 7265 290a  le=flat-square).
+-000006f0: 5b21 5b47 6974 4875 6220 6c69 6365 6e73  [![GitHub licens
+-00000700: 655d 2868 7474 7073 3a2f 2f69 6d67 2e73  e](https://img.s
+-00000710: 6869 656c 6473 2e69 6f2f 6769 7468 7562  hields.io/github
+-00000720: 2f6c 6963 656e 7365 2f66 6972 6566 6c79  /license/firefly
+-00000730: 2d63 7070 2f61 7374 2d6d 6f6e 6974 6f72  -cpp/ast-monitor
+-00000740: 2e73 7667 295d 2868 7474 7073 3a2f 2f67  .svg)](https://g
+-00000750: 6974 6875 622e 636f 6d2f 6669 7265 666c  ithub.com/firefl
+-00000760: 792d 6370 702f 4153 542d 4d6f 6e69 746f  y-cpp/AST-Monito
+-00000770: 722f 626c 6f62 2f6d 6173 7465 722f 4c49  r/blob/master/LI
+-00000780: 4345 4e53 4529 0a21 5b47 6974 4875 6220  CENSE).![GitHub 
+-00000790: 636f 6d6d 6974 2061 6374 6976 6974 795d  commit activity]
+-000007a0: 2868 7474 7073 3a2f 2f69 6d67 2e73 6869  (https://img.shi
+-000007b0: 656c 6473 2e69 6f2f 6769 7468 7562 2f63  elds.io/github/c
+-000007c0: 6f6d 6d69 742d 6163 7469 7669 7479 2f77  ommit-activity/w
+-000007d0: 2f66 6972 6566 6c79 2d63 7070 2f61 7374  /firefly-cpp/ast
+-000007e0: 2d6d 6f6e 6974 6f72 2e73 7667 290a 215b  -monitor.svg).![
+-000007f0: 4769 7448 7562 2063 6f6e 7472 6962 7574  GitHub contribut
+-00000800: 6f72 735d 2868 7474 7073 3a2f 2f69 6d67  ors](https://img
+-00000810: 2e73 6869 656c 6473 2e69 6f2f 6769 7468  .shields.io/gith
+-00000820: 7562 2f63 6f6e 7472 6962 7574 6f72 732f  ub/contributors/
+-00000830: 6669 7265 666c 792d 6370 702f 6173 742d  firefly-cpp/ast-
+-00000840: 6d6f 6e69 746f 722e 7376 6729 0a0a 5b21  monitor.svg)..[!
+-00000850: 5b44 4f49 5d28 6874 7470 733a 2f2f 696d  [DOI](https://im
+-00000860: 672e 7368 6965 6c64 732e 696f 2f62 6164  g.shields.io/bad
+-00000870: 6765 2f44 4f49 2d31 302e 3131 3039 2f49  ge/DOI-10.1109/I
+-00000880: 5343 4d49 3533 3834 302e 3230 3231 2e39  SCMI53840.2021.9
+-00000890: 3635 3438 3137 2d62 6c75 6529 5d28 6874  654817-blue)](ht
+-000008a0: 7470 733a 2f2f 646f 692e 6f72 672f 3130  tps://doi.org/10
+-000008b0: 2e31 3130 392f 4953 434d 4935 3338 3430  .1109/ISCMI53840
+-000008c0: 2e32 3032 312e 3936 3534 3831 3729 0a5b  .2021.9654817).[
+-000008d0: 215b 444f 495d 2868 7474 7073 3a2f 2f69  ![DOI](https://i
+-000008e0: 6d67 2e73 6869 656c 6473 2e69 6f2f 6261  mg.shields.io/ba
+-000008f0: 6467 652f 444f 492d 3130 2e33 3339 302f  dge/DOI-10.3390/
+-00000900: 6170 7031 3232 3431 3237 3431 2d62 6c75  app122412741-blu
+-00000910: 6529 5d28 6874 7470 733a 2f2f 646f 692e  e)](https://doi.
+-00000920: 6f72 672f 3130 2e33 3339 302f 6170 7031  org/10.3390/app1
+-00000930: 3232 3431 3237 3431 290a 5b21 5b46 6564  22412741).[![Fed
+-00000940: 6f72 6120 7061 636b 6167 655d 2868 7474  ora package](htt
+-00000950: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
+-00000960: 2e69 6f2f 6665 646f 7261 2f76 2f70 7974  .io/fedora/v/pyt
+-00000970: 686f 6e33 2d61 7374 2d6d 6f6e 6974 6f72  hon3-ast-monitor
+-00000980: 3f63 6f6c 6f72 3d62 6c75 6526 6c61 6265  ?color=blue&labe
+-00000990: 6c3d 4665 646f 7261 2532 304c 696e 7578  l=Fedora%20Linux
+-000009a0: 266c 6f67 6f3d 6665 646f 7261 295d 2868  &logo=fedora)](h
+-000009b0: 7474 7073 3a2f 2f73 7263 2e66 6564 6f72  ttps://src.fedor
+-000009c0: 6170 726f 6a65 6374 2e6f 7267 2f72 706d  aproject.org/rpm
+-000009d0: 732f 7079 7468 6f6e 2d61 7374 2d6d 6f6e  s/python-ast-mon
+-000009e0: 6974 6f72 290a 5b21 5b41 5552 2070 6163  itor).[![AUR pac
+-000009f0: 6b61 6765 5d28 6874 7470 733a 2f2f 696d  kage](https://im
+-00000a00: 672e 7368 6965 6c64 732e 696f 2f61 7572  g.shields.io/aur
+-00000a10: 2f76 6572 7369 6f6e 2f70 7974 686f 6e2d  /version/python-
+-00000a20: 6173 742d 6d6f 6e69 746f 723f 636f 6c6f  ast-monitor?colo
+-00000a30: 723d 626c 7565 266c 6162 656c 3d41 7263  r=blue&label=Arc
+-00000a40: 6825 3230 4c69 6e75 7826 6c6f 676f 3d61  h%20Linux&logo=a
+-00000a50: 7263 682d 6c69 6e75 7829 5d28 6874 7470  rch-linux)](http
+-00000a60: 733a 2f2f 6175 722e 6172 6368 6c69 6e75  s://aur.archlinu
+-00000a70: 782e 6f72 672f 7061 636b 6167 6573 2f70  x.org/packages/p
+-00000a80: 7974 686f 6e2d 6173 742d 6d6f 6e69 746f  ython-ast-monito
+-00000a90: 7229 0a0a 2323 2053 686f 7274 2064 6573  r)..## Short des
+-00000aa0: 6372 6970 7469 6f6e 0a54 6869 7320 7265  cription.This re
+-00000ab0: 706f 7369 746f 7279 2069 7320 6465 766f  pository is devo
+-00000ac0: 7465 6420 746f 2041 5354 2d4d 6f6e 6974  ted to AST-Monit
+-00000ad0: 6f72 2c20 692e 652e 2c20 6120 6c6f 772d  or, i.e., a low-
+-00000ae0: 636f 7374 2061 6e64 2065 6666 6963 6965  cost and efficie
+-00000af0: 6e74 2065 6d62 6564 6465 6420 6465 7669  nt embedded devi
+-00000b00: 6365 2066 6f72 206d 6f6e 6974 6f72 696e  ce for monitorin
+-00000b10: 6720 7468 6520 7265 616c 697a 6174 696f  g the realizatio
+-00000b20: 6e20 6f66 2073 706f 7274 2074 7261 696e  n of sport train
+-00000b30: 696e 6720 7365 7373 696f 6e73 2074 6861  ing sessions tha
+-00000b40: 7420 6172 6520 6465 6469 6361 7465 6420  t are dedicated 
+-00000b50: 746f 206d 6f6e 6974 6f72 696e 6720 6379  to monitoring cy
+-00000b60: 636c 696e 6720 7472 6169 6e69 6e67 2073  cling training s
+-00000b70: 6573 7369 6f6e 732e 0a41 5354 2d4d 6f6e  essions..AST-Mon
+-00000b80: 6974 6f72 2069 7320 6120 7061 7274 206f  itor is a part o
+-00000b90: 6620 7468 6520 4172 7469 6669 6369 616c  f the Artificial
+-00000ba0: 2053 706f 7274 2054 7261 696e 6572 2028   Sport Trainer (
+-00000bb0: 4153 5429 2073 7973 7465 6d2e 2054 6865  AST) system. The
+-00000bc0: 2066 6972 7374 2062 6974 7320 6f66 2041   first bits of A
+-00000bd0: 5354 2d4d 6f6e 6974 6f72 2077 6572 6520  ST-Monitor were 
+-00000be0: 7072 6573 656e 7465 6420 696e 2074 6865  presented in the
+-00000bf0: 2066 6f6c 6c6f 7769 6e67 205b 7061 7065   following [pape
+-00000c00: 725d 2868 7474 7073 3a2f 2f61 7278 6976  r](https://arxiv
+-00000c10: 2e6f 7267 2f61 6273 2f32 3130 392e 3133  .org/abs/2109.13
+-00000c20: 3333 3429 2e0a 0a0a 2323 2047 7261 7068  334)....## Graph
+-00000c30: 6963 616c 2055 7365 7220 496e 7465 7266  ical User Interf
+-00000c40: 6163 6520 6f66 2074 6865 2061 7070 6c69  ace of the appli
+-00000c50: 6361 7469 6f6e 0a23 2323 2042 6173 6963  cation.### Basic
+-00000c60: 2064 6174 610a 3c70 2061 6c69 676e 3d22   data.<p align="
+-00000c70: 6365 6e74 6572 223e 0a20 203c 696d 6720  center">.  <img 
+-00000c80: 7769 6474 683d 2236 3030 2220 7372 633d  width="600" src=
+-00000c90: 2268 7474 7073 3a2f 2f75 7365 722d 696d  "https://user-im
+-00000ca0: 6167 6573 2e67 6974 6875 6275 7365 7263  ages.githubuserc
+-00000cb0: 6f6e 7465 6e74 2e63 6f6d 2f37 3331 3236  ontent.com/73126
+-00000cc0: 3832 302f 3137 3932 3035 3036 342d 3136  820/179205064-16
+-00000cd0: 3062 6464 3434 2d66 6436 372d 3464 3864  0bdd44-fd67-4d8d
+-00000ce0: 2d38 3564 642d 6261 6465 6139 3939 3838  -85dd-badea99988
+-00000cf0: 3563 2e70 6e67 2220 616c 743d 2241 5354  5c.png" alt="AST
+-00000d00: 2d47 5549 223e 0a3c 2f70 3e0a 5468 6520  -GUI">.</p>.The 
+-00000d10: 696e 6974 6961 6c20 7061 6765 206f 6620  initial page of 
+-00000d20: 7468 6520 6170 706c 6963 6174 696f 6e20  the application 
+-00000d30: 6465 7069 6374 7320 6261 7369 6320 7061  depicts basic pa
+-00000d40: 7261 6d65 7465 7273 206f 6620 616e 2061  rameters of an a
+-00000d50: 7468 6c65 7465 2773 2061 6374 6976 6974  thlete's activit
+-00000d60: 793a 2063 7572 7265 6e74 2073 7065 6564  y: current speed
+-00000d70: 2061 6e64 2063 7572 7265 6e74 2068 6561   and current hea
+-00000d80: 7274 2072 6174 652e 2049 6620 6120 7472  rt rate. If a tr
+-00000d90: 6169 6e69 6e67 2073 6573 7369 6f6e 2069  aining session i
+-00000da0: 7320 636f 6e64 7563 7465 642c 2074 6f74  s conducted, tot
+-00000db0: 616c 2064 6973 7461 6e63 652c 2074 6f74  al distance, tot
+-00000dc0: 616c 2074 696d 6520 6f66 2074 6865 2073  al time of the s
+-00000dd0: 6573 7369 6f6e 2061 6e64 2074 6f74 616c  ession and total
+-00000de0: 2061 7363 656e 7420 6172 6520 6469 7370   ascent are disp
+-00000df0: 6c61 7965 6420 6173 2077 656c 6c2e 0a0a  layed as well...
+-00000e00: 2d2d 2d0a 2323 2320 496e 7465 7261 6374  ---.### Interact
+-00000e10: 6976 6520 6d61 700a 3c70 2061 6c69 676e  ive map.<p align
+-00000e20: 3d22 6365 6e74 6572 223e 0a20 203c 696d  ="center">.  <im
+-00000e30: 6720 7769 6474 683d 2236 3030 2220 7372  g width="600" sr
+-00000e40: 633d 2268 7474 7073 3a2f 2f75 7365 722d  c="https://user-
+-00000e50: 696d 6167 6573 2e67 6974 6875 6275 7365  images.githubuse
+-00000e60: 7263 6f6e 7465 6e74 2e63 6f6d 2f37 3331  rcontent.com/731
+-00000e70: 3236 3832 302f 3137 3932 3035 3131 382d  26820/179205118-
+-00000e80: 3139 6362 6236 6532 2d66 3431 302d 3433  19cbb6e2-f410-43
+-00000e90: 3731 2d61 3736 322d 6334 6337 3733 3434  71-a762-c4c77344
+-00000ea0: 6162 3234 2e70 6e67 2220 616c 743d 2241  ab24.png" alt="A
+-00000eb0: 5354 2d4d 6170 223e 0a3c 2f70 3e0a 5468  ST-Map">.</p>.Th
+-00000ec0: 6520 7365 636f 6e64 2070 6167 6520 6f66  e second page of
+-00000ed0: 2074 6865 2061 7070 6c69 6361 7469 6f6e   the application
+-00000ee0: 2069 7320 6465 766f 7465 6420 746f 2061   is devoted to a
+-00000ef0: 6e20 696e 7465 7261 6374 6976 6520 6d61  n interactive ma
+-00000f00: 702c 2077 6869 6368 2064 6570 6963 7473  p, which depicts
+-00000f10: 2061 7468 6c65 7465 2773 2063 7572 7265   athlete's curre
+-00000f20: 6e74 2070 6f73 6974 696f 6e2e 0a0a 4e6f  nt position...No
+-00000f30: 7465 3a20 7468 6520 706f 7369 7469 6f6e  te: the position
+-00000f40: 2069 7320 6375 7272 656e 746c 7920 6861   is currently ha
+-00000f50: 7264 636f 6465 6420 616e 6420 646f 6573  rdcoded and does
+-00000f60: 206e 6f74 2072 6573 706f 6e64 2061 6363   not respond acc
+-00000f70: 6f72 6469 6e67 2074 6f20 4750 5320 6461  ording to GPS da
+-00000f80: 7461 2e0a 0a2d 2d2d 0a23 2323 2049 6e74  ta...---.### Int
+-00000f90: 6572 7661 6c20 7472 6169 6e69 6e67 2064  erval training d
+-00000fa0: 6174 610a 3c70 2061 6c69 676e 3d22 6365  ata.<p align="ce
+-00000fb0: 6e74 6572 223e 0a20 203c 696d 6720 7769  nter">.  <img wi
+-00000fc0: 6474 683d 2236 3030 2220 7372 633d 2268  dth="600" src="h
+-00000fd0: 7474 7073 3a2f 2f75 7365 722d 696d 6167  ttps://user-imag
+-00000fe0: 6573 2e67 6974 6875 6275 7365 7263 6f6e  es.githubusercon
+-00000ff0: 7465 6e74 2e63 6f6d 2f37 3331 3236 3832  tent.com/7312682
+-00001000: 302f 3137 3932 3035 3136 302d 6564 6365  0/179205160-edce
+-00001010: 3538 3163 2d31 6561 382d 3432 3837 2d61  581c-1ea8-4287-a
+-00001020: 3739 352d 3764 3035 6662 3763 3864 6463  795-7d05fb7c8ddc
+-00001030: 2e70 6e67 2220 616c 743d 2241 5354 2d49  .png" alt="AST-I
+-00001040: 6e74 6572 7661 6c73 223e 0a3c 2f70 3e0a  ntervals">.</p>.
+-00001050: 5468 6520 7468 6972 6420 7061 6765 206f  The third page o
+-00001060: 6620 7468 6520 6170 706c 6963 6174 696f  f the applicatio
+-00001070: 6e20 6465 7069 6374 7320 696e 7465 7276  n depicts interv
+-00001080: 616c 2074 7261 696e 696e 6720 6461 7461  al training data
+-00001090: 2e20 4475 7269 6e67 2061 6e20 696e 7465  . During an inte
+-000010a0: 7276 616c 2074 7261 696e 696e 672c 2074  rval training, t
+-000010b0: 6f74 616c 2064 7572 6174 696f 6e20 6f66  otal duration of
+-000010c0: 2074 6865 2063 7572 7265 6e74 2070 6861   the current pha
+-000010d0: 7365 2069 7320 6469 7370 6c61 7965 6420  se is displayed 
+-000010e0: 616c 6f6e 6720 7769 7468 2063 7572 7265  along with curre
+-000010f0: 6e74 2068 6561 7274 2072 6174 652c 2061  nt heart rate, a
+-00001100: 7665 7261 6765 2068 6561 7274 2072 6174  verage heart rat
+-00001110: 652c 2044 6967 6974 616c 2054 7769 6e20  e, Digital Twin 
+-00001120: 7072 6f70 6f73 6564 2068 6561 7274 2072  proposed heart r
+-00001130: 6174 6520 616e 6420 7468 6520 6469 6666  ate and the diff
+-00001140: 6572 656e 6365 2062 6574 7765 656e 2074  erence between t
+-00001150: 6865 2063 7572 7265 6e74 2061 6e64 2074  he current and t
+-00001160: 6865 2070 726f 706f 7365 6420 6865 6172  he proposed hear
+-00001170: 7420 7261 7465 2e0a 0a2d 2d2d 0a23 2323  t rate...---.###
+-00001180: 2049 6e74 6572 7661 6c20 7472 6169 6e69   Interval traini
+-00001190: 6e67 2070 6c61 6e0a 3c70 2061 6c69 676e  ng plan.<p align
+-000011a0: 3d22 6365 6e74 6572 223e 0a20 203c 696d  ="center">.  <im
+-000011b0: 6720 7769 6474 683d 2236 3030 2220 7372  g width="600" sr
+-000011c0: 633d 2268 7474 7073 3a2f 2f75 7365 722d  c="https://user-
+-000011d0: 696d 6167 6573 2e67 6974 6875 6275 7365  images.githubuse
+-000011e0: 7263 6f6e 7465 6e74 2e63 6f6d 2f37 3331  rcontent.com/731
+-000011f0: 3236 3832 302f 3138 3939 3236 3130 332d  26820/189926103-
+-00001200: 6530 3839 3531 3332 2d39 6262 632d 3431  e0895132-9bbc-41
+-00001210: 6266 2d38 3836 382d 3531 6533 6536 6332  bf-8868-51e3e6c2
+-00001220: 3366 3861 2e70 6e67 2220 616c 743d 2241  3f8a.png" alt="A
+-00001230: 5354 2d54 7261 696e 696e 6773 223e 0a3c  ST-Trainings">.<
+-00001240: 2f70 3e0a 5468 6520 666f 7572 7468 2061  /p>.The fourth a
+-00001250: 6e64 2066 696e 616c 2070 6167 6520 6f66  nd final page of
+-00001260: 2074 6865 2061 7070 6c69 6361 7469 6f6e   the application
+-00001270: 2069 7320 696e 7465 6e64 6564 2066 6f72   is intended for
+-00001280: 206c 6f61 6469 6e67 2061 6e64 2073 7461   loading and sta
+-00001290: 7274 696e 6720 696e 7465 7276 616c 2074  rting interval t
+-000012a0: 7261 696e 696e 6773 206c 6f63 6174 6564  rainings located
+-000012b0: 2069 6e20 7468 6520 666f 6c64 6572 2022   in the folder "
+-000012c0: 4153 542d 4d6f 6e69 746f 722f 6465 7665  AST-Monitor/deve
+-000012d0: 6c6f 706d 656e 742f 7472 6169 6e69 6e67  lopment/training
+-000012e0: 7322 2e20 496e 206f 7264 6572 2074 6f20  s". In order to 
+-000012f0: 6265 2070 6172 7365 6420 636f 7272 6563  be parsed correc
+-00001300: 746c 792c 2074 7261 696e 696e 6773 206d  tly, trainings m
+-00001310: 7573 7420 6265 2077 7269 7474 656e 2069  ust be written i
+-00001320: 6e20 646f 6d61 696e 2d73 7065 6369 6669  n domain-specifi
+-00001330: 6320 6c61 6e67 7561 6765 203c 6120 6872  c language <a hr
+-00001340: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
+-00001350: 7562 2e63 6f6d 2f66 6972 6566 6c79 2d63  ub.com/firefly-c
+-00001360: 7070 2f61 7374 2d74 646c 223e 4153 542d  pp/ast-tdl">AST-
+-00001370: 5444 4c3c 2f61 3e20 616e 6420 636f 6e76  TDL</a> and conv
+-00001380: 6572 7465 6420 746f 204a 6176 6153 6372  erted to JavaScr
+-00001390: 6970 7420 4f62 6a65 6374 204e 6f74 6174  ipt Object Notat
+-000013a0: 696f 6e20 284a 534f 4e29 2e20 4166 7465  ion (JSON). Afte
+-000013b0: 7220 7375 6363 6573 7366 756c 206c 6f61  r successful loa
+-000013c0: 6469 6e67 206f 6620 616e 2069 6e74 6572  ding of an inter
+-000013d0: 7661 6c20 7472 6169 6e69 6e67 2c20 7468  val training, th
+-000013e0: 6520 7472 6169 6e69 6e67 2070 6c61 6e20  e training plan 
+-000013f0: 6973 2064 6973 706c 6179 6564 206f 6e20  is displayed on 
+-00001400: 7468 6973 2070 6167 652e 0a0a 0a23 2320  this page....## 
+-00001410: 4861 7264 7761 7265 206f 7574 6c69 6e65  Hardware outline
+-00001420: 0a54 6865 2063 6f6d 706c 6574 6520 6861  .The complete ha
+-00001430: 7264 7761 7265 2070 6172 7420 6973 2073  rdware part is s
+-00001440: 686f 776e 2069 6e20 7468 6520 6669 6775  hown in the figu
+-00001450: 7265 2066 726f 6d20 7768 6963 6820 6974  re from which it
+-00001460: 2063 616e 2062 6520 7365 656e 2074 6861   can be seen tha
+-00001470: 7420 7468 6520 4153 542d 636f 6d70 7574  t the AST-comput
+-00001480: 6572 2069 7320 7370 6c69 7420 696e 746f  er is split into
+-00001490: 2074 6865 2066 6f6c 6c6f 7769 6e67 2070   the following p
+-000014a0: 6965 6365 733a 0a0a 2a20 6120 706c 6174  ieces:..* a plat
+-000014b0: 666f 726d 2077 6974 6820 6669 7869 6e67  form with fixing
+-000014c0: 2073 7472 6170 7320 7468 6174 2061 7474   straps that att
+-000014d0: 6163 6820 746f 2061 2062 6963 7963 6c65  ach to a bicycle
+-000014e0: 2c0a 2a20 7468 6520 5261 7370 6265 7272  ,.* the Raspberr
+-000014f0: 7920 5069 2034 204d 6f64 656c 2042 206d  y Pi 4 Model B m
+-00001500: 6963 726f 2d63 6f6e 7472 6f6c 6c65 7220  icro-controller 
+-00001510: 7769 7468 2052 6173 7062 6961 6e20 4f53  with Raspbian OS
+-00001520: 2069 6e73 7461 6c6c 6564 2c0a 2a20 6120   installed,.* a 
+-00001530: 6669 7665 2d69 6e63 6820 4c43 4420 746f  five-inch LCD to
+-00001540: 7563 6820 7363 7265 656e 2064 6973 706c  uch screen displ
+-00001550: 6179 2c0a 2a20 6120 5553 4220 414e 542b  ay,.* a USB ANT+
+-00001560: 2073 7469 636b 2c0a 2a20 4164 6166 7275   stick,.* Adafru
+-00001570: 6974 2773 2055 6c74 696d 6174 6520 4750  it's Ultimate GP
+-00001580: 5320 4841 5420 6d6f 6475 6c65 2e0a 0a3c  S HAT module...<
+-00001590: 7020 616c 6967 6e3d 2263 656e 7465 7222  p align="center"
+-000015a0: 3e0a 2020 3c69 6d67 2077 6964 7468 3d22  >.  <img width="
+-000015b0: 3630 3022 2073 7263 3d22 6874 7470 733a  600" src="https:
+-000015c0: 2f2f 7261 772e 6769 7468 7562 7573 6572  //raw.githubuser
+-000015d0: 636f 6e74 656e 742e 636f 6d2f 6669 7265  content.com/fire
+-000015e0: 666c 792d 6370 702f 4153 542d 4d6f 6e69  fly-cpp/AST-Moni
+-000015f0: 746f 722f 6d61 696e 2f2e 6769 7468 7562  tor/main/.github
+-00001600: 2f69 6d67 2f63 6f6d 706c 6574 655f 736d  /img/complete_sm
+-00001610: 616c 6c2e 4a50 4722 2061 6c74 3d22 4153  all.JPG" alt="AS
+-00001620: 542d 4d6f 6e69 746f 7222 3e0a 3c2f 703e  T-Monitor">.</p>
+-00001630: 0a0a 4120 5365 7269 616c 2050 6572 6970  ..A Serial Perip
+-00001640: 6865 7261 6c20 496e 7465 7266 6163 6520  heral Interface 
+-00001650: 2853 5049 2920 7072 6f74 6f63 6f6c 2077  (SPI) protocol w
+-00001660: 6173 2064 6564 6963 6174 6564 2074 6f20  as dedicated to 
+-00001670: 636f 6d6d 756e 6963 6174 696f 6e20 6265  communication be
+-00001680: 7477 6565 6e20 7468 6520 5261 7370 6265  tween the Raspbe
+-00001690: 7272 7920 5069 2061 6e64 2074 6865 2047  rry Pi and the G
+-000016a0: 5053 2070 6572 6970 6865 7261 6c2e 2041  PS peripheral. A
+-000016b0: 2073 7065 6369 616c 697a 6564 2055 5342   specialized USB
+-000016c0: 2041 4e54 2b20 7374 6963 6b20 7761 7320   ANT+ stick was 
+-000016d0: 7573 6564 2074 6f20 6361 7074 7572 6520  used to capture 
+-000016e0: 7468 6520 4852 2073 6967 6e61 6c2e 2054  the HR signal. T
+-000016f0: 6865 2073 6372 6565 6e20 6469 7370 6c61  he screen displa
+-00001700: 7920 7761 7320 636f 6e6e 6563 7465 6420  y was connected 
+-00001710: 7573 696e 6720 6120 6d6f 6469 6669 6564  using a modified
+-00001720: 2028 7068 7973 6963 616c 6c79 2073 686f   (physically sho
+-00001730: 7274 656e 6564 2920 4844 4d49 2063 6162  rtened) HDMI cab
+-00001740: 6c65 2c20 7768 696c 6520 7468 6520 746f  le, while the to
+-00001750: 7563 6820 6665 6564 6261 636b 2077 6173  uch feedback was
+-00001760: 2069 6d70 6c65 6d65 6e74 6564 2075 7369   implemented usi
+-00001770: 6e67 2070 6879 7369 6361 6c20 7769 7265  ng physical wire
+-00001780: 732e 2054 6865 2063 6f6d 7075 7465 7220  s. The computer 
+-00001790: 7761 7320 706f 7765 7265 6420 6475 7269  was powered duri
+-000017a0: 6e67 2074 6865 2074 6573 7469 6e67 2070  ng the testing p
+-000017b0: 6861 7365 2075 7369 6e67 2074 6865 2054  hase using the T
+-000017c0: 7275 7374 2773 2028 3520 5644 4329 2070  rust's (5 VDC) p
+-000017d0: 6f77 6572 2062 616e 6b2e 2054 6865 2041  ower bank. The A
+-000017e0: 5354 2d4d 6f6e 6974 6f72 2070 726f 746f  ST-Monitor proto
+-000017f0: 7479 7065 2069 7320 7374 696c 6c20 6120  type is still a 
+-00001800: 6c69 7474 6c65 2062 756c 6b79 2c20 6275  little bulky, bu
+-00001810: 7420 6120 6d6f 7265 2064 6973 6372 6574  t a more discret
+-00001820: 6520 736f 6c75 7469 6f6e 2069 7320 6265  e solution is be
+-00001830: 696e 6720 7365 6172 6368 6564 2066 6f72  ing searched for
+-00001840: 2c20 696e 636c 7564 696e 6720 7468 6520  , including the 
+-00001850: 7377 6561 7420 6472 6169 6e65 7220 6f66  sweat drainer of
+-00001860: 2074 6865 2041 5354 2e20 496e 7465 726e   the AST. Intern
+-00001870: 616c 2063 6f6d 706f 6e65 6e74 7320 6f66  al components of
+-00001880: 2041 5354 2d4d 6f6e 6974 6f72 2061 7265   AST-Monitor are
+-00001890: 2064 6570 6963 7465 6420 696e 2074 6865   depicted in the
+-000018a0: 2066 6f6c 6c6f 7769 6e67 2073 6368 656d   following schem
+-000018b0: 652e 0a0a 3c70 2061 6c69 676e 3d22 6365  e...<p align="ce
+-000018c0: 6e74 6572 223e 0a20 203c 696d 6720 7769  nter">.  <img wi
+-000018d0: 6474 683d 2236 3030 2220 7372 633d 2268  dth="600" src="h
+-000018e0: 7474 7073 3a2f 2f75 7365 722d 696d 6167  ttps://user-imag
+-000018f0: 6573 2e67 6974 6875 6275 7365 7263 6f6e  es.githubusercon
+-00001900: 7465 6e74 2e63 6f6d 2f37 3331 3236 3832  tent.com/7312682
+-00001910: 302f 3138 3939 3230 3137 312d 6163 3934  0/189920171-ac94
+-00001920: 3661 3933 2d61 6437 382d 3465 3462 2d62  6a93-ad78-4e4b-b
+-00001930: 6630 392d 3564 6535 6266 3639 6265 6639  f09-5de5bf69bef9
+-00001940: 2e70 6e67 2220 616c 743d 2241 5354 2d4d  .png" alt="AST-M
+-00001950: 6f6e 6974 6f72 223e 0a3c 2f70 3e0a 0a23  onitor">.</p>..#
+-00001960: 2320 536f 6674 7761 7265 206f 7574 6c69  # Software outli
+-00001970: 6e65 0a23 2323 2044 6570 656e 6465 6e63  ne.### Dependenc
+-00001980: 6965 730a 4c69 7374 206f 6620 6465 7065  ies.List of depe
+-00001990: 6e64 656e 6369 6573 3a0a 0a7c 2050 6163  ndencies:..| Pac
+-000019a0: 6b61 6765 2020 2020 2020 7c20 5665 7273  kage      | Vers
+-000019b0: 696f 6e20 2020 207c 2050 6c61 7466 6f72  ion    | Platfor
+-000019c0: 6d20 7c0a 7c20 2d2d 2d2d 2d2d 2d2d 2d2d  m |.| ----------
+-000019d0: 2d2d 207c 3a2d 2d2d 2d2d 2d2d 2d2d 2d3a  -- |:----------:
+-000019e0: 7c3a 2d2d 2d2d 2d2d 2d2d 3a7c 0a7c 2050  |:--------:|.| P
+-000019f0: 7951 7435 2020 2020 2020 2020 7c20 5e35  yQt5        | ^5
+-00001a00: 2e31 352e 3620 2020 207c 2041 6c6c 2020  .15.6    | All  
+-00001a10: 2020 2020 7c0a 7c20 6d61 7470 6c6f 746c      |.| matplotl
+-00001a20: 6962 2020 207c 205e 332e 352e 3120 2020  ib   | ^3.5.1   
+-00001a30: 2020 7c20 416c 6c20 2020 2020 207c 0a7c    | All      |.|
+-00001a40: 2067 656f 7079 2020 2020 2020 2020 7c20   geopy        | 
+-00001a50: 5e32 2e32 2e30 2020 2020 207c 2041 6c6c  ^2.2.0     | All
+-00001a60: 2020 2020 2020 7c0a 7c20 6f70 656e 616e        |.| openan
+-00001a70: 7420 2020 2020 2020 207c 2076 302e 3420  t        | v0.4 
+-00001a80: 2020 2020 7c20 416c 6c20 2020 2020 207c      | All      |
+-00001a90: 0a7c 2070 7971 742d 6665 6564 6261 636b  .| pyqt-feedback
+-00001aa0: 2d66 6c6f 7720 2020 2020 2020 7c20 5e30  -flow       | ^0
+-00001ab0: 2e31 2e30 2020 2020 207c 2041 6c6c 2020  .1.0     | All  
+-00001ac0: 2020 2020 7c0a 7c20 7463 7872 6561 6465      |.| tcxreade
+-00001ad0: 7220 2020 2020 2020 7c20 5e30 2e34 2e31  r       | ^0.4.1
+-00001ae0: 2020 2020 207c 2041 6c6c 2020 2020 2020       | All      
+-00001af0: 7c0a 7c20 7370 6f72 742d 6163 7469 7669  |.| sport-activi
+-00001b00: 7469 6573 2d66 6561 7475 7265 7320 2020  ties-features   
+-00001b10: 2020 2020 7c20 5e30 2e33 2e36 2020 2020      | ^0.3.6    
+-00001b20: 207c 2041 6c6c 2020 2020 2020 7c0a 0a4e   | All      |..N
+-00001b30: 6f74 653a 206f 7065 6e61 6e74 2070 6163  ote: openant pac
+-00001b40: 6b61 6765 2073 686f 756c 6420 6265 2069  kage should be i
+-00001b50: 6e73 7461 6c6c 6564 206d 616e 7561 6c6c  nstalled manuall
+-00001b60: 792e 2050 6c65 6173 6520 666f 6c6c 6f77  y. Please follow
+-00001b70: 2074 6865 205b 6f66 6669 6369 616c 2069   the [official i
+-00001b80: 6e73 7472 7563 7469 6f6e 735d 2868 7474  nstructions](htt
+-00001b90: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
+-00001ba0: 5469 6767 652f 6f70 656e 616e 7429 2e20  Tigge/openant). 
+-00001bb0: 4966 2079 6f75 2075 7365 2046 6564 6f72  If you use Fedor
+-00001bc0: 6120 4f53 2c20 796f 7520 6361 6e20 696e  a OS, you can in
+-00001bd0: 7374 616c 6c20 6f70 656e 616e 7420 7061  stall openant pa
+-00001be0: 636b 6167 6520 7573 696e 6720 7468 6520  ckage using the 
+-00001bf0: 646e 6620 7061 636b 6167 6520 6d61 6e61  dnf package mana
+-00001c00: 6765 723a 0a0a 6060 6073 680a 2420 646e  ger:..```sh.$ dn
+-00001c10: 6620 696e 7374 616c 6c20 7079 7468 6f6e  f install python
+-00001c20: 2d6f 7065 6e61 6e74 0a60 6060 0a0a 4164  -openant.```..Ad
+-00001c30: 6469 7469 6f6e 616c 206e 6f74 653a 2061  ditional note: a
+-00001c40: 6461 6672 7569 742d 6369 7263 7569 7470  dafruit-circuitp
+-00001c50: 7974 686f 6e2d 6770 7320 7061 636b 6167  ython-gps packag
+-00001c60: 6520 6d75 7374 2062 6520 696e 7374 616c  e must be instal
+-00001c70: 6c65 6420 696e 206f 7264 6572 2074 6f20  led in order to 
+-00001c80: 776f 726b 2077 6974 6820 7468 6520 4750  work with the GP
+-00001c90: 5320 7365 6e73 6f72 3a0a 0a60 6060 7368  S sensor:..```sh
+-00001ca0: 0a24 2070 6970 2069 6e73 7461 6c6c 2061  .$ pip install a
+-00001cb0: 6461 6672 7569 742d 6369 7263 7569 7470  dafruit-circuitp
+-00001cc0: 7974 686f 6e2d 6770 730a 6060 600a 0a23  ython-gps.```..#
+-00001cd0: 2320 496e 7374 616c 6c61 7469 6f6e 0a49  # Installation.I
+-00001ce0: 6e73 7461 6c6c 2041 5354 2d4d 6f6e 6974  nstall AST-Monit
+-00001cf0: 6f72 2077 6974 6820 7069 703a 0a0a 6060  or with pip:..``
+-00001d00: 6073 680a 2420 7069 7020 696e 7374 616c  `sh.$ pip instal
+-00001d10: 6c20 6173 742d 6d6f 6e69 746f 720a 6060  l ast-monitor.``
+-00001d20: 600a 496e 2063 6173 6520 796f 7520 7761  `.In case you wa
+-00001d30: 6e74 2074 6f20 696e 7374 616c 6c20 6469  nt to install di
+-00001d40: 7265 6374 6c79 2066 726f 6d20 7468 6520  rectly from the 
+-00001d50: 736f 7572 6365 2063 6f64 652c 2075 7365  source code, use
+-00001d60: 3a0a 0a60 6060 7368 0a24 2067 6974 2063  :..```sh.$ git c
+-00001d70: 6c6f 6e65 2068 7474 7073 3a2f 2f67 6974  lone https://git
+-00001d80: 6875 622e 636f 6d2f 6669 7265 666c 792d  hub.com/firefly-
+-00001d90: 6370 702f 4153 542d 4d6f 6e69 746f 722e  cpp/AST-Monitor.
+-00001da0: 6769 740a 2420 6364 2041 5354 2d4d 6f6e  git.$ cd AST-Mon
+-00001db0: 6974 6f72 0a24 2070 6f65 7472 7920 6275  itor.$ poetry bu
+-00001dc0: 696c 640a 2420 7079 7468 6f6e 2073 6574  ild.$ python set
+-00001dd0: 7570 2e70 7920 696e 7374 616c 6c0a 6060  up.py install.``
+-00001de0: 600a 0a54 6f20 696e 7374 616c 6c20 4153  `..To install AS
+-00001df0: 542d 4d6f 6e69 746f 7220 6f6e 2046 6564  T-Monitor on Fed
+-00001e00: 6f72 6120 4c69 6e75 782c 2070 6c65 6173  ora Linux, pleas
+-00001e10: 6520 7573 653a 0a0a 6060 6073 680a 2420  e use:..```sh.$ 
+-00001e20: 646e 6620 696e 7374 616c 6c20 7079 7468  dnf install pyth
+-00001e30: 6f6e 332d 6173 742d 6d6f 6e69 746f 720a  on3-ast-monitor.
+-00001e40: 6060 600a 0a54 6f20 696e 7374 616c 6c20  ```..To install 
+-00001e50: 4153 542d 4d6f 6e69 746f 7220 6f6e 2041  AST-Monitor on A
+-00001e60: 6c70 696e 6520 4c69 6e75 782c 2070 6c65  lpine Linux, ple
+-00001e70: 6173 6520 7573 653a 0a0a 6060 6073 680a  ase use:..```sh.
+-00001e80: 2420 6170 6b20 6164 6420 7079 332d 6173  $ apk add py3-as
+-00001e90: 742d 6d6f 6e69 746f 720a 6060 600a 0a54  t-monitor.```..T
+-00001ea0: 6f20 696e 7374 616c 6c20 4153 542d 4d6f  o install AST-Mo
+-00001eb0: 6e69 746f 7220 6f6e 2041 7263 6820 4c69  nitor on Arch Li
+-00001ec0: 6e75 782c 2070 6c65 6173 6520 7573 6520  nux, please use 
+-00001ed0: 616e 205b 4155 5220 6865 6c70 6572 5d28  an [AUR helper](
+-00001ee0: 6874 7470 733a 2f2f 7769 6b69 2e61 7263  https://wiki.arc
+-00001ef0: 686c 696e 7578 2e6f 7267 2f74 6974 6c65  hlinux.org/title
+-00001f00: 2f41 5552 5f68 656c 7065 7273 293a 0a0a  /AUR_helpers):..
+-00001f10: 6060 6073 680a 2420 7961 7920 2d53 7979  ```sh.$ yay -Syy
+-00001f20: 7520 7079 7468 6f6e 2d61 7374 2d6d 6f6e  u python-ast-mon
+-00001f30: 6974 6f72 0a60 6060 0a0a 2323 2044 6570  itor.```..## Dep
+-00001f40: 6c6f 796d 656e 740a 4f75 7220 7072 6f6a  loyment.Our proj
+-00001f50: 6563 7420 7761 7320 6465 706c 6f79 6564  ect was deployed
+-00001f60: 206f 6e20 6120 5261 7370 6265 7272 7920   on a Raspberry 
+-00001f70: 5069 2064 6576 6963 6520 7573 696e 6720  Pi device using 
+-00001f80: 5261 7370 6265 7272 7920 5069 204f 532e  Raspberry Pi OS.
+-00001f90: 0a0a 5468 6520 6861 7264 7761 7265 2063  ..The hardware c
+-00001fa0: 6f6e 6669 6775 7261 7469 6f6e 206f 6620  onfiguration of 
+-00001fb0: 4153 542d 4d6f 6e69 746f 7220 7573 696e  AST-Monitor usin
+-00001fc0: 6720 5261 7370 6265 7272 7920 5069 204f  g Raspberry Pi O
+-00001fd0: 5320 6973 2064 6573 6372 6962 6564 2069  S is described i
+-00001fe0: 6e20 3c61 2068 7265 663d 2268 7474 7073  n <a href="https
+-00001ff0: 3a2f 2f67 6974 6875 622e 636f 6d2f 6669  ://github.com/fi
+-00002000: 7265 666c 792d 6370 702f 4153 542d 4d6f  refly-cpp/AST-Mo
+-00002010: 6e69 746f 722f 626c 6f62 2f6d 6169 6e2f  nitor/blob/main/
+-00002020: 4841 5244 5741 5245 5f43 4f4e 4649 4755  HARDWARE_CONFIGU
+-00002030: 5241 5449 4f4e 2e6d 6422 3e48 4152 4457  RATION.md">HARDW
+-00002040: 4152 455f 434f 4e46 4947 5552 4154 494f  ARE_CONFIGURATIO
+-00002050: 4e2e 6d64 3c2f 613e 2e0a 0a23 2320 4578  N.md</a>...## Ex
+-00002060: 616d 706c 6573 0a0a 2323 2320 4261 7369  amples..### Basi
+-00002070: 6320 7275 6e0a 6060 6070 7974 686f 6e0a  c run.```python.
+-00002080: 6672 6f6d 2050 7951 7435 2069 6d70 6f72  from PyQt5 impor
+-00002090: 7420 5174 5769 6467 6574 730a 696d 706f  t QtWidgets.impo
+-000020a0: 7274 2073 7973 0a0a 7472 793a 0a20 2020  rt sys..try:.   
+-000020b0: 2066 726f 6d20 6173 745f 6d6f 6e69 746f   from ast_monito
+-000020c0: 722e 6d6f 6465 6c20 696d 706f 7274 2041  r.model import A
+-000020d0: 5354 0a65 7863 6570 7420 4d6f 6475 6c65  ST.except Module
+-000020e0: 4e6f 7446 6f75 6e64 4572 726f 723a 0a20  NotFoundError:. 
+-000020f0: 2020 2073 7973 2e70 6174 682e 6170 7065     sys.path.appe
+-00002100: 6e64 2827 2e2e 2f27 290a 2020 2020 6672  nd('../').    fr
+-00002110: 6f6d 2061 7374 5f6d 6f6e 6974 6f72 2e6d  om ast_monitor.m
+-00002120: 6f64 656c 2069 6d70 6f72 7420 4153 540a  odel import AST.
+-00002130: 0a0a 2320 5061 7468 7320 746f 2074 6865  ..# Paths to the
+-00002140: 2066 696c 6573 2077 6974 6820 6865 6172   files with hear
+-00002150: 7420 7261 7465 7320 616e 6420 4750 5320  t rates and GPS 
+-00002160: 6461 7461 2e0a 6872 5f64 6174 6120 3d20  data..hr_data = 
+-00002170: 272e 2e2f 7365 6e73 6f72 5f64 6174 612f  '../sensor_data/
+-00002180: 6872 2e74 7874 270a 6770 735f 6461 7461  hr.txt'.gps_data
+-00002190: 203d 2027 2e2e 2f73 656e 736f 725f 6461   = '../sensor_da
+-000021a0: 7461 2f67 7073 2e74 7874 270a 0a69 6620  ta/gps.txt'..if 
+-000021b0: 5f5f 6e61 6d65 5f5f 203d 3d20 275f 5f6d  __name__ == '__m
+-000021c0: 6169 6e5f 5f27 3a0a 2020 2020 6170 7020  ain__':.    app 
+-000021d0: 3d20 5174 5769 6467 6574 732e 5141 7070  = QtWidgets.QApp
+-000021e0: 6c69 6361 7469 6f6e 2873 7973 2e61 7267  lication(sys.arg
+-000021f0: 7629 0a20 2020 2077 696e 646f 7720 3d20  v).    window = 
+-00002200: 4153 5428 6872 5f64 6174 612c 2067 7073  AST(hr_data, gps
+-00002210: 5f64 6174 6129 0a20 2020 2077 696e 646f  _data).    windo
+-00002220: 772e 7368 6f77 2829 0a20 2020 2073 7973  w.show().    sys
+-00002230: 2e65 7869 7428 6170 702e 6578 6563 5f28  .exit(app.exec_(
+-00002240: 2929 0a60 6060 0a0a 2323 204c 6963 656e  )).```..## Licen
+-00002250: 7365 0a54 6869 7320 7061 636b 6167 6520  se.This package 
+-00002260: 6973 2064 6973 7472 6962 7574 6564 2075  is distributed u
+-00002270: 6e64 6572 2074 6865 204d 4954 204c 6963  nder the MIT Lic
+-00002280: 656e 7365 2e20 5468 6973 206c 6963 656e  ense. This licen
+-00002290: 7365 2063 616e 2062 6520 666f 756e 6420  se can be found 
+-000022a0: 6f6e 6c69 6e65 2061 7420 3c68 7474 703a  online at <http:
+-000022b0: 2f2f 7777 772e 6f70 656e 736f 7572 6365  //www.opensource
+-000022c0: 2e6f 7267 2f6c 6963 656e 7365 732f 4d49  .org/licenses/MI
+-000022d0: 543e 2e0a 0a23 2320 4469 7363 6c61 696d  T>...## Disclaim
+-000022e0: 6572 0a54 6869 7320 6672 616d 6577 6f72  er.This framewor
+-000022f0: 6b20 6973 2070 726f 7669 6465 6420 6173  k is provided as
+-00002300: 2d69 732c 2061 6e64 2074 6865 7265 2061  -is, and there a
+-00002310: 7265 206e 6f20 6775 6172 616e 7465 6573  re no guarantees
+-00002320: 2074 6861 7420 6974 2066 6974 7320 796f   that it fits yo
+-00002330: 7572 2070 7572 706f 7365 7320 6f72 2074  ur purposes or t
+-00002340: 6861 7420 6974 2069 7320 6275 672d 6672  hat it is bug-fr
+-00002350: 6565 2e20 5573 6520 6974 2061 7420 796f  ee. Use it at yo
+-00002360: 7572 206f 776e 2072 6973 6b21 0a0a 2323  ur own risk!..##
+-00002370: 2043 6974 6520 7573 0a4c 756b 61c4 8d2c   Cite us.Luka..,
+-00002380: 204c 2e2c 2046 6973 7465 7220 4a72 2e2c   L., Fister Jr.,
+-00002390: 2049 2e2c 2046 6973 7465 722c 2049 2e20   I., Fister, I. 
+-000023a0: 225b 4469 6769 7461 6c20 5477 696e 2069  "[Digital Twin i
+-000023b0: 6e20 5370 6f72 743a 2046 726f 6d20 616e  n Sport: From an
+-000023c0: 2049 6465 6120 746f 2052 6561 6c69 7a61   Idea to Realiza
+-000023d0: 7469 6f6e 5d28 6874 7470 733a 2f2f 7777  tion](https://ww
+-000023e0: 772e 6d64 7069 2e63 6f6d 2f32 3037 362d  w.mdpi.com/2076-
+-000023f0: 3334 3137 2f31 322f 3234 2f31 3237 3431  3417/12/24/12741
+-00002400: 292e 2220 4170 706c 6965 6420 5363 6965  )." Applied Scie
+-00002410: 6e63 6573 2031 322e 3234 2028 3230 3232  nces 12.24 (2022
+-00002420: 293a 2031 3237 3431 2e0a 0a23 2320 5265  ): 12741...## Re
+-00002430: 6665 7265 6e63 6573 0a46 6973 7465 7220  ferences.Fister 
+-00002440: 4a72 2c20 492e 2c20 4669 7374 6572 2c20  Jr, I., Fister, 
+-00002450: 492e 2c20 4967 6c65 7369 6173 2c20 412e  I., Iglesias, A.
+-00002460: 2c20 4761 6c76 657a 2c20 412e 2c20 4465  , Galvez, A., De
+-00002470: 622c 2053 2e2c 2026 2046 6973 7465 722c  b, S., & Fister,
+-00002480: 2044 2e20 2832 3032 3129 2e20 4f6e 2064   D. (2021). On d
+-00002490: 6570 6c6f 7969 6e67 2074 6865 2041 7274  eploying the Art
+-000024a0: 6966 6963 6961 6c20 5370 6f72 7420 5472  ificial Sport Tr
+-000024b0: 6169 6e65 7220 696e 746f 2070 7261 6374  ainer into pract
+-000024c0: 6963 652e 2061 7258 6976 2070 7265 7072  ice. arXiv prepr
+-000024d0: 696e 7420 5b61 7258 6976 3a32 3130 392e  int [arXiv:2109.
+-000024e0: 3133 3333 345d 2868 7474 7073 3a2f 2f61  13334](https://a
+-000024f0: 7278 6976 2e6f 7267 2f61 6273 2f32 3130  rxiv.org/abs/210
+-00002500: 392e 3133 3333 3429 2e0a 0a46 6973 7465  9.13334)...Fiste
+-00002510: 7220 4a72 2c20 492e 2c20 5361 6c63 6564  r Jr, I., Salced
+-00002520: 6f2d 5361 6e7a 2c20 532e 2c20 4967 6c65  o-Sanz, S., Igle
+-00002530: 7369 6173 2c20 412e 2c20 4669 7374 6572  sias, A., Fister
+-00002540: 2c20 442e 2c20 47c3 a16c 7665 7a2c 2041  , D., G..lvez, A
+-00002550: 2e2c 2026 2046 6973 7465 722c 2049 2e20  ., & Fister, I. 
+-00002560: 2832 3032 3129 2e20 4e65 7720 5065 7273  (2021). New Pers
+-00002570: 7065 6374 6976 6573 2069 6e20 7468 6520  pectives in the 
+-00002580: 4465 7665 6c6f 706d 656e 7420 6f66 2074  Development of t
+-00002590: 6865 2041 7274 6966 6963 6961 6c20 5370  he Artificial Sp
+-000025a0: 6f72 7420 5472 6169 6e65 722e 2041 7070  ort Trainer. App
+-000025b0: 6c69 6564 2053 6369 656e 6365 732c 2031  lied Sciences, 1
+-000025c0: 3128 3233 292c 2031 3134 3532 2e20 444f  1(23), 11452. DO
+-000025d0: 493a 205b 3130 2e33 3339 302f 6170 7031  I: [10.3390/app1
+-000025e0: 3132 3331 3134 3532 5d28 6874 7470 733a  12311452](https:
+-000025f0: 2f2f 646f 692e 6f72 672f 3130 2e33 3339  //doi.org/10.339
+-00002600: 302f 6170 7031 3132 3331 3134 3532 290a  0/app112311452).
+-00002610: 0a23 2320 436f 6e74 7269 6275 746f 7273  .## Contributors
+-00002620: 0a0a 3c21 2d2d 2041 4c4c 2d43 4f4e 5452  ..<!-- ALL-CONTR
+-00002630: 4942 5554 4f52 532d 4c49 5354 3a53 5441  IBUTORS-LIST:STA
+-00002640: 5254 202d 2044 6f20 6e6f 7420 7265 6d6f  RT - Do not remo
+-00002650: 7665 206f 7220 6d6f 6469 6679 2074 6869  ve or modify thi
+-00002660: 7320 7365 6374 696f 6e20 2d2d 3e0a 3c21  s section -->.<!
+-00002670: 2d2d 2070 7265 7474 6965 722d 6967 6e6f  -- prettier-igno
+-00002680: 7265 2d73 7461 7274 202d 2d3e 0a3c 212d  re-start -->.<!-
+-00002690: 2d20 6d61 726b 646f 776e 6c69 6e74 2d64  - markdownlint-d
+-000026a0: 6973 6162 6c65 202d 2d3e 0a3c 7461 626c  isable -->.<tabl
+-000026b0: 653e 0a20 203c 7462 6f64 793e 0a20 2020  e>.  <tbody>.   
+-000026c0: 203c 7472 3e0a 2020 2020 2020 3c74 6420   <tr>.      <td 
+-000026d0: 616c 6967 6e3d 2263 656e 7465 7222 3e3c  align="center"><
+-000026e0: 6120 6872 6566 3d22 6874 7470 3a2f 2f77  a href="http://w
+-000026f0: 7777 2e69 7a74 6f6b 2d6a 722d 6669 7374  ww.iztok-jr-fist
+-00002700: 6572 2e65 752f 223e 3c69 6d67 2073 7263  er.eu/"><img src
+-00002710: 3d22 6874 7470 733a 2f2f 6176 6174 6172  ="https://avatar
+-00002720: 732e 6769 7468 7562 7573 6572 636f 6e74  s.githubusercont
+-00002730: 656e 742e 636f 6d2f 752f 3136 3333 3336  ent.com/u/163336
+-00002740: 313f 763d 343f 733d 3130 3022 2077 6964  1?v=4?s=100" wid
+-00002750: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00002760: 2249 7a74 6f6b 2046 6973 7465 7220 4a72  "Iztok Fister Jr
+-00002770: 2e22 2f3e 3c62 7220 2f3e 3c73 7562 3e3c  ."/><br /><sub><
+-00002780: 623e 497a 746f 6b20 4669 7374 6572 204a  b>Iztok Fister J
+-00002790: 722e 3c2f 623e 3c2f 7375 623e 3c2f 613e  r.</b></sub></a>
+-000027a0: 3c62 7220 2f3e 3c61 2068 7265 663d 2268  <br /><a href="h
+-000027b0: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-000027c0: 6d2f 6669 7265 666c 792d 6370 702f 4153  m/firefly-cpp/AS
+-000027d0: 542d 4d6f 6e69 746f 722f 6973 7375 6573  T-Monitor/issues
+-000027e0: 3f71 3d61 7574 686f 7225 3341 6669 7265  ?q=author%3Afire
+-000027f0: 666c 792d 6370 7022 2074 6974 6c65 3d22  fly-cpp" title="
+-00002800: 4275 6720 7265 706f 7274 7322 3ef0 9f90  Bug reports">...
+-00002810: 9b3c 2f61 3e20 3c61 2068 7265 663d 2268  .</a> <a href="h
+-00002820: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00002830: 6d2f 6669 7265 666c 792d 6370 702f 4153  m/firefly-cpp/AS
+-00002840: 542d 4d6f 6e69 746f 722f 636f 6d6d 6974  T-Monitor/commit
+-00002850: 733f 6175 7468 6f72 3d66 6972 6566 6c79  s?author=firefly
+-00002860: 2d63 7070 2220 7469 746c 653d 2244 6f63  -cpp" title="Doc
+-00002870: 756d 656e 7461 7469 6f6e 223e f09f 9396  umentation">....
+-00002880: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
+-00002890: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
+-000028a0: 2f66 6972 6566 6c79 2d63 7070 2f41 5354  /firefly-cpp/AST
+-000028b0: 2d4d 6f6e 6974 6f72 2f63 6f6d 6d69 7473  -Monitor/commits
+-000028c0: 3f61 7574 686f 723d 6669 7265 666c 792d  ?author=firefly-
+-000028d0: 6370 7022 2074 6974 6c65 3d22 436f 6465  cpp" title="Code
+-000028e0: 223e f09f 92bb 3c2f 613e 203c 6120 6872  ">....</a> <a hr
+-000028f0: 6566 3d22 236d 6169 6e74 656e 616e 6365  ef="#maintenance
+-00002900: 2d66 6972 6566 6c79 2d63 7070 2220 7469  -firefly-cpp" ti
+-00002910: 746c 653d 224d 6169 6e74 656e 616e 6365  tle="Maintenance
+-00002920: 223e f09f 9aa7 3c2f 613e 203c 6120 6872  ">....</a> <a hr
+-00002930: 6566 3d22 236d 656e 746f 7269 6e67 2d66  ef="#mentoring-f
+-00002940: 6972 6566 6c79 2d63 7070 2220 7469 746c  irefly-cpp" titl
+-00002950: 653d 224d 656e 746f 7269 6e67 223e f09f  e="Mentoring">..
+-00002960: a791 e280 8df0 9f8f ab3c 2f61 3e20 3c61  .........</a> <a
+-00002970: 2068 7265 663d 2223 706c 6174 666f 726d   href="#platform
+-00002980: 2d66 6972 6566 6c79 2d63 7070 2220 7469  -firefly-cpp" ti
+-00002990: 746c 653d 2250 6163 6b61 6769 6e67 2f70  tle="Packaging/p
+-000029a0: 6f72 7469 6e67 2074 6f20 6e65 7720 706c  orting to new pl
+-000029b0: 6174 666f 726d 223e f09f 93a6 3c2f 613e  atform">....</a>
+-000029c0: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
+-000029d0: 616c 6967 6e3d 2263 656e 7465 7222 3e3c  align="center"><
+-000029e0: 6120 6872 6566 3d22 6874 7470 733a 2f2f  a href="https://
+-000029f0: 6769 7468 7562 2e63 6f6d 2f6c 7563 6b79  github.com/lucky
+-00002a00: 4c75 6b61 6322 3e3c 696d 6720 7372 633d  Lukac"><img src=
+-00002a10: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
+-00002a20: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-00002a30: 6e74 2e63 6f6d 2f75 2f37 3331 3236 3832  nt.com/u/7312682
+-00002a40: 303f 763d 343f 733d 3130 3022 2077 6964  0?v=4?s=100" wid
+-00002a50: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00002a60: 226c 7563 6b79 4c75 6b61 6322 2f3e 3c62  "luckyLukac"/><b
+-00002a70: 7220 2f3e 3c73 7562 3e3c 623e 6c75 636b  r /><sub><b>luck
+-00002a80: 794c 756b 6163 3c2f 623e 3c2f 7375 623e  yLukac</b></sub>
+-00002a90: 3c2f 613e 3c62 7220 2f3e 3c61 2068 7265  </a><br /><a hre
+-00002aa0: 663d 2268 7474 7073 3a2f 2f67 6974 6875  f="https://githu
+-00002ab0: 622e 636f 6d2f 6669 7265 666c 792d 6370  b.com/firefly-cp
+-00002ac0: 702f 4153 542d 4d6f 6e69 746f 722f 6973  p/AST-Monitor/is
+-00002ad0: 7375 6573 3f71 3d61 7574 686f 7225 3341  sues?q=author%3A
+-00002ae0: 6c75 636b 794c 756b 6163 2220 7469 746c  luckyLukac" titl
+-00002af0: 653d 2242 7567 2072 6570 6f72 7473 223e  e="Bug reports">
+-00002b00: f09f 909b 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
+-00002b10: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
+-00002b20: 2e63 6f6d 2f66 6972 6566 6c79 2d63 7070  .com/firefly-cpp
+-00002b30: 2f41 5354 2d4d 6f6e 6974 6f72 2f63 6f6d  /AST-Monitor/com
+-00002b40: 6d69 7473 3f61 7574 686f 723d 6c75 636b  mits?author=luck
+-00002b50: 794c 756b 6163 2220 7469 746c 653d 2244  yLukac" title="D
+-00002b60: 6f63 756d 656e 7461 7469 6f6e 223e f09f  ocumentation">..
+-00002b70: 9396 3c2f 613e 203c 6120 6872 6566 3d22  ..</a> <a href="
+-00002b80: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
+-00002b90: 6f6d 2f66 6972 6566 6c79 2d63 7070 2f41  om/firefly-cpp/A
+-00002ba0: 5354 2d4d 6f6e 6974 6f72 2f63 6f6d 6d69  ST-Monitor/commi
+-00002bb0: 7473 3f61 7574 686f 723d 6c75 636b 794c  ts?author=luckyL
+-00002bc0: 756b 6163 2220 7469 746c 653d 2243 6f64  ukac" title="Cod
+-00002bd0: 6522 3ef0 9f92 bb3c 2f61 3e20 3c61 2068  e">....</a> <a h
+-00002be0: 7265 663d 2223 6465 7369 676e 2d6c 7563  ref="#design-luc
+-00002bf0: 6b79 4c75 6b61 6322 2074 6974 6c65 3d22  kyLukac" title="
+-00002c00: 4465 7369 676e 223e f09f 8ea8 3c2f 613e  Design">....</a>
+-00002c10: 3c2f 7464 3e0a 2020 2020 2020 3c74 6420  </td>.      <td 
+-00002c20: 616c 6967 6e3d 2263 656e 7465 7222 3e3c  align="center"><
+-00002c30: 6120 6872 6566 3d22 6874 7470 3a2f 2f63  a href="http://c
+-00002c40: 6172 6c6f 7361 6c31 3031 352e 6769 7468  arlosal1015.gith
+-00002c50: 7562 2e69 6f22 3e3c 696d 6720 7372 633d  ub.io"><img src=
+-00002c60: 2268 7474 7073 3a2f 2f61 7661 7461 7273  "https://avatars
+-00002c70: 2e67 6974 6875 6275 7365 7263 6f6e 7465  .githubuserconte
+-00002c80: 6e74 2e63 6f6d 2f75 2f32 3132 3833 3031  nt.com/u/2128301
+-00002c90: 343f 763d 343f 733d 3130 3022 2077 6964  4?v=4?s=100" wid
+-00002ca0: 7468 3d22 3130 3070 783b 2220 616c 743d  th="100px;" alt=
+-00002cb0: 224f 726f 6d69 6f6e 222f 3e3c 6272 202f  "Oromion"/><br /
+-00002cc0: 3e3c 7375 623e 3c62 3e4f 726f 6d69 6f6e  ><sub><b>Oromion
+-00002cd0: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
+-00002ce0: 7220 2f3e 3c61 2068 7265 663d 2223 706c  r /><a href="#pl
+-00002cf0: 6174 666f 726d 2d63 6172 6c6f 7361 6c31  atform-carlosal1
+-00002d00: 3031 3522 2074 6974 6c65 3d22 5061 636b  015" title="Pack
+-00002d10: 6167 696e 672f 706f 7274 696e 6720 746f  aging/porting to
+-00002d20: 206e 6577 2070 6c61 7466 6f72 6d22 3ef0   new platform">.
+-00002d30: 9f93 a63c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
+-00002d40: 2020 203c 7464 2061 6c69 676e 3d22 6365     <td align="ce
+-00002d50: 6e74 6572 223e 3c61 2068 7265 663d 2268  nter"><a href="h
+-00002d60: 7474 7073 3a2f 2f67 6974 6875 622e 636f  ttps://github.co
+-00002d70: 6d2f 616c 656e 7261 6a73 7022 3e3c 696d  m/alenrajsp"><im
+-00002d80: 6720 7372 633d 2268 7474 7073 3a2f 2f61  g src="https://a
+-00002d90: 7661 7461 7273 2e67 6974 6875 6275 7365  vatars.githubuse
+-00002da0: 7263 6f6e 7465 6e74 2e63 6f6d 2f75 2f32  rcontent.com/u/2
+-00002db0: 3737 3231 3731 343f 763d 343f 733d 3130  7721714?v=4?s=10
+-00002dc0: 3022 2077 6964 7468 3d22 3130 3070 783b  0" width="100px;
+-00002dd0: 2220 616c 743d 2261 6c65 6e72 616a 7370  " alt="alenrajsp
+-00002de0: 222f 3e3c 6272 202f 3e3c 7375 623e 3c62  "/><br /><sub><b
+-00002df0: 3e61 6c65 6e72 616a 7370 3c2f 623e 3c2f  >alenrajsp</b></
+-00002e00: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
+-00002e10: 2068 7265 663d 2223 636f 6e74 656e 742d   href="#content-
+-00002e20: 616c 656e 7261 6a73 7022 2074 6974 6c65  alenrajsp" title
+-00002e30: 3d22 436f 6e74 656e 7422 3ef0 9f96 8b3c  ="Content">....<
+-00002e40: 2f61 3e3c 2f74 643e 0a20 2020 203c 2f74  /a></td>.    </t
+-00002e50: 723e 0a20 203c 2f74 626f 6479 3e0a 3c2f  r>.  </tbody>.</
+-00002e60: 7461 626c 653e 0a0a 3c21 2d2d 206d 6172  table>..<!-- mar
+-00002e70: 6b64 6f77 6e6c 696e 742d 7265 7374 6f72  kdownlint-restor
+-00002e80: 6520 2d2d 3e0a 3c21 2d2d 2070 7265 7474  e -->.<!-- prett
+-00002e90: 6965 722d 6967 6e6f 7265 2d65 6e64 202d  ier-ignore-end -
+-00002ea0: 2d3e 0a0a 3c21 2d2d 2041 4c4c 2d43 4f4e  ->..<!-- ALL-CON
+-00002eb0: 5452 4942 5554 4f52 532d 4c49 5354 3a45  TRIBUTORS-LIST:E
+-00002ec0: 4e44 202d 2d3e 0a3c 212d 2d20 7072 6574  ND -->.<!-- pret
+-00002ed0: 7469 6572 2d69 676e 6f72 652d 7374 6172  tier-ignore-star
+-00002ee0: 7420 2d2d 3e0a 3c21 2d2d 206d 6172 6b64  t -->.<!-- markd
+-00002ef0: 6f77 6e6c 696e 742d 6469 7361 626c 6520  ownlint-disable 
+-00002f00: 2d2d 3e0a 0a3c 212d 2d20 6d61 726b 646f  -->..<!-- markdo
+-00002f10: 776e 6c69 6e74 2d72 6573 746f 7265 202d  wnlint-restore -
+-00002f20: 2d3e 0a3c 212d 2d20 7072 6574 7469 6572  ->.<!-- prettier
+-00002f30: 2d69 676e 6f72 652d 656e 6420 2d2d 3e0a  -ignore-end -->.
+-00002f40: 0a3c 212d 2d20 414c 4c2d 434f 4e54 5249  .<!-- ALL-CONTRI
+-00002f50: 4255 544f 5253 2d4c 4953 543a 454e 4420  BUTORS-LIST:END 
+-00002f60: 2d2d 3e0a 0a                             -->..
++00000000: 2320 4153 542d 4d6f 6e69 746f 7220 2d2d  # AST-Monitor --
++00000010: 2d20 4120 7765 6172 6162 6c65 2052 6173  - A wearable Ras
++00000020: 7062 6572 7279 2050 6920 636f 6d70 7574  pberry Pi comput
++00000030: 6572 2066 6f72 2063 7963 6c69 7374 730a  er for cyclists.
++00000040: 5b21 5b50 7950 4920 5665 7273 696f 6e5d  [![PyPI Version]
++00000050: 2868 7474 7073 3a2f 2f69 6d67 2e73 6869  (https://img.shi
++00000060: 656c 6473 2e69 6f2f 7079 7069 2f76 2f61  elds.io/pypi/v/a
++00000070: 7374 2d6d 6f6e 6974 6f72 2e73 7667 295d  st-monitor.svg)]
++00000080: 2868 7474 7073 3a2f 2f70 7970 692e 7079  (https://pypi.py
++00000090: 7468 6f6e 2e6f 7267 2f70 7970 692f 6173  thon.org/pypi/as
++000000a0: 742d 6d6f 6e69 746f 7229 0a21 5b50 7950  t-monitor).![PyP
++000000b0: 4920 2d20 5079 7468 6f6e 2056 6572 7369  I - Python Versi
++000000c0: 6f6e 5d28 6874 7470 733a 2f2f 696d 672e  on](https://img.
++000000d0: 7368 6965 6c64 732e 696f 2f70 7970 692f  shields.io/pypi/
++000000e0: 7079 7665 7273 696f 6e73 2f61 7374 2d6d  pyversions/ast-m
++000000f0: 6f6e 6974 6f72 2e73 7667 290a 215b 5079  onitor.svg).![Py
++00000100: 5049 202d 2044 6f77 6e6c 6f61 6473 5d28  PI - Downloads](
++00000110: 6874 7470 733a 2f2f 696d 672e 7368 6965  https://img.shie
++00000120: 6c64 732e 696f 2f70 7970 692f 646d 2f61  lds.io/pypi/dm/a
++00000130: 7374 2d6d 6f6e 6974 6f72 2e73 7667 290a  st-monitor.svg).
++00000140: 5b21 5b44 6f77 6e6c 6f61 6473 5d28 6874  [![Downloads](ht
++00000150: 7470 733a 2f2f 7065 7079 2e74 6563 682f  tps://pepy.tech/
++00000160: 6261 6467 652f 6173 742d 6d6f 6e69 746f  badge/ast-monito
++00000170: 7229 5d28 6874 7470 733a 2f2f 7065 7079  r)](https://pepy
++00000180: 2e74 6563 682f 7072 6f6a 6563 742f 6173  .tech/project/as
++00000190: 742d 6d6f 6e69 746f 7229 0a21 5b47 6974  t-monitor).![Git
++000001a0: 4875 6220 7265 706f 2073 697a 655d 2868  Hub repo size](h
++000001b0: 7474 7073 3a2f 2f69 6d67 2e73 6869 656c  ttps://img.shiel
++000001c0: 6473 2e69 6f2f 6769 7468 7562 2f72 6570  ds.io/github/rep
++000001d0: 6f2d 7369 7a65 2f66 6972 6566 6c79 2d63  o-size/firefly-c
++000001e0: 7070 2f61 7374 2d6d 6f6e 6974 6f72 3f73  pp/ast-monitor?s
++000001f0: 7479 6c65 3d66 6c61 742d 7371 7561 7265  tyle=flat-square
++00000200: 290a 5b21 5b47 6974 4875 6220 6c69 6365  ).[![GitHub lice
++00000210: 6e73 655d 2868 7474 7073 3a2f 2f69 6d67  nse](https://img
++00000220: 2e73 6869 656c 6473 2e69 6f2f 6769 7468  .shields.io/gith
++00000230: 7562 2f6c 6963 656e 7365 2f66 6972 6566  ub/license/firef
++00000240: 6c79 2d63 7070 2f61 7374 2d6d 6f6e 6974  ly-cpp/ast-monit
++00000250: 6f72 2e73 7667 295d 2868 7474 7073 3a2f  or.svg)](https:/
++00000260: 2f67 6974 6875 622e 636f 6d2f 6669 7265  /github.com/fire
++00000270: 666c 792d 6370 702f 4153 542d 4d6f 6e69  fly-cpp/AST-Moni
++00000280: 746f 722f 626c 6f62 2f6d 6173 7465 722f  tor/blob/master/
++00000290: 4c49 4345 4e53 4529 0a21 5b47 6974 4875  LICENSE).![GitHu
++000002a0: 6220 636f 6d6d 6974 2061 6374 6976 6974  b commit activit
++000002b0: 795d 2868 7474 7073 3a2f 2f69 6d67 2e73  y](https://img.s
++000002c0: 6869 656c 6473 2e69 6f2f 6769 7468 7562  hields.io/github
++000002d0: 2f63 6f6d 6d69 742d 6163 7469 7669 7479  /commit-activity
++000002e0: 2f77 2f66 6972 6566 6c79 2d63 7070 2f61  /w/firefly-cpp/a
++000002f0: 7374 2d6d 6f6e 6974 6f72 2e73 7667 290a  st-monitor.svg).
++00000300: 215b 4769 7448 7562 2063 6f6e 7472 6962  ![GitHub contrib
++00000310: 7574 6f72 735d 2868 7474 7073 3a2f 2f69  utors](https://i
++00000320: 6d67 2e73 6869 656c 6473 2e69 6f2f 6769  mg.shields.io/gi
++00000330: 7468 7562 2f63 6f6e 7472 6962 7574 6f72  thub/contributor
++00000340: 732f 6669 7265 666c 792d 6370 702f 6173  s/firefly-cpp/as
++00000350: 742d 6d6f 6e69 746f 722e 7376 6729 0a5b  t-monitor.svg).[
++00000360: 215b 416c 6c20 436f 6e74 7269 6275 746f  ![All Contributo
++00000370: 7273 5d28 6874 7470 733a 2f2f 696d 672e  rs](https://img.
++00000380: 7368 6965 6c64 732e 696f 2f62 6164 6765  shields.io/badge
++00000390: 2f61 6c6c 5f63 6f6e 7472 6962 7574 6f72  /all_contributor
++000003a0: 732d 342d 6f72 616e 6765 2e73 7667 3f73  s-4-orange.svg?s
++000003b0: 7479 6c65 3d66 6c61 742d 7371 7561 7265  tyle=flat-square
++000003c0: 295d 2823 636f 6e74 7269 6275 746f 7273  )](#contributors
++000003d0: 2d29 0a0a 5b21 5b44 4f49 5d28 6874 7470  -)..[![DOI](http
++000003e0: 733a 2f2f 696d 672e 7368 6965 6c64 732e  s://img.shields.
++000003f0: 696f 2f62 6164 6765 2f44 4f49 2d31 302e  io/badge/DOI-10.
++00000400: 3131 3039 2f49 5343 4d49 3533 3834 302e  1109/ISCMI53840.
++00000410: 3230 3231 2e39 3635 3438 3137 2d62 6c75  2021.9654817-blu
++00000420: 6529 5d28 6874 7470 733a 2f2f 646f 692e  e)](https://doi.
++00000430: 6f72 672f 3130 2e31 3130 392f 4953 434d  org/10.1109/ISCM
++00000440: 4935 3338 3430 2e32 3032 312e 3936 3534  I53840.2021.9654
++00000450: 3831 3729 0a5b 215b 444f 495d 2868 7474  817).[![DOI](htt
++00000460: 7073 3a2f 2f69 6d67 2e73 6869 656c 6473  ps://img.shields
++00000470: 2e69 6f2f 6261 6467 652f 444f 492d 3130  .io/badge/DOI-10
++00000480: 2e33 3339 302f 6170 7031 3232 3431 3237  .3390/app1224127
++00000490: 3431 2d62 6c75 6529 5d28 6874 7470 733a  41-blue)](https:
++000004a0: 2f2f 646f 692e 6f72 672f 3130 2e33 3339  //doi.org/10.339
++000004b0: 302f 6170 7031 3232 3431 3237 3431 290a  0/app122412741).
++000004c0: 5b21 5b46 6564 6f72 6120 7061 636b 6167  [![Fedora packag
++000004d0: 655d 2868 7474 7073 3a2f 2f69 6d67 2e73  e](https://img.s
++000004e0: 6869 656c 6473 2e69 6f2f 6665 646f 7261  hields.io/fedora
++000004f0: 2f76 2f70 7974 686f 6e33 2d61 7374 2d6d  /v/python3-ast-m
++00000500: 6f6e 6974 6f72 3f63 6f6c 6f72 3d62 6c75  onitor?color=blu
++00000510: 6526 6c61 6265 6c3d 4665 646f 7261 2532  e&label=Fedora%2
++00000520: 304c 696e 7578 266c 6f67 6f3d 6665 646f  0Linux&logo=fedo
++00000530: 7261 295d 2868 7474 7073 3a2f 2f73 7263  ra)](https://src
++00000540: 2e66 6564 6f72 6170 726f 6a65 6374 2e6f  .fedoraproject.o
++00000550: 7267 2f72 706d 732f 7079 7468 6f6e 2d61  rg/rpms/python-a
++00000560: 7374 2d6d 6f6e 6974 6f72 290a 5b21 5b41  st-monitor).[![A
++00000570: 5552 2070 6163 6b61 6765 5d28 6874 7470  UR package](http
++00000580: 733a 2f2f 696d 672e 7368 6965 6c64 732e  s://img.shields.
++00000590: 696f 2f61 7572 2f76 6572 7369 6f6e 2f70  io/aur/version/p
++000005a0: 7974 686f 6e2d 6173 742d 6d6f 6e69 746f  ython-ast-monito
++000005b0: 723f 636f 6c6f 723d 626c 7565 266c 6162  r?color=blue&lab
++000005c0: 656c 3d41 7263 6825 3230 4c69 6e75 7826  el=Arch%20Linux&
++000005d0: 6c6f 676f 3d61 7263 682d 6c69 6e75 7829  logo=arch-linux)
++000005e0: 5d28 6874 7470 733a 2f2f 6175 722e 6172  ](https://aur.ar
++000005f0: 6368 6c69 6e75 782e 6f72 672f 7061 636b  chlinux.org/pack
++00000600: 6167 6573 2f70 7974 686f 6e2d 6173 742d  ages/python-ast-
++00000610: 6d6f 6e69 746f 7229 0a0a 2a20 2a2a 446f  monitor)..* **Do
++00000620: 6375 6d65 6e74 6174 696f 6e3a 2a2a 205b  cumentation:** [
++00000630: 6874 7470 733a 2f2f 6173 742d 6d6f 6e69  https://ast-moni
++00000640: 746f 722e 7265 6164 7468 6564 6f63 732e  tor.readthedocs.
++00000650: 696f 2f65 6e2f 6c61 7465 7374 5d28 6874  io/en/latest](ht
++00000660: 7470 733a 2f2f 6173 742d 6d6f 6e69 746f  tps://ast-monito
++00000670: 722e 7265 6164 7468 6564 6f63 732e 696f  r.readthedocs.io
++00000680: 2f65 6e2f 6c61 7465 7374 290a 2a20 2a2a  /en/latest).* **
++00000690: 5465 7374 6564 204f 533a 2a2a 2057 696e  Tested OS:** Win
++000006a0: 646f 7773 2c20 5562 756e 7475 2c20 4665  dows, Ubuntu, Fe
++000006b0: 646f 7261 2c20 416c 7069 6e65 2c20 4172  dora, Alpine, Ar
++000006c0: 6368 2c20 6d61 634f 532e 202a 2a48 6f77  ch, macOS. **How
++000006d0: 6576 6572 2c20 7468 6174 2064 6f65 7320  ever, that does 
++000006e0: 6e6f 7420 6d65 616e 2069 7420 646f 6573  not mean it does
++000006f0: 206e 6f74 2077 6f72 6b20 6f6e 206f 7468   not work on oth
++00000700: 6572 732a 2a0a 2020 0a23 2320 5368 6f72  ers**.  .## Shor
++00000710: 7420 6465 7363 7269 7074 696f 6e0a 5468  t description.Th
++00000720: 6973 2072 6570 6f73 6974 6f72 7920 6973  is repository is
++00000730: 2064 6576 6f74 6564 2074 6f20 4153 542d   devoted to AST-
++00000740: 4d6f 6e69 746f 722c 2069 2e65 2e2c 2061  Monitor, i.e., a
++00000750: 206c 6f77 2d63 6f73 7420 616e 6420 6566   low-cost and ef
++00000760: 6669 6369 656e 7420 656d 6265 6464 6564  ficient embedded
++00000770: 2064 6576 6963 6520 666f 7220 6d6f 6e69   device for moni
++00000780: 746f 7269 6e67 2074 6865 2072 6561 6c69  toring the reali
++00000790: 7a61 7469 6f6e 206f 6620 7370 6f72 7420  zation of sport 
++000007a0: 7472 6169 6e69 6e67 2073 6573 7369 6f6e  training session
++000007b0: 7320 7468 6174 2061 7265 2064 6564 6963  s that are dedic
++000007c0: 6174 6564 2074 6f20 6d6f 6e69 746f 7269  ated to monitori
++000007d0: 6e67 2063 7963 6c69 6e67 2074 7261 696e  ng cycling train
++000007e0: 696e 6720 7365 7373 696f 6e73 2e0a 4153  ing sessions..AS
++000007f0: 542d 4d6f 6e69 746f 7220 6973 2061 2070  T-Monitor is a p
++00000800: 6172 7420 6f66 2074 6865 2041 7274 6966  art of the Artif
++00000810: 6963 6961 6c20 5370 6f72 7420 5472 6169  icial Sport Trai
++00000820: 6e65 7220 2841 5354 2920 7379 7374 656d  ner (AST) system
++00000830: 2e20 5468 6520 6669 7273 7420 6269 7473  . The first bits
++00000840: 206f 6620 4153 542d 4d6f 6e69 746f 7220   of AST-Monitor 
++00000850: 7765 7265 2070 7265 7365 6e74 6564 2069  were presented i
++00000860: 6e20 7468 6520 666f 6c6c 6f77 696e 6720  n the following 
++00000870: 5b70 6170 6572 5d28 6874 7470 733a 2f2f  [paper](https://
++00000880: 6172 7869 762e 6f72 672f 6162 732f 3231  arxiv.org/abs/21
++00000890: 3039 2e31 3333 3334 292e 0a0a 0a23 2320  09.13334)....## 
++000008a0: 4772 6170 6869 6361 6c20 5573 6572 2049  Graphical User I
++000008b0: 6e74 6572 6661 6365 206f 6620 7468 6520  nterface of the 
++000008c0: 6170 706c 6963 6174 696f 6e0a 2323 2320  application.### 
++000008d0: 4261 7369 6320 6461 7461 0a3c 7020 616c  Basic data.<p al
++000008e0: 6967 6e3d 2263 656e 7465 7222 3e0a 2020  ign="center">.  
++000008f0: 3c69 6d67 2077 6964 7468 3d22 3630 3022  <img width="600"
++00000900: 2073 7263 3d22 6874 7470 733a 2f2f 7573   src="https://us
++00000910: 6572 2d69 6d61 6765 732e 6769 7468 7562  er-images.github
++00000920: 7573 6572 636f 6e74 656e 742e 636f 6d2f  usercontent.com/
++00000930: 3733 3132 3638 3230 2f31 3739 3230 3530  73126820/1792050
++00000940: 3634 2d31 3630 6264 6434 342d 6664 3637  64-160bdd44-fd67
++00000950: 2d34 6438 642d 3835 6464 2d62 6164 6561  -4d8d-85dd-badea
++00000960: 3939 3938 3835 632e 706e 6722 2061 6c74  999885c.png" alt
++00000970: 3d22 4153 542d 4755 4922 3e0a 3c2f 703e  ="AST-GUI">.</p>
++00000980: 0a54 6865 2069 6e69 7469 616c 2070 6167  .The initial pag
++00000990: 6520 6f66 2074 6865 2061 7070 6c69 6361  e of the applica
++000009a0: 7469 6f6e 2064 6570 6963 7473 2062 6173  tion depicts bas
++000009b0: 6963 2070 6172 616d 6574 6572 7320 6f66  ic parameters of
++000009c0: 2061 6e20 6174 686c 6574 6527 7320 6163   an athlete's ac
++000009d0: 7469 7669 7479 3a20 6375 7272 656e 7420  tivity: current 
++000009e0: 7370 6565 6420 616e 6420 6375 7272 656e  speed and curren
++000009f0: 7420 6865 6172 7420 7261 7465 2e20 4966  t heart rate. If
++00000a00: 2061 2074 7261 696e 696e 6720 7365 7373   a training sess
++00000a10: 696f 6e20 6973 2063 6f6e 6475 6374 6564  ion is conducted
++00000a20: 2c20 746f 7461 6c20 6469 7374 616e 6365  , total distance
++00000a30: 2c20 746f 7461 6c20 7469 6d65 206f 6620  , total time of 
++00000a40: 7468 6520 7365 7373 696f 6e20 616e 6420  the session and 
++00000a50: 746f 7461 6c20 6173 6365 6e74 2061 7265  total ascent are
++00000a60: 2064 6973 706c 6179 6564 2061 7320 7765   displayed as we
++00000a70: 6c6c 2e0a 0a2d 2d2d 0a23 2323 2049 6e74  ll...---.### Int
++00000a80: 6572 6163 7469 7665 206d 6170 0a3c 7020  eractive map.<p 
++00000a90: 616c 6967 6e3d 2263 656e 7465 7222 3e0a  align="center">.
++00000aa0: 2020 3c69 6d67 2077 6964 7468 3d22 3630    <img width="60
++00000ab0: 3022 2073 7263 3d22 6874 7470 733a 2f2f  0" src="https://
++00000ac0: 7573 6572 2d69 6d61 6765 732e 6769 7468  user-images.gith
++00000ad0: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00000ae0: 6d2f 3733 3132 3638 3230 2f31 3739 3230  m/73126820/17920
++00000af0: 3531 3138 2d31 3963 6262 3665 322d 6634  5118-19cbb6e2-f4
++00000b00: 3130 2d34 3337 312d 6137 3632 2d63 3463  10-4371-a762-c4c
++00000b10: 3737 3334 3461 6232 342e 706e 6722 2061  77344ab24.png" a
++00000b20: 6c74 3d22 4153 542d 4d61 7022 3e0a 3c2f  lt="AST-Map">.</
++00000b30: 703e 0a54 6865 2073 6563 6f6e 6420 7061  p>.The second pa
++00000b40: 6765 206f 6620 7468 6520 6170 706c 6963  ge of the applic
++00000b50: 6174 696f 6e20 6973 2064 6576 6f74 6564  ation is devoted
++00000b60: 2074 6f20 616e 2069 6e74 6572 6163 7469   to an interacti
++00000b70: 7665 206d 6170 2c20 7768 6963 6820 6465  ve map, which de
++00000b80: 7069 6374 7320 6174 686c 6574 6527 7320  picts athlete's 
++00000b90: 6375 7272 656e 7420 706f 7369 7469 6f6e  current position
++00000ba0: 2e0a 0a4e 6f74 653a 2074 6865 2070 6f73  ...Note: the pos
++00000bb0: 6974 696f 6e20 6973 2063 7572 7265 6e74  ition is current
++00000bc0: 6c79 2068 6172 6463 6f64 6564 2061 6e64  ly hardcoded and
++00000bd0: 2064 6f65 7320 6e6f 7420 7265 7370 6f6e   does not respon
++00000be0: 6420 6163 636f 7264 696e 6720 746f 2047  d according to G
++00000bf0: 5053 2064 6174 612e 0a0a 2d2d 2d0a 2323  PS data...---.##
++00000c00: 2320 496e 7465 7276 616c 2074 7261 696e  # Interval train
++00000c10: 696e 6720 6461 7461 0a3c 7020 616c 6967  ing data.<p alig
++00000c20: 6e3d 2263 656e 7465 7222 3e0a 2020 3c69  n="center">.  <i
++00000c30: 6d67 2077 6964 7468 3d22 3630 3022 2073  mg width="600" s
++00000c40: 7263 3d22 6874 7470 733a 2f2f 7573 6572  rc="https://user
++00000c50: 2d69 6d61 6765 732e 6769 7468 7562 7573  -images.githubus
++00000c60: 6572 636f 6e74 656e 742e 636f 6d2f 3733  ercontent.com/73
++00000c70: 3132 3638 3230 2f31 3739 3230 3531 3630  126820/179205160
++00000c80: 2d65 6463 6535 3831 632d 3165 6138 2d34  -edce581c-1ea8-4
++00000c90: 3238 372d 6137 3935 2d37 6430 3566 6237  287-a795-7d05fb7
++00000ca0: 6338 6464 632e 706e 6722 2061 6c74 3d22  c8ddc.png" alt="
++00000cb0: 4153 542d 496e 7465 7276 616c 7322 3e0a  AST-Intervals">.
++00000cc0: 3c2f 703e 0a54 6865 2074 6869 7264 2070  </p>.The third p
++00000cd0: 6167 6520 6f66 2074 6865 2061 7070 6c69  age of the appli
++00000ce0: 6361 7469 6f6e 2064 6570 6963 7473 2069  cation depicts i
++00000cf0: 6e74 6572 7661 6c20 7472 6169 6e69 6e67  nterval training
++00000d00: 2064 6174 612e 2044 7572 696e 6720 616e   data. During an
++00000d10: 2069 6e74 6572 7661 6c20 7472 6169 6e69   interval traini
++00000d20: 6e67 2c20 746f 7461 6c20 6475 7261 7469  ng, total durati
++00000d30: 6f6e 206f 6620 7468 6520 6375 7272 656e  on of the curren
++00000d40: 7420 7068 6173 6520 6973 2064 6973 706c  t phase is displ
++00000d50: 6179 6564 2061 6c6f 6e67 2077 6974 6820  ayed along with 
++00000d60: 6375 7272 656e 7420 6865 6172 7420 7261  current heart ra
++00000d70: 7465 2c20 6176 6572 6167 6520 6865 6172  te, average hear
++00000d80: 7420 7261 7465 2c20 4469 6769 7461 6c20  t rate, Digital 
++00000d90: 5477 696e 2070 726f 706f 7365 6420 6865  Twin proposed he
++00000da0: 6172 7420 7261 7465 2061 6e64 2074 6865  art rate and the
++00000db0: 2064 6966 6665 7265 6e63 6520 6265 7477   difference betw
++00000dc0: 6565 6e20 7468 6520 6375 7272 656e 7420  een the current 
++00000dd0: 616e 6420 7468 6520 7072 6f70 6f73 6564  and the proposed
++00000de0: 2068 6561 7274 2072 6174 652e 0a0a 2d2d   heart rate...--
++00000df0: 2d0a 2323 2320 496e 7465 7276 616c 2074  -.### Interval t
++00000e00: 7261 696e 696e 6720 706c 616e 0a3c 7020  raining plan.<p 
++00000e10: 616c 6967 6e3d 2263 656e 7465 7222 3e0a  align="center">.
++00000e20: 2020 3c69 6d67 2077 6964 7468 3d22 3630    <img width="60
++00000e30: 3022 2073 7263 3d22 6874 7470 733a 2f2f  0" src="https://
++00000e40: 7573 6572 2d69 6d61 6765 732e 6769 7468  user-images.gith
++00000e50: 7562 7573 6572 636f 6e74 656e 742e 636f  ubusercontent.co
++00000e60: 6d2f 3733 3132 3638 3230 2f31 3839 3932  m/73126820/18992
++00000e70: 3631 3033 2d65 3038 3935 3133 322d 3962  6103-e0895132-9b
++00000e80: 6263 2d34 3162 662d 3838 3638 2d35 3165  bc-41bf-8868-51e
++00000e90: 3365 3663 3233 6638 612e 706e 6722 2061  3e6c23f8a.png" a
++00000ea0: 6c74 3d22 4153 542d 5472 6169 6e69 6e67  lt="AST-Training
++00000eb0: 7322 3e0a 3c2f 703e 0a54 6865 2066 6f75  s">.</p>.The fou
++00000ec0: 7274 6820 616e 6420 6669 6e61 6c20 7061  rth and final pa
++00000ed0: 6765 206f 6620 7468 6520 6170 706c 6963  ge of the applic
++00000ee0: 6174 696f 6e20 6973 2069 6e74 656e 6465  ation is intende
++00000ef0: 6420 666f 7220 6c6f 6164 696e 6720 616e  d for loading an
++00000f00: 6420 7374 6172 7469 6e67 2069 6e74 6572  d starting inter
++00000f10: 7661 6c20 7472 6169 6e69 6e67 7320 6c6f  val trainings lo
++00000f20: 6361 7465 6420 696e 2074 6865 2066 6f6c  cated in the fol
++00000f30: 6465 7220 2241 5354 2d4d 6f6e 6974 6f72  der "AST-Monitor
++00000f40: 2f64 6576 656c 6f70 6d65 6e74 2f74 7261  /development/tra
++00000f50: 696e 696e 6773 222e 2049 6e20 6f72 6465  inings". In orde
++00000f60: 7220 746f 2062 6520 7061 7273 6564 2063  r to be parsed c
++00000f70: 6f72 7265 6374 6c79 2c20 7472 6169 6e69  orrectly, traini
++00000f80: 6e67 7320 6d75 7374 2062 6520 7772 6974  ngs must be writ
++00000f90: 7465 6e20 696e 2064 6f6d 6169 6e2d 7370  ten in domain-sp
++00000fa0: 6563 6966 6963 206c 616e 6775 6167 6520  ecific language 
++00000fb0: 3c61 2068 7265 663d 2268 7474 7073 3a2f  <a href="https:/
++00000fc0: 2f67 6974 6875 622e 636f 6d2f 6669 7265  /github.com/fire
++00000fd0: 666c 792d 6370 702f 6173 742d 7464 6c22  fly-cpp/ast-tdl"
++00000fe0: 3e41 5354 2d54 444c 3c2f 613e 2061 6e64  >AST-TDL</a> and
++00000ff0: 2063 6f6e 7665 7274 6564 2074 6f20 4a61   converted to Ja
++00001000: 7661 5363 7269 7074 204f 626a 6563 7420  vaScript Object 
++00001010: 4e6f 7461 7469 6f6e 2028 4a53 4f4e 292e  Notation (JSON).
++00001020: 2041 6674 6572 2073 7563 6365 7373 6675   After successfu
++00001030: 6c20 6c6f 6164 696e 6720 6f66 2061 6e20  l loading of an 
++00001040: 696e 7465 7276 616c 2074 7261 696e 696e  interval trainin
++00001050: 672c 2074 6865 2074 7261 696e 696e 6720  g, the training 
++00001060: 706c 616e 2069 7320 6469 7370 6c61 7965  plan is displaye
++00001070: 6420 6f6e 2074 6869 7320 7061 6765 2e0a  d on this page..
++00001080: 0a0a 2323 2048 6172 6477 6172 6520 6f75  ..## Hardware ou
++00001090: 746c 696e 650a 5468 6520 636f 6d70 6c65  tline.The comple
++000010a0: 7465 2068 6172 6477 6172 6520 7061 7274  te hardware part
++000010b0: 2069 7320 7368 6f77 6e20 696e 2074 6865   is shown in the
++000010c0: 2066 6967 7572 6520 6672 6f6d 2077 6869   figure from whi
++000010d0: 6368 2069 7420 6361 6e20 6265 2073 6565  ch it can be see
++000010e0: 6e20 7468 6174 2074 6865 2041 5354 2d63  n that the AST-c
++000010f0: 6f6d 7075 7465 7220 6973 2073 706c 6974  omputer is split
++00001100: 2069 6e74 6f20 7468 6520 666f 6c6c 6f77   into the follow
++00001110: 696e 6720 7069 6563 6573 3a0a 0a2a 2061  ing pieces:..* a
++00001120: 2070 6c61 7466 6f72 6d20 7769 7468 2066   platform with f
++00001130: 6978 696e 6720 7374 7261 7073 2074 6861  ixing straps tha
++00001140: 7420 6174 7461 6368 2074 6f20 6120 6269  t attach to a bi
++00001150: 6379 636c 652c 0a2a 2074 6865 2052 6173  cycle,.* the Ras
++00001160: 7062 6572 7279 2050 6920 3420 4d6f 6465  pberry Pi 4 Mode
++00001170: 6c20 4220 6d69 6372 6f2d 636f 6e74 726f  l B micro-contro
++00001180: 6c6c 6572 2077 6974 6820 5261 7370 6269  ller with Raspbi
++00001190: 616e 204f 5320 696e 7374 616c 6c65 642c  an OS installed,
++000011a0: 0a2a 2061 2066 6976 652d 696e 6368 204c  .* a five-inch L
++000011b0: 4344 2074 6f75 6368 2073 6372 6565 6e20  CD touch screen 
++000011c0: 6469 7370 6c61 792c 0a2a 2061 2055 5342  display,.* a USB
++000011d0: 2041 4e54 2b20 7374 6963 6b2c 0a2a 2041   ANT+ stick,.* A
++000011e0: 6461 6672 7569 7427 7320 556c 7469 6d61  dafruit's Ultima
++000011f0: 7465 2047 5053 2048 4154 206d 6f64 756c  te GPS HAT modul
++00001200: 652e 0a0a 3c70 2061 6c69 676e 3d22 6365  e...<p align="ce
++00001210: 6e74 6572 223e 0a20 203c 696d 6720 7769  nter">.  <img wi
++00001220: 6474 683d 2236 3030 2220 7372 633d 2268  dth="600" src="h
++00001230: 7474 7073 3a2f 2f72 6177 2e67 6974 6875  ttps://raw.githu
++00001240: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
++00001250: 2f66 6972 6566 6c79 2d63 7070 2f41 5354  /firefly-cpp/AST
++00001260: 2d4d 6f6e 6974 6f72 2f6d 6169 6e2f 2e67  -Monitor/main/.g
++00001270: 6974 6875 622f 696d 672f 636f 6d70 6c65  ithub/img/comple
++00001280: 7465 5f73 6d61 6c6c 2e4a 5047 2220 616c  te_small.JPG" al
++00001290: 743d 2241 5354 2d4d 6f6e 6974 6f72 223e  t="AST-Monitor">
++000012a0: 0a3c 2f70 3e0a 0a41 2053 6572 6961 6c20  .</p>..A Serial 
++000012b0: 5065 7269 7068 6572 616c 2049 6e74 6572  Peripheral Inter
++000012c0: 6661 6365 2028 5350 4929 2070 726f 746f  face (SPI) proto
++000012d0: 636f 6c20 7761 7320 6465 6469 6361 7465  col was dedicate
++000012e0: 6420 746f 2063 6f6d 6d75 6e69 6361 7469  d to communicati
++000012f0: 6f6e 2062 6574 7765 656e 2074 6865 2052  on between the R
++00001300: 6173 7062 6572 7279 2050 6920 616e 6420  aspberry Pi and 
++00001310: 7468 6520 4750 5320 7065 7269 7068 6572  the GPS peripher
++00001320: 616c 2e20 4120 7370 6563 6961 6c69 7a65  al. A specialize
++00001330: 6420 5553 4220 414e 542b 2073 7469 636b  d USB ANT+ stick
++00001340: 2077 6173 2075 7365 6420 746f 2063 6170   was used to cap
++00001350: 7475 7265 2074 6865 2048 5220 7369 676e  ture the HR sign
++00001360: 616c 2e20 5468 6520 7363 7265 656e 2064  al. The screen d
++00001370: 6973 706c 6179 2077 6173 2063 6f6e 6e65  isplay was conne
++00001380: 6374 6564 2075 7369 6e67 2061 206d 6f64  cted using a mod
++00001390: 6966 6965 6420 2870 6879 7369 6361 6c6c  ified (physicall
++000013a0: 7920 7368 6f72 7465 6e65 6429 2048 444d  y shortened) HDM
++000013b0: 4920 6361 626c 652c 2077 6869 6c65 2074  I cable, while t
++000013c0: 6865 2074 6f75 6368 2066 6565 6462 6163  he touch feedbac
++000013d0: 6b20 7761 7320 696d 706c 656d 656e 7465  k was implemente
++000013e0: 6420 7573 696e 6720 7068 7973 6963 616c  d using physical
++000013f0: 2077 6972 6573 2e20 5468 6520 636f 6d70   wires. The comp
++00001400: 7574 6572 2077 6173 2070 6f77 6572 6564  uter was powered
++00001410: 2064 7572 696e 6720 7468 6520 7465 7374   during the test
++00001420: 696e 6720 7068 6173 6520 7573 696e 6720  ing phase using 
++00001430: 7468 6520 5472 7573 7427 7320 2835 2056  the Trust's (5 V
++00001440: 4443 2920 706f 7765 7220 6261 6e6b 2e20  DC) power bank. 
++00001450: 5468 6520 4153 542d 4d6f 6e69 746f 7220  The AST-Monitor 
++00001460: 7072 6f74 6f74 7970 6520 6973 2073 7469  prototype is sti
++00001470: 6c6c 2061 206c 6974 746c 6520 6275 6c6b  ll a little bulk
++00001480: 792c 2062 7574 2061 206d 6f72 6520 6469  y, but a more di
++00001490: 7363 7265 7465 2073 6f6c 7574 696f 6e20  screte solution 
++000014a0: 6973 2062 6569 6e67 2073 6561 7263 6865  is being searche
++000014b0: 6420 666f 722c 2069 6e63 6c75 6469 6e67  d for, including
++000014c0: 2074 6865 2073 7765 6174 2064 7261 696e   the sweat drain
++000014d0: 6572 206f 6620 7468 6520 4153 542e 2049  er of the AST. I
++000014e0: 6e74 6572 6e61 6c20 636f 6d70 6f6e 656e  nternal componen
++000014f0: 7473 206f 6620 4153 542d 4d6f 6e69 746f  ts of AST-Monito
++00001500: 7220 6172 6520 6465 7069 6374 6564 2069  r are depicted i
++00001510: 6e20 7468 6520 666f 6c6c 6f77 696e 6720  n the following 
++00001520: 7363 6865 6d65 2e0a 0a3c 7020 616c 6967  scheme...<p alig
++00001530: 6e3d 2263 656e 7465 7222 3e0a 2020 3c69  n="center">.  <i
++00001540: 6d67 2077 6964 7468 3d22 3630 3022 2073  mg width="600" s
++00001550: 7263 3d22 6874 7470 733a 2f2f 7573 6572  rc="https://user
++00001560: 2d69 6d61 6765 732e 6769 7468 7562 7573  -images.githubus
++00001570: 6572 636f 6e74 656e 742e 636f 6d2f 3733  ercontent.com/73
++00001580: 3132 3638 3230 2f31 3839 3932 3031 3731  126820/189920171
++00001590: 2d61 6339 3436 6139 332d 6164 3738 2d34  -ac946a93-ad78-4
++000015a0: 6534 622d 6266 3039 2d35 6465 3562 6636  e4b-bf09-5de5bf6
++000015b0: 3962 6566 392e 706e 6722 2061 6c74 3d22  9bef9.png" alt="
++000015c0: 4153 542d 4d6f 6e69 746f 7222 3e0a 3c2f  AST-Monitor">.</
++000015d0: 703e 0a0a 2323 2053 6f66 7477 6172 6520  p>..## Software 
++000015e0: 6f75 746c 696e 650a 2323 2320 4465 7065  outline.### Depe
++000015f0: 6e64 656e 6369 6573 0a4c 6973 7420 6f66  ndencies.List of
++00001600: 2064 6570 656e 6465 6e63 6965 733a 0a0a   dependencies:..
++00001610: 7c20 5061 636b 6167 6520 2020 2020 207c  | Package      |
++00001620: 2056 6572 7369 6f6e 2020 2020 7c20 506c   Version    | Pl
++00001630: 6174 666f 726d 207c 0a7c 202d 2d2d 2d2d  atform |.| -----
++00001640: 2d2d 2d2d 2d2d 2d20 7c3a 2d2d 2d2d 2d2d  ------- |:------
++00001650: 2d2d 2d2d 3a7c 3a2d 2d2d 2d2d 2d2d 2d3a  ----:|:--------:
++00001660: 7c0a 7c20 5079 5174 3520 2020 2020 2020  |.| PyQt5       
++00001670: 207c 205e 352e 3135 2e36 2020 2020 7c20   | ^5.15.6    | 
++00001680: 416c 6c20 2020 2020 207c 0a7c 206d 6174  All      |.| mat
++00001690: 706c 6f74 6c69 6220 2020 7c20 5e33 2e35  plotlib   | ^3.5
++000016a0: 2e31 2020 2020 207c 2041 6c6c 2020 2020  .1     | All    
++000016b0: 2020 7c0a 7c20 6765 6f70 7920 2020 2020    |.| geopy     
++000016c0: 2020 207c 205e 322e 322e 3020 2020 2020     | ^2.2.0     
++000016d0: 7c20 416c 6c20 2020 2020 207c 0a7c 206f  | All      |.| o
++000016e0: 7065 6e61 6e74 2020 2020 2020 7c20 5e31  penant      | ^1
++000016f0: 2e32 2e30 2020 2020 207c 2041 6c6c 2020  .2.0     | All  
++00001700: 2020 2020 7c0a 7c20 7079 7174 2d66 6565      |.| pyqt-fee
++00001710: 6462 6163 6b2d 666c 6f77 2020 2020 2020  dback-flow      
++00001720: 207c 205e 302e 312e 3020 2020 2020 7c20   | ^0.1.0     | 
++00001730: 416c 6c20 2020 2020 207c 0a7c 2074 6378  All      |.| tcx
++00001740: 7265 6164 6572 2020 2020 2020 207c 205e  reader       | ^
++00001750: 302e 342e 3120 2020 2020 7c20 416c 6c20  0.4.1     | All 
++00001760: 2020 2020 207c 0a7c 2073 706f 7274 2d61       |.| sport-a
++00001770: 6374 6976 6974 6965 732d 6665 6174 7572  ctivities-featur
++00001780: 6573 2020 2020 2020 207c 205e 302e 332e  es       | ^0.3.
++00001790: 3620 2020 2020 7c20 416c 6c20 2020 2020  6     | All     
++000017a0: 207c 0a0a 4164 6469 7469 6f6e 616c 206e   |..Additional n
++000017b0: 6f74 653a 2061 6461 6672 7569 742d 6369  ote: adafruit-ci
++000017c0: 7263 7569 7470 7974 686f 6e2d 6770 7320  rcuitpython-gps 
++000017d0: 7061 636b 6167 6520 6d75 7374 2062 6520  package must be 
++000017e0: 696e 7374 616c 6c65 6420 696e 206f 7264  installed in ord
++000017f0: 6572 2074 6f20 776f 726b 2077 6974 6820  er to work with 
++00001800: 7468 6520 4750 5320 7365 6e73 6f72 3a0a  the GPS sensor:.
++00001810: 0a60 6060 7368 0a24 2070 6970 2069 6e73  .```sh.$ pip ins
++00001820: 7461 6c6c 2061 6461 6672 7569 742d 6369  tall adafruit-ci
++00001830: 7263 7569 7470 7974 686f 6e2d 6770 730a  rcuitpython-gps.
++00001840: 6060 600a 0a23 2320 496e 7374 616c 6c61  ```..## Installa
++00001850: 7469 6f6e 0a49 6e73 7461 6c6c 2041 5354  tion.Install AST
++00001860: 2d4d 6f6e 6974 6f72 2077 6974 6820 7069  -Monitor with pi
++00001870: 703a 0a0a 6060 6073 680a 2420 7069 7020  p:..```sh.$ pip 
++00001880: 696e 7374 616c 6c20 6173 742d 6d6f 6e69  install ast-moni
++00001890: 746f 720a 6060 600a 496e 2063 6173 6520  tor.```.In case 
++000018a0: 796f 7520 7761 6e74 2074 6f20 696e 7374  you want to inst
++000018b0: 616c 6c20 6469 7265 6374 6c79 2066 726f  all directly fro
++000018c0: 6d20 7468 6520 736f 7572 6365 2063 6f64  m the source cod
++000018d0: 652c 2075 7365 3a0a 0a60 6060 7368 0a24  e, use:..```sh.$
++000018e0: 2067 6974 2063 6c6f 6e65 2068 7474 7073   git clone https
++000018f0: 3a2f 2f67 6974 6875 622e 636f 6d2f 6669  ://github.com/fi
++00001900: 7265 666c 792d 6370 702f 4153 542d 4d6f  refly-cpp/AST-Mo
++00001910: 6e69 746f 722e 6769 740a 2420 6364 2041  nitor.git.$ cd A
++00001920: 5354 2d4d 6f6e 6974 6f72 0a24 2070 6f65  ST-Monitor.$ poe
++00001930: 7472 7920 6275 696c 640a 2420 7079 7468  try build.$ pyth
++00001940: 6f6e 2073 6574 7570 2e70 7920 696e 7374  on setup.py inst
++00001950: 616c 6c0a 6060 600a 0a54 6f20 696e 7374  all.```..To inst
++00001960: 616c 6c20 4153 542d 4d6f 6e69 746f 7220  all AST-Monitor 
++00001970: 6f6e 2046 6564 6f72 6120 4c69 6e75 782c  on Fedora Linux,
++00001980: 2070 6c65 6173 6520 7573 653a 0a0a 6060   please use:..``
++00001990: 6073 680a 2420 646e 6620 696e 7374 616c  `sh.$ dnf instal
++000019a0: 6c20 7079 7468 6f6e 332d 6173 742d 6d6f  l python3-ast-mo
++000019b0: 6e69 746f 720a 6060 600a 0a54 6f20 696e  nitor.```..To in
++000019c0: 7374 616c 6c20 4153 542d 4d6f 6e69 746f  stall AST-Monito
++000019d0: 7220 6f6e 2041 6c70 696e 6520 4c69 6e75  r on Alpine Linu
++000019e0: 782c 2070 6c65 6173 6520 7573 653a 0a0a  x, please use:..
++000019f0: 6060 6073 680a 2420 6170 6b20 6164 6420  ```sh.$ apk add 
++00001a00: 7079 332d 6173 742d 6d6f 6e69 746f 720a  py3-ast-monitor.
++00001a10: 6060 600a 0a54 6f20 696e 7374 616c 6c20  ```..To install 
++00001a20: 4153 542d 4d6f 6e69 746f 7220 6f6e 2041  AST-Monitor on A
++00001a30: 7263 6820 4c69 6e75 782c 2070 6c65 6173  rch Linux, pleas
++00001a40: 6520 7573 6520 616e 205b 4155 5220 6865  e use an [AUR he
++00001a50: 6c70 6572 5d28 6874 7470 733a 2f2f 7769  lper](https://wi
++00001a60: 6b69 2e61 7263 686c 696e 7578 2e6f 7267  ki.archlinux.org
++00001a70: 2f74 6974 6c65 2f41 5552 5f68 656c 7065  /title/AUR_helpe
++00001a80: 7273 293a 0a0a 6060 6073 680a 2420 7961  rs):..```sh.$ ya
++00001a90: 7920 2d53 7979 7520 7079 7468 6f6e 2d61  y -Syyu python-a
++00001aa0: 7374 2d6d 6f6e 6974 6f72 0a60 6060 0a0a  st-monitor.```..
++00001ab0: 2323 2044 6570 6c6f 796d 656e 740a 4f75  ## Deployment.Ou
++00001ac0: 7220 7072 6f6a 6563 7420 7761 7320 6465  r project was de
++00001ad0: 706c 6f79 6564 206f 6e20 6120 5261 7370  ployed on a Rasp
++00001ae0: 6265 7272 7920 5069 2064 6576 6963 6520  berry Pi device 
++00001af0: 7573 696e 6720 5261 7370 6265 7272 7920  using Raspberry 
++00001b00: 5069 204f 532e 0a0a 5468 6520 6861 7264  Pi OS...The hard
++00001b10: 7761 7265 2063 6f6e 6669 6775 7261 7469  ware configurati
++00001b20: 6f6e 206f 6620 4153 542d 4d6f 6e69 746f  on of AST-Monito
++00001b30: 7220 7573 696e 6720 5261 7370 6265 7272  r using Raspberr
++00001b40: 7920 5069 204f 5320 6973 2064 6573 6372  y Pi OS is descr
++00001b50: 6962 6564 2069 6e20 3c61 2068 7265 663d  ibed in <a href=
++00001b60: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00001b70: 636f 6d2f 6669 7265 666c 792d 6370 702f  com/firefly-cpp/
++00001b80: 4153 542d 4d6f 6e69 746f 722f 626c 6f62  AST-Monitor/blob
++00001b90: 2f6d 6169 6e2f 4841 5244 5741 5245 5f43  /main/HARDWARE_C
++00001ba0: 4f4e 4649 4755 5241 5449 4f4e 2e6d 6422  ONFIGURATION.md"
++00001bb0: 3e48 4152 4457 4152 455f 434f 4e46 4947  >HARDWARE_CONFIG
++00001bc0: 5552 4154 494f 4e2e 6d64 3c2f 613e 2e0a  URATION.md</a>..
++00001bd0: 0a23 2320 4578 616d 706c 6573 0a0a 2323  .## Examples..##
++00001be0: 2320 4261 7369 6320 7275 6e0a 6060 6070  # Basic run.```p
++00001bf0: 7974 686f 6e0a 6672 6f6d 2050 7951 7435  ython.from PyQt5
++00001c00: 2069 6d70 6f72 7420 5174 5769 6467 6574   import QtWidget
++00001c10: 730a 696d 706f 7274 2073 7973 0a0a 7472  s.import sys..tr
++00001c20: 793a 0a20 2020 2066 726f 6d20 6173 745f  y:.    from ast_
++00001c30: 6d6f 6e69 746f 722e 6d6f 6465 6c20 696d  monitor.model im
++00001c40: 706f 7274 2041 5354 0a65 7863 6570 7420  port AST.except 
++00001c50: 4d6f 6475 6c65 4e6f 7446 6f75 6e64 4572  ModuleNotFoundEr
++00001c60: 726f 723a 0a20 2020 2073 7973 2e70 6174  ror:.    sys.pat
++00001c70: 682e 6170 7065 6e64 2827 2e2e 2f27 290a  h.append('../').
++00001c80: 2020 2020 6672 6f6d 2061 7374 5f6d 6f6e      from ast_mon
++00001c90: 6974 6f72 2e6d 6f64 656c 2069 6d70 6f72  itor.model impor
++00001ca0: 7420 4153 540a 0a0a 2320 5061 7468 7320  t AST...# Paths 
++00001cb0: 746f 2074 6865 2066 696c 6573 2077 6974  to the files wit
++00001cc0: 6820 6865 6172 7420 7261 7465 7320 616e  h heart rates an
++00001cd0: 6420 4750 5320 6461 7461 2e0a 6872 5f64  d GPS data..hr_d
++00001ce0: 6174 6120 3d20 272e 2e2f 7365 6e73 6f72  ata = '../sensor
++00001cf0: 5f64 6174 612f 6872 2e74 7874 270a 6770  _data/hr.txt'.gp
++00001d00: 735f 6461 7461 203d 2027 2e2e 2f73 656e  s_data = '../sen
++00001d10: 736f 725f 6461 7461 2f67 7073 2e74 7874  sor_data/gps.txt
++00001d20: 270a 0a69 6620 5f5f 6e61 6d65 5f5f 203d  '..if __name__ =
++00001d30: 3d20 275f 5f6d 6169 6e5f 5f27 3a0a 2020  = '__main__':.  
++00001d40: 2020 6170 7020 3d20 5174 5769 6467 6574    app = QtWidget
++00001d50: 732e 5141 7070 6c69 6361 7469 6f6e 2873  s.QApplication(s
++00001d60: 7973 2e61 7267 7629 0a20 2020 2077 696e  ys.argv).    win
++00001d70: 646f 7720 3d20 4153 5428 6872 5f64 6174  dow = AST(hr_dat
++00001d80: 612c 2067 7073 5f64 6174 6129 0a20 2020  a, gps_data).   
++00001d90: 2077 696e 646f 772e 7368 6f77 2829 0a20   window.show(). 
++00001da0: 2020 2073 7973 2e65 7869 7428 6170 702e     sys.exit(app.
++00001db0: 6578 6563 5f28 2929 0a60 6060 0a0a 2323  exec_()).```..##
++00001dc0: 204c 6963 656e 7365 0a54 6869 7320 7061   License.This pa
++00001dd0: 636b 6167 6520 6973 2064 6973 7472 6962  ckage is distrib
++00001de0: 7574 6564 2075 6e64 6572 2074 6865 204d  uted under the M
++00001df0: 4954 204c 6963 656e 7365 2e20 5468 6973  IT License. This
++00001e00: 206c 6963 656e 7365 2063 616e 2062 6520   license can be 
++00001e10: 666f 756e 6420 6f6e 6c69 6e65 2061 7420  found online at 
++00001e20: 3c68 7474 703a 2f2f 7777 772e 6f70 656e  <http://www.open
++00001e30: 736f 7572 6365 2e6f 7267 2f6c 6963 656e  source.org/licen
++00001e40: 7365 732f 4d49 543e 2e0a 0a23 2320 4469  ses/MIT>...## Di
++00001e50: 7363 6c61 696d 6572 0a54 6869 7320 6672  sclaimer.This fr
++00001e60: 616d 6577 6f72 6b20 6973 2070 726f 7669  amework is provi
++00001e70: 6465 6420 6173 2d69 732c 2061 6e64 2074  ded as-is, and t
++00001e80: 6865 7265 2061 7265 206e 6f20 6775 6172  here are no guar
++00001e90: 616e 7465 6573 2074 6861 7420 6974 2066  antees that it f
++00001ea0: 6974 7320 796f 7572 2070 7572 706f 7365  its your purpose
++00001eb0: 7320 6f72 2074 6861 7420 6974 2069 7320  s or that it is 
++00001ec0: 6275 672d 6672 6565 2e20 5573 6520 6974  bug-free. Use it
++00001ed0: 2061 7420 796f 7572 206f 776e 2072 6973   at your own ris
++00001ee0: 6b21 0a0a 2323 2043 6974 6520 7573 0a4c  k!..## Cite us.L
++00001ef0: 756b 61c4 8d2c 204c 2e2c 2046 6973 7465  uka.., L., Fiste
++00001f00: 7220 4a72 2e2c 2049 2e2c 2046 6973 7465  r Jr., I., Fiste
++00001f10: 722c 2049 2e20 225b 4469 6769 7461 6c20  r, I. "[Digital 
++00001f20: 5477 696e 2069 6e20 5370 6f72 743a 2046  Twin in Sport: F
++00001f30: 726f 6d20 616e 2049 6465 6120 746f 2052  rom an Idea to R
++00001f40: 6561 6c69 7a61 7469 6f6e 5d28 6874 7470  ealization](http
++00001f50: 733a 2f2f 7777 772e 6d64 7069 2e63 6f6d  s://www.mdpi.com
++00001f60: 2f32 3037 362d 3334 3137 2f31 322f 3234  /2076-3417/12/24
++00001f70: 2f31 3237 3431 292e 2220 4170 706c 6965  /12741)." Applie
++00001f80: 6420 5363 6965 6e63 6573 2031 322e 3234  d Sciences 12.24
++00001f90: 2028 3230 3232 293a 2031 3237 3431 2e0a   (2022): 12741..
++00001fa0: 0a23 2320 5265 6665 7265 6e63 6573 0a46  .## References.F
++00001fb0: 6973 7465 7220 4a72 2c20 492e 2c20 4669  ister Jr, I., Fi
++00001fc0: 7374 6572 2c20 492e 2c20 4967 6c65 7369  ster, I., Iglesi
++00001fd0: 6173 2c20 412e 2c20 4761 6c76 657a 2c20  as, A., Galvez, 
++00001fe0: 412e 2c20 4465 622c 2053 2e2c 2026 2046  A., Deb, S., & F
++00001ff0: 6973 7465 722c 2044 2e20 2832 3032 3129  ister, D. (2021)
++00002000: 2e20 4f6e 2064 6570 6c6f 7969 6e67 2074  . On deploying t
++00002010: 6865 2041 7274 6966 6963 6961 6c20 5370  he Artificial Sp
++00002020: 6f72 7420 5472 6169 6e65 7220 696e 746f  ort Trainer into
++00002030: 2070 7261 6374 6963 652e 2061 7258 6976   practice. arXiv
++00002040: 2070 7265 7072 696e 7420 5b61 7258 6976   preprint [arXiv
++00002050: 3a32 3130 392e 3133 3333 345d 2868 7474  :2109.13334](htt
++00002060: 7073 3a2f 2f61 7278 6976 2e6f 7267 2f61  ps://arxiv.org/a
++00002070: 6273 2f32 3130 392e 3133 3333 3429 2e0a  bs/2109.13334)..
++00002080: 0a46 6973 7465 7220 4a72 2c20 492e 2c20  .Fister Jr, I., 
++00002090: 5361 6c63 6564 6f2d 5361 6e7a 2c20 532e  Salcedo-Sanz, S.
++000020a0: 2c20 4967 6c65 7369 6173 2c20 412e 2c20  , Iglesias, A., 
++000020b0: 4669 7374 6572 2c20 442e 2c20 47c3 a16c  Fister, D., G..l
++000020c0: 7665 7a2c 2041 2e2c 2026 2046 6973 7465  vez, A., & Fiste
++000020d0: 722c 2049 2e20 2832 3032 3129 2e20 4e65  r, I. (2021). Ne
++000020e0: 7720 5065 7273 7065 6374 6976 6573 2069  w Perspectives i
++000020f0: 6e20 7468 6520 4465 7665 6c6f 706d 656e  n the Developmen
++00002100: 7420 6f66 2074 6865 2041 7274 6966 6963  t of the Artific
++00002110: 6961 6c20 5370 6f72 7420 5472 6169 6e65  ial Sport Traine
++00002120: 722e 2041 7070 6c69 6564 2053 6369 656e  r. Applied Scien
++00002130: 6365 732c 2031 3128 3233 292c 2031 3134  ces, 11(23), 114
++00002140: 3532 2e20 444f 493a 205b 3130 2e33 3339  52. DOI: [10.339
++00002150: 302f 6170 7031 3132 3331 3134 3532 5d28  0/app112311452](
++00002160: 6874 7470 733a 2f2f 646f 692e 6f72 672f  https://doi.org/
++00002170: 3130 2e33 3339 302f 6170 7031 3132 3331  10.3390/app11231
++00002180: 3134 3532 290a 0a23 2320 436f 6e74 7269  1452)..## Contri
++00002190: 6275 746f 7273 0a0a 3c21 2d2d 2041 4c4c  butors..<!-- ALL
++000021a0: 2d43 4f4e 5452 4942 5554 4f52 532d 4c49  -CONTRIBUTORS-LI
++000021b0: 5354 3a53 5441 5254 202d 2044 6f20 6e6f  ST:START - Do no
++000021c0: 7420 7265 6d6f 7665 206f 7220 6d6f 6469  t remove or modi
++000021d0: 6679 2074 6869 7320 7365 6374 696f 6e20  fy this section 
++000021e0: 2d2d 3e0a 3c21 2d2d 2070 7265 7474 6965  -->.<!-- prettie
++000021f0: 722d 6967 6e6f 7265 2d73 7461 7274 202d  r-ignore-start -
++00002200: 2d3e 0a3c 212d 2d20 6d61 726b 646f 776e  ->.<!-- markdown
++00002210: 6c69 6e74 2d64 6973 6162 6c65 202d 2d3e  lint-disable -->
++00002220: 0a3c 7461 626c 653e 0a20 203c 7462 6f64  .<table>.  <tbod
++00002230: 793e 0a20 2020 203c 7472 3e0a 2020 2020  y>.    <tr>.    
++00002240: 2020 3c74 6420 616c 6967 6e3d 2263 656e    <td align="cen
++00002250: 7465 7222 2076 616c 6967 6e3d 2274 6f70  ter" valign="top
++00002260: 2220 7769 6474 683d 2231 342e 3238 2522  " width="14.28%"
++00002270: 3e3c 6120 6872 6566 3d22 6874 7470 3a2f  ><a href="http:/
++00002280: 2f77 7777 2e69 7a74 6f6b 2d6a 722d 6669  /www.iztok-jr-fi
++00002290: 7374 6572 2e65 752f 223e 3c69 6d67 2073  ster.eu/"><img s
++000022a0: 7263 3d22 6874 7470 733a 2f2f 6176 6174  rc="https://avat
++000022b0: 6172 732e 6769 7468 7562 7573 6572 636f  ars.githubuserco
++000022c0: 6e74 656e 742e 636f 6d2f 752f 3136 3333  ntent.com/u/1633
++000022d0: 3336 313f 763d 343f 733d 3130 3022 2077  361?v=4?s=100" w
++000022e0: 6964 7468 3d22 3130 3070 783b 2220 616c  idth="100px;" al
++000022f0: 743d 2249 7a74 6f6b 2046 6973 7465 7220  t="Iztok Fister 
++00002300: 4a72 2e22 2f3e 3c62 7220 2f3e 3c73 7562  Jr."/><br /><sub
++00002310: 3e3c 623e 497a 746f 6b20 4669 7374 6572  ><b>Iztok Fister
++00002320: 204a 722e 3c2f 623e 3c2f 7375 623e 3c2f   Jr.</b></sub></
++00002330: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
++00002340: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00002350: 636f 6d2f 6669 7265 666c 792d 6370 702f  com/firefly-cpp/
++00002360: 4153 542d 4d6f 6e69 746f 722f 6973 7375  AST-Monitor/issu
++00002370: 6573 3f71 3d61 7574 686f 7225 3341 6669  es?q=author%3Afi
++00002380: 7265 666c 792d 6370 7022 2074 6974 6c65  refly-cpp" title
++00002390: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
++000023a0: 9f90 9b3c 2f61 3e20 3c61 2068 7265 663d  ...</a> <a href=
++000023b0: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++000023c0: 636f 6d2f 6669 7265 666c 792d 6370 702f  com/firefly-cpp/
++000023d0: 4153 542d 4d6f 6e69 746f 722f 636f 6d6d  AST-Monitor/comm
++000023e0: 6974 733f 6175 7468 6f72 3d66 6972 6566  its?author=firef
++000023f0: 6c79 2d63 7070 2220 7469 746c 653d 2244  ly-cpp" title="D
++00002400: 6f63 756d 656e 7461 7469 6f6e 223e f09f  ocumentation">..
++00002410: 9396 3c2f 613e 203c 6120 6872 6566 3d22  ..</a> <a href="
++00002420: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++00002430: 6f6d 2f66 6972 6566 6c79 2d63 7070 2f41  om/firefly-cpp/A
++00002440: 5354 2d4d 6f6e 6974 6f72 2f63 6f6d 6d69  ST-Monitor/commi
++00002450: 7473 3f61 7574 686f 723d 6669 7265 666c  ts?author=firefl
++00002460: 792d 6370 7022 2074 6974 6c65 3d22 436f  y-cpp" title="Co
++00002470: 6465 223e f09f 92bb 3c2f 613e 203c 6120  de">....</a> <a 
++00002480: 6872 6566 3d22 236d 6169 6e74 656e 616e  href="#maintenan
++00002490: 6365 2d66 6972 6566 6c79 2d63 7070 2220  ce-firefly-cpp" 
++000024a0: 7469 746c 653d 224d 6169 6e74 656e 616e  title="Maintenan
++000024b0: 6365 223e f09f 9aa7 3c2f 613e 203c 6120  ce">....</a> <a 
++000024c0: 6872 6566 3d22 236d 656e 746f 7269 6e67  href="#mentoring
++000024d0: 2d66 6972 6566 6c79 2d63 7070 2220 7469  -firefly-cpp" ti
++000024e0: 746c 653d 224d 656e 746f 7269 6e67 223e  tle="Mentoring">
++000024f0: f09f a791 e280 8df0 9f8f ab3c 2f61 3e20  ...........</a> 
++00002500: 3c61 2068 7265 663d 2223 706c 6174 666f  <a href="#platfo
++00002510: 726d 2d66 6972 6566 6c79 2d63 7070 2220  rm-firefly-cpp" 
++00002520: 7469 746c 653d 2250 6163 6b61 6769 6e67  title="Packaging
++00002530: 2f70 6f72 7469 6e67 2074 6f20 6e65 7720  /porting to new 
++00002540: 706c 6174 666f 726d 223e f09f 93a6 3c2f  platform">....</
++00002550: 613e 3c2f 7464 3e0a 2020 2020 2020 3c74  a></td>.      <t
++00002560: 6420 616c 6967 6e3d 2263 656e 7465 7222  d align="center"
++00002570: 2076 616c 6967 6e3d 2274 6f70 2220 7769   valign="top" wi
++00002580: 6474 683d 2231 342e 3238 2522 3e3c 6120  dth="14.28%"><a 
++00002590: 6872 6566 3d22 6874 7470 733a 2f2f 6769  href="https://gi
++000025a0: 7468 7562 2e63 6f6d 2f6c 7563 6b79 4c75  thub.com/luckyLu
++000025b0: 6b61 6322 3e3c 696d 6720 7372 633d 2268  kac"><img src="h
++000025c0: 7474 7073 3a2f 2f61 7661 7461 7273 2e67  ttps://avatars.g
++000025d0: 6974 6875 6275 7365 7263 6f6e 7465 6e74  ithubusercontent
++000025e0: 2e63 6f6d 2f75 2f37 3331 3236 3832 303f  .com/u/73126820?
++000025f0: 763d 343f 733d 3130 3022 2077 6964 7468  v=4?s=100" width
++00002600: 3d22 3130 3070 783b 2220 616c 743d 226c  ="100px;" alt="l
++00002610: 7563 6b79 4c75 6b61 6322 2f3e 3c62 7220  uckyLukac"/><br 
++00002620: 2f3e 3c73 7562 3e3c 623e 6c75 636b 794c  /><sub><b>luckyL
++00002630: 756b 6163 3c2f 623e 3c2f 7375 623e 3c2f  ukac</b></sub></
++00002640: 613e 3c62 7220 2f3e 3c61 2068 7265 663d  a><br /><a href=
++00002650: 2268 7474 7073 3a2f 2f67 6974 6875 622e  "https://github.
++00002660: 636f 6d2f 6669 7265 666c 792d 6370 702f  com/firefly-cpp/
++00002670: 4153 542d 4d6f 6e69 746f 722f 6973 7375  AST-Monitor/issu
++00002680: 6573 3f71 3d61 7574 686f 7225 3341 6c75  es?q=author%3Alu
++00002690: 636b 794c 756b 6163 2220 7469 746c 653d  ckyLukac" title=
++000026a0: 2242 7567 2072 6570 6f72 7473 223e f09f  "Bug reports">..
++000026b0: 909b 3c2f 613e 203c 6120 6872 6566 3d22  ..</a> <a href="
++000026c0: 6874 7470 733a 2f2f 6769 7468 7562 2e63  https://github.c
++000026d0: 6f6d 2f66 6972 6566 6c79 2d63 7070 2f41  om/firefly-cpp/A
++000026e0: 5354 2d4d 6f6e 6974 6f72 2f63 6f6d 6d69  ST-Monitor/commi
++000026f0: 7473 3f61 7574 686f 723d 6c75 636b 794c  ts?author=luckyL
++00002700: 756b 6163 2220 7469 746c 653d 2244 6f63  ukac" title="Doc
++00002710: 756d 656e 7461 7469 6f6e 223e f09f 9396  umentation">....
++00002720: 3c2f 613e 203c 6120 6872 6566 3d22 6874  </a> <a href="ht
++00002730: 7470 733a 2f2f 6769 7468 7562 2e63 6f6d  tps://github.com
++00002740: 2f66 6972 6566 6c79 2d63 7070 2f41 5354  /firefly-cpp/AST
++00002750: 2d4d 6f6e 6974 6f72 2f63 6f6d 6d69 7473  -Monitor/commits
++00002760: 3f61 7574 686f 723d 6c75 636b 794c 756b  ?author=luckyLuk
++00002770: 6163 2220 7469 746c 653d 2243 6f64 6522  ac" title="Code"
++00002780: 3ef0 9f92 bb3c 2f61 3e20 3c61 2068 7265  >....</a> <a hre
++00002790: 663d 2223 6465 7369 676e 2d6c 7563 6b79  f="#design-lucky
++000027a0: 4c75 6b61 6322 2074 6974 6c65 3d22 4465  Lukac" title="De
++000027b0: 7369 676e 223e f09f 8ea8 3c2f 613e 3c2f  sign">....</a></
++000027c0: 7464 3e0a 2020 2020 2020 3c74 6420 616c  td>.      <td al
++000027d0: 6967 6e3d 2263 656e 7465 7222 2076 616c  ign="center" val
++000027e0: 6967 6e3d 2274 6f70 2220 7769 6474 683d  ign="top" width=
++000027f0: 2231 342e 3238 2522 3e3c 6120 6872 6566  "14.28%"><a href
++00002800: 3d22 6874 7470 3a2f 2f63 6172 6c6f 7361  ="http://carlosa
++00002810: 6c31 3031 352e 6769 7468 7562 2e69 6f22  l1015.github.io"
++00002820: 3e3c 696d 6720 7372 633d 2268 7474 7073  ><img src="https
++00002830: 3a2f 2f61 7661 7461 7273 2e67 6974 6875  ://avatars.githu
++00002840: 6275 7365 7263 6f6e 7465 6e74 2e63 6f6d  busercontent.com
++00002850: 2f75 2f32 3132 3833 3031 343f 763d 343f  /u/21283014?v=4?
++00002860: 733d 3130 3022 2077 6964 7468 3d22 3130  s=100" width="10
++00002870: 3070 783b 2220 616c 743d 224f 726f 6d69  0px;" alt="Oromi
++00002880: 6f6e 222f 3e3c 6272 202f 3e3c 7375 623e  on"/><br /><sub>
++00002890: 3c62 3e4f 726f 6d69 6f6e 3c2f 623e 3c2f  <b>Oromion</b></
++000028a0: 7375 623e 3c2f 613e 3c62 7220 2f3e 3c61  sub></a><br /><a
++000028b0: 2068 7265 663d 2223 706c 6174 666f 726d   href="#platform
++000028c0: 2d63 6172 6c6f 7361 6c31 3031 3522 2074  -carlosal1015" t
++000028d0: 6974 6c65 3d22 5061 636b 6167 696e 672f  itle="Packaging/
++000028e0: 706f 7274 696e 6720 746f 206e 6577 2070  porting to new p
++000028f0: 6c61 7466 6f72 6d22 3ef0 9f93 a63c 2f61  latform">....</a
++00002900: 3e3c 2f74 643e 0a20 2020 2020 203c 7464  ></td>.      <td
++00002910: 2061 6c69 676e 3d22 6365 6e74 6572 2220   align="center" 
++00002920: 7661 6c69 676e 3d22 746f 7022 2077 6964  valign="top" wid
++00002930: 7468 3d22 3134 2e32 3825 223e 3c61 2068  th="14.28%"><a h
++00002940: 7265 663d 2268 7474 7073 3a2f 2f67 6974  ref="https://git
++00002950: 6875 622e 636f 6d2f 616c 656e 7261 6a73  hub.com/alenrajs
++00002960: 7022 3e3c 696d 6720 7372 633d 2268 7474  p"><img src="htt
++00002970: 7073 3a2f 2f61 7661 7461 7273 2e67 6974  ps://avatars.git
++00002980: 6875 6275 7365 7263 6f6e 7465 6e74 2e63  hubusercontent.c
++00002990: 6f6d 2f75 2f32 3737 3231 3731 343f 763d  om/u/27721714?v=
++000029a0: 343f 733d 3130 3022 2077 6964 7468 3d22  4?s=100" width="
++000029b0: 3130 3070 783b 2220 616c 743d 2261 6c65  100px;" alt="ale
++000029c0: 6e72 616a 7370 222f 3e3c 6272 202f 3e3c  nrajsp"/><br /><
++000029d0: 7375 623e 3c62 3e61 6c65 6e72 616a 7370  sub><b>alenrajsp
++000029e0: 3c2f 623e 3c2f 7375 623e 3c2f 613e 3c62  </b></sub></a><b
++000029f0: 7220 2f3e 3c61 2068 7265 663d 2223 636f  r /><a href="#co
++00002a00: 6e74 656e 742d 616c 656e 7261 6a73 7022  ntent-alenrajsp"
++00002a10: 2074 6974 6c65 3d22 436f 6e74 656e 7422   title="Content"
++00002a20: 3ef0 9f96 8b3c 2f61 3e3c 2f74 643e 0a20  >....</a></td>. 
++00002a30: 2020 2020 203c 7464 2061 6c69 676e 3d22       <td align="
++00002a40: 6365 6e74 6572 2220 7661 6c69 676e 3d22  center" valign="
++00002a50: 746f 7022 2077 6964 7468 3d22 3134 2e32  top" width="14.2
++00002a60: 3825 223e 3c61 2068 7265 663d 2268 7474  8%"><a href="htt
++00002a70: 7073 3a2f 2f67 6974 6875 622e 636f 6d2f  ps://github.com/
++00002a80: 4b75 6b6f 7665 6352 6f6b 223e 3c69 6d67  KukovecRok"><img
++00002a90: 2073 7263 3d22 6874 7470 733a 2f2f 6176   src="https://av
++00002aa0: 6174 6172 732e 6769 7468 7562 7573 6572  atars.githubuser
++00002ab0: 636f 6e74 656e 742e 636f 6d2f 752f 3333  content.com/u/33
++00002ac0: 3838 3030 3434 3f76 3d34 3f73 3d31 3030  880044?v=4?s=100
++00002ad0: 2220 7769 6474 683d 2231 3030 7078 3b22  " width="100px;"
++00002ae0: 2061 6c74 3d22 5461 746f 6f6b 6965 222f   alt="Tatookie"/
++00002af0: 3e3c 6272 202f 3e3c 7375 623e 3c62 3e54  ><br /><sub><b>T
++00002b00: 6174 6f6f 6b69 653c 2f62 3e3c 2f73 7562  atookie</b></sub
++00002b10: 3e3c 2f61 3e3c 6272 202f 3e3c 6120 6872  ></a><br /><a hr
++00002b20: 6566 3d22 6874 7470 733a 2f2f 6769 7468  ef="https://gith
++00002b30: 7562 2e63 6f6d 2f66 6972 6566 6c79 2d63  ub.com/firefly-c
++00002b40: 7070 2f41 5354 2d4d 6f6e 6974 6f72 2f63  pp/AST-Monitor/c
++00002b50: 6f6d 6d69 7473 3f61 7574 686f 723d 4b75  ommits?author=Ku
++00002b60: 6b6f 7665 6352 6f6b 2220 7469 746c 653d  kovecRok" title=
++00002b70: 2244 6f63 756d 656e 7461 7469 6f6e 223e  "Documentation">
++00002b80: f09f 9396 3c2f 613e 203c 6120 6872 6566  ....</a> <a href
++00002b90: 3d22 6874 7470 733a 2f2f 6769 7468 7562  ="https://github
++00002ba0: 2e63 6f6d 2f66 6972 6566 6c79 2d63 7070  .com/firefly-cpp
++00002bb0: 2f41 5354 2d4d 6f6e 6974 6f72 2f69 7373  /AST-Monitor/iss
++00002bc0: 7565 733f 713d 6175 7468 6f72 2533 414b  ues?q=author%3AK
++00002bd0: 756b 6f76 6563 526f 6b22 2074 6974 6c65  ukovecRok" title
++00002be0: 3d22 4275 6720 7265 706f 7274 7322 3ef0  ="Bug reports">.
++00002bf0: 9f90 9b3c 2f61 3e3c 2f74 643e 0a20 2020  ...</a></td>.   
++00002c00: 203c 2f74 723e 0a20 203c 2f74 626f 6479   </tr>.  </tbody
++00002c10: 3e0a 3c2f 7461 626c 653e 0a0a 3c21 2d2d  >.</table>..<!--
++00002c20: 206d 6172 6b64 6f77 6e6c 696e 742d 7265   markdownlint-re
++00002c30: 7374 6f72 6520 2d2d 3e0a 3c21 2d2d 2070  store -->.<!-- p
++00002c40: 7265 7474 6965 722d 6967 6e6f 7265 2d65  rettier-ignore-e
++00002c50: 6e64 202d 2d3e 0a0a 3c21 2d2d 2041 4c4c  nd -->..<!-- ALL
++00002c60: 2d43 4f4e 5452 4942 5554 4f52 532d 4c49  -CONTRIBUTORS-LI
++00002c70: 5354 3a45 4e44 202d 2d3e 0a3c 212d 2d20  ST:END -->.<!-- 
++00002c80: 7072 6574 7469 6572 2d69 676e 6f72 652d  prettier-ignore-
++00002c90: 7374 6172 7420 2d2d 3e0a 3c21 2d2d 206d  start -->.<!-- m
++00002ca0: 6172 6b64 6f77 6e6c 696e 742d 6469 7361  arkdownlint-disa
++00002cb0: 626c 6520 2d2d 3e0a 0a3c 212d 2d20 6d61  ble -->..<!-- ma
++00002cc0: 726b 646f 776e 6c69 6e74 2d72 6573 746f  rkdownlint-resto
++00002cd0: 7265 202d 2d3e 0a3c 212d 2d20 7072 6574  re -->.<!-- pret
++00002ce0: 7469 6572 2d69 676e 6f72 652d 656e 6420  tier-ignore-end 
++00002cf0: 2d2d 3e0a 0a3c 212d 2d20 414c 4c2d 434f  -->..<!-- ALL-CO
++00002d00: 4e54 5249 4255 544f 5253 2d4c 4953 543a  NTRIBUTORS-LIST:
++00002d10: 454e 4420 2d2d 3e0a                      END -->.
+```
+
