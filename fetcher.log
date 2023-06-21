@@ -20012,3 +20012,33 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 11:52:53] INFO root fetch - processPackages [gs-netsuite-api]: Remove: archive file [/home/abi/fetcher/tmp/gs-netsuite-api-1.0.5.tar.gz]
 [2023-06-21 11:52:53] INFO root fetch - main [MainThread]: End processing [gs-netsuite-api]: success
 [2023-06-21 11:52:53] INFO root fetch - main [MainThread]: Store serial: [18588406]
+[2023-06-21 11:57:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18588406]
+[2023-06-21 11:58:03] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-21 11:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aio-pika
+[2023-06-21 11:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nonebot-plugin-l4d2-server
+[2023-06-21 11:58:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dmss-api
+[2023-06-21 11:58:03] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: New version: [0.5.6.4] Old Version: [0.5.6.3]
+[2023-06-21 11:58:03] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/91/1a/70d459ccd48e3a6668cbdfeb81db6df2257f3ef75658140c4daeb42d3268/nonebot_plugin_l4d2_server-0.5.6.3.tar.gz
+[2023-06-21 11:58:03] INFO root fetch - processPackages [dmss-api]: New version: [1.2.2] Old Version: [1.2.1]
+[2023-06-21 11:58:03] INFO root fetch - processPackages [aio-pika]: New version: [9.1.3] Old Version: [9.1.2]
+[2023-06-21 11:58:03] INFO root fetch - processPackages [aio-pika]: Downloading https://files.pythonhosted.org/packages/94/d3/60592f07f67a6360685897dc23bfd42744167e6009e36e06ec666ea5ac07/aio_pika-9.1.2.tar.gz
+[2023-06-21 11:58:03] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Downloading https://files.pythonhosted.org/packages/96/0a/6ddd2419f4033e5c20a3b89dd671e715efd5b4fbfb919ff3325f8b3cea0b/nonebot_plugin_l4d2_server-0.5.6.4.tar.gz
+[2023-06-21 11:58:03] INFO root fetch - processPackages [dmss-api]: Downloading https://files.pythonhosted.org/packages/27/04/1a97fb2fa3e5a4dfb12c1b34d2cc8fdf166c645dcf86b7540fe1f6627009/dmss-api-1.2.1.tar.gz
+[2023-06-21 11:58:03] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: executing diffoscope
+[2023-06-21 11:58:03] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_l4d2_server-0.5.6.3.tar.gz tmp/nonebot_plugin_l4d2_server-0.5.6.4.tar.gz --markdown 20230621/n/nonebot-plugin-l4d2-server/0.5.6.3-0.5.6.4/diff.md --exclude *.pyd
+[2023-06-21 11:58:03] INFO root fetch - processPackages [aio-pika]: Downloading https://files.pythonhosted.org/packages/00/46/c9d74afdac0e843f6e8ab808b49e9f899db0793bda974bc203ebe8574f1e/aio_pika-9.1.3.tar.gz
+[2023-06-21 11:58:03] INFO root fetch - processPackages [dmss-api]: Downloading https://files.pythonhosted.org/packages/cb/79/b7bd518a5d8e66d354b95a974361fd2f467bb899b414a983bdea31970371/dmss-api-1.2.2.tar.gz
+[2023-06-21 11:58:03] INFO root fetch - processPackages [aio-pika]: executing diffoscope
+[2023-06-21 11:58:03] INFO root fetch - processPackages [aio-pika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aio_pika-9.1.2.tar.gz tmp/aio_pika-9.1.3.tar.gz --markdown 20230621/a/aio-pika/9.1.2-9.1.3/diff.md --exclude *.pyd
+[2023-06-21 11:58:03] INFO root fetch - processPackages [dmss-api]: executing diffoscope
+[2023-06-21 11:58:03] INFO root fetch - processPackages [dmss-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmss-api-1.2.1.tar.gz tmp/dmss-api-1.2.2.tar.gz --markdown 20230621/d/dmss-api/1.2.1-1.2.2/diff.md --exclude *.pyd
+[2023-06-21 11:58:05] INFO root fetch - processPackages [aio-pika]: Remove: archive file [/home/abi/fetcher/tmp/aio_pika-9.1.2.tar.gz]
+[2023-06-21 11:58:05] INFO root fetch - processPackages [aio-pika]: Remove: archive file [/home/abi/fetcher/tmp/aio_pika-9.1.3.tar.gz]
+[2023-06-21 11:58:05] INFO root fetch - main [MainThread]: End processing [aio-pika]: success
+[2023-06-21 11:58:05] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.3.tar.gz]
+[2023-06-21 11:58:05] INFO root fetch - processPackages [nonebot-plugin-l4d2-server]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_l4d2_server-0.5.6.4.tar.gz]
+[2023-06-21 11:58:05] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-l4d2-server]: success
+[2023-06-21 11:58:05] INFO root fetch - processPackages [dmss-api]: Remove: archive file [/home/abi/fetcher/tmp/dmss-api-1.2.1.tar.gz]
+[2023-06-21 11:58:05] INFO root fetch - processPackages [dmss-api]: Remove: archive file [/home/abi/fetcher/tmp/dmss-api-1.2.2.tar.gz]
+[2023-06-21 11:58:05] INFO root fetch - main [MainThread]: End processing [dmss-api]: success
+[2023-06-21 11:58:05] INFO root fetch - main [MainThread]: Store serial: [18588420]
