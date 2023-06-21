@@ -9880,3 +9880,78 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 04:32:46] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.6.9.tar.gz]
 [2023-06-21 04:32:46] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-06-21 04:32:46] INFO root fetch - main [MainThread]: Store serial: [18584380]
+[2023-06-21 04:37:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18584380]
+[2023-06-21 04:38:01] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-21 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-account-move-update-analytic
+[2023-06-21 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: iam-actions
+[2023-06-21 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-cutoff-accrual-subscription
+[2023-06-21 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-cutoff-base
+[2023-06-21 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-invoice-start-end-dates
+[2023-06-21 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xenoslib
+[2023-06-21 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EntityNormalizer
+[2023-06-21 04:38:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fakesnow
+[2023-06-21 04:38:01] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-06-21 04:38:01] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: New version: [16.0.1.1.0.1] Old Version: [16.0.1.1.0]
+[2023-06-21 04:38:01] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: New version: [16.0.1.2.0.1] Old Version: [16.0.1.2.0]
+[2023-06-21 04:38:01] INFO root fetch - processPackages [xenoslib]: New version: [0.1.29.4] Old Version: [0.1.29.3]
+[2023-06-21 04:38:01] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.2.dev1]
+[2023-06-21 04:38:01] INFO root fetch - processPackages [EntityNormalizer]: New version: [0.2.0] Old Version: [0.1.0.post2]
+[2023-06-21 04:38:01] INFO root fetch - processPackages [fakesnow]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-21 04:38:01] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230621] Old Version: [1.2.20230620]
+[2023-06-21 04:38:01] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/50/25/7b41f4880e2161b469cd5f337ab02f577d2c3dc42b3faabe7de8cc35af5d/odoo_addon_account_cutoff_base-16.0.1.1.0-py3-none-any.whl
+[2023-06-21 04:38:01] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Downloading https://files.pythonhosted.org/packages/b1/63/e60943509e85cf0e19d7ceb20ecbd8bfbd9821926e8db6c6c1e73ecc91e0/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0-py3-none-any.whl
+[2023-06-21 04:38:01] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/61/ac/bf861aee43481ca25ccaf19b7e4394a5823a8bdf70f8603c360b21ba4188/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0-py3-none-any.whl
+[2023-06-21 04:38:01] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/b8/01/470f5514661963444dc41e42849a8d9454d4b0303de467c7f8d02704d8e7/iam_actions-1.2.20230620.tar.gz
+[2023-06-21 04:38:01] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/93/e6/102d46484a86cc538145e9da8144b5487dbbd66af0d1c8d1edc9de5ce512/xenoslib-0.1.29.3.tar.gz
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: Downloading https://files.pythonhosted.org/packages/03/dd/bae6dc6fddc496bafd1391b1bf74ff94ab6a308c76cbc50278b93cb05e97/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev1-py3-none-any.whl
+[2023-06-21 04:38:02] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/1e/85/004f016ac095a07e7661fb908e0be58ac190c10ca059be84fc018be07606/fakesnow-0.0.2.tar.gz
+[2023-06-21 04:38:02] INFO root fetch - processPackages [EntityNormalizer]: Downloading https://files.pythonhosted.org/packages/6e/c0/0ac42845e86f42b775efe5a0f37db40f1554e1152baaa567ccf179d62247/EntityNormalizer-0.1.0.post2.tar.gz
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Downloading https://files.pythonhosted.org/packages/9e/1e/20092d65027b891b020cb1e5302fe42b746602875368672095aa7107524e/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Downloading https://files.pythonhosted.org/packages/62/0a/29ea8fcd0551dff69aafe9122f2968d038790e7d0a70857728bb914da940/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.1-py3-none-any.whl
+[2023-06-21 04:38:02] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/51/ca/6b522cc6afdfbe12b5b19830a9e0a344092e3dbc8207765b7ac674b3beda/iam_actions-1.2.20230621.tar.gz
+[2023-06-21 04:38:02] INFO root fetch - processPackages [xenoslib]: Downloading https://files.pythonhosted.org/packages/06/e6/0072f1697849e9911c44c9fbe6c9a42710d24b1153eaddb43d1fd2f2e369/xenoslib-0.1.29.4.tar.gz
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Downloading https://files.pythonhosted.org/packages/b3/46/946d3994ede09ffc3a0fea2e42681a153230a75884152f95bfe632e98969/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.1-py3-none-any.whl
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: executing diffoscope
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_base-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-account-cutoff-base/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: executing diffoscope
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-account-invoice-start-end-dates/16.0.1.2.0-16.0.1.2.0.1/diff.md --exclude *.pyd
+[2023-06-21 04:38:02] INFO root fetch - processPackages [xenoslib]: executing diffoscope
+[2023-06-21 04:38:02] INFO root fetch - processPackages [xenoslib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xenoslib-0.1.29.3.tar.gz tmp/xenoslib-0.1.29.4.tar.gz --markdown 20230621/x/xenoslib/0.1.29.3-0.1.29.4/diff.md --exclude *.pyd
+[2023-06-21 04:38:02] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-06-21 04:38:02] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230620.tar.gz tmp/iam_actions-1.2.20230621.tar.gz --markdown 20230621/i/iam-actions/1.2.20230620-1.2.20230621/diff.md --exclude *.pyd
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: Downloading https://files.pythonhosted.org/packages/f0/0f/849dba4d74a3868ea9f94b43afed913df303a9d48ab37ce5014cdfd2c7a4/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-06-21 04:38:02] INFO root fetch - processPackages [fakesnow]: Downloading https://files.pythonhosted.org/packages/49/e7/e15b5d800b2e32630f06dd793d0dd15c415150b72a9a67f22e89e915c6be/fakesnow-0.1.0.tar.gz
+[2023-06-21 04:38:02] INFO root fetch - processPackages [EntityNormalizer]: Downloading https://files.pythonhosted.org/packages/33/c8/e1bf2cc5c820f5e0dd530775ec019639f44a458c0a4619d5b9ae05c24896/EntityNormalizer-0.2.0.tar.gz
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: executing diffoscope
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.1-py3-none-any.whl.zip --markdown 20230621/o/odoo-addon-account-cutoff-accrual-subscription/16.0.1.1.0-16.0.1.1.0.1/diff.md --exclude *.pyd
+[2023-06-21 04:38:02] INFO root fetch - processPackages [EntityNormalizer]: executing diffoscope
+[2023-06-21 04:38:02] INFO root fetch - processPackages [EntityNormalizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EntityNormalizer-0.1.0.post2.tar.gz tmp/EntityNormalizer-0.2.0.tar.gz --markdown 20230621/E/EntityNormalizer/0.1.0.post2-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 04:38:02] INFO root fetch - processPackages [fakesnow]: executing diffoscope
+[2023-06-21 04:38:02] INFO root fetch - processPackages [fakesnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fakesnow-0.0.2.tar.gz tmp/fakesnow-0.1.0.tar.gz --markdown 20230621/f/fakesnow/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: executing diffoscope
+[2023-06-21 04:38:02] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev1-py3-none-any.whl.zip tmp/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230621/o/odoo14-addon-account-move-update-analytic/14.0.1.0.2.dev1-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-06-21 04:38:03] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-21 04:38:03] INFO root fetch - processPackages [odoo-addon-account-invoice-start-end-dates]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_start_end_dates-16.0.1.2.0.1-py3-none-any.whl.zip]
+[2023-06-21 04:38:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-start-end-dates]: success
+[2023-06-21 04:38:03] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.3.tar.gz]
+[2023-06-21 04:38:03] INFO root fetch - processPackages [xenoslib]: Remove: archive file [/home/abi/fetcher/tmp/xenoslib-0.1.29.4.tar.gz]
+[2023-06-21 04:38:03] INFO root fetch - main [MainThread]: End processing [xenoslib]: success
+[2023-06-21 04:38:03] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-21 04:38:03] INFO root fetch - processPackages [odoo-addon-account-cutoff-accrual-subscription]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_accrual_subscription-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-21 04:38:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-accrual-subscription]: success
+[2023-06-21 04:38:04] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev1-py3-none-any.whl.zip]
+[2023-06-21 04:38:04] INFO root fetch - processPackages [odoo14-addon-account-move-update-analytic]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_account_move_update_analytic-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-06-21 04:38:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-account-move-update-analytic]: success
+[2023-06-21 04:38:04] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.0.2.tar.gz]
+[2023-06-21 04:38:04] INFO root fetch - processPackages [fakesnow]: Remove: archive file [/home/abi/fetcher/tmp/fakesnow-0.1.0.tar.gz]
+[2023-06-21 04:38:04] INFO root fetch - main [MainThread]: End processing [fakesnow]: success
+[2023-06-21 04:38:04] INFO root fetch - processPackages [EntityNormalizer]: Remove: archive file [/home/abi/fetcher/tmp/EntityNormalizer-0.1.0.post2.tar.gz]
+[2023-06-21 04:38:04] INFO root fetch - processPackages [EntityNormalizer]: Remove: archive file [/home/abi/fetcher/tmp/EntityNormalizer-0.2.0.tar.gz]
+[2023-06-21 04:38:04] INFO root fetch - main [MainThread]: End processing [EntityNormalizer]: success
+[2023-06-21 04:38:05] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-21 04:38:05] INFO root fetch - processPackages [odoo-addon-account-cutoff-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_cutoff_base-16.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-21 04:38:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-cutoff-base]: success
+[2023-06-21 04:38:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230620.tar.gz]
+[2023-06-21 04:38:07] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230621.tar.gz]
+[2023-06-21 04:38:07] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-06-21 04:38:07] INFO root fetch - main [MainThread]: Store serial: [18584400]
