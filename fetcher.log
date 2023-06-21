@@ -14581,3 +14581,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 08:47:59] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
 [2023-06-21 08:47:59] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
 [2023-06-21 08:47:59] INFO root fetch - main [MainThread]: Store serial: [18586162]
+[2023-06-21 08:53:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586162]
+[2023-06-21 08:53:08] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fluidCube
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: commonroad-scenario-designer
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ert
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qontract-reconcile
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cvxrisk
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-templates
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: always-updates
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gaitalytics
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Deepurify
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: uptick-splat
+[2023-06-21 08:53:08] WARNING root fetch - processPackages [fluidCube]: Skipping, unable to determine old version
+[2023-06-21 08:53:08] INFO root fetch - processPackages [fluidCube]: Start processing: sharingiscaring
+[2023-06-21 08:53:08] INFO root fetch - main [MainThread]: End processing [fluidCube] error
+[2023-06-21 08:53:08] INFO root fetch - processPackages [cvxrisk]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [uptick-splat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [sharingiscaring]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [uptick-splat]: Downloading https://files.pythonhosted.org/packages/06/1c/6a6d210011999ba3f812e9b4188a950aaebe84ea01f279e13aa0bc590729/uptick_splat-0.1.1.tar.gz
+[2023-06-21 08:53:08] INFO root fetch - processPackages [cvxrisk]: Downloading https://files.pythonhosted.org/packages/6c/c3/924ca111de092963722e4423f9a4c09ca355ad33b2451fc8b8397659941f/cvxrisk-0.0.3.tar.gz
+[2023-06-21 08:53:08] INFO root fetch - processPackages [commonroad-scenario-designer]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [Deepurify]: New version: [1.2.0] Old Version: [1.1.0.4]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ert]: New version: [5.0.0rc4] Old Version: [5.0.0rc3]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/ec/8c/18f997c3d361aa358776fa84dc75aa9ae090ce8fbc3f7099d41d86437e2e/sharingiscaring-0.2.8.tar.gz
+[2023-06-21 08:53:08] INFO root fetch - processPackages [ansys-templates]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-21 08:53:08] WARNING root fetch - processPackages [gaitalytics]: Skipping, unable to determine old version
+[2023-06-21 08:53:08] INFO root fetch - processPackages [gaitalytics]: Start processing: llmspec
+[2023-06-21 08:53:08] INFO root fetch - main [MainThread]: End processing [gaitalytics] error
+[2023-06-21 08:53:08] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [uptick-splat]: Downloading https://files.pythonhosted.org/packages/df/2b/69cb95de47baf487be3f9e60ee8febe7d00af33955f7bab0d579e8bb57d9/uptick_splat-0.1.2.tar.gz
+[2023-06-21 08:53:08] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-21 08:53:08] INFO root fetch - processPackages [llmspec]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-21 08:53:08] INFO root fetch - processPackages [sharingiscaring]: Downloading https://files.pythonhosted.org/packages/3c/51/994c3bf1116cc8b6234cbdc78a444ab9f875f5c3ce1e11c36bc0b2cdfa0e/sharingiscaring-0.2.9.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [cvxrisk]: Downloading https://files.pythonhosted.org/packages/69/16/3f3b4aeaffec114efb40b1a003524b00e406ffce11906b2186c0befc75e9/cvxrisk-0.0.4.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [Deepurify]: Downloading https://files.pythonhosted.org/packages/b1/cf/a37af08e4bc394e077452b86d2e5e0a93d2981ee4d803ebc8ba576737eea/Deepurify-1.1.0.4-py3-none-any.whl
+[2023-06-21 08:53:09] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/d7/4d/82197a2a2ece4080f0c3483f58f019b10532127628bb12eaca963fffbace/ansys_templates-0.8.0.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [commonroad-scenario-designer]: Downloading https://files.pythonhosted.org/packages/4a/59/6468773b6a2746d5269837d15fc8436c1ab39824e7b321b6c4081f1d3d4c/commonroad_scenario_designer-0.7.0.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/50/cf/0230d753fb236ada6dcdeac1bba244aaef6277c3acbdc07e574616440ce5/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 08:53:09] INFO root fetch - processPackages [cvxrisk]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [cvxrisk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxrisk-0.0.3.tar.gz tmp/cvxrisk-0.0.4.tar.gz --markdown 20230621/c/cvxrisk/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 08:53:09] INFO root fetch - processPackages [uptick-splat]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [uptick-splat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptick_splat-0.1.1.tar.gz tmp/uptick_splat-0.1.2.tar.gz --markdown 20230621/u/uptick-splat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 08:53:09] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-21 08:53:09] INFO root fetch - processPackages [sharingiscaring]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [sharingiscaring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sharingiscaring-0.2.8.tar.gz tmp/sharingiscaring-0.2.9.tar.gz --markdown 20230621/s/sharingiscaring/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-21 08:53:09] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/78/b9/4a0fb2c7ed94e96a750b639027045ba6bdd9385b68fff54123fb03a36607/llmspec-0.3.8.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230621/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-21 08:53:09] INFO root fetch - processPackages [Deepurify]: Downloading https://files.pythonhosted.org/packages/e5/1c/c41ec3ebccd872454712f950dbe944f5c1f2945e30a7b16bdbdd61a4b82f/Deepurify-1.2.0-py3-none-any.whl
+[2023-06-21 08:53:09] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-21 08:53:09] INFO root fetch - processPackages [ansys-templates]: Downloading https://files.pythonhosted.org/packages/a3/89/4846a1003871136604f43a50d0bc7336ed39bfa8d571d913f8a170dd4bb5/ansys_templates-0.9.0.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [Deepurify]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [Deepurify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Deepurify-1.1.0.4-py3-none-any.whl.zip tmp/Deepurify-1.2.0-py3-none-any.whl.zip --markdown 20230621/D/Deepurify/1.1.0.4-1.2.0/diff.md --exclude *.pyd
+[2023-06-21 08:53:09] INFO root fetch - processPackages [ert]: Downloading https://files.pythonhosted.org/packages/8b/14/435a7510bac2c19290458d2e8448631ac9174e8931e5743820357b0251e0/ert-5.0.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-21 08:53:09] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230621/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-21 08:53:09] INFO root fetch - processPackages [commonroad-scenario-designer]: Downloading https://files.pythonhosted.org/packages/36/64/674f6ea68a773afb5c9dc6325c0d795b898511249560592540c789fd743c/commonroad_scenario_designer-0.7.1.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/cb/ec/5feb32c379c88bb108234a46b8c773e1dba766fbc66e2897479931b4216a/llmspec-0.3.9.tar.gz
+[2023-06-21 08:53:09] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.8.tar.gz tmp/llmspec-0.3.9.tar.gz --markdown 20230621/l/llmspec/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-21 08:53:09] INFO root fetch - processPackages [ansys-templates]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [ansys-templates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys_templates-0.8.0.tar.gz tmp/ansys_templates-0.9.0.tar.gz --markdown 20230621/a/ansys-templates/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 08:53:09] INFO root fetch - processPackages [commonroad-scenario-designer]: executing diffoscope
+[2023-06-21 08:53:09] INFO root fetch - processPackages [commonroad-scenario-designer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commonroad_scenario_designer-0.7.0.tar.gz tmp/commonroad_scenario_designer-0.7.1.tar.gz --markdown 20230621/c/commonroad-scenario-designer/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-21 08:53:10] INFO root fetch - processPackages [ert]: executing diffoscope
+[2023-06-21 08:53:10] INFO root fetch - processPackages [ert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/ert-5.0.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230621/e/ert/5.0.0rc3-5.0.0rc4/diff.md --exclude *.pyd
+[2023-06-21 08:53:10] INFO root fetch - processPackages [uptick-splat]: Remove: archive file [/home/abi/fetcher/tmp/uptick_splat-0.1.1.tar.gz]
+[2023-06-21 08:53:10] INFO root fetch - processPackages [uptick-splat]: Remove: archive file [/home/abi/fetcher/tmp/uptick_splat-0.1.2.tar.gz]
+[2023-06-21 08:53:10] INFO root fetch - processPackages [uptick-splat]: Start processing: erlang-py
+[2023-06-21 08:53:10] INFO root fetch - main [MainThread]: End processing [uptick-splat]: success
+[2023-06-21 08:53:10] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-21 08:53:10] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-21 08:53:10] INFO root fetch - processPackages [always-updates]: Start processing: odxtools
+[2023-06-21 08:53:10] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-21 08:53:10] INFO root fetch - processPackages [erlang-py]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-21 08:53:10] INFO root fetch - processPackages [odxtools]: New version: [4.0.0] Old Version: [3.0.2]
+[2023-06-21 08:53:10] INFO root fetch - processPackages [cvxrisk]: Remove: archive file [/home/abi/fetcher/tmp/cvxrisk-0.0.3.tar.gz]
+[2023-06-21 08:53:10] INFO root fetch - processPackages [cvxrisk]: Remove: archive file [/home/abi/fetcher/tmp/cvxrisk-0.0.4.tar.gz]
+[2023-06-21 08:53:10] INFO root fetch - main [MainThread]: End processing [cvxrisk]: success
+[2023-06-21 08:53:11] INFO root fetch - processPackages [erlang-py]: Downloading https://files.pythonhosted.org/packages/4c/1e/94893081359afcbe0a2b1bc03053708a811a6260fecaa50675b7a7950d7a/erlang_py-2.0.5.tar.gz
+[2023-06-21 08:53:11] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/6a/23/bb39192ef4d9a43663c476d520ef929b99522792126e1b6def0a31aee124/odxtools-3.0.2.tar.gz
+[2023-06-21 08:53:11] INFO root fetch - processPackages [llmspec]: Remove: archive file [/home/abi/fetcher/tmp/llmspec-0.3.8.tar.gz]
+[2023-06-21 08:53:11] INFO root fetch - processPackages [llmspec]: Remove: archive file [/home/abi/fetcher/tmp/llmspec-0.3.9.tar.gz]
+[2023-06-21 08:53:11] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-06-21 08:53:11] INFO root fetch - processPackages [erlang-py]: Downloading https://files.pythonhosted.org/packages/a9/09/709161fdfe47bc1c3b950f962fac8d457d1790fc5ddd0a28c8068573e392/erlang_py-2.0.6.tar.gz
+[2023-06-21 08:53:11] INFO root fetch - processPackages [odxtools]: Downloading https://files.pythonhosted.org/packages/52/c2/79b184247b3315cad8f11f5c3c61bd4b7d0fa0a1f25636524b928a2b9af1/odxtools-4.0.0.tar.gz
+[2023-06-21 08:53:11] INFO root fetch - processPackages [Deepurify]: Remove: archive file [/home/abi/fetcher/tmp/Deepurify-1.1.0.4-py3-none-any.whl.zip]
+[2023-06-21 08:53:11] INFO root fetch - processPackages [Deepurify]: Remove: archive file [/home/abi/fetcher/tmp/Deepurify-1.2.0-py3-none-any.whl.zip]
+[2023-06-21 08:53:11] INFO root fetch - main [MainThread]: End processing [Deepurify]: success
+[2023-06-21 08:53:11] INFO root fetch - processPackages [erlang-py]: executing diffoscope
+[2023-06-21 08:53:11] INFO root fetch - processPackages [erlang-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/erlang_py-2.0.5.tar.gz tmp/erlang_py-2.0.6.tar.gz --markdown 20230621/e/erlang-py/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-21 08:53:11] INFO root fetch - processPackages [odxtools]: executing diffoscope
+[2023-06-21 08:53:11] INFO root fetch - processPackages [odxtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odxtools-3.0.2.tar.gz tmp/odxtools-4.0.0.tar.gz --markdown 20230621/o/odxtools/3.0.2-4.0.0/diff.md --exclude *.pyd
+[2023-06-21 08:53:11] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.8.tar.gz]
+[2023-06-21 08:53:11] INFO root fetch - processPackages [sharingiscaring]: Remove: archive file [/home/abi/fetcher/tmp/sharingiscaring-0.2.9.tar.gz]
+[2023-06-21 08:53:11] INFO root fetch - main [MainThread]: End processing [sharingiscaring]: success
+[2023-06-21 08:53:12] INFO root fetch - processPackages [erlang-py]: Remove: archive file [/home/abi/fetcher/tmp/erlang_py-2.0.5.tar.gz]
+[2023-06-21 08:53:12] INFO root fetch - processPackages [erlang-py]: Remove: archive file [/home/abi/fetcher/tmp/erlang_py-2.0.6.tar.gz]
+[2023-06-21 08:53:12] INFO root fetch - main [MainThread]: End processing [erlang-py]: success
+[2023-06-21 08:53:14] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-3.0.2.tar.gz]
+[2023-06-21 08:53:14] INFO root fetch - processPackages [odxtools]: Remove: archive file [/home/abi/fetcher/tmp/odxtools-4.0.0.tar.gz]
+[2023-06-21 08:53:14] INFO root fetch - main [MainThread]: End processing [odxtools]: success
+[2023-06-21 08:53:15] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-0.8.0.tar.gz]
+[2023-06-21 08:53:15] INFO root fetch - processPackages [ansys-templates]: Remove: archive file [/home/abi/fetcher/tmp/ansys_templates-0.9.0.tar.gz]
+[2023-06-21 08:53:15] INFO root fetch - main [MainThread]: End processing [ansys-templates]: success
+[2023-06-21 08:53:15] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-21 08:53:15] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-21 08:53:15] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-21 08:53:15] INFO root fetch - processPackages [commonroad-scenario-designer]: Remove: archive file [/home/abi/fetcher/tmp/commonroad_scenario_designer-0.7.0.tar.gz]
+[2023-06-21 08:53:15] INFO root fetch - processPackages [commonroad-scenario-designer]: Remove: archive file [/home/abi/fetcher/tmp/commonroad_scenario_designer-0.7.1.tar.gz]
+[2023-06-21 08:53:15] INFO root fetch - main [MainThread]: End processing [commonroad-scenario-designer]: success
+[2023-06-21 08:53:27] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.0.0rc3-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-21 08:53:27] INFO root fetch - processPackages [ert]: Remove: archive file [/home/abi/fetcher/tmp/ert-5.0.0rc4-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-21 08:53:27] INFO root fetch - main [MainThread]: End processing [ert]: success
+[2023-06-21 08:53:27] INFO root fetch - main [MainThread]: Store serial: [18586214]
