@@ -15639,3 +15639,126 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 09:39:37] INFO root fetch - processPackages [fiscalsim-us]: Remove: archive file [/home/abi/fetcher/tmp/fiscalsim-us-0.1.0.tar.gz]
 [2023-06-21 09:39:37] INFO root fetch - main [MainThread]: End processing [fiscalsim-us]: success
 [2023-06-21 09:39:37] INFO root fetch - main [MainThread]: Store serial: [18586747]
+[2023-06-21 09:44:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586747]
+[2023-06-21 09:44:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lusid-sdk
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lusid-sdk-preview
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sprites
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mplfooty
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: viterbi
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docker-tags-getter
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: simplerabbit
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yahoofinancials
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dingtalk-stream
+[2023-06-21 09:44:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: vmt
+[2023-06-21 09:44:48] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [simplerabbit]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [docker-tags-getter]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/40/00/212d46cf6af542e446e8aa041526ddc8cf008ee81c5e241be9e44e3ef89e/dingtalk-stream-0.4.0.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [docker-tags-getter]: Downloading https://files.pythonhosted.org/packages/5a/ee/6dfac6f946644d0c8126802867cebb07d0a201e7cd11c601d7f3e4c44ae2/docker_tags_getter-0.3.3.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/2e/83/ff9b3ec05d22a7a074f2443a809d336b5f81a0082471f187f975ce6ece2c/simplerabbit-0.0.8.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [yahoofinancials]: New version: [1.9] Old Version: [1.8]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [mplfooty]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-21 09:44:48] WARNING root fetch - processPackages [viterbi]: Skipping, unable to determine old version
+[2023-06-21 09:44:48] INFO root fetch - processPackages [sprites]: New version: [1.72] Old Version: [1.70]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [viterbi]: Start processing: django-webix
+[2023-06-21 09:44:48] INFO root fetch - main [MainThread]: End processing [viterbi] error
+[2023-06-21 09:44:48] INFO root fetch - processPackages [vmt]: New version: [0.0.0b9] Old Version: [0.0.0b8]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [lusid-sdk-preview]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [lusid-sdk]: New version: [1.0.98] Old Version: [1.0.91]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [docker-tags-getter]: Downloading https://files.pythonhosted.org/packages/af/e2/978b886a08c4bf049fabfabe4fc259fabdfb4752a6d382c9d8177d4be1f7/docker_tags_getter-0.3.4.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [django-webix]: New version: [23.6.0] Old Version: [1.4.0]
+[2023-06-21 09:44:48] INFO root fetch - processPackages [mplfooty]: Downloading https://files.pythonhosted.org/packages/c1/25/2525891b86e57a1cbdb47123d461bcd23b55425d28f6bec26cd4a0d5d605/mplfooty-0.0.1.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [simplerabbit]: Downloading https://files.pythonhosted.org/packages/47/7a/7dc5049b920a917322132e41a0bd586312d7501a23cb4de9f30639f920f1/simplerabbit-0.0.9.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/cd/5c/d740c907c67789a85300271c2f83a04b4cbff7a9056064d8de7e63a15895/dingtalk-stream-0.5.0.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [yahoofinancials]: Downloading https://files.pythonhosted.org/packages/f8/3e/3a18ee8701d1b8346a6ee37eacaa87eb8b793bc76da09a40b0c8f160d9ef/yahoofinancials-1.8.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [docker-tags-getter]: executing diffoscope
+[2023-06-21 09:44:48] INFO root fetch - processPackages [docker-tags-getter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docker_tags_getter-0.3.3.tar.gz tmp/docker_tags_getter-0.3.4.tar.gz --markdown 20230621/d/docker-tags-getter/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-21 09:44:48] INFO root fetch - processPackages [sprites]: Downloading https://files.pythonhosted.org/packages/da/80/0be934dbb73fc80d71d9cd8e3d86d8ed8a835ddc5b4a1b28fb4a047bdef2/sprites-1.70.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [vmt]: Downloading https://files.pythonhosted.org/packages/02/c3/377266f090c3b0be323012f3c9a0e976b57ef76b41a130e184af3e47bdf4/vmt-0.0.0b8.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [simplerabbit]: executing diffoscope
+[2023-06-21 09:44:48] INFO root fetch - processPackages [simplerabbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplerabbit-0.0.8.tar.gz tmp/simplerabbit-0.0.9.tar.gz --markdown 20230621/s/simplerabbit/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 09:44:48] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/be/34/7662f651750d07513450337ca9275481d00381ada330eaaa7e365fdde135/lusid-sdk-1.0.91.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/49/7a/a2c137408aeb27bd4c7f6dd83e907217e3962f825b96448437c4cfa4e0ea/lusid-sdk-preview-1.0.91.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [django-webix]: Downloading https://files.pythonhosted.org/packages/1f/eb/913eb383a360f1f8ead19e83e1f2d90960f0c5469a4eca59ff28afc63e89/django-webix-1.4.0.tar.gz
+[2023-06-21 09:44:48] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-06-21 09:44:48] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.4.0.tar.gz tmp/dingtalk-stream-0.5.0.tar.gz --markdown 20230621/d/dingtalk-stream/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-21 09:44:48] INFO root fetch - processPackages [mplfooty]: Downloading https://files.pythonhosted.org/packages/cf/50/4741367a59cd542801aa50b046e4663634a7c82546542bda19f674caa332/mplfooty-0.0.2.tar.gz
+[2023-06-21 09:44:49] INFO root fetch - processPackages [lusid-sdk]: Downloading https://files.pythonhosted.org/packages/14/c8/523a5d4f9c0dcabd6883ffe308d0ecf41ed93c1f7e1cdc4baced16ec67c6/lusid-sdk-1.0.98.tar.gz
+[2023-06-21 09:44:49] INFO root fetch - processPackages [lusid-sdk-preview]: Downloading https://files.pythonhosted.org/packages/98/81/36672596a28f997865bee76ba030a446e52a68b56b9e297ed56f9a8fb301/lusid-sdk-preview-1.0.98.tar.gz
+[2023-06-21 09:44:49] INFO root fetch - processPackages [mplfooty]: executing diffoscope
+[2023-06-21 09:44:49] INFO root fetch - processPackages [mplfooty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mplfooty-0.0.1.tar.gz tmp/mplfooty-0.0.2.tar.gz --markdown 20230621/m/mplfooty/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-21 09:44:49] INFO root fetch - processPackages [sprites]: Downloading https://files.pythonhosted.org/packages/81/ad/230f3ccce3d39415ea625dadc289ec1899be9f0b0319520ee8e84112979f/sprites-1.72.tar.gz
+[2023-06-21 09:44:49] INFO root fetch - processPackages [vmt]: Downloading https://files.pythonhosted.org/packages/f5/a1/5236d5088fd2d066e87d47e639b6514409577cc44c73e9a27ee63c410d05/vmt-0.0.0b9.tar.gz
+[2023-06-21 09:44:49] INFO root fetch - processPackages [yahoofinancials]: Downloading https://files.pythonhosted.org/packages/5b/20/bba1e36da065e8b58db6c464b857232ea744f3a9d365445ec6f26cb225d1/yahoofinancials-1.9.tar.gz
+[2023-06-21 09:44:49] INFO root fetch - processPackages [lusid-sdk]: executing diffoscope
+[2023-06-21 09:44:49] INFO root fetch - processPackages [lusid-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-1.0.91.tar.gz tmp/lusid-sdk-1.0.98.tar.gz --markdown 20230621/l/lusid-sdk/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-21 09:44:49] INFO root fetch - processPackages [lusid-sdk-preview]: executing diffoscope
+[2023-06-21 09:44:49] INFO root fetch - processPackages [lusid-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-sdk-preview-1.0.91.tar.gz tmp/lusid-sdk-preview-1.0.98.tar.gz --markdown 20230621/l/lusid-sdk-preview/1.0.91-1.0.98/diff.md --exclude *.pyd
+[2023-06-21 09:44:49] INFO root fetch - processPackages [vmt]: executing diffoscope
+[2023-06-21 09:44:49] INFO root fetch - processPackages [vmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vmt-0.0.0b8.tar.gz tmp/vmt-0.0.0b9.tar.gz --markdown 20230621/v/vmt/0.0.0b8-0.0.0b9/diff.md --exclude *.pyd
+[2023-06-21 09:44:49] INFO root fetch - processPackages [yahoofinancials]: executing diffoscope
+[2023-06-21 09:44:49] INFO root fetch - processPackages [yahoofinancials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yahoofinancials-1.8.tar.gz tmp/yahoofinancials-1.9.tar.gz --markdown 20230621/y/yahoofinancials/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-21 09:44:49] INFO root fetch - processPackages [sprites]: executing diffoscope
+[2023-06-21 09:44:49] INFO root fetch - processPackages [sprites]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sprites-1.70.tar.gz tmp/sprites-1.72.tar.gz --markdown 20230621/s/sprites/1.70-1.72/diff.md --exclude *.pyd
+[2023-06-21 09:44:49] INFO root fetch - processPackages [django-webix]: Downloading https://files.pythonhosted.org/packages/34/8f/fe33bbb6da19a7115e940c5c7b4998b7d341fa7e456b36ea9ef26a7f4cad/django-webix-23.6.0.tar.gz
+[2023-06-21 09:44:50] INFO root fetch - processPackages [docker-tags-getter]: Remove: archive file [/home/abi/fetcher/tmp/docker_tags_getter-0.3.3.tar.gz]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [docker-tags-getter]: Remove: archive file [/home/abi/fetcher/tmp/docker_tags_getter-0.3.4.tar.gz]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [docker-tags-getter]: Start processing: cognite-power-ops
+[2023-06-21 09:44:50] INFO root fetch - main [MainThread]: End processing [docker-tags-getter]: success
+[2023-06-21 09:44:50] INFO root fetch - processPackages [cognite-power-ops]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [django-webix]: executing diffoscope
+[2023-06-21 09:44:50] INFO root fetch - processPackages [django-webix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-webix-1.4.0.tar.gz tmp/django-webix-23.6.0.tar.gz --markdown 20230621/d/django-webix/1.4.0-23.6.0/diff.md --exclude *.pyd
+[2023-06-21 09:44:50] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.4.0.tar.gz]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.5.0.tar.gz]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [dingtalk-stream]: Start processing: mkdocs-kpn
+[2023-06-21 09:44:50] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-06-21 09:44:50] INFO root fetch - processPackages [simplerabbit]: Remove: archive file [/home/abi/fetcher/tmp/simplerabbit-0.0.8.tar.gz]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [simplerabbit]: Remove: archive file [/home/abi/fetcher/tmp/simplerabbit-0.0.9.tar.gz]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [simplerabbit]: Start processing: mmenot
+[2023-06-21 09:44:50] INFO root fetch - main [MainThread]: End processing [simplerabbit]: success
+[2023-06-21 09:44:50] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/2b/ea/c056f5562fa0bed4321b21572bba15a2f43f6f9795d20397ee822d00d6af/cognite_power_ops-0.9.1.tar.gz
+[2023-06-21 09:44:50] INFO root fetch - processPackages [mkdocs-kpn]: New version: [1.6.0] Old Version: [1.5.2]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [mmenot]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [cognite-power-ops]: Downloading https://files.pythonhosted.org/packages/5a/e7/e66818fdcb4e952516e36c68513139d425136901b019cc2b7ae48bfa3c12/cognite_power_ops-0.9.2.tar.gz
+[2023-06-21 09:44:50] INFO root fetch - processPackages [mplfooty]: Remove: archive file [/home/abi/fetcher/tmp/mplfooty-0.0.1.tar.gz]
+[2023-06-21 09:44:50] INFO root fetch - processPackages [mplfooty]: Remove: archive file [/home/abi/fetcher/tmp/mplfooty-0.0.2.tar.gz]
+[2023-06-21 09:44:50] INFO root fetch - main [MainThread]: End processing [mplfooty]: success
+[2023-06-21 09:44:50] INFO root fetch - processPackages [cognite-power-ops]: executing diffoscope
+[2023-06-21 09:44:50] INFO root fetch - processPackages [cognite-power-ops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cognite_power_ops-0.9.1.tar.gz tmp/cognite_power_ops-0.9.2.tar.gz --markdown 20230621/c/cognite-power-ops/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-21 09:44:50] INFO root fetch - processPackages [mmenot]: Downloading https://files.pythonhosted.org/packages/87/0f/3f95659bd097b4b22fc87218a642c07e73b58498b896a67076bff5d31a68/mmenot-0.9.2-py3-none-any.whl
+[2023-06-21 09:44:50] INFO root fetch - processPackages [mkdocs-kpn]: Downloading https://files.pythonhosted.org/packages/3b/4e/fc5fa88059bb22289677ad039cd5fe2339e4a69d2d4e2fa3c9b031bcbfcd/mkdocs-kpn-1.5.2.tar.gz
+[2023-06-21 09:44:50] INFO root fetch - processPackages [mmenot]: Downloading https://files.pythonhosted.org/packages/f6/80/9edbf05de19e2a6fee5d4267a9f49b5b4b4f75133709680a361ce37a5b85/mmenot-0.9.3-py3-none-any.whl
+[2023-06-21 09:44:51] INFO root fetch - processPackages [mmenot]: executing diffoscope
+[2023-06-21 09:44:51] INFO root fetch - processPackages [mmenot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mmenot-0.9.2-py3-none-any.whl.zip tmp/mmenot-0.9.3-py3-none-any.whl.zip --markdown 20230621/m/mmenot/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-21 09:44:51] INFO root fetch - processPackages [mkdocs-kpn]: Downloading https://files.pythonhosted.org/packages/70/29/54acb461ea6172e84a8f680f0ae10042716c8a868a48d50e3f907828aa52/mkdocs-kpn-1.6.0.tar.gz
+[2023-06-21 09:44:51] INFO root fetch - processPackages [vmt]: Remove: archive file [/home/abi/fetcher/tmp/vmt-0.0.0b8.tar.gz]
+[2023-06-21 09:44:51] INFO root fetch - processPackages [vmt]: Remove: archive file [/home/abi/fetcher/tmp/vmt-0.0.0b9.tar.gz]
+[2023-06-21 09:44:51] INFO root fetch - main [MainThread]: End processing [vmt]: success
+[2023-06-21 09:44:51] INFO root fetch - processPackages [yahoofinancials]: Remove: archive file [/home/abi/fetcher/tmp/yahoofinancials-1.8.tar.gz]
+[2023-06-21 09:44:51] INFO root fetch - processPackages [yahoofinancials]: Remove: archive file [/home/abi/fetcher/tmp/yahoofinancials-1.9.tar.gz]
+[2023-06-21 09:44:51] INFO root fetch - main [MainThread]: End processing [yahoofinancials]: success
+[2023-06-21 09:44:51] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.1.tar.gz]
+[2023-06-21 09:44:51] INFO root fetch - processPackages [cognite-power-ops]: Remove: archive file [/home/abi/fetcher/tmp/cognite_power_ops-0.9.2.tar.gz]
+[2023-06-21 09:44:51] INFO root fetch - main [MainThread]: End processing [cognite-power-ops]: success
+[2023-06-21 09:44:51] INFO root fetch - processPackages [mkdocs-kpn]: executing diffoscope
+[2023-06-21 09:44:51] INFO root fetch - processPackages [mkdocs-kpn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-kpn-1.5.2.tar.gz tmp/mkdocs-kpn-1.6.0.tar.gz --markdown 20230621/m/mkdocs-kpn/1.5.2-1.6.0/diff.md --exclude *.pyd
+[2023-06-21 09:44:52] INFO root fetch - processPackages [mmenot]: Remove: archive file [/home/abi/fetcher/tmp/mmenot-0.9.2-py3-none-any.whl.zip]
+[2023-06-21 09:44:52] INFO root fetch - processPackages [mmenot]: Remove: archive file [/home/abi/fetcher/tmp/mmenot-0.9.3-py3-none-any.whl.zip]
+[2023-06-21 09:44:52] INFO root fetch - main [MainThread]: End processing [mmenot]: success
+[2023-06-21 09:44:54] INFO root fetch - processPackages [sprites]: Remove: archive file [/home/abi/fetcher/tmp/sprites-1.70.tar.gz]
+[2023-06-21 09:44:54] INFO root fetch - processPackages [sprites]: Remove: archive file [/home/abi/fetcher/tmp/sprites-1.72.tar.gz]
+[2023-06-21 09:44:54] INFO root fetch - main [MainThread]: End processing [sprites]: success
+[2023-06-21 09:44:54] INFO root fetch - processPackages [mkdocs-kpn]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-kpn-1.5.2.tar.gz]
+[2023-06-21 09:44:54] INFO root fetch - processPackages [mkdocs-kpn]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-kpn-1.6.0.tar.gz]
+[2023-06-21 09:44:54] INFO root fetch - main [MainThread]: End processing [mkdocs-kpn]: success
+[2023-06-21 09:45:05] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.91.tar.gz]
+[2023-06-21 09:45:05] INFO root fetch - processPackages [lusid-sdk]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-1.0.98.tar.gz]
+[2023-06-21 09:45:05] INFO root fetch - main [MainThread]: End processing [lusid-sdk]: success
+[2023-06-21 09:45:14] INFO root fetch - processPackages [django-webix]: Remove: archive file [/home/abi/fetcher/tmp/django-webix-1.4.0.tar.gz]
+[2023-06-21 09:45:14] INFO root fetch - processPackages [django-webix]: Remove: archive file [/home/abi/fetcher/tmp/django-webix-23.6.0.tar.gz]
+[2023-06-21 09:45:14] INFO root fetch - main [MainThread]: End processing [django-webix]: success
+[2023-06-21 09:45:20] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.91.tar.gz]
+[2023-06-21 09:45:20] INFO root fetch - processPackages [lusid-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-sdk-preview-1.0.98.tar.gz]
+[2023-06-21 09:45:20] INFO root fetch - main [MainThread]: End processing [lusid-sdk-preview]: success
+[2023-06-21 09:45:20] INFO root fetch - main [MainThread]: Store serial: [18586797]
