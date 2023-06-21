@@ -1914,3 +1914,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 02:03:18] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-06-21 02:03:18] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-06-21 02:03:18] INFO root fetch - main [MainThread]: Store serial: [18581470]
+[2023-06-21 02:08:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18581470]
+[2023-06-21 02:08:27] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-embed-external-markdown
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torchdatasets-nightly
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mct-nightly
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jaxkern-nightly
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: BatteryRateCap
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: xGPR
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pythorhead
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hdcms-bindings
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jaxutils-nightly
+[2023-06-21 02:08:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: torchlayers-nightly
+[2023-06-21 02:08:27] INFO root fetch - processPackages [pythorhead]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-21 02:08:27] INFO root fetch - processPackages [BatteryRateCap]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-21 02:08:27] INFO root fetch - processPackages [hdcms-bindings]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230620.post345] Old Version: [1.9.0.20230619.post414]
+[2023-06-21 02:08:28] INFO root fetch - processPackages [xGPR]: New version: [0.1.2.1] Old Version: [0.1.2.0]
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-21 02:08:28] INFO root fetch - processPackages [hdcms-bindings]: Downloading https://files.pythonhosted.org/packages/10/07/d262c40aed37d363fbb7ad13cb0bf76d21dc70317c1dd3502572b7d4291d/hdcms-bindings-0.1.5.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/bb/8c/e929d57e0687dbd8eca4ac42541bee12d8b5398d0666e8d0b33cc09cf64c/mct-nightly-1.9.0.20230619.post414.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/18/7c/fe0edaaf326ab85b410886f53eaac495cce7feae39c897e6760ae1c0dddb/xGPR-0.1.2.0.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230621] Old Version: [0.0.8.dev20230620]
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchdatasets-nightly]: New version: [1687305796] Old Version: [1687219387]
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1687306044] Old Version: [1687219588]
+[2023-06-21 02:08:28] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/40/9e/282b19066053ddf8eface9db16d4168eae40794816cb1442fc0c31bee837/pythorhead-0.3.1.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Downloading https://files.pythonhosted.org/packages/bf/16/4c4bff158dd535aada41dbe0aa496309a3a7e282d54af7c04e6433200b2f/mkdocs-embed-external-markdown-3.0.0.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [BatteryRateCap]: Downloading https://files.pythonhosted.org/packages/94/38/c22dc0330e3817e0f868147dcf22848b7c51373a1ca04a9ef5618ee83a6f/BatteryRateCap-0.1.1.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/4b/d1/566efec3e7e0a24f018fd6094d3e493f86a1863754d8fe3de383d5c0b388/torchlayers-nightly-1687219588.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [hdcms-bindings]: Downloading https://files.pythonhosted.org/packages/84/45/f7666ca32a82e074e103f1db24f4e8a369a7f70619b6d33a75bab39ecf18/hdcms-bindings-0.1.6.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/5e/52/5e28ba5eed44dec8ef7bc29bb34f3e73b20c12fecacef9907d924e0d58d6/xGPR-0.1.2.1.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/77/ae/42bdc02aec6ae299f20735c8ed8eee4f982603085e632085b2ef18095279/jaxutils-nightly-0.0.8.dev20230620.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [hdcms-bindings]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [hdcms-bindings]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-bindings-0.1.5.tar.gz tmp/hdcms-bindings-0.1.6.tar.gz --markdown 20230621/h/hdcms-bindings/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/6f/0b/178ab3a2c52d15e0371ce07e78a7e1573d5baacc1b28aae60085eaaedfb0/mct-nightly-1.9.0.20230620.post345.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/d4/d4/26cea0525d75940d8f432891b9b8d05b09aad9d71e59a7040efc4eeed4fd/torchdatasets-nightly-1687219387.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230621/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [xGPR]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [xGPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xGPR-0.1.2.0.tar.gz tmp/xGPR-0.1.2.1.tar.gz --markdown 20230621/x/xGPR/0.1.2.0-0.1.2.1/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Downloading https://files.pythonhosted.org/packages/63/7a/3abc67b0b21853435ebf200a2e81d069b8f1e712cd4e7f40eab042a90a69/mkdocs-embed-external-markdown-3.0.1.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230619.post414.tar.gz tmp/mct-nightly-1.9.0.20230620.post345.tar.gz --markdown 20230621/m/mct-nightly/1.9.0.20230619.post414-1.9.0.20230620.post345/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [pythorhead]: Downloading https://files.pythonhosted.org/packages/c4/4c/8006dd3130e02b5c73e0d6a31022b75e78bfd112cc3397e5e1553dfd1282/pythorhead-0.4.0.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-embed-external-markdown-3.0.0.tar.gz tmp/mkdocs-embed-external-markdown-3.0.1.tar.gz --markdown 20230621/m/mkdocs-embed-external-markdown/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/bc/49/49eced55468196f6c8681f29f526708565e141a578bc0ab92e99cce0c317/torchlayers-nightly-1687306044.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [pythorhead]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [pythorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythorhead-0.3.1.tar.gz tmp/pythorhead-0.4.0.tar.gz --markdown 20230621/p/pythorhead/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/c7/03/726b619e5986e64582e6437aa978f16eec32e58d01b4a2b2bf8cc6eb80cb/jaxutils-nightly-0.0.8.dev20230621.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [BatteryRateCap]: Downloading https://files.pythonhosted.org/packages/87/a5/d0778b9e94993fa412ac49fe347d3cd4f6d9bb2ead78a09772f2cc28f920/BatteryRateCap-0.1.2.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchdatasets-nightly]: Downloading https://files.pythonhosted.org/packages/d8/27/0f8b866710db1419d3ec1399f564803cc44859ad85302a0760b6ecfa2ce6/torchdatasets-nightly-1687305796.tar.gz
+[2023-06-21 02:08:28] INFO root fetch - processPackages [BatteryRateCap]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [BatteryRateCap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BatteryRateCap-0.1.1.tar.gz tmp/BatteryRateCap-0.1.2.tar.gz --markdown 20230621/B/BatteryRateCap/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1687219588.tar.gz tmp/torchlayers-nightly-1687306044.tar.gz --markdown 20230621/t/torchlayers-nightly/1687219588-1687306044/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230620.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230621.tar.gz --markdown 20230621/j/jaxutils-nightly/0.0.8.dev20230620-0.0.8.dev20230621/diff.md --exclude *.pyd
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchdatasets-nightly]: executing diffoscope
+[2023-06-21 02:08:28] INFO root fetch - processPackages [torchdatasets-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchdatasets-nightly-1687219387.tar.gz tmp/torchdatasets-nightly-1687305796.tar.gz --markdown 20230621/t/torchdatasets-nightly/1687219387-1687305796/diff.md --exclude *.pyd
+[2023-06-21 02:08:29] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-21 02:08:29] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-21 02:08:29] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: hdcms
+[2023-06-21 02:08:29] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-21 02:08:29] INFO root fetch - processPackages [hdcms]: New version: [0.1.9] Old Version: [0.1.22]
+[2023-06-21 02:08:29] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/df/27/6d5f389c1dce8842f99cf312bce4eed87c84f29d540a08603c497ff348ab/hdcms-0.1.22.tar.gz
+[2023-06-21 02:08:30] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-embed-external-markdown-3.0.0.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-embed-external-markdown-3.0.1.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [mkdocs-embed-external-markdown]: Start processing: NikGapps
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [mkdocs-embed-external-markdown]: success
+[2023-06-21 02:08:30] INFO root fetch - processPackages [NikGapps]: New version: [1.43] Old Version: [1.42]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [hdcms]: Downloading https://files.pythonhosted.org/packages/51/34/34ec56614830dd108a14b9d8f0c47d25fafb9b28d6da054418f54c5aadf2/hdcms-0.1.9.tar.gz
+[2023-06-21 02:08:30] INFO root fetch - processPackages [NikGapps]: Downloading https://files.pythonhosted.org/packages/f3/43/99fa8877947da61dd931de6805daa8c8f40be40fded5cc02222e3ec60da8/NikGapps-1.42.tar.gz
+[2023-06-21 02:08:30] WARNING root fetch - processPackages [NikGapps]: Skipping package: exceeds size limit 41564064>=10485760
+[2023-06-21 02:08:30] INFO root fetch - processPackages [NikGapps]: Start processing: pydoit-nb
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [NikGapps] error
+[2023-06-21 02:08:30] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687219387.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [torchdatasets-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchdatasets-nightly-1687305796.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [torchdatasets-nightly]: success
+[2023-06-21 02:08:30] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687219588.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1687306044.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-21 02:08:30] WARNING root fetch - processPackages [pydoit-nb]: Skipping, unable to determine old version
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [pydoit-nb] error
+[2023-06-21 02:08:30] INFO root fetch - processPackages [hdcms]: executing diffoscope
+[2023-06-21 02:08:30] INFO root fetch - processPackages [hdcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdcms-0.1.22.tar.gz tmp/hdcms-0.1.9.tar.gz --markdown 20230621/h/hdcms/0.1.22-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 02:08:30] INFO root fetch - processPackages [BatteryRateCap]: Remove: archive file [/home/abi/fetcher/tmp/BatteryRateCap-0.1.1.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [BatteryRateCap]: Remove: archive file [/home/abi/fetcher/tmp/BatteryRateCap-0.1.2.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [BatteryRateCap]: success
+[2023-06-21 02:08:30] INFO root fetch - processPackages [hdcms-bindings]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-bindings-0.1.5.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [hdcms-bindings]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-bindings-0.1.6.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [hdcms-bindings]: success
+[2023-06-21 02:08:30] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.2.0.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.2.1.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [xGPR]: success
+[2023-06-21 02:08:30] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230620.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230621.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-21 02:08:30] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.3.1.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - processPackages [pythorhead]: Remove: archive file [/home/abi/fetcher/tmp/pythorhead-0.4.0.tar.gz]
+[2023-06-21 02:08:30] INFO root fetch - main [MainThread]: End processing [pythorhead]: success
+[2023-06-21 02:08:34] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230619.post414.tar.gz]
+[2023-06-21 02:08:34] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230620.post345.tar.gz]
+[2023-06-21 02:08:34] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-06-21 02:08:36] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.22.tar.gz]
+[2023-06-21 02:08:36] INFO root fetch - processPackages [hdcms]: Remove: archive file [/home/abi/fetcher/tmp/hdcms-0.1.9.tar.gz]
+[2023-06-21 02:08:36] INFO root fetch - main [MainThread]: End processing [hdcms]: success
+[2023-06-21 02:08:36] INFO root fetch - main [MainThread]: Store serial: [18581510]
