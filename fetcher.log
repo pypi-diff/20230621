@@ -13938,3 +13938,69 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 08:05:21] INFO root fetch - processPackages [depmanager]: Remove: archive file [/home/abi/fetcher/tmp/depmanager-0.1.4.tar.gz]
 [2023-06-21 08:05:21] INFO root fetch - main [MainThread]: End processing [depmanager]: success
 [2023-06-21 08:05:21] INFO root fetch - main [MainThread]: Store serial: [18585880]
+[2023-06-21 08:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585880]
+[2023-06-21 08:10:31] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spectrafit
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipebuilder
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: algokit
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: semremover
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipcontrol
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ansys-api-dyna
+[2023-06-21 08:10:31] INFO root fetch - processPackages [pipcontrol]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-06-21 08:10:31] INFO root fetch - processPackages [pipebuilder]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ansys-api-dyna]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-21 08:10:31] INFO root fetch - processPackages [semremover]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-21 08:10:31] INFO root fetch - processPackages [algokit]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-21 08:10:31] INFO root fetch - processPackages [spectrafit]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-06-21 08:10:31] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230620] Old Version: [2.4.0.dev20230619]
+[2023-06-21 08:10:31] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/af/ca/e6a43197150aea2d8984631950ad5664d9dac2b784a8145f4927a261c36d/pyg_nightly-2.4.0.dev20230619.tar.gz
+[2023-06-21 08:10:31] INFO root fetch - processPackages [pipebuilder]: Downloading https://files.pythonhosted.org/packages/00/83/ae1eb2137e35acbc09317eec1625cea15a9b46c8f6574e5d6d8196e57109/pipebuilder-0.1.0.tar.gz
+[2023-06-21 08:10:31] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/7b/c6/4b0a61e5df36849b64e22b7ff23149ad8f765f4ba6bac435c732ca7c6cb6/algokit-1.1.5-py3-none-any.whl
+[2023-06-21 08:10:31] INFO root fetch - processPackages [pipcontrol]: Downloading https://files.pythonhosted.org/packages/e6/d4/42812d37256f70cb59d3378513211e2321dd8c4c21b7b6a9a4066580f49d/pipcontrol-1.1.0.tar.gz
+[2023-06-21 08:10:31] INFO root fetch - processPackages [semremover]: Downloading https://files.pythonhosted.org/packages/b5/a7/7de3e530afd820dfb2a23d69555417203811b150ab8263d398f32f9c2825/semremover-0.0.3.tar.gz
+[2023-06-21 08:10:31] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/6b/2a/41e9908ead4ca1e1d9d996de0c892d67d060119e8afe804904347a462817/spectrafit-1.0.0b1.tar.gz
+[2023-06-21 08:10:31] INFO root fetch - processPackages [ansys-api-dyna]: Downloading https://files.pythonhosted.org/packages/40/28/5ed67997470aa7fbb93aa068ca8d352aa89ee9b1214e9ea5fc0df347af69/ansys-api-dyna-0.1.0.tar.gz
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pipebuilder]: Downloading https://files.pythonhosted.org/packages/78/9f/5c9ed9b9145b5ec8c513a110e364d60cc7c1d4faf070fadfabd6dc98cd4e/pipebuilder-0.1.2.tar.gz
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pipcontrol]: Downloading https://files.pythonhosted.org/packages/bd/5a/5615ddd54a68eb9a2beda844e0b8a279ca4c81d468d4d5771f7e78a59f03/pipcontrol-1.2.0.tar.gz
+[2023-06-21 08:10:32] INFO root fetch - processPackages [semremover]: Downloading https://files.pythonhosted.org/packages/50/95/a5aa4404585264d3150097a238e518414d21af551babb6b32201b92ab432/semremover-0.0.4.tar.gz
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/34/58/d053a951fd732e1b6bc8ea5a98ee5e94fcbc2a3f5cb91590787792c01d28/pyg_nightly-2.4.0.dev20230620.tar.gz
+[2023-06-21 08:10:32] INFO root fetch - processPackages [algokit]: Downloading https://files.pythonhosted.org/packages/33/02/1a2e8c3e8e943f761862c21ab797cae07efe8da0bd5587a9048b47620d79/algokit-1.1.6-py3-none-any.whl
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pipebuilder]: executing diffoscope
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pipebuilder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipebuilder-0.1.0.tar.gz tmp/pipebuilder-0.1.2.tar.gz --markdown 20230621/p/pipebuilder/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 08:10:32] INFO root fetch - processPackages [ansys-api-dyna]: Downloading https://files.pythonhosted.org/packages/bd/fa/7e452e881df4bd9140b6f978a3c8d2e1d69bd7079fcfba595e574ff89851/ansys-api-dyna-0.2.0.tar.gz
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pipcontrol]: executing diffoscope
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pipcontrol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipcontrol-1.1.0.tar.gz tmp/pipcontrol-1.2.0.tar.gz --markdown 20230621/p/pipcontrol/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-21 08:10:32] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/b0/e6/82afb2b07e68fd939709273d2e78209c65e2ecd4f15dfd661bf36a3c9604/spectrafit-1.0.0b2.tar.gz
+[2023-06-21 08:10:32] INFO root fetch - processPackages [algokit]: executing diffoscope
+[2023-06-21 08:10:32] INFO root fetch - processPackages [algokit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit-1.1.5-py3-none-any.whl.zip tmp/algokit-1.1.6-py3-none-any.whl.zip --markdown 20230621/a/algokit/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-21 08:10:32] INFO root fetch - processPackages [ansys-api-dyna]: executing diffoscope
+[2023-06-21 08:10:32] INFO root fetch - processPackages [ansys-api-dyna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-api-dyna-0.1.0.tar.gz tmp/ansys-api-dyna-0.2.0.tar.gz --markdown 20230621/a/ansys-api-dyna/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-21 08:10:32] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230619.tar.gz tmp/pyg_nightly-2.4.0.dev20230620.tar.gz --markdown 20230621/p/pyg-nightly/2.4.0.dev20230619-2.4.0.dev20230620/diff.md --exclude *.pyd
+[2023-06-21 08:10:32] INFO root fetch - processPackages [semremover]: executing diffoscope
+[2023-06-21 08:10:32] INFO root fetch - processPackages [semremover]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/semremover-0.0.3.tar.gz tmp/semremover-0.0.4.tar.gz --markdown 20230621/s/semremover/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-21 08:10:32] INFO root fetch - processPackages [spectrafit]: executing diffoscope
+[2023-06-21 08:10:32] INFO root fetch - processPackages [spectrafit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrafit-1.0.0b1.tar.gz tmp/spectrafit-1.0.0b2.tar.gz --markdown 20230621/s/spectrafit/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-06-21 08:10:33] INFO root fetch - processPackages [pipebuilder]: Remove: archive file [/home/abi/fetcher/tmp/pipebuilder-0.1.0.tar.gz]
+[2023-06-21 08:10:33] INFO root fetch - processPackages [pipebuilder]: Remove: archive file [/home/abi/fetcher/tmp/pipebuilder-0.1.2.tar.gz]
+[2023-06-21 08:10:33] INFO root fetch - main [MainThread]: End processing [pipebuilder]: success
+[2023-06-21 08:10:33] INFO root fetch - processPackages [pipcontrol]: Remove: archive file [/home/abi/fetcher/tmp/pipcontrol-1.1.0.tar.gz]
+[2023-06-21 08:10:33] INFO root fetch - processPackages [pipcontrol]: Remove: archive file [/home/abi/fetcher/tmp/pipcontrol-1.2.0.tar.gz]
+[2023-06-21 08:10:33] INFO root fetch - main [MainThread]: End processing [pipcontrol]: success
+[2023-06-21 08:10:33] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.1.5-py3-none-any.whl.zip]
+[2023-06-21 08:10:33] INFO root fetch - processPackages [algokit]: Remove: archive file [/home/abi/fetcher/tmp/algokit-1.1.6-py3-none-any.whl.zip]
+[2023-06-21 08:10:33] INFO root fetch - main [MainThread]: End processing [algokit]: success
+[2023-06-21 08:10:33] INFO root fetch - processPackages [ansys-api-dyna]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-dyna-0.1.0.tar.gz]
+[2023-06-21 08:10:33] INFO root fetch - processPackages [ansys-api-dyna]: Remove: archive file [/home/abi/fetcher/tmp/ansys-api-dyna-0.2.0.tar.gz]
+[2023-06-21 08:10:33] INFO root fetch - main [MainThread]: End processing [ansys-api-dyna]: success
+[2023-06-21 08:10:33] INFO root fetch - processPackages [semremover]: Remove: archive file [/home/abi/fetcher/tmp/semremover-0.0.3.tar.gz]
+[2023-06-21 08:10:33] INFO root fetch - processPackages [semremover]: Remove: archive file [/home/abi/fetcher/tmp/semremover-0.0.4.tar.gz]
+[2023-06-21 08:10:33] INFO root fetch - main [MainThread]: End processing [semremover]: success
+[2023-06-21 08:10:34] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b1.tar.gz]
+[2023-06-21 08:10:34] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b2.tar.gz]
+[2023-06-21 08:10:34] INFO root fetch - main [MainThread]: End processing [spectrafit]: success
+[2023-06-21 08:10:38] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230619.tar.gz]
+[2023-06-21 08:10:38] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230620.tar.gz]
+[2023-06-21 08:10:38] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-21 08:10:38] INFO root fetch - main [MainThread]: Store serial: [18585902]
