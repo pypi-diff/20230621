@@ -15383,3 +15383,113 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 09:26:27] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.5.0a0.tar.gz]
 [2023-06-21 09:26:27] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
 [2023-06-21 09:26:27] INFO root fetch - main [MainThread]: Store serial: [18586609]
+[2023-06-21 09:31:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18586609]
+[2023-06-21 09:31:36] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: antchain-mpaasfaceverify
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kalm
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idem-resources-validation
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: yz-core2
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: titan-iris
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-eks-karpenter
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mangopaysdk
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: stereopy
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: abaxai-speech-client
+[2023-06-21 09:31:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mofmt
+[2023-06-21 09:31:36] INFO root fetch - processPackages [titan-iris]: New version: [0.5.0a0] Old Version: [0.4.0a0]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [cdk-eks-karpenter]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/00/f5/04c2b82028328441503f4f7939dc1e1148ce6d647297f2137bc60e3c4d2a/titan-iris-0.4.0a0.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [cdk-eks-karpenter]: Downloading https://files.pythonhosted.org/packages/25/22/3cd0001147dde7e28df6625053eead4e2cd59fcc37d39100dd51a87604a6/cdk-eks-karpenter-0.0.7.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [antchain-mpaasfaceverify]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-21 09:31:36] WARNING root fetch - processPackages [idem-resources-validation]: Skipping, unable to determine old version
+[2023-06-21 09:31:36] INFO root fetch - processPackages [idem-resources-validation]: Start processing: sha256bit
+[2023-06-21 09:31:36] INFO root fetch - main [MainThread]: End processing [idem-resources-validation] error
+[2023-06-21 09:31:36] INFO root fetch - processPackages [yz-core2]: New version: [1.0.55] Old Version: [1.0.54]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [mofmt]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [stereopy]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [abaxai-speech-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [kalm]: New version: [0.7.6] Old Version: [0.7.5]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [mangopaysdk]: New version: [3.9.0] Old Version: [3.8.5]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [titan-iris]: Downloading https://files.pythonhosted.org/packages/4d/8d/e763a30d4b0cc8dd41b765ed56b50ee35a6237f965e2aebe5f9e0010ffb0/titan-iris-0.5.0a0.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [sha256bit]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-21 09:31:36] INFO root fetch - processPackages [cdk-eks-karpenter]: Downloading https://files.pythonhosted.org/packages/f0/f5/e0e7d6df216e8c13dd208a660f9c67d945ce533f249211e96610b87c1c67/cdk-eks-karpenter-0.0.8.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/09/2e/2a7426666d234221f4d2df0ba8e341bcb26d55502a6281c1d2db2746e379/kalm-0.7.5.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/96/f1/64ad0337fe13e3ac225a2b91ef80d96cefa545883ec1e2ee6c6271bb50a7/yz-core2-1.0.54.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [antchain-mpaasfaceverify]: Downloading https://files.pythonhosted.org/packages/b1/a6/1fe6203be61c75086b3cfb7f2eb47c9fedb7f792ac5c864768f05055f453/antchain_mpaasfaceverify-1.1.9.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [titan-iris]: executing diffoscope
+[2023-06-21 09:31:36] INFO root fetch - processPackages [titan-iris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/titan-iris-0.4.0a0.tar.gz tmp/titan-iris-0.5.0a0.tar.gz --markdown 20230621/t/titan-iris/0.4.0a0-0.5.0a0/diff.md --exclude *.pyd
+[2023-06-21 09:31:36] INFO root fetch - processPackages [mofmt]: Downloading https://files.pythonhosted.org/packages/a4/73/d11f35bb63ac9b14dc84fdc56216d0bb67b0e888cca64d0f1caddd53b607/mofmt-0.1.2.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [stereopy]: Downloading https://files.pythonhosted.org/packages/7b/de/1542748b1d34390dc25728d4380b4c6930792d307b36acb9639a85712470/stereopy-0.8.0.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [mangopaysdk]: Downloading https://files.pythonhosted.org/packages/b5/d3/8afd78cac231143acf70ef4161ce2a1af10fda7c818afb4e919d105f4295/mangopaysdk-3.8.5.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [abaxai-speech-client]: Downloading https://files.pythonhosted.org/packages/24/50/4f7fd74a4c14dff5d2d450e0e5acf33baefea4850075f33bcc2bd1c33598/abaxai-speech-client-0.1.1.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [cdk-eks-karpenter]: executing diffoscope
+[2023-06-21 09:31:36] INFO root fetch - processPackages [cdk-eks-karpenter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-eks-karpenter-0.0.7.tar.gz tmp/cdk-eks-karpenter-0.0.8.tar.gz --markdown 20230621/c/cdk-eks-karpenter/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-21 09:31:36] INFO root fetch - processPackages [sha256bit]: Downloading https://files.pythonhosted.org/packages/b3/44/8ff097d798af0dc14dc62167b2b75426259ec8a29d66524987e9334b04e1/sha256bit-0.0.9.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [kalm]: Downloading https://files.pythonhosted.org/packages/d5/44/0d281f41d8e26fcc6058394da4cd7be611370ba86aa0fc6952c1f475db59/kalm-0.7.6.tar.gz
+[2023-06-21 09:31:36] INFO root fetch - processPackages [antchain-mpaasfaceverify]: Downloading https://files.pythonhosted.org/packages/ee/f8/a2c32acce7747e249dd6b2db01b2cfa07152bd647b890461bb4d17c75c83/antchain_mpaasfaceverify-1.2.0.tar.gz
+[2023-06-21 09:31:37] INFO root fetch - processPackages [yz-core2]: Downloading https://files.pythonhosted.org/packages/0e/ca/e002f9fcb2608309469bb5b82d867e8ebb055444bf92fe20a1223b57a234/yz-core2-1.0.55.tar.gz
+[2023-06-21 09:31:37] INFO root fetch - processPackages [mofmt]: Downloading https://files.pythonhosted.org/packages/d6/85/aca854bbff4081dc72610fefad19c2a36abe270c88adb4bfd66f8ce439d7/mofmt-0.2.0-py3-none-any.whl
+[2023-06-21 09:31:37] INFO root fetch - processPackages [kalm]: executing diffoscope
+[2023-06-21 09:31:37] INFO root fetch - processPackages [kalm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kalm-0.7.5.tar.gz tmp/kalm-0.7.6.tar.gz --markdown 20230621/k/kalm/0.7.5-0.7.6/diff.md --exclude *.pyd
+[2023-06-21 09:31:37] INFO root fetch - processPackages [abaxai-speech-client]: Downloading https://files.pythonhosted.org/packages/1d/d9/a252ce326831c55f5536ee601933125c64f1200d4536a41a9f84c551fc3e/abaxai-speech-client-0.1.2.tar.gz
+[2023-06-21 09:31:37] INFO root fetch - processPackages [mofmt]: executing diffoscope
+[2023-06-21 09:31:37] INFO root fetch - processPackages [mofmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mofmt-0.1.2.tar.gz tmp/mofmt-0.2.0-py3-none-any.whl.zip --markdown 20230621/m/mofmt/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-21 09:31:37] INFO root fetch - processPackages [yz-core2]: executing diffoscope
+[2023-06-21 09:31:37] INFO root fetch - processPackages [yz-core2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yz-core2-1.0.54.tar.gz tmp/yz-core2-1.0.55.tar.gz --markdown 20230621/y/yz-core2/1.0.54-1.0.55/diff.md --exclude *.pyd
+[2023-06-21 09:31:37] INFO root fetch - processPackages [antchain-mpaasfaceverify]: executing diffoscope
+[2023-06-21 09:31:37] INFO root fetch - processPackages [antchain-mpaasfaceverify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_mpaasfaceverify-1.1.9.tar.gz tmp/antchain_mpaasfaceverify-1.2.0.tar.gz --markdown 20230621/a/antchain-mpaasfaceverify/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-21 09:31:37] INFO root fetch - processPackages [abaxai-speech-client]: executing diffoscope
+[2023-06-21 09:31:37] INFO root fetch - processPackages [abaxai-speech-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abaxai-speech-client-0.1.1.tar.gz tmp/abaxai-speech-client-0.1.2.tar.gz --markdown 20230621/a/abaxai-speech-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 09:31:37] INFO root fetch - processPackages [mangopaysdk]: Downloading https://files.pythonhosted.org/packages/99/49/070680f90659bb933ab3457c9cacc3e8b1304ae1a9efb8edaa1ed48d4fef/mangopaysdk-3.9.0.tar.gz
+[2023-06-21 09:31:37] INFO root fetch - processPackages [mangopaysdk]: executing diffoscope
+[2023-06-21 09:31:37] INFO root fetch - processPackages [mangopaysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mangopaysdk-3.8.5.tar.gz tmp/mangopaysdk-3.9.0.tar.gz --markdown 20230621/m/mangopaysdk/3.8.5-3.9.0/diff.md --exclude *.pyd
+[2023-06-21 09:31:37] INFO root fetch - processPackages [sha256bit]: Downloading https://files.pythonhosted.org/packages/00/ca/2c7439e5c04dd3b0b0b59a403f877fe3e555b00eea1e0056a849d515b899/sha256bit-0.1.0.tar.gz
+[2023-06-21 09:31:37] WARNING root fetch - processPackages [stereopy]: Skipping package: exceeds size limit 72848612>=10485760
+[2023-06-21 09:31:37] INFO root fetch - processPackages [stereopy]: Start processing: dingtalk-stream
+[2023-06-21 09:31:37] INFO root fetch - main [MainThread]: End processing [stereopy] error
+[2023-06-21 09:31:37] INFO root fetch - processPackages [sha256bit]: executing diffoscope
+[2023-06-21 09:31:37] INFO root fetch - processPackages [sha256bit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sha256bit-0.0.9.tar.gz tmp/sha256bit-0.1.0.tar.gz --markdown 20230621/s/sha256bit/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-21 09:31:37] INFO root fetch - processPackages [dingtalk-stream]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-21 09:31:37] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/40/00/212d46cf6af542e446e8aa041526ddc8cf008ee81c5e241be9e44e3ef89e/dingtalk-stream-0.4.0.tar.gz
+[2023-06-21 09:31:38] INFO root fetch - processPackages [dingtalk-stream]: Downloading https://files.pythonhosted.org/packages/cd/5c/d740c907c67789a85300271c2f83a04b4cbff7a9056064d8de7e63a15895/dingtalk-stream-0.5.0.tar.gz
+[2023-06-21 09:31:38] INFO root fetch - processPackages [dingtalk-stream]: executing diffoscope
+[2023-06-21 09:31:38] INFO root fetch - processPackages [dingtalk-stream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dingtalk-stream-0.4.0.tar.gz tmp/dingtalk-stream-0.5.0.tar.gz --markdown 20230621/d/dingtalk-stream/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-21 09:31:38] INFO root fetch - processPackages [cdk-eks-karpenter]: Remove: archive file [/home/abi/fetcher/tmp/cdk-eks-karpenter-0.0.7.tar.gz]
+[2023-06-21 09:31:38] INFO root fetch - processPackages [cdk-eks-karpenter]: Remove: archive file [/home/abi/fetcher/tmp/cdk-eks-karpenter-0.0.8.tar.gz]
+[2023-06-21 09:31:38] INFO root fetch - processPackages [cdk-eks-karpenter]: Start processing: ctapipe
+[2023-06-21 09:31:38] INFO root fetch - main [MainThread]: End processing [cdk-eks-karpenter]: success
+[2023-06-21 09:31:38] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.1.2.tar.gz]
+[2023-06-21 09:31:38] INFO root fetch - processPackages [mofmt]: Remove: archive file [/home/abi/fetcher/tmp/mofmt-0.2.0-py3-none-any.whl.zip]
+[2023-06-21 09:31:38] INFO root fetch - main [MainThread]: End processing [mofmt]: success
+[2023-06-21 09:31:38] INFO root fetch - processPackages [abaxai-speech-client]: Remove: archive file [/home/abi/fetcher/tmp/abaxai-speech-client-0.1.1.tar.gz]
+[2023-06-21 09:31:38] INFO root fetch - processPackages [abaxai-speech-client]: Remove: archive file [/home/abi/fetcher/tmp/abaxai-speech-client-0.1.2.tar.gz]
+[2023-06-21 09:31:38] INFO root fetch - main [MainThread]: End processing [abaxai-speech-client]: success
+[2023-06-21 09:31:38] INFO root fetch - processPackages [ctapipe]: New version: [0.9.1] Old Version: [0.8.0]
+[2023-06-21 09:31:38] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.5.tar.gz]
+[2023-06-21 09:31:38] INFO root fetch - processPackages [kalm]: Remove: archive file [/home/abi/fetcher/tmp/kalm-0.7.6.tar.gz]
+[2023-06-21 09:31:38] INFO root fetch - main [MainThread]: End processing [kalm]: success
+[2023-06-21 09:31:39] INFO root fetch - processPackages [ctapipe]: Downloading https://files.pythonhosted.org/packages/12/52/fdca6e2609ea0fede514bcdb5a11f6277382264ad9a681ba868680fadac1/ctapipe-0.8.0.tar.gz
+[2023-06-21 09:31:39] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.4.0a0.tar.gz]
+[2023-06-21 09:31:39] INFO root fetch - processPackages [titan-iris]: Remove: archive file [/home/abi/fetcher/tmp/titan-iris-0.5.0a0.tar.gz]
+[2023-06-21 09:31:39] INFO root fetch - main [MainThread]: End processing [titan-iris]: success
+[2023-06-21 09:31:39] INFO root fetch - processPackages [antchain-mpaasfaceverify]: Remove: archive file [/home/abi/fetcher/tmp/antchain_mpaasfaceverify-1.1.9.tar.gz]
+[2023-06-21 09:31:39] INFO root fetch - processPackages [antchain-mpaasfaceverify]: Remove: archive file [/home/abi/fetcher/tmp/antchain_mpaasfaceverify-1.2.0.tar.gz]
+[2023-06-21 09:31:39] INFO root fetch - main [MainThread]: End processing [antchain-mpaasfaceverify]: success
+[2023-06-21 09:31:39] INFO root fetch - processPackages [ctapipe]: Downloading https://files.pythonhosted.org/packages/04/8c/09554f91c5de9d06950b469a382199c0a690474b62285f6c4a4ce12bb950/ctapipe-0.9.1.tar.gz
+[2023-06-21 09:31:39] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.54.tar.gz]
+[2023-06-21 09:31:39] INFO root fetch - processPackages [yz-core2]: Remove: archive file [/home/abi/fetcher/tmp/yz-core2-1.0.55.tar.gz]
+[2023-06-21 09:31:39] INFO root fetch - main [MainThread]: End processing [yz-core2]: success
+[2023-06-21 09:31:40] INFO root fetch - processPackages [ctapipe]: executing diffoscope
+[2023-06-21 09:31:40] INFO root fetch - processPackages [ctapipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctapipe-0.8.0.tar.gz tmp/ctapipe-0.9.1.tar.gz --markdown 20230621/c/ctapipe/0.8.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-21 09:31:40] INFO root fetch - processPackages [mangopaysdk]: Remove: archive file [/home/abi/fetcher/tmp/mangopaysdk-3.8.5.tar.gz]
+[2023-06-21 09:31:40] INFO root fetch - processPackages [mangopaysdk]: Remove: archive file [/home/abi/fetcher/tmp/mangopaysdk-3.9.0.tar.gz]
+[2023-06-21 09:31:40] INFO root fetch - main [MainThread]: End processing [mangopaysdk]: success
+[2023-06-21 09:31:44] INFO root fetch - processPackages [ctapipe]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe-0.8.0.tar.gz]
+[2023-06-21 09:31:44] INFO root fetch - processPackages [ctapipe]: Remove: archive file [/home/abi/fetcher/tmp/ctapipe-0.9.1.tar.gz]
+[2023-06-21 09:31:44] INFO root fetch - main [MainThread]: End processing [ctapipe]: success
+[2023-06-21 09:31:44] INFO root fetch - processPackages [sha256bit]: Remove: archive file [/home/abi/fetcher/tmp/sha256bit-0.0.9.tar.gz]
+[2023-06-21 09:31:44] INFO root fetch - processPackages [sha256bit]: Remove: archive file [/home/abi/fetcher/tmp/sha256bit-0.1.0.tar.gz]
+[2023-06-21 09:31:44] INFO root fetch - main [MainThread]: End processing [sha256bit]: success
+[2023-06-21 09:32:31] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.4.0.tar.gz]
+[2023-06-21 09:32:31] INFO root fetch - processPackages [dingtalk-stream]: Remove: archive file [/home/abi/fetcher/tmp/dingtalk-stream-0.5.0.tar.gz]
+[2023-06-21 09:32:31] INFO root fetch - main [MainThread]: End processing [dingtalk-stream]: success
+[2023-06-21 09:32:31] INFO root fetch - main [MainThread]: Store serial: [18586678]
