@@ -12856,3 +12856,194 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-21 07:10:04] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-21 07:10:04] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-21 07:10:04] INFO root fetch - main [MainThread]: Store serial: [18585481]
+[2023-06-21 07:15:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18585481]
+[2023-06-21 07:15:13] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kkpy
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo9-addon-sql-export
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo8-addon-sql-export
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dask-cuda
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lm-datahandler
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blspy
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: plemmy
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tflite-model-maker-nightly
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gitaudit
+[2023-06-21 07:15:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo10-addon-sql-export
+[2023-06-21 07:15:13] INFO root fetch - processPackages [odoo8-addon-sql-export]: New version: [8.0.1.0.0.99.dev9] Old Version: [8.0.1.0.0.99.dev8]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [odoo9-addon-sql-export]: New version: [9.0.1.0.0.99.dev9] Old Version: [9.0.1.0.0.99.dev8]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [odoo10-addon-sql-export]: New version: [10.0.1.0.0.99.dev7] Old Version: [10.0.1.0.0.99.dev6]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [kkpy]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [lm-datahandler]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [plemmy]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [blspy]: New version: [2.0.0b3] Old Version: [2.0.0b2]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230621] Old Version: [23.8.0a230620]
+[2023-06-21 07:15:13] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306210509] Old Version: [0.4.3.dev202306200506]
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo9-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/c8/9e/2f3e234a34422b7c01e7b15f5fdd0b3faa1ea71545cc9e41192f1b0e10c4/odoo9_addon_sql_export-9.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo8-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/ee/0f/a107f1f5ce07e0c5778eb09c55bde9f2f2fd20e4649dcf2ffbf1eb44c266/odoo8_addon_sql_export-8.0.1.0.0.99.dev8-py2-none-any.whl
+[2023-06-21 07:15:14] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo10-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/3b/68/4242eae8460ab874e5c655a879332868c15937e304df013d4868fe9c54d0/odoo10_addon_sql_export-10.0.1.0.0.99.dev6-py2-none-any.whl
+[2023-06-21 07:15:14] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/21/ce/b906848352bf78d4cf56ffae838dfc69aabc2adcb41121baae01c9323432/plemmy-0.2.0.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [kkpy]: Downloading https://files.pythonhosted.org/packages/6a/08/ac84eb0df4961a16d3909985bcadeb22b08aa10d50b751e2191e5714670d/kkpy-0.7.0.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/d9/98/95c6dbde862088dda438ca6adc5a4960239cca0a315229c70d3bad832211/lm_datahandler-0.1.8.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [blspy]: Downloading https://files.pythonhosted.org/packages/3c/8e/abda08dd2ab7ec804206b9ad71272fb0ca9bbf7fa977fce2535be5ea7863/blspy-2.0.0b2.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/17/a2/6e76647834663429acf01ed7de15e8406c923c5e8cdc86419b2d7a5a6d22/tflite-model-maker-nightly-0.4.3.dev202306200506.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/74/61/6f77262434512fdf2331031a0b5e8114c074a017f8da18b618a71649ee91/dask-cuda-23.8.0a230620.tar.gz
+[2023-06-21 07:15:14] WARNING root fetch - processPackages [kkpy]: Skipping package: exceeds size limit 50702153>=10485760
+[2023-06-21 07:15:14] INFO root fetch - processPackages [kkpy]: Start processing: tvm-book
+[2023-06-21 07:15:14] INFO root fetch - main [MainThread]: End processing [kkpy] error
+[2023-06-21 07:15:14] INFO root fetch - processPackages [tvm-book]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-21 07:15:14] INFO root fetch - processPackages [plemmy]: Downloading https://files.pythonhosted.org/packages/6d/ae/f7726f5687ff237a0f441645294def41720a6ab785ed8b69b3f94cee4607/plemmy-0.2.1.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo10-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/ce/d2/f21f550c628e3938bdeb05fc472e0c14ea04cfeeb0ba0f0fa66c4efcb956/odoo10_addon_sql_export-10.0.1.0.0.99.dev7-py2-none-any.whl
+[2023-06-21 07:15:14] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/13/8f/cff146b9838359d10f4cf7afd929ec696c10065c1517312bc08874183459/tflite-model-maker-nightly-0.4.3.dev202306210509.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [plemmy]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [plemmy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plemmy-0.2.0.tar.gz tmp/plemmy-0.2.1.tar.gz --markdown 20230621/p/plemmy/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/6d/88/385e485c7dd46bcc0c3360d9b89543b5deca9fd09922a6b9dea770d525e1/dask-cuda-23.8.0a230621.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [lm-datahandler]: Downloading https://files.pythonhosted.org/packages/b6/7b/c27a06878e585d9037a60649c26f1e7818a9ddfdac4d817718ab2b5a2f7e/lm_datahandler-0.1.9.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo10-addon-sql-export]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo10-addon-sql-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_sql_export-10.0.1.0.0.99.dev6-py2-none-any.whl.zip tmp/odoo10_addon_sql_export-10.0.1.0.0.99.dev7-py2-none-any.whl.zip --markdown 20230621/o/odoo10-addon-sql-export/10.0.1.0.0.99.dev6-10.0.1.0.0.99.dev7/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo8-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/dc/c7/8bedb4347aab0728fff43ac33854747a791fc1c628678203b6a5be950a5b/odoo8_addon_sql_export-8.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-21 07:15:14] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [tvm-book]: Downloading https://files.pythonhosted.org/packages/28/1b/46394f978e92956050d239f36a4ae756d79694245b3e02395afb48013bc7/tvm-book-0.0.8.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [blspy]: Downloading https://files.pythonhosted.org/packages/e8/3f/94e42f62cda5bb41335acae5d642146614e6650e5f875806f6d3d3cfaa78/blspy-2.0.0b3.tar.gz
+[2023-06-21 07:15:14] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230621/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo9-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/8a/2f/a65d78692aa1e887ebc3ac303a55f4af8a6c2dfd053f52b5583af1e097aa/odoo9_addon_sql_export-9.0.1.0.0.99.dev9-py2-none-any.whl
+[2023-06-21 07:15:14] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306200506.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306210509.tar.gz --markdown 20230621/t/tflite-model-maker-nightly/0.4.3.dev202306200506-0.4.3.dev202306210509/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230620.tar.gz tmp/dask-cuda-23.8.0a230621.tar.gz --markdown 20230621/d/dask-cuda/23.8.0a230620-23.8.0a230621/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [lm-datahandler]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [lm-datahandler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lm_datahandler-0.1.8.tar.gz tmp/lm_datahandler-0.1.9.tar.gz --markdown 20230621/l/lm-datahandler/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [blspy]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [blspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blspy-2.0.0b2.tar.gz tmp/blspy-2.0.0b3.tar.gz --markdown 20230621/b/blspy/2.0.0b2-2.0.0b3/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo8-addon-sql-export]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo8-addon-sql-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_sql_export-8.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_sql_export-8.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230621/o/odoo8-addon-sql-export/8.0.1.0.0.99.dev8-8.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo9-addon-sql-export]: executing diffoscope
+[2023-06-21 07:15:14] INFO root fetch - processPackages [odoo9-addon-sql-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo9_addon_sql_export-9.0.1.0.0.99.dev8-py2-none-any.whl.zip tmp/odoo9_addon_sql_export-9.0.1.0.0.99.dev9-py2-none-any.whl.zip --markdown 20230621/o/odoo9-addon-sql-export/9.0.1.0.0.99.dev8-9.0.1.0.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-21 07:15:14] INFO root fetch - processPackages [tvm-book]: Downloading https://files.pythonhosted.org/packages/a2/05/a7906c9b1ebf3682a13b8d26037a924657c392a81d7377abdb8fcda1e533/tvm-book-0.0.9.tar.gz
+[2023-06-21 07:15:15] INFO root fetch - processPackages [tvm-book]: executing diffoscope
+[2023-06-21 07:15:15] INFO root fetch - processPackages [tvm-book]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvm-book-0.0.8.tar.gz tmp/tvm-book-0.0.9.tar.gz --markdown 20230621/t/tvm-book/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-21 07:15:15] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.0.tar.gz]
+[2023-06-21 07:15:15] INFO root fetch - processPackages [plemmy]: Remove: archive file [/home/abi/fetcher/tmp/plemmy-0.2.1.tar.gz]
+[2023-06-21 07:15:15] INFO root fetch - processPackages [plemmy]: Start processing: odoo12-addon-sql-export
+[2023-06-21 07:15:15] INFO root fetch - main [MainThread]: End processing [plemmy]: success
+[2023-06-21 07:15:15] INFO root fetch - processPackages [odoo12-addon-sql-export]: New version: [12.0.1.2.0.99.dev6] Old Version: [12.0.1.2.0.99.dev5]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo12-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/27/51/6a306c3637e5f0fc9905452f949827c591423b792a66a5ecb2030e88a810/odoo12_addon_sql_export-12.0.1.2.0.99.dev5-py3-none-any.whl
+[2023-06-21 07:15:16] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [gitaudit]: Start processing: flatland-railway-extension
+[2023-06-21 07:15:16] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-06-21 07:15:16] INFO root fetch - processPackages [flatland-railway-extension]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo10-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_sql_export-10.0.1.0.0.99.dev6-py2-none-any.whl.zip]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo10-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_sql_export-10.0.1.0.0.99.dev7-py2-none-any.whl.zip]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo10-addon-sql-export]: Start processing: omniValidator
+[2023-06-21 07:15:16] INFO root fetch - main [MainThread]: End processing [odoo10-addon-sql-export]: success
+[2023-06-21 07:15:16] INFO root fetch - processPackages [omniValidator]: New version: [0.0.18] Old Version: [0.0.17]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [flatland-railway-extension]: Downloading https://files.pythonhosted.org/packages/cd/fd/f53f4ad1fef6ad2766e3308f2a3a1bfeee7a6ce0b5f50c8e2a3c3822ac04/flatland-railway-extension-0.2.6.tar.gz
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo12-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/b2/3c/b395fd2bc6dc7fe1d47d90ab08f830f40292cfbba705fbda50e9b25ae32a/odoo12_addon_sql_export-12.0.1.2.0.99.dev6-py3-none-any.whl
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo12-addon-sql-export]: executing diffoscope
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo12-addon-sql-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_sql_export-12.0.1.2.0.99.dev5-py3-none-any.whl.zip tmp/odoo12_addon_sql_export-12.0.1.2.0.99.dev6-py3-none-any.whl.zip --markdown 20230621/o/odoo12-addon-sql-export/12.0.1.2.0.99.dev5-12.0.1.2.0.99.dev6/diff.md --exclude *.pyd
+[2023-06-21 07:15:16] INFO root fetch - processPackages [omniValidator]: Downloading https://files.pythonhosted.org/packages/c2/a1/b1e4db79870a2f68cf76f380eec5edb9c954df2229628f1a12d2a1400074/omniValidator-0.0.17.tar.gz
+[2023-06-21 07:15:16] INFO root fetch - processPackages [flatland-railway-extension]: Downloading https://files.pythonhosted.org/packages/46/51/b7a4d392a36b6894c727fff835605ffafa2eccb919b6c2b6814669a1e1b8/flatland-railway-extension-0.2.7.tar.gz
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo8-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sql_export-8.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo8-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_sql_export-8.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo8-addon-sql-export]: Start processing: odoo14-addon-sql-export
+[2023-06-21 07:15:16] INFO root fetch - main [MainThread]: End processing [odoo8-addon-sql-export]: success
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo14-addon-sql-export]: New version: [14.0.1.2.2.dev3] Old Version: [14.0.1.2.2.dev2]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [flatland-railway-extension]: executing diffoscope
+[2023-06-21 07:15:16] INFO root fetch - processPackages [flatland-railway-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flatland-railway-extension-0.2.6.tar.gz tmp/flatland-railway-extension-0.2.7.tar.gz --markdown 20230621/f/flatland-railway-extension/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo9-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sql_export-9.0.1.0.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo9-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo9_addon_sql_export-9.0.1.0.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo9-addon-sql-export]: Start processing: p-ttauto-crawler
+[2023-06-21 07:15:16] INFO root fetch - main [MainThread]: End processing [odoo9-addon-sql-export]: success
+[2023-06-21 07:15:16] INFO root fetch - processPackages [p-ttauto-crawler]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [omniValidator]: Downloading https://files.pythonhosted.org/packages/cc/48/d7fe3bb0b2223e48f5468a408808ca53f8cd44b83288d4672ca70a169acc/omniValidator-0.0.18.tar.gz
+[2023-06-21 07:15:16] INFO root fetch - processPackages [tvm-book]: Remove: archive file [/home/abi/fetcher/tmp/tvm-book-0.0.8.tar.gz]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [tvm-book]: Remove: archive file [/home/abi/fetcher/tmp/tvm-book-0.0.9.tar.gz]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [tvm-book]: Start processing: agsi
+[2023-06-21 07:15:16] INFO root fetch - main [MainThread]: End processing [tvm-book]: success
+[2023-06-21 07:15:16] INFO root fetch - processPackages [agsi]: New version: [2.7] Old Version: [2.6]
+[2023-06-21 07:15:16] INFO root fetch - processPackages [odoo14-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/64/52/0511cddfe959d47768be0ebf4ae3e28320b703944645fb23f6bd963a921d/odoo14_addon_sql_export-14.0.1.2.2.dev2-py3-none-any.whl
+[2023-06-21 07:15:16] INFO root fetch - processPackages [omniValidator]: executing diffoscope
+[2023-06-21 07:15:16] INFO root fetch - processPackages [omniValidator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omniValidator-0.0.17.tar.gz tmp/omniValidator-0.0.18.tar.gz --markdown 20230621/o/omniValidator/0.0.17-0.0.18/diff.md --exclude *.pyd
+[2023-06-21 07:15:17] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/5c/ee/a21bd9503bd9b7f859772eb6a31eb1f36fb844443bae513e3df2496a8eaf/agsi-2.6.tar.gz
+[2023-06-21 07:15:17] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/b4/f7/5bb1b0eca90eafbd5c9d828d6d1b59db3270a417f6544d298391274b8f03/p-ttauto-crawler-0.0.9.tar.gz
+[2023-06-21 07:15:17] INFO root fetch - processPackages [odoo14-addon-sql-export]: Downloading https://files.pythonhosted.org/packages/e1/d5/848afc74069913e44f51aa616de5aab15cd72efdc0dc95b679315620d8fb/odoo14_addon_sql_export-14.0.1.2.2.dev3-py3-none-any.whl
+[2023-06-21 07:15:17] INFO root fetch - processPackages [p-ttauto-crawler]: Downloading https://files.pythonhosted.org/packages/e0/60/d48cd748c9c8b7e54354544453bb2cd810d6ea4187872321e5fd97a0dc68/p-ttauto-crawler-0.1.0.tar.gz
+[2023-06-21 07:15:17] INFO root fetch - processPackages [agsi]: Downloading https://files.pythonhosted.org/packages/23/a5/a44079cd0ea3ffe3d0542cdb828fbd0a738c8f12dd46e5eff72afcfd70fa/agsi-2.7.tar.gz
+[2023-06-21 07:15:17] INFO root fetch - processPackages [odoo14-addon-sql-export]: executing diffoscope
+[2023-06-21 07:15:17] INFO root fetch - processPackages [odoo14-addon-sql-export]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_sql_export-14.0.1.2.2.dev2-py3-none-any.whl.zip tmp/odoo14_addon_sql_export-14.0.1.2.2.dev3-py3-none-any.whl.zip --markdown 20230621/o/odoo14-addon-sql-export/14.0.1.2.2.dev2-14.0.1.2.2.dev3/diff.md --exclude *.pyd
+[2023-06-21 07:15:17] INFO root fetch - processPackages [p-ttauto-crawler]: executing diffoscope
+[2023-06-21 07:15:17] INFO root fetch - processPackages [p-ttauto-crawler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/p-ttauto-crawler-0.0.9.tar.gz tmp/p-ttauto-crawler-0.1.0.tar.gz --markdown 20230621/p/p-ttauto-crawler/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-21 07:15:17] INFO root fetch - processPackages [agsi]: executing diffoscope
+[2023-06-21 07:15:17] INFO root fetch - processPackages [agsi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agsi-2.6.tar.gz tmp/agsi-2.7.tar.gz --markdown 20230621/a/agsi/2.6-2.7/diff.md --exclude *.pyd
+[2023-06-21 07:15:17] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230620.tar.gz]
+[2023-06-21 07:15:17] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230621.tar.gz]
+[2023-06-21 07:15:17] INFO root fetch - processPackages [dask-cuda]: Start processing: otter-grader
+[2023-06-21 07:15:17] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-21 07:15:17] INFO root fetch - processPackages [otter-grader]: New version: [4.3.4] Old Version: [4.3.3]
+[2023-06-21 07:15:17] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.8.tar.gz]
+[2023-06-21 07:15:17] INFO root fetch - processPackages [lm-datahandler]: Remove: archive file [/home/abi/fetcher/tmp/lm_datahandler-0.1.9.tar.gz]
+[2023-06-21 07:15:17] INFO root fetch - processPackages [lm-datahandler]: Start processing: remindmail
+[2023-06-21 07:15:17] INFO root fetch - main [MainThread]: End processing [lm-datahandler]: success
+[2023-06-21 07:15:18] INFO root fetch - processPackages [remindmail]: New version: [2023.6.8.1] Old Version: [2023.6.4.2]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [flatland-railway-extension]: Remove: archive file [/home/abi/fetcher/tmp/flatland-railway-extension-0.2.6.tar.gz]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [flatland-railway-extension]: Remove: archive file [/home/abi/fetcher/tmp/flatland-railway-extension-0.2.7.tar.gz]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [flatland-railway-extension]: Start processing: uptick-splat
+[2023-06-21 07:15:18] INFO root fetch - main [MainThread]: End processing [flatland-railway-extension]: success
+[2023-06-21 07:15:18] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/76/1c/d85aa0ad328d12fcdbe1cfbf121799b037e9531b5739bb56a9ea5f733364/otter-grader-4.3.3.tar.gz
+[2023-06-21 07:15:18] INFO root fetch - processPackages [uptick-splat]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/b3/73/d06ede570a844307c75d91e105fc9f7a789f8d264b78962a5e8cec1ea933/remindmail-2023.6.4.2.tar.gz
+[2023-06-21 07:15:18] INFO root fetch - processPackages [odoo12-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sql_export-12.0.1.2.0.99.dev5-py3-none-any.whl.zip]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [odoo12-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_sql_export-12.0.1.2.0.99.dev6-py3-none-any.whl.zip]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [odoo12-addon-sql-export]: Start processing: nics
+[2023-06-21 07:15:18] INFO root fetch - main [MainThread]: End processing [odoo12-addon-sql-export]: success
+[2023-06-21 07:15:18] INFO root fetch - processPackages [uptick-splat]: Downloading https://files.pythonhosted.org/packages/06/1c/6a6d210011999ba3f812e9b4188a950aaebe84ea01f279e13aa0bc590729/uptick_splat-0.1.1.tar.gz
+[2023-06-21 07:15:18] WARNING root fetch - processPackages [nics]: Skipping, unable to determine old version
+[2023-06-21 07:15:18] INFO root fetch - processPackages [nics]: Start processing: ghananews-scraper
+[2023-06-21 07:15:18] INFO root fetch - main [MainThread]: End processing [nics] error
+[2023-06-21 07:15:18] INFO root fetch - processPackages [omniValidator]: Remove: archive file [/home/abi/fetcher/tmp/omniValidator-0.0.17.tar.gz]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [omniValidator]: Remove: archive file [/home/abi/fetcher/tmp/omniValidator-0.0.18.tar.gz]
+[2023-06-21 07:15:18] INFO root fetch - main [MainThread]: End processing [omniValidator]: success
+[2023-06-21 07:15:18] INFO root fetch - processPackages [ghananews-scraper]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [otter-grader]: Downloading https://files.pythonhosted.org/packages/4f/25/6c99e4669a678675a996bb18be1050a24a90f431a69054b69327878f3166/otter-grader-4.3.4.tar.gz
+[2023-06-21 07:15:18] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/83/2d/d094b0c80c03ed4ddc4544a63140d47a1193dfc55f5489eb9b0b68a3e8d7/ghananews-scraper-1.0.8.tar.gz
+[2023-06-21 07:15:18] INFO root fetch - processPackages [otter-grader]: executing diffoscope
+[2023-06-21 07:15:18] INFO root fetch - processPackages [otter-grader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otter-grader-4.3.3.tar.gz tmp/otter-grader-4.3.4.tar.gz --markdown 20230621/o/otter-grader/4.3.3-4.3.4/diff.md --exclude *.pyd
+[2023-06-21 07:15:18] INFO root fetch - processPackages [remindmail]: Downloading https://files.pythonhosted.org/packages/57/f4/27b007bb1348d6f0b913c46781c7c5a0a4bd8e30cb21648e9d9b8a134f17/remindmail-2023.6.8.1.tar.gz
+[2023-06-21 07:15:18] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.0.9.tar.gz]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [p-ttauto-crawler]: Remove: archive file [/home/abi/fetcher/tmp/p-ttauto-crawler-0.1.0.tar.gz]
+[2023-06-21 07:15:18] INFO root fetch - main [MainThread]: End processing [p-ttauto-crawler]: success
+[2023-06-21 07:15:18] INFO root fetch - processPackages [ghananews-scraper]: Downloading https://files.pythonhosted.org/packages/e0/b6/878f5dbca6bf8dae7e132e857d785abcef5601d293dc4ce6a8ffe5e61655/ghananews-scraper-1.0.9.tar.gz
+[2023-06-21 07:15:18] INFO root fetch - processPackages [remindmail]: executing diffoscope
+[2023-06-21 07:15:18] INFO root fetch - processPackages [remindmail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remindmail-2023.6.4.2.tar.gz tmp/remindmail-2023.6.8.1.tar.gz --markdown 20230621/r/remindmail/2023.6.4.2-2023.6.8.1/diff.md --exclude *.pyd
+[2023-06-21 07:15:18] INFO root fetch - processPackages [uptick-splat]: Downloading https://files.pythonhosted.org/packages/df/2b/69cb95de47baf487be3f9e60ee8febe7d00af33955f7bab0d579e8bb57d9/uptick_splat-0.1.2.tar.gz
+[2023-06-21 07:15:18] INFO root fetch - processPackages [blspy]: Remove: archive file [/home/abi/fetcher/tmp/blspy-2.0.0b2.tar.gz]
+[2023-06-21 07:15:18] INFO root fetch - processPackages [blspy]: Remove: archive file [/home/abi/fetcher/tmp/blspy-2.0.0b3.tar.gz]
+[2023-06-21 07:15:18] INFO root fetch - main [MainThread]: End processing [blspy]: success
+[2023-06-21 07:15:18] INFO root fetch - processPackages [ghananews-scraper]: executing diffoscope
+[2023-06-21 07:15:18] INFO root fetch - processPackages [ghananews-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ghananews-scraper-1.0.8.tar.gz tmp/ghananews-scraper-1.0.9.tar.gz --markdown 20230621/g/ghananews-scraper/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-21 07:15:18] INFO root fetch - processPackages [uptick-splat]: executing diffoscope
+[2023-06-21 07:15:18] INFO root fetch - processPackages [uptick-splat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230621:/home/abi/fetcher/20230621:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uptick_splat-0.1.1.tar.gz tmp/uptick_splat-0.1.2.tar.gz --markdown 20230621/u/uptick-splat/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-21 07:15:19] INFO root fetch - processPackages [odoo14-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sql_export-14.0.1.2.2.dev2-py3-none-any.whl.zip]
+[2023-06-21 07:15:19] INFO root fetch - processPackages [odoo14-addon-sql-export]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_sql_export-14.0.1.2.2.dev3-py3-none-any.whl.zip]
+[2023-06-21 07:15:19] INFO root fetch - main [MainThread]: End processing [odoo14-addon-sql-export]: success
+[2023-06-21 07:15:19] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.4.2.tar.gz]
+[2023-06-21 07:15:19] INFO root fetch - processPackages [remindmail]: Remove: archive file [/home/abi/fetcher/tmp/remindmail-2023.6.8.1.tar.gz]
+[2023-06-21 07:15:19] INFO root fetch - main [MainThread]: End processing [remindmail]: success
+[2023-06-21 07:15:20] INFO root fetch - processPackages [uptick-splat]: Remove: archive file [/home/abi/fetcher/tmp/uptick_splat-0.1.1.tar.gz]
+[2023-06-21 07:15:20] INFO root fetch - processPackages [uptick-splat]: Remove: archive file [/home/abi/fetcher/tmp/uptick_splat-0.1.2.tar.gz]
+[2023-06-21 07:15:20] INFO root fetch - main [MainThread]: End processing [uptick-splat]: success
+[2023-06-21 07:15:20] INFO root fetch - processPackages [ghananews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ghananews-scraper-1.0.8.tar.gz]
+[2023-06-21 07:15:20] INFO root fetch - processPackages [ghananews-scraper]: Remove: archive file [/home/abi/fetcher/tmp/ghananews-scraper-1.0.9.tar.gz]
+[2023-06-21 07:15:20] INFO root fetch - main [MainThread]: End processing [ghananews-scraper]: success
+[2023-06-21 07:15:20] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-4.3.3.tar.gz]
+[2023-06-21 07:15:20] INFO root fetch - processPackages [otter-grader]: Remove: archive file [/home/abi/fetcher/tmp/otter-grader-4.3.4.tar.gz]
+[2023-06-21 07:15:20] INFO root fetch - main [MainThread]: End processing [otter-grader]: success
+[2023-06-21 07:15:20] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.6.tar.gz]
+[2023-06-21 07:15:20] INFO root fetch - processPackages [agsi]: Remove: archive file [/home/abi/fetcher/tmp/agsi-2.7.tar.gz]
+[2023-06-21 07:15:20] INFO root fetch - main [MainThread]: End processing [agsi]: success
+[2023-06-21 07:15:21] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306200506.tar.gz]
+[2023-06-21 07:15:21] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306210509.tar.gz]
+[2023-06-21 07:15:21] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-21 07:15:21] INFO root fetch - main [MainThread]: Store serial: [18585567]
